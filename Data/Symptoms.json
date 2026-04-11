@@ -1,0 +1,3394 @@
+[
+  {
+    "name": "Cardiac",
+    "icon": "waveform.path.ecg.rectangle",
+    "color": "red",
+    "topics": [
+      {
+        "title": "Chest Pain",
+        "subtitle": "ACS, Dissection, PE, PTX, Pericarditis",
+        "sections": [
+          {
+            "title": "ABCs",
+            "type": "bullets",
+            "items": [
+              "Circulation: assess pulse, BP, perfusion, and IV access.\nAirway: assess patency and protect.\nBreathing: assess WOB, oxygenation, and ventilation.",
+              "Continuous pulse oximetry — maintain SpO2 92-96%",
+              "telemetry",
+              "Perfusing well? Check cap. refill, mentation, skin color"
+            ]
+          },
+          {
+            "title": "Chart Check",
+            "type": "bullets",
+            "items": [
+              "Cardiac history (prior ACS, PCI, CABG, EF)",
+              "Recent surgeries or procedures",
+              "Uncontrolled HTN",
+              "Medications: hydralazine, cocaine, PDE inhibitors",
+              "Autoimmune history: SLE, RA (pericarditis risk)"
+            ]
+          },
+          {
+            "title": "History & Exam",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Onset",
+                "value": "Acute or gradual — preceding exertion, trauma, drug use, post-prandial?"
+              },
+              {
+                "key": "Location",
+                "value": "Substernal, left, right, or point tenderness"
+              },
+              {
+                "key": "Quality",
+                "value": "Sharp, dull, pressure, burning, stabbing, tearing"
+              },
+              {
+                "key": "Radiation",
+                "value": "Neck, jaw, shoulders, arms"
+              },
+              {
+                "key": "Timing",
+                "value": "Constant vs. intermittent; duration"
+              },
+              {
+                "key": "Severity",
+                "value": "1-10 scale; change from baseline"
+              },
+              {
+                "key": "Better/Worse",
+                "value": "Palpation, positioning, rest, nitroglycerin, breathing, exertion"
+              },
+              {
+                "key": "Associated",
+                "value": "SOB, nausea/vomiting, diaphoresis, dizziness, palpitations, fever, cough"
+              },
+              {
+                "key": "PMH",
+                "value": "CAD, CHF, HTN, T2DM, HLD, PAD, smoking"
+              },
+              {
+                "key": "Red Flags",
+                "value": "Hx ischemia or clotting, recent procedure, fevers, substernal crushing, radiation to arms, SOB, dysphagia"
+              }
+            ]
+          },
+          {
+            "title": "Differential Diagnosis",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Angina",
+                "value": "Substernal, exertional, relieved by rest. Less likely if pleuritic, positional, or reproducible"
+              },
+              {
+                "key": "ACS/NSTEMI",
+                "value": "Pressure, radiation to arms/jaw, diaphoresis. RF: CAD, DM, smoking, age",
+                "topicLink": "ACS"
+              },
+              {
+                "key": "Dissection",
+                "value": "Tearing, maximal at onset. BP diff L/R >20, pulse deficit, new murmur, new neuro deficit"
+              },
+              {
+                "key": "Pericarditis",
+                "value": "Pleuritic, sharp, better leaning forward, URI prodrome, friction rub, pulsus paradoxus >10"
+              },
+              {
+                "key": "PE",
+                "value": "Sudden dyspnea, pleuritic, tachycardia. RF: cancer, surgery, immobility, hemoptysis, leg edema",
+                "topicLink": "Pulmonary Embolism"
+              },
+              {
+                "key": "PTX",
+                "value": "Sudden dyspnea, unilateral ↓ breath sounds. RF: young, smoker, emphysema, recent procedure"
+              },
+              {
+                "key": "PNA/Pleuritis",
+                "value": "Sharp, pleuritic, fever, productive cough. Autoimmune: SLE, RA, drugs, vasculitis"
+              },
+              {
+                "key": "Other Card.",
+                "value": "HOCM, AS, Prinzmetal, Takotsubo, costochondritis, zoster"
+              },
+              {
+                "key": "GI/Other",
+                "value": "GERD, esophageal spasm, Boerhaave, PUD, biliary colic, pancreatitis, panic"
+              }
+            ]
+          },
+          {
+            "title": "Initial Orders & Workup",
+            "type": "steps",
+            "items": [
+              "EKG — STEMI if STE >1mm in 2 or more contiguous leads",
+              "HS-troponin x2: draw now and at +1 hour",
+              "Stat TTE if trop High — wall motion abnormalities (WMA)",
+              "BMP, CBC, coagulation studies, BNP, lipids",
+              "CXR (widened mediastinum = dissection; pneumothorax; pulmonary edema)",
+              "If STEMI: activate cath lab",
+              "NSTEMI/Unstable Angina: calculate GRACE score",
+              "GRACE low risk: serial troponins — if Nl, outpt stress test; if elevated, PCI",
+              "GRACE high risk: call cardiology"
+            ]
+          },
+          {
+            "title": "Tx",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Aspirin",
+                "dose": "325 mg load",
+                "route": "PO or PR",
+                "contraindications": "Active GI bleed, allergy",
+                "notes": "Non-enteric coated. Give immediately. Consult cardiology before loading P2Y12 if CABG possible."
+              },
+              {
+                "name": "Nitroglycerin",
+                "dose": "0.4 mg SL q5min x3",
+                "route": "SL then IV drip",
+                "contraindications": "SBP <90, RV dysfxn, PDE-5i <48h,inferior MI",
+                "notes": "IV drip: start 10 mcg/min, titrate by 10 mcg/min q10min. STOP if SBP <100."
+              },
+              {
+                "name": "Heparin (UFH)",
+                "dose": "Per ACS protocol",
+                "route": "IV",
+                "contraindications": "Active bleed, HIT",
+                "notes": "Consult cardiology before initiating. Weight-based dosing."
+              },
+              {
+                "name": "Clopidogrel",
+                "dose": "600 mg load, then 75 mg daily",
+                "route": "PO",
+                "contraindications": "Active bleed, CABG <5d",
+                "notes": "HOLD 5 days before CABG. Do not load if CABG likely."
+              },
+              {
+                "name": "Ticagrelor",
+                "dose": "180 mg load, then 90 mg BID",
+                "route": "PO",
+                "contraindications": "Active bleed, CABG <5d",
+                "notes": "HOLD 5 days before CABG. Preferred over clopidogrel in most ACS."
+              },
+              {
+                "name": "Metoprolol succinate",
+                "dose": "25-200 mg daily",
+                "route": "PO",
+                "contraindications": "HR <60, SBP <100, CHF, bronchospasm",
+                "notes": "Target resting HR 50-60. Start low, titrate up."
+              },
+              {
+                "name": "Lisinopril",
+                "dose": "5-40 mg daily",
+                "route": "PO",
+                "contraindications": "HoTN, bilat RAS, K >5.5",
+                "notes": "Use if EF <40%."
+              },
+              {
+                "name": "Atorvastatin",
+                "dose": "80 mg daily",
+                "route": "PO",
+                "contraindications": "",
+                "notes": "High-intensity statin. Start in all ACS regardless of baseline LDL."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Palpitations",
+        "subtitle": "Approach to arrhythmias and rate/rhythm abnormalities",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Circulation: assess pulse, BP, perfusion, and IV access.\nAirway: assess patency and protect.\nBreathing: assess WOB, oxygenation, and ventilation.",
+              "!!Assess hemodynamic stability!! — BP, mentation, perfusion, chest pain, SOB",
+              "If!!unstable + tachycardia!! → synchronized cardioversion (sedate if possible)",
+              "If!!unstable + bradycardia!! → atropine 0.5-1 mg IV + transcutaneous pacing",
+              "Get!!12-lead EKG immediately!! — do NOT treat based on monitor strip alone",
+              "IV access, telemetry, pulse oximetry"
+            ]
+          },
+          {
+            "title": "Chart Check / History",
+            "type": "bullets",
+            "items": [
+              "Onset — sudden vs gradual? Duration? Intermittent vs sustained?",
+              "Character — fast, slow, regular, irregular, \"skipping\" (ectopy), \"fluttering\" (SVT/AFib)",
+              "Associated sx — chest pain, SOB, lightheadedness, syncope/presyncope, diaphoresis",
+              "Triggers — exertion, caffeine, alcohol, stress, position change, Valsalva terminates it?",
+              "Prior episodes — prior arrhythmia dx? Cardioversion hx? Ablation?",
+              "Cardiac hx — structural heart disease, CHF, valve disease, CAD, cardiomyopathy",
+              "Medications — digoxin, beta-blockers, calcium channel blockers, antiarrhythmics, QT-prolonging drugs",
+              "Stimulants — caffeine, cocaine, amphetamines, energy drinks, pseudoephedrine, theophylline",
+              "Thyroid disease — hyper/hypothyroid, recent thyroid medication changes",
+              "Recent illness — fever, dehydration, anemia, PE risk factors",
+              "Family hx — sudden cardiac death, WPW, long QT, Brugada, HCM"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Vitals",
+                "value": "HR (rate, regularity), BP (hypotension?), RR, SpO2, temp (fever → ↑ HR)"
+              },
+              {
+                "key": "General",
+                "value": "Diaphoretic, anxious, ill-appearing? Hemodynamically stable?"
+              },
+              {
+                "key": "CV",
+                "value": "Regular vs irregular rhythm, murmurs (valvular disease, HCM), S3 (CHF), JVD (R heart failure, PE)"
+              },
+              {
+                "key": "Lungs",
+                "value": "Crackles (pulmonary edema), wheezing, clear (reassuring)"
+              },
+              {
+                "key": "Neck",
+                "value": "Thyromegaly, JVD, cannon A waves (AV dissociation → complete heart block or VT)"
+              },
+              {
+                "key": "Extremities",
+                "value": "Peripheral edema, cool/mottled (poor perfusion), asymmetric leg swelling (DVT → PE)"
+              },
+              {
+                "key": "Neuro",
+                "value": "AMS (hypoperfusion), tremor (thyrotoxicosis), focal deficits (thromboembolism from AFib)"
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Palpitations",
+                "value": "Subjective awareness of heartbeat — may be fast, slow, irregular, or \"pounding\"; NOT always arrhythmia"
+              },
+              {
+                "key": "Narrow complex tachycardia",
+                "value": "QRS <120 ms — supraventricular origin (sinus tach, SVT, AFib, aflutter, MAT)"
+              },
+              {
+                "key": "Wide complex tachycardia",
+                "value": "QRS ≥120 ms — assume!!VT until proven otherwise!! (also: SVT w/ aberrancy, pre-excitation, paced rhythm)"
+              },
+              {
+                "key": "SVT",
+                "value": "Supraventricular tachycardia — regular, narrow complex, 150-250 bpm; AVNRT is most common type"
+              },
+              {
+                "key": "WPW",
+                "value": "Wolff-Parkinson-White — accessory pathway; delta waves + short PR on baseline EKG;!!avoid AV nodal blockers in AFib + WPW!!"
+              },
+              {
+                "key": "QTc prolongation",
+                "value": ">500 ms = ↑ risk of torsades de pointes; check drug list, electrolytes"
+              }
+            ]
+          },
+          {
+            "title": "EKG-Based Differential",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Irregularly irregular, no P waves",
+                "value": "AFib → rate control vs cardioversion",
+                "topicLink": "AFib / Flutter with RVR"
+              },
+              {
+                "key": "Regular rate ~150, sawtooth waves",
+                "value": "Atrial flutter 2:1 → rate control"
+              },
+              {
+                "key": "Wide complex, regular, fast",
+                "value": "!!VT until proven otherwise!! → amiodarone or cardioversion"
+              },
+              {
+                "key": "Narrow complex, regular, fast (150-250 bpm)",
+                "value": "SVT (AVNRT/AVRT) → vagal maneuvers, adenosine",
+                "topicLink": "SVT (Supraventricular Tachycardia)"
+              },
+              {
+                "key": "Irregular, 3+ P-wave morphologies",
+                "value": "MAT → treat underlying cause (COPD, hypoxia, hypomagnesemia)"
+              },
+              {
+                "key": "Regular, slow, P-QRS dissociation",
+                "value": "Complete heart block → pacing",
+                "topicLink": "Bradycardia"
+              },
+              {
+                "key": "Delta waves, short PR",
+                "value": "WPW —!!avoid AV nodal blockers!! (digoxin, CCB, adenosine) if in AFib"
+              },
+              {
+                "key": "Sinus tach (P before every QRS, regular, 100-150)",
+                "value": "NOT primary arrhythmia — find the underlying cause (pain, fever, hypovolemia, PE, sepsis, anxiety)"
+              },
+              {
+                "key": "Frequent PACs/PVCs",
+                "value": "Usually benign; treat underlying cause; if symptomatic or PVC burden >10% → cardiology f/u"
+              },
+              {
+                "key": "Polymorphic VT w/ long QT",
+                "value": "!!Torsades de pointes!! → Mg 2 g IV, overdrive pacing; stop QT-prolonging drugs"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Cardiac — arrhythmia",
+                "value": "AFib/flutter, SVT, VT, WPW, sick sinus syndrome, heart block, PACs, PVCs"
+              },
+              {
+                "key": "Cardiac — structural",
+                "value": "Valvular disease (mitral), HCM, cardiomyopathy, myocarditis, pericarditis"
+              },
+              {
+                "key": "Metabolic / electrolyte",
+                "value": "!!Hypokalemia!!, hypomagnesemia, hypocalcemia, hyperthyroidism, hypoglycemia"
+              },
+              {
+                "key": "Medications / drugs",
+                "value": "Stimulants (caffeine, cocaine, amphetamines), theophylline, pseudoephedrine, digoxin toxicity, QT-prolonging drugs"
+              },
+              {
+                "key": "Volume / hemodynamic",
+                "value": "Dehydration, anemia, hemorrhage, PE, sepsis — sinus tach as compensatory response"
+              },
+              {
+                "key": "Endocrine",
+                "value": "Hyperthyroidism / thyroid storm, pheochromocytoma"
+              },
+              {
+                "key": "Psychiatric",
+                "value": "Panic attack, anxiety — dx of exclusion after cardiac causes r/o"
+              },
+              {
+                "key": "!!Red flags!!",
+                "value": "Syncope w/ palpitations, exertional palpitations, family hx sudden cardiac death, structural heart disease, wide complex tachycardia"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Adenosine",
+                "dose": "6 mg rapid IV push → 12 mg if no response → 12 mg; use proximal IV + rapid saline flush",
+                "route": "IV (rapid push)",
+                "contraindications": "!!AFib w/ WPW!! (can cause VF), 2nd/3rd degree heart block, asthma (relative)",
+                "notes": "Diagnostic & therapeutic for SVT (AVNRT/AVRT). Warn pt: transient chest tightness, flushing. Half-life ~10 sec"
+              },
+              {
+                "name": "Metoprolol",
+                "dose": "5 mg IV over 2 min; may repeat q5 min × 3 doses; then 25-50 mg PO q6h",
+                "route": "IV / PO",
+                "contraindications": "Acute decompensated CHF, 2nd/3rd degree block, severe bradycardia, cocaine use, WPW",
+                "notes": "Rate control for AFib/flutter, SVT refractory to adenosine, sinus tach from thyrotoxicosis"
+              },
+              {
+                "name": "Diltiazem",
+                "dose": "0.25 mg/kg IV over 2 min (typically 15-20 mg); may repeat 0.35 mg/kg; then infusion 5-15 mg/hr",
+                "route": "IV",
+                "contraindications": "!!WPW + AFib!!, HFrEF, hypotension, 2nd/3rd degree block",
+                "notes": "Rate control for AFib/flutter. Effective if BB contraindicated or insufficient"
+              },
+              {
+                "name": "Amiodarone",
+                "dose": "150 mg IV over 10 min → 1 mg/min × 6 hrs → 0.5 mg/min × 18 hrs",
+                "route": "IV",
+                "contraindications": "Severe sinus node disease, 2nd/3rd degree block w/o pacer, cardiogenic shock",
+                "notes": "For!!stable wide complex tachycardia (VT)!! or rate/rhythm control in AFib. Safe in structural heart disease"
+              },
+              {
+                "name": "Magnesium sulfate",
+                "dose": "2 g IV over 15 min",
+                "route": "IV",
+                "contraindications": "Renal failure (monitor levels), myasthenia gravis",
+                "notes": "!!First-line for torsades de pointes!!; also replete if Mg <2.0 (↑ arrhythmia risk)"
+              },
+              {
+                "name": "Atropine",
+                "dose": "0.5-1 mg IV q3-5 min; max 3 mg",
+                "route": "IV",
+                "contraindications": "Glaucoma (relative), may worsen ischemia",
+                "notes": "For symptomatic bradycardia. Temporizing — prepare for pacing if no response"
+              }
+            ]
+          },
+          {
+            "title": "Ongoing Management & Pearls",
+            "type": "bullets",
+            "items": [
+              "!!Sinus tachycardia is NOT primary arrhythmia!! — always find the underlying cause (sepsis, PE, hypovolemia, pain, anxiety)",
+              "!!Wide complex tachycardia = VT until proven otherwise!! — treating VT as SVT can be fatal",
+              "!!AFib + WPW: avoid AV nodal blockers!! (adenosine, diltiazem, digoxin, metoprolol) → can cause VF; use procainamide or cardioversion",
+              "Check K+ & Mg2+ early — both hypokalemia & hypomagnesemia are easily correctable arrhythmia causes",
+              "Regular rate exactly ~150 bpm → think aflutter 2:1 (may need to unmask w/ adenosine to see flutter waves)",
+              "Panic attacks / anxiety are dx of exclusion — always r/o cardiac causes first",
+              "If palpitations + syncope or family hx of sudden death → high-risk; requires inpt workup + cardiology consult",
+              "Digoxin toxicity can cause almost ANY arrhythmia — always check level if pt is on digoxin",
+              "Caffeine, energy drinks, cocaine, amphetamines are common precipitants — ask specifically"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "bullets",
+            "items": [
+              "!!12-lead EKG!! — cornerstone of evaluation; compare to prior EKG if avail",
+              "BMP — K+, Mg2+ (correct if low; both ↑ arrhythmia risk)",
+              "CBC — anemia can cause sinus tachycardia",
+              "TSH — hyperthyroidism is treatable & common cause",
+              "Troponin — if chest pain or concern for ischemia-driven arrhythmia",
+              "Digoxin level — if on digoxin (toxicity causes multiple arrhythmia types)",
+              "BNP/NT-proBNP — if concern for heart failure",
+              "D-dimer / CTA — if PE suspected (sinus tach + pleuritic pain + leg swelling)",
+              "Review medication list for QT-prolonging drugs (www.crediblemeds.org)",
+              "TTE — if new arrhythmia, suspected structural heart disease, or unexplained",
+              "telemetry monitoring",
+              "Holter or event monitor if intermittent & no acute arrhythmia captured on EKG"
+            ]
+          },
+          {
+            "title": "RECAP Template",
+            "type": "bullets",
+            "items": [
+              "**R**ecognize — palpitations w/ hemodynamic assessment; EKG rhythm identification",
+              "**E**valuate — 12-lead EKG, K+/Mg2+, TSH, troponin; stable vs unstable?",
+              "**C**ritical actions — cardiovert if unstable; adenosine for SVT; amiodarone for stable VT; correct electrolytes",
+              "**A**ssess response — rhythm converted? Rate controlled? Hemodynamics stable? Symptoms resolved?",
+              "**P**lan — telemetry monitoring, cardiology consult if new arrhythmia or structural disease, outpt Holter if intermittent"
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / step-down",
+                "value": "Hemodynamic instability, VT, wide complex tachycardia, cardioversion required, new heart block, torsades"
+              },
+              {
+                "key": "Telemetry floor",
+                "value": "New AFib, controlled SVT, recurrent symptomatic arrhythmia, new structural findings on TTE"
+              },
+              {
+                "key": "Outpt / discharge",
+                "value": "Benign PACs/PVCs, sinus tach w/ identified & treated cause, known AFib w/ adequate rate control, normal workup"
+              },
+              {
+                "key": "Cardiology consult",
+                "value": "New arrhythmia, syncope w/ palpitations, structural heart disease, WPW, wide complex tachycardia, family hx sudden death"
+              },
+              {
+                "key": "Follow-up",
+                "value": "Holter/event monitor for intermittent sx, outpt TTE if not done inpt, medication titration"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Tachycardia",
+        "subtitle": "ACLS approach — narrow vs wide, regular vs irregular",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Circulation: assess pulse, BP, perfusion, and IV access.\nAirway: assess patency and protect.\nBreathing: assess WOB, oxygenation, and ventilation.",
+              "!!12-lead EKG immediately!! — monitor strip alone is insufficient for dx",
+              "Assess hemodynamic stability: BP, mentation, signs of shock, chest pain, pulmonary edema",
+              "!!If UNSTABLE (hypotension, AMS, shock)!! → immediate!!synchronized cardioversion!!",
+              "If STABLE → classify rhythm: narrow vs wide, regular vs irregular, then treat per algorithm below",
+              "**Narrow regular (SVT)**: Vagal maneuvers → adenosine 6mg rapid IVP → repeat 12mg → diltiazem or metoprolol → cardioversion 50—100J",
+              "**Narrow regular (AFL)**: Rate control (diltiazem, metoprolol) → cardioversion 50J if unstable",
+              "**Narrow irregular (AFib)**: Rate control (diltiazem, metoprolol, amiodarone if CHF) → cardioversion 120-200J if unstable",
+              "**Narrow irregular (MAT)**: Treat underlying cause (hypoK, hypoMg, hypoxia). Diltiazem if symptomatic.!!Avoid beta-blockers if lung disease!!",
+              "**Wide regular (VT)**:!!Assume VT!! → procainamide 20-50 mg/min IV (max 17 mg/kg) → amiodarone 150mg IV if CHF/AMI → cardioversion 100J",
+              "**Wide irregular (polyVT/Torsades)**:!!Magnesium 2g IV!! → emergent defibrillation (unsynchronized) 200J → stop QT-prolonging drugs",
+              "**Wide irregular (AFib + WPW)**:!!NO AV nodal blockers (diltiazem, metoprolol, adenosine, digoxin)!! → procainamide or cardioversion"
+            ]
+          },
+          {
+            "title": "Chart Check / History",
+            "type": "bullets",
+            "items": [
+              "!!Is this sinus tachycardia?!! If yes — treat underlying cause (pain, fever, hypovolemia, anemia, PE, hypoxia, anxiety)",
+              "Known cardiac history — prior arrhythmias, WPW, CHF, MI, structural heart disease",
+              "Medications: beta-blockers, calcium channel blockers, digoxin, antiarrhythmics (current and adherence)",
+              "QT-prolonging drugs: antipsychotics (haloperidol, quetiapine), antibiotics (fluoroquinolones, macrolides), ondansetron, methadone",
+              "Electrolyte history — last K, Mg values; diuretic use",
+              "Substance use — cocaine, amphetamines, caffeine, energy drinks, alcohol withdrawal",
+              "Thyroid history — hyperthyroidism, thyroid storm",
+              "Surgical/procedural history — recent cardiac surgery, ablation, pacemaker/ICD"
+            ]
+          },
+          {
+            "title": "Exam (if able)",
+            "type": "bullets",
+            "items": [
+              "Hemodynamic status: BP, MAP, cap. refill, peripheral perfusion",
+              "Mentation: alertness, orientation —!!AMS = unstable!!",
+              "Cardiac: regular vs irregular rhythm, murmurs, S3/S4 gallop",
+              "Lungs: crackles (pulmonary edema → unstable), wheezing",
+              "JVP: elevated (CHF, tamponade, PE) vs flat (hypovolemia)",
+              "Extremities: cool/mottled (shock), edema (CHF)",
+              "Skin: diaphoresis (sympathetic activation), flushing",
+              "Thyroid: goiter, tremor, lid lag (thyrotoxicosis)"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Tachycardia",
+                "value": "Heart rate >100 bpm. Clinically significant usually >130-150 bpm"
+              },
+              {
+                "key": "3 critical questions",
+                "value": "**1)** Is this sinus tachycardia? **2)** Is the QRS narrow (<120ms) or wide (≥120ms)? **3)** Is the rhythm regular or irregular?"
+              },
+              {
+                "key": "Narrow complex (<120ms)",
+                "value": "SVT, AFib, AFL, MAT, sinus tach"
+              },
+              {
+                "key": "Wide complex (≥120ms)",
+                "value": "!!Assume ventricular tachycardia until proven otherwise!! May also be SVT w/ aberrancy or pre-excitation"
+              },
+              {
+                "key": "Unstable criteria",
+                "value": "!!Hypotension, AMS, shock, ischemic chest pain, acute heart failure!! → immediate synchronized cardioversion"
+              },
+              {
+                "key": "Key principle",
+                "value": "Is tachycardia THE problem, or SIGN of another problem? Sinus tach in sick pt = compensatory — treat the cause, not the rate"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Sinus tachycardia",
+                "value": "Pain, fever, hypovolemia, anemia, PE, hypoxia, hyperthyroidism, anxiety, medications — treat the cause, not the rate",
+                "topicLink": "Sepsis & Septic Shock"
+              },
+              {
+                "key": "SVT (AVNRT/AVRT)",
+                "value": "Narrow, regular, abrupt onset/offset, rate 150-250. Vagal maneuvers → adenosine"
+              },
+              {
+                "key": "AFib/AFL w/ RVR",
+                "value": "AFib: irregularly irregular. AFL: regular ~150 (2:1 block). Rate control or cardioversion",
+                "topicLink": "AFib / Flutter with RVR"
+              },
+              {
+                "key": "Multifocal atrial tachycardia",
+                "value": "Irregular, ≥3 P-wave morphologies. Associated w/ COPD, hypoxia, hypoK/Mg"
+              },
+              {
+                "key": "Monomorphic VT",
+                "value": "Wide, regular, rate 150-250.!!Assume VT if wide-complex regular!!. Procainamide or amiodarone"
+              },
+              {
+                "key": "Polymorphic VT / Torsades",
+                "value": "Wide, irregular, QRS axis shifts.!!Magnesium 2g IV!! + defibrillation. Stop QT-prolonging drugs"
+              },
+              {
+                "key": "AFib w/ WPW",
+                "value": "Wide, irregular, variable morphology.!!NO AV nodal blockers — causes VFib!!. Procainamide or cardioversion"
+              },
+              {
+                "key": "SVT w/ aberrancy",
+                "value": "Wide-complex but supraventricular. Difficult to distinguish from VT —!!treat as VT if uncertain!!"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Adenosine",
+                "dose": "6mg rapid IVP→12mg if no response (may repeat 12mg x1)",
+                "route": "IV (rapid push via large bore proximal IV + 20mL NS flush)",
+                "contraindications": "Wide complex irregular rhythm, WPW w/AFib, lung transplant (reduce dose by 50%)",
+                "notes": "For!!regular narrow-complex SVT!!. Warn pt: transient chest tightness, flushing, sense of doom. Half-life ~6 sec. Record rhythm strip during push."
+              },
+              {
+                "name": "Diltiazem",
+                "dose": "15-20mg (0.25 mg/kg) IV over 2 min, then 5-15 mg/h infusion",
+                "route": "IV",
+                "contraindications": "!!WPW, wide complex tachycardia!!, hypotension, severe CHF, sick sinus, 2nd/3rd degree block",
+                "notes": "Rate control for AFib/FLutter, SVT refractory to adenosine, MAT. Repeat bolus 20-25mg after 15 min if needed."
+              },
+              {
+                "name": "Metoprolol",
+                "dose": "5mg IV q5min x 3 doses, then 25-50mg PO",
+                "route": "IV → PO",
+                "contraindications": "!!WPW!!, cardiogenic shock, severe bradycardia, cocaine use(arguable), severe asthma/COPD",
+                "notes": "Rate control for AFib, AFL, SVT. Avoid in acute HF — use amiodarone instead."
+              },
+              {
+                "name": "Procainamide",
+                "dose": "20-50 mg/min IV until arrhythmia suppressed (max 17 mg/kg or 1g); maintenance 1-4 mg/min x 6h",
+                "route": "IV",
+                "contraindications": "Prolonged QT, CHF, myasthenia gravis",
+                "notes": "!!First-line for stable wide complex VT.!! PROCAMIO trial: 67% termination vs 38% for amiodarone.!!Stop if QRS widens >50% or hypotension develops.!!"
+              },
+              {
+                "name": "Amiodarone",
+                "dose": "150mg IV over 10 min, then 1 mg/min x 6h (360mg), then 0.5 mg/min x 18h (540mg)",
+                "route": "IV",
+                "contraindications": "Iodine allergy, cardiogenic shock",
+                "notes": "Second-line for VT.!!Preferred if AMI or LV dysfunction!!. Also for rate control in AFib w/ CHF. Monitor for hypotension during bolus."
+              },
+              {
+                "name": "Magnesium sulfate",
+                "dose": "2g IV over 2-5 min",
+                "route": "IV",
+                "contraindications": "Myasthenia gravis, severe renal failure",
+                "notes": "!!First-line for Torsades de Pointes / polymorphic VT w/ prolonged QT.!! Also correct hypoMg in any tachyarrhythmia."
+              },
+              {
+                "name": "Digoxin",
+                "dose": "0.25-0.5mg IV, then 0.25mg IV q6h (max 1-1.5mg/24h)",
+                "route": "IV",
+                "contraindications": "!!WPW!!, hypokalemia, HCM, VT",
+                "notes": "Rate control for AFib/AFL!!in CHF pts!!. Slow onset (hours). Narrow therapeutic index — check level."
+              }
+            ]
+          },
+          {
+            "title": "Ongoing Management",
+            "type": "steps",
+            "items": [
+              "Recheck 12-lead EKG after each intervention — confirm rhythm conversion or rate control",
+              "Replete electrolytes aggressively: K >4.0, Mg >2.0 for any arrhythmia",
+              "SVT: if recurrent after adenosine, start maintenance rate control (diltiazem drip or metoprolol)",
+              "AFib/AFL: target HR <110 bpm at rest. If new-onset <48h, consider rhythm control (cardioversion ± anticoagulation)",
+              "VT: after cardioversion or chemical conversion, start maintenance antiarrhythmic (amiodarone drip). Cardiology consult for ICD eval",
+              "Torsades: correct underlying cause (stop offending drug, replete K/Mg). Consider isoproterenol or overdrive pacing if recurrent",
+              "Address underlying etiology: sepsis, PE, thyroid storm, hemorrhage, pain, substance use",
+              "Monitor for pro-arrhythmic effects of antiarrhythmics (QT prolongation, bradycardia, hypotension)"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "!!12-lead EKG!!",
+                "value": "Essential — classify narrow vs wide, regular vs irregular. Compare to prior EKG if avail"
+              },
+              {
+                "key": "BMP",
+                "value": "K and Mg are critical — hypoK and hypoMg are reversible causes of tachyarrhythmias"
+              },
+              {
+                "key": "Magnesium level",
+                "value": "Often not on standard BMP — must order separately. Low Mg → Torsades risk"
+              },
+              {
+                "key": "Troponin",
+                "value": "If ischemia suspected or sustained tachycardia (demand ischemia)"
+              },
+              {
+                "key": "TSH",
+                "value": "Screen for hyperthyroidism if new-onset tachyarrhythmia w/o clear cause"
+              },
+              {
+                "key": "CBC",
+                "value": "Anemia (compensatory sinus tach), leukocytosis (infection/sepsis)"
+              },
+              {
+                "key": "Lactate",
+                "value": "If concern for shock or poor perfusion"
+              },
+              {
+                "key": "telemetry",
+                "value": "All tachyarrhythmias — monitor for deterioration or response to tx"
+              },
+              {
+                "key": "Defibrillator at bedside",
+                "value": "!!Required for any wide-complex tachycardia!! may convert to VFib"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU",
+                "value": "!!Any VT, hemodynamically unstable arrhythmia, Torsades, cardioversion required, vasopressor-dependent!!"
+              },
+              {
+                "key": "Telemetry",
+                "value": "New-onset AFib/AFL, SVT requiring IV rate control, wide-complex tachycardia (resolved), post-cardioversion monitoring"
+              },
+              {
+                "key": "Floor",
+                "value": "Sinus tachycardia w/ identified treatable cause (pain, fever, dehydration) and rate improving"
+              },
+              {
+                "key": "Key cardioversion doses",
+                "value": "SVT: 50-100J | AFL: 50J | AFib: 120-200J | Stable VT: 100J | Unstable wide irregular/Torsades:!!200J unsynchronized (defibrillation)!!"
+              },
+              {
+                "key": "!!WPW warning!!",
+                "value": "!!NEVER give AV nodal blockers (adenosine, diltiazem, metoprolol, digoxin) to AFib w/ WPW — causes VFib and death!!"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bradycardia",
+        "subtitle": "Symptomatic, Heart Block, Toxicologic Causes",
+        "sections": [
+          {
+            "title": "ABCs — Stable or Unstable?",
+            "type": "bullets",
+            "items": [
+              "Circulation: assess pulse, BP, perfusion, and IV access.\nAirway: assess patency and protect.\nBreathing: assess WOB, oxygenation, and ventilation.",
+              "Unstable = SBP <90, AMS, chest pain, SOB → give atropine and get pads ready",
+              "Hypoxia or ↑ WOB → give O2 first (hypoxia itself causes bradycardia)",
+              "telemetry, EKG, IV access",
+              "If unstable: atropine 1mg IV → transcutaneous pacing → epi drip"
+            ]
+          },
+          {
+            "title": "Chart Check & Exam",
+            "type": "bullets",
+            "items": [
+              "Prior EKGs and TTE — baseline rhythm, conduction disease, prior pacemaker",
+              "Meds in past 24-48h: beta blockers, calcium channel blockers, amiodarone, digoxin, opioids, SSRIs",
+              "Hx.: hypothyroidism, heart disease, prior cardiac surgery, OSA, syncope",
+              "Exam: mentation, BP, cap refill, JVP, signs of volume overload",
+              "Can't miss: inferior ACS (check II, III, aVF for STE), complete heart block, BRASH syndrome (BB/CCB toxicity + ↑K)"
+            ]
+          },
+          {
+            "title": "EKG Interpretation",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Sinus bradycardia",
+                "value": "Normal P before each QRS, rate <60. Physiologic (athletes, sleep), vagal, hypothyroid, drugs."
+              },
+              {
+                "key": "1st degree AV block",
+                "value": "PR >200ms, every P conducts. Usually benign."
+              },
+              {
+                "key": "Mobitz I (Wenckebach)",
+                "value": "Progressive PR lengthening until P drops. Usually benign, vagal."
+              },
+              {
+                "key": "Mobitz II",
+                "value": "Fixed PR w/ sudden non-conducted P waves. High risk of progression to CHB — needs pacer."
+              },
+              {
+                "key": "Complete heart block",
+                "value": "P waves and QRS completely dissociated. Requires pacing."
+              },
+              {
+                "key": "Inferior ACS",
+                "value": "STE in II, III, aVF w/ bradycardia — RCA occlusion affecting AV node. Get cath lab involved.",
+                "topicLink": "ACS"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Can't miss",
+                "value": "Inferior MI, complete HB, BRASH syndrome (BB/CCB toxicity + hyperK), digoxin toxicity"
+              },
+              {
+                "key": "BRASH syndrome",
+                "value": "Bradycardia + renal failure + AV nodal blocker + shock + ↑K. Suspect in pts on BB/CCB with AKI, rising K, and disproportionate bradycardia; treat both ↑K and AV nodal blocker toxicity."
+              },
+              {
+                "key": "Cardiac",
+                "value": "SSS, AV nodal disease, ischemia, ↑ vagal tone (pain, OSA, carotid hypersensitivity)"
+              },
+              {
+                "key": "Inflammatory",
+                "value": "Myocarditis, amyloid, sarcoid, malignancy, autoimmune (lupus, RA)"
+              },
+              {
+                "key": "Infectious",
+                "value": "Lyme disease (classic — complete HB in young pt), sepsis, endocarditis"
+              },
+              {
+                "key": "Medications",
+                "value": "Beta-blockers, CCBs, amiodarone, digoxin, opioids, SSRIs, lithium"
+              },
+              {
+                "key": "Metabolic",
+                "value": "Hypothyroidism, adrenal insufficiency, ↑K, hypocalcemia, hypothermia"
+              },
+              {
+                "key": "Neurologic",
+                "value": "Cushing's reflex (↑ ICP → severe HTN + bradycardia), elevated ICP"
+              },
+              {
+                "key": "GBS",
+                "value": "Autonomic dysfunction from Guillain-Barré can cause marked bradycardia, pauses, or labile hemodynamics",
+                "topicLink": "Guillain-Barré Syndrome (GBS)"
+              },
+              {
+                "key": "Physiologic",
+                "value": "Athletes, sleep — asymptomatic and benign"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Symptomatic bradycardia",
+                "value": "Treat when bradycardia is causing hypotension, altered mentation, ischemia, shock, or acute heart failure."
+              },
+              {
+                "key": "First-line",
+                "value": "Use atropine early, but do not delay pacing or vasoactive support if pt is unstable or high-grade AV block is suspected."
+              },
+              {
+                "key": "Escalation",
+                "value": "Move promptly to transcutaneous pacing, epinephrine or dopamine infusion, and transvenous pacing when atropine fails or is unlikely to work."
+              },
+              {
+                "key": "Cause-directed care",
+                "value": "Identify inferior MI, medication toxicity, electrolyte derangement, hypothermia, or intrinsic conduction disease and treat the driver."
+              }
+            ]
+          },
+          {
+            "title": "Initial Orders & Workup",
+            "type": "steps",
+            "items": [
+              "12-lead EKG— rhythm, inferior MI, PR interval, QRS width",
+              "iStat: VBG, lactate",
+              "Labs: BMP (K, Ca, Mg), CMP (liver and renal function), TSH, troponin",
+              "Stat TTE: WMA, effusion, tamponade, LV function",
+              "MAR: BB, CCBs, digoxin levels"
+            ]
+          },
+          {
+            "title": "Treatment — Unstable",
+            "type": "steps",
+            "items": [
+              "1. Atropine 1mg IV q3-5min→ 3mg total —first-line",
+              "2. If atropine fails (or no IV): transcutaneous pacing: give fentanyl 25mcg + midazolam 2mg",
+              "Start pacing at 60-80 bpm, ⬆mA until electrical and mechanical capture",
+              "Epinephrine drip if severe hypotension: 2-10 mcg/min",
+              "If no CHF/overload: trial 500mL-1L NS pressure-bagged",
+              "Transvenous pacing if CHB/refractory— call EP/cardiology"
+            ]
+          },
+          {
+            "title": "Toxicologic Causes — Specific Antidotes",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Atropine",
+                "dose": "1mg IV q3-5min, max 3mg",
+                "route": "IV",
+                "contraindications": "Transplanted heart",
+                "notes": "First-line for unstable bradycardia. Less effective for high-grade AV block — do not delay pacing."
+              },
+              {
+                "name": "Glucagon",
+                "dose": "10mg IV bolus, repeat 1x q10 min; if response, infusion at 3-5 mg/hr",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Beta-blocker OR CCB OD. Bypasses blocked receptors. Repeat bolus if no response in 5-10 min."
+              },
+              {
+                "name": "Calcium gluconate",
+                "dose": "3-6g IV q10-20min or infusion",
+                "route": "IV",
+                "contraindications": "n/",
+                "notes": "CCB OD — competes at calcium channel. Also for ↑K (BRASH)."
+              },
+              {
+                "name": "Regular insulin (HIE)",
+                "dose": "1 unit/kg IV bolus, then 0.5 units/kg/hr gtt",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "CCB/BB OD — insulin euglycemic therapy. Give w/ D50. POC glu q30min."
+              },
+              {
+                "name": "Digoxin immune Fab",
+                "dose": "1 vial binds ~0.5mg digoxin — dosing https://www.mdcalc.com/calc/4036/digifab-dosing-digoxin-poisoning",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Digoxin tox. Give over 30 min. 1 vial = 40mg Fab. Empiric dose: 10 vials for acute OD, 3-6 vials for chr toxicity."
+              },
+              {
+                "name": "Naloxone",
+                "dose": "0.4-0.8mg IV, repeat q2-3min",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Opioid-induced bradycardia. Consider drip if large ingestion: 2/3 of reversal dose per hour."
+              },
+              {
+                "name": "Atropine (for organophosphate)",
+                "dose": "2-5mg IV, double dose q5min until secretions dry",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Organophosphate/nerve agent toxicity. THEN add pralidoxime 1-2g IV over 15-30 min."
+              }
+            ]
+          },
+          {
+            "title": "Indications for Permanent Pacemaker (PPM)",
+            "type": "bullets",
+            "items": [
+              "Symptomatic sinus bradycardia w/ or w/o pauses",
+              "Complete heart block (3rd degree AV block)",
+              "Symptomatic Mobitz II (even if asymptomatic — high risk of progression)",
+              "Syncope secondary to bradycardia or documented pause >3 seconds",
+              "Chronotropic incompetence causing exercise intolerance",
+              "Consult electrophysiology (EP) for all complete heart block and symptomatic Mobitz II"
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Kusumoto FM, Schoenfeld MH, Barrett C, et al. 2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay. Circulation. 2019;140(8):e382e482. https://doi.org/10.1161/CIR.0000000000000628"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hypotension",
+        "subtitle": "Shock — Distributive, Hypovolemic, Cardiogenic, Obstructive",
+        "sections": [
+          {
+            "title": "First Impression — Guiding Questions",
+            "type": "bullets",
+            "items": [
+              "Circulation: assess pulse, BP, perfusion, and IV access.\nAirway: assess patency and protect.\nBreathing: assess WOB, oxygenation, and ventilation.",
+              "General appearance: Mentation, acute distress,can they protect their airway?",
+              "Current oxygenation: what are they on?, improving?, do you need to intubate?",
+              "Is this driven by ↓cardiac output or ↓SVR?",
+              "Distributive, hypovolemic, cardiogenic, or obstructive?",
+              "Preload: Volume status, venous return, obst to return (tension PTX, tamponade)?",
+              "Afterload: SVR, arterial stiffness, obst to outflow (valves, HOCM)?",
+              "Fluid responsive? (hypovolemia, early sepsis)"
+            ]
+          },
+          {
+            "title": "ABCs",
+            "type": "steps",
+            "items": [
+              "Non-responsive (GCS <8): check pulse → intubate",
+              "Respiratory distress or hypoxia: NRB 15L → HFNC → BiPAP (COPD) or CPAP (CHF) → intubate",
+              "PaO2 <60 despite NRB → start HFNC; PaCO2 >45 → BiPAP; pH <7.25 → consider early intubation",
+              "Red flags (intubate): pooling secretions, hemoptysis, worsening respiratory distress",
+              "AFib w/ RVR: if HR >150-170 and HoTN → HR likely cause → rate control > cardioversion",
+              "Active GI bleed: MTP protocol (1:1:1 pRBC:FFP:platelets)",
+              "Undifferentiated hypotension: 2L LR wide open (pressure bag, if no CHF/AKI), infectious workup, start/broaden Abx, start Levo if needed"
+            ]
+          },
+          {
+            "title": "Chart Check",
+            "type": "bullets",
+            "items": [
+              "Reason for hospitalization and relevant comorbidities",
+              "Baseline BP range & mentation",
+              "Check last several BPs and timing on monitor — can you trust the readings? Is the cuff in the right place?",
+              "Acuity of change — sudden vs gradual",
+              "Day events: recent meds, procedures, blood transfusions?",
+              "Current IV access — do we need more?",
+              "Code status and decision-makers",
+              "MAR: opioids, AC (bleeding risk), BB, CCBs, TCAs"
+            ]
+          },
+          {
+            "title": "Exam & POCUS",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Vitals",
+                "value": "Fever or hypothermia, BP trend, HR, SpO2, RR — note trajectory not single values"
+              },
+              {
+                "key": "Perfusion",
+                "value": "Cap refill, warm vs cold extremities, skin mottling, diaphoresis"
+              },
+              {
+                "key": "POCUS — Heart",
+                "value": "Tamponade (pericardial effusion + RV collapse), RV failure (BIG RV, septal bowing), LV function (EF)"
+              },
+              {
+                "key": "POCUS — Lungs",
+                "value": "B-lines (pulmonary edema), absent lung sliding (PTX)"
+              },
+              {
+                "key": "POCUS — IVC",
+                "value": "Flat/collapsible IVC = hypovolemic/distributive; plethoric IVC = cardiogenic/obstructive"
+              },
+              {
+                "key": "JVP",
+                "value": "Flat = hypovolemic/distributive; elevated = cardiogenic, tamponade, tension PTX, RV failure"
+              }
+            ]
+          },
+          {
+            "title": "Differential Diagnosis by Shock Type",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Distributive",
+                "value": "Sepsis (most common), anaphylaxis, neurogenic shock, adrenal crisis, liver failure, thyroid storm. Warm extremities, low SVR, high CO.",
+                "topicLink": "Sepsis & Septic Shock"
+              },
+              {
+                "key": "Hypovolemic",
+                "value": "Hemorrhage (GI, chest, abdomen, retroperitoneum, thigh fracture), diuresis, poor PO intake, vomiting, diarrhea, third-spacing"
+              },
+              {
+                "key": "Cardiogenic",
+                "value": "Arrhythmia (AFib RVR, VT/VF), ischemia/MI, decompensated CHF, valvulopathy (acute MR/AR), myocarditis"
+              },
+              {
+                "key": "Obstructive",
+                "value": "Tension PTX (absent breath sounds, tracheal deviation, JVD), PE (massive), cardiac tamponade (Beck's triad: JVD, hypotension, muffled heart sounds)",
+                "topicLink": "Pulmonary Embolism"
+              },
+              {
+                "key": "Toxicologic",
+                "value": "Opioids, sedatives, BB/CCB OD, TCA OD (wide QRS, QTc prolongation)"
+              },
+              {
+                "key": "Metabolic",
+                "value": "Adrenal crisis (↑K, ↓Na, hypoglycemia), hypothyroidism, hypocalcemia"
+              },
+              {
+                "key": "GBS",
+                "value": "Severe dysautonomia can produce hypotension, bradycardia, and hemodynamic instability in Guillain-Barré syndrome",
+                "topicLink": "Guillain-Barré Syndrome (GBS)"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "First priority",
+                "value": "Recognize shock early, secure airway and oxygenation as needed, establish IV access, start monitoring, and assess perfusion repeatedly."
+              },
+              {
+                "key": "Resuscitation",
+                "value": "Use fluids when hypovolemia or distributive shock is likely, but avoid uncritical boluses in cardiogenic or obstructive shock."
+              },
+              {
+                "key": "Hemodynamic support",
+                "value": "Start vasopressors early when MAP remains low after initial resuscitation; add inotropes when pump failure predominates."
+              },
+              {
+                "key": "Fix the cause",
+                "value": "Shock resolves only when the underlying process is treated: bleeding control, sepsis therapy, reperfusion, decompression, thrombolysis, or endocrine rescue as appropriate."
+              }
+            ]
+          },
+          {
+            "title": "Workup",
+            "type": "steps",
+            "items": [
+              "Infectious: CBC w/ diff, CXR, UA/UCx, blood cultures x2, lactate",
+              "Metabolic: CMP (calcium, renal/liver), TSH and cortisol if c/f AI",
+              "Cardiac: EKG, troponin, NT-proBNP",
+              "Respiratory: ABG/VBG",
+              "Toxin: MAR for opioids, AC (bleed), BB/CCB, TCAs (give bicarb if QRS >100ms)",
+              "CT-PE if c/f PE",
+              "Consider calcium gluconate if low iCal (esp after blood transfusions)"
+            ]
+          },
+          {
+            "title": "Management by Shock Type",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Distributive / Septic",
+                "value": "Abx + source control, 30 mL/kg LR bolus (unless CHF/renal/cirrhosis), Levo → vasopressin → epinephrine. Hydrocortisone 50 mg IV q6h + fludrocortisone 50 mg daily if on 2 pressors or AI suspected."
+              },
+              {
+                "key": "Anaphylaxis",
+                "value": "Epinephrine 0.3mg IM (thigh) STAT. IV fluids, diphenhydramine 50mg IV, methylprednisolone 125mg IV, H2 blocker. Epinephrine gtt if refractory."
+              },
+              {
+                "key": "Hypovolemic / Hemorrhagic",
+                "value": "MTP 1:1:1 (pRBC:FFP:platelets), calcium gluconate after every 4 units pRBC. Source control (endoscopy, IR, surgery).",
+                "topicLink": "Massive Hemorrhage / MTP"
+              },
+              {
+                "key": "Cardiogenic",
+                "value": "Levo first, then inotrope (dobutamine or milrinone). BiPAP for pulmonary edema. Avoid intubation if possible. Treat cause (PCI for ACS).",
+                "topicLink": "Cardiogenic Shock / ADHF"
+              },
+              {
+                "key": "Tension PTX",
+                "value": "Immediate needle decompression: 2nd ICS midclavicular line, then chest tube. Do not wait for CXR."
+              },
+              {
+                "key": "Tamponade",
+                "value": "Pericardiocentesis — emergent if hemodynamically unstable. Avoid positive pressure ventilation (reduces RV preload). Volume to maintain preload while arranging drainage."
+              },
+              {
+                "key": "Massive PE",
+                "value": "Surgical or catheter embolectomy if hemodynamically unstable. Thrombolytics (alteplase 100mg over 2h) if Heparin drip.",
+                "topicLink": "Pulmonary Embolism"
+              },
+              {
+                "key": "TCA OD",
+                "value": "Sodium bicarb 1-2 mEq/kg IV bolus if QRS >100ms or HoTN→GTT to pH 7.45-7.55. Avoid physostigmine."
+              },
+              {
+                "key": "Adrenal Crisis",
+                "value": "Hydrocortisone 100mg IV STAT, aggressive IV fluids, correct hypoglycemia. Do not delay for labs.",
+                "topicLink": "Adrenal Crisis"
+              }
+            ]
+          },
+          {
+            "title": "Vasopressors & Inotropes",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Norepinephrine (Levophed)",
+                "dose": "0.01-3 mcg/kg/min→ start at 0.05",
+                "route": "IV drip",
+                "contraindications": "",
+                "notes": "First-line vasopressor for all shock types except anaphylaxis. Alpha + beta activity. START PERIPHERALLY→ Use central line if uptrending + need vaso."
+              },
+              {
+                "name": "Vasopressin",
+                "dose": "0.04 units/min (fixed dose)",
+                "route": "IV drip",
+                "contraindications": "",
+                "notes": "Add-on to NE in septic shock. Do not titrate."
+              },
+              {
+                "name": "Epinephrine",
+                "dose": "0.05-2 mcg/kg/min (shock); 0.3-0.5mg IM (anaphylaxis)",
+                "route": "IV drip or IM",
+                "contraindications": "",
+                "notes": "Anaphylaxis first-line (IM). Third-line in septic shock. Strong alpha + beta. Can cause lactic acidosis at high doses."
+              },
+              {
+                "name": "Phenylephrine",
+                "dose": "0.5-6 mcg/kg/min",
+                "route": "IV drip",
+                "contraindications": "Cardiogenic shock, ↓CO",
+                "notes": "Pure alpha agonist. Use if tachyarrhythmia on norepinephrine. Reduces CO —"
+              },
+              {
+                "name": "Dobutamine",
+                "dose": "2-20 mcg/kg/min",
+                "route": "IV drip",
+                "contraindications": "Hypovolemia (correct first)",
+                "notes": "Inotrope for cardiogenic shock. Start AFTER vasopressor. May drop BP — start low."
+              },
+              {
+                "name": "Hydrocortisone",
+                "dose": "50mg IV q6h or 200mg/day continuous",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Refractory septic shock on 2+ vasopressors, or adrenal crisis."
+              },
+              {
+                "name": "Sodium bicarbonate",
+                "dose": "1-2 mEq/kg IV bolus",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "TCA OD (QRS >100ms), severe acidosis (pH <7.1), hyperK. Target pH 7.45-7.55 for TCA."
+              },
+              {
+                "name": "Calcium gluconate",
+                "dose": "1-2g IV",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Give after every 4 units pRBC during massive transfusion (citrate chelates calcium). Also for CCB OD and ↑K."
+              }
+            ]
+          },
+          {
+            "title": "Pearls & Pitfalls",
+            "type": "bullets",
+            "items": [
+              "Confirm BP cuff placement",
+              "Flat IVC on POCUS does not always mean hypovolemia in ventilated pt",
+              "In undifferentiated shock: treat empirically→workup. Low threshold for pressors",
+              "NEVER give inotrope BEFORE vasopressor for hypotensive cardiogenic shock(drop BP further)",
+              "Positive pressure ventilation reduces preload — use w/ caution in tamponade, RV failure",
+              "Lactic acidosis in TCA OD is from seizures and hypoperfusion — bicarb treats the cardiotoxicity, not the lactate",
+              "Adrenal crisis mimics septic shock perfectly: Consider in pts on chronic steroids or w/ known adrenal disease"
+            ]
+          },
+          {
+            "title": "GI Hemorrhage — Special Considerations",
+            "type": "bullets",
+            "items": [
+              "Emergent upper endoscopy is first-line for most upper GI bleeds",
+              "Exception: aortic surgery within past 5 years → CT angiogram first to r/o aortoenteric fistula before scope",
+              "Exception: exsanguinating duodenal ulcer w/ active extravasation on CTA → consider IR directly (posterior duodenal ulcers difficult to control endoscopically)",
+              "MTP blood bank order: 10 units pRBC, 6 units FFP, 1 unit platelets (uncrossed)",
+              "Massive transfusion ratio: pRBC:FFP:platelets = 1:1:1 (surgical data supports 4:1:1)",
+              "Calcium gluconate after every 4 units pRBC — citrate in pRBCs chelates ionized calcium",
+              "TXA 1g IV if within 3 hours of hemorrhage onset"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "HTN",
+        "subtitle": "Asymptomatic severe HTN vs hypertensive emergency",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Circulation: assess pulse, BP, perfusion, and IV access.\nAirway: assess patency and protect.\nBreathing: assess WOB, oxygenation, and ventilation.",
+              "Repeat BP manually and use an appropriate cuff size before escalating treatment for a single extreme reading.",
+              "If chest pain, dyspnea, neuro deficits, altered mentation, flash pulmonary edema, AKI, or aortic pain are present, treat as possible hypertensive emergency.",
+              "If pt looks well and has no acute end-organ symptoms, avoid reflexive IV antihypertensives and rapid BP reduction."
+            ]
+          },
+          {
+            "title": "Chart Check / History",
+            "type": "bullets",
+            "items": [
+              "Baseline BP pattern and whether this is chronic uncontrolled HTN or a new abrupt rise",
+              "Missed home antihypertensives, clonidine withdrawal, pain, anxiety, urinary retention, alcohol withdrawal, stimulant use, steroid use",
+              "Kidney disease, heart failure, stroke history, pregnancy, endocrine disease, OSA",
+              "Recent meds: NSAIDs, decongestants, stimulants, cocaine, amphetamines, MAOIs, calcineurin inhibitors",
+              "Ask specifically about headache, vision change, chest pain, dyspnea, focal deficits, confusion, and decreased urine output"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "General",
+                "value": "Is pt comfortable and mentating normally, or ill-appearing with respiratory distress, confusion, or pain?"
+              },
+              {
+                "key": "Neuro",
+                "value": "Headache alone is nonspecific; focal deficits, encephalopathy, seizure, or visual loss suggest emergency"
+              },
+              {
+                "key": "Cardiopulmonary",
+                "value": "Chest pain, pulmonary edema, increased WOB, crackles, new murmur, or poor perfusion raise concern for end-organ injury"
+              },
+              {
+                "key": "Volume / renal",
+                "value": "Look for edema, JVD, oliguria, or signs of AKI or heart failure"
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Asymptomatic severe HTN",
+                "value": "Marked BP elevation without acute target-organ injury. This is usually managed with confirmation, symptom review, medication adjustment, and close follow-up rather than IV rescue therapy."
+              },
+              {
+                "key": "Hypertensive emergency",
+                "value": "Severe BP elevation with acute target-organ injury such as encephalopathy, stroke, ACS, pulmonary edema, aortic syndrome, or AKI.",
+                "topicLink": "Hypertensive Emergency"
+              },
+              {
+                "key": "Hypertensive urgency",
+                "value": "Older term for severe asymptomatic HTN. In practice, focus on whether acute organ injury is present rather than the label."
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Common inpt causes",
+                "value": "Pain, anxiety, missed medications, volume overload, withdrawal states, stimulants, sleep apnea, urinary retention"
+              },
+              {
+                "key": "Secondary contributors",
+                "value": "AKI/CKD, hyperaldosteronism, pheochromocytoma, Cushing syndrome, thyroid disease, pregnancy-related HTN"
+              },
+              {
+                "key": "Do not miss",
+                "value": "Aortic dissection, ACS, acute pulmonary edema, intracranial hemorrhage, PRES, ischemic stroke, eclampsia"
+              },
+              {
+                "key": "Emergency pathway",
+                "value": "If symptoms or signs suggest acute target-organ injury, switch from the asymptomatic HTN pathway to hypertensive emergency evaluation and treatment.",
+                "topicLink": "Hypertensive Emergency"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "asymptomatic severe HTN or true hypertensive emergency."
+            ]
+          },
+          {
+            "title": "Medication Details",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Asymptomatic severe HTN",
+                "value": "Confirm reading, treat pain or agitation, restart missed home medications when appropriate, avoid IV pushes."
+              },
+              {
+                "key": "How fast to lower",
+                "value": "Do not rapidly normalize BP in asymptomatic pts; abrupt reduction can worsen cerebral, coronary, or renal perfusion."
+              },
+              {
+                "key": "When to use oral meds",
+                "value": "If BP remains markedly elevated after repeat checks and reversible triggers are addressed, use or intensify oral antihypertensives based on the pt's home regimen and comorbidities."
+              },
+              {
+                "key": "When to escalate",
+                "value": "Escalate immediately if new neuro findings, chest pain, pulmonary edema, AKI, pregnancy-related severe features, or aortic syndrome concerns emerge."
+              }
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Repeat BP",
+                "value": "Manual BP with correct cuff size, both arms if dissection is a concern, and trend over time rather than one isolated value"
+              },
+              {
+                "key": "Basic evaluation",
+                "value": "BMP/CMP, CBC, UA, ECG; add troponin, BNP, CXR, head CT, or pregnancy testing only if symptoms or exam suggest organ injury"
+              },
+              {
+                "key": "Medication review",
+                "value": "Check MAR and home med reconciliation for missed antihypertensives, interacting drugs, or withdrawal syndromes"
+              },
+              {
+                "key": "Monitoring",
+                "value": "Frequent BP reassessment after pain control, bladder decompression, restarting meds, or oral regimen changes"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Floor / discharge planning",
+                "value": "Asymptomatic pts without evidence of acute organ injury can usually stay on the floor with oral regimen adjustment and close follow-up planning."
+              },
+              {
+                "key": "Higher level of care",
+                "value": "Hypertensive emergency, rapidly evolving symptoms, IV antihypertensive need, or major end-organ injury requires monitored or ICU-level care.",
+                "topicLink": "Hypertensive Emergency"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Respiratory",
+    "icon": "wind",
+    "color": "blue",
+    "topics": [
+      {
+        "title": "Shortness of Breath",
+        "subtitle": "Approach to acute dyspnea",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Airway: assess patency and protect. Breathing: assess WOB, oxygenation, and ventilation. Circulation: assess pulse, BP, perfusion, and IV access.",
+              "!!Airway!! — stridor, muffled voice, drooling, inability to speak, or rapidly worsening fatigue = call airway team early",
+              "!!Breathing!! — SpO2, RR, WOB, accessory muscle use, mentation, ability to speak full sentences",
+              "Sit upright; start oxygen immediately if hypoxemic or in marked distress",
+              "Target SpO2 94-98% for most pts; 88-92% if at risk for hypercapnic respiratory failure (COPD, obesity hypoventilation, neuromuscular weakness) while awaiting gas",
+              "If severe hypoxemia despite standard oxygen → escalate to HFNC",
+              "If acute hypercapnic respiratory failure or cardiogenic pulmonary edema and pt can protect airway → start NIV/BiPAP early",
+              "If impending arrest, inprotect airway, severe fatigue, or worsening hypoxemia/hypercapnia despite noninvasive support → intubate",
+              "Parallel question: airway problem, alveolar problem, obstructive problem, vascular problem, or pump failure?"
+            ]
+          },
+          {
+            "title": "Hypoxia Reference",
+            "type": "imageGallery",
+            "images": [
+              {
+                "assetName": "Hypoxia",
+                "caption": "Hypoxia",
+                "description": "Visual reference for oxygenation failure and respiratory distress patterns."
+              }
+            ]
+          },
+          {
+            "title": "Chart Check / History",
+            "type": "bullets",
+            "items": [
+              "Onset and tempo — sudden (PE, PTX, flash edema, aspiration) vs gradual (CHF, COPD, asthma, pneumonia, anemia)",
+              "Orthopnea, PND, edema, recent weight gain — CHF clues",
+              "Wheezing, inhaler use, prior intubation, smoking, home O2 or NIV — obstructive lung disease clues",
+              "Fever, sputum, sick contacts, aspiration risk, immunocompromised state — infectious clues",
+              "Pleuritic pain, hemoptysis, leg swelling, malignancy, surgery, immobility — PE clues",
+              "Chest pain, palpitations, syncope, CAD, valve disease, cardiomyopathy — cardiac clues",
+              "Dialysis, renal failure, pregnancy, neuromuscular disease, toxins, opioids/sedatives",
+              "Baseline functional status and O2 need — is this above baseline?"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Severe distress",
+                "value": "Tripoding, diaphoresis, silent chest, altered mentation, inability to speak full sentences, paradoxical breathing, cyanosis"
+              },
+              {
+                "key": "Crackles + JVD + edema",
+                "value": "Acute heart failure / pulmonary edema"
+              },
+              {
+                "key": "Wheezing + prolonged expiration",
+                "value": "Asthma or COPD exacerbation",
+                "topicLink": "COPD Exacerbation"
+              },
+              {
+                "key": "Unilateral absent breath sounds",
+                "value": "Pneumothorax; if hypotensive or tracheal shift → treat as tension pneumothorax"
+              },
+              {
+                "key": "Fever + focal crackles/consolidation",
+                "value": "Pneumonia"
+              },
+              {
+                "key": "Tachycardia + pleuritic pain + leg swelling",
+                "value": "Pulmonary embolism",
+                "topicLink": "Pulmonary Embolism"
+              },
+              {
+                "key": "Stridor / drooling / voice change",
+                "value": "Upper airway obstruction — airway emergency"
+              },
+              {
+                "key": "Somnolence + shallow breathing",
+                "value": "Hypercapnic or toxic ventilatory failure until proven otherwise"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Airway",
+                "value": "Anaphylaxis, angioedema, epiglottitis, foreign body, tracheostomy complication",
+                "topicLink": "Upper Airway Obst."
+              },
+              {
+                "key": "Obstructive lung",
+                "value": "Asthma, COPD exacerbation, mucus plugging",
+                "topicLink": "Severe Asthma"
+              },
+              {
+                "key": "Alveolar / parenchymal",
+                "value": "Pneumonia, pulmonary edema, ARDS, diffuse alveolar hemorrhage",
+                "topicLink": "Acute Respiratory Failure"
+              },
+              {
+                "key": "Pleural",
+                "value": "Pneumothorax, pleural effusion, hemothorax",
+                "topicLink": "Pneumothorax / Hemothorax"
+              },
+              {
+                "key": "Vascular",
+                "value": "Pulmonary embolism, severe pulmonary HTN",
+                "topicLink": "Pulmonary Embolism"
+              },
+              {
+                "key": "Cardiac",
+                "value": "Acute decompensated HF, ACS, arrhythmia, tamponade, severe valvular disease",
+                "topicLink": "Cardiogenic Shock / ADHF"
+              },
+              {
+                "key": "Metabolic / other",
+                "value": "DKA, sepsis, anemia, acidosis, anxiety/panic, neuromuscular weakness, toxin/sedative effect"
+              },
+              {
+                "key": "GBS",
+                "value": "Neuromuscular respiratory failure from progressive weakness, poor cough, and declining ventilatory mechanics",
+                "topicLink": "Guillain-Barré Syndrome (GBS)"
+              }
+            ]
+          },
+          {
+            "title": "Oxygen / Ventilatory Support",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Nasal cannula / face mask",
+                "value": "Initial support for mild hypoxemia; titrate to target saturation rather than giving unbounded oxygen"
+              },
+              {
+                "key": "HFNC",
+                "value": "Preferred over conventional oxygen for acute hypoxemic respiratory failure when standard oxygen is insufficient"
+              },
+              {
+                "key": "NIV / BiPAP",
+                "value": "Strongest evidence in COPD exacerbation with acute respiratory acidosis and in cardiogenic pulmonary edema; use before HFNC in hypercapnic COPD"
+              },
+              {
+                "key": "Avoid NIV",
+                "value": "Vomiting, facial trauma, inprotect airway, severe agitation, copious secretions, immediate need for intubation"
+              },
+              {
+                "key": "Intubation triggers",
+                "value": "Worsening mentation, exhaustion, refractory hypoxemia, rising CO2 with acidemia, inprotect airway, shock"
+              }
+            ]
+          },
+          {
+            "title": "Initial Therapeutics by Pattern",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Pulmonary edema",
+                "value": "NIV/CPAP, nitrates if BP allows, IV diuresis; evaluate for ACS",
+                "topicLink": "Hypotension"
+              },
+              {
+                "key": "Asthma/COPD",
+                "value": "Nebulized bronchodilators, steroids, Mg for severe asthma; NIV for hypercapnic COPD",
+                "topicLink": "COPD Exacerbation"
+              },
+              {
+                "key": "PE",
+                "value": "Anticoagulate if appropriate, risk stratify, evaluate RV strain",
+                "topicLink": "Pulmonary Embolism"
+              },
+              {
+                "key": "Pneumothorax",
+                "value": "If tension suspected, decompress immediately — do not wait for imaging"
+              },
+              {
+                "key": "Pneumonia / sepsis",
+                "value": "Antibiotics, oxygen, fluids/vasopressors as needed"
+              },
+              {
+                "key": "Upper airway obstruction",
+                "value": "Airway team now; keep pt calm and upright; avoid agitating exams"
+              }
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Immediate monitoring",
+                "value": "Continuous pulse ox, telemetry, frequent BP checks"
+              },
+              {
+                "key": "12-lead EKG",
+                "value": "Ischemia, arrhythmia, right-heart strain, hyperkalemia"
+              },
+              {
+                "key": "CXR",
+                "value": "Pulmonary edema, consolidation, pleural effusion, pneumothorax"
+              },
+              {
+                "key": "Blood gas",
+                "value": "ABG or VBG to assess hypercapnia, acidemia, lactate; ABG if oxygenation is uncertain or severe hypoxemia"
+              },
+              {
+                "key": "Labs",
+                "value": "CBC, BMP/CMP, troponin, BNP/NT-proBNP; D-dimer only if PE pretest probability is low/intermediate"
+              },
+              {
+                "key": "POCUS",
+                "value": "Use with standard testing in undifferentiated acute dyspnea: lung sliding/PTX, B-lines, pleural effusion, LV function, RV strain, IVC"
+              },
+              {
+                "key": "If concern for infection",
+                "value": "Lactate, cultures, viral testing as needed"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU",
+                "value": "NIV/HFNC requirement, impending intubation, persistent severe WOB, shock, rising CO2/acidemia"
+              },
+              {
+                "key": "Monitored bed",
+                "value": "New O2 need, uncertain diagnosis, significant cardiac/pulmonary comorbidity"
+              },
+              {
+                "key": "Floor / discharge",
+                "value": "Only if dyspnea resolves, no new oxygen need, workup is reassuring, and follow-up is reliable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hypoxia",
+        "subtitle": "Approach to acute oxygenation failure",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Airway: assess patency and protect. Breathing: assess WOB, oxygenation, and ventilation. Circulation: assess pulse, BP, perfusion, and IV access.",
+              "!!Airway!! — stridor, voice change, inprotect airway, or rapidly worsening fatigue; call airway team early if present",
+              "!!Breathing!! — confirm SpO2 waveform is reliable, check RR, WOB, mentation, and ability to speak",
+              "Sit up and start O2 if SpO2 is low or the pt is in distress",
+              "Target SpO2 94-98% for most pts; 88-92% (if COPD)",
+              "Still hypoxic on O2--> NRB @15 LPM STAT--> HFNC depending on severity and local setup",
+              "Bipap if hypercapnia, cardiogenic pulm edema, or severe WOB",
+              "Intubate if: worsening AMS, exhaustion, refractory hypoxemia, or inprotect airway"
+            ]
+          },
+          {
+            "title": "Chart Check / History",
+            "type": "bullets",
+            "items": [
+              "Baseline O2 need, COPD/OHS/neuromuscular disease, prior intubation, home NIV or O2",
+              "Sudden vs gradual onset — sudden suggests PE, PTX, aspiration, flash edema, mucus plug",
+              "Fever, cough, sputum, aspiration risk, immunocompromise",
+              "Chest pain, orthopnea, edema, weight gain, palpitations, syncope",
+              "PE risk factors — cancer, immobility, surgery, prior VTE, hemoptysis, leg swelling",
+              "Recent opioids, sedatives, seizure, stroke, trauma, or procedure",
+              "Dialysis, renal failure, fluid balance, transfusions, or toxic exposures"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Severe distress",
+                "value": "Tripoding, diaphoresis, cyanosis, paradoxical breathing, silent chest, inability to speak, altered mentation"
+              },
+              {
+                "key": "Diffuse crackles",
+                "value": "Pulm edema, ARDS, diffuse infection, alveolar hemorrhage"
+              },
+              {
+                "key": "Wheezing / prolonged expiration",
+                "value": "Asthma or COPD exacerbation",
+                "topicLink": "COPD Exacerbation"
+              },
+              {
+                "key": "Unilateral absent breath sounds",
+                "value": "PTX, mainstem intubation, large effusion, mucus plugging"
+              },
+              {
+                "key": "Focal crackles / bronchial sounds",
+                "value": "PNA or focal aspiration"
+              },
+              {
+                "key": "JVD + edema + S3",
+                "value": "Cardiogenic pulm edema / acute HF"
+              },
+              {
+                "key": "Stridor / drooling / voice change",
+                "value": "Upper airway obstruction until proven otherwise"
+              },
+              {
+                "key": "Somnolence + shallow breathing",
+                "value": "Ventilatory failure, sedative effect, or severe hypercapnia"
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Hypoxemia",
+                "value": "Low arterial oxygen level; usually reflected by low SpO2 or PaO2"
+              },
+              {
+                "key": "Hypoxia",
+                "value": "Inadequate tissue oxygen delivery or use; may be from hypoxemia, low cardiac output, anemia, or toxins"
+              },
+              {
+                "key": "Refractory hypoxemia",
+                "value": "Persistent low oxygenation despite escalating FiO2; think shunt physiology, severe V/Q mismatch, or equipment issue"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Low FiO2 / equipment",
+                "value": "Disconnected O2, empty tank, wrong interface, poor seal, bad waveform"
+              },
+              {
+                "key": "Hypoventilation",
+                "value": "Opioids, sedatives, obesity hypoventilation, neuromuscular weakness, CNS process"
+              },
+              {
+                "key": "V/Q mismatch",
+                "value": "COPD/asthma, PNA, pulm edema, PE, atelectasis"
+              },
+              {
+                "key": "Shunt",
+                "value": "ARDS, dense PNA, alveolar hemorrhage, intracardiac shunt"
+              },
+              {
+                "key": "Diffusion limitation",
+                "value": "ILD, severe parenchymal lung disease"
+              },
+              {
+                "key": "Reduced O2 delivery",
+                "value": "Anemia, shock, low CO, severe sepsis"
+              },
+              {
+                "key": "Impaired O2 use",
+                "value": "Carbon monoxide, cyanide, severe mitochondrial dysfunction"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Confirm it is real: check waveform, probe, perfusion, and interface. Get ABG if severe or unclear.",
+              "Escalate O2: NC/simple mask → NRB → HFNC. Use NIV early for hypercapnia, COPD, or cardiogenic pulm edema if airway is protected.",
+              "Give etiology-specific treatment: nebs, diuresis/nitrates, abx, anticoagulation, decompression, or urgent airway management.",
+              "Reassess often. If worsening fatigue, mentation, CO2, or hypoxemia, intubate before collapse."
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Monitoring",
+                "value": "Continuous pulse ox, telemetry, frequent BP checks"
+              },
+              {
+                "key": "ABG / VBG",
+                "value": "ABG if severe hypoxemia, unclear saturation, or concern for shunt; VBG can help screen for hypercapnia/acidemia"
+              },
+              {
+                "key": "CXR",
+                "value": "Look for edema, consolidation, PTX, effusion, atelectasis"
+              },
+              {
+                "key": "Labs",
+                "value": "CBC, BMP/CMP, troponin, BNP, lactate; add cultures/viral testing if infection is possible"
+              },
+              {
+                "key": "EKG",
+                "value": "Ischemia, arrhythmia, RV strain"
+              },
+              {
+                "key": "POCUS",
+                "value": "Lung sliding, B-lines, effusion, LV function, RV strain, IVC, gross volume status"
+              },
+              {
+                "key": "CT / CTA",
+                "value": "If PE, occult PNA, ILD flare, or other parenchymal process is still on the table after initial eval"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU",
+                "value": "HFNC/NIV, impending intubation, severe WOB, refractory hypoxemia, rising CO2/acidemia, shock"
+              },
+              {
+                "key": "Monitored bed",
+                "value": "New O2 requirement, uncertain cause, significant cardiopulm comorbidity, or need for close reassessment"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hemoptysis",
+        "subtitle": "Coughing up blood",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "!!Airway!! — if massive hemoptysis (>100-600 mL/24h):!!intubate early!! w/ largest ETT possible; death is from asphyxiation, NOT exsanguination",
+              "0 mm to 8.5 mm is generally required to allow for adequate ventilation around the bronchoscope. While smaller tubes (e.g., 6.0-7.0 mm) can accommodate scope, they risk high airway pressures and auto-PEEP",
+              "!!Position pt w/ BLEEDING side down!! — protects contralateral lung from aspiration of blood",
+              "!!Breathing!! — supplemental O2, continuous SpO2; suction airway as needed",
+              "!!Circulation!! — 2 large-bore IVs, type & screen; if massive → activate MTP",
+              "Call interventional pulmonology AND IR simultaneously for massive hemoptysis",
+              "If intubating: consider selective intubation of unaffected bronchus or use bronchial blocker",
+              "!!Reverse anticoagulation!! immediately if on blood thinners",
+              "CXR and CT chest w/ contrast to identify source"
+            ]
+          },
+          {
+            "title": "Chart Check / History",
+            "type": "bullets",
+            "items": [
+              "Estimate severity and pace — blood-streaked sputum vs repeated cups/full suction canister; airway risk matters more than exact volume",
+              "True hemoptysis vs pseudohemoptysis vs hematemesis",
+              "Pulmonary history — bronchiectasis, TB, lung cancer, COPD, cystic fibrosis, prior hemoptysis",
+              "VTE risk, pleuritic pain, leg swelling — PE clues",
+              "Autoimmune / renal symptoms — hematuria, sinus disease, rash, arthritis",
+              "Anticoagulants, antiplatelets, thrombocytopenia, coagulopathy, recent bronchoscopy or biopsy",
+              "TB exposure, aspiration risk, smoking history, weight loss, fevers, immunocompromised state"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Massive / unstable",
+                "value": "Hypoxemia, respiratory distress, inability to clear blood, shock, rapidly filling suction canister — airway emergency"
+              },
+              {
+                "key": "Lung findings",
+                "value": "Focal crackles/consolidation, unilateral diminished breath sounds, wheeze, diffuse alveolar process"
+              },
+              {
+                "key": "ENT / GI source",
+                "value": "Nasal/oropharyngeal bleeding or coffee-ground emesis may mimic hemoptysis"
+              },
+              {
+                "key": "Cardiac / volume",
+                "value": "JVD, edema, murmurs, frothy sputum — consider pulmonary edema or mitral stenosis"
+              },
+              {
+                "key": "Systemic clues",
+                "value": "Rash, purpura, synovitis, sinus disease, hematuria — vasculitis or pulmonary-renal syndrome"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Airway / infectious",
+                "value": "Bronchitis, bronchiectasis, pneumonia, TB, lung abscess, fungal infection"
+              },
+              {
+                "key": "Malignancy",
+                "value": "Lung cancer, endobronchial lesion, metastatic disease"
+              },
+              {
+                "key": "Vascular",
+                "value": "PE with infarction, AVM, Dieulafoy lesion, pulmonary artery pseudoaneurysm"
+              },
+              {
+                "key": "Cardiac",
+                "value": "Pulmonary edema, mitral stenosis, elevated pulmonary venous pressure"
+              },
+              {
+                "key": "Coagulopathy / iatrogenic",
+                "value": "Anticoagulants, thrombocytopenia, DIC, post-biopsy or procedure"
+              },
+              {
+                "key": "Autoimmune / diffuse alveolar hemorrhage",
+                "value": "GPA, microscopic polyangiitis, anti-GBM disease, SLE"
+              },
+              {
+                "key": "Pseudohemoptysis / GI mimic",
+                "value": "Epistaxis/oropharyngeal bleed or hematemesis mistaken for pulmonary source"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Stabilize first: if massive hemoptysis, position bleeding side down, give O2, suction, and intubate early with a large ETT if airway control is needed.",
+              "Support circulation: 2 x pIVs, type & screen, reverse anticoagulation if needed, and activate MTP if needed.",
+              "Find Source: CXR first, CT chest with contrast/CTA if stable, and call interventional pulm + IR early for bronchoscopy or embolization.",
+              "Treat the cause: give Abx for infection, treat cardiac causes, weigh anticoagulation carefully in PE, and start syndrome-specific treatment for DAH."
+            ]
+          },
+          {
+            "title": "Management Details",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Massive / unstable",
+                "value": "Bleeding-side down, airway control, bronchoscopy, reverse anticoagulation, IR embolization, MTP if needed"
+              },
+              {
+                "key": "Bronchiectasis / bronchitis / pneumonia",
+                "value": "Antibiotics if needed, airway clearance, source-directed respiratory care"
+              },
+              {
+                "key": "PE",
+                "value": "Balance anticoagulation need against active bleeding severity; involve specialists early",
+                "topicLink": "Pulmonary Embolism"
+              },
+              {
+                "key": "Pulmonary edema / cardiac",
+                "value": "Treat CHF/valvular physiology, oxygen/NIV as needed"
+              },
+              {
+                "key": "Autoimmune DAH",
+                "value": "High-dose steroids after discussion with pulmonary/rheum/nephrology when syndrome is strongly suspected"
+              }
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Immediate",
+                "value": "CBC, type & screen, PT/INR, PTT, fibrinogen if major bleed, BMP/CMP, continuous pulse ox"
+              },
+              {
+                "key": "Imaging",
+                "value": "CXR first; CT chest with contrast/CTA if stable to localize source and plan intervention"
+              },
+              {
+                "key": "Bronchoscopy",
+                "value": "For localization, airway clearance, tamponade, and possible definitive therapy"
+              },
+              {
+                "key": "If infection suspected",
+                "value": "Sputum studies, cultures, TB testing, blood cultures as needed"
+              },
+              {
+                "key": "If pulmonary-renal syndrome suspected",
+                "value": "UA, creatinine trend, ANCA, anti-GBM, ANA"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU",
+                "value": "Massive hemoptysis, hypoxemia, airway intervention, ongoing transfusion need, hemodynamic instability"
+              },
+              {
+                "key": "Admit / monitored bed",
+                "value": "Ongoing but non-massive hemoptysis, new O2 need, uncertain source, significant comorbidity"
+              }
+            ]
+          },
+          {
+            "title": "Resources",
+            "type": "bullets",
+            "items": [
+              "Gastrointestinal Surgical Emergencies Textbook. American College of Surgeons (2021). Ashley E. Aaron, Andrea Amabile, Ciro Andolfi, et al.",
+              "O'Gurek D, Choi HYJ. **Hemoptysis: Evaluation and Management.** American Family Physician. 2022."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Neurologic",
+    "icon": "brain.head.profile",
+    "color": "purple",
+    "topics": [
+      {
+        "title": "Altered Mental Status",
+        "subtitle": "Confusion, agitation, somnolence, focal deficits, metabolic or toxic clues",
+        "sections": [
+          {
+            "title": "Initial Impression",
+            "type": "steps",
+            "items": [
+              "responsive (GCS 8)?: check pulse — prepare to intubate",
+              "Check vitals: hemodynamics, SpO2, RR",
+              "GLUCOSE — check it immediately (finger-stick POC glucose)",
+              "!!Red flags for early intubation!!: pooling secretions, hemoptysis, respiratory distress",
+              "airway: position, jaw thrust, clear oropharynx, call early for airway help if needed",
+              "Breathing: supplemental O2, SpO2 monitoring, assess for apnea or obstructed breathing",
+              "Circulation: check pulse, ECG, BP, and compare with baseline",
+              "Disability + glucose: pupils, focal deficits, motor exam, finger-stick glucose, consider ABG/VBG",
+              "If focal deficits present: activate stroke alert / stroke alert",
+              "If not arousable: check pupils, localize to pain, full coma exam (pupils, nystagmus, doll's eyes, corneal, grimace, cough/gag, withdrawal to pain, posturing)"
+            ]
+          },
+          {
+            "title": "Chart Check",
+            "type": "bullets",
+            "items": [
+              "Reason for admission & relevant comorbidities",
+              "Baseline mentation & last known nl.",
+              "Acuity of change: acute onset vs. gradual worsening",
+              "Current IV access",
+              "Recent pain, surgeries, open wounds, trauma",
+              "Urinary or bowel retention?",
+              "MAR review: insulin, benzos, opioids, steroids, anticholinergics, antihistamines, antihypertensives, AEDs, dopaminergics, digoxin, lithium, ASA, OTCs, antibiotics (cefepime, cephalosporins, PCNs, fluoroquinolones)"
+            ]
+          },
+          {
+            "title": "Differential by Cause",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Metabolic",
+                "value": "↓ Glucose, DKA, hypo/hypernatremia, hypocalcemia, uremia, hepatic encephalopathy, Wernicke's, thyroid/adrenal, hypercarbia"
+              },
+              {
+                "key": "Hypoxia/Hypercarbia",
+                "value": "SpO2 <88% on 15L NRB → start HFNC. PaCO2 >45 → start BiPAP. pH <7.25 → likely tiring. Volume overload → Bumex 1-2mg IV"
+              },
+              {
+                "key": "Infection",
+                "value": "Sepsis, meningitis, encephalitis, UTI, pneumonia, bacteremia, brain abscess, cerebral malaria, syphilis",
+                "topicLink": "Sepsis & Septic Shock"
+              },
+              {
+                "key": "Structural",
+                "value": "Ischemic stroke (call stroke alert if focal deficits), hemorrhagic stroke, SDH, CNS tumor/edema, hydrocephalus, SAH, posterior circulation stroke, diffuse axonal injury",
+                "topicLink": "Acute Ischemic Stroke"
+              },
+              {
+                "key": "Seizure/Postictal",
+                "value": "Convulsive vs non-convulsive, ongoing vs terminated, new vs known disorder"
+              },
+              {
+                "key": "Toxic",
+                "value": "Opioids, alcohol, benzodiazepines, anticholinergics, sympathomimetics (cocaine, amphetamines), CO poisoning (cherry red skin)"
+              },
+              {
+                "key": "Zebras",
+                "value": "HIV, Lyme, syphilis, anti-NMDA encephalitis, sarcoid, Wilson's, B1/B3/B12 deficiency, PRES (tacrolimus/cyclosporine, checkpoint inhibitors), adrenal insufficiency, porphyria, HTN encephalopathy, thyroid storm, pheochromocytoma"
+              }
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "steps",
+            "items": [
+              "POC glucose immediately",
+              "iStat: VBG, Hb, Na, Ca, K",
+              "Labs: CBC w/ diff, BMP, LFTs, lactate, TSH, cortisol, ammonia",
+              "UA & urine culture, bladder scan",
+              "BCxs x2, CXR",
+              "Toxicology screen & drug levels (lithium, ASA, AEDs)",
+              "CT head — consider CTA head/neck if stroke suspected",
+              "LP if meningitis/encephalitis suspected",
+              "EEG if seizure suspected or unexplained AMS"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Dextrose (D50)",
+                "dose": "25 g IV",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Hypoglycemia or high suspicion with delayed glucose result."
+              },
+              {
+                "name": "Thiamine",
+                "dose": "100-500 mg IV",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Give early if malnutrition, alcoholism, or c/f Wernicke encephalopathy; ideally before glucose if feasible."
+              },
+              {
+                "name": "Naloxone",
+                "dose": "0.04-0.4 mg IV, titrate; repeat q2-3 min PRN",
+                "route": "IV/IM/IN",
+                "contraindications": "",
+                "notes": "Opioid toxicity with hypoventilation; titrate to ventilation, not full arousal."
+              },
+              {
+                "name": "Flumazenil",
+                "dose": "0.2 mg IV over 15 sec, repeat carefully",
+                "route": "IV",
+                "contraindications": "Chronic benzo use, seizure disorder, mixed overdose",
+                "notes": "Rarely used; can precipitate refractory seizures."
+              },
+              {
+                "name": "Hypertonic saline 3%",
+                "dose": "100 mL IV bolus, may repeat up to 3 times",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Symptomatic hyponatremic encephalopathy with seizure, severe confusion, or coma."
+              },
+              {
+                "name": "Lactulose",
+                "dose": "20-30 g PO/NG or 30-45 mL; repeat to 3-4 BMs/day",
+                "route": "PO/NG/PR",
+                "contraindications": "Bowel obstruction",
+                "notes": "First-line for hepatic encephalopathy."
+              },
+              {
+                "name": "Rifaximin",
+                "dose": "550 mg BID",
+                "route": "PO/NG",
+                "contraindications": "",
+                "notes": "Add-on for hepatic encephalopathy, especially recurrent or persistent symptoms."
+              },
+              {
+                "name": "Lorazepam (Ativan)",
+                "dose": "2-4 mg IV",
+                "route": "IV/IM",
+                "contraindications": "",
+                "notes": "First-line for active seizure or status epilepticus causing encephalopathy."
+              },
+              {
+                "name": "Levetiracetam (Keppra)",
+                "dose": "40-60 mg/kg IV load (commonly 1-4.5 g)",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Use after benzodiazepine or when nonconvulsive status is suspected."
+              },
+              {
+                "name": "Ceftriaxone + Vancomycin",
+                "dose": "Ceftriaxone 2 g IV q12h + pharmacy-dosed vancomycin",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Empiric bacterial meningitis coverage."
+              },
+              {
+                "name": "Ampicillin",
+                "dose": "2 g IV q4h",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Add for Listeria risk: older age, pregnancy, or immunocompromise."
+              },
+              {
+                "name": "Acyclovir",
+                "dose": "10 mg/kg IV q8h",
+                "route": "IV",
+                "contraindications": "Dose-adjust in renal dysfunction",
+                "notes": "Add when HSV encephalitis is possible."
+              },
+              {
+                "name": "Dexamethasone",
+                "dose": "10 mg IV",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Give with or before first antibiotic dose if bacterial meningitis is suspected."
+              },
+              {
+                "name": "Bumetanide",
+                "dose": "1-2 mg IV",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "If pulmonary edema or volume-overload hypercapnia is contributing to encephalopathy."
+              }
+            ]
+          },
+          {
+            "title": "Delirium — Antipsychotics",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Haloperidol",
+                "dose": "0.5-1mg q1-4h PRN",
+                "route": "PO/IM/IV",
+                "contraindications": "Parkinsonism, QTc >500",
+                "notes": "First-line IV/IM. Highest QTc risk."
+              },
+              {
+                "name": "Quetiapine (Seroquel)",
+                "dose": "12.5-25mg q6h PRN",
+                "route": "PO",
+                "contraindications": "",
+                "notes": "Smallest QT prolongation. Preferred in elderly or Parkinson's."
+              },
+              {
+                "name": "Olanzapine",
+                "dose": "2.5-10mg q4h PRN",
+                "route": "SL/PO/IM",
+                "contraindications": "",
+                "notes": "Moderate QTc risk. Good IM option."
+              },
+              {
+                "name": "Aripiprazole",
+                "dose": "2-5mg q2h PRN",
+                "route": "PO/IM",
+                "contraindications": "",
+                "notes": "Use if QTc >500. Check EKG after 2nd dose."
+              },
+              {
+                "name": "Valproic acid",
+                "dose": "125-250mg q8h PRN",
+                "route": "IV/PO",
+                "contraindications": "Pregnancy, liver dz",
+                "notes": "If QTc >500 & parenteral option needed."
+              }
+            ]
+          },
+          {
+            "title": "Resources",
+            "type": "bullets",
+            "items": [
+              "Bloch KC, Glaser C, Gaston D, Venkatesan A. State of the Art: Acute Encephalitis. Clinical Infectious Diseases. 2023.",
+              "Veauthier B, Hornecker JR, Thrasher T. Recent-Onset Altered Mental Status: Evaluation and Management. American Family Physician. 2021."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Headache",
+        "subtitle": "Approach to acute severe headache",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "!!Airway!! — if GCS <8 or rapidly declining consciousness → intubate; consider ↑ ICP (avoid succinylcholine if possible)",
+              "!!Breathing!! — SpO2, supplemental O2; if ↑ ICP suspected → target PaCO2 35-40 (brief hyperventilation to 30-35 only if herniating)",
+              "!!Circulation!! — IV access; BP assessment —!!SBP >220 or DBP >120 w/ HA = hypertensive emergency!!",
+              "!!Red flags → emergent workup!!: sudden \"thunderclap\" onset, worst HA of life, focal neuro deficits, fever + meningismus, ↓ LOC, anticoagulation, immunocompromised, age >50 w/ new HA",
+              "If signs of ↑ ICP/herniation: HOB 30°, mannitol 1 g/kg IV or hypertonic saline 23.4% 30 mL, neurosurgery STAT"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Non-contrast CT head",
+                "value": "Immediate for thunderclap headache, neuro deficits, anticoagulation, trauma, ↓ LOC, or other red flags"
+              },
+              {
+                "key": "LP",
+                "value": "If CT negative but SAH or meningitis still suspected — xanthochromia, RBCs, opening pressure, cell count, protein, glucose, cultures"
+              },
+              {
+                "key": "CTA head / neck",
+                "value": "If SAH suspected/confirmed, dissection concern, or vascular lesion needs localization"
+              },
+              {
+                "key": "CBC / BMP / coags",
+                "value": "Evaluate infection, anemia, electrolytes, anticoagulation-related hemorrhage risk"
+              },
+              {
+                "key": "ESR / CRP",
+                "value": "If giant cell arteritis is suspected"
+              },
+              {
+                "key": "Pregnancy test / tox / CO",
+                "value": "Based on context: pregnancy-related headache, intoxication, or carbon monoxide exposure"
+              }
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Onset: thunderclap vs gradual, first/worst headache, maximal at onset vs progressive",
+              "Associated sx: fever, photophobia, neck stiffness, nausea/vomiting, visual changes, jaw claudication, weakness, numbness, AMS",
+              "Pattern and baseline: migraine history, change from prior headaches, postural component, Valsalva trigger",
+              "Risk factors: age >50, anticoagulation, immunocompromise, malignancy, pregnancy/postpartum, recent trauma",
+              "Medication / substance review: analgesic overuse, anticoagulants, stimulants, nitrates, carbon monoxide exposure"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "Vitals: fever, severe HTN, abnormal respirations",
+              "Neuro exam: focal deficits, speech, mentation, gait, cranial nerves",
+              "Fundoscopy if possible: papilledema or retinal hemorrhage",
+              "Meningeal signs: nuchal rigidity, photophobia",
+              "Temporal artery / scalp tenderness and jaw claudication features in older adults"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Thunderclap headache",
+                "value": "Sudden severe headache reaching maximal intensity at onset — SAH until proven otherwise"
+              },
+              {
+                "key": "SNOOP4 red flags",
+                "value": "Systemic sx, Neurologic deficits, Onset sudden, Older age, Pattern change, Postural, Precipitated by Valsalva, Papilledema"
+              },
+              {
+                "key": "Secondary headache",
+                "value": "Headache caused by structural, infectious, vascular, or metabolic disease rather than primary headache disorder"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "SAH / thunderclap",
+                "value": "Worst headache of life, maximal at onset, vomiting, meningismus, collapse"
+              },
+              {
+                "key": "Migraine",
+                "value": "Unilateral, pulsating, nausea/photophobia, aura possible. Sumatriptan, ketorolac, prochlorperazine, IV fluids."
+              },
+              {
+                "key": "Tension",
+                "value": "B/l, band-like, no nausea/photophobia. NSAIDs, acetaminophen."
+              },
+              {
+                "key": "Cluster",
+                "value": "Unilateral periorbital, autonomic features (lacrimation, rhinorrhea). 100% O2, sumatriptan SQ, verapamil for prevention."
+              },
+              {
+                "key": "Giant cell arteritis",
+                "value": "Age >50, temporal tenderness, jaw claudication, ESR >50. Prednisone 40-60mg immediately — do not wait for biopsy."
+              },
+              {
+                "key": "Meningitis",
+                "value": "Fever, neck stiffness, photophobia",
+                "topicLink": "Meningitis / Encephalitis"
+              },
+              {
+                "key": "Idiopathic intracranial HTN",
+                "value": "Obese young woman, pulsatile tinnitus, papilledema, worse lying flat. LP for pressure + tx."
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "If thunderclap HA:!!STAT non-contrast head CT!! → if negative → LP for xanthochromia (r/o SAH)",
+              "If focal deficits: consider stroke alert (CT, CTA)",
+              "If fever + nuchal rigidity: empiric meningitis tx BEFORE LP (vanc + ceftriaxone + dexamethasone)"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Ketorolac",
+                "dose": "15-30mg IV",
+                "route": "IV",
+                "contraindications": "Renal failure, active bleeding, anticoagulation-related high bleed risk",
+                "notes": "Common non-opioid option for migraine or tension-type headache."
+              },
+              {
+                "name": "Prochlorperazine",
+                "dose": "10mg IV/IM q6h PRN",
+                "route": "IV / IM",
+                "contraindications": "Parkinsonism",
+                "notes": "Useful for migraine-associated nausea and headache relief. Consider diphenhydramine for akathisia prevention."
+              },
+              {
+                "name": "Acetaminophen",
+                "dose": "650-1000mg PO/IV",
+                "route": "PO / IV",
+                "contraindications": "Severe hepatic failure",
+                "notes": "Adjunct or first-line option for non-emergent headache syndromes."
+              },
+              {
+                "name": "Dexamethasone",
+                "dose": "10mg IV",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Give with empiric meningitis treatment when bacterial meningitis is suspected."
+              },
+              {
+                "name": "Ceftriaxone",
+                "dose": "2g IV q12h",
+                "route": "IV",
+                "contraindications": "Cephalosporin allergy",
+                "notes": "Empiric meningitis coverage; combine with other agents based on age and risk factors."
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / neurocritical care",
+                "value": "SAH, herniation risk, severe meningitis/encephalitis, uncontrolled BP with neuro injury, significant altered mentation"
+              },
+              {
+                "key": "Admit / monitored bed",
+                "value": "Persistent secondary-headache concern, incomplete workup, uncontrolled pain with red flags, or need for LP / serial neuro exams"
+              },
+              {
+                "key": "Discharge",
+                "value": "Typical primary headache, normal neuro exam, no red flags, improved with treatment, and reliable follow-up"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Syncope",
+        "subtitle": "Transient LOC — ABCs, EKG, r/o cardiac & neurologic causes",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "!!ABCs!! — assess responsiveness, airway, breathing, circulation",
+              "Pulse ox — ensure O2 >92% (or >88% if COPD)",
+              "!!Continuous cardiac monitoring!! — arrhythmia may be transient",
+              "!!12-lead EKG!! — do not delay",
+              "IV access, point-of-care glucose"
+            ]
+          },
+          {
+            "title": "Chart Check / History",
+            "type": "bullets",
+            "items": [
+              "!!Witnessed details!!: manner of collapse, duration down, rhythmic movements",
+              "!!Inciting events!!: prolonged standing, upon standing, stressors, pain, poor PO intake, hot weather",
+              "!!Prodrome!!: dizziness, nausea, abdominal pain, warmth/flushing",
+              "!!Recovery!!: time to baseline, confusion, nausea/vomiting (prolonged postictal → consider seizure)",
+              "Head strike: lucid interval (r/o epidural hematoma)",
+              "Associated sx: tongue laceration (!!lateral = seizure!!, tip = syncope), loss of urine/stool, palpitations, chest pain, SOB",
+              "!!RED FLAGS!!: non-sinus EKG, dyspnea, anemia, HoTN, h/o HF, palpitations, chest pain, exertional, supine syncope, no prodrome",
+              "PMHx: seizure, DM, CAD, CHF, valvular dz, arrhythmia, PE risk factors (malignancy, asymmetric leg swelling), prior echo/EKG, h/o clotting, head trauma, FHx SCD",
+              "Meds: opioids, benzos, TCAs, hypnotics, anticholinergics, anticoagulants, antihypertensives, diuretics"
+            ]
+          },
+          {
+            "title": "Exam (if able)",
+            "type": "bullets",
+            "items": [
+              "!!Orthostatic vitals!!: ↓ SBP ≥20 or ↓ DBP ≥10 or ↑ HR ≥30 upon standing (wait 3 min)",
+              "General appearance & volume status assessment",
+              "Cardiac: rhythm,!!murmur!! (AS, HOCM), S3, S4",
+              "Lungs: crackles (pulm edema, PNA)",
+              "Extremities: LE edema, asymmetric swelling (DVT/PE risk)",
+              "Neuro: focal deficits (stroke/TIA), postictal state, tongue laceration",
+              "Signs of autonomic activation: diaphoresis, pallor, nausea, warmth",
+              "Assess for trauma from fall: head, C-spine, extremities"
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "!!Can't-Miss!!",
+                "value": "PE, AAA, arrhythmia, aortic stenosis, seizure, stroke/TIA, hemorrhage",
+                "topicLink": "Pulmonary Embolism"
+              },
+              {
+                "key": "Reflex / Vasovagal",
+                "value": "Most common. Vasovagal, situational (cough, micturition, defecation, swallow), carotid sinus hypersensitivity, pain-mediated"
+              },
+              {
+                "key": "Orthostatic",
+                "value": "Autonomic failure, meds (antihypertensives, diuretics), volume depletion (↓ PO, GI losses, hemorrhage), prolonged standing, hot weather",
+                "topicLink": "Hypotension"
+              },
+              {
+                "key": "Cardiac",
+                "value": "!!Arrhythmia!! (VT, SVT, AV block, sick sinus, long QT, Brugada, pacer malfunction), !!Structural!! (AS, HOCM, PE, ACS, dissection, tamponade)",
+                "topicLink": "Bradycardia"
+              },
+              {
+                "key": "Neurologic",
+                "value": "Seizure (postictal confusion, lateral tongue bite, incontinence), stroke/TIA, vertebrobasilar insufficiency",
+                "topicLink": "Seizure / Status Epilepticus"
+              },
+              {
+                "key": "Other",
+                "value": "Hypoglycemia, hypoxia, intoxication (EtOH, benzo, opioids), hyperventilation, psychiatric, mechanical fall"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "If not appearing hypervolemic & low concern for CHF → give IVF bolus",
+              "Delegate hx & chart check to teammate while stabilizing",
+              "!!Hold antihypertensives & diuretics!! until eval complete and volume status assessed",
+              "If dehydrated →!!IVF!! (NS or LR bolus, reassess)",
+              "Correct reversible triggers: dehydration, anemia, meds, infection, electrolytes",
+              "If arrhythmia identified → treat per ACLS (see Tachycardia / Bradycardia topics)",
+              "If EKG shows ischemia → ACS pathway",
+              "If concern for PE → anticoagulation, CTPE, consult",
+              "If seizure → seizure precautions, neuro consult, consider AEDs",
+              "If structural cardiac cause (AS, HOCM) → cardiology consult, avoid vasodilators",
+              "If vasovagal & low-risk → reassurance, PO challenge, discharge planning"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "!!EKG!!",
+                "value": "First & most important test. Look for: non-sinus rhythm, AV block, prolonged QT, Brugada pattern, delta wave, ST changes, RV strain (PE)"
+              },
+              {
+                "key": "Telemetry",
+                "value": "Continuous monitoring — arrhythmia may be paroxysmal"
+              },
+              {
+                "key": "BMP",
+                "value": "Hyponatremia, ↑/↓ K, ↑ Cr (dehydration)"
+              },
+              {
+                "key": "CBC",
+                "value": "Anemia (hemorrhage), ↑ WBC (infection)"
+              },
+              {
+                "key": "Troponin",
+                "value": "If chest pain, dyspnea, EKG changes, or ischemic concern"
+              },
+              {
+                "key": "iStat / POC",
+                "value": "Glucose, CBC (anemia), BMP (Na), CK (if seizure suspected)"
+              },
+              {
+                "key": "Other labs",
+                "value": "NT-proBNP (if HF concern), TSH, UA (if older pt), lactate"
+              },
+              {
+                "key": "CXR",
+                "value": "If concern for PNA, pulm edema, effusions"
+              },
+              {
+                "key": "CT Head (non-con)",
+                "value": "If head strike, on anticoagulation, focal deficit. Consider brain attack protocol if focal neuro findings"
+              },
+              {
+                "key": "CTPE",
+                "value": "If workup unremarkable & first syncopal event, or if PE concern (dyspnea, tachycardia, RV strain on EKG, asymmetric LE)"
+              },
+              {
+                "key": "Echo",
+                "value": "r/o AS, HOCM, RV dilation (PE), tamponade. Can be next-day if stable"
+              },
+              {
+                "key": "Other imaging",
+                "value": "CTA/CTV or MRA/MRV if vertebrobasilar concern. EEG if seizure suspected. Pacer interrogation if pacer malfunction"
+              },
+              {
+                "key": "Orthostatics",
+                "value": "Obtain when pt stable enough to stand — supine → standing, wait 3 min"
+              }
+            ]
+          },
+          {
+            "title": "RECAP Template",
+            "type": "bullets",
+            "items": [
+              "\"We were called for!!syncope!!. Pt was/was not responsive on arrival.\"",
+              "\"Vitals are: HR ___, BP ___, SpO2 ___, RR ___, Temp ___\"",
+              "\"EKG shows: ___\"",
+              "\"Hx notable for: [witnessed/unwitnessed, prodrome, inciting event, recovery, red flags]\"",
+              "\"Exam notable for: [orthostatics, murmur, focal deficits, volume status]\"",
+              "\"Working dx: [vasovagal / orthostatic / cardiac / neurologic / undifferentiated]\"",
+              "\"We have ordered: [labs, telemetry, imaging]\"",
+              "\"Plan: [IVF, hold meds, consults, admit vs observe vs DC]\"",
+              "\"Pending: [troponin, CT, echo, orthos]\""
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Admit / ICU",
+                "value": "Cardiac syncope (arrhythmia, ACS, PE, structural), hemodynamically unstable, significant injury from fall, anticoag + head strike, recurrent syncope w/o dx"
+              },
+              {
+                "key": "Observation",
+                "value": "Undifferentiated syncope w/ risk factors, abnormal EKG, first event w/o clear trigger, awaiting workup (echo, trop, tele)"
+              },
+              {
+                "key": "Discharge",
+                "value": "Clear vasovagal or situational trigger, normal EKG, normal vitals, no red flags, no significant injury, tolerating PO, safe home environment"
+              },
+              {
+                "key": "!!Risk stratification!!",
+                "value": "clinical judgment + San Francisco Syncope Rule or Canadian Syncope Risk Score. High risk: abn. EKG, h/o HF, HoTN, Hct <30, SOB, ↑ trop"
+              },
+              {
+                "key": "Consults",
+                "value": "Cardiology (arrhythmia, structural heart dz, pacer). Neurology (seizure, focal deficits). EP for recurrent unexplained syncope (implantable loop recorder)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Abdomen / GI",
+    "icon": "waveform.path.ecg",
+    "color": "green",
+    "topics": [
+      {
+        "title": "Abdominal Pain",
+        "subtitle": "Approach to acute abdominal pain — DDx by location",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "!!Airway!! — assess patency; if AMS or active vomiting w/ aspiration risk → position laterally, suction, consider intubation",
+              "!!Breathing!! — SpO2, RR; peritonitis or distension can impair diaphragm excursion → ↓ tidal volumes",
+              "!!Circulation!! — 2 large-bore IVs;!!assess for shock!! (tachycardia, hypotension, AMS, pallor) → aggressive IVF resuscitation",
+              "If peritoneal signs (rigid abdomen, rebound, guarding):!!surgical consult STAT!! — do NOT delay for imaging",
+              "If hemodynamically unstable + abdominal pain: think ruptured AAA, ruptured ectopic, massive GI bleed, splenic rupture → emergent imaging/OR",
+              "NPO if surgical abdomen suspected",
+              "STAT labs: CBC, BMP, lipase, LFTs, lactate, coags, UA, pregnancy test (all women of reproductive age)"
+            ]
+          },
+          {
+            "title": "Clinical Features",
+            "type": "bullets",
+            "items": [
+              "!!Pregnancy test in ALL females of childbearing age!! — this is mandatory",
+              "Vitals: tachycardia and hypotension suggest serious pathology (hemorrhage, sepsis, perforation)",
+              "May be associated w/ nausea, vomiting, or diarrhea",
+              "Fever may be present in pain from infectious etiology",
+              "Elderly and immunocompromised may have minimal sx w/ severe pathology",
+              "!!Never withhold analgesia!! — multiple studies confirm it does not mask surgical findings"
+            ]
+          },
+          {
+            "title": "Pain by Location (Quick Reference)",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "RUQ",
+                "value": "Cholecystitis, choledocholithiasis, cholangitis, hepatitis, liver abscess, Fitz-Hugh-Curtis, R lower lobe PNA, PE"
+              },
+              {
+                "key": "Epigastric",
+                "value": "GERD, PUD ± perforation, pancreatitis, gallbladder dz, MI, aortic dissection, SMA syndrome, hepatitis"
+              },
+              {
+                "key": "LUQ",
+                "value": "GERD, PUD, pancreatitis, splenic infarction/aneurysm rupture, pyelonephritis, PNA, PE, pericarditis"
+              },
+              {
+                "key": "RLQ",
+                "value": "!!Appendicitis!!, Crohn's (terminal ileitis), cecal diverticulitis, ectopic pregnancy, ovarian torsion/cyst, hernia, psoas abscess"
+              },
+              {
+                "key": "LLQ",
+                "value": "!!Diverticulitis!!, IBD, infectious colitis, kidney stone, ectopic pregnancy, ovarian torsion/cyst, hernia, colon cancer"
+              },
+              {
+                "key": "Diffuse",
+                "value": "AAA, bowel obstruction (SBO/LBO), perforation, peritonitis, mesenteric ischemia, DKA, sickle cell crisis, SBP, pancreatitis, volvulus"
+              },
+              {
+                "key": "Pelvic",
+                "value": "Ectopic pregnancy, ovarian torsion/cyst, PID, TOA, appendicitis, UTI, kidney stone, endometriosis"
+              },
+              {
+                "key": "Flank",
+                "value": "Kidney stone, pyelonephritis, AAA, renal infarction, musculoskeletal"
+              }
+            ]
+          },
+          {
+            "title": "DDx — Diffuse Abdominal Pain",
+            "type": "bullets",
+            "items": [
+              "!!Abdominal aortic aneurysm!! — pulsatile mass, hypotension, back pain",
+              "Bowel obstruction (SBO, LBO, Ogilvie syndrome, malignant)",
+              "Bowel perforation — free air on upright CXR/CT",
+              "Mesenteric ischemia / mesenteric vein thrombosis — pain out of proportion to exam",
+              "Peritonitis / spontaneous bacterial peritonitis",
+              "Acute gastroenteritis, pancreatitis, gastroparesis",
+              "DKA, sickle cell crisis, volvulus",
+              "Hernia (incarcerated/strangulated), IBD, hypercalcemia"
+            ]
+          },
+          {
+            "title": "DDx — Epigastric Pain",
+            "type": "bullets",
+            "items": [
+              "GERD, PUD ± perforation, Zollinger-Ellison syndrome, gastritis",
+              "Pancreatitis — epigastric radiating to back, elevated lipase",
+              "Gallbladder disease: cholecystitis, cholangitis, cholelithiasis, acalculous cholecystitis",
+              "!!Myocardial ischemia!! — always get EKG w/ epigastric pain",
+              "Splenic infarction/enlargement/rupture, pericarditis/myocarditis",
+              "Aortic dissection, hepatitis, pyogenic liver abscess",
+              "Fitz-Hugh-Curtis syndrome, hepatomegaly (CHF), PNA, PE",
+              "SMA syndrome, bowel obstruction, bezoar, ingested foreign body"
+            ]
+          },
+          {
+            "title": "DDx — RUQ Pain",
+            "type": "bullets",
+            "items": [
+              "**Gallbladder**: biliary colic, choledocholithiasis,!!acute cholecystitis!!, ascending cholangitis, acalculous cholecystitis",
+              "Acute hepatitis, pancreatitis, GERD",
+              "Appendicitis (retrocecal), pyogenic liver abscess, bowel obstruction",
+              "Cirrhosis, Budd-Chiari syndrome",
+              "**GU**: pyelonephritis, kidney stone, Fitz-Hugh-Curtis",
+              "**Other**: hepatomegaly (CHF), PUD ± perforation, PNA, herpes zoster, MI, PE, AAA"
+            ]
+          },
+          {
+            "title": "DDx — LUQ Pain",
+            "type": "bullets",
+            "items": [
+              "GERD, PUD ± perforation, pancreatitis",
+              "Splenic infarction / splenic artery aneurysm rupture",
+              "Pyelonephritis, bowel obstruction",
+              "MI, PNA, PE, herpes zoster, pericarditis/myocarditis, aortic dissection"
+            ]
+          },
+          {
+            "title": "DDx — RLQ Pain",
+            "type": "bullets",
+            "items": [
+              "**GI**:!!Appendicitis!! (perforated), peritonitis, Crohn's (terminal ileitis), cecal diverticulitis, inguinal hernia, mesenteric ischemia, ischemic colitis, Meckel's diverticulum, typhlitis",
+              "**GU/GYN**: ectopic pregnancy, endometriosis, kidney stone, mittelschmerz, ovarian cyst, ovarian torsion, PID, pyelonephritis",
+              "**Other**: AAA, epiploic appendagitis, mesenteric lymphadenitis, herpes zoster, psoas abscess, testicular torsion"
+            ]
+          },
+          {
+            "title": "DDx — LLQ Pain",
+            "type": "bullets",
+            "items": [
+              "!!Diverticulitis!!, kidney stone, UTI, pyelonephritis",
+              "Ectopic pregnancy, infectious colitis, IBD (Crohn's, UC)",
+              "Inguinal hernia, mesenteric ischemia, epiploic appendagitis",
+              "Mittelschmerz, ovarian cyst/torsion, PID, psoas abscess, testicular torsion",
+              "Appendicitis, AAA, herpes zoster, endometriosis, colon cancer, IBS, SBO"
+            ]
+          },
+          {
+            "title": "DDx — Pelvic Pain",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Pregnancy-related",
+                "value": "!!Ectopic pregnancy!!, spontaneous/threatened/incomplete abortion, septic abortion"
+              },
+              {
+                "key": "Infections",
+                "value": "Cervicitis, endometritis, PID, tubo-ovarian abscess, Bartholin gland abscess, vulvovaginitis (BV, Candida, Trichomonas)"
+              },
+              {
+                "key": "Adnexal",
+                "value": "Hemorrhagic/ruptured ovarian cyst,!!ovarian torsion!!, twisted paraovarian cyst"
+              },
+              {
+                "key": "Recurrent",
+                "value": "Mittelschmerz, dysmenorrhea, pelvic congestion syndrome, endometriosis"
+              },
+              {
+                "key": "GU",
+                "value": "Cystitis, pyelonephritis, urethritis (GC/Chlamydia), urolithiasis"
+              },
+              {
+                "key": "GI",
+                "value": "Appendicitis, bowel obstruction, diverticulitis, IBD, perirectal abscess"
+              },
+              {
+                "key": "MSK / Vascular",
+                "value": "Abdominal wall hematoma, psoas hematoma/abscess, hernia, pelvic thrombophlebitis, mesenteric ischemia"
+              }
+            ]
+          },
+          {
+            "title": "DDx — Extra-Abdominal Sources",
+            "type": "bullets",
+            "items": [
+              "!!MI!!, aortic dissection, PNA, PE",
+              "Testicular torsion, herpes zoster, muscle spasm, spinal pathology",
+              "DKA, EtOH ketoacidosis, uremia, sickle cell crisis",
+              "SLE, vasculitis, hyperthyroidism, Addison's disease",
+              "Methanol poisoning, heavy metal toxicity, porphyria (AIP)",
+              "Black widow spider bite, glaucoma",
+              "Strep pharyngitis (peds), mononucleosis"
+            ]
+          },
+          {
+            "title": "Eval",
+            "type": "steps",
+            "items": [
+              "!!Pregnancy test!! in all females of childbearing age — mandatory",
+              "Vitals: tachycardia + hypotension → hemorrhage, sepsis, or perforation",
+              "POCUS: FAST exam (free fluid), RUQ (gallbladder/Murphy's), aorta (AAA diameter), renal (hydronephrosis)",
+              "CBC, BMP, LFTs, lipase, lactate, UA",
+              "Urine or serum hCG",
+              "EKG —!!inferior MI can present as epigastric pain!!",
+              "CXR upright — free air under diaphragm (perforation), PNA",
+              "CT abdomen/pelvis w/ IV contrast — most sensitive for acute abdominal pathology"
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Analgesics — IV morphine or fentanyl for pain control (does NOT mask surgical findings in modern practice)"
+            ]
+          },
+          {
+            "title": "Management Details",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Ketorolac",
+                "dose": "15–30 mg IV",
+                "route": "IV",
+                "contraindications": "Renal dz, GI bleed, anticoag",
+                "notes": "First-line analgesic. Does not mask surgical findings."
+              },
+              {
+                "name": "Acetaminophen",
+                "dose": "1 g IV",
+                "route": "IV",
+                "contraindications": "Liver failure",
+                "notes": "Safe in most pts. Can combine w/ ketorolac."
+              },
+              {
+                "name": "Morphine",
+                "dose": "2–4 mg IV q2–4h PRN",
+                "route": "IV",
+                "contraindications": "Resp depression, ileus",
+                "notes": "For severe pain. Titrate to comfort."
+              },
+              {
+                "name": "Ondansetron",
+                "dose": "4 mg IV",
+                "route": "IV",
+                "contraindications": "QT prolongation",
+                "notes": "Antiemetic. Check QTc if repeated dosing."
+              },
+              {
+                "name": "Normal Saline",
+                "dose": "500–1000 mL bolus",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Fluid resuscitation for dehydrated or hemodynamically unstable pts."
+              }
+            ]
+          },
+          {
+            "title": "Can't-Miss Actions",
+            "type": "bullets",
+            "items": [
+              "!!NPO!! if surgical abdomen suspected",
+              "!!Antibiotics early!! if infection suspected (sepsis, perforated viscus, appendicitis)",
+              "!!Surgical consultation emergent!! for: peritonitis, perforation, ischemic bowel, ruptured AAA, ruptured ectopic",
+              "Treat the underlying cause — pain control is adjunctive, not definitive"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Nausea & Vomiting",
+        "subtitle": "Approach to acute nausea, vomiting, and inability to tolerate PO",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "!!Airway!! — if ↓ LOC or persistent vomiting → position laterally to prevent aspiration; suction PRN",
+              "!!Breathing!! — SpO2; assess for aspiration pneumonitis (tachypnea, crackles, hypoxia after vomiting episode)",
+              "!!Circulation!! — IV access; assess hydration status (tachycardia, dry mucous membranes, ↓ UOP, orthostatic hypotension)",
+              "IV crystalloid bolus (NS or LR) if signs of dehydration or ↓ PO intake",
+              "!!Red flags!!: bilious emesis (obstruction), hematemesis (GI bleed), projectile (↑ ICP), severe abdominal pain (surgical abdomen)"
+            ]
+          },
+          {
+            "title": "Red Flags",
+            "type": "bullets",
+            "items": [
+              "Bilious vomiting in adults = bowel obstruction until proven otherwise",
+              "Hematemesis = upper GI bleed — see GI Bleed section",
+              "Vomiting + severe headache = SAH, meningitis, ↑ ICP",
+              "Vomiting + chest pain = ACS, esophageal rupture (Boerhaave)",
+              "Vomiting + abdominal pain = see Abdominal Pain section",
+              "Vomiting + altered mentation = metabolic crisis (DKA, Addison's, uremia)"
+            ]
+          },
+          {
+            "title": "Differential",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "GI causes",
+                "value": "Gastroenteritis, gastroparesis, SBO, appendicitis, pancreatitis, cholecystitis, PUD"
+              },
+              {
+                "key": "Metabolic",
+                "value": "DKA, adrenal insufficiency, hypercalcemia, uremia, hyponatremia"
+              },
+              {
+                "key": "Neurologic",
+                "value": "↑ ICP, meningitis, vestibular (vertigo), migraine, SAH"
+              },
+              {
+                "key": "Medications",
+                "value": "Opioids, NSAIDs, antibiotics, digoxin toxicity, chemotherapy"
+              },
+              {
+                "key": "Pregnancy",
+                "value": "Always check hCG — hyperemesis gravidarum if 1st trimester"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "!!Check K+, Mg2+, glucose!! — vomiting causes hypokalemia & metabolic alkalosis; correct immediately",
+              "Antiemetic: ondansetron 4 mg IV (!!check QTc first — avoid if QTc >500 ms!!)",
+              "Evaluate for surgical emergency: SBO (distension, obstipation), appendicitis, pancreatitis"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Ondansetron (Zofran)",
+                "dose": "4mg IV/PO q6-8h PRN",
+                "route": "IV or PO",
+                "contraindications": "QT prolongation",
+                "notes": "First-line antiemetic. Check QTc if IV — can prolong QT."
+              },
+              {
+                "name": "Prochlorperazine",
+                "dose": "10mg IV/IM q6h PRN",
+                "route": "IV or IM",
+                "contraindications": "Parkinsonism",
+                "notes": "Good for migraine-associated nausea. Risk of akathisia — consider diphenhydramine pretx."
+              },
+              {
+                "name": "Metoclopramide",
+                "dose": "10mg IV q6h PRN",
+                "route": "IV",
+                "contraindications": "GI obstruction, Parkinsonism",
+                "notes": "Prokinetic — useful for gastroparesis. Risk of akathisia and EPS w/ prolonged use."
+              },
+              {
+                "name": "Promethazine",
+                "dose": "12.5-25mg IV/IM/PO q6h",
+                "route": "IV/IM/PO",
+                "contraindications": "Peripheral IV push (necrosis)",
+                "notes": "Avoid IV push — causes severe tissue necrosis if extravasates. Use IM instead."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hematemesis",
+        "subtitle": "Vomiting blood or coffee-ground emesis",
+        "sections": [
+          {
+            "title": "Go To",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Airway / Breathing / Circulation",
+                "value": "Airway: assess patency and protect. Breathing: assess WOB, oxygenation, and ventilation. Circulation: assess pulse, BP, perfusion, and IV access."
+              },
+              {
+                "key": "Primary page",
+                "value": "Open Massive GI Bleed for full evaluation and management",
+                "topicLink": "Massive GI Bleed"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vital Sign Abnormalities",
+    "icon": "waveform.path",
+    "color": "orange",
+    "topics": [
+      {
+        "title": "Fever",
+        "subtitle": "Approach to fever in the inpatient setting",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "!!Airway / Breathing / Circulation!! — fever + hypotension, tachypnea, lactate elevation, or AMS = sepsis until proven otherwise",
+              "If meningitis, purpura, septic shock, or toxic appearance → cultures and antibiotics immediately; do not wait for full workup",
+              "Fever = temp ≥38.3°C (101°F); critically ill, elderly, immunocompromised, or neutropenic pts may have serious infection without high fever"
+            ]
+          },
+          {
+            "title": "Chart Check / History",
+            "type": "bullets",
+            "items": [
+              "Timing — new admission fever, post-op day, ICU onset, intermittent vs persistent, relation to transfusion/procedure/drug start",
+              "Symptoms by system — cough, dysuria, abdominal pain, diarrhea, headache, rash, wound drainage, rigors",
+              "Devices and procedures — central line, Foley, drains, ventilator, dialysis catheter, recent surgery or instrumentation",
+              "Immune status — neutropenia, transplant, steroids, chemotherapy, HIV, cirrhosis, splenectomy",
+              "Medication review — beta-lactams, anticonvulsants, allopurinol, heparin, antipsychotics, serotonergic agents, anesthetic exposure",
+              "Travel, TB exposure, sick contacts, aspiration risk, IV drug use, prosthetic valves/joints",
+              "Post-op clues — early fever may be inflammatory; persistent or worsening fever needs source search"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Ill appearance / shock",
+                "value": "Hypotension, tachypnea, mottling, AMS, poor perfusion — sepsis or other critical illness"
+              },
+              {
+                "key": "Lungs",
+                "value": "Crackles, focal findings, hypoxemia, increased WOB — pneumonia, aspiration, pulmonary edema, PE"
+              },
+              {
+                "key": "Skin / lines / wounds",
+                "value": "Cellulitis, line erythema, purulence, necrosis, pressure injury, post-op wound infection"
+              },
+              {
+                "key": "Abdomen",
+                "value": "RUQ pain, peritonitis, distension, ileus — cholecystitis, abscess, ischemia, C. diff, perforation"
+              },
+              {
+                "key": "Neuro / meningismus",
+                "value": "Headache, neck stiffness, photophobia, focal deficits, encephalopathy — CNS infection or toxic-metabolic state"
+              },
+              {
+                "key": "Rash / mucosa",
+                "value": "Petechiae/purpura, target lesions, mucosal lesions, diffuse erythroderma — meningococcemia, drug reaction, toxic shock"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Infectious — common inpt sources",
+                "value": "Pneumonia, CAUTI, CLABSI, SSI/wound infection, intra-abdominal infection, C. diff, sinusitis, line or drain infection"
+              },
+              {
+                "key": "Post-op / ICU timing",
+                "value": "Wind (pneumonia/PE), water (UTI), wound, walking (DVT/PE), wonder drugs; in ICU also think VAP, acalculous cholecystitis, catheter infection"
+              },
+              {
+                "key": "Drug fever / inflammatory",
+                "value": "Beta-lactams, anticonvulsants, allopurinol, heparin, autoimmune disease, pancreatitis, thrombosis, hematoma"
+              },
+              {
+                "key": "Hyperthermia syndromes",
+                "value": "Heat stroke, NMS, serotonin syndrome, malignant hyperthermia — temp often very high, not typical infectious fever"
+              },
+              {
+                "key": "Fever + rash",
+                "value": "Drug eruption, DRESS, SJS/TEN, viral exanthem, endocarditis, meningococcemia"
+              },
+              {
+                "key": "Fever without source",
+                "value": "Occult abscess, endocarditis, TB, malignancy, autoimmune disease, PE/DVT, drug fever"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "If neutropenic fever (ANC <500 or expected <500) → blood cultures and empiric antipseudomonal antibiotics within 1 hour",
+              "Hyperthermia (>41°C / 105.8°F) suggests non-infectious emergency (heat stroke, NMS, serotonin syndrome, malignant hyperthermia) — start active cooling and targeted therapy",
+              "Remove or evaluate obvious infected devices when clinically appropriate (line, urinary catheter, drain, hardware)"
+            ]
+          },
+          {
+            "title": "Initial Therapeutics by Pattern",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Sepsis / shock",
+                "value": "Early broad-spectrum antibiotics, IV fluids, source control, vasopressors if needed",
+                "topicLink": "Sepsis & Septic Shock"
+              },
+              {
+                "key": "Neutropenic fever",
+                "value": "Antipseudomonal coverage immediately; avoid delays for imaging or consultant availability"
+              },
+              {
+                "key": "Pneumonia / aspiration",
+                "value": "Prompt antibiotics, oxygen, respiratory support as needed"
+              },
+              {
+                "key": "Drug fever",
+                "value": "Stop likely offender if safe; do not miss infection before attributing fever to medication"
+              },
+              {
+                "key": "C. diff",
+                "value": "Stop precipitating antibiotics if possible; start guideline-directed therapy if clinically suspected/confirmed"
+              },
+              {
+                "key": "Hyperthermia syndrome",
+                "value": "Active cooling and syndrome-specific therapy (benzodiazepines, dantrolene, cyproheptadine depending on cause)"
+              }
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Cultures",
+                "value": "Blood cultures x2 from separate sites before antibiotics if feasible; culture the most likely source rather than culturing everything indiscriminately"
+              },
+              {
+                "key": "Basic labs",
+                "value": "CBC w/ diff, BMP/CMP, lactate; consider LFTs, coags, CK depending on presentation"
+              },
+              {
+                "key": "Urine",
+                "value": "UA and urine culture if urinary source is plausible or no source identified"
+              },
+              {
+                "key": "Imaging",
+                "value": "CXR for respiratory symptoms or unexplained inpt fever; targeted CT/US based on exam and suspected source"
+              },
+              {
+                "key": "C. diff testing",
+                "value": "Only if clinically significant diarrhea or ileus with compatible story"
+              },
+              {
+                "key": "If line/device concern",
+                "value": "Inspect, culture appropriately, and remove/exchange if clinically indicated"
+              },
+              {
+                "key": "Hyperthermia workup",
+                "value": "CK, LFTs, coags, renal function, ABG/VBG; evaluate for rhabdo, DIC, organ injury"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU",
+                "value": "Shock, rising lactate, respiratory failure, hyperthermia with organ dysfunction, meningitis, rapidly progressive soft tissue infection"
+              },
+              {
+                "key": "Admit / monitored bed",
+                "value": "New inpt fever without source, neutropenia, immunocompromised host, bacteremia concern, device-associated infection"
+              },
+              {
+                "key": "Floor / observe",
+                "value": "Clinically stable, clear source, reassuring hemodynamics, response to therapy, and no high-risk features"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Renal / Fluid",
+    "icon": "drop.fill",
+    "color": "teal",
+    "topics": [
+      {
+        "title": "Oliguria / Anuria",
+        "subtitle": "Urine output <0.5 mL/kg/hr — approach in the inpatient setting",
+        "sections": [
+          {
+            "title": "First Step — Rule Out Obstruction",
+            "type": "steps",
+            "items": [
+              "Airway: assess patency and protect. Breathing: assess WOB, oxygenation, and ventilation. Circulation: assess pulse, BP, perfusion, and IV access.",
+              "Bladder scan immediately — if >300-400 mL, place Foley (post-renal is the most reversible cause)",
+              "Check Foley if already placed — kinked? clotted? Irrigate or replace",
+              "Check fluid status — is the pt hypovolemic? (flat IVC, tachycardia, dry mucous membranes)",
+              "Review medications: nephrotoxins (NSAIDs, aminoglycosides, contrast, ACE/ARB)",
+              "Check last creatinine trend — acute vs chronic"
+            ]
+          },
+          {
+            "title": "Differential",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Pre-renal",
+                "value": "Hypovolemia, low cardiac output, hepatorenal syndrome. FENa <1%, BUN/Cr >20. Fluid-responsive."
+              },
+              {
+                "key": "Intrinsic ATN",
+                "value": "Ischemia, nephrotoxins. Muddy brown casts. FENa >2%. NOT fluid-responsive."
+              },
+              {
+                "key": "Post-renal",
+                "value": "Bladder outlet obstruction (BPH, stones, malignancy). Bladder scan >400 mL. Foley placement fixes immediately."
+              },
+              {
+                "key": "Cardiorenal",
+                "value": "Low EF + oliguria — giving fluids may worsen. Check BNP, echo. Inotropes/diuretics depending on profile."
+              }
+            ]
+          },
+          {
+            "title": "Workup",
+            "type": "steps",
+            "items": [
+              "Bladder scan — if >300mL, catheterize",
+              "BMP (Cr, BUN, K, bicarb), UA w/ microscopy",
+              "Urine Na and Cr (for FENa = [urine Na x plasma Cr] / [plasma Na x urine Cr] x 100)",
+              "POCUS: IVC for volume status, renal ultrasound for hydronephrosis",
+              "Review inputs/outputs — cumulative fluid balance",
+              "Hold nephrotoxins, ACE/ARB, NSAIDs"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Edema",
+        "subtitle": "Approach to peripheral and pulmonary edema",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "!!Airway!! — if anasarca w/ upper airway edema or angioedema → assess for stridor, prepare for advanced airway",
+              "!!Breathing!! — SpO2, RR; assess for pulmonary edema, WOB, and need for escalated O2 support",
+              "!!Circulation!! — BP, HR; assess for decompensated heart failure (JVD, crackles, S3, hepatojugular reflux)",
+              "If hypotensive + edema: consider cardiogenic shock (poor forward flow) → inotropes, NOT more diuretics",
+              "Assess for DVT if unilateral leg edema (asymmetric, painful, warm) → Doppler US urgently"
+            ]
+          },
+          {
+            "title": "Differential",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "B/l LE + JVD + crackles",
+                "value": "Heart failure — BNP, echo, IV diuresis"
+              },
+              {
+                "key": "B/l LE + ascites + low albumin",
+                "value": "Cirrhosis / hypoalbuminemia — LFTs, albumin, ultrasound"
+              },
+              {
+                "key": "B/l LE + periorbital + proteinuria",
+                "value": "Nephrotic syndrome — urine protein/Cr, albumin, renal workup"
+              },
+              {
+                "key": "Unilateral LE + warmth + erythema",
+                "value": "DVT vs cellulitis — duplex ultrasound, D-dimer"
+              },
+              {
+                "key": "Acute generalized + angioedema",
+                "value": "Anaphylaxis or ACE inhibitor-induced angioedema — epinephrine, hold ACE"
+              },
+              {
+                "key": "Pulmonary edema alone (no LE)",
+                "value": "Flash pulmonary edema, ARDS, capillary leak — CXR, BNP, echo"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "1. Sit pt upright and start O2. If flash pulmonary edema is causing marked dyspnea or hypoxemia, start NIPPV early.",
+              "2. If BP allows, start nitroglycerin for preload/afterload reduction. Use higher urgency when severe HTN is driving the edema.",
+              "3. Give IV loop diuretic if volume overloaded or known CHF: furosemide 40-80 mg IV, or about 2.5× the home PO loop dose.",
+              "4. Reassess WOB, BP, urine output, and response. If hypotension, poor perfusion, or worsening respiratory failure develops, think cardiogenic shock and escalate."
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Furosemide (Lasix)",
+                "dose": "40mg IV (or 2.5x home PO dose)",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "First-line for cardiac edema. Can escalate to drip 5-40 mg/hr if refractory."
+              },
+              {
+                "name": "Torsemide",
+                "dose": "20-100mg PO daily",
+                "route": "PO",
+                "contraindications": "",
+                "notes": "Better oral bioavailability than furosemide. Good for outpt CHF."
+              },
+              {
+                "name": "Metolazone",
+                "dose": "2.5-5mg PO 30 min before Lasix",
+                "route": "PO",
+                "contraindications": "",
+                "notes": "Thiazide-like — synergistic w/ loop diuretics for refractory edema. Watch electrolytes."
+              },
+              {
+                "name": "Spironolactone",
+                "dose": "25-50mg PO daily",
+                "route": "PO",
+                "contraindications": "K >5.0, CrCl <30",
+                "notes": "Potassium-sparing. Adds mortality benefit in systolic CHF (RALES trial). Avoid if K >5.0 or CrCl <30."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
