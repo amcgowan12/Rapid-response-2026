@@ -1,0 +1,1036 @@
+{
+  "name": "Renal/Electrolytes",
+  "icon": "drop.fill",
+  "color": "teal",
+  "topics": [
+    {
+      "title": "Acute renal failure/ESRD",
+      "subtitle": "Rising creatinine, oliguria, volume issues, electrolyte derangements",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency; severe uremia or volume overload causes AMS or pulmonary edema: may need intubation",
+            "Breathing: SpO2, RR; if pulmonary edema (crackles, ↑ WOB): sit upright, O2, consider NIPPV or IV furosemide",
+            "Circulation: check volume status: hypovolemic (prerenal) vs euvolemic vs hypervolemic (cardiorenal)",
+            "Check K+: ↑K is most now life-threatening complication: ECG, treat if K+ >5.5 or EKG changes",
+            "If ↑K with EKG changes: calcium gluconate 3 g IV: insulin 10 units + D50: albuterol nebs",
+            "Foley catheter: r/o urinary obstruction (postrenal); check bladder volume with bladder scan or POCUS"
+          ]
+        },
+        {
+          "title": "KDIGO Staging",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stage 1",
+              "value": "Cr ↑ >0.3 mg/dL within 48h OR 1.5-1.9x baseline within 7 days OR UO <0.5 mL/kg/h for 6-12h"
+            },
+            {
+              "key": "Stage 2",
+              "value": "Cr 2.0-2.9x baseline OR UO <0.5 mL/kg/h for >12h"
+            },
+            {
+              "key": "Stage 3",
+              "value": "Cr >3x baseline OR Cr >4 mg/dL OR RRT initiation OR UO <0.3 mL/kg/h for >24h or anuria >12h"
+            }
+          ]
+        },
+        {
+          "title": "Indications for Urgent Dialysis (AEIOU)",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "A: Acidosis",
+              "value": "pH <7.1 refractory to medical management"
+            },
+            {
+              "key": "E: Electrolytes",
+              "value": "↑K refractory to medical tx"
+            },
+            {
+              "key": "I: Intoxication",
+              "value": "Dialyzable toxins: lithium, methanol, ethylene glycol, ASA, metformin"
+            },
+            {
+              "key": "O: Overload",
+              "value": "Volume overload refractory to diuretics"
+            },
+            {
+              "key": "U: Uremia",
+              "value": "Pericarditis, encephalopathy, bleeding, BUN >100 with sx"
+            }
+          ]
+        },
+        {
+          "title": "Differential Diagnosis",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Prerenal",
+              "value": "Volume depletion, heart failure, hepatorenal syndrome, renal artery stenosis. FENa <1%, BUN/Cr >20"
+            },
+            {
+              "key": "Intrinsic: ATN",
+              "value": "Ischemia, nephrotoxins (contrast, aminoglycosides, NSAIDs, myoglobin). Muddy brown casts. FENa >2%"
+            },
+            {
+              "key": "Intrinsic: GN",
+              "value": "RBC casts, proteinuria, HTN. ANA, ANCA, antiGBM, complement levels"
+            },
+            {
+              "key": "Intrinsic: AIN",
+              "value": "Drugs (PCNs, NSAIDs, PPIs), WBC casts, eosinophiluria, rash, fever"
+            },
+            {
+              "key": "Postrenal",
+              "value": "Obst.: check bladder scan, renal ultrasound. BPH, stones, pelvic malignancy."
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "If hypovolemic: IV crystalloid bolus; if hypervolemic: hold fluids, consider diuresis",
+            "Urgent dialysis indications (AEIOU): Acidosis (refractory), Electrolytes (refractory hyperK), Ingestion (toxic), Overload (refractory pulmonary edema), Uremia (encephalopathy, pericarditis, bleeding)",
+            "Hold nephrotoxins: NSAIDs, ACEi/ARBs, aminoglycosides, contrast; dose adjust renally cleared meds"
+          ]
+        },
+        {
+          "title": "Workup",
+          "type": "steps",
+          "items": [
+            "BMP, CBC, urinalysis with microscopy, urine electrolytes (Na, Cr for FENa)",
+            "Bladder scan: r/o Obst. first",
+            "Renal ultrasound: hydronephrosis, kidney size",
+            "Review meds: nephrotoxins, ACE/ARB, NSAIDs, contrast",
+            "Urine protein/creatinine ratio if nephrotic/nephritic syndrome suspected",
+            "ANA, ANCA, antiGBM, complement (C3/C4), SPEP if glomerulonephritis suspected"
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Kidney Disease: Improving Global Outcomes (KDIGO). KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney International Supplements. 2012;2(1):1138. https://kdigo.org/guidelines/acute-kidney-injury/",
+            "Bagshaw SM, Darmon M, Bhagwanjee S, et al. Clinical Review: Prevention of Acute Kidney Injury: AKICLINI Update. Critical Care. 2024;28:55.",
+            "Gaudry S, Hajage D, Schortgen F, et al. Initiation Strategies for RenalReplacement Therapy in the Intensive Care Unit (AKIKI trial). New England Journal of Medicine. 2016;375(2):122133. https://doi.org/10.1056/NEJMoa1603017"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "↑K",
+      "subtitle": "Weakness, peaked T waves, bradyarrhythmia, widened QRS, renal failure",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "ABCs: telemetry, IV access, stat ECG, repeat BMP to confirm unless arresting or classic ECG changes",
+            "If ECG changes or K ≥6.5: give IV calcium now for membrane stabilization",
+            "Shift K intracellularly: regular insulin IV + dextrose, high dose albuterol, add sodium bicarb if significant metabolic acidosis",
+            "Remove K from body: loop diuretic if making urine, potassium binder for nonimmediate removal, hold all exogenous K",
+            "Call nephrology early for dialysis if refractory, recurrent, severe AKI/CKD, or anuric"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Renal Hx.: AKI, CKD, dialysis dependence, missed dialysis, oliguria/anuria",
+            "Meds: ACEi/ARB, spironolactone/eplerenone, amiloride, trimethoprim, NSAIDs, heparin, tacrolimus/cyclosporine, BB, digoxin toxicity",
+            "Recent potassium intake: supplements, salt substitutes, tube feeds, TPN, large transfusion burden",
+            "Cell breakdown: Rhabdo, tumor lysis, hemolysis, crush injury, burns, seizure",
+            "Acidbase / endocrine: DKA, metabolic acidosis, adrenal insufficiency",
+            "Ask whether sample was hemolyzed or drawn from line running Kcontaining fluids: pseudohyperkalemia is common"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Cardiac: bradycardia, irregular rhythm, hypotension, poor perfusion",
+            "Neuro / muscular: weakness, paresthesias, ascending flaccid paralysis in severe cases",
+            "Volume status: overload (JVD, crackles, edema) vs dehydration / DKA",
+            "Signs of underlying cause: muscle tenderness / dark urine (Rhabdo), fistula / dialysis cath, hyperpigmentation or shock (adrenal crisis)",
+            "Remember: severity of ECG toxicity does not always correlate tightly with serum K"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Hyperkalemia",
+              "value": "K >5.0-5.5 mEq/L depending on lab. Mild: 5.5-5.9. Moderate: 6.0-6.4. Severe: ≥6.5 or any ECG change"
+            },
+            {
+              "key": "Pseudohyperkalemia",
+              "value": "Falsely elevated K from hemolysis, thrombocytosis, severe leukocytosis, prolonged tourniquet time, fist clenching, or traumatic draw. Always confirm if story / ECGdon't fit"
+            },
+            {
+              "key": "Classic ECG progression",
+              "value": "Peaked T waves: PR prolongation / Pwave flattening: QRS widening: sine wave: VT/VF / asystole"
+            },
+            {
+              "key": "Critical point",
+              "value": "Calcium stabilizes the myocardium but does NOT lower K. Insulin / albuterol shift K temporarily. Definitive tx requires K removal or dialysis"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Decreased renal excretion",
+              "value": "AKI, CKD, hypoaldosteronism, adrenal insufficiency, type 4 RTA, obstructive uropathy"
+            },
+            {
+              "key": "Medicationrelated",
+              "value": "ACEi/ARB, potassiumsparing diuretics, NSAIDs, trimethoprim, calcineurin inhibitors, heparin"
+            },
+            {
+              "key": "Shift out of cells",
+              "value": "Metabolic acidosis, DKA, insulin deficiency, hyperosmolar states, betablocker effect, digoxin toxicity, succinylcholine"
+            },
+            {
+              "key": "Increased release / load",
+              "value": "Rhabdo, tumor lysis syndrome, hemolysis, burns, crush injury, transfusions, excessive supplements / salt substitutes"
+            },
+            {
+              "key": "DDx: Pseudohyperkalemia",
+              "value": "Hemolyzed sample or severe thrombocytosis / leukocytosis: repeat BMP / plasma K before chasing if pt is stable"
+            },
+            {
+              "key": "DDx: ↓K",
+              "value": "Opposite ECG pattern: U waves, flattened T waves, QT prolongation. Differentiate on BMP.",
+              "topicLink": "Hypokalemia"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Membrane stabilization: calcium gluconate 2-3g IV peripheral or calcium chloride 1g IV central. Repeat in 5-10 min if QRS remains wide / ECG unchanged",
+            "Shift K: regular insulin 10 units IV + dextrose 25g IV. Consider dextrose even if glucose is normal; monitor glucose q1h for at least 4-6h",
+            "Add albuterol 10-20mg neb: synergistic with insulin, but may less effective in pts on BB or ESRD",
+            "Give sodium bicarb if significant metabolic acidosis (best when acidemic; weak as sole thetherapy)",
+            "Remove K: furosemide if making urine, stop Kcontaining fluids / meds, use binder only if no ileus / bowel ischemia & not relying on immediate effect",
+            "Dialysis for refractory hyperK, recurrent rebound after temporizing measures, severe renal failure, or anuria / missed dialysis",
+            "Recheck K 1h after temporizing thetherapy, then q2-4h untilimproving",
+            "Repeat ECG after calcium / insulin if initial tracing was abnormal",
+            "Expect rebound hyperkalemia after insulin wears off if K has not been removed",
+            "Hold ACEi/ARB, spironolactone, trimethoprim, NSAIDs, K supplements, TPN K, & K in maintenance fluids",
+            "Treat underlying cause: dialysis, relieve obstruction, treat DKA / acidosis, manage Rhabdo or tumor lysis",
+            "Review chronic prevention plan before discharge: diet, dialysis adherence, med changes, outpt lab follow up"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stat",
+              "value": "BMP / CMP, repeat K if hemolysis suspected, Mg, Phos, creatinine, glucose, ECG"
+            },
+            {
+              "key": "If unstable / acidemic",
+              "value": "ABG / VBG, lactate, cardiac monitoring"
+            },
+            {
+              "key": "Workup",
+              "value": "Review med list, check urine output, UA, CK if Rhabdo, uric acid / phosphate if tumor lysis, cortisol if adrenal insufficiency suspected"
+            },
+            {
+              "key": "Monitoring",
+              "value": "Fingerstick glucose q1h for 4-6h after IV insulin; BMP q2-4h during active tx"
+            },
+            {
+              "key": "Dialysis clue",
+              "value": "Missed dialysis + ECG changes / severe hyperK = call nephrology now,don't wait for binders to work"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Calcium gluconate",
+              "dose": "2-3g IV over 5-10 min",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Preferred for peripheral administration. Membrane stabilization only. Onset 1-3 min, duration ~30-60 min. Repeat if ECG changes persist."
+            },
+            {
+              "name": "Calcium chloride",
+              "dose": "1g IV over 5-10 min",
+              "route": "IV",
+              "contraindications": "Avoid peripheral extravasation",
+              "notes": "More elemental calcium than gluconate. Prefer central line or code situation."
+            },
+            {
+              "name": "Regular insulin",
+              "dose": "10 units IV",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Give with dextrose unless markedly hyperglycemic. Lowers K by ~0.6-1.0 mEq/L. Watch for delayed hypoglycemia, esp in CKD."
+            },
+            {
+              "name": "Dextrose 50%",
+              "dose": "25g IV (50mL amp)",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Give with insulin. Consider more dextrose infusion if baseline glucose <150 or recurrent hypoglycemia risk."
+            },
+            {
+              "name": "Albuterol",
+              "dose": "10-20mg nebulized",
+              "route": "Neb",
+              "contraindications": "",
+              "notes": "High dose required for K shift. Lowers K by ~0.5-1.0 mEq/L. May cause tachycardia / tremor."
+            },
+            {
+              "name": "Sodium bicarbonate",
+              "dose": "50-100 mEq IV",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Best adjunct when metabolic acidosis is present. Less reliable as isolated hyperK thetherapy."
+            },
+            {
+              "name": "Furosemide",
+              "dose": "40-80mg IV",
+              "route": "IV",
+              "contraindications": "Anuria, severe hypovolemia",
+              "notes": "Promotes renal K excretion if pt has urine output. Follow urine output & volume status."
+            },
+            {
+              "name": "Sodium zirconium cyclosilicate",
+              "dose": "10g PO TID initially",
+              "route": "PO",
+              "contraindications": "Bowel obstruction / ileus",
+              "notes": "Potassium binder with onset in hours. Useful for control, not cardiac rescue."
+            },
+            {
+              "name": "Patiromer",
+              "dose": "8.4-25.2g PO",
+              "route": "PO",
+              "contraindications": "Bowel obstruction / ileus",
+              "notes": "GI K binder. Onset hours: not for immediate emergencies. Separate from other oral meds."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Clase CM, Carrero JJ, Ellison DH, et al. Potassium Homeostasis and Management of Dyskalemia in Kidney Diseases: Conclusions from a KDIGO Controversies Conference. Kidney International. 2020;97(1):4261. https://doi.org/10.1016/j.kint.2019.09.018",
+            "Palmer BF, Clegg DJ. Diagnosis and Treatment of Hyperkalemia. Cleveland Clinic Journal of Medicine. 2017;84(12):934942. https://doi.org/10.3949/ccjm.84a.17056",
+            "Long B, Warix JR, Koyfman A. Controversies in Management of Hyperkalemia. Journal of Emergency Medicine. 2018;55(2):192205. https://doi.org/10.1016/j.jemermed.2018.04.004"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hypokalemia",
+      "subtitle": "Weakness, ileus, PVCs, U waves, low serum potassium",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "ABCs: Place on telemetry if K <3.0 or symptomatic",
+            "Stat ECG: check for U waves, QT prolongation, arrhythmia",
+            "**Severe (<2.5) or symptomatic:** KCl 20–40 mEq/h IV via central line + cardiac monitoring. Recheck BMP q2h."
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Diuretic use: loops (furosemide), thiazides (most common Meds cause)",
+            "GI losses: vomiting, diarrhea, NG suction, laxative use",
+            "Insulin administration (transcellular shift)",
+            "Betaagonist use (albuterol nebulizers: shifts K intracellularly)",
+            "Digoxin use: hypokalemia potentiates digoxin toxicity",
+            "Renal Hx., dialysis status, acidbase disturbances"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Muscle weakness: esp proximal (difficulty standing from chair)",
+            "↓ deep tendon reflexes (hyporeflexia)",
+            "Abd distension, ↓ bowel sounds (ileus)",
+            "Cardiac rhythm: irregular rhythm if arrhythmia",
+            "Respiratory effort: severe hypoK causes respiratory muscle weakness"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Mild (3.0–3.5)",
+              "value": "Often asymptomatic. Fatigue, muscle cramps, constipation"
+            },
+            {
+              "key": "Moderate (2.5–3.0)",
+              "value": "Muscle weakness, myalgia, ileus, ECG changes (U waves, flattened T waves)"
+            },
+            {
+              "key": "Severe (<2.5)",
+              "value": "Paralysis, Rhabdo, arrhythmias (VT/VF, torsades), respiratory failure"
+            },
+            {
+              "key": "Critical point",
+              "value": "Hypokalemia is refractory if Mg is low: always check & replace Mg first"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "GI losses",
+              "value": "Vomiting, diarrhea, NG suction, laxative abuse, villous adenoma"
+            },
+            {
+              "key": "Renal losses",
+              "value": "Diuretics (loops, thiazides), RTA (type 1 & 2), hyperaldosteronism, Mg depletion"
+            },
+            {
+              "key": "Transcellular shift",
+              "value": "Insulin, betaagonists (albuterol), alkalosis, refeeding syndrome, hypothermia"
+            },
+            {
+              "key": "Poor intake",
+              "value": "Malnutrition, alcoholism, anorexia nervosa"
+            },
+            {
+              "key": "Or",
+              "value": "Cushing's, Bartter/Gitelman syndrome, amphotericin B, cisplatin"
+            },
+            {
+              "key": "DDx: ↑K",
+              "value": "Opposite presentation: peaked T waves, widened QRS. Differentiate on BMP.",
+              "topicLink": "↑K"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Check & replace Mg first: give MgSO4 2g IV if Mg <2.0",
+            "**Mild (3.0–3.5):** KCl 40 mEq PO. Recheck in 4h.",
+            "**Moderate (2.5–3.0):** KCl 40 mEq PO + 10–20 mEq/h IV. Place on tele.",
+            "Max peripheral IV rate: 10 mEq/h (higher rates cause phlebitis: use central line)",
+            "Each 10 mEq IV KCl raises serum K by ~0.1 mEq/L",
+            "Continue replacement until K >4.0",
+            "Recheck BMP q2–4h during active replacement until K >3.5",
+            "Start PO replacement once K >3.0 & tolerating PO",
+            "Txt underlying cause: hold diuretic, treat GI losses",
+            "For pts on digoxin: maintain K >4.0 (hypoK potentiates dig toxicity)",
+            "Consider Ksparing agent (spironolactone, amiloride) if diuretic induced",
+            "Dietary counseling: potassiumrich foods (bananas, oranges, potatoes, spinach)"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stat",
+              "value": "BMP (K, Cr), Mg (always check: hypoK refractory if Mg low), ECG"
+            },
+            {
+              "key": "ECG findings",
+              "value": "Flattened T waves: ST depression: prominent U waves: QT prolongation: torsades/VT/VF if K <2.5"
+            },
+            {
+              "key": "Workup",
+              "value": "Urine K (>20 mEq/L = renal loss, <20 = extrarenal), urine Cl, ABG/VBG, phos, calcium"
+            },
+            {
+              "key": "If refractory",
+              "value": "Urine K/Cr ratio, plasma renin/aldosterone (hyperaldosteronism), TSH, cortisol"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "KCl (oral)",
+              "dose": "40–80 mEq PO divided doses",
+              "route": "PO",
+              "contraindications": "GI Obst.",
+              "notes": "Preferred for mildmoderate. Take with food to reduce GI upset."
+            },
+            {
+              "name": "KCl (IV)",
+              "dose": "10–20 mEq/h peripheral, up to 40 mEq/h central",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Max 10 mEq/h peripherally. Central line for higher rates. Always on tele."
+            },
+            {
+              "name": "MgSO4",
+              "dose": "2g IV over 1h",
+              "route": "IV",
+              "contraindications": "Myasnia gravis",
+              "notes": "Replace Mg first: hypoK refractory if Mg low. Target Mg >2.0."
+            },
+            {
+              "name": "Spironolactone",
+              "dose": "25–50 mg PO daily",
+              "route": "PO",
+              "contraindications": "K >5.0, CrCl <30",
+              "notes": "Ksparing diuretic. For chronic hypoK from diuretic use or hyperaldosteronism."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Clase CM, Carrero JJ, Ellison DH, et al. Potassium Homeostasis and Management of Dyskalemia in Kidney Diseases: Conclusions from a KDIGO Controversies Conference. Kidney International. 2020;97(1):4261. https://doi.org/10.1016/j.kint.2019.09.018",
+            "Unwin RJ, Luft FC, Shirley DG. Pathophysiology and Management of Hypokalemia: A Clinical Perspective. Nature Reviews Nephrology. 2011;7(2):7584. https://doi.org/10.1038/nrneph.2010.175"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hyponatremia",
+      "subtitle": "Confusion, seizures, nausea, edema or hypovolemia, low sodium",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "check symptom severity first: sx guide urgency, not number alone",
+            "Mild/asymptomatic: start workup, treat underlying cause, no emergent hypertonic saline needed",
+            "If overcorrecting: stop saline, give D5W 6-10 mL/kg IV over 1-2h, give DDAVP 2mcg IV (clamp). Goal: re lower Na back to safe correction rate"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Acuity: acute (<48h: marathon runners, psychogenic polydipsia, postop, ecstasy) vs chronic (>48h: most inpts). Acute can corrected faster; chronic = high ODS risk",
+            "Meds: thiazides (most common drug cause), SSRIs, carbamazepine, oxcarbazepine, NSAIDs, desmopressin, cyclophosphamide, sulfonylureas, bupropion, opioids",
+            "Volume losses: vomiting, diarrhea, diuretics, poor PO, NG suction, burns",
+            "Volume overload: CHF, cirrhosis, nephrotic syndrome, renal failure",
+            "Pulm/CNS dz: PNA, lung cancer (SIAD), brain tumor, SAH, meningitis, postop state",
+            "Endocrine: hypothyroidism, adrenal insufficiency ( must r/o: both cause hyponatremia & mimic SIAD)",
+            "Alcohol use, malnutrition, liver dz: ↑ ODS risk",
+            "Baseline Na trend: how fast did it drop? Prior Na values critical for determining chronicity",
+            "Recent IVF: hypotonic fluids (D5W, 0.45% NS) worsens hyponatremia"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Symptom severity determines urgency:",
+            "Severe: seizures, obtundation/coma (GCS <8), cardiorespiratory distress, vomiting",
+            "Moderate: confusion, headache, nausea without vomiting",
+            "Mild: gait disturbance, falls, concentration difficulty, cognitive deficits",
+            "Sxemerge below Na ~120 mEq/L, but depend on rate of decline",
+            "Volume status assessment Narrows DDx:",
+            "Hypovolemic: dry mucous membranes, ↓ skin turgor, tachycardia, orthostasis, flat JVP",
+            "Euvolemic: clinically nl. volume: think SIAD, hypothyroid, adrenal insufficiency",
+            "Hypervolemic: edema, JVD, crackles, ascites: think CHF, cirrhosis, nephrotic syndrome, renal failure",
+            "Neuro exam: mentation, focal deficits (r/o CNS cause), seizure activity"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Hyponatremia",
+              "value": "Na <135 mEq/L. Mild: 130-134. Moderate: 125-129. Severe: <125"
+            },
+            {
+              "key": "Serum osmolality",
+              "value": "Osm = 2×Na + BUN/2.8 + Glucose/18. nl.: 275-295 mOsm/kg. Hypotonic (<275) = true hyponatremia"
+            },
+            {
+              "key": "Pseudohyponatremia",
+              "value": "Isotonic (275-295): lab artifact from hyperlipidemia or hyperproteinemia. Not true hyponatremia"
+            },
+            {
+              "key": "Hypertonic hyponatremia",
+              "value": "Osm >295: hyperglycemia or mannitol. Correct Na: add 2.4 mEq/L per 100 mg/dL glucose >100"
+            },
+            {
+              "key": "SIAD (SIADH)",
+              "value": "Euvolemic hypotonic hyponatremia with UOsm >100, UNa >20-30, nl. renal/adrenal/thyroid function. Dx of exclusion"
+            },
+            {
+              "key": "ODS (osmotic demyelination)",
+              "value": "Central pontine myelinolysis. Overly rapid Na correction. Dysarthria, dysphagia, quadriparesis, lockedin syndrome. Irreversible. Risk ↑ with Na <120, alcoholism, malnutrition, hypoK, cirrhosis"
+            },
+            {
+              "key": "DDAVP clamp",
+              "value": "DDAVP 2mcg IV q8h: prevents uncontrolled aquaresis by locking ADH 'on'. Allows controlled Na correction with concurrent 3% NaCl. Used when autocorrection risk is high"
+            }
+          ]
+        },
+        {
+          "title": "Correction Rate & ODS Prevention",
+          "type": "steps",
+          "items": [
+            "Max correction rates: ≤10 mEq/L in first 24h, ≤8 mEq/L per 24h reafter, until Na ≥130",
+            "K correction counts toward Na correction: every 1 mEq K repleted raises Na ~1 mEq/L. Factor this in",
+            "High ODS risk groups (aim for even slower correction, ≤6-8 mEq/24h): Na <105, chronic hyponatremia, alcoholism, malnutrition, hypokalemia, cirrhosis, burns",
+            "Autocorrection risk: when cause of hyponatremia resolves (e.g., hypovolemia corrected with IVF, drug stopped), ADH drops: sudden massive free water excretion: rapid Na rise",
+            "DDAVP clamp strategy: if autocorrection risk is high, start DDAVP 2mcg IV q8h proactively + restrict free water to <1L/day + controlled 3% NaCl if needed",
+            "Monitor Na q1-2h after intervention, then q4-6h. Do NOT setandforget",
+            "If Na overcorrects: STOP all saline. Give D5W 6-10 mL/kg over 1-2h. Give DDAVP 2mcg IV. Recheck Na q1-2h. Goal: relower Na back to safe trajectory",
+            "ODS sx appear 2-6 days after overcorrection: dysarthria, dysphagia, quadriparesis, AMS, lockedin syndrome. MRI may delayed. May be irreversible",
+            "Give thiamine 100mg IV daily in pts with alcohol use disorder or malnutrition risk"
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Step 1: Serum Osm",
+              "value": "Hypotonic (<275) = true hyponatremia: proceed. Isotonic (275-295) = pseudohyponatremia. Hypertonic (>295) = dilutional (hyperglycemia, mannitol)"
+            },
+            {
+              "key": "Step 2: Urine Osm",
+              "value": "<100 mOsm = dilute urine, ADH suppressed (psychogenic polydipsia, beer potomania, low solute intake, reset osmostat). >100 mOsm = ADH present: step 3"
+            },
+            {
+              "key": "Step 3: Urine Na",
+              "value": "<20-30 mEq/L = RAAS activated: hypovolemic (GI losses, 3rdspacing) or hypervolemic (CHF, cirrhosis). >20-30 mEq/L = SIAD, adrenal insufficiency, hypothyroidism, renal failure, diuretics"
+            },
+            {
+              "key": "Hypovolemic (UNa <20)",
+              "value": "GI losses (vomiting, diarrhea), 3rdspacing (pancreatitis, burns), poor PO intake"
+            },
+            {
+              "key": "Hypovolemic (UNa >20)",
+              "value": "Thiazides, cerebral salt wasting, RTA, mineralocorticoid deficiency, osmotic diuresis"
+            },
+            {
+              "key": "Euvolemic (UNa >20)",
+              "value": "SIAD (most common inpt cause), hypothyroidism, adrenal insufficiency, psychogenic polydipsia (UOsm <100), drugs (SSRIs, carbamazepine)"
+            },
+            {
+              "key": "Hypervolemic (UNa <20)",
+              "value": "CHF, cirrhosis, nephrotic syndrome"
+            },
+            {
+              "key": "Hypervolemic (UNa >20)",
+              "value": "Renal failure (CKD, AKI)"
+            },
+            {
+              "key": "Must r/o",
+              "value": "Adrenal insufficiency (random cortisol, ACTH stim) & hypothyroidism (TSH): both mimic SIAD but require specific tx"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Severe sx (seizures, coma, resp distress): 3% NaCl 150mL IV bolus over 20 min: can repeat q20min up to 3-4 times. Each 100mL raises Na ~2 mEq/L. Goal: ↑ Na by 4-6 mEq/L to stop sx",
+            "Moderate sx (confusion, headache, nausea): 3% NaCl 150mL IV over 20 min x1. Recheck Na at 1h. May repeat if no improvement",
+            "Correction rate limits: ≤10 mEq/L in first 24h, ≤8 mEq/L per 24h reafter. Overcorrection: osmotic demyelination syndrome (ODS)",
+            "Check Na q1-2h after hypertonic saline bolus, then q4-6h during correction",
+            "DDAVP clamp (2mcg IV q8h): consider if baseline Na <120 & cause likely to autocorrect (resolved hypovolemia, water intoxication, reversible SIAD). Prevents uncontrolled free water excretion",
+            "Identify & treat underlying cause: volume status, meds, infection, adrenal insufficiency, hypothyroidism"
+          ]
+        },
+        {
+          "title": "SIAD (SIADH) Management",
+          "type": "bullets",
+          "items": [
+            "Dx of exclusion: hypotonic hyponatremia, UOsm >100, UNa >20-30, euvolemic, nl. renal function (GFR >20-25), adrenal & thyroid function nl.",
+            "Common causes: pulm dz (PNA, cancer, COPD), CNS dz (SAH, tumor, meningitis, stroke), drugs (SSRIs, carbamazepine, oxcarbazepine, opioids, cyclophosphamide, MDMA), pain, nausea, postop state",
+            "Treat underlying cause first: stop offending drug, treat infection, etc.",
+            "Fluid restriction: 500-1000 mL/day (first line but compliance is poor, esp in inpts receiving IV meds/nutrition)",
+            "Oral urea 15-60g/day: emerging as preferred tx. Osmotic diuresis. Mix with juice",
+            "Salt tabs 1-3g PO TID with meals: less potent alternative",
+            "Furosemide 20mg q6h + salt tabs/urea: ↑ free water excretion",
+            "Avoid NS in SIAD: if UOsm > NS osmolality (308 mOsm), NS worsens hyponatremia (kidney retains water, excretes Na)",
+            "Vaptans (tolvaptan): unpredictable aquaresis, overcorrection risk, hepatotoxicity. Not suggested in most ICU settings",
+            "SGLT2 inhibitors (empagliflozin 25mg/day): emerging option for chronic SIAD. Promotes osmotic diuresis"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "BMP",
+              "value": "Na, K ( hypoK ↑ ODS risk: correct K simultaneously), glucose (correct Na for hyperglycemia), BUN/Cr"
+            },
+            {
+              "key": "Serum osmolality",
+              "value": "First step. Hypotonic (<275) = true hyponatremia. If not hypotonic: pseudohyponatremia or hypertonic"
+            },
+            {
+              "key": "Urine osmolality",
+              "value": "<100 = ADH suppressed (polydipsia, beer potomania). >100 = ADH active: check UNa"
+            },
+            {
+              "key": "Urine sodium",
+              "value": "<20-30 = effective volume depletion or edematous state. >20-30 = SIAD, diuretics, adrenal insufficiency, renal dz"
+            },
+            {
+              "key": "TSH",
+              "value": "r/o hypothyroidism as cause"
+            },
+            {
+              "key": "AM cortisol ± ACTH stim",
+              "value": "r/o adrenal insufficiency: critical before labeling as SIAD"
+            },
+            {
+              "key": "Uric acid",
+              "value": "Low in SIAD (↑ uric acid excretion). Elevated in hypovolemia"
+            },
+            {
+              "key": "LFTs, albumin",
+              "value": "If cirrhosis suspected"
+            },
+            {
+              "key": "CXR",
+              "value": "Lung pathology causing SIAD (PNA, cancer, TB)"
+            },
+            {
+              "key": "CT head",
+              "value": "If CNS cause suspected (tumor, SAH, meningitis) or if AMS without clear cause"
+            },
+            {
+              "key": "Serial Na",
+              "value": "q1-2h after hypertonic saline, then q4-6h during correction. Trend is everything"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "3% NaCl (hypertonic saline)",
+              "dose": "150mL IV bolus over 20 min. May repeat q20min x3-4 for severe sx. Each 100mL ↑ Na ~2 mEq/L",
+              "route": "IV (peripheral OK for boluses; central for prolonged infusion)",
+              "contraindications": "Hypervolemic hyponatremia (relative: use cautiously with diuretics in CHF/cirrhosis)",
+              "notes": "Only for symptomatic hyponatremia. Goal: ↑ Na 4-6 mEq/L to resolve acute sx. Do NOT target nl. Na. Recheck Na after each bolus"
+            },
+            {
+              "name": "DDAVP (desmopressin)",
+              "dose": "2mcg IV q8h (range 2-4mcg IV q6-8h)",
+              "route": "IV",
+              "contraindications": "None absolute",
+              "notes": "DDAVP clamp: prevents overcorrection by locking ADH on. Use if Na <120 & cause can autocorrect. Also use to relower Na if overcorrecting (with D5W)"
+            },
+            {
+              "name": "D5W (5% dextrose in water)",
+              "dose": "6-10 mL/kg IV over 1-2h",
+              "route": "IV",
+              "contraindications": "Hyperglycemia (relative: monitor glucose)",
+              "notes": "For overcorrection rescue: free water to relower Na. Use with DDAVP. Goal: bring Na back down to safe correction trajectory"
+            },
+            {
+              "name": "Oral urea",
+              "dose": "15-60 g/day PO (start ~30g daily, mix with juice to mask taste)",
+              "route": "PO",
+              "contraindications": "Hepatic encephalopathy, severe hepatic failure, GI intolerance",
+              "notes": "Emerging first line for chronic SIAD. Osmotic diuretic: promotes free water excretion. Better tolerated than extreme fluid restriction"
+            },
+            {
+              "name": "nl. saline (0.9% NaCl)",
+              "dose": "500mL-1L bolus, then recheck",
+              "route": "IV",
+              "contraindications": "Hypervolemic states (CHF, cirrhosis, nephrotic syndrome)",
+              "notes": "For hypovolemic hyponatremia only. Corrects volume depletion: turns off ADH: Na rises. Caution: worsens SIAD (Na in NS < UOsm: net free water retention)"
+            },
+            {
+              "name": "Furosemide",
+              "dose": "20mg IV q6h (or 40mg IV PRN)",
+              "route": "IV",
+              "contraindications": "Hypovolemia, severe hypoK",
+              "notes": "For hypervolemic hyponatremia (CHF, cirrhosis): promotes free water excretion. Can combine with salt tabs or oral urea in SIAD. Replace K aggressively"
+            },
+            {
+              "name": "KCl (potassium chloride)",
+              "dose": "Per protocol: aggressive repletion",
+              "route": "IV / PO",
+              "contraindications": "↑K, severe renal failure",
+              "notes": "Correct K simultaneously: K repletion raises Na (K is osmotically active). HypoK ↑ ODS risk. Every 1 mEq K given ≈ raises Na by ~1 mEq (counts toward correction limit)"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Spasovski G, Vanholder R, Allolio B, et al. Clinical Practice Guideline on Diagnosis and Treatment of Hyponatraemia. European Journal of Endocrinology. 2014;170(3):G1G47. https://doi.org/10.1530/EJE-13-1020",
+            "Verbalis JG, Goldsmith SR, Greenberg A, et al. Diagnosis, Evaluation, and Treatment of Hyponatremia: Expert Panel Recommendations. American Journal of Medicine. 2013;126(10 Suppl 1):S1S42. https://doi.org/10.1016/j.amjmed.2013.07.006",
+            "Sterns RH. Disorders of Plasma Sodium — Causes, Consequences, and Correction. New England Journal of Medicine. 2015;372(1):5565. https://doi.org/10.1056/NEJMra1404489"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hypercalcemia",
+      "subtitle": "AMS, constipation, polyuria, dehydration, shortened QT, elevated calcium",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "Place on cardiac telemetry if Ca >14 mg/dL: risk of fatal arrhythmias",
+            "Monitor I&Os: watch for volume overload in pts with CHF or renal failure",
+            "Aggressive Fluids (NS): 200-300 mL/h UOP (target 3-6L in first 24h)"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Hx Cancer?: SCC, breast, RCC, MM, lymphoma (occurs in 20-30% of cancer pts)",
+            "S/S: AMS, lethargy, polyuria, polydipsia, constipation, N/V",
+            "Bone pain (osteolytic metastases)",
+            "Meds: thiazides, lithium, Ca/Vit D supplements, antacids",
+            "Volume status: most pts are significantly dehydrated",
+            "Cardiac Hx: arrhythmia risk with severe hypercalcemia",
+            "Renal Fxn: affects bisphosphonate choice & dosing",
+            "Prior Ep. of hypercalcemia? Txt used?"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Mentation: AMS, lethargy, obtundation/coma (severe)",
+            "Volume assessment",
+            "Abd exam: distension (ileus)",
+            "EKG: short QTc",
+            "MSK: proximal weakness, hyporeflexia",
+            "Bone tenderness at metastatic sites",
+            "Psych: psychosis, depression, personality changes"
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Primary hyperparathyroidism",
+              "value": "Most common outpt cause. PTH inappropriately nl. or elevated; lownl. phosphorus. Usually adenoma, less commonly hyperplasia or MEN syndrome."
+            },
+            {
+              "key": "Malignancy: PTHrPmed.",
+              "value": "Most common inpt cause. SCC (lung, head/neck), renal cell, bladder, breast, ovarian cancers. PTH suppressed; PTHrP elevated."
+            },
+            {
+              "key": "Malignancy: osteolytic bone disease",
+              "value": "Breast cancer, multiple myeloma, bony metastases: direct bone resorption with high calcium &bone pain."
+            },
+            {
+              "key": "Malignancy: calcitriolmed.",
+              "value": "Lymphoma & some granulomatous or hematologic processes increase 1,25OH vitamin D."
+            },
+            {
+              "key": "Vitamin Drelated",
+              "value": "Vitamin D intoxication, excessive calcitriol, granulomatous disease (sarcoid, TB, fungal disease): increased GI calcium absorption."
+            },
+            {
+              "key": "Medication / supplement causes",
+              "value": "Thiazides, lithium, calcium carbonate or vitamin A excess, Ca/Vit D supplements, teriparatide; review OTCs & antacids."
+            },
+            {
+              "key": "Endocrine causes",
+              "value": "Hyperthyroidism, adrenal insufficiency, pheochromocytoma;milder than malignancy or primary hyperPTH."
+            },
+            {
+              "key": "High bone turnover / renal",
+              "value": "Immobilization, Paget disease, rhabdo recovery, advanced CKD/transplantrelated hypercalcemia, milkalkali syndrome."
+            },
+            {
+              "key": "Familial hypocalciuric hypercalcemia",
+              "value": "Lifelong mild hypercalcemia with low urine calcium; benign &mistaken for primary hyperparathyroidism."
+            },
+            {
+              "key": "Pseudohypercalcemia / lab issues",
+              "value": "High albumin or dehydration can raise total calcium; confirm with corrected calcium or ionized calcium."
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Start aggressive NS and track UOP; use loop diuretic only after volume is restored",
+            "Give calcitonin 4 units/kg SC or IV q12h for rapid but shortterm Ca lowering",
+            "Add antiresorptive txt: zoledronic acid 4mg IV preferred; use denosumab if bisphosphonaterefractory or renal impairment",
+            "If calcitriolmed. cause is likely, add prednisone; correct Mg/K and stop Ca/vit D, thiazides, and lithium",
+            "Treat the cause in parallel: malignancy, hyperPTH, granulomatous dz, or meds",
+            "Aggressive IV hydration: titrate to UOP 200-300 mL/h (watch for retention; overload)",
+            "Repeat iCal q6-8h until trending down & <12 mg/dL",
+            "Continue calcitonin q12h for first 48h (stop if Ca returns to normal)(bridge to bisphosphonate effect)",
+            "Recheck Cal 2-4 days after bisphosphonate: peak effect at 4-7 days",
+            "Correct hypomagnesemia (Mg <2.0) & hypokalemia as needed",
+            "Monitor renal function daily: saline infusion + bisphosphonates can affect kidneys",
+            "Definitive tx: tumordirected therapy (chemo, radiation, surgery)",
+            "Hypercalcemia of malignancy suggests poor prognosis: median survival 3-6 months Discuss goals of care"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Ionized calcium",
+              "value": "Most accurate: not affected by albumin. >5.6 mg/dL confirms hypercalcemia"
+            },
+            {
+              "key": "PTH",
+              "value": "Should be suppressed (<20 pg/mL) in malignancy. If elevated: primary hyperparathyroidism"
+            },
+            {
+              "key": "PTHrP",
+              "value": "Elevated in hypercalcemia of malignancy"
+            },
+            {
+              "key": "BMP, Mg, Phos",
+              "value": "check renal function, coelectrolyte abnormalities"
+            },
+            {
+              "key": "ECG",
+              "value": "Shortened QT, ST changes, Osborn waves (severe). Telemetry if Ca >14"
+            },
+            {
+              "key": "25OH vitamin D, 1,25OH vitamin D",
+              "value": "Elevated 1,25OH in calcitriolmed. (lymphoma)"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "nl. saline",
+              "dose": "200-300 mL/h",
+              "route": "IV",
+              "contraindications": "Decompensated CHF, volume overload",
+              "notes": "Firstline tx. Restores intravascular volume & promotes renal calcium excretion. Target 3-6L in 24h."
+            },
+            {
+              "name": "Calcitonin (salmon)",
+              "dose": "4 units/kg q12h",
+              "route": "SC or IV",
+              "contraindications": "Salmon allergy",
+              "notes": "Fastest onset (2-4h). Lowers Ca by 1-2 mg/dL. Tachyphylaxis develops in 48-72h: bridge to bisphosphonates."
+            },
+            {
+              "name": "Zoledronic acid",
+              "dose": "4mg IV over 15 min",
+              "route": "IV",
+              "contraindications": "CrCl <35 mL/min",
+              "notes": "Preferred bisphosphonate. Onset 2-4 days, duration 2-4 weeks. More effective & faster than pamidronate."
+            },
+            {
+              "name": "Pamidronate",
+              "dose": "60-90mg IV over 2-24h",
+              "route": "IV",
+              "contraindications": "CrCl <30 mL/min",
+              "notes": "Alternative bisphosphonate. 90mg dose for Ca >13.5. Slower infusion needed for renal protection."
+            },
+            {
+              "name": "Denosumab",
+              "dose": "120mg SC",
+              "route": "SC",
+              "contraindications": "Hypocalcemia",
+              "notes": "For bisphosphonaterefractory hypercalcemia or renal impairment. Onset 4-10 days."
+            },
+            {
+              "name": "Prednisone",
+              "dose": "60mg PO daily",
+              "route": "PO",
+              "contraindications": "Active infection",
+              "notes": "Effective for calcitriolmed. hypercalcemia: lymphoma, myeloma, granulomatous disease."
+            },
+            {
+              "name": "Furosemide",
+              "dose": "20-40mg IV",
+              "route": "IV",
+              "contraindications": "Hypovolemia",
+              "notes": "Only AFTER adequate volume resuscitation. Promotes calciuresis. Do NOT use before hydration: worsens dehydration."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Bilezikian JP, Khan AA, Potts JT Jr, et al. Guidelines for the Management of Asymptomatic Primary Hyperparathyroidism: Summary Statement from the Fourth International Workshop. Journal of Clinical Endocrinology & Metabolism. 2014;99(10):35613569. https://doi.org/10.1210/jc.2014-1413",
+            "Rosner MH, Dalkin AC. OncoNephrology: The Pathophysiology and Treatment of MalignancyAssociated Hypercalcemia. Clinical Journal of the American Society of Nephrology. 2012;7(10):17221729. https://doi.org/10.2215/CJN.02470312"
+          ]
+        }
+      ]
+    }
+  ]
+}

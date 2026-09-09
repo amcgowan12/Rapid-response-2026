@@ -1,0 +1,2915 @@
+[
+  {
+    "name": "Cardiovascular",
+    "icon": "heart.fill",
+    "color": "red",
+    "topics": [
+      {
+        "title": "Cardiac Arrest",
+        "subtitle": "Pulselessness, unresponsiveness, apnea, shockable vs nonshockable rhythms",
+        "sections": [
+          {
+            "title": "Immediate Steps",
+            "type": "steps",
+            "items": [
+              "No pulse: start CPR NOW, get backboard under pt.",
+              "!!Circulation!!: check pulse, BP, perfusion, and IV access.",
+              "!!Airway!!: check patency, look for obstructions.",
+              "!!Breathing!!: check ventilation efficiency.",
+              "CONFIRM CODE STATUS while compressions are starting.",
+              "TASK: Call code: dial !!2-3333!!",
+              "Put pads on ASAP for rhythm checks & defibrillation; shave or rip old pads off if needed.",
+              "BVM ventilate 30:2 with suction ready before anesthesia comes."
+            ]
+          },
+          {
+            "title": "Initial Steps & Delegation",
+            "type": "bullets",
+            "items": [
+              "Line up compressor, backup compressor #1, & backup compressor #2.",
+              "Assign (1) airway, (2) timekeeper/recorder, (3) pharmacy/meds, (4) IV access, (5) CPR coach/code whisperer: one-liner, day events, access, & recent labs.",
+              "Grab Stool",
+              "Get 2 PIVs; if difficult, place IO early.",
+              "prep meds: prep Epi Amps, get Epi or Levo Gtt ready.",
+              "Get Doppler for pulse checks & US for POCUS.",
+              "Call family."
+            ]
+          },
+          {
+            "title": "Chart Check",
+            "type": "bullets",
+            "items": [
+              "Why pt is in hospital.",
+              "Relevant comorbidities/causes of Code.",
+              "Day events: meds, procedures?, labs.",
+              "Current access, code status, & decisionmakers.",
+              "ECMO candidate? If arrest may reversible with ECMO as bridge, discuss ecmo within 10 minutes."
+            ]
+          },
+          {
+            "title": "Rhythm Based ACLS",
+            "type": "steps",
+            "items": [
+              "Start CPR, give oxygen, and attach monitor/defibrillator.",
+              "Check rhythm q2 min.",
+              "If VF / pulseless VT:",
+              "- Shock, resume CPR for 2 min, and get IV/IO access.",
+              "- If still shockable, shock again and resume CPR.",
+              "- Give epinephrine 1 mg IV/IO q3-5 min during ongoing CPR.",
+              "- If still shockable after next cycle, shock again, resume CPR, then give amiodarone 300 mg IV/IO or lidocaine.",
+              "- Continue shock -> CPR -> meds -> treat reversible causes.",
+              "If asystole / PEA:",
+              "- Resume CPR for 2 min, get IV/IO access, and give epinephrine 1 mg IV/IO q3-5 min.",
+              "- Recheck rhythm q2 min and continue CPR.",
+              "- Treat reversible causes throughout.",
+              "Airway / monitoring:",
+              "- prepare advanced airway when it will not interrupt compressions.",
+              "- Use waveform capnography to confirm tube placement and monitor CPR quality.",
+              "CPR:",
+              "- Rate 100-120/min, depth at least 2 inches, full recoil, minimal pauses, avoid overventilation.",
+              "- 30:2 if no advanced airway; if advanced airway is in place, give 1 breath q6 sec with continuous compressions."
+            ]
+          },
+          {
+            "title": "Reversible Causes (H's & T's)",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Hemorrhage/Shock",
+                "value": "Give 1000 mL LR (if not overloaded); if bleeding, start blood products & MTP."
+              },
+              {
+                "key": "↓ Glucose",
+                "value": "Check glucose early; give D50 if low."
+              },
+              {
+                "key": "Hypoxia",
+                "value": "Confirm O2 delivery, vent effectively, & intubate; check gas & pulse ox."
+              },
+              {
+                "key": "Hydrogen ion (acidosis)",
+                "value": "Txt cause; bicarbonate 1 amp q4min, optimize ventilation, & support shock."
+              },
+              {
+                "key": "↑K",
+                "value": "Give 1 aml CaCl, insulin plus dextrose, & confirm on blood gas or labs."
+              },
+              {
+                "key": "Hypothermia",
+                "value": "Actively rewarm."
+              },
+              {
+                "key": "Tension PTX",
+                "value": "Use exam or POCUS for absent lung sliding & decompress now."
+              },
+              {
+                "key": "Tamponade",
+                "value": "Use POCUS; if present, get ROSC, then pericardiocentesis."
+              },
+              {
+                "key": "ACS",
+                "value": "If ROSC & ACS is likely, get ECG & move toward cath lab."
+              },
+              {
+                "key": "PE",
+                "value": "If RV strain & PE is likely, consider alteplase 100 mg IV & continue CPR for 60-90 minutes afterward."
+              },
+              {
+                "key": "Toxins",
+                "value": "Review MAR & exposures; give antidotes (naloxone, glucagon) when indicated."
+              }
+            ]
+          },
+          {
+            "title": "Post-ROSC",
+            "type": "bullets",
+            "items": [
+              "Treat most likely cause of arrest.",
+              "Get Labs",
+              "Get EKG,",
+              "Full Pocus",
+              "EKG: cath lab early if ACS.",
+              "Aggressive hemodynamic support",
+              "Support perfusion with norepinephrine or epinephrine infusion & more fluid as needed.",
+              "Target SpO2 92-98% & ETCO2 35-40.",
+              "If not following commands, consider targeted temperature management & CT head.",
+              "Transformation to PEA = Good sign https://www.resuscitationjournal.com/article/S0300-9572(22)00142-3/fulltext."
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Epinephrine",
+                "dose": "1mg IV/IO",
+                "route": "IV/IO",
+                "contraindications": "",
+                "notes": "1 mg every 3-5 minutes."
+              },
+              {
+                "name": "Amiodarone",
+                "dose": "Bolus 300 mg, then 150 mg(2nd dose)",
+                "route": "IV/IO",
+                "contraindications": "",
+                "notes": "For refractory VF/pVT after defibrillation."
+              },
+              {
+                "name": "Lidocaine 2%",
+                "dose": "1-1.5 mg/kg (typically 100mg), then 0.5-0.75 mg/kg",
+                "route": "IV/IO",
+                "contraindications": "",
+                "notes": "Alternative to amiodarone for refractory VF/pVT."
+              },
+              {
+                "name": "Magnesium sulfate",
+                "dose": "2 g over 15 min",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Use if torsades is suspected."
+              },
+              {
+                "name": "Sodium bicarb",
+                "dose": "1-2 amps",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "For hyperkalemia, severe acidosis, or toxinmed. arrest."
+              },
+              {
+                "name": "Alteplase",
+                "dose": "100 mg",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Consider for arrest strongly suspected from massive PE (refer to TUHS policy on alteplase during code); continue CPR 60-90 min after admin."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Panchal AR, Bartos JA, Cabañas JG, et al. 2020 AHA Guidelines for CPR and Emergency Cardiovascular Care. Circulation. 2020;142(16_suppl_2):S366S468. https://doi.org/10.1161/CIR.0000000000000916",
+              "Merchant RM, Topjian AA, Panchal AR, et al. 2023 AHA Focused Update on Adult Advanced Cardiovascular Life Support. Circulation. 2024;149(5):e254e273. https://doi.org/10.1161/CIR.0000000000001194"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "ACS",
+        "subtitle": "Chest pain, ischemic ECG changes, rising troponin, diaphoresis",
+        "sections": [
+          {
+            "title": "First 60 Seconds",
+            "type": "bullets",
+            "items": [
+              "Circulation: check pulse, BP, perfusion, and IV access.\nAirway: check patency and protect.\nBreathing: check WOB, oxygenation, and ventilation.",
+              "EKG ASAP",
+              "- STEMI = STE >1 mm in 2 contiguous leads. In V2V3: ≥2 mm in men ≥40 years, ≥2.5 mm in men <40 years, or ≥1.5 mm in women regardless of age. Activate cath lab ASAP and do NOT wait for troponin.",
+              "- Posterior MI: ST depression V1V3 + dominant R waves: get posterior leads V7V9",
+              "- Right ventricular MI: inferior STEMI + ↓ BP: get rightsided leads (V4R)",
+              "Aspirin 325 mg PO/PR ASAP",
+              "IV access, telemetry, pulse oximetry"
+            ]
+          },
+          {
+            "title": "STEMI vs NSTEMI vs Unstable Angina",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "STEMI, MI equivalent",
+                "value": "STE in 2+ contiguous leads or STEMI equivalent. Do not wait for troponin. Activate cath lab now."
+              },
+              {
+                "key": "NSTEMI",
+                "value": "Troponin elevated without ST elevation. May have ST depression or T-wave inversion. Urgent, not immediate cath."
+              },
+              {
+                "key": "Unstable Angina",
+                "value": "Ischemic symptoms with normal troponin. Still ACS: admit and risk-stratify."
+              },
+              {
+                "key": "STEMI equivalents",
+                "value": "Wellens, de Winter, posterior MI, or Sgarbossa-positive LBBB/paced rhythm."
+              }
+            ]
+          },
+          {
+            "title": "STEMI Equivalent EKGs",
+            "type": "imageGallery",
+            "images": [
+              {
+                "assetName": "ekg_stemi_anterior",
+                "caption": "Anterior STEMI (LAD occlusion)",
+                "description": "STE in V1V4. Reciprocal ST depression in inferior leads (II, III, aVF). Large territory: risk of cardiogenic shock & arrhythmia."
+              },
+              {
+                "assetName": "ekg_stemi_inferior",
+                "caption": "Inferior STEMI (RCA occlusion)",
+                "description": "ST elevation in II, III, aVF with reciprocal ST depression in I & aVL. Always get V4R to check for RV involvement & V7V9 for posterior extension."
+              },
+              {
+                "assetName": "ekg_wellens",
+                "caption": "Wellens Syndrome (critical proximal LAD stenosis)",
+                "description": "Deep, symmetric Twave inversions in V2V3 (Type A) or biphasic T waves in V2 (Type B). Patient is pain-free when this pattern appears. Do NOT stress test: go directly to cath. Represents critical proximal LAD stenosis with risk of anterior wall MI."
+              },
+              {
+                "assetName": "ekg_dewinter",
+                "caption": "de Winter T Waves (LAD occlusion equivalent)",
+                "description": "Upsloping ST depression >1mm at Jpoint in V1V6 with tall, prominent, symmetric T waves. No ST elevation. This is STEMI equivalent: activate cath lab. Present in 2% of LAD occlusions."
+              },
+              {
+                "assetName": "ekg_sgarbossa",
+                "caption": "Sgarbossa Criteria (STEMI in LBBB)",
+                "description": "In LBBB or paced rhythm: (1) concordant STE ≥1 mm in any lead = 5 pts, (2) concordant ST depression ≥1 mm in V1V3 = 3 pts, (3) discordant STE ≥5 mm (modified: ratio >0.25 of preceding S wave) = 2 pts. Score ≥3 is highly specific for MI."
+              },
+              {
+                "assetName": "ekg_posterior_mi",
+                "caption": "Posterior STEMI",
+                "description": "ST depression in V1V3 with tall, broad R waves & upright T waves: mirror image of posterior STE. Confirm with posterior leads V7V9 showing ST elevation ≥0.5 mm. Often accompanies inferior STEMI."
+              }
+            ]
+          },
+          {
+            "title": "EKG Localization",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Anterior (LAD)",
+                "value": "STE in V1-V4. Large territory: risk of cardiogenic shock, CHF, arrhythmia."
+              },
+              {
+                "key": "Lateral (LCx)",
+                "value": "STE in I, aVL, V5-V6. Often smaller infarct but can extend."
+              },
+              {
+                "key": "Inferior (RCA)",
+                "value": "STE in II, III, aVF. Check RV involvement (V4R) & posterior (V7-V9). High vagal tone: ↓ HR common."
+              },
+              {
+                "key": "Posterior (PDA/LCx)",
+                "value": "ST depression V1-V3, tall R waves, upright T waves in V1-V3. Confirm with V7-V9 showing STE."
+              },
+              {
+                "key": "Right ventricular",
+                "value": "Inferior STEMI + ↓ BP + clear lungs + JVD. Get V4R. NO nitrates & diuretics: preload dependent. Treat with IV fluids."
+              },
+              {
+                "key": "Reciprocal changes",
+                "value": "ST depression in leads opposite to STE: ↑ specificity for true STEMI. Absence does not rule it out."
+              }
+            ]
+          },
+          {
+            "title": "Risk Strat:: NSTEMI / UA",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "HEART Score",
+                "value": "[MD CALC Heart Score](https://www.mdcalc.com/calc/1752/heartscoremajorcardiacevents) Score 03: low risk, consider discharge. 4-6: moderate, admit. 7-10: high risk, early invasive."
+              },
+              {
+                "key": "GRACE Score",
+                "value": "Predicts inhospital & 6month mortality. High risk (>140): early invasive strategy within 24h. Intermediate (109140): invasive within 72h. Low (<109): ischemiaguided."
+              },
+              {
+                "key": "TIMI Score (NSTEMI)",
+                "value": "[MD CALC TIMI Score](https://www.mdcalc.com/calc/111/timiriskscoreuanstemi) Higher score = more benefit from early invasive."
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Aspirin 325mg PO Load NOW",
+              "EKG: if STEMI, then cath lab now",
+              "hstroponin: now & at +1 hour or +3 hours",
+              "Delta 15 ng/L (up OR down) – approx 20%. Delta can down as troponin will ↓ after ACS event. +ACS if >15ng/L change",
+              "IV access, telemetry, pulse ox",
+              "O2 only if SpO2 <90%: routine O2 may ↑ mortality",
+              "Nitroglycerin 0.4 mg SL q5min x3 for pain (STOP if SBP <100, RV/inferior MI, or PDE5 inhibitor use)",
+              "Heparin: UFH bolus + gtt",
+              "BB: metoprolol tartrate 12.525 mg PO (HR >60, SBP >100, no shock): avoid IV BB",
+              "Statin: atorvastatin 80 mg PO or Rosuvastatin 40mg PO",
+              "P2Y12i (HOLD if CABG possible): ticagrelor 180 mg load > clopidogrel 600 mg (c/s Cards first)"
+            ]
+          },
+          {
+            "title": "STEMI Reperfusion Strategy",
+            "type": "steps",
+            "items": [
+              "Primary PCI (preferred): door-balloon <90 minutes",
+              "Fibrinolytics (if PCI not available within 120 min): tenecteplase (weight based IV bolus)",
+              "Fibrinolytic CI: active bleeding, prior hemorrhagic stroke, ischemic stroke <3 months, aortic dissection, intracranial neoplasm, known bleeding diasis",
+              "After fibrinolytics: transfer for angiography within 324 hours regardless of reperfusion success",
+              "Failed reperfusion (persistent STE + pain 60-90 min post-lytic): rescue PCI ASAP"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Aspirin",
+                "dose": "325 mg load, then 81 mg daily",
+                "route": "PO",
+                "contraindications": "Active GI bleed, allergy",
+                "notes": "Nonenteric coated for loading. Give now to all ACS. Lifelong therapy."
+              },
+              {
+                "name": "Ticagrelor",
+                "dose": "180 mg load,then 90 mg BID",
+                "route": "PO",
+                "contraindications": "Active bleed, CABG <5d",
+                "notes": "Preferred P2Y12 inhibitor in most ACS (PLATO trial). Hold 5 days before CABG. Don't use with ASA >100 mg/day."
+              },
+              {
+                "name": "Clopidogrel",
+                "dose": "600 mg load, then 75 mg daily",
+                "route": "PO",
+                "contraindications": "Active bleed, CABG <5d",
+                "notes": "Alternative if ticagrelor not tolerated. Hold 5 days before CABG. CYP2C19 poor metabolizers may not respond."
+              },
+              {
+                "name": "Heparin (UFH)",
+                "dose": "60 U/kg bolus (max 4000 U),then12 U/kg/hr (max 1000 U/hr)",
+                "route": "IV",
+                "contraindications": "Active bleed, HIT",
+                "notes": "Target aPTT 1.5-2.5x control. Preferred if cath lab activation likely (shorter halflife, reverse with protamine)."
+              },
+              {
+                "name": "Enoxaparin",
+                "dose": "1 mg/kg SQ q12h",
+                "route": "SQ",
+                "contraindications": "CrCl <30, CABG <24h",
+                "notes": "Alternative to UFH in NSTEMI. Reduce to 1 mg/kg daily if CrCl <30. Avoid if CABG planned within 24h."
+              },
+              {
+                "name": "Nitroglycerin",
+                "dose": "0.4 mg SL q5min x3,then IV drip 5-200 mcg/min",
+                "route": "SL / IV",
+                "contraindications": "SBP <90, RV infarct, PDE5i <48h",
+                "notes": ""
+              },
+              {
+                "name": "Metoprolol Tartrate",
+                "dose": "12.5-25 mg PO q6h, then 200 mg daily",
+                "route": "PO",
+                "contraindications": "HR <60, SBP <100, shock bronchospasm",
+                "notes": "Start within 24h if stable. Avoid if HR <60, SBP <100, PR >0.24s, severe bronchospasm."
+              },
+              {
+                "name": "Atorvastatin",
+                "dose": "80 mg daily",
+                "route": "PO",
+                "contraindications": "",
+                "notes": "Highintensity statin for all ACS. Start regardless of baseline LDL. Check LFTs, CK at baseline."
+              },
+              {
+                "name": "Tenecteplase",
+                "dose": "Weightbased: 30-50 mg single IV bolus",
+                "route": "IV bolus",
+                "contraindications": "Active bleed, recent surgery, CVA <3mo",
+                "notes": "Fibrinolytic for STEMI when PCI not available within 120 min. <60 kg: 30 mg, 60-70: 35 mg, 70-80: 40 mg, 80-90: 45 mg, >90: 50 mg."
+              }
+            ]
+          },
+          {
+            "title": "Complications to Anticipate",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Cardiogenic shock",
+                "value": "SBP <90 after fluids, s/s endorgan damage. Large anterior MI. Inotropes (dobutamine), vasopressors (norepinephrine), mechanical support (IABP, Impella). Emergent cath.",
+                "topicLink": "Cardiogenic Shock / ADHF"
+              },
+              {
+                "key": "Arrhythmias",
+                "value": "VT/VF MCC of early death ACLS. Reperfusion arrhythmias (accelerated idioventricular rhythm) = benign. Complete heart block in inferior MI= temporary pacing."
+              },
+              {
+                "key": "Acute MR",
+                "value": "Papillary muscle rupture (usually posteromedial, 27 days postMI). New loud murmur + flash pulmonary edema. Emergent surgery."
+              },
+              {
+                "key": "Ventricular septal rupture",
+                "value": "New harsh holosystolic murmur + hemodynamic collapse, 35 days post-MI. Confirm with echo + stepup in O2 sat from RA to RV. Emergent surgery."
+              },
+              {
+                "key": "Free wall rupture",
+                "value": "Sudden PEA arrest 35 days post-MI. Pericardial tamponade on POCUS. Usually fatal: emergent surgery if caught."
+              },
+              {
+                "key": "Pericarditis (Dressler syndrome)",
+                "value": "Days to weeks postMI. Pleuritic chest pain, friction rub, diffuse ST elevation. NSAIDs + colchicine. Avoid anticoagulation if large effusion."
+              }
+            ]
+          },
+          {
+            "title": "Pearls & Pitfalls",
+            "type": "bullets",
+            "items": [
+              "Women, diabetics, & elderly with atypical s/s: dyspnea, nausea, fatigue, or epigastric pain without classic chest pain",
+              "nl. initial troponin does NOT r/o ACS: serial troponins are essential (0/1h or 0/3h protocol)",
+              "Type 2 MI (supplydemand mismatch, anemia, sepsis, etc.) is NOT same as Type 1 MI (plaque rupture): tx differs significantly",
+              "Cocaine chest pain: Use benzodiazepines, nitroglycerin, CCBs",
+              "RV infarct triad: ↓ BP + clear lungs + JVD: give fluids, avoid nitrates & diuretics",
+              "Wellens syndrome (deep symmetric TWI in V2V3) = critical proximal LAD stenosis: do NOT stress test, go to cath"
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Writing Committee Members, Lawton JS, TamisHolland JE, et al. 2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization. Journal of the American College of Cardiology. 2022;79(2):e21e129. https://doi.org/10.1016/j.jacc.2021.09.006",
+              "Gulati M, Levy PD, Mukherjee D, et al. 2021 AHA/ACC Guideline for Chest Pain Evaluation & Diagnosis. Circulation. 2021;144(22):e588e637. https://doi.org/10.1161/CIR.0000000000001029",
+              "Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the Management of Acute Coronary Syndromes. European Heart Journal. 2023;44(38):37203826. https://doi.org/10.1093/eurheartj/ehad191"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "AFib / Flutter with RVR",
+        "subtitle": "Palpitations, tachycardia, dyspnea, irregular or flutter rhythm",
+        "sections": [
+          {
+            "title": "ABCs: Is Patient Unstable?",
+            "type": "bullets",
+            "items": [
+              "Circulation: check pulse, BP, perfusion, and IV access.",
+              "Airway + Breathing: check WOB, oxygenation, and ventilation.",
+              "Unstable = ↓ BP, AMS, active ischemia, acute pulmonary edema: synchronized cardioversion",
+              "If mentating well, even with borderline BP, consider trial of rate control before shocking",
+              "telemetry, EKG, IV access, O2"
+            ]
+          },
+          {
+            "title": "Chart Check",
+            "type": "bullets",
+            "items": [
+              "Precipitants: recent surgery, sepsis, ischemia, PE, EtOH/withdrawal, thyrotoxicosis",
+              "Prior EKGs, TTE (LA size, LV function, valve Dz, pulmHTN, LV thrombus)",
+              "Prior cardioversions, ablation history",
+              "Anticoagulation: agent, adherence, duration",
+              "Time of symptom onset: if<48h, cardioversion is safer without TEE",
+              "Hyperthyroid symptoms, recent TSH/T4",
+              "Caffeine & EtOH use, sympathomimetic Rx",
+              "Hx: HTN, DM, CHF, valve disease, OSA, angina, prior stroke/TIA"
+            ]
+          },
+          {
+            "title": "EKG Interpretation",
+            "type": "bullets",
+            "items": [
+              "**AFib**: No P waves, irregularly irregular RR intervals",
+              "**AFL with RVR**: Sawtooth flutter waves (best seen in II, III, aVF, V1), regular or regularly irregular rate —150 bpm (2:1 block)",
+              "**If regular**: Consider escape rhythm vs complete heart block (CHB): not true AFib",
+              "**DDx**: MAT (3+ distinct Pwave morphologies, irregular), sinus tach with frequent PACs (look for P waves before each QRS)"
+            ]
+          },
+          {
+            "title": "Etiology / Precipitants",
+            "type": "bullets",
+            "items": [
+              "**Cardiac**: ACS/ischemia, heart failure (too much or too little fluid: Starling curve), valvular disease, hypertensive heart disease",
+              "**Pulmonary**: PE, COPD exacerbation, hypoxia, pneumonia",
+              "**Stressinduced / sympathetic surge**: Postop, sepsis, pain, hyperthyroidism, cocaine/stimulants, pheochromocytoma",
+              "**Metabolic**: Low Mg, low K, thyrotoxicosis, severe anemia",
+              "**Toxic**: Acute alcohol, alcohol withdrawal, caffeine excess, sympathomimetic drugs"
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "check hemodynamic stability",
+              "Unstable > immediate synchronized cardioversion; Biphasic waveform, 200 J initial energy",
+              "If stable: IV rate control",
+              "- Firstline: Beta blocker OR diltiazem (if EF >40%)",
+              "- Adjunct: IV magnesium",
+              "- Alternative: Digoxin or IV amiodarone (if HFrEF or other agents contraindicated)",
+              "- Avoid: Calcium channel blockers in moderatesevere LV dysfunction",
+              "- Avoid: AV nodal blockers in preexcitation (WPW)",
+              "Consider rhythm control (cardioversion)",
+              "- Electrical or pharmacological (ibutilide, amiodarone, flecainide/propafenone)",
+              "Anticoagulation check",
+              "- AF >48 hours: Requires 3 weeks anticoagulation OR TEE before cardioversion",
+              "- Continue anticoagulation >=4 weeks postcardioversion",
+              "Target heart rate",
+              "- Lenient: <110 bpm at rest (asymptomatic, preserved LV function)",
+              "- Strict: <=80 bpm at rest (symptomatic pts)",
+              "Evaluate triggers and long term strategy",
+              "check precipitants (infection, electrolytes, thyroid, alcohol)",
+              "Determine CHA2DS2VASc score for long term anticoagulation"
+            ]
+          },
+          {
+            "title": "Stable: Rate Control Protocol",
+            "type": "bullets",
+            "items": [
+              "Trial IVF 500mL-1L NS if c/f hypovolemia",
+              "Metoprolol 5mg IV q5min x3 (if HR >130 or symptomatic & sBP >90): PO metoprolol 25mg PO q6h (max 400mg/day)",
+              "Diltiazem 0.25 mg/kg IV bolus (max 25mg): can rebolus after 15 min: drip 2.5-5 mg/hr: PO ER dose = 10 x [3(infusion rate mg/hr) + 3], max 360mg/day",
+              "AVOID diltiazem/verapamil in decompCHF (EF <40%): use amiodarone or digoxin",
+              "Digoxin: load 250 mcg q2-6h, then 125-375 mcg daily. Onset 1h, peak 1-6h. Good for CHF + AFib. Avoid in CKD/ Abn [K]",
+              "Abx if c/f sepsis",
+              "Amiodarone if rate control fails or rhythm control is desired (see rhythm section)"
+            ]
+          },
+          {
+            "title": "Rhythm Control: Amiodarone",
+            "type": "bullets",
+            "items": [
+              "On AC for 3 weeks OR 100% confirmed new AFib <48h",
+              "IV load: 150mg bolus over 10 min: can repeat",
+              "IV drip: 1 mg/min x 6 hours: then 0.5 mg/min x 18 hours (full IV load = 10g)",
+              "Transition to PO: 400mg PO TID until 10g total load, then 200mg PO BID maintenance",
+              "Watch for: ↓BP with rapid IV bolus, ↓HR, phlebitis, long term thyroid/pulm/hepatic tox",
+              "Can cause stroke if pt converts to sinus rhythm & is not anticoagulated: ensure AC on board"
+            ]
+          },
+          {
+            "title": "Unstable: Synchronized Cardioversion",
+            "type": "bullets",
+            "items": [
+              "Indications: hemodynamic instability (↓ BP, shock, AMS, active ischemia, pulmonary edema)",
+              "Give 2 mg midazolam + 25 mcg fentanyl (will need more if tolerant)",
+              "Apply pads: anteriorposterior preferred",
+              "Select SYNC mode on defibrillator: confirm Synch marker on R waves",
+              "AFib: 200J biphasic; AFL: 50-100J biphasic",
+              "If unsuccessful: reconfirm SYNC mode is on",
+              "WARNING: if pt not anticoagulated & sx onset >48h or unknown. cardiovert risk of stroke"
+            ]
+          },
+          {
+            "title": "AC Strategy",
+            "type": "bullets",
+            "items": [
+              "**CHA2DS2VASc**: 1 point each for CHF, HTN, age 6574, DM, female sex, vascular disease; 2 points for age >75 & prior stroke/TIA",
+              "**Score 0 (male)**: No AC needed",
+              "**Score 1 (male)**: Consider AC",
+              "**Score >2**: Anticoagulation suggested (DOAC > warfarin for nonsevere MS AFib)",
+              "**Precardioversion**: If <48h onset, cardiovert without TEE & continue AC 4 weeks after; if >48h or unknown, get TEE or thetherapeutic AC for 3 weeks first",
+              "**Postcardioversion**: Continue AC for 4 weeks regardless of CHA2DS2VASc"
+            ]
+          },
+          {
+            "title": "Initial Workup",
+            "type": "bullets",
+            "items": [
+              "EKG ASAP",
+              "Labs: CBC, BMP, Mg/Phos, TSH, LFTs, coagulation studies, troponin, NTproBNP",
+              "Consider UDS (cocaine, stimulants)",
+              "CXR: pulmonary edema, vascular congestion",
+              "POCUS: LV function, LA/RA size, valve disease, pulmonary HTN, LV thrombus"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Metoprolol",
+                "dose": "5mg IV q5min x3, then 12.5-25mg PO q6h",
+                "route": "IVthenPO",
+                "contraindications": "HR <60, SBP <90, decompensated CHF",
+                "notes": "Firstline rate control if no decompensated CHF. Max 400mg/day PO. Avoid if HR <60, SBP <90, active bronchospasm, 2nd/3rd degree AV block."
+              },
+              {
+                "name": "Diltiazem",
+                "dose": "0.25 mg/kg IV bolus (max 25mg), rebolus x1 after 15 min, then 2.5-5 mg/hr drip",
+                "route": "IV thenPO ER",
+                "contraindications": "EF <40%, WPW, ↓ BP",
+                "notes": "PO ER dose = 10 x [3(infusion rate) + 3], max 360mg/day."
+              },
+              {
+                "name": "Digoxin",
+                "dose": "250 mcg IV q2-6h (load), then 125-375 mcg daily",
+                "route": "IV or PO",
+                "contraindications": "WPW, hypokalemia",
+                "notes": "Good for CHF + AFib (no negative inotropy). Onset 1h, peak 1-6h. Narrow thetherapeutic index: monitor levels & renal function."
+              },
+              {
+                "name": "Amiodarone",
+                "dose": "150mg IV over 10 min (x1-3), then 1 mg/min x6h, then 0.5 mg/min",
+                "route": "IVthenPO",
+                "contraindications": "Iodine allergy, QT prolongation",
+                "notes": "Rate & rhythm control. Use when BB/CCBs contraindicated (CHF). PO transition: 400mg BID: 200mg BID. Full load = 10g."
+              },
+              {
+                "name": "Synchronized cardioversion",
+                "dose": "200J biphasic for AFib; 100J for AFL",
+                "route": "External",
+                "contraindications": "",
+                "notes": "Always confirm SYNC mode ON. Sedate before if time allows. Firstline for hemodynamic instability/AMS ."
+              }
+            ]
+          },
+          {
+            "title": "Pearls & Pitfalls",
+            "type": "bullets",
+            "items": [
+              "AFib with RVR alone rarely causes ↓ BP unless HR >150: AFib dec. preload (loss of atrial kick)",
+              "AFib ↓ preload through loss of atrial kick (up to 25% of cardiac output): esp important in diastolic dysfunction, HOCM, MS",
+              "NEVER give digoxin, diltiazem, or verapamil in WPW with AFib: can accelerate conduction down accessory pathway & cause VF",
+              "AVOID diltiazem & verapamil in decompensated CHF or EF <40%",
+              "Flutter is 2:1: if ventricular rate is exactly 150, always suspect flutter with 2:1 block",
+              "New AFib: always look for & treat precipitant: rate may resolve once sepsis, PE, hyperthyroidism treated"
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Joglar JA, Chung MK, Armbruster AL, et al. 2023 ACC/AHA/ACCP/HRS Guideline for Diagnosis and Management of Atrial Fibrillation. Circulation. 2024;149(1):e1e156. https://doi.org/10.1161/CIR.0000000000001193",
+              "Van Gelder IC, Rienstra M, Bunting KV, et al. 2024 ESC Guidelines for the Management of Atrial Fibrillation. European Heart Journal. 2024;45(36):33143414. https://doi.org/10.1093/eurheartj/ehae176"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sick Sinus / Tachy-Brady Syndrome",
+        "subtitle": "Sinus node dysfunction causing pauses, bradycardia, atrial tachyarrhythmias, or alternating slow and fast rhythms",
+        "sections": [
+          {
+            "title": "Acute Priorities",
+            "type": "steps",
+            "items": [
+              "Circulation: check pulse, BP, perfusion, and IV access.\nAirway: check patency and protect.\nBreathing: check WOB, oxygenation, and ventilation.",
+              "Place on telemetry, get ECG, and correlate symptoms with the rhythm if possible.",
+              "If unstable bradycardia is present, follow symptomatic bradycardia management: atropine first, then transcutaneous pacing or vasoactive support if needed.",
+              "If pt is currently in a tachyarrhythmia, treat rhythm based on stability while keeping sinus node dysfunction in mind.",
+              "Look immediately for reversible contributors such as medication effect, ischemia, electrolyte disturbance, hypothyroidism, sleep apnea, or autonomic triggers."
+            ]
+          },
+          {
+            "title": "Background",
+            "type": "bullets",
+            "items": [
+              "Sick sinus syndrome: dysfunction of SA node function and may also be described as sinus node dysfunction or sinoatrial node disease.",
+              "Presentations vary: persistent sinus bradycardia, sinus pauses or arrest, chronotropic incompetence, or periods of atrial tachyarrhythmia alternating with slow sinus recovery.",
+              "The tachy-brady form is common and often appears as atrial fibrillation or flutter followed by prolonged pauses when the fast rhythm terminates.",
+              "Symptoms come from low cardiac output(loose atrial kick), transient cerebral hypoperfusion, or rapid atrial arrhythmias rather than from one single ECG pattern."
+            ]
+          },
+          {
+            "title": "Causes",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Intrinsic",
+                "value": "Age-related fibrosis of the sinus node and atrial tissue, ischemic injury, infiltrative disease, remodeling after atrial arrhythmia, or less commonly ion channel disease."
+              },
+              {
+                "key": "Medication related",
+                "value": "Beta blockers, non-DHP calcium channel blockers, digoxin, amiodarone, other antiarrhythmics, clonidine, and similar nodal suppressing agents."
+              },
+              {
+                "key": "Metabolic / systemic",
+                "value": "Hyperkalemia, other electrolyte disturbance, hypothyroidism, hypothermia, sleep apnea, increased vagal tone, and autonomic dysfunction."
+              },
+              {
+                "key": "Associated rhythm substrate",
+                "value": "Atrial fibrillation or flutter commonly coexists, especially in the tachy-brady phenotype."
+              }
+            ]
+          },
+          {
+            "title": "Typical Clinical Features",
+            "type": "bullets",
+            "items": [
+              "Syncope or near-syncope",
+              "Palpitations or an intermittent sensation of racing followed by pauses",
+              "Fatigue, exertional intolerance, or generalized weakness",
+              "Dyspnea or chest discomfort",
+              "Sleep disruption, confusion, or episodic dizziness"
+            ]
+          },
+          {
+            "title": "ECG / Rhythm Clues",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Brady patterns",
+                "value": "Sinus bradycardia, sinus pauses, sinoatrial exit block, sinus arrest, or failure to mount an appropriate rate with exertion."
+              },
+              {
+                "key": "Tachy-brady pattern",
+                "value": "AFib, atrial flutter, or atrial tachycardia that is followed by a prolonged pause or marked bradycardia after conversion."
+              },
+              {
+                "key": "Important limitation",
+                "value": "A single ECG may be normal. Diagnosis often requires telemetry, Holter monitoring, event monitoring, or loop recording tied to symptoms."
+              }
+            ]
+          },
+          {
+            "title": "Differential Diagnosis",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Regular narrow-complex tachycardia",
+                "value": "Sinus tachycardia, focal atrial tachycardia, AVNRT, AVRT, atrial flutter with fixed block, or other PSVT."
+              },
+              {
+                "key": "Irregular narrow-complex tachycardia",
+                "value": "AFib, atrial flutter with variable conduction, multifocal atrial tachycardia, or sinus rhythm with frequent ectopy."
+              },
+              {
+                "key": "Symptomatic bradycardia",
+                "value": "Inferior MI, med toxicity, hyperkalemia, hypothyroidism, hypothermia, vasovagal episodes, increased ICP, Lyme disease, or BRASH syndrome."
+              }
+            ]
+          },
+          {
+            "title": "Evaluation",
+            "type": "bullets",
+            "items": [
+              "ECG now Check old ekgs for chronic sinus bradycardia, pauses, or atrial arrhythmias.",
+              "BMP, magnesium, calcium, TSH, troponin, and med review including digoxin or AV nodal blockers.",
+              "Consider ambulatory Holter, event monitor, or implantable loop recorder when episodes are intermittent.",
+              "Evaluate for reversible causes before labeling the problem as intrinsic sinus node disease."
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "check rhythm and stability: bradycardia vs tachycardia, vitals, mentation, shock, ischemic pain, and acute heart failure.",
+              "Treat reversible causes: review nodal blocking meds, correct hypoxemia, ischemia, electrolyte problems, hypothyroidism, and metabolic derangements.",
+              "If symptomatic bradycardia or hemodynamic compromise is present:",
+              "- Atropine 0.5-1 mg IV q3-5 min up to 2 mg total; avoid in heart transplant pts without autonomic reinnervation.",
+              "- If atropine fails or is contraindicated: epinephrine 2-10 mcg/min IV, dopamine 5-20 mcg/kg/min IV, or cautious isoproterenol.",
+              "- Transcutaneous pacing is reasonable; place pads early and confirm electrical plus mechanical capture.",
+              "Use temporary transvenous pacing only for persistent unstable bradycardia refractory to medical therapy while awaiting resolution or permanent pacing.",
+              "If unstable tachyarrhythmia is present: synchronized cardioversion.",
+              "If stable narrow-complex tachycardia is present:",
+              "- Start with vagal maneuvers.",
+              "- Then consider adenosine for SVT, or diltiazem/verapamil or IV beta-blocker for rate control depending on rhythm and EF.",
+              "- In AFib/flutter, use nondihydropyridine CCBs or beta-blockers first-line; consider amiodarone if HF limits those agents.",
+              "Plan for permanent pacemaker if symptomatic bradycardia persists or recurs.",
+              "Avoid antiarrhythmics for tachycardia control until pacing is secured if bradycardia risk is high."
+            ]
+          },
+          {
+            "title": "Pearls & Pitfalls",
+            "type": "bullets",
+            "items": [
+              "Do not diagnose sick sinus syndrome from one isolated heart rate alone; the key issue is symptom-producing sinus node dysfunction.",
+              "Post-conversion pauses after AFib or flutter are a major clue to tachy-brady syndrome.",
+              "!!Before escalating nodal blockers for a fast atrial rhythm, ask whether pt may already have sinus node disease underneath.",
+              "Always review reversible causes before committing a pt to a permanent device!!."
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Admit / urgent cardiology involvement if",
+                "value": "Syncope, prolonged pauses, recurrent symptomatic bradycardia, hemodynamic instability, need for pacing, concern for ischemia, or active tachy-brady cycling is present."
+              },
+              {
+                "key": "Consider monitored floor if",
+                "value": "Pt is stable after reversal of an obvious trigger, symptoms are improving, and telemetry is available while the workup continues."
+              }
+            ]
+          },
+          {
+            "title": "Complications",
+            "type": "bullets",
+            "items": [
+              "Recurrent syncope or injury from pauses",
+              "Atrial fibrillation or flutter",
+              "Progressive need for permanent pacing",
+              "Associated conduction disease such as AV block in some pts"
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Kusumoto FM, Schoenfeld MH, Barrett C, et al. 2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay. Circulation. 2019;140(8):e382e482. https://doi.org/10.1161/CIR.0000000000000628",
+              "Semelka M, Gera J, Usman S. Sick sinus syndrome: a review. American Family Physician. 2013;87(10):691-696. https://www.aafp.org/afp/2013/0515/p691"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SVT (Supraventricular Tachycardia)",
+        "subtitle": "Sudden regular tachycardia, palpitations, chest pressure, lightheadedness",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Airway: patency? protect? Breathing: check WOB, oxygenation, and ventilation.",
+              "Circulation: check pulse, BP, perfusion, and IV access.",
+              "Hemodynamically stable?",
+              "- If unstable (↓ BP, AMS, shock, ischemic chest pain, ac. HF/pulm edema): synch cardioversion 200J: 25mcg fent + 2 versed",
+              "- If sync failing & pt crashing: proceed to unsynchronized shocks",
+              "Call cardiology Early for wide-complex, rec. episodes, or dx uncertainty"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Prior ECGs: baseline QRS, BBB, delta wave/preexcitation, prior AF/flutter/SVT",
+              "Cardiac hx: CAD, HFrEF, valvular dz, congenital heart dz, prior ablation",
+              "Current meds: beta agonists, decongestants, stimulants, vasodilators, catecholamines, loop diuretics, antipsychotics, inotropes",
+              "Missed home BB or CCB",
+              "Recent triggers: infxn, fever, bleed, dehydration, pain, ETOH, caffeine, hyperthyroid sx",
+              "Lytes, Hgb, troponin, TSH",
+              "Known WPW/accessory pathway or hx suggesting it"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "First decision: stable vs unstable",
+              "Treat as unstable if tachycardia is causing: ↓ BP, acute AMS, shock, ischemic chest discomfort, acute HF/pulm edema",
+              "HR & whether rhythm feels regular",
+              "BP trend (not one value)",
+              "Mentation assessment",
+              "Chest pain, dyspnea, crackles, JVP, edema",
+              "Perfusion: diaphoresis, cool extremities, delayed cap refill",
+              "Signs of volume depletion, infection, bleeding, withdrawal, stimulant use",
+              "Tachyarrhythmia clinically important when rate ≥150/min, though mgmt depends on sx & perfusion, not rate alone"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "SVT",
+                "value": "Regular narrowcomplex tachycardia: most commonly AVNRT, AVRT, or focal atrial tachycardia"
+              },
+              {
+                "key": "AVNRT",
+                "value": "AV nodal reentrant tachycardia: most common SVT subtype overall"
+              },
+              {
+                "key": "AVRT",
+                "value": "AV reentrant tachycardia: involves accessory pathway (WPW if overt preexcitation)"
+              },
+              {
+                "key": "Preexcitation (WPW)",
+                "value": "Dangerous: AV nodal blockers (adenosine, BB, CCB, digoxin) contraindicated in preexcited AF/flutter. Can ↑ accessory pathway conduction: VF"
+              },
+              {
+                "key": "Stable vs Unstable",
+                "value": "Unstable = tachycardia causing ↓ BP, AMS, shock, ischemic chest pain, or acute HF. Unstable: synchronized cardioversion"
+              }
+            ]
+          },
+          {
+            "title": "AVNRT Reference",
+            "type": "imageGallery",
+            "images": [
+              {
+                "assetName": "AVNRT",
+                "caption": "AVNRT",
+                "description": "Reference ECG/image for AV nodal reentrant tachycardia."
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Regular narrowcomplex",
+                "value": "AVNRT, orthodromic AVRT, focal atrial tachycardia, atrial flutter with fixed block, sinus tachycardia"
+              },
+              {
+                "key": "Irregular narrowcomplex",
+                "value": "AFib, atrial flutter with variable block, multifocal atrial tachycardia (MAT)"
+              },
+              {
+                "key": "Widecomplex tachy",
+                "value": "VT (strongly consider), SVT with aberrancy, antidromic AVRT / preexcited rhythm"
+              },
+              {
+                "key": "Common triggers",
+                "value": "Infection/fever, hypovolemia, anemia, lyte abnormalities, hyperthyroidism, ETOH, caffeine, stimulants, Meds exposure"
+              },
+              {
+                "key": "Key first step",
+                "value": "Determine regular vs irregular, narrow vs wide QRS —don't call everything 'SVT'"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Check hemodynamic stability",
+              "Unstable (hypotension, AMS, shock, chest pain, acute HF): immediate synchronized cardioversion",
+              "Stable: try vagal maneuvers first",
+              "- Modified Valsalva: strain, then passive leg raise supine",
+              "- Carotid sinus massage only after confirming no bruit",
+              "If vagal maneuvers fail: give IV adenosine",
+              "Keep pt on a cardiac monitor with pads available",
+              "Avoid adenosine in preexcited AF, severe asthma, or post-heart transplant pts",
+              "If adenosine fails or is contraindicated: use IV diltiazem, verapamil, or beta blocker when appropriate",
+              "Avoid AV nodal blockers if preexcitation or VT is suspected",
+              "If refractory: consider cardioversion or antiarrhythmic therapy"
+            ]
+          },
+          {
+            "title": "Practical Modified Valsalva",
+            "type": "steps",
+            "items": [
+              "For cooperative stable pt only",
+              "Sit pt semirecumbent",
+              "Have pt blow forcefully into syringe for ~15 seconds",
+              "Immediately lay pt flat & raise legs to ~45° for ~15 seconds",
+              "Return upright & recheck rhythm",
+              "Modified Valsalva has better conversion rates than standard Valsalva (AAFP evidence review)"
+            ]
+          },
+          {
+            "title": "Cardioversion: Step by Step",
+            "type": "steps",
+            "items": [
+              "Confirm pt has pulse & tachycardia is causing instability",
+              "Call for more support, place pt on monitor/defib with pads attached",
+              "Ensure suction, O2, IV access, & airway equipment at bedside",
+              "Turn on SYNC mode: verify sync markers tracking each QRS. Resync after each shock",
+              "Set 100J synchronized for narrowcomplex tachycardia",
+              "Sedate if feasible (diazepam ± fentanyl)",
+              "Clear pt & deliver synchronized shock",
+              "Recheck rhythm, pulse, BP, mentation, sx NOW. Get postconversion ECG",
+              "If in tachycardia: reenable SYNC, escalate energy, consider antiarrhythmic, consult cardiology/ICU",
+              "If sync delayed & pt crashing: proceed to unsynchronized shocks"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ECG",
+                "value": "during tachycardia & after conversion: compare to prior"
+              },
+              {
+                "key": "BMP + Mg",
+                "value": "Lyte abnormalities (K, Mg, Ca) can precipitate or sustain SVT"
+              },
+              {
+                "key": "CBC",
+                "value": "Check for anemia as a trigger"
+              },
+              {
+                "key": "Troponin",
+                "value": "If chest pain, ischemic concern, or prolonged tachycardia"
+              },
+              {
+                "key": "TSH",
+                "value": "If unexplained/recurrent SVT or hyperthyroid features"
+              },
+              {
+                "key": "As indicated",
+                "value": "CXR, infectious workup, VBG/ABG, lactate, tox screen: only if suggested by presentation"
+              },
+              {
+                "key": "Monitoring",
+                "value": "telemetry, pulse ox, frequent BP. Defib pads early if sx or marginal"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Adenosine",
+                "dose": "attach pads: 6mg rapid IVP, then 12mg rapid IVP if no conversion, then may repeat 12mg x1",
+                "route": "IV push (rapid, followed by flush)",
+                "contraindications": "Preexcited AF/flutter (WPW), irregular widecomplex tachy",
+                "notes": "Attach to monitor/ECG before dosing. 1/2life ~10s."
+              },
+              {
+                "name": "Metoprolol tartrate",
+                "dose": "5mg IV over 1-2 min; may repeat q5min up to 15mg total",
+                "route": "IV",
+                "contraindications": "↓ BP, decomp HFrEF, severe ↓ HR, preexcitation, 2nd/3rd degree AVB",
+                "notes": "Only if pt is truly stable. Avoid if rhythm dx uncertain"
+              },
+              {
+                "name": "Diltiazem",
+                "dose": "0.25 mg/kg (~10mg) IV over 2 min; if needed 0.35 mg/kg after 15 min",
+                "route": "IV",
+                "contraindications": "↓ BP, decomp HFrEF, preexcitation, WPW, widecomplex tachy",
+                "notes": "NonDHP CCB. Don't use with IV beta-blocker concurrently."
+              },
+              {
+                "name": "Verapamil",
+                "dose": "2.5-5mg IV slow push; may repeat carefully if needed",
+                "route": "IV",
+                "contraindications": "↓ BP, decomp HFrEF, preexcitation, WPW, widecomplex tachy of uncertain origin",
+                "notes": "NonDHP CCB. Use cautiously: more negative inotropy than diltiazem"
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Page RL, Joglar JA, Caldwell MA, et al. 2015 ACC/AHA/HRS Guideline for the Management of Adult Patients With Supraventricular Tachycardia. Circulation. 2016;133(14):e506e574. https://doi.org/10.1161/CIR.0000000000000311",
+              "Brugada J, Katritsis DG, Arbelo E, et al. 2019 ESC Guidelines for the Management of Patients with Supraventricular Tachycardia. European Heart Journal. 2020;41(5):655720. https://doi.org/10.1093/eurheartj/ehz467"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ventricular Tachycardia",
+        "subtitle": "Widecomplex tachycardia, palpitations, syncope, hypotension, arrest risk",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Circulation: check pulse, BP, perfusion, and IV access.",
+              "Airway: check patency and protect.",
+              "Breathing: check WOB, oxygenation, and ventilation.",
+              "Pulseless VT: defibrillation: unsynchronized 200J biphasic; begin CPR per ACLS",
+              "Unstable with pulse: synchronized cardioversion: 200J; sedate if conscious & time permits",
+              "If stable monomorphic VT: procainamide 20-50 mg/min IV (max 17 mg/kg or 1 g): first line (PROCAMIO trial)",
+              "Alternative for stable VT (esp with acute MI or ↓ EF): amiodarone 150 mg IV over 10 min",
+              "If polymorphic VT / torsades: Mg 2 g IV + unsynchronized defibrillation if deteriorating + stop ALL QTprolonging drugs",
+              "If irregular WCT (c.f AFib with WPW): do NOT give AV nodal blockers: procainamide or cardioversion",
+              "EKG (compare to prior); troponin, BMP, digoxin level",
+              "If wide QRS (>200 ms) with rate <120: think ↑K: calcium, insulin/D50, bicarb"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Cardiac hx: prior MI (scarmed. VT), cardiomyopathy, CHF, EF, valvular disease",
+              "Prior arrhythmia hx: VT episodes, ICD, ablation",
+              "ICD present? (shocks or failed shocks: interrogate device)",
+              "meds: QT-prolonging drugs, digoxin, antiarrhythmics, BB",
+              "Electrolyte hx: renal disease, diuretics (hypoK, hypoMg)",
+              "Ischemia risk factors: known CAD, recent chest pain, prior PCI/CABG",
+              "Toxicologic: TCA, cocaine, digoxin",
+              "Family hx: sudden cardiac death, long QT, Brugada, HCM, ARVC",
+              "Symptoms: palpitations, syncope/presyncope, chest pain, SOB, AMS"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Vitals",
+                "value": "HR>120 bpm; BP may nl. (stable VT) or ↓↓ (unstable); if HR <120 with wide QRS: think ↑K or AIVR"
+              },
+              {
+                "key": "Stability assessment",
+                "value": "↓ BP, AMS, chest pain, signs of shock, acute HF: unstable = immediate cardioversion"
+              },
+              {
+                "key": "CV",
+                "value": "Regular tachycardia; cannon A waves in JVP (AV dissociation: pathognomonic for VT); variable S1 intensity"
+              },
+              {
+                "key": "Lungs",
+                "value": "Crackles if acute pulmonary edema from ↓ cardiac output"
+              },
+              {
+                "key": "Neuro",
+                "value": "AMS from hypoperfusion; syncope hx"
+              },
+              {
+                "key": "Extremities",
+                "value": "Cool, mottled if cardiogenic shock; check for ICD pocket (left anterior chest)"
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Ventricular tachycardia",
+                "value": "≥3 consecutive wide QRS complexes (>120 ms) originating from ventricles at rate >120 bpm"
+              },
+              {
+                "key": "Monomorphic VT",
+                "value": "Uniform QRS morphology: single reentrant circuit (often scar-related postMI)"
+              },
+              {
+                "key": "Polymorphic VT",
+                "value": "Varying QRS morphology: includes torsades de pointes (twisting of points around baseline)"
+              },
+              {
+                "key": "Torsades de pointes",
+                "value": "Polymorphic VT in setting of prolonged QT: classic sinusoidal twisting pattern; tx: Mg, overdrive pacing, stop QTprolonging drugs"
+              },
+              {
+                "key": "NSVT",
+                "value": "Nonsustained VT: <30 sec duration; still requires workup for structural heart disease"
+              },
+              {
+                "key": "Sustained VT",
+                "value": ">30 sec duration or causes hemodynamic compromise before 30 sec"
+              },
+              {
+                "key": "Electrical storm",
+                "value": "≥3 episodes of sustained VT within 24 hrs: requires escalated therapy, EP consult, consider overdrive pacing or ablation"
+              },
+              {
+                "key": "Wide complex tachycardia",
+                "value": "QRS ≥120 ms during tachycardia; 80% is VT (>90% if known cardiac disease): assume VT until proven otherwise"
+              }
+            ]
+          },
+          {
+            "title": "EKG Features Favoring VT > SVT w/ Abberancy",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "AV dissociation",
+                "value": "P waves & QRS complexes march independently: pathognomonic for VT"
+              },
+              {
+                "key": "Fusion beats",
+                "value": "Hybrid morphology (simultaneous ventricular + SVT activation): strongly favors VT"
+              },
+              {
+                "key": "Capture beats",
+                "value": "Narrow QRS complex intermixed: atrial impulse \"captures\" ventricle during VT: strongly favors VT"
+              },
+              {
+                "key": "Concordance",
+                "value": "All precordial leads (V1-V6) showing same QRS direction (all positive or all negative): favors VT"
+              },
+              {
+                "key": "Extreme axis deviation",
+                "value": "\"Northwest axis\" (negative in I & aVF): VT"
+              },
+              {
+                "key": "Very wide QRS",
+                "value": ">160 ms = more likely VT; >200 ms = ↑K or Na channel blocker toxicity"
+              },
+              {
+                "key": "Brugada criteria",
+                "value": "Absence of RS complex in all precordial leads; RS interval >100 ms; AV dissociation; morphology criteria in V1/V6"
+              },
+              {
+                "key": "If uncertain: treat as VT",
+                "value": "Treating VT as SVT can fatal; treating SVT as VT is rarely harmful"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Structural heart disease",
+                "value": "Prior MI with scar (most common), dilated cardiomyopathy, HCM, ARVC, valvular disease"
+              },
+              {
+                "key": "Ischemia",
+                "value": "Acute MI or unstable angina: VT may presenting rhythm"
+              },
+              {
+                "key": "Electrolyte",
+                "value": "↑K (very wide, rate <120), hypokalemia, hypomagnesemia"
+              },
+              {
+                "key": "Toxicologic",
+                "value": "Digoxin toxicity (bidirectional VT is classic), TCA OD, cocaine, QT-prolonging drugs: torsades"
+              },
+              {
+                "key": "DDx: regular WCT",
+                "value": "SVT with aberrancy (pre-existing or related BBB), aflutter with BBB, sinus tach with BBB, antidromic AVRT (WPW)"
+              },
+              {
+                "key": "DDx: irregular WCT",
+                "value": "AFib with BBB, AFib with WPW ( avoid AV nodal blockers), polymorphic VT / torsades"
+              },
+              {
+                "key": "Or",
+                "value": "Severe acidosis, acute HF, Brugada syndrome, long QT syndrome, catecholaminergic polymorphic VT"
+              }
+            ]
+          },
+          {
+            "title": "Management & Pearls",
+            "type": "steps",
+            "items": [
+              "check hemodynamic stability",
+              "- Unstable (hypotension, AMS, shock, chest pain, acute HF) > immediate cardioversion",
+              "- Stable > proceed to evaluation and reversible causes",
+              "Monomorphic VT: synchronized cardioversion",
+              "Polymorphic VT: unsynchronized highenergy defibrillation",
+              "If stable: get ECG and check reversible causes",
+              "Evaluate for ischemia, electrolyte abnormalities, and drug induced proarrhythmia",
+              "Get echocardiography to check for structural heart disease",
+              "If stable: choose pharmacologic therapy based on structural heart disease",
+              "- With structural heart disease: IV procainamide preferred; amiodarone or sotalol are alternatives",
+              "- Without structural heart disease: consider verapamil or beta blockers for idiopathic VT",
+              "Avoid verapamil/diltiazem in widecomplex tachycardia of unknown origin or myocardial dysfunction",
+              "Avoid lidocaine except possibly for acute MIrelated VT",
+              "For polymorphic VT or torsades: give IV magnesium",
+              "Correct electrolytes, especially potassium",
+              "Use overdrive pacing or isoproterenol if QT prolongation is present",
+              "Secondary prevention: consider ICD implantation",
+              "ICD indicated after VF or hemodynamically unstable VT not due to reversible causes",
+              "ICD indicated for structural heart disease with spontaneous sustained VT",
+              "Stable monomorphic VT often still warrants ICD; ablation may substitute in select cases",
+              "Longterm VT suppression in ICD pts: beta blockers first line",
+              "Amiodarone plus beta blocker is common for recurrent VT or ICD shocks",
+              "Sotalol is an alternative if no severe LV dysfunction, renal impairment, or VT storm",
+              "Mexiletine is often added for breakthrough VT",
+              "Assume wide complex tachycardia is VT until proven otherwise: 80% of WCT is VT (>90% with known cardiac disease)",
+              "Treating VT as SVT can fatal; treating SVT as VT is rarely harmful: when in doubt, treat as VT",
+              "Do NOT give AV nodal blockers for irregular WCT (adenosine, diltiazem, digoxin, BB): causes VF in WPW",
+              "Procainamide > amiodarone for stable VT (PROCAMIO trial) unless acute MI or ↓ EF (n amiodarone preferred)",
+              "Very wide QRS (>200 ms) with rate <120 bpm: think ↑K before VT: give calcium first",
+              "Cannon A waves in JVP = AV dissociation = VT: quick bedside exam finding",
+              "Bidirectional VT (alternating QRS axis) is classic for digoxin toxicity: check level, give DigiFab",
+              "Electrical storm (≥3 VT episodes in 24 hrs): escalate to overdrive pacing, deep sedation, EP consult, consider ablation",
+              "Admit ALL VT pts: even if successfully cardioverted; high recurrence risk + for structural workup + ICD evaluation"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "bullets",
+            "items": [
+              "EKG: compare to prior; look for AV dissociation, concordance, fusion/capture beats",
+              "BMP: K+ & Mg2+ critically important; correct now if abnl.",
+              "Troponin: acute ischemia may trigger",
+              "Digoxin level if on digoxin (toxicity = bidirectional VT, accelerated junctional rhythm)",
+              "ABG/VBG: metabolic acidosis can perpetuate VT",
+              "CBC",
+              "Cardiac monitoring ( mandatory)",
+              "Toxicology screen if clinical suspicion (TCA, cocaine)",
+              "CXR: cardiomegaly, pulmonary edema",
+              "TTE: check EF, wall motion abnormalities, structural disease (often deferred until after acute stabilization)"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Procainamide",
+                "dose": "20-50 mg/min IV until suppressed; max 17 mg/kg or 1 g total; maintenance 1-4 mg/min",
+                "route": "IV",
+                "contraindications": "Prolonged QT, CHF, renal failure",
+                "notes": "Firstline for stable monomorphic VT (PROCAMIO trial: 67% termination vs 38% for amiodarone). Monitor QRS width & BP during infusion"
+              },
+              {
+                "name": "Amiodarone",
+                "dose": "150 mg IV over 10 min, then 1 mg/min × 6 hrs (360 mg), then 0.5 mg/min × 18 hrs (540 mg)",
+                "route": "IV",
+                "contraindications": "Severe sinus node disease, 2nd/3rd degree block without pacer, cardiogenic shock",
+                "notes": "Preferred if acute MI or ↓ EF. Slower onset than procainamide. Total 24hr dose ~1050 mg"
+              },
+              {
+                "name": "Lidocaine",
+                "dose": "1-1.5 mg/kg IV bolus; may repeat 0.5-0.75 mg/kg q5-10 min (max 3 mg/kg); infusion 1-4 mg/min",
+                "route": "IV",
+                "contraindications": "Hepatic failure, highdegree AV block",
+                "notes": "Alternative for ischemiarelated VT; fewer hemodynamic effects than procainamide. ↓ dose in liver disease & elderly"
+              },
+              {
+                "name": "Magnesium sulfate",
+                "dose": "2 g IV over 5-10 min; repeat 1x PRN",
+                "route": "IV",
+                "contraindications": "ESRD, myasthenia gravis",
+                "notes": "First for torsades de pointes; replete if Mg <2.0 in any VT"
+              },
+              {
+                "name": "Adenosine (diagnostic)",
+                "dose": "6 mg rapid IV push, then 12 mg if no response",
+                "route": "IV (rapid push)",
+                "contraindications": "DONT use for irregular WCT (AFib with WPW: VF risk)",
+                "notes": "Diagnostic trial for regular monomorphic WCT: will NOT terminate VT but may unmask underlying SVT. Safe to give in stable pt"
+              },
+              {
+                "name": "Sodium bicarbonate",
+                "dose": "1-2 mEq/kg IV bolus",
+                "route": "IV",
+                "contraindications": "Metabolic alkalosis",
+                "notes": "For Na channel blocker toxicity (TCA, cocaine) w/ wide QRS; also for ↑K with VT"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / immediate higher level of care if",
+                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "AlKhatib SM, Stevenson WG, Ackerman MJ, et al. 2017 AHA/ACC/HRS Guideline for Management of Patients With Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death. Circulation. 2018;138(13):e272e391. https://doi.org/10.1161/CIR.0000000000000549",
+              "Zeppenfeld K, TfeltHansen J, de Riva M, et al. 2022 ESC Guidelines for the Management of Patients with Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death. European Heart Journal. 2022;43(40):39974126. https://doi.org/10.1093/eurheartj/ehac262"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cardiogenic Shock / ADHF",
+        "subtitle": "Hypotension, dyspnea, pulmonary edema, cool extremities, elevated lactate",
+        "sections": [
+          {
+            "title": "ABCs",
+            "type": "bullets",
+            "items": [
+              "Circulation: check pulse, BP, perfusion, and IV access.\nAirway: check patency and protect.\nBreathing: check WOB, oxygenation, and ventilation.",
+              "Dyspnea, tachypnea, hypoxia: O2, then BiPAP early: AVOID intubation (removal of respiratory drive: cardiovascular collapse)",
+              "ICU if SBP <90 for >30 min or requiring pressor/inotrope",
+              "Monitoring: telemetry & pulse ox, arterial line, consider CVP/PA catheter",
+              "Target SpO2 >92%",
+              "Can't miss: new MI: get EKG & troponin now"
+            ]
+          },
+          {
+            "title": "Chart Check & Exam",
+            "type": "bullets",
+            "items": [
+              "Dry weight, last TTE (EF, valvular disease, wall motion), prior cath",
+              "Precipitant: weight trend, med nonadherence, new meds, recent MI, infection",
+              "Exam: general appearance, AMS, warm vs cold extremities, cap refill, JVP, IVC on POCUS, LE edema, crackles, murmurs (new MR/TR = emergency)",
+              "POCUS: Blines (pulmonary edema), large chambers, poor contractility, pericardial effusion",
+              "Profile: Warm/Wet, Cold/Wet, Cold/Dry, Warm/Dry"
+            ]
+          },
+          {
+            "title": "Hemodynamic Profile",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Warm & Wet",
+                "value": "Adequate perfusion, volume overloaded. MCC ADHF.: Diuresis (IV Lasix), afterload reduction if HTN."
+              },
+              {
+                "key": "Cold & Wet",
+                "value": "Low output + volume overloaded. Worst prognosis.: Inotrope (dobutamine/milrinone) + diuresis if MAP allows. Consider MCS."
+              },
+              {
+                "key": "Cold & Dry",
+                "value": "Low output, hypovolemic or severely ↓ preload.: Cautious fluid challenge 250-500mL + inotrope."
+              },
+              {
+                "key": "Warm & Dry",
+                "value": "Compensated. Optimize oral meds. No acute intervention needed."
+              }
+            ]
+          },
+          {
+            "title": "RHC (PA Cater): Rule of 5s",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "RA",
+                "value": "nl. ~5 mmHg"
+              },
+              {
+                "key": "RV",
+                "value": "nl. ~25/5 mmHg"
+              },
+              {
+                "key": "PA",
+                "value": "nl. ~25/10 mmHg"
+              },
+              {
+                "key": "PCWP",
+                "value": "nl. ~10 mmHg (goal 14-18 in ADHF management)"
+              },
+              {
+                "key": "LV",
+                "value": "nl. ~125/10 mmHg"
+              },
+              {
+                "key": "Goals",
+                "value": "CI >2.2 L/min/m2, central venous sat >65%, SVR 800-1200, CVP 8-12"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Can't miss",
+                "value": "New MI (RCA: RV failure; LAD: LV failure), acute MR/TR (pap. rupture), aortic dissection, tamponade, high risk PE"
+              },
+              {
+                "key": "Cardiogenic",
+                "value": "Ischemia/MI, ADHF, myocarditis, severe AS, acute valvular regurgitation, arrhythmia (AFib with RVR, VT)"
+              },
+              {
+                "key": "Obstructive",
+                "value": "Cardiac tamponade, severe PE, tension PTX, severe AS"
+              },
+              {
+                "key": "Precipitants",
+                "value": "Med nonadherence, diet, Infection/sepsis, arrhythmia, renal failure, NSAIDs/steroids, Cardiotoxic drugs."
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Classify clinical profile: warm/cold and wet/dry",
+              "Warm and wet > ADHF",
+              "Cold and wet > cardiogenic shock",
+              "Cold and dry > consider hypovolemia or RV failure",
+              "If cardiogenic shock: confirm diagnosis and stage severity",
+              "Look for SBP <90 plus endorgan hypoperfusion: lactate, oliguria, AMS",
+              "Use SCAI shock classification if avail",
+              "Activate shock team early if avail",
+              "Identify and treat precipitants: CHAMP",
+              "Acute coronary syndrome > urgent revascularization",
+              "Hypertensive emergency",
+              "Arrhythmias",
+              "Mechanical complications: papillary rupture, VSD, tamponade",
+              "Pulmonary embolism",
+              "Optimize volume status",
+              "ADHF: IV loop diuretics; start about 2.5x chronic oral dose",
+              "Cardiogenic shock: check volume cautiously and avoid overdiuresis",
+              "If diuretic resistant: add a thiazide",
+              "Vasopressor/inotrope selection in cardiogenic shock",
+              "Firstline vasopressor: norepinephrine",
+              "Firstline inotrope: dobutamine",
+              "Alternative inotrope: milrinone",
+              "Avoid epinephrine when possible",
+              "Consider invasive hemodynamic monitoring",
+              "PA catheter can define hemodynamic subset",
+              "Use PA catheter data to guide fluids, vasoactives, and MCS decisions",
+              "If refractory: consider mechanical circulatory support",
+              "IABP: modest support and bridge option",
+              "Impella: greater hemodynamic support",
+              "VAECMO: full cardiopulmonary support for biventricular failure"
+            ]
+          },
+          {
+            "title": "Initial Management by Scenario",
+            "type": "steps",
+            "items": [
+              "Pulmonary edema + ↑ WOB: BiPAP + IV Lasix 40-80mg IV",
+              "HTN or normotensive + wet: afterload reduction (hydralazine, nitroprusside, nitroglycerin) + diuresis",
+              "↓ BP: passive leg raise or cautious 250-500mL fluid bolus: check response",
+              "H↓ BP + no CHF: 1L NS pressurebagged, recheck",
+              "↓ BP persists: start Levo, then +inotrope (dobutamine>milrinone)",
+              "Wet + cold + SBP >90: diurese + inotrope",
+              "Severe effusion contributing to low output: consider thoracentesis",
+              "Refractory to medical therapy: mechanical circulatory support (IABP, Impella, ECMO): consult cardiology/CT surgery"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Furosemide (Lasix)",
+                "dose": "40-80mg IV (or 2.5x home PO dose if on chronic Lasix)",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Firstline for pulmonary edema & volume overload. Can convert to drip 5-40mg/hr for refractory overload."
+              },
+              {
+                "name": "Norepinephrine (Levophed)",
+                "dose": "0.01-3 mcg/kg/min",
+                "route": "IV drip",
+                "contraindications": "",
+                "notes": "Firstline vasopressor in cardiogenic shock. Start BEFORE inotrope: giving inotrope first may drop BP furr."
+              },
+              {
+                "name": "Dobutamine",
+                "dose": "0.5-20 mcg/kg/min",
+                "route": "IV drip",
+                "contraindications": "Longterm BB use",
+                "notes": "Inotrope + mild vasodilator. Use for Cold/Wet profile. Avoid if on long term BB: milrinone preferred."
+              },
+              {
+                "name": "Milrinone",
+                "dose": "0.125-0.75 mcg/kg/min",
+                "route": "IV drip",
+                "contraindications": "Severe AKI",
+                "notes": "Inodilator (↓ afterload). Preferred if on BB. Renally cleared: use caution in AKI. Will drop BP."
+              },
+              {
+                "name": "Nitroglycerin",
+                "dose": "5-200 mcg/min",
+                "route": "IV drip",
+                "contraindications": "SBP <90, severe AS",
+                "notes": "Preload & mild afterload reduction. Useful for HTN + pulmonary edema."
+              },
+              {
+                "name": "Nitroprusside",
+                "dose": "0.3-10 mcg/kg/min",
+                "route": "IV drip",
+                "contraindications": "",
+                "notes": "Potent afterload reducer. Goal SVR 8001200, MAP >60. Use for severe HTN or high afterload state. Cyanide toxicity risk with prolonged use."
+              },
+              {
+                "name": "Hydralazine",
+                "dose": "37.5mg PO q6-8h",
+                "route": "PO",
+                "contraindications": "",
+                "notes": "Oral afterload reduction. Paired with nitrates for ACE/ARBintolerant pts (BiDil regimen)."
+              }
+            ]
+          },
+          {
+            "title": "Pearls & Pitfalls",
+            "type": "bullets",
+            "items": [
+              "AVOID intubation whenever possible in cardiogenic shock: removal of respiratory drive causes cardiovascular collapse",
+              "NEVER give inotrope before vasopressor in hypotensive cardiogenic shock: inodilators drop BP furr",
+              "For pts on long term BB: milrinone is preferred inotrope (beta receptor already blocked)",
+              "Positive pressure ventilation (BiPAP/intubation) can ↑ RV afterload: use with caution in RV failure",
+              "Severe AS + cardiogenic shock: AVOID high dose afterload reducers (ACE inhibitors, high dose nitrates): pt depends on elevated afterload for coronary perfusion",
+              "Rapidly decreasing afterload in AS can precipitate cardiovascular collapse",
+              "New MR or TR murmur in ACS context = papillary muscle rupture: emergent cardiac surgery consultation",
+              "Free wall rupture postMI: emergent surgical repair",
+              "Overshooting diuresis can reduce preload excessively: worsening low output: monitor closely"
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Heidenreich PA, Bozkurt B, Aguilar D, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure. Circulation. 2022;145(18):e895e1032. https://doi.org/10.1161/CIR.0000000000001063",
+              "McDonagh TA, Metra M, Adamo M, et al. 2023 Focused Update of the 2021 ESC Guidelines for the Diagnosis and Treatment of Acute and Chronic Heart Failure. European Heart Journal. 2023;44(37):36273639. https://doi.org/10.1093/eurheartj/ehad195",
+              "van Diepen S, Katz JN, Albert NM, et al. Contemporary Management of Cardiogenic Shock: AHA Scientific Statement. Circulation. 2017;136(16):e52e68. https://doi.org/10.1161/CIR.0000000000000525"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cardiac Tamponade",
+        "subtitle": "Hypotension, JVD, muffled heart sounds, pulsus paradoxus, effusion",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "bullets",
+            "items": [
+              "Circulation: check pulse, BP, perfusion, and IV access.\nAirway: check patency and protect.\nBreathing: check WOB, oxygenation, and ventilation.",
+              "ABCs: monitoring, pulse ox, largebore IV access × 2",
+              "**IV fluid bolus**: NS 500–1000 mL to augment preload & temporize hemodynamics",
+              "Avoid positive pressure vent: ↓venous return, worsens tamponade",
+              "Keep pt upright or legs elevated to optimize preload",
+              "Stat bedside TTE to confirm dx",
+              "Call cardiology / interventional cardiology for urgent pericardiocentesis",
+              "If periarrest: bedside emergency pericardiocentesis (subxiphoid approach)",
+              "Transfer to ICU"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Known pericardial effusion: size trend on prior echos",
+              "Recent cardiac surgery, catheterization, or ablation (iatrogenic)",
+              "Malignancy (lung, breast, lymphoma, melanoma)",
+              "Anticoagulation status: hemorrhagic effusion risk",
+              "Autoimmune disease, renal failure (uremia), recent pericarditis",
+              "Trauma Hx."
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "Beck's triad: ↓ BP + JVD + muffled heart sounds",
+              "Pulsus paradoxus >10 mmHg: measure with manual BP cuff",
+              "Tachycardia (compensatory), tachypnea",
+              "Cold extremities, delayed capillary refill, oliguria",
+              "AMS if severely hypoperfused"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Cardiac Tamponade",
+                "value": "Pericardial fluid accumulation causing compression of cardiac chambers: impaired diastolic filling: ↓ cardiac output"
+              },
+              {
+                "key": "Beck's Triad",
+                "value": "↓ BP, JVD, muffled heart sounds: present in only ~10–40% of cases"
+              },
+              {
+                "key": "Pulsus Paradoxus",
+                "value": "SBP drop >10 mmHg during inspiration. Reflects exaggerated ventricular interdependence."
+              },
+              {
+                "key": "Rate vs Volume",
+                "value": "Rate of accumulation matters more than volume: rapid 150 mL causes tamponade; slow 1L may tolerated"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Malignancy",
+                "value": "MCC of large effusions. Lung, breast, lymphoma, melanoma. Often hemorrhagic."
+              },
+              {
+                "key": "Iatrogenic",
+                "value": "Postcardiac cath, pacemaker placement, ablation, cardiac surgery. May present acutely."
+              },
+              {
+                "key": "Pericarditis",
+                "value": "Viral, uremic, autoimmune, postMI (Dressler). Effusion may progress to tamponade.",
+                "topicLink": "Pericarditis"
+              },
+              {
+                "key": "Trauma",
+                "value": "Penetrating or blunt chest trauma. Consider in all unstable trauma pts with JVD"
+              },
+              {
+                "key": "Aortic dissection",
+                "value": "Type A dissection with hemopericardium: surgical emergency"
+              },
+              {
+                "key": "DDx: or obstructive shock",
+                "value": "Tension pneumothorax, massive PE: all cause obstructive shock with JVD",
+                "topicLink": "Pulmonary Embolism"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Definitive treatment",
+                "value": "Urgent pericardial drainage is definitive therapy;don't rely on temporizing measures alone."
+              },
+              {
+                "key": "Temporizing support",
+                "value": "Use cautious fluid boluses to augment preload & vasopressors if needed while arranging emergent pericardiocentesis or surgery."
+              },
+              {
+                "key": "Avoid",
+                "value": "Avoid positivepressure ventilation & unnecessary preload reduction because they can worsen obstructive shock."
+              },
+              {
+                "key": "After drainage",
+                "value": "Monitor for recurrence, send pericardial fluid studies when geted, & treat underlying etiology."
+              },
+              {
+                "key": "Ongoing Management",
+                "value": "Postpericardiocentesis: leave drain in place (pigtail catheter) until output <25–50 mL/day"
+              },
+              {
+                "key": "Ongoing Management",
+                "value": "Serial TTE to monitor for reaccumulation"
+              },
+              {
+                "key": "Ongoing Management",
+                "value": "Treat underlying cause (chemo for malignant, dialysis for uremic, abx for purulent)"
+              },
+              {
+                "key": "Ongoing Management",
+                "value": "Recurrent effusions: consider pericardial window (CT surgery consult)"
+              },
+              {
+                "key": "Ongoing Management",
+                "value": "Monitor for constrictive pericarditis as late complication"
+              }
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Stat",
+                "value": "Bedside TTE (RA/RV collapse, IVC plethora), ECG (low voltage, electrical alternans, sinus tach)"
+              },
+              {
+                "key": "Labs",
+                "value": "CBC, BMP, troponin, coags (PT/INR, PTT), type & screen"
+              },
+              {
+                "key": "Imaging",
+                "value": "CXR: waterbottle silhouette if effusion >250 mL. CT if stable & etiology unclear."
+              },
+              {
+                "key": "Pericardial fluid",
+                "value": "Send for: cell count, protein, LDH, glucose, cytology, gram stain/culture, AFB, adenosine deaminase"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "nl. Saline",
+                "dose": "500–1000 mL bolus",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Volume expansion to augment preload. Temporizing measure only."
+              },
+              {
+                "name": "Norepinephrine",
+                "dose": "0.1–0.5 mcg/kg/min",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "If hypotensive despite fluids. Bridge to pericardiocentesis."
+              },
+              {
+                "name": "Atropine",
+                "dose": "0.5–1 mg IV",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "For reflex ↓ HR. Avoid if tachycardic."
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / immediate higher level of care if",
+                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Adler Y, Charron P, Imazio M, et al. 2015 ESC Guidelines for the Diagnosis and Management of Pericardial Diseases. European Heart Journal. 2015;36(42):29212964. https://doi.org/10.1093/eurheartj/ehv318",
+              "Defined Approach to Pericardiocentesis. Roberts & Hedges' Clinical Procedures in Emergency Medicine and Acute Care, 7th edition. 2019."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hypertensive Emergency",
+        "subtitle": "Severe hypertension with chest pain, neuro deficits, AKI, pulmonary edema",
+        "sections": [
+          {
+            "title": "ABCs & Initial Measures",
+            "type": "bullets",
+            "items": [
+              "Circulation: check pulse, BP, perfusion, and IV access.\nAirway: check patency and protect.\nBreathing: check WOB, oxygenation, and ventilation.",
+              "Pulse oximetry & O2 to maintain SpO2 >92%",
+              "cardiac monitor",
+              "Two pIVs: if IV meds",
+              "Foley catheter: urine output if renal damage"
+            ]
+          },
+          {
+            "title": "Recognition & EndOrgan Damage",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Definition",
+                "value": "SBP ≥180 mmHg or DBP ≥120 mmHg with acute end organ damage. MCC: poorly controlled primary HTN."
+              },
+              {
+                "key": "Symptoms",
+                "value": "H/A, n/v, AMS, lethargy, blurred vision, seizures, coma"
+              },
+              {
+                "key": "Renal",
+                "value": "AKI, hematuria, proteinuria, RBC casts"
+              },
+              {
+                "key": "Cardiac",
+                "value": "Ac CHF, pulmonary edema, chest pain, ACS"
+              },
+              {
+                "key": "Neurologic",
+                "value": "Hypertensive encephalopathy, PRES (posterior reversible encephalopathy syndrome: MRI dx), ICH, stroke"
+              },
+              {
+                "key": "Ocular",
+                "value": "Papilledema, retinal hemorrhages"
+              },
+              {
+                "key": "Hematologic",
+                "value": "Microangiopathic hemolytic anemia (MAHA): peripheral smear"
+              },
+              {
+                "key": "Emergency vs severe As/s HTN",
+                "value": "Asymptomatic = severe HTN without endorgan damage —lower BP over 24-48h with PO agents. Emergency = endorgan damage: IV therapy."
+              }
+            ]
+          },
+          {
+            "title": "Approach: Treat the Physiology, Not the Number",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Core concept",
+                "value": "Emergency = severe BP + acute organ injury; the number alone is not the emergency. Comfortable pt at 228/118 w/o organ injury ≠ drip; previously normotensive pt at 170/110 with seizures/PRES can be. Avoid aggressive tx of asymptomatic inpatient HTN (possible harm)."
+              },
+              {
+                "key": "Ask first",
+                "value": "What organ am I saving? Is HTN causing the problem or the reverse? What is baseline BP? Is the BP real?"
+              },
+              {
+                "key": "Default target",
+                "value": "↓MAP ~20-25% in first hr → ~160/100 over 2-6 hr → normalize over 24-48 hr. Think %MAP, not SBP (MAP ≈ DBP + ⅓ pulse pressure). Chronic HTN shifts autoregulation right — 170/90 may be relative hypotension."
+              },
+              {
+                "key": "Vasodilation can HARM",
+                "value": "HOCM/LVOTO, severe AS, severe PAH/RV failure, acute ischemic stroke, hypovolemia. Check for these before reflexively lowering BP."
+              },
+              {
+                "key": "One-liner",
+                "value": "Don't treat 220/120 — treat 220/120 + the physiology. Dissection→esmolol then vasodilator; SCAPE→NIV+high-dose NTG; PRES→nicardipine/clevidipine; ICH→smooth SBP 130-150; AIS→usually tolerate; severe AS→cautious afterload reduction; HOCM→beta-block; PAH/RV→protect perfusion; stimulant→sedate first."
+              }
+            ]
+          },
+          {
+            "title": "Special Scenarios",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Aortic dissection",
+                "value": "Impulse control, not just BP. 1) Esmolol first (HR <60), 2) add nicardipine/clevidipine for SBP <120 within 20 min. NO pure vasodilator before beta-blockade (reflex tachycardia ↑ shear stress)."
+              },
+              {
+                "key": "Hypertensive encephalopathy / PRES",
+                "value": "Nicardipine or clevidipine (labetalol if drip not needed). ↓MAP 20-25% in 60 min; don't slam 240→120. MRI for PRES. Dx of exclusion (r/o hemorrhage, stroke, infection, tox/metabolic). AMS improves in hours."
+              },
+              {
+                "key": "ICH",
+                "value": "SBP 130-150 acutely; avoid <130 (INTERACT2, ATACHII). Nicardipine or clevidipine. Prioritize smoothness — BP variability (205→125→190) worsens outcomes. Reverse AC; neurosurgery C/S."
+              },
+              {
+                "key": "Acute ischemic stroke",
+                "value": "Usually tolerate HTN. No reperfusion: treat only if >220/120 (lower ~15%). Pre-tPA <185/110; post-tPA <180/105. Do NOT drive SBP <140 post-thrombolysis or post-thrombectomy — no benefit, may harm (2026 AHA/ASA)."
+              },
+              {
+                "key": "SCAPE / flash pulmonary edema",
+                "value": "Afterload redistribution, not just volume. Sit up + early NIV (CPAP 10-15, up to ~20 if refractory). High-dose NTG: start 100-300 mcg/min, titrate up (400-800 briefly if refractory); 10-20 mcg/min is inadequate. Add clevidipine/nicardipine if still severe. Diurese/HD only if true volume overload. Maximize NIV + afterload reduction before intubating."
+              },
+              {
+                "key": "Severe AS",
+                "value": "Not an absolute vasodilator contraindication — LV load = valve + SVR. If AS + HTN + edema: ICU, POCUS, NIV, small carefully-titrated afterload reduction; avoid abrupt preload/afterload collapse & giant NTG bolus. Hypotension is more dangerous than residual HTN (coronary perfusion of hypertrophied LV)."
+              },
+              {
+                "key": "HOCM / dynamic LVOTO",
+                "value": "Vasodilators worsen obstruction — avoid NTG, nitroprusside, dihydropyridine CCB (nicardipine/clevidipine), hydralazine, ACEi/ARB, aggressive diuresis. Use non-vasodilating beta-blocker: esmolol (or metoprolol 2.5-5 mg IV). Labetalol less ideal (alpha → ↓SVR). Hypotension after nitrates/diuresis may be worsening LVOTO → stop vasodilators, cautious fluids, phenylephrine, bedside echo (2024 HCM guideline)."
+              },
+              {
+                "key": "Severe PAH / RV failure",
+                "value": "Systemic BP perfuses the RV — dropping it too far → RV ischemia/shock spiral. Confirm HTN is actually causing organ injury before lowering. Keep MAP >60 (norepi/vasopressin if RV failing). Avoid NTG (preload), esp. with riociguat/recent PDE5i. Don't beta-block tachycardia (supports CO). Titrate nicardipine/clevidipine very cautiously; treat RV afterload (O2, correct acidosis, avoid hypercapnia); involve PH team."
+              },
+              {
+                "key": "Stimulant / catecholamine crisis",
+                "value": "Cocaine/meth/sympathomimetics, MAOI, withdrawal. Treat adrenergic drive FIRST: benzodiazepine (lorazepam 1-2 mg or midazolam 2-5 mg IV, titrate). Then nicardipine/clevidipine, or NTG if ACS/SCAPE. Don't just chase the number."
+              },
+              {
+                "key": "Preeclampsia/Eclampsia",
+                "value": "Labetalol 20mg IV (can repeat), or hydralazine 5-10mg IV, or nicardipine gtt. Magnesium sulfate 4g IV load: 1g/hr gtt for seizure prophylaxis/tx. Definitive tx = delivery."
+              },
+              {
+                "key": "Pheochromocytoma crisis",
+                "value": "Phentolamine 1-5 mg IV, repeat/titrate (or nicardipine/clevidipine). NEVER beta-block before adequate alpha-blockade. Crisis/stress/pain raises metanephrines — a positive result during crisis ≠ pheo; defer renin/aldo & metanephrine workup until stabilized."
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Distinguish hypertensive emergency from severe hypertension without target organ damage",
+              "Hypertensive emergency: SBP >180 and/or DBP >120 with acute target organ damage",
+              "Severe hypertension without target organ damage: intensify oral therapy and arrange follow up",
+              "check for target organ damage",
+              "Neurologic: encephalopathy, ICH, ischemic stroke",
+              "Cardiac: ACS, acute pulmonary edema",
+              "Vascular: aortic dissection",
+              "Renal: AKI",
+              "Obstetric: preeclampsia/eclampsia",
+              "Admit to ICU and start IV antihypertensive therapy",
+              "Use shortacting, titratable IV agents",
+              "Use continuous BP monitoring; consider arterial line with nitroprusside",
+              "Set BP target based on the clinical scenario",
+              "Aortic dissection: SBP <120 and HR <60 within 20 min",
+              "Acute pulmonary edema, ACS, or HF: SBP <140 within 1 hr",
+              "ICH: SBP 140-150 within 1 hr; avoid <140",
+              "Ischemic stroke before thrombolysis: BP <185/110",
+              "Ischemic stroke without thrombolysis and BP <220/120: no acute reduction for 48-72 hr",
+              "All other emergencies: lower BP by 25% in first hour, then to 160/100 over 2-6 hr",
+              "Select IV agent based on comorbidity",
+              "Aortic dissection: esmolol or labetalol first; betablock before vasodilator",
+              "Acute pulmonary edema: nitroglycerin, clevidipine, or nitroprusside; avoid beta blockers",
+              "ACS: esmolol or nitroglycerin; avoid hydralazine",
+              "AKI: clevidipine, fenoldopam, or nicardipine",
+              "Eclampsia/preeclampsia: labetalol, hydralazine, or nicardipine; avoid ACEi/ARB and nitroprusside",
+              "Pheochromocytoma/catecholamine excess: phentolamine, nicardipine, or clevidipine",
+              "General: nicardipine or labetalol; avoid hydralazine first line",
+              "Avoid excessive BP reduction",
+              "Overshoot to SBP <100-120 is associated with increased mortality",
+              "If BP drops too far: stop IV agents and consider IV fluids with or without vasopressors"
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Confirm emergency",
+                "value": "Treat HTN emergency only when severe BP elevation is accompanied by acute endorgan injury."
+              },
+              {
+                "key": "BP reduction goal",
+                "value": "Lower MAP gradually,by no more than ~20-25% in first hour unless specific emergency requires different target."
+              },
+              {
+                "key": "IV titratable agents",
+                "value": "Use nicardipine, clevidipine, labetalol, or another appropriate titratable IV agent based on the organ system involved."
+              },
+              {
+                "key": "Special scenarios",
+                "value": "Aortic syndromes, stroke, pulmonary edema, eclampsia, & catecholamine excess each have different BP goals & drug preferences."
+              }
+            ]
+          },
+          {
+            "title": "Diagnostic Workup",
+            "type": "steps",
+            "items": [
+              "Labs: CBC with peripheral smear (MAHA), BMP, Mg, UA (RBC/protein/casts)",
+              "Urine pregnancy test: preeclampsia/eclampsia",
+              "Urine Tox: cocaine, sympathomimetics",
+              "EKG: LVH, ischemia, strain pattern",
+              "Troponin & NTproBNP if c/f cards",
+              "Noncontrast head CT: r/o ICH or cerebral edema if neuro sx",
+              "MRI brain: PRES or ischemic lesions",
+              "CXR: pulmonary edema, wide mediastinum (dissection)",
+              "Renal US or TTE: if AKI or cardiac s/s"
+            ]
+          },
+          {
+            "title": "IV Antihypertensive Drug Table",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Nicardipine",
+                "dose": "Start 5 mg/hr, ↑ by 2.5 mg/hr q15min",
+                "route": "IV drip",
+                "contraindications": "Severe AS",
+                "notes": "Max 15 mg/hr. CCB: titratable. Good for most hypertensive emergencies including neurologic. Accumulates — de-escalate early once at target rather than leaving pinned at max. Watch reflex tachycardia, edema, phlebitis."
+              },
+              {
+                "name": "Clevidipine",
+                "dose": "Start 1-2 mg/hr, double q90sec initially; slow titration q5-10min as target approaches",
+                "route": "IV drip",
+                "contraindications": "Egg/soy allergy, pancreatitis",
+                "notes": "Max 21 mg/hr. Ultrashortacting CCB, rapid on/off — best for profoundly labile BP. Most titratable agent available. Lipid emulsion: contraindicated in egg/soy allergy, pancreatitis; triglyceride burden with prolonged/high dose."
+              },
+              {
+                "name": "Labetalol",
+                "dose": "IV bolus 10-20mg, then infusion 1-2 mg/min",
+                "route": "IV bolus or drip",
+                "contraindications": "Decomp CHF, ↓ HR, asthma",
+                "notes": "Max 300mg/24h. Alpha + beta blocker. Good for a modest controlled ↓ (not a titratable drip). Long-acting — boluses stack; not for minute-to-minute control. Good for aortic dissection (with esmolol)."
+              },
+              {
+                "name": "Esmolol",
+                "dose": "Load 500 mcg/kg over 1 min, then 25 mcg/kg/min; titrate to max 200 mcg/kg/min",
+                "route": "IV drip",
+                "contraindications": "Decomp CHF, ↓ HR",
+                "notes": "Ultrashortacting beta1 blocker. Drug of choice when HR/contractility drive the problem (dissection, HOCM/LVOTO, adrenergic tachycardia). Halflife ~9 min: easy to titrate."
+              },
+              {
+                "name": "Fenoldopam",
+                "dose": "Start 0.1-0.3 mcg/kg/min, titrate by 0.1 mcg/kg/min q15min",
+                "route": "IV drip",
+                "contraindications": "",
+                "notes": "Max 1.6 mcg/kg/min. Dopamine1 agonist: enhances renal perfusion & natriuresis. Preferred if AKI present. May cause reflex tachycardia."
+              },
+              {
+                "name": "Nitroprusside",
+                "dose": "0.3-0.5 mcg/kg/min, titrate to max 10 mcg/kg/min",
+                "route": "IV drip",
+                "contraindications": "Renal failure (cyanide risk)",
+                "notes": "Potent arterial + venous dilator. No longer routine first-line — modern titratable agents preferred (2024 BMJ). Overshoot hypotension, ↑ICP, V/Q mismatch. Cyanide toxicity with prolonged use (>4872h) or renal failure. Lightsensitive: wrap tubing."
+              },
+              {
+                "name": "Nitroglycerin",
+                "dose": "Start 20-40 mcg/min; SCAPE start 100-300 mcg/min, titrate rapidly (400-800 briefly if refractory)",
+                "route": "IV drip",
+                "contraindications": "PDE5i (sildenafil/vardenafil <24h, tadalafil <48h), riociguat, preload dependence, hypotension",
+                "notes": "Not a general HTN infusion. Best for SCAPE & ACS. Low dose venodilates; arterial afterload reduction needs high dose."
+              },
+              {
+                "name": "Hydralazine",
+                "dose": "10-20mg IV q4-6h PRN",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Onset 10-20 min, duration unpredictable. Use for eclampsia/preeclampsia if labetalol/nicardipine unavailable. Avoid as first line: less titratable."
+              }
+            ]
+          },
+          {
+            "title": "Refractory HTN — Check Before Escalating",
+            "type": "bullets",
+            "items": [
+              "Is the BP real? Wrong/undersized cuff, cuff over clothing, tremor, a-line whip or unzeroed/unleveled line",
+              "Did you treat the trigger? Pain, urinary retention, agitation, hypoxemia/hypercapnia, n/v, alcohol/opioid/benzo/clonidine/beta-blocker withdrawal, intracranial catastrophe",
+              "Missed secondary driver? Dissection, SCAPE, renal failure/GN, renal artery disease, stimulants, pheo, thyroid storm, autonomic dysreflexia",
+              "Did the drug get delivered? Infiltrated IV, paused pump, wrong concentration, dead line, incompatible infusion, BP cuff cycling q30min while titrating q5min",
+              "Poor drug match? NTG 20 mcg/min for SCAPE, metoprolol alone for vasoconstrictive crisis, stacked hydralazine, amlodipine when you need effect this hour, nicardipine w/o impulse control in dissection",
+              "Sequence: confirm BP → reconfirm dx & target organ → treat pain/adrenergic state → maximize ONE titratable infusion before adding agents → add complementary agent → arterial line if labile/deteriorating → reassess volume (malignant HTN → pressure natriuresis/relative hypovolemia) → bedside echo (LVOTO, AS, RV failure) → ICU"
+            ]
+          },
+          {
+            "title": "Common Mistakes to Avoid",
+            "type": "bullets",
+            "items": [
+              "PRN IV hydralazine or IV agents for asymptomatic inpatient HTN just because SBP >180",
+              "Treating pain-related BP before treating the pain",
+              "Restarting all home antihypertensives at once; dropping chronic severe HTN to 'normal'",
+              "Vasodilator before beta-blockade in dissection",
+              "Aggressive nitrates or diuresis in severe LVOTO; beta-blocking decompensated PAH just because HR 120",
+              "Low-dose NTG (10-20 mcg/min) then calling SCAPE 'nitrate refractory'",
+              "Stacking labetalol without recognizing its long pharmacodynamic tail",
+              "Forgetting PDE5 inhibitors/riociguat before giving nitrates"
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Whelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. Hypertension. 2018;71(6):e13e115. https://doi.org/10.1161/HYP.0000000000000065",
+              "Unger T, Borghi C, Charchar F, et al. 2020 International Society of Hypertension Global Hypertension Practice Guidelines. Hypertension. 2020;75(6):13341357. https://doi.org/10.1161/HYPERTENSIONAHA.120.15026",
+              "van den Born BJH, et al. ESC Council on Hypertension Position Document on the Management of Hypertensive Emergencies. European Heart Journal: Cardiovascular Pharmacotherapy. 2019;5(1):3746. https://doi.org/10.1093/ehjcvp/pvy032",
+              "2024 AHA Scientific Statement on management of elevated BP in acute care settings. https://doi.org/10.1161/HYP.0000000000000238",
+              "2024 ESC Guideline for the management of elevated blood pressure and hypertension. https://doi.org/10.1093/eurheartj/ehae178",
+              "2024 BMJ review: management of hypertensive emergencies. https://doi.org/10.1136/bmj-2023-077205",
+              "2026 AHA/ASA Guideline for the management of acute ischemic stroke. https://doi.org/10.1161/STR.0000000000000513",
+              "2022 AHA/ASA Guideline for the management of spontaneous intracerebral hemorrhage. https://doi.org/10.1161/STR.0000000000000407",
+              "2022 ACC/AHA Guideline for the diagnosis and management of aortic disease. https://doi.org/10.1161/CIR.0000000000001106",
+              "2024 AHA/ACC Guideline for the management of hypertrophic cardiomyopathy. https://doi.org/10.1161/CIR.0000000000001250",
+              "2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension. https://doi.org/10.1093/eurheartj/ehac237",
+              "FOAMed: EMCrit/IBCC (hypertensive emergencies; SCAPE), First10EM, REBEL EM. https://emcrit.org/ibcc/htn/"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Pericarditis",
+        "subtitle": "Pleuritic chest pain, friction rub, diffuse ST elevation, PR depression",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Circulation: check pulse, BP, perfusion, and IV access.\nAirway: check patency and protect.\nBreathing: check WOB, oxygenation, and ventilation.",
+              "ABCs: check hemodynamic stability: r/o tamponade (↓ BP, JVD, muffled heart sounds)",
+              "ECG: look for diffuse concave ST elevation + PR depression",
+              "Stat TTE if C/F effusion or tamponade",
+              "IV access, monitoring if hemodynamically unstable"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Recent viral illness (MCC), fever, malaise",
+              "Postcardiac surgery (Dressler syndrome: weeks to months postMI or surgery)",
+              "Autoimmune disease: SLE, RA, sarcoidosis",
+              "meds: anticoagulants, hydralazine, isoniazid, procainamide",
+              "Radiation therapy to chest, malignancy Hx.",
+              "Renal function (uremic pericarditis if BUN >60)"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "Pericardial friction rub: best heard with diaphragm at left sternal border, pt leaning forward",
+              "Tachycardia, lowgrade fever",
+              "Pulsus paradoxus >10 mmHg: c/f tamponade",
+              "JVD, muffled heart sounds: evolving tamponade",
+              "Peripheral edema, hepatomegaly if chronic constrictive process"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Acute Pericarditis",
+                "value": "Inflammation of pericardium. Dx requires ≥2 of: chest pain, friction rub, diffuse ST elevation/PR depression, newith worsening pericardial effusion"
+              },
+              {
+                "key": "Myopericarditis",
+                "value": "Pericarditis + troponin elevation suggesting myocardial involvement. Restrict activity until troponin returns to normal"
+              },
+              {
+                "key": "Recurrent",
+                "value": "Relapse after sxfree interval ≥4–6 weeks. Occurs in 15–30% without colchicine."
+              },
+              {
+                "key": "Constrictive",
+                "value": "Chronic pericardial thickening/calcification: impaired diastolic filling. Late complication."
+              }
+            ]
+          },
+          {
+            "title": "ECG Evolution",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Stage I (hours to days)",
+                "value": "Diffuse concave ST elevation + PR depression in multiple leads; reciprocal PR elevation/ST depression in aVR & sometimes V1. No territorial pattern."
+              },
+              {
+                "key": "Stage II (days)",
+                "value": "ST & PR abnormalities normalize. T waves may flatten."
+              },
+              {
+                "key": "Stage III (days to weeks)",
+                "value": "Diffuse Twave inversions appear after ST segments return to baseline."
+              },
+              {
+                "key": "Stage IV (weeks to months)",
+                "value": "ECG returns to normal. Some pts stop at earlier stages or never show all four stages."
+              },
+              {
+                "key": "Pearls",
+                "value": "Spodick sign = downsloping TP segment,best in II or lateral leads. Early repolarization lacks PR depression &has stable, chronic ST elevation. STEMI has territorial changes with reciprocal ST depression."
+              }
+            ]
+          },
+          {
+            "title": "DDx Comparison Table",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Onset",
+                "value": "Serotonin syndrome: Hours | Neuroleptic malignant syndrome: Days | Anticholinergic toxicity: Hours | Malignant hyperthermia: Minutes (OR)"
+              },
+              {
+                "key": "Key finding",
+                "value": "Serotonin syndrome: Clonus/hyperreflexia | Neuroleptic malignant syndrome: Leadpipe rigidity | Anticholinergic toxicity: Mydriasis, dry | Malignant hyperthermia: Generalized rigidity"
+              },
+              {
+                "key": "Bowel sounds",
+                "value": "Serotonin syndrome: Hyperactive | Neuroleptic malignant syndrome: nl./decreased | Anticholinergic toxicity: Absent | Malignant hyperthermia: nl."
+              },
+              {
+                "key": "Skin",
+                "value": "Serotonin syndrome: Diaphoresis | Neuroleptic malignant syndrome: Diaphoresis | Anticholinergic toxicity: Dry, flushed | Malignant hyperthermia: Mottled"
+              },
+              {
+                "key": "Pupils",
+                "value": "Serotonin syndrome: Mydriasis | Neuroleptic malignant syndrome: nl. | Anticholinergic toxicity: Mydriasis | Malignant hyperthermia: nl."
+              },
+              {
+                "key": "CK",
+                "value": "Serotonin syndrome: Mildly elevated | Neuroleptic malignant syndrome: >1000 | Anticholinergic toxicity: nl. | Malignant hyperthermia: Markedly elevated"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Viral/Idiopathic",
+                "value": "Most common (80–90%). Coxsackie, echovirus, adenovirus, EBV, CMV, HIV"
+              },
+              {
+                "key": "Postcardiac injury",
+                "value": "Dressler syndrome (postMI, postsurgery, postablation). Onset 1–6 weeks after event."
+              },
+              {
+                "key": "Autoimmune",
+                "value": "SLE, RA, ankylosing spondylitis, sarcoidosis, vasculitis"
+              },
+              {
+                "key": "Uremic",
+                "value": "BUN >60. Does not respond to NSAIDs: requires dialysis"
+              },
+              {
+                "key": "Malignancy",
+                "value": "Lung, breast, lymphoma, melanoma. Often hemorrhagic effusion."
+              },
+              {
+                "key": "Bacterial/TB",
+                "value": "Purulent pericarditis is surgical emergency. TB pericarditis in endemic areas."
+              },
+              {
+                "key": "ACS mimic",
+                "value": "Differentiate from STEMI: diffuse ST changes (not territorial), PR depression, no reciprocal changes, pain worse supine",
+                "topicLink": "ACS"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Start first line dual antiinflammatory therapy",
+              "Use NSAID > aspirin, taper after s/s resolution and CRP wnl",
+              "colchicine 3 months in acute disease/ 6 months in recurrent disease",
+              "Add PPI for gastro protection",
+              "Restrict exercise for at least 1 month; target max HR about 100",
+              "Continue restriction until clinical remission",
+              "get baseline imaging",
+              "Get TTE to check effusion, tamponade, or constriction",
+              "Use CMR for recurrent or incessant pericarditis to check edema and inflammation",
+              "If refractory to first line therapy: determine phenotype",
+              "Inflammatory phenotype: elevated CRP, fever, or CMR inflammation",
+              "Inflammatory phenotype > prefer antiIL1 therapy (rilonacept or anakinra)",
+              "Non inflammatory phenotype: normal CRP and no CMR inflammation>lowdose steroids if therapy is refractory or not tolerated",
+              "Avoid steroids in a first episode when possible: inc. recurrence risk",
+              "For recurrent pericarditis: consider antiIL1 therapy after failure of first line therapy with or without steroids",
+              "Screen for hepatitis, HIV, and TB before starting antiIL1 therapy",
+              "Once stable on antiIL1 therapy, other antiinflammatories can often be weaned sequentially",
+              "Longer antiIL1 courses may reduce recurrence",
+              "Thirdline options: azathioprine, IVIG, or radical pericardiectomy at experienced centers",
+              "Admit high risk pts: fever, large effusion, tamponade, immunocompromise, anticoagulation, trauma, or suspected bacterial or malignant cause",
+              "Monitor CRP weekly: guide duration of therapy",
+              "Activity restriction until sx resolve & CRP returns to normal (athletes: ≥3 months)",
+              "Taper aspirin/NSAID over 2–4 weeks based on sx + CRP",
+              "Continue colchicine for 3 months (first episode) or 6 months (recurrent)",
+              "Repeat TTE if initially had effusion: ensure resolution",
+              "Watch for tamponade: worsening dyspnea, ↓ BP, JVD"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Stat",
+                "value": "EKG, troponin, CBC, BMP, ESR/CRP"
+              },
+              {
+                "key": "Routine",
+                "value": "CK, TSH, LFTs. If systemic dz: ANA, RF, complement"
+              },
+              {
+                "key": "Imaging",
+                "value": "TTE: check effusion size & tamponade physiology. CXR: cardiomegaly if effusion >250 mL"
+              },
+              {
+                "key": "If infectious concern",
+                "value": "BCxs, HIV, QuantiFERONTB"
+              },
+              {
+                "key": "Advanced",
+                "value": "Cardiac MRI if dx unclear: detects inflammation, differentiates from myocarditis, measures pericardial thickness"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Aspirin",
+                "dose": "650–1000 mg PO QID",
+                "route": "PO",
+                "contraindications": "",
+                "notes": "Firstline. Taper over 4 weeks. Always add PPI for GI protection."
+              },
+              {
+                "name": "Colchicine",
+                "dose": "0.6 mg BID (≤70 kg: 0.6 mg daily)",
+                "route": "PO",
+                "contraindications": "Severe renal/hepatic dz",
+                "notes": "↓ recurrence by ~50%. Duration: 3 months. Start with first episode."
+              },
+              {
+                "name": "Ibuprofen",
+                "dose": "600 mg PO TID",
+                "route": "PO",
+                "contraindications": "Renal dz, GI bleed",
+                "notes": "Alternative NSAID if aspirin not tolerated. Taper over 2–4 weeks."
+              },
+              {
+                "name": "Prednisone",
+                "dose": "0.25–0.5 mg/kg/day, slow taper",
+                "route": "PO",
+                "contraindications": "",
+                "notes": "Last resort: save for uremic, autoimmune, or NSAIDrefractory. ↑s recurrence risk if used in viral"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / immediate higher level of care if",
+                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Adler Y, Charron P, Imazio M, et al. 2015 ESC Guidelines for the Diagnosis and Management of Pericardial Diseases. European Heart Journal. 2015;36(42):29212964. https://doi.org/10.1093/eurheartj/ehv318",
+              "Chiabrando JG, Bonaventura A, Vecchié A, et al. Management of Acute and Recurrent Pericarditis: JACC StateoftheArt Review. Journal of the American College of Cardiology. 2020;75(1):7692. https://doi.org/10.1016/j.jacc.2019.11.021"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "LVAD Emergencies",
+        "subtitle": "Lowflow alarms, hypotension, hemolysis, shock, absent palpable pulse",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Airway: check patency; if GCS <8 or unable to protect airway: intubate",
+              "Breathing: SpO2, RR, auscultate; apply supplemental O2 if hypoxic",
+              "Circulation: DO NOT rely on NIBP or pulse ox: LVAD pts may have no palpable pulse & no SpO2 reading",
+              "Auscultate for LVAD hum: hum = device running; absent hum = pump failure: EMERGENCY",
+              "Check MAP via arterial line or manual Doppler BP: target MAP 7080 mmHg",
+              "If unresponsive with no LVAD hum: start CPR: chest compressions ARE safe in LVAD pts (risk of dislodgement is oretical)",
+              "IV access (avoid left arm if driveline on left); labs, ECG, CXR",
+              "Contact LVAD coordinator & CT surgery now —theyshould be involved in ALL LVAD emergencies"
+            ]
+          },
+          {
+            "title": "LVAD assessment",
+            "type": "steps",
+            "items": [
+              "Check LVAD controller for alarms & parameters (speed, power, pulsatility index, flow)",
+              "Auscultate: listen for LVAD hum over left chest",
+              "Doppler BP: place cuff, inflate above expected MAP, deflate slowly: first Doppler signal = MAP",
+              "Check driveline site for signs of infection, bleeding, or disconnection",
+              "Get labs: CBC, CMP, LDH, plasmafree Hgb, INR, fibrinogen",
+              "Get EKG (arrhythmias are common in LVAD pts)",
+              "If unstable: check connections, battery, controller: swap to backup controller if avail"
+            ]
+          },
+          {
+            "title": "Key Principles",
+            "type": "bullets",
+            "items": [
+              "Do NOT use automated BP cuffs: LVADs produce flow; use Doppler for MAP",
+              "Do NOT do chest compressions unless confirmed cardiac arrest with no LVAD flow: risk of dislodging cannula",
+              "Target MAP by Doppler: **60–90 mmHg**",
+              "Always contact LVAD center / VAD coordinator early",
+              "Patients may lack palpable pulse: this can nl. with flow devices"
+            ]
+          },
+          {
+            "title": "Common Emergencies",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Pump Thrombosis",
+                "value": "↑ Power / ↑ LDH / ↓ flow / dark urine. Heparinize, consider tPA. Contact VAD center urgently."
+              },
+              {
+                "key": "Suction Event",
+                "value": "Low flow alarm, ↓ pulsatility. Volume deplete or RV failure. Give 500mL bolus, reduce pump speed."
+              },
+              {
+                "key": "GI Bleed",
+                "value": "MCC of readmission. Hold anticoagulation. Transfuse PRBCs. Avoid lowering MAP <60: may worsen pump function."
+              },
+              {
+                "key": "Driveline Infxn",
+                "value": "Eryma/drainage at exit site. BCx × 2, wound culture. Broadspectrum abx.Don't pull driveline."
+              },
+              {
+                "key": "RV Failure",
+                "value": "JVD, hepatomegaly, peripheral edema, ↓ LVAD flow. Inotropes (milrinone), ↓LVAD speed, avoid volume overload."
+              },
+              {
+                "key": "Arrhythmia",
+                "value": "VT/VF may tolerated with LVAD support. Treat per ACLS if hemodynamically unstable. Amiodarone 150mg IV."
+              },
+              {
+                "key": "Power Failure",
+                "value": "Swap batteries now. If controller fails, switch to backup. If total power loss: h&crank pump per device protocol."
+              },
+              {
+                "key": "Stroke",
+                "value": "Both ischemic & hemorrhagic possible. CT head stat. Reverse anticoagulation for hemorrhagic. Contact VAD center before tPA.",
+                "topicLink": "Acute Ischemic Stroke"
+              }
+            ]
+          },
+          {
+            "title": "Cardiac Arrest in LVAD Patient",
+            "type": "steps",
+            "items": [
+              "Confirm arrest: unresponsive + no Doppler signal + LVAD not running",
+              "Check LVAD controller & connections first: power failure is reversible cause",
+              "Swap to backup controller/batteries",
+              "If LVAD confirmed nonfunctional & no signs of life: start compressions cautiously (risk of cannula displacement)",
+              "Defibrillate VT/VF per standard ACLS: safe with LVAD in place",
+              "Pushdose epi 10–20 mcg IV for low MAP if LVAD running but hypotensive",
+              "Do NOT delay contacting LVAD center —theymay be able to troubleshoot remotely"
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "check perfusion, not pulse",
+              "Check mentation, skin color and temperature, and cap refill",
+              "Auscultate for the LVAD hum to confirm pump function",
+              "get Doppler MAP; goal is >60 mmHg",
+              "Check controller and connections",
+              "Verify driveline connections, battery status, and alarms",
+              "Note power, flow, and pulsatility index",
+              "Contact the VAD center immediately",
+              "get baseline labs and imaging",
+              "Get CBC, BMP, LDH, plasmafree hemoglobin, INR, troponin, and lactate",
+              "Get ECG because arrhythmias are common",
+              "Get chest Xray for pump position and driveline integrity",
+              "Get bedside echocardiography",
+              "Pump thrombosis: suspect with power increase, high LDH, hemoglobinuria, or HF symptoms",
+              "Pump thrombosis: admit to ICU and start IV anticoagulation with UFH or bivalirudin",
+              "Pump thrombosis: give supportive care with inotropes and diuretics",
+              "Pump thrombosis: avoid thrombolytics first line and transfer for pump exchange if no improvement",
+              "Suction event or low flow alarm: check for LV underfilling",
+              "Hypovolemia > cautious fluid bolus",
+              "RV failure > milrinone or dobutamine",
+              "Tamponade > emergent pericardiocentesis or surgery",
+              "Arrhythmia > treat per ACLS",
+              "Suction event: decrease pump speed temporarily",
+              "Suction event: use bedside echo to check LV size, septum, and RV function",
+              "Suction event: correct the cause before increasing speed",
+              "Bleeding, often GI: check stability and transfuse as needed",
+              "Use leukocytedepleted products for bridge to transplant pts",
+              "Hold anticoagulation or antiplatelet therapy only after discussing with the VAD center",
+              "Start PPI therapy",
+              "Use endoscopy or colonoscopy to find the source; consider push enteroscopy if needed",
+              "Use reversal agents only for life-threatening bleeding after VAD team input",
+              "Hemolysis without thrombosis: check pump position with bedside echo",
+              "Optimize preload and reduce pump speed if positioning is adequate",
+              "Persistent hemolysis may require pump exchange",
+              "Give supportive care including transfusion and hemodiafiltration if needed",
+              "Ventricular arrhythmias may be tolerated; check perfusion rather than pulse alone",
+              "Get ECG and do not dismiss rhythm as device interference",
+              "Use echo to check for suction event or septal shift",
+              "If suctionrelated: decrease speed and give a gentle fluid bolus",
+              "Cardioversion and defibrillation are safe without disconnecting the device",
+              "Use amiodarone for stable VT and ACLS for unstable arrhythmias",
+              "Consider RV mechanical support for refractory arrhythmias",
+              "Cardiac arrest: standard ACLS still applies",
+              "Verify pump function by hum and controller check",
+              "If pump stops: check connections and replace batteries or controller",
+              "Chest compressions are controversial but reasonable if no pump function",
+              "Defibrillation is safe and should not be delayed",
+              "Consider ECMO as a bridge if refractory",
+              "Driveline infection: get wound and blood cultures",
+              "Start broad spectrum antibiotics and local wound care",
+              "Transfer to the VAD center for definitive management",
+              "Deep infection may require debridement or pump exchange",
+              "Right ventricular failure: look for high JVP, hepatomegaly, and low LVAD flow",
+              "Optimize preload and avoid overdiuresis",
+              "Reduce LVAD speed to allow RV filling",
+              "Use milrinone or dobutamine",
+              "Consider inhaled pulmonary vasodilators such as nitric oxide or epoprostenol",
+              "Consider temporary RVAD if refractory"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Heparin",
+                "dose": "80 units/kg bolus, 18 units/kg/hr",
+                "route": "IV",
+                "contraindications": "Active bleed, HIT",
+                "notes": "For suspected pump thrombosis. Target aPTT 60–80s. Monitor closely."
+              },
+              {
+                "name": "Milrinone",
+                "dose": "0.375–0.75 mcg/kg/min",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "For RV failure. No loading dose in acute setting. Monitor for ↓ BP."
+              },
+              {
+                "name": "Amiodarone",
+                "dose": "150mg over 10 min",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "For VT/VF. Follow with 1mg/min × 6hthen0.5mg/min × 18h."
+              },
+              {
+                "name": "Phenylephrine",
+                "dose": "100–200 mcg bolus",
+                "route": "IV",
+                "contraindications": "RV failure",
+                "notes": "For acute ↓ BP."
+              },
+              {
+                "name": "Vasopressin",
+                "dose": "0.01–0.04 units/min",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Alternative vasopressor. May be preferred over norepinephrine in LVAD pts."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Givertz MM, DeFilippis EM, Colvin M, et al. HFSA/SAEM/ISHLT Clinical Expert Consensus Document on the Emergency Management of Patients With Ventricular Assist Devices. Journal of Heart and Lung Transplantation. 2019.",
+              "Long B, Robertson J, Koyfman A, Brady W. Left Ventricular Assist Devices and Their Complications: A Review for Emergency Clinicians. American Journal of Emergency Medicine. 2019.",
+              "Feldman D, Pamboukian SV, Teuteberg JJ, et al. The 2013 ISHLT Guidelines for Mechanical Circulatory Support. Journal of Heart & Lung Transplantation. 2013;32(2):157187. https://doi.org/10.1016/j.healun.2012.09.013",
+              "Molina EJ, Shah P, Kiernan MS, et al. The Society of Thoracic Surgeons Intermacs 2020 Annual Report. Annals of Thoracic Surgery. 2021;111(3):778792. https://doi.org/10.1016/j.athoracsur.2020.12.038"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "ECMO Emergencies",
+        "subtitle": "Hypoxemia, shock, circuit alarms, bleeding, limb ischemia",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Circulation: check pulse, BP, perfusion, and IV access.\nAirway: check patency and protect.\nBreathing: check WOB, oxygenation, and ventilation.",
+              "CIRCUIT EMERGENCY: call ECMO specialist/perfusionist STAT",
+              "Lower pt's head (Trendelenburg) if air may have reached pt",
+              "Deair circuit with perfusionist help before restarting",
+              "Monitor postoxygenator blood gas: ↓ PaO2 or ↑ PaCO2 suggests failing membrane",
+              "Prepare for emergent oxygenator exchange (perfusionist)",
+              "Direct pressure on cannula site: do NOT remove partially dislodged cannula",
+              "Call surgery STAT for recannulation"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "ECMO type: VV (respiratory only) vs VA (cardiac + respiratory)",
+              "Cannulation sites & dates: femoral, IJ, central",
+              "ECMO flow rate (L/min), sweep gas (L/min), FiO2 on circuit",
+              "vent settings —\"lung rest\" on VVECMO (low TV, low rate, low FiO2)",
+              "Anticoagulation: current heparin dose, last aPTT/antiXa, recent dose changes",
+              "Indication: ARDS, cardiogenic shock, PE, bridge to transplant, postcardiotomy",
+              "Duration on ECMO: complications ↑ with time",
+              "Distal perfusion catheter present? (VAECMO: prevents limb ischemia)",
+              "Contact info for ECMO team/perfusionist: must be available 24/7"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "Cannula sites: bleeding, hematoma, signs of infection, secure dressings",
+              "Distal limb perfusion (VAECMO): check pulses, color, temp, & SpO2 on cannulated extremity q1h: limb ischemia is an emergency",
+              "Circuit inspection: clots in tubing or oxygenator (dark spots), kinks, connections secure",
+              "Auscultate: heart sounds (LV distension: diminished), lungs (pulmonary edema if LV not ejecting on VAECMO)",
+              "NorthSouth syndrome (VAECMO with femoral cannulation): check SpO2 on RIGHT h&: if ↓ vs lower extremity, upper body is receiving poorly oxygenated blood from native heart",
+              "Neurologic: pupil reactivity, GCS: cerebral embolism risk on VAECMO",
+              "Abdomen: compartment syndrome risk, check for GI bleeding"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ECMO",
+                "value": "Extracorporeal membrane oxygenation: an external circuit that oxygenates blood & removes CO2, functioning as an artificial lung ± heart"
+              },
+              {
+                "key": "VVECMO",
+                "value": "Venovenous: blood drained from vein: oxygenator: returned to vein near RA. Respiratory support only: requires native cardiac function"
+              },
+              {
+                "key": "VAECMO",
+                "value": "Venoarterial: blood drained from vein: oxygenator: returned to artery. Provides both cardiac & respiratory support"
+              },
+              {
+                "key": "Cannulation (VV)",
+                "value": "Femoral vein: IJ return, or dual lumen IJ catheter (Avalon)"
+              },
+              {
+                "key": "Cannulation (VA)",
+                "value": "Femoral vein drainage: femoral artery return (peripheral), or RA: aorta (central, surgical)"
+              },
+              {
+                "key": "Key difference from CPB",
+                "value": "Lower anticoagulation, longer duration possible (days–weeks), partial vs full support"
+              }
+            ]
+          },
+          {
+            "title": "ECMO Cannulation & Circuit",
+            "type": "imageGallery",
+            "images": [
+              {
+                "assetName": "ecmo_cannulation",
+                "caption": "ECMO Configurations: VV vs VA Cannulation",
+                "description": "VVECMO (left): Deoxygenated blood drained from femoral vein, passed through oxygenator/heat exchanger, returned to IJ vein near RA. VAECMO (right): Blood drained from femoral vein (RA), oxygenated, returned to femoral artery (aorta). Note distal perfusion catheter on arterial cannula to prevent limb ischemia."
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "VVECMO indications",
+                "value": "Severe ARDS (P/F <100), refractory hypoxemia, status asthmaticus, smoke inhalation, bridge to lung transplant, pulmonary contusion"
+              },
+              {
+                "key": "VAECMO indications",
+                "value": "Cardiogenic shock, massive PE, refractory cardiac arrest (eCPR), postcardiotomy failure, myocarditis, bridge to heart transplant/LVAD, drug OD with cardiac depression"
+              },
+              {
+                "key": "Hemorrhage",
+                "value": "MCC complication: surgical site, cannula site, GI, intracranial. Anticoagulation + consumptive coagulopathy"
+              },
+              {
+                "key": "Thrombosis",
+                "value": "Circuit clots, oxygenator thrombus, DVT/PE, arterial emboli, stroke"
+              },
+              {
+                "key": "LV distension (VA)",
+                "value": "Blood returning to aorta ↑ LV afterload: LV doesn't eject: distension: pulmonary edema: myocardial damage. Needs LV venting"
+              },
+              {
+                "key": "NorthSouth syndrome",
+                "value": "Peripheral VAECMO: oxygenated blood from femoral artery mixes with deoxygenated blood from native heart. Upper body (brain, coronaries) may hypoxic. Check R h& SpO2"
+              },
+              {
+                "key": "Limb ischemia (VA)",
+                "value": "Femoral arterial cannula: distal ischemia. Prevented by distal perfusion catheter. Fasciotomy if compartment syndrome"
+              },
+              {
+                "key": "Infection",
+                "value": "Cannula site, blood stream infection, pneumonia. ↑ risk with duration"
+              },
+              {
+                "key": "Hemolysis",
+                "value": "Mechanical destruction of RBCs by circuit: monitor plasmafree Hgb, LDH, haptoglobin"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "check perfusion and circuit function",
+              "Check mentation, skin perfusion, and cap refill",
+              "Confirm the circuit is running and check flows, RPM, and alarms",
+              "Inspect for clot, air, kinks, or disconnections",
+              "get baseline labs",
+              "Get CBC, BMP, LDH, plasmafree hemoglobin, and fibrinogen",
+              "Get ABG and lactate",
+              "Check ACT or aPTT and antiXa",
+              "Call the ECMO specialist or perfusionist immediately",
+              "Cardiac arrest on ECMO: verify circuit function first",
+              "If the circuit is running with adequate flow, look for other causes of collapse",
+              "If the circuit has stopped, check power and connections and swap controller or batteries",
+              "Increase ECMO flow to the maximum tolerated",
+              "Defibrillation is safe and should not be delayed",
+              "Chest compressions are controversial; consider if no circuit flow",
+              "Treat reversible causes such as hypovolemia, tamponade, tension pneumothorax, or arrhythmia",
+              "On VAECMO, consider LV distension and need for venting",
+              "Air embolism: clamp the circuit immediately and stop the pump",
+              "Find the air source and deair the circuit before restart",
+              "Use Trendelenburg; consider left lateral decubitus for arterial air",
+              "If unable to deair, perform full circuit change",
+              "Consider hyperbaric oxygen for major systemic air embolism",
+              "Oxygenator failure: suspect with rising premembrane pressure, low postmembrane PaO2, or visible clot",
+              "Increase FiO2 and sweep gas temporarily",
+              "Prepare for emergent oxygenator or circuit exchange",
+              "Use backup pump or handcrank if needed",
+              "Increase ventilator support as a bridge",
+              "Pump failure: clamp circuit to prevent backflow",
+              "Attempt controller or battery swap",
+              "Handcrank as a bridge if avail",
+              "Prepare for emergent circuit change",
+              "Maximize ventilator and inotropic support",
+              "Accidental decannulation: apply direct pressure and clamp the circuit",
+              "Call for emergent surgical support",
+              "Resuscitate with blood, fluids, and vasopressors",
+              "Prepare for emergent recannulation",
+              "Bleeding: find the source",
+              "Reduce or hold anticoagulation only with ECMO team input",
+              "Transfuse PRBCs, platelets, and cryoprecipitate as needed",
+              "Consider TXA or aminocaproic acid",
+              "Use reversal agents only for life-threatening bleeding",
+              "Use IR or surgery for uncontrolled bleeding",
+              "Intracranial hemorrhage: get urgent neurosurgical input and consider ECMO discontinuation",
+              "Circuit thrombosis: suspect with rising pressures, visible clot, hemolysis, or falling flows",
+              "Optimize anticoagulation",
+              "Use bivalirudin if heparin resistance or HIT is suspected",
+              "Prepare for circuit exchange if clot burden is significant",
+              "Monitor for embolic complications",
+              "Hemolysis: check plasmafree hemoglobin, LDH, and haptoglobin",
+              "Look for high RPM, kink, small cannula, or thrombus",
+              "Reduce pump speed if tolerated and optimize cannula position",
+              "Exchange the circuit if refractory",
+              "Give supportive care with transfusion and renal protection",
+              "Limb ischemia on VAECMO: monitor Doppler pulses, color, temperature, and compartment tension hourly",
+              "Check lactate and CPK",
+              "Place distal perfusion catheter early if ischemia develops",
+              "If DPC is present, confirm patency and position",
+              "Compartment syndrome requires emergent fasciotomy",
+              "Move cannula or use central cannulation if needed",
+              "Amputate only if the limb is unsalvageable",
+              "Differential hypoxemia on VAECMO: monitor right radial oxygenation",
+              "Increase ECMO flow and optimize ventilator settings",
+              "Consider beta blockade, VAVECMO, or central or axillary return if persistent",
+              "Target right radial SpO2 94-98%",
+              "LV distension on VAECMO: suspect with pulmonary edema, closed aortic valve, or LV thrombus risk",
+              "Reduce afterload and add inotropy",
+              "Consider IABP, Impella, surgical vent, or atrial septostomy",
+              "Infection: get blood and cannula cultures",
+              "Start broad spectrum antibiotics",
+              "Inspect cannulation sites daily",
+              "Consider circuit change for persistent bacteremia",
+              "Get source control if possible",
+              "Daily goals with ECMO team: target flows, sweep, anticoagulation, weaning plan",
+              "Anticoagulation: titrate heparin to target aPTT/antiXa. Hold for active bleeding, resume cautiously",
+              "vent: \"lung rest\" on VVECMO (TV 3-4 mL/kg, PEEP 10-15, rate 10, FiO2 0.3). Avoid ventinduced lung injury",
+              "VAECMO: ensure LV is ejecting: check aortic valve opening on echo. If LV distended: inotropes, IABP, or LV vent (Impella)",
+              "Transfuse: Hgb >7-8, plt >50-80k (>100k if bleeding), fibrinogen >150. Minimize volume: circuit dilution is common",
+              "Nutrition: start enteral feeds within 24-48h if hemodynamically stable",
+              "Monitor cannulated limb hourly (VAECMO): pulse, color, temp, compartment checks",
+              "DVT prophylaxis:held d/t systemic anticoagulation: discuss with team",
+              "Weaning trials: ↓ ECMO flows & check native heart/lung function. VV: ↓ sweep gas. VA: ↓ flows to 1-2 L/min under echo guidance"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "aPTT or antiXa q4-6h",
+                "value": "Anticoagulation monitoring: goal aPTT 40-60 sec or antiXa 0.3-0.7 (institutional protocol)"
+              },
+              {
+                "key": "ABG/VBG",
+                "value": "Preoxygenator (venous) & postoxygenator (arterial) gases: check circuit & native lung function"
+              },
+              {
+                "key": "CBC, fibrinogen, Ddimer",
+                "value": "Monitor for bleeding, consumptive coagulopathy, DIC. Transfuse plt >50-80k, fibrinogen >150"
+              },
+              {
+                "key": "Plasmafree Hgb, LDH",
+                "value": "Hemolysis markers: ↑ suggests circuit/pump issue"
+              },
+              {
+                "key": "Lactate",
+                "value": "Endorgan perfusion marker: ↓ on adequate ECMO support"
+              },
+              {
+                "key": "CXR daily",
+                "value": "check lung recovery (VV), LV distension/pulmonary edema (VA), cannula position"
+              },
+              {
+                "key": "Echo (TTE/TEE)",
+                "value": "check LV function, aortic valve opening (VAECMO: must open to prevent stasis), RV function, pericardial effusion"
+              },
+              {
+                "key": "R h& SpO2 (VAECMO)",
+                "value": "Monitor ly: detects NorthSouth syndrome. If <90%: ↑ vent support or convert to VAV/central"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Heparin (UFH)",
+                "dose": "Bolus: 50-100 units/kg at cannulation; Infusion: 10-20 units/kg/h",
+                "route": "IV",
+                "contraindications": "Active hemorrhage, HIT",
+                "notes": "standard anticoagulation for ECMO. Goal aPTT 40-60 sec (or per institutional protocol). AntiXa 0.3-0.7 units/mL. Monitor q4-6h."
+              },
+              {
+                "name": "Bivalirudin",
+                "dose": "0.05-0.2 mg/kg/h IV (no bolus)",
+                "route": "IV",
+                "contraindications": "Severe hepatic failure",
+                "notes": "Alternative for HIT. Direct thrombin inhibitor. Titrate to aPTT 40-60 sec. Shorter halflife than heparin."
+              },
+              {
+                "name": "Norepinephrine",
+                "dose": "0.01-0.5 mcg/kg/min",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Firstline vasopressor on ECMO. Target MAP ≥65 mmHg. VAECMO ptsneed vasopressors to maintain native coronary/cerebral perfusion."
+              },
+              {
+                "name": "Epinephrine",
+                "dose": "0.01-0.2 mcg/kg/min",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Inotrope for ↓ native cardiac function on VAECMO. Helps maintain LV ejection to prevent stasis & LV distension."
+              },
+              {
+                "name": "Milrinone",
+                "dose": "0.25-0.75 mcg/kg/min (no loading dose on ECMO)",
+                "route": "IV",
+                "contraindications": "Severe ↓ BP",
+                "notes": "Inodilator: ↓ LV afterload on VAECMO. Helps prevent LV distension. Avoid loading dose: causes ↓ BP ."
+              },
+              {
+                "name": "Aminocaproic acid (Amicar)",
+                "dose": "4-5g IV load, then 1g/h",
+                "route": "IV",
+                "contraindications": "DIC, active thrombus",
+                "notes": "Antifibrinolytic for bleeding on ECMO. Use with caution: ↑ thrombotic risk in circuit."
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / immediate higher level of care if",
+                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Extracorporeal Life Support Organization (ELSO). ELSO Guidelines for Adult Respiratory Failure. 2021. https://www.elso.org/ecmo-resources/elso-ecmo-guidelines.aspx",
+              "Badulak J, Antonini MV, Stead CM, et al. ELSO COVID19 Working Group Guideline. ASAIO Journal. 2021;67(5):472481.",
+              "Combes A, Hajage D, Capellier G, et al. Extracorporeal Membrane Oxygenation for Severe Acute Respiratory Distress Syndrome (EOLIA trial). New England Journal of Medicine. 2018;378(21):19651975. https://doi.org/10.1056/NEJMoa1800385"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

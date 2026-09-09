@@ -1,0 +1,291 @@
+{
+  "name": "Surgical / Trauma",
+  "color": "brown",
+  "icon": "bandage.fill",
+  "topics": [
+    {
+      "title": "Compartment Syndrome",
+      "subtitle": "Severe pain, tense compartment, pain with passive stretch, paresthesias",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "Place limb at heart level (elevation: ↓ arterial perfusion; dependency ↑ edema: both worsen compartment syndrome)",
+            "Call surgery pager!",
+            "If clinical dx is clear: STAT fasciotomy: do NOT delay for pressure measurements",
+            "Fasciotomy indicated if: absolute pressure >30 mmHg OR delta pressure (diastolic BP − compartment pressure) <30 mmHg",
+            "Monitor UOP: goal >1-1.5 mL/kg/h to prevent AKI"
+          ]
+        },
+        {
+          "title": "Chart Check / History",
+          "type": "bullets",
+          "items": [
+            "MOA: fracture (esp tibial shaft: MCC), crush injury, prolonged limb compression, reperfusion after vascular repair",
+            "Recent surgery: postop positioning, tourniquet time, vascular procedures",
+            "Burns: circumferential burns: escharotomy may needed not fasciotomy",
+            "Anticoagulation status: ↑ risk of bleed into compartment",
+            "Massive IVF (>10L crystalloid in 24h: risk of Abd compartment syndrome)",
+            "Hx of vascular injury or repair, arterial embolism, DVT with phlegmasia",
+            "For Abd: massive transfusion, damage control surgery, pancreatitis, bowel obstruction, ascites, peritonitis, Abd packing",
+            "Baseline Cr: Rhabdo risk",
+            "Altered sensorium (intubated, sedated, obtunded): may not report pain, ↑ risk of delayed dx"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Classic 6 P's (late findings: do NOT wait for all): Pain, Pressure, Paressia, Paralysis, Pallor, Pulselessness",
+            "Pain out of proportion to injury: earliest & most sensitive finding. ↑ with passive stretch of involved muscles",
+            "Tense, swollen compartment on palpation: compare to contralateral limb",
+            "↓ Sensation / paressias: suggests nerve ischemia (peroneal n. in leg: ↓ 1st web space sensation)",
+            "Weakness or paralysis of muscles in affected compartment: late & ominous",
+            "Pulses are PRESERVED untillate: presence of pulse does NOT r/o compartment syndrome",
+            "Cap refill: may nl. early",
+            "For Abd compartment syndrome: tense distended abdomen, ↑ peak airway pressures, ↓ UOP, ↑ CVP, ↓ BP refractory to fluids",
+            "Measure bladder pressure (via Foley transducer) if suspecting Abd compartment syndrome: IAP >20 mmHg with organ dysfunction = Abd compartment syndrome"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Compartment Syndrome",
+              "value": "↑ Pressure within closed fascial space: compromised perfusion: tissue ischemia & necrosis. Surgical emergency"
+            },
+            {
+              "key": "nl. compartment pressure",
+              "value": "0-8 mmHg"
+            },
+            {
+              "key": "Fasciotomy threshold",
+              "value": "Absolute pressure >30 mmHg OR delta pressure (DBP − compartment pressure)<30 mmHg"
+            },
+            {
+              "key": "Time to irreversible damage",
+              "value": "6-8 hours: muscle necrosis begins. After 8h, outcomes significantly worse"
+            },
+            {
+              "key": "Abd Compartment Syndrome (ACS)",
+              "value": "Sustained IAP >20 mmHg with new organ dysfunction. IntraAbd HTN = IAP >12 mmHg. Grades: I (12-15), II (16-20), III (21-25), IV (>25 mmHg)"
+            },
+            {
+              "key": "Primary ACS",
+              "value": "IntraAbd pathology: hemorrhage, peritonitis, packing, bowel edema, pancreatitis"
+            },
+            {
+              "key": "Secondary ACS",
+              "value": "ExtraAbd cause: massive resuscitation, burns, sepsis: visceral & retroperitoneal edema"
+            },
+            {
+              "key": "Most common extremity location",
+              "value": "Anterior compartment of leg (tibial fractures). Also: forearm (supracondylar fx in kids), thigh, foot, h&, gluteal"
+            },
+            {
+              "key": "Volkmann contracture",
+              "value": "Late sequela of missed forearm compartment syndrome: irreversible flexion contracture"
+            }
+          ]
+        },
+        {
+          "title": "Abdominal Compartment Syndrome",
+          "type": "steps",
+          "items": [
+            "Suspect in: massive resus. (>10L/24h), damage control surgery, Abd packing, pancreatitis, bowel Obst., burns >30% TBSA",
+            "Measure bladder pressure (gold standard): via Foley, supine, endexpiration, give 25mL NS. IAP = 5-7 mmHg",
+            "IntraAbd HTN: sustained IAP ≥12 mmHg. Grade I: 12-15, Grade II: 16-20, Grade III: 21-25, Grade IV: >25 mmHg",
+            "ACS = IAP >20 mmHg + new organ dys. (renal failure, resp failure, shock)",
+            "Supportive txt: (for grades IIII without organ failure): NG decompression, rectal tube, sedation, neuromuscular blockade, minimize IVF, diuresis if euvolemic, paracentesis if ascites, HOB ≤20°",
+            "Abd perfusion pressure (APP) = MAP − IAP. Target APP ≥60 mmHg; low APP supports poor visceral perfusion",
+            "Recheck IAP q4-6h if IAH is present or the pt is worsening",
+            "Do not rely on IVC collapsibility to estimate volume status once intraAbd pressure is high",
+            "Decompressive laparotomy if: IAP >20 mmHg with refractory organ failure after nonoperative measures, OR ↑ IAP with clinical deterioration",
+            "Postdecompression: temporary Abd closure, ICU monitoring, plan for sequential Abd closure",
+            "Beware reperfusion syndrome after decompression: ↑ K, ↓ BP, acidosis, cardiac arrest. Have calcium, bicarb, vasopressors ready",
+            "Serial bladder pressure q4-6h in all atrisk ICU pts"
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Fractures",
+              "value": "MCC: tibial shaft, forearm, supracondylar humerus in children"
+            },
+            {
+              "key": "Crush injury / prolonged compression",
+              "value": "Found down, intraop positioning, constrictive dressings/casts, drug/ETOH OD with prolonged immobility"
+            },
+            {
+              "key": "Reperfusion injury",
+              "value": "Post vascular repair (embolectomy, bypass), restored flow after prolonged ischemia"
+            },
+            {
+              "key": "Hemorrhage into compartment",
+              "value": "Anticoagulation, coagulopathy, vascular injury"
+            },
+            {
+              "key": "Burns",
+              "value": "Circumferential burns: escharotomy (not fasciotomy) as first step"
+            },
+            {
+              "key": "Envenomation",
+              "value": "Snake bites: local swelling, ↑ compartment pressure"
+            },
+            {
+              "key": "Exercise induced (chronic)",
+              "value": "Not an acute emergency: recurrent exertional sx, resolves with rest"
+            },
+            {
+              "key": "DDx for extremity pain/swelling",
+              "value": "DVT, cellulitis, necrotizing fasciitis, fracture without compartment syndrome, Rhabdo, arterial insufficiency, neuropathy"
+            },
+            {
+              "key": "Abd ACS causes",
+              "value": "Massive resuscitation (>10L/24h), damage control surgery, Abd packing, pancreatitis, bowel Obst., ascites, peritonitis, burns"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Remove all constricting wraps, casts, dressings, or splints & keep the limb at heart level",
+            "If the clinical dx is clear, call surgery & move toward STAT fasciotomy; if uncertain, measure compartment pressures without delaying care",
+            "Start aggressive IVF & monitor for Rhabdo, ↑K, acidosis, & AKI",
+            "Do serial neurovascular exams q1-2h until decompressed or improving",
+            "For Abd compartment syndrome: decompress stomach/bowel, sedate, minimize IVF, & do decompressive laparotomy if IAP >20 mmHg with new organ failure",
+            "Postfasciotomy: wounds left open, VAC dressing or wettodry. Delayed primary closure or skin grafting in 5-7 days",
+            "Monitor CK q6-12h until trending down: peak 24-72h postinjury",
+            "Continue aggressive IVF until CK <5,000 & trending down, UOP maintained",
+            "Monitor for reperfusion syndrome: ↑K, acidosis, myoglobinuria, arrhythmias: esp after fasciotomy or decompression",
+            "Serial BMP q6-8h: watch K, Cr, Ca, phos",
+            "Renal replacement therapy if refractory ↑K, severe acidosis, fluid overload, or oliguric AKI despite IVF",
+            "For Abd compartment syndrome postlaparotomy: temporary Abd closure (Bogota bag, ABra VAC), serial IAP monitoring, plan return to OR in 24-48h",
+            "Pain mgmt: avoid compartmentcompressing positions. Do NOT elevate above heart level",
+            "DVT prophylaxis when surgical bleeding risk permits",
+            "PT/OT early for extremity compartment syndrome: ROM exercises once stable"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Compartment pressure",
+              "value": "Stryker needle, arterial line transducer, or commercial device. Measure all compartments in affected limb (leg has 4: anterior, lateral, superficial posterior, deep posterior)"
+            },
+            {
+              "key": "CK (creatine kinase)",
+              "value": "↑ in Rhabdo —>5x ULN. May lag behind clinical presentation"
+            },
+            {
+              "key": "BMP",
+              "value": "↑K (released from necrotic muscle), ↑ Cr, ↑ BUN, metabolic acidosis, ↑ phosphate, ↓ calcium"
+            },
+            {
+              "key": "Myoglobin",
+              "value": "Serum & urine: myoglobinuria (dark teacolored urine). Urine dip + for blood but no RBCs on micro"
+            },
+            {
+              "key": "CBC",
+              "value": "Baseline Hgb (hemorrhage), WBC (infection)"
+            },
+            {
+              "key": "Coags",
+              "value": "INR/PTT: esp if on anticoagulation or coagulopathy suspected"
+            },
+            {
+              "key": "Lactate",
+              "value": "May be ↑ from tissue ischemia"
+            },
+            {
+              "key": "Type & screen",
+              "value": "If surgical intervention anticipated"
+            },
+            {
+              "key": "Bladder pressure (IAP)",
+              "value": "For Abd compartment syndrome: measure via Foley catheter transducer, supine, endexpiration, 25mL instilled"
+            },
+            {
+              "key": "ABG/VBG",
+              "value": "Acidosis assessment: esp with Rhabdo or shock"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "NS or LR",
+              "dose": "1-2 L/h initially, then titrate to UOP >1-1.5 mL/kg/h",
+              "route": "IV",
+              "contraindications": "Volume overload, decompensated HF (use cautiously)",
+              "notes": "Aggressive IVF is critical to prevent myoglobininduced AKI. NS historically preferred for rhabdo (alkaline pH goal) but LR acceptable"
+            },
+            {
+              "name": "Sodium bicarbonate",
+              "dose": "150 mEq in 1L D5W, infuse at 150-200 mL/h",
+              "route": "IV",
+              "contraindications": "Hypocalcemia (worsens), metabolic alkalosis",
+              "notes": "Urine alkalinization (goal pH >6.5) to ↓ myoglobin precipitation in renal tubules. Controversial: some centers use only if acidotic"
+            },
+            {
+              "name": "Mannitol",
+              "dose": "1-2 g/kg IV over 30 min (up to 200g/day)",
+              "route": "IV",
+              "contraindications": "Anuria, severe dehydration, active ICH",
+              "notes": "Osmotic diuresis to ↑ renal flow & ↓ myoglobin cast formation. May also ↓ muscle edema (oretical). Use with aggressive IVF"
+            },
+            {
+              "name": "Calcium gluconate",
+              "dose": "1-2g IV over 10 min",
+              "route": "IV",
+              "contraindications": "Hypercalcemia, digoxin toxicity",
+              "notes": "For ↑K with EKG changes: membrane stabilization. Avoid routine calcium repletion in rhabdo (may deposit in damaged muscle)"
+            },
+            {
+              "name": "Insulin + dextrose",
+              "dose": "10 units regular insulin IV + 25g dextrose (D50)",
+              "route": "IV",
+              "contraindications": "↓ Glucose",
+              "notes": "For ↑K mgmt. Shifts K intracellularly. Monitor glucose q15-30min"
+            },
+            {
+              "name": "Cisatracurium or rocuronium",
+              "dose": "Cisatracurium 0.15 mg/kg IV bolus then 1-3 mcg/kg/min; Rocuronium 0.6-1.2 mg/kg",
+              "route": "IV",
+              "contraindications": "Must be intubated & sedated",
+              "notes": "Neuromuscular blockade for Abd compartment syndrome: ↓ Abd wall compliance, ↓ IAP by 5-10 mmHg. Temporizing measure"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Schmidt AH. Acute Compartment Syndrome. Injury. 2017;48 Suppl 1:S22S25. https://doi.org/10.1016/j.injury.2017.04.024",
+            "Via AG, Oliva F, Spoliti M, Maffulli N. Acute Compartment Syndrome. Muscles, Ligaments and Tendons Journal. 2015;5(1):1822.",
+            "Defined Approach: Long B, Koyfman A, Gottlieb M. Evaluation and Management of Acute Compartment Syndrome in the Emergency Department. Journal of Emergency Medicine. 2019;56(4):386397. https://doi.org/10.1016/j.jemermed.2018.12.021"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -151,10 +151,27 @@ final class DataLoader {
 
     private init() {}
 
+    /// Per-organ-system condition files, in display order.
+    /// (Matches the ordering of the original single content.json.)
+    private static let conditionResources = [
+        "Rapid_Response_Basics",
+        "content_cardiovascular",
+        "content_respiratory",
+        "Neurology",
+        "Sepsis_-_Infectious",
+        "GI_-_Hepatology",
+        "content_endocrine_metabolic",
+        "Renal-Electrolytes",
+        "Heme_Emergencies",
+        "Oncology_Emergencies",
+        "content_toxicology",
+        "Surgical_-_Trauma"
+    ]
+
     func loadIfNeeded() {
         guard !isLoaded else { return }
         Task(priority: .userInitiated) {
-            let conditions = decodeResource("content")
+            let conditions = Self.conditionResources.flatMap { decodeResource($0) }
             let symptoms = decodeResource("Symptoms")
             self.conditionSystems = conditions
             self.symptomSystems = symptoms
@@ -166,13 +183,24 @@ final class DataLoader {
 private func decodeResource(_ resource: String) -> [OrganSystem] {
     guard
         let url = Bundle.main.url(forResource: resource, withExtension: "json"),
-        let data = try? Data(contentsOf: url),
-        let decoded = try? JSONDecoder().decode([JSONOrganSystem].self, from: data)
+        let data = try? Data(contentsOf: url)
     else {
-        print("⚠️ \(resource).json not found or failed to decode")
+        print("⚠️ \(resource).json not found")
         return []
     }
-    return decoded.map { mapSystem($0) }
+
+    let decoder = JSONDecoder()
+
+    // A file may hold either an array of systems ([{…}]) or a single system object ({…}).
+    if let systems = try? decoder.decode([JSONOrganSystem].self, from: data) {
+        return systems.map(mapSystem)
+    }
+    if let system = try? decoder.decode(JSONOrganSystem.self, from: data) {
+        return [mapSystem(system)]
+    }
+
+    print("⚠️ \(resource).json failed to decode")
+    return []
 }
 
 // MARK: - Legacy accessors (kept for any other references)

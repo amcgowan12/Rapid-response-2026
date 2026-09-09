@@ -1,0 +1,1647 @@
+{
+  "name": "Neurology",
+  "icon": "brain.head.profile",
+  "color": "purple",
+  "topics": [
+    {
+      "title": "Acute Ischemic Stroke",
+      "subtitle": "Focal deficits, aphasia, weakness, facial droop, lastknownwell",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "How do they look? Focal deficit, aphasia, gaze deviation, neglect, or decreased responsiveness?",
+            "ABCs: protect airway if vomiting, obtunded, or unable to manage secretions; give O2 if hypoxemic",
+            "POC glucose ASAP",
+            "Call code stroke now & document last known nl., if on anticoagulation, & CI to TPA",
+            "Place on monitor, get IV access, & send pt to noncontrast head CT STAT",
+            "make NPO",
+            "Do not lower BP unless needed for thrombolysis/endovascular therapy or another hypertensive emergency"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "last known well + sym discovery time, symp improving or fluctuating",
+            "Baseline Fxn & prior stroke deficits",
+            "Anticoagulants, antiplatelets, recent surgery, recent bleeding, or prior ICH",
+            "Vascular risk factors: HTN, DM, AFib, smoking, CAD, prior stroke/TIA",
+            "Recent trauma, headache, seizure at onset, or mimic history",
+            "Pregnancy status, renal function, & contrast allergies if thrombectomy imaging is being considered"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Use NIHSS to quantify deficit & trend exam over time",
+            "Face, arm, leg weakness; aphasia, dysarthria, neglect, visual field loss, gaze deviation, ataxia",
+            "Check for cortical signs suggesting largevessel occlusion: aphasia, neglect, forced gaze deviation",
+            "check airway protection, aspiration risk, & BP",
+            "Look for mimics: seizure, ↓ Glucose, migraine, intoxication, syncope, functional deficit"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Recognition: BEFAST",
+              "value": "Balance, Eyes, Face, Arm, Speech, Time: use for rapid recognition & immediate stroke activation"
+            },
+            {
+              "key": "Door to CT",
+              "value": "<25 minutes"
+            },
+            {
+              "key": "Door to thrombolysis",
+              "value": "<60 minutes"
+            },
+            {
+              "key": "IV thrombolysis window",
+              "value": "Up to 4.5 hours from symptom onset in selected pts"
+            },
+            {
+              "key": "Thrombectomy window",
+              "value": "24 hours in pts with largevessel occlusion"
+            },
+            {
+              "key": "Permissive hypertension",
+              "value": "If not receiving reperfusion therapy, BP is left untreated unless severe hypertension or another emergency is present"
+            }
+          ]
+        },
+        {
+          "title": "Contraindications to Thrombolysis (Key)",
+          "type": "bullets",
+          "items": [
+            "Active internal bleeding",
+            "Active bleeding at noncompressible site",
+            "Intracranial surgery or head trauma (<3 months)",
+            "Ischemic Stroke or serious head injury in past 3 months",
+            "History of intracranial hemorrhage",
+            "BP >185/110 that cannot be controlled before treatment",
+            "Platelet count <100k or INR >1.7",
+            "Direct thrombin or factor Xa inhibitor use (unless not taken in 48 hours)",
+            "Glucose <50 or >400 mg/dL",
+            "Signs of subarachnoid hemorrhage",
+            "Extensive regions of clear hypoattenuation on CT"
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Largevessel occlusion",
+              "value": "Usually severe cortical deficits; thrombectomy candidate if imaging & timing fit"
+            },
+            {
+              "key": "Cardioembolic",
+              "value": "AFib, LV thrombus, valve disease, endocarditis"
+            },
+            {
+              "key": "Smallvessel / lacunar",
+              "value": "Pure motor or sensory syn without cortical signs"
+            },
+            {
+              "key": "Mimics",
+              "value": "↓ Glucose, seizure with Todd paralysis, migraine, ICH, mass lesion, functional disorder"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Reperfusion",
+              "value": "Quickly check for IV thrombolysis &/or thrombectomy; se decisions are timecritical & involve neurology/stroke team now"
+            },
+            {
+              "key": "Endovascular thrombectomy",
+              "value": "Standard for LVO within 0-6h when imaging/severity fit (commonly NIHSS >6, ASPECTS >6); selected pts can treated out to 24h if perfusion imaging shows salvageable tissue."
+            },
+            {
+              "key": "IV thrombolysis + thrombectomy",
+              "value": "If eligible for both within 4.5h, give IV thrombolysis & proceed to thrombectomy; thrombolysis not delay thrombectomy & not be skipped in eligible pts."
+            },
+            {
+              "key": "BP",
+              "value": "Prethrombolysis/thrombectomy: <185/110. First 24h after thrombolysis: <180/105. After thrombolysis: commonly maintain SBP 140-180. After thrombectomy: avoidlow SBP (<120). If no reperfusion thetherapy, avoid routine BP lowering unless >=220/120, then reduce ~15% initially."
+            },
+            {
+              "key": "Supportive care",
+              "value": "Treat fever, maintain euvolemia, correct glucose abnormalities, & avoid hypoxia & ↓ BP"
+            },
+            {
+              "key": "Antithrombotics",
+              "value": "If no thrombolysis, start antiplatelet therapy after hemorrhage is excluded; if thrombolysis is given, avoid antiplatelets/anticoagulants for 24 hours"
+            },
+            {
+              "key": "Minor stroke / high risk TIA",
+              "value": "If noncardioembolic minor stroke (NIHSS <=3) or high risk TIA (ABCD2 >=4) without thrombolysis/thrombectomy, start aspirin + clopidogrel within 24h & continue 21-30 days, then transition to single antiplatelet thetherapy."
+            }
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Imaging",
+              "value": "STAT Noncon head CT; CTA head/neck with perfusion imaging if considering thrombectomy"
+            },
+            {
+              "key": "Stat labs",
+              "value": "POC glucose, CBC, BMP/CMP, PT/INR, aPTT, troponin"
+            },
+            {
+              "key": "Cardiac",
+              "value": "ECG telemetry; look for AFib or concurrent ischemia"
+            },
+            {
+              "key": "More",
+              "value": "Swallow screen, lipid panel, A1c, TTE as part of inpt stroke workup"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Alteplase (tPA)",
+              "dose": "0.9 mg/kg (max 90mg): 10% as bolus, 90% over 60 min",
+              "route": "IV",
+              "contraindications": "Active bleed, BP >185/110, plt <100k",
+              "notes": "STEMI equivalent: time is brain. Call neurology now."
+            },
+            {
+              "name": "Labetalol",
+              "dose": "10-20mg IV q10-20min",
+              "route": "IV",
+              "contraindications": "Decomp CHF, ↓ HR",
+              "notes": "If BP >185/110 before tPA. Target <185/110 before dosing."
+            },
+            {
+              "name": "Nicardipine",
+              "dose": "5 mg/hr, titrate",
+              "route": "IV drip",
+              "contraindications": "",
+              "notes": "Alternative for BP control pre/post tPA."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Zhou Y, He Y, Campbell BCV, et al. Alteplase for Acute Ischemic Stroke at 4.5 to 24 Hours. JAMA. 2025.",
+            "Koga M. Blood Pressure Management in Stroke: Comparative Review of the 2025 AHA/ACC/AANP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM, 2024 ESC, 2023 ESH, & 2025 JSH Guidelines. Hypertension Research. 2026.",
+            "Jones DW, Ferdinand KC, Taler SJ, et al. 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation, & Management of High Blood Pressure in Adults. Journal of the American College of Cardiology. 2025.",
+            "Powers WJ, Rabinstein AA, Ackerson T, et al. Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 AHA/ASA Guideline. Stroke. 2019;50(12):e344e418. https://doi.org/10.1161/STR.0000000000000211",
+            "Berge E, Whiteley W, Audebert H, et al. European Stroke Organisation (ESO) Guidelines on Intravenous Thrombolysis for Acute Ischaemic Stroke. European Stroke Journal. 2021;6(1):ILXII. https://doi.org/10.1177/2396987321989865",
+            "Nogueira RG, Jadhav AP, Haussen DC, et al. Thrombectomy 6 to 24 Hours After Stroke with a Mismatch Between Deficit and Infarct (DAWN trial). New England Journal of Medicine. 2018;378(1):1121. https://doi.org/10.1056/NEJMoa1706442"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Seizure / Status Epilepticus",
+      "subtitle": "Convulsions, gaze deviation, postictal state, persistent AMS, acidosis",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "ABCs; lateral position; no restraint",
+            "Airway failure > intubate",
+            "Neuro call early"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Prior seizures, epilepsy dx, AED regimen, adherence",
+            "Prodrome: palpitations, diaphoresis, N/V, HA, confusion, anxiety",
+            "Triggers: exertion, fatigue, pain, infection, stress, urination, defecation",
+            "Witnessed: lateral tongue bite, incontinence, focal signs",
+            "EtOH / benzo / barbiturate use, withdrawal risk",
+            "Lowered seizure threshold meds"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "CN deficits, facial droop, hemiparesis",
+            "Dysphagia, dizziness, ataxia",
+            "Lateral tongue bite",
+            "Incontinence",
+            "Todd's paralysis / other focality"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Status Epilepticus",
+              "value": ">=5 min, or recurrent seizures without baseline return"
+            },
+            {
+              "key": "Nonconvulsive SE",
+              "value": "EEG seizure >=10 sec; clues: AMS, subtle twitching, eye deviation"
+            },
+            {
+              "key": "Refractory SE",
+              "value": "Persists after 2 adequate benzo doses"
+            },
+            {
+              "key": "PNES",
+              "value": "Seizurelike events; no epileptiform activity; eye closure, fluctuating course, asynchronous movements, pelvic thrusting, crying, minimal postictal state"
+            },
+            {
+              "key": "Important caveat",
+              "value": "PNES and epilepsy can coexist"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Neuro",
+              "value": "Epilepsy, stroke, hemorrhage, mass, trauma, migraine, PRES",
+              "topicLink": "Acute Ischemic Stroke"
+            },
+            {
+              "key": "Syncope",
+              "value": "Convulsive syncope: brief, rapid recovery, minimal postictal state"
+            },
+            {
+              "key": "Metabolic",
+              "value": "Hypoglycemia, hypercarbia, hypoxia, Na disorder, hypocalcemia",
+              "topicLink": "Hypoglycemia"
+            },
+            {
+              "key": "Medications",
+              "value": "Bupropion, venlafaxine, buspirone, TCAs, tramadol, diphenhydramine, clozapine, fluoroquinolones, steroids, amphetamines"
+            },
+            {
+              "key": "Withdrawal",
+              "value": "EtOH, benzos, barbiturates; SE risk"
+            },
+            {
+              "key": "Infection",
+              "value": "Sepsis, encephalitis, meningitis, HIV, syphilis, tetanus, fever",
+              "topicLink": "Meningitis / Encephalitis"
+            },
+            {
+              "key": "Or",
+              "value": "HTN emergency / PRES, ↓ BP, eclampsia, PNES"
+            },
+            {
+              "key": "PNES clues",
+              "value": "Forced eye closure, waxing/waning, nonrhythmic or outofphase movements, crying, minimal injury, rapid baseline return"
+            },
+            {
+              "key": "Still can mimic seizure",
+              "value": "Drooling, tongue bite, incontinence, grunting, apparent LOC still possible"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "If safe, video event for neuro review",
+            "**Lorazepam 4 mg IV (0.1 mg/kg) q5 min x2-3**",
+            "No IV > midazolam IM/IN/buccal or diazepam PR",
+            "0-5 min: ABCs, IV, POC glucose, O2, thiamine if at risk",
+            "RSI if needed; ketamine or propofol reasonable",
+            "Still seizing after 5-10 min > repeat benzo",
+            "10-40 min > levetiracetam, fosphenytoin, valproate, or lacosamide",
+            "Refractory SE > intubate, ICU, EEG, anesthetic infusion",
+            "Superrefractory SE > neurocritical care; autoimmune / rescue options",
+            "Correct cause: glucose, Na, Ca, infection, withdrawal, toxin, structural lesion",
+            "After control > telemetry, pulse ox, neuro checks; EEG / MRI / LP as needed"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stat",
+              "value": "POC glucose, IV access, iStat/VBG, BMP, Mg, Phos, CBC"
+            },
+            {
+              "key": "Routine",
+              "value": "LFTs, CK, lactate, INR, UA, ECG, telemetry"
+            },
+            {
+              "key": "Helpful adjuncts",
+              "value": "Early lactate supports recent generalized tonicclonic seizure; prolactin occasionally helpful"
+            },
+            {
+              "key": "Consider",
+              "value": "CXR, betahCG, tox studies, AED levels, CT head, MRI brain, urgent EEG"
+            },
+            {
+              "key": "Image now if firsttime / high risk",
+              "value": "First seizure + persistent AMS, focal deficit, trauma, anticoagulation, immunocompromise, malignancy, fever, severe HA, bleed / mass / stroke concern"
+            },
+            {
+              "key": "If febrile / immunocompromised / unclear cause",
+              "value": "LP, blood cultures, empiric CNS infection coverage"
+            },
+            {
+              "key": "If PNES likely",
+              "value": "Exclude mimics; once stable, avoid repeated anticonvulsants or invasive escalation for atypical persistent events"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Lorazepam",
+              "dose": "0.1 mg/kg IV (max 4 mg), may repeat once",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Preferred IV benzo"
+            },
+            {
+              "name": "Diazepam",
+              "dose": "0.15-0.2 mg/kg IV (max 10 mg), may repeat once",
+              "route": "IV/PR",
+              "contraindications": "",
+              "notes": "Alternative IV / PR agent"
+            },
+            {
+              "name": "Midazolam",
+              "dose": "10 mg IM if >40 kg; 5 mg if 13-40 kg; IN 5 mg per nostril; buccal 10 mg",
+              "route": "IM/IN/Buccal",
+              "contraindications": "",
+              "notes": "Best if no IV access"
+            },
+            {
+              "name": "Levetiracetam",
+              "dose": "60 mg/kg (max 4500 mg)",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Secondline; 10-15 min infusion"
+            },
+            {
+              "name": "Fosphenytoin",
+              "dose": "20 mg PE/kg (max 1500 mg PE)",
+              "route": "IV",
+              "contraindications": "↓ HR, AV block",
+              "notes": "Secondline; monitor rhythm, BP"
+            },
+            {
+              "name": "Valproate",
+              "dose": "40 mg/kg (max 3000 mg)",
+              "route": "IV",
+              "contraindications": "Pregnancy, liver dz, mitochondrial disorders",
+              "notes": "Secondline; ~10 min infusion"
+            },
+            {
+              "name": "Lacosamide",
+              "dose": "200-400 mg",
+              "route": "IV",
+              "contraindications": "Significant conduction disease",
+              "notes": "Alternative secondline; ~15 min infusion"
+            },
+            {
+              "name": "Phenobarbital",
+              "dose": "15-20 mg/kg",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "More sedation, respiratory depression"
+            },
+            {
+              "name": "Propofol",
+              "dose": "1-2 mg/kg bolus, then 20-200 mcg/kg/min",
+              "route": "IV",
+              "contraindications": "Egg/soy allergy",
+              "notes": "Refractory SE; intubation, ICU; watch infusion syndrome"
+            },
+            {
+              "name": "Midazolam gtt",
+              "dose": "0.2 mg/kg bolus, then 0.1-2 mg/kg/hr",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Refractory SE; ICU, EEG"
+            },
+            {
+              "name": "Ketamine",
+              "dose": "0.5-2 mg/kg bolus or ICU infusion per protocol",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Refractory SE option; less respiratory / hemodynamic depression"
+            },
+            {
+              "name": "Thiamine",
+              "dose": "100 mg IV",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Before glucose if alcoholism / malnutrition"
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "AsadiPooya AA, Brigo F, Lattanzi S, Blumcke I. Adult Epilepsy. Lancet. 2023.",
+            "Gettings JV, Mohammad Alizadeh Chafjiri F, Patel AA, et al. Diagnosis & Management of Status Epilepticus: Improving the Status Quo. The Lancet Neurology. 2025.",
+            "Crawshaw AA, Cock HR. Medical Management of Status Epilepticus: Emergency Room to Intensive Care Unit. Seizure. 2020.",
+            "Glauser T, Shinnar S, Gloss D, et al. EvidenceBased Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults — AAN Guideline. Epilepsy Currents. 2016;16(1):4861. https://doi.org/10.5698/1535-7597-16.1.48",
+            "Brophy GM, Bell R, Claassen J, et al. Guidelines for the Evaluation and Management of Status Epilepticus. Neurocritical Care. 2012;17(1):323. https://doi.org/10.1007/s12028-012-9695-z",
+            "Kapur J, Elm J, Chamberlain JM, et al. Randomized Trial of Three Anticonvulsant Medications for Status Epilepticus (ESETT). New England Journal of Medicine. 2019;381(22):21032113. https://doi.org/10.1056/NEJMoa1905795"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Serotonin Syndrome",
+      "subtitle": "Clonus, hyperreflexia, fever, agitation, autonomic instability",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "Stop ALL serotonergic meds: this is most important step",
+            "ABCs: check hemodynamic stability, airway protection if severely altered",
+            "IV fluid: aggressive hydration for hyperthermia & Rhabdo",
+            "Paralysis + intubation if temp >41°C refractory to benzos (use nondepolarizing agents)"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Recent Meds change: new serotonergic drug added, dose ↑, or drug interaction",
+            "Home SSRI/SNRI: fluoxetine, sertraline, paroxetine, citalopram, venlafaxine, duloxetine",
+            "High-risk additions: tramadol, fentanyl, linezolid, ondansetron (zofran), metoclopramide, trazodone, dextromethorphan",
+            "MAOI use (phenelzine, tranylcypromine, selegiline): most dangerous combinations",
+            "St. John's wort, methylene blue (potent MAOI), recreational drugs (MDMA, cocaine)"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Clonus: spontaneous, inducible (ankle), or ocular (hallmark finding)",
+            "Hyperreflexia: esp lower extremities",
+            "Tremor, myoclonus, agitation",
+            "Diaphoresis, mydriasis (dilated pupils), flushing",
+            "Hypertonia/rigidity (more prominent in lower extremities)",
+            "Temp >38°C, tachycardia, HTN, tachypnea"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Serotonin Syndrome",
+              "value": "Druginduced excess serotonergic activity: triad of neuromuscular excitation, autonomic dysfunction, & AMS"
+            },
+            {
+              "key": "Hunter Criteria",
+              "value": "Requires serotonergic agent + ANY of: spontaneous clonus, inducible clonus + agitation/diaphoresis, ocular clonus + agitation/diaphoresis, tremor + hyperreflexia, hypertonia + temp >38°C + ocular/inducible clonus"
+            },
+            {
+              "key": "Onset",
+              "value": "Usually within 24h of drug change (often within 6h). Rapid onset distinguishes from NMS."
+            },
+            {
+              "key": "NMS vs SS",
+              "value": "NMS: leadpipe rigidity, bradyreflexia, slow onset (days). SS: clonus, hyperreflexia, rapid onset (hours)"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "NMS",
+              "value": "Leadpipe rigidity, bradyreflexia, slow onset (days–weeks), dopamine blocker exposure. CKmuch higher."
+            },
+            {
+              "key": "Malignant Hyperthermia",
+              "value": "Volatile anesthetics or succinylcholine exposure. OR/PACU setting. Hypercarbia is earliest sign.",
+              "topicLink": "Malignant Hyperthermia"
+            },
+            {
+              "key": "Anticholinergic toxicity",
+              "value": "Dry skin (no diaphoresis), urinary retention, absent bowel sounds. SS has diaphoresis & hyperactive bowels"
+            },
+            {
+              "key": "Sympathomimetic",
+              "value": "Cocaine, amphetamines. Similar autonomic findings but no clonus or hyperreflexia"
+            },
+            {
+              "key": "Meningitis/Encephalitis",
+              "value": "Fever, AMS, nuchal rigidity. LP required to differentiate.",
+              "topicLink": "Meningitis / Encephalitis"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Agitation & tremors: **lorazepam 2 mg IV PRN** (benzos are first line)",
+            "Severe sx: **cyproheptadine 12 mg PO/NG load**: 4 mg PO q2h until improvement (max 32 mg/day)",
+            "Cooling measures for hyperthermia avoid antipyretics (not effective in drug induced hyperthermia)",
+            "Hunter Serotonin Toxicity Criteria: serotonergic agent + any one of following: spontaneous clonus; inducible clonus + agitation or diaphoresis; ocular clonus + agitation or diaphoresis; tremor + hyperreflexia; or hypertonia + temperature >38°C + ocular or inducible clonus",
+            "ICU admission for severe cases",
+            "Immediate: Stop all serotonergic agents & give supportive care. Most cases improve within 24h after stopping the offending drug, though long halflife agents may last longer.",
+            "Mild (tremor, hyperreflexia): Supportive care, remove precipitating drugs, & use benzodiazepines for agitation/tremor.",
+            "Moderate (autonomic instability, fever <41.1°C): Aggressively correct cardiorespiratory & thermal abnormalities, continue benzodiazepines, & add a 5HT2A antagonist such as cyproheptadine.",
+            "Severe (temp >41.1°C): Immediate sedation, nondepolarizing paralysis, orotracheal intubation, ventilation, & aggressive cooling; premature release of paralysis can allow hyperthermia to recur.",
+            "Agitation control: Benzodiazepines are central across all severities. Avoid physical restraints b/c isometric muscle activity worsens lactic acidosis & hyperthermia.",
+            "Autonomic instability: Hypotension: use directacting pressors such as norepinephrine, phenylephrine, or epinephrine. Hypertension/tachycardia: use shortacting agents such as esmolol or nitroprusside.",
+            "Hyperthermia: This is from muscle activity, not hypothalamic setpoint change; antipyretics have no role.",
+            "Avoid: Avoid succinylcholine, propranolol, bromocriptine, dantrolene, & prolonged physical restraints.",
+            "Disposition trigger: Moderatesevere illness, escalating autonomic instability, hyperthermia, for intubation, or rhabdomyolysis requires ICUlevel care.",
+            "Ongoing care: Trend CK, renal function, temperature, & urine output;don't restart serotonergic agents until fully recovered.",
+            "Hunter criteria: Use the syndromedefining exam findings to support diagnosis & avoid mislabeling NMS, anticholinergic toxicity, or sympathomimetic intoxication.",
+            "Cyproheptadine course: For moderatesevere disease: 12 mg PO/NG initially, then 2 mg q2h until improvement, then 8 mg q6h maintenance; total 12-32 mg in 24h.",
+            "Parenteral 5HT2A antagonists: If enteral cyproheptadine cannot be used, chlorpromazine IM or olanzapine SL are possible alternatives, though evidence is limited.",
+            "Most cases resolve within 24–72 hours after stopping offending agent",
+            "Monitor CK q6–12h: trend for Rhabdo",
+            "Aggressive IV fluids to maintain UOP >1 mL/kg/h if CK elevated",
+            "Serial neuro checks: document clonus resolution",
+            "Do NOT restart serotonergic agents until fully resolved. Pharmacy consult for alternatives.",
+            "Watch for DIC if severe: serial coags, fibrinogen, Ddimer"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stat",
+              "value": "Fingerstick glucose, BMP, CBC, CK (Rhabdo), lactate, VBG"
+            },
+            {
+              "key": "Routine",
+              "value": "LFTs, Mg, PO4, UA (myoglobinuria), PT/PTT/INR (DIC screen)"
+            },
+            {
+              "key": "Tox",
+              "value": "UTox, serum APAP, salicylate level, ethanol level"
+            },
+            {
+              "key": "ECG",
+              "value": "QTc prolongation (many serotonergic agents prolong QT)"
+            },
+            {
+              "key": "Imaging",
+              "value": "Head CT if altered to r/o structural cause"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Lorazepam",
+              "dose": "2–4 mg IV PRN",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Firstline for agitation, tremor, & the hyperadrenergic state. Repeat q10-15 min PRN."
+            },
+            {
+              "name": "Cyproheptadine",
+              "dose": "12 mg PO/NG load, then 2 mg q2h until improved, then 8 mg q6h",
+              "route": "PO/NG",
+              "contraindications": "",
+              "notes": "Suggested 5HT2A antagonist; only enteral formulation. Total 24h dose 12-32 mg."
+            },
+            {
+              "name": "Chlorpromazine",
+              "dose": "50-100 mg",
+              "route": "IM",
+              "contraindications": "Hypotension, prolonged QT",
+              "notes": "Parenteral alternative 5HT2A antagonist in select severe cases."
+            },
+            {
+              "name": "Olanzapine",
+              "dose": "10 mg",
+              "route": "SL",
+              "contraindications": "",
+              "notes": "Alternative 5HT2A antagonist option; evidence is limited."
+            },
+            {
+              "name": "Norepinephrine",
+              "dose": "ICU titration per protocol",
+              "route": "IV infusion",
+              "contraindications": "",
+              "notes": "Preferred directacting pressor for hypotension, especially with MAOI interactions."
+            },
+            {
+              "name": "Phenylephrine / Epinephrine",
+              "dose": "ICU titration per protocol",
+              "route": "IV infusion",
+              "contraindications": "",
+              "notes": "Other directacting pressor options for hypotension."
+            },
+            {
+              "name": "Esmolol",
+              "dose": "ICU titration per protocol",
+              "route": "IV infusion",
+              "contraindications": "Bradycardia, shock",
+              "notes": "Shortacting option for marked tachycardia or hypertension."
+            },
+            {
+              "name": "Nitroprusside",
+              "dose": "ICU titration per protocol",
+              "route": "IV infusion",
+              "contraindications": "",
+              "notes": "Shortacting antihypertensive option for severe autonomic hypertension."
+            },
+            {
+              "name": "Vecuronium",
+              "dose": "RSI/ICU paralysis per protocol",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Use for severe hyperthermia with intubation; avoid succinylcholine."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Bienvenu OJ, Neufeld KJ, Needham DM. Treatment of Four Psychiatric Emergencies in the Intensive Care Unit. Critical Care Medicine. 2012.",
+            "Boyer EW, Shannon M. The Serotonin Syndrome. The New England Journal of Medicine. 2005.",
+            "Boyer EW, Shannon M. The Serotonin Syndrome. New England Journal of Medicine. 2005;352(11):11121120. https://doi.org/10.1056/NEJMra041867",
+            "Isbister GK, Buckley NA, Whyte IM. Serotonin Toxicity: A Practical Approach to Diagnosis and Treatment. Medical Journal of Australia. 2007;187(6):361365."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acute Agitation",
+      "subtitle": "Agitation, aggression, delirium, intoxication, danger to staff or self",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "Safety first: check whether the pt is an immediate danger to self, staff, or other pts",
+            "ABCs: check airway protection, SpO2, RR, BP, pulse, glucose, & obvious trauma",
+            "Look for now reversible threats: hypoxia, ↓ glucose, seizure, stroke, intoxication, withdrawal, head injury"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Baseline mentation: ask nursing, family: is this new or chronic?",
+            "Recent Meds changes: new opioids, benzos, anticholinergics, steroids",
+            "Alcohol/substance use Hx.: withdrawal timeline",
+            "Dementia Hx. (Parkinson's, Lewy body: avoid haloperidol)",
+            "Recent surgery/anesthesia (postoperative delirium)",
+            "Infection signs: UTI, PNA, line infection (often trigger)"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Attention testing: serial 7s, spell WORLD backward, months of year backward",
+            "Signs of infection: fever, new crackles, suprapubic tenderness, line site eryma",
+            "Urinary retention (bladder scan), fecal impaction",
+            "Focal neurological deficits (stroke, mass lesion)",
+            "Pupil size (opioid toxicity: miotic; anticholinergic: mydriatic)",
+            "Tremor, diaphoresis, tachycardia (withdrawal)"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Delirium",
+              "value": "Acute, fluctuating disturbance in attention & awareness. Always assume medical cause until proven otherwise"
+            },
+            {
+              "key": "Hyperactive",
+              "value": "Agitation, combativeness, pulling at lines/tubes, attempted selfharm. ~25% of delirium cases"
+            },
+            {
+              "key": "Hypoactive",
+              "value": "Lethargy, withdrawal, flat affect. Often missed: more common (~75%) & associated with worse outcomes"
+            },
+            {
+              "key": "CAM criteria",
+              "value": "Acute onset + fluctuating course + inattention + EIR disorganized thinking OR altered LOC"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Infection",
+              "value": "UTI, PNA, line infection, C. diff, wound infection: most common precipitant",
+              "topicLink": "Sepsis & Septic Shock"
+            },
+            {
+              "key": "Metabolic",
+              "value": "↓ Glucose, hypernatremia, hyponatremia, uremia, hepatic encephalopathy, hypercalcemia",
+              "topicLink": "Hypoglycemia"
+            },
+            {
+              "key": "meds",
+              "value": "Opioids, benzodiazepines, anticholinergics (diphenhydramine, scopolamine), steroids, fluoroquinolones"
+            },
+            {
+              "key": "Withdrawal",
+              "value": "EtOH withdrawal (onset 6–24h), benzodiazepine withdrawal, opioid withdrawal"
+            },
+            {
+              "key": "Neurologic",
+              "value": "Stroke, ICH, seizure (postictal), meningitis/encephalitis"
+            },
+            {
+              "key": "Or",
+              "value": "Urinary retention, constipation/impaction, pain, sleep deprivation, ICU delirium, postop"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Call for help early if violence risk; clear the room of unnecessary staff & dangerous objects",
+            "Use verbal deescalation, simple commands, lowstimulation environment, & 1:1 observation if needed",
+            "If the pt isescalating or cannot be redirected, prepare for chemical sedation & higher level monitoring",
+            "Immediate goal: Protect the pt & staff while identifying a medical, neurologic, toxic, or withdrawal cause.",
+            "Safety risk: If the pt is attempting harm, pulling lines, eloping, or cannot be verbally redirected, escalate quickly to security, sitter, & chemical sedation.",
+            "Deescalation first: Use calm verbal redirection, one speaker, reduced stimulation, familiar staff/family if helpful, & avoid escalating confrontation.",
+            "Restraints: Use only if required for immediate safety & pair with rapid reassessment plus treatment of the underlying cause.",
+            "Medical causes first: Treat hypoxia, ↓ glucose, infection, pain, urinary retention, constipation, withdrawal, stroke, or seizure before labeling this primary psychiatric agitation.",
+            "Medication strategy: PO is preferred when feasible. For parenteral rapid tranquilization, droperidol or olanzapine are preferred first line options; avoid haloperidol in Parkinsonism or Lewy body disease.",
+            "Etiologyspecific sedation: Alcohol/sedative withdrawal or stimulant intoxication: benzodiazepines may preferred. Delirium & known psychiatric illness: antipsychotics are preferred.",
+            "Combination thetherapy: Antipsychotic + benzodiazepine is not routine b/c adverse effects increase without clear general benefit, though select severe cases may use a monitored combination strategy.",
+            "Ketamine: Reserve IM ketamine 2-5 mg/kg as secondline for extreme violence, failed first line sedation, or for immediate control.",
+            "Monitoring: After sedation, do close observation with frequent vitals, sedation level checks, pulse ox without routine supplemental O2 masking decline, & EtCO2 when available.",
+            "reorient, clock/calendar, familiar objects, maintain sleepwake cycle",
+            "access to glasses/hearing aids",
+            "Minimize room changes, reduce unnecessary stimuli & interruptions",
+            "Early mobilization when safe: PT/OT consult",
+            "Remove Foley, lines, restraints if clinically appropriate",
+            "Recheck QTc daily if on scheduled antipsychotics",
+            "Titrate down & Stop antipsychotics as delirium resolves"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stat",
+              "value": "Fingerstick glucose, BMP, CBC, UA with culture, SpO2."
+            },
+            {
+              "key": "ECG",
+              "value": "QTc measurement before antipsychotics; repeat after more doses."
+            },
+            {
+              "key": "Postsedation monitoring",
+              "value": "Continuous pulse ox, frequent vitals, sedation scale reassessment, & EtCO2 if avail."
+            },
+            {
+              "key": "Consider",
+              "value": "LFTs, ammonia, TSH, B12, CXR, blood cultures, UTox, serum tox studies, bladder scan."
+            },
+            {
+              "key": "If focal neuro signs / fever / trauma",
+              "value": "Head CT & consider LP if febrile + AMS without a clear source."
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Droperidol",
+              "dose": "5 mg IM/IV",
+              "route": "IM/IV",
+              "contraindications": "Known prolonged QT, severe Parkinsonism",
+              "notes": "Preferred first line parenteral agent; strong evidence for effective rapid sedation with lower respiratory depression than lorazepam or ziprasidone."
+            },
+            {
+              "name": "Haloperidol",
+              "dose": "0.5–2 mg PO/IV/IM q2–4h PRN",
+              "route": "PO/IV/IM",
+              "contraindications": "Parkinsonism, QTc >500",
+              "notes": "Alternative antipsychotic; higher EPS & QTc concerns than droperidol or olanzapine."
+            },
+            {
+              "name": "Quetiapine",
+              "dose": "12.5–25 mg PO q6h PRN",
+              "route": "PO",
+              "contraindications": "",
+              "notes": "Smallest QT ↑. Preferred for Parkinson's/Lewy body pts."
+            },
+            {
+              "name": "Olanzapine",
+              "dose": "2.5–5 mg PO/SL/IM q4h PRN",
+              "route": "PO/SL/IM",
+              "contraindications": "",
+              "notes": "Preferred first line parenteral option; good SL option if refusing PO.Don't combine IM olanzapine with IM benzodiazepines."
+            },
+            {
+              "name": "Risperidone",
+              "dose": "0.5–1 mg PO BID PRN",
+              "route": "PO",
+              "contraindications": "QTc >500",
+              "notes": "Alternative oral option."
+            },
+            {
+              "name": "Aripiprazole",
+              "dose": "2–5 mg IM q2h PRN",
+              "route": "IM",
+              "contraindications": "",
+              "notes": "Use if QTc >500. Minimal QT prolongation."
+            },
+            {
+              "name": "Valproic acid",
+              "dose": "125–250 mg IV q8h PRN",
+              "route": "IV",
+              "contraindications": "Pregnancy, liver dz",
+              "notes": "If QTc >500 & parenteral option needed."
+            },
+            {
+              "name": "Lorazepam",
+              "dose": "0.5–2 mg IV/IM PRN",
+              "route": "IV/IM",
+              "contraindications": "",
+              "notes": "Preferred for alcohol/benzo withdrawal; worsens delirium in many other cases."
+            },
+            {
+              "name": "Midazolam",
+              "dose": "2-5 mg IM/IV",
+              "route": "IM/IV",
+              "contraindications": "",
+              "notes": "Fastest sedation onset but higher respiratory depression risk; may worsen delirium."
+            },
+            {
+              "name": "Ketamine",
+              "dose": "2-5 mg/kg IM",
+              "route": "IM",
+              "contraindications": "",
+              "notes": "Secondline for extremely dangerous agitation requiring immediate control; lowerdose strategies may reduce airway compromise."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Isoardi KZ, Cole JB, Hoffman RS, Isbister GK. What Is the Best Approach for Parenteral Sedation to Manage Severe Acute Behavioral Disturbance in the Emergency Department? Clinical Toxicology. 2026.",
+            "Kim HK, Leonard JB, Corwell BN, Connors NJ. Safety & Efficacy of Pharmacologic Agents Used for Rapid Tranquilization of Emergency Department Patients With Acute Agitation or Excited Delirium. Expert Opinion on Drug Safety. 2021.",
+            "Nazarian DJ, Broder JS, Thiessen MEW, et al. Clinical Policy: Critical Issues in the Diagnosis And Management of the Adult Psychiatric Patient In the Emergency Department. Annals of Emergency Medicine. 2017.",
+            "Wilson MP, Pepper D, Currier GW, et al. The Psychopharmacology of Agitation: Consensus Statement of the AAEP Project BETA Psychopharmacology Workgroup. Western Journal of Emergency Medicine. 2012;13(1):2634. https://doi.org/10.5811/westjem.2011.9.6866",
+            "Garriga M, Pacchiarotti I, Kasper S, et al. assessment and Management of Agitation in Psychiatry: Expert Consensus. World Journal of Biological Psychiatry. 2016;17(2):86128. https://doi.org/10.3109/15622975.2015.1132007"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acute Dystonic Reaction",
+      "subtitle": "Torticollis, oculogyric crisis, jaw spasm, recent dopamine blockade",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "Stop offending medication now: most commonly dopamineblocking antipsychotics or antiemetics",
+            "ABCs first: check for stridor, tongue/laryngeal involvement, inability to handle secretions, or respiratory distress",
+            "If airway/neck spasm is severe: call for help early, place on monitor, prepare for advanced airway management"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Recent or newly increased dopamineblocking meds: haloperidol, droperidol, prochlorperazine, metoclopramide, promethazine, risperidone, aripiprazole",
+            "Time from med exposure: commonly within 24h; ~90% occur within 5 days of start or dose increase",
+            "Prior EPS or dystonic reaction history",
+            "Young age, male sex, boys/infants, cocaine use, & highpotency antipsychotics increase risk",
+            "Ask exactly what movement started first: neck twisting, jaw spasm, tongue protrusion, eye deviation, trouble speaking, trouble swallowing"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Typical presentation",
+              "value": "Sudden, painful, sustained muscle contraction after dopamineblocking medication: pt isawake & frightened"
+            },
+            {
+              "key": "Common patterns",
+              "value": "Cervical dystonia/torticollis, tongue protrusion, trismus, dysarthria, dysphagia, blepharospasm, truncal dystonia, opisthotonos"
+            },
+            {
+              "key": "Oculogyric crisis",
+              "value": "Forced upward or lateral eye deviation: classic for acute dystonia &mistaken for seizure or psychosis"
+            },
+            {
+              "key": "Airway danger",
+              "value": "Laryngeal dystonia = stridor, dysphonia, inability to swallow, respiratory distress: this is rare but life-threatening"
+            },
+            {
+              "key": "Mentation",
+              "value": "Usually nl. AMS suggests different or more process"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Medicationinduced dystonia",
+              "value": "Most common. Dopamine blockade in the nigrostriatal pathway after antipsychotics or antiemetics."
+            },
+            {
+              "key": "Common culprits",
+              "value": "Firstgeneration antipsychotics, secondgeneration antipsychotics, metoclopramide, prochlorperazine; SSRIs, anticonvulsants, opioids, & methylphenidate are rarer causes."
+            },
+            {
+              "key": "Seizure",
+              "value": "Usually has impaired awareness, postictal phase, or rhythmic motor activity not sustained patterned spasm",
+              "topicLink": "Seizure / Status Epilepticus"
+            },
+            {
+              "key": "Serotonin syndrome",
+              "value": "Has clonus, hyperreflexia, diaphoresis, & autonomic instability not focal sustained dystonia",
+              "topicLink": "Serotonin Syndrome"
+            },
+            {
+              "key": "Tetanus / hypocalcemia / strychnine",
+              "value": "Consider if no dopamineblocking exposure or if re is diffuse rigidity, wound history, or electrolyte abnormality"
+            },
+            {
+              "key": "NMS",
+              "value": "Slower onset with generalized rigidity, fever, autonomic instability, & marked CK elevation not isolated focal spasm"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Firstline",
+              "value": "Give diphenhydramine 25-50 mg IV/IM or benztropine 1-2 mg IV/IM promptly."
+            },
+            {
+              "key": "Adjunct",
+              "value": "Add lorazepam 0.5-2 mg IV/IM for severe anxiety, pain, or incomplete response."
+            },
+            {
+              "key": "Expected response",
+              "value": "Clinical improvement isdramatic & begins within minutes after IV/IM anticholinergic thetherapy; the dose can repeated if symptoms persist."
+            },
+            {
+              "key": "Recurrence prevention",
+              "value": "Continue oral anticholinergic thetherapy for 4-7 days after resolution b/c symptoms can recur hours after the initial injection."
+            },
+            {
+              "key": "Culprit med",
+              "value": "Stop, switch, or lower the offending agent; if it must be continued, consider prophylactic anticholinergic thetherapy."
+            },
+            {
+              "key": "Future risk",
+              "value": "Counsel the pt that future exposure to dopamine receptor blockers increases recurrence risk."
+            },
+            {
+              "key": "Ongoing Management",
+              "value": "Recheck 10-15 min after treatment: persistent symptoms may need repeat anticholinergic dose"
+            },
+            {
+              "key": "Ongoing Management",
+              "value": "Document culprit medicationin chart & handoff"
+            },
+            {
+              "key": "Ongoing Management",
+              "value": "If offending drug must be continued, discuss dose reduction, agent change, or short prophylactic anticholinergic course"
+            },
+            {
+              "key": "Ongoing Management",
+              "value": "Counsel pt that recurrence can happen if same medication is given again"
+            },
+            {
+              "key": "Ongoing Management",
+              "value": "Consider pharmacy or psychiatry input if antipsychotic therapy is still required"
+            }
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "steps",
+          "items": [
+            "This is primarily a clinical Dx —don't delay treatment for testing",
+            "Check vitals & pulse oximetry if face/neck symptoms are prominent",
+            "Review MAR carefully for culprit medication & timing",
+            "Fingerstick glucose if atypical or altered",
+            "BMP/Ca/Mg if history is unclear, symptoms recur, or another neuromuscular cause is possible",
+            "ECG if significant tachycardia, QTprolonging comedications, or antipsychotic toxicity is a concern"
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Diphenhydramine",
+              "dose": "25-50mg IV/IM, then 25-50mg PO q6h x 4-7 days",
+              "route": "IV/IM: PO",
+              "contraindications": "Delirium, severe anticholinergic burden, narrowangle glaucoma",
+              "notes": "Firstline anticholinergic; relief israpid & dramatic."
+            },
+            {
+              "name": "Benztropine",
+              "dose": "1-2mg IV/IM, then 1-2mg PO BID x 4-7 days",
+              "route": "IV/IM: PO",
+              "contraindications": "Glaucoma, ileus, urinary retention",
+              "notes": "Alternative first line anticholinergic; useful if the pt remains at EPS risk."
+            },
+            {
+              "name": "Lorazepam",
+              "dose": "0.5-2mg IV/IM PRN",
+              "route": "IV/IM",
+              "contraindications": "Respiratory depression, oversedation",
+              "notes": "Adjunct if severe anxiety, distress, or incomplete response to anticholinergic therapy. Not first line as monothetherapy."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Factor SA, Burkhard PR, Caroff S, et al. Recent Developments in DrugInduced Movement Disorders: A Mixed Picture. The Lancet Neurology. 2019.",
+            "Tarsy D, Simon DK. Dystonia. The New England Journal of Medicine. 2006.",
+            "Robottom BJ, Factor SA, Weiner WJ. Movement Disorders Emergencies Part 2: Hyperkinetic Disorders. Archives of Neurology. 2011.",
+            "Bhidayasiri R, Fahn S, Weiner WJ, et al. EvidenceBased Guideline: Treatment of Tardive Syndromes — AAN Guideline. Neurology. 2013;81(5):463469. https://doi.org/10.1212/WNL.0b013e31829d86b6",
+            "van Harten PN, Hoek HW, Kahn RS. Acute Dystonia Induced by Drug Treatment. British Medical Journal. 1999;319(7210):623626."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "GuillainBarré Syndrome (GBS)",
+      "subtitle": "Ascending weakness, areflexia, paresthesias, dysautonomia, low NIF",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "ABCs: check respiratory status ASAP. Call RT early. pulse Ox, telemetry, frequent BP",
+            "check for autonomic instability: HR swings, BP lability, urinary retention, ileus",
+            "Avoid succinylcholine: risk severe ↑K from denervation",
+            "Monitor swallowing: if bulbar weakness, keep NPO & consider NG/OG feeding"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Preceding illness 1-4 wks ago: URI, GI illness ( Campylobacter jejuni: most common trigger), CMV, EBV, Mycoplasma, Zika, COVID, influenza",
+            "Recent vaccination (rare association)",
+            "Symptom onset & progression: ascending weakness starting in legs, progressing over days to weeks. Peak sx at 2-4 wks",
+            "Sensory sx: paressias, numbness (often precede weakness), pain (esp back/thighs)",
+            "Cranial nerve involvement: facial weakness (bilateral), dysphagia, dysarthria, ophthalmoplegia",
+            "Autonomic sx: palpitations, urinary retention, constipation, diaphoresis, orthostasis",
+            "Prior episodes (recurrent GBS rare: if ≥3 relapses, consider CIDP)",
+            "Baseline ambulation status & rate of decline",
+            "Meds: BB (worsen ↓ HR in dysautonomia), neuromuscular blockers to avoid"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Symmetric ascending weakness: legs > arms. Grade strength (MRC scale 0-5) in all limbs",
+            "Areflexia or hyporeflexia: required finding. Check biceps, triceps, patellar, Achilles",
+            "Respiratory assessment: count to 20 in single breath (if can't reach 10-12, concerning), singlebreath count, cough strength, accessory muscle use",
+            "Neck flexor weakness: correlates with diaphragmatic involvement & intubation risk",
+            "Cranial nerves: facial weakness (CN VII,bilateral), bulbar function (swallow, gag, tongue), extraocular movements (MillerFisher)",
+            "Sensory exam: glovestocking paressias, vibration & proprioception (often preserved early)",
+            "Autonomic signs: resting tachycardia, BP lability, pupillary dysfunction, ileus, urinary retention",
+            "check trajectory: is pt getting better or worse? Hourly trend matters more than single exam"
+          ]
+        },
+        {
+          "title": "GBS Varients",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "GBS",
+              "value": "Acute immunemed. polyneuropathy: postinfectious autoimmune attack on peripheral nerves. MCC of acute flaccid paralysis"
+            },
+            {
+              "key": "AIDP",
+              "value": "Acute inflammatory demyelinating polyneuropathy: most common subtype (85-90%). Demyelination of motor & sensory nerves"
+            },
+            {
+              "key": "AMAN",
+              "value": "Acute motor axonal neuropathy: motoronly,postCampylobacter. Axonal subtype. Higher intubation risk & slower recovery"
+            },
+            {
+              "key": "AMSAN",
+              "value": "Acute motor & sensory axonal neuropathy: combined motor + sensory axonal involvement. More severe"
+            },
+            {
+              "key": "MillerFisher Syndrome",
+              "value": "Variant: ophthalmoplegia + ataxia + areflexia. Descending pattern. AntiGQ1b antibodies. Generally milder course"
+            },
+            {
+              "key": "Albuminocytologic dissociation",
+              "value": "CSF: ↑ protein (>45 mg/dL) with nl. WBC (<10 cells/μL). Classic finding but may nl. in first week. >50 WBC suggests alternative dx"
+            },
+            {
+              "key": "Treatmentrelated fluctuation (TRF)",
+              "value": "Improvementthendeterioration within 8 wks (up to 10% of pts). Retreat with original modality. ≥3 relapses: consider CIDP"
+            }
+          ]
+        },
+        {
+          "title": "Autonomic Instability",
+          "type": "bullets",
+          "items": [
+            "Occurs in~50% of GBS pts: can life-threatening. Telemetry mandatory",
+            "Labile BP:severe HTN to ↓ BP. Avoid aggressive tx: episodestransient",
+            "Hypertensive episodes: txt stimuli (pain, full bladder, agitation). Shortacting IV vasodilators (nicardipine, clevidipine). Avoid BB (↑ ↓ HR risk)",
+            "↓ HR: can progress to asystole. Avoid vagal stimuli (suctioning). D/C negative chronotropes. IV atropine at bedside. External pacing if refractory",
+            "Tachycardia:sinus: may not need tx. Check for pain, fever, PE, hypovolemia first",
+            "Urinary retention: Foley catheter, bladder scans",
+            "Gastroparesis/ileus: promotility agents, consider postpyloric feeding. Aggressive bowel regimen",
+            "Acute colonic pseudoObst.: neostigmine (pretreat with glycopyrrolate 0.4mg: neostigmine 2mg IV over 5 min)",
+            "Complications: PRES (posterior reversible encephalopathy syndrome) & Takotsubo cardiomyopathy from dysautonomic hypertensive episodes",
+            "PEARL: disease plateaus, then improves.don't retreat if improving"
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Preceding triggers",
+              "value": "Campylobacter jejuni (most common), CMV, EBV, Mycoplasma, influenza, COVID19, Zika, hepatitis E, recent surgery, vaccination (rare)"
+            },
+            {
+              "key": "DDx: acute weakness",
+              "value": "Transverse myelitis, spinal cord compression, myasnia gravis, botulism, poliomyelitis, tick paralysis, critical illness polyneuropathy, hypokalemic periodic paralysis"
+            },
+            {
+              "key": "Transverse myelitis",
+              "value": "Sensory level, bladder dysfunction early, UMN signs (hyperreflexia). GBS = LMN (areflexia)"
+            },
+            {
+              "key": "Myasnia gravis",
+              "value": "Fatigable weakness, ptosis, diplopia. Reflexes preserved. No sensory involvement"
+            },
+            {
+              "key": "Botulism",
+              "value": "Descending paralysis (opposite of GBS), dilated pupils, early bulbar involvement, GI prodrome"
+            },
+            {
+              "key": "Spinal cord compression",
+              "value": "Back pain, sensory level, UMN signs, bowel/bladder dysfunction. MRI spine diagnostic"
+            },
+            {
+              "key": "Tick paralysis",
+              "value": "Ascending paralysis similar to GBS: search for embedded tick (scalp, hairline). Resolves with tick removal"
+            },
+            {
+              "key": "CIDP",
+              "value": "Chronic inflammatory demyelinating polyneuropathy: if sx progress >8 wks or ≥3 relapses, reclassify from GBS to CIDP"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Measure FVC & NIF at bedside: repeat q4-6h (q2h if declining). Trend > single value",
+            "Step 1: prevent respiratory failure: Trend FVC & NIF closely, repeat airway exams, involve RT early, & move to ICU or intubation based on trajectory not waiting for a late gas change.",
+            "Step 2: start diseasedirected thetherapy: Start IVIG or PLEX early once GBS is strongly suspected;don't wait for LP/EMG. Choose one modality based on access, hemodynamics, renal function, & local resources; combined IVIG + PLEX is not routinely beneficial.",
+            "Step 3: supportive & autonomic care: Use telemetry & frequent BP monitoring, give DVT prophylaxis, manage neuropathic pain, monitor swallowing/nutrition, prevent pressure injuries, & avoid succinylcholine or delays in thetherapy."
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "FVC (forced vital capacity)",
+              "value": "Most important test. Measure q4-6h (q2h if declining). Trend > single value. <20 mL/kg = ICU. <15 mL/kg = consider intubation. <10 mL/kg = strong indication for intubation"
+            },
+            {
+              "key": "NIF (negative insp force)",
+              "value": "< −30 cmH2O = concerning. < −20 cmH2O = intubation likely. Trend alongside FVC"
+            },
+            {
+              "key": "LP",
+              "value": "Albuminocytologic dissociation: ↑ protein (>45), WBC <10. May be nl. in first week (80-90% sens after wk 1). >50 WBC: consider HIV, Lyme, sarcoid, lymphoma"
+            },
+            {
+              "key": "EMG/NCS",
+              "value": "Confirms dx & subtype (demyelinating vs axonal). May be nl. <1-2 wks after onset. nl. study >1-2 wks postonset argues against GBS"
+            },
+            {
+              "key": "MRI spine",
+              "value": "Selective enhancement of anterior spinal nerve roots is suggestive. Also r/o cord compression"
+            },
+            {
+              "key": "Antiganglioside antibodies",
+              "value": "AntiGQ1b (MillerFisher), antiGM1 (AMAN). Not required for dx but can help with subtyping"
+            },
+            {
+              "key": "Basic labs",
+              "value": "BMP (lytes, Cr), CBC, LFTs, CK, ESR/CRP, TSH. Stool culture for Campylobacter. HIV, Lyme if risk factors"
+            },
+            {
+              "key": "ABG/VBG",
+              "value": "If respiratory distress or declining FVC: rising PaCO2 is late finding, do NOT rely on gas alone"
+            },
+            {
+              "key": "Telemetry",
+              "value": "cardiac monitoring: dysautonomia causes ↓ HR, tachycardia, asystole"
+            },
+            {
+              "key": "EtCO2",
+              "value": "If available: rising trend with declining FVC suggests impending resp failure"
+            }
+          ]
+        },
+        {
+          "title": "Respiratory Monitoring & Intubation",
+          "type": "steps",
+          "items": [
+            "FVC & NIF are key bedside tests: measure on admission,thenq4-6h (q2h if declining). ABG/VBG is late indicator",
+            "Rough thresholds (integrate with clinical picture: se are NOT absolute cutoffs):",
+            "FVC <20 mL/kg: ICU admission",
+            "FVC <15 mL/kg: prepare for intubation",
+            "FVC <10 mL/kg: strong indication for intubation",
+            "NIF weaker than −30 cmH2O: concerning. Weaker than −20 cmH2O: intubation likely",
+            ">30% decline in FVC or NIF from baseline: ICU transfer",
+            "Clinical signs matter most: ↑ WOB, inability to cough, secretion management difficulty, ↓ singlebreath count, neck flexor weakness, bulbar dysfunction",
+            "Do NOT rely on ABG alone: rising PaCO2 is LATE finding. By n, pt may crash during intubation",
+            "Preintubation: avoid succinylcholine (↑K). Use rocuronium. Have pushdose epinephrine ready for vagal episodes",
+            "Consider early elective intubation not emergent: GBS pts decompensate rapidly",
+            "Consider early tracheostomy (~1 wk) in pts with severe weakness, AMAN subtype, or rapid progression: improves comfort, mobilization, oral hygiene"
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "IVIG",
+              "dose": "0.4 g/kg/day IV x5 days (total 2 g/kg)",
+              "route": "IV",
+              "contraindications": "IgA deficiency (anaphylaxis risk: check IgA level), severe renal insufficiency",
+              "notes": "Firstline: start on clinical dx,don't wait for LP/EMG. Risks: thromboembolism, aseptic meningitis, renal injury, hemolysis. Repeat course within 1-2 wks not beneficial"
+            },
+            {
+              "name": "Plasmapheresis (PLEX)",
+              "dose": "5 exchanges over 1-2 wks (typically 200-250 mL/kg total plasma volume)",
+              "route": "Central venous access",
+              "contraindications": "Hemodynamic instability (relative), sepsis, active bleeding, poor vascular access",
+              "notes": "best if started within 7 days s/s. Equal efficacy to IVIG. More hemodynamic instability but ↓ relapse rate. Preferred in some centers. Requires central line. Combined IVIG + PLEX NOT superior"
+            },
+            {
+              "name": "Gabapentin",
+              "dose": "300mg PO daily, titrate up to 1200mg TID as tolerated",
+              "route": "PO",
+              "contraindications": "Severe renal insufficiency (adjust dose)",
+              "notes": "Firstline for neuropathic pain (very common in GBS). Can also use pregabalin. Sedation may limit dose"
+            },
+            {
+              "name": "Atropine",
+              "dose": "0.5-1mg IV push, may repeat",
+              "route": "IV",
+              "contraindications": "Tachycardia, acute angleclosure glaucoma",
+              "notes": "For symptomatic ↓ HR from dysautonomia. Have at bedside for all GBS pts with autonomic instability. Consider external pacing if refractory"
+            },
+            {
+              "name": "Nicardipine or Clevidipine",
+              "dose": "Nicardipine 5-15 mg/h IV; Clevidipine 1-2 mg/h IV titrate",
+              "route": "IV infusion",
+              "contraindications": "Severe aortic stenosis (clevidipine)",
+              "notes": "Shortacting IV CCB for hypertensive episodes from dysautonomia. Avoid BB (↑ ↓ HR risk). Transition to PO CCB if sustained"
+            },
+            {
+              "name": "Enoxaparin",
+              "dose": "40mg SC daily (or 30mg SC BID if high risk)",
+              "route": "SC",
+              "contraindications": "Active bleeding, HIT, CrCl <30 (use UFH)",
+              "notes": "DVT prophylaxis: immobile pts athigh VTE risk. Start early. Add SCDs"
+            },
+            {
+              "name": "Neostigmine",
+              "dose": "2mg IV over 5 min (pretreat with glycopyrrolate 0.4mg IV)",
+              "route": "IV",
+              "contraindications": "Mechanical bowel Obst., peritonitis",
+              "notes": "For acute colonic pseudoObst. (Ogilvie syndrome) from autonomic dysfunction. Use cautiously: worsens ↓ HR"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Hughes RA, Wijdicks EF, Barohn R, et al. Practice Parameter: Immunothetherapy for GuillainBarré Syndrome: Report of the Quality Standards Subcommittee of the American Academy of Neurology. Neurology. 2003. Guideline.",
+            "van Doorn PA, Van den Bergh PYK, Hadden RDM, et al. European Academy of Neurology/Peripheral Nerve Society Guideline on Diagnosis & Treatment of GuillainBarré Syndrome. European Journal of Neurology. 2023."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Myasthenic Crisis (Myasthenia Gravis)",
+      "subtitle": "Ptosis, bulbar weakness, dyspnea, fatigability, hypercapnia",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "Airway: follow FVC, NIF, capnography, secretion burden, cough strength, bulbar weakness, & WOB",
+            "Move to early intubation if numbers are falling or the pt cannot protect the airway: FVC <20 mL/kg (or <1 L), NIF weaker than 30 cmH2O, rising pCO2, poor secretion clearance, or major bulbar sx",
+            "If trying BiPAP, treat it as a short bridge with frequent reassessment, not a setandforget plan",
+            "Call neurology early while you look for the trigger",
+            "If intubated, hold pyridostigmine until closer to extubation so secretions do not worsen"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Known MG? How long? AChR vs MuSK? Prior thymoma or thymectomy?",
+            "Current regimen: pyridostigmine dose, steroids, immunosuppressants, missed doses, abrupt taper, or recent med change",
+            "Common triggers: infection, aspiration, surgery/anesthesia, pregnancy/postpartum, heat, stress, thyroid disease, Ca/Phos/Mg issues",
+            "Review every med for MGworsening agents: aminoglycosides, fluoroquinolones, macrolides, clindamycin, vancomycin, BB, procainamide, quinidine, lithium, phenytoin, antipsychotics, magnesium, iodinated contrast",
+            "Recent steroid start or dose increase can temporarily make weakness worse",
+            "Prior crisis, prior intubation, prior PLEX vs IVIG, & what response was seen",
+            "Bulbar sx: dysphagia, dysarthria, nasal voice, aspiration, weak cough, trouble clearing secretions",
+            "Crisis can be the first presentation of MG: keep it on the list in unexplained hypercarbic weakness"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Resp: tachypnea, shallow breathing, orthopnea, weak cough, pausing midsentence, poor secretion clearance",
+            "Eyes: ptosis (often asymmetric), diplopia, CN III/IV/VI weakness, fatigability on sustained upgaze",
+            "Bulbar/facial: dysarthria, dysphonia, dysphagia, nasal voice, weak palate elevation, pooling secretions",
+            "Motor: proximal > distal weakness, neck extensor weakness (\"dropped head\"), weakness worsens with repetition or later in the day",
+            "Reflexes, sensation, pupils, & autonomic exam are normal: if abnormal, reconsider the dx",
+            "Bedside tests: ice pack test, prolonged upgaze test, single breath count <20"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Myasthenia gravis",
+              "value": "Autoimmune NMJ disorder, most often from AChR antibodies. Weakness is fatigable: worse with repeated use, better after rest."
+            },
+            {
+              "key": "Myasthenic crisis",
+              "value": "Severe MG flare causing respiratory failure or airway risk, often requiring intubation. Many crises happen early in the disease course."
+            },
+            {
+              "key": "Cholinergic crisis",
+              "value": "Too much acetylcholinesterase inhibitor causing weakness plus muscarinic excess. Rare now, but still worth distinguishing from true crisis."
+            },
+            {
+              "key": "MGFA Class V",
+              "value": "Intubation, with or without full ventilator support, qualifies as MGFA Class V."
+            },
+            {
+              "key": "FVC",
+              "value": "Normal ≥60 mL/kg. <20 mL/kg or rapid decline = impending respiratory failure"
+            },
+            {
+              "key": "NIF",
+              "value": "Normal about 80 to 100 cmH₂O. Weaker than 30 cmH₂O = significant respiratory weakness"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Crisis triggers",
+              "value": "Infection is the leading trigger. Others: med changes, nonadherence, surgery/anesthesia, steroids, stress, heat, thyroid disease, pregnancy/postpartum, and electrolyte shifts. Sometimes no trigger is found."
+            },
+            {
+              "key": "MG vs cholinergic crisis",
+              "value": "Myasthenic crisis usually has normal pupils and lacks prominent muscarinic findings. Cholinergic crisis points more toward miosis, sweating, bradycardia, fasciculations, and heavy secretions."
+            },
+            {
+              "key": "MG vs LambertEaton",
+              "value": "MG often starts ocular/bulbar and gets worse with repetition; reflexes stay normal. LEMS usually starts in the legs, may briefly improve after use, has low reflexes, and often includes autonomic sx."
+            },
+            {
+              "key": "DDx: NMJ / nerve / motor",
+              "value": "Think about botulism, GBS, ALS, organophosphate toxicity, tick paralysis, brainstem stroke, spinal cord disease, and periodic paralysis."
+            },
+            {
+              "key": "Can't miss nonneuromuscular causes",
+              "value": "Do not miss ACS, arrhythmia, sepsis, hypoglycemia, anemia, dehydration, thyroid disease, electrolyte problems, or another cause of respiratory failure."
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Watch the breathing trend, not a single number: serial FVC/NIF, capnography, secretion burden, bulbar weakness, cough, and WOB. Do not rely on SpO2 alone.",
+            "Use NIV only if the pt is protecting the airway and can clear secretions. If bulbar function is poor or the numbers are falling, choose elective intubation before things crash.",
+            "If intubating, try to avoid paralytics if feasible. If needed, use lowdose rocuronium 0.5-0.6 mg/kg; if succinylcholine is chosen, higher doses may be needed. Have sugammadex ready.",
+            "Find and treat the trigger at once: infection/aspiration, med exposure, steroid change, surgery/anesthesia, thyroid disease, electrolyte issues, or missed MG meds.",
+            "Stop drugs that worsen MG, avoid magnesium, and if the pt is intubated, hold pyridostigmine until extubation is closer. If not intubated, keep home pyridostigmine going unless cholinergic crisis is a real concern.",
+            "Start immune therapy early with neurology. PLEX is often chosen first in crisis because it works faster; IVIG is a reasonable alternative when PLEX is not practical.",
+            "Be cautious with steroids: keep the home dose if already taking them, but new steroid escalation can transiently worsen weakness, so timing should be deliberate."
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Serial resp tests",
+              "value": "FVC & NIF q2h or more often, plus capnography, secretion burden, & single breath count."
+            },
+            {
+              "key": "ABG/VBG",
+              "value": "Hypercapnia (pCO2 >45) is concerning; do not rely on SpO2 alone."
+            },
+            {
+              "key": "Basic labs",
+              "value": "CBC, BMP/CMP, Mg, Phos, CRP if infection suspected."
+            },
+            {
+              "key": "Trigger workup",
+              "value": "CXR, cultures if infection is suspected, thyroid studies, med review, aspiration evaluation."
+            },
+            {
+              "key": "MG workup",
+              "value": "AChR Ab, MuSK Ab, CT chest for thymoma. Do not delay crisis treatment while waiting."
+            },
+            {
+              "key": "Monitoring",
+              "value": "Telemetry & pulse ox; airway/aspiration precautions."
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "IVIG",
+              "dose": "0.4 g/kg/day × 5 days (total 2 g/kg)",
+              "route": "IV",
+              "contraindications": "Renal failure, IgA deficiency (anaphylaxis risk)",
+              "notes": "Diseasemodifying: effect lasts 30-45 days; onset slower than PLEX (days to weeks). Easier to give (peripheral IV ok)"
+            },
+            {
+              "name": "Plasmapheresis (PLEX)",
+              "dose": "5 exchanges over 10-14 days",
+              "route": "Central venous access required",
+              "contraindications": "Hemodynamic instability, limited access, major coagulopathy",
+              "notes": "Fastest onset: improvement often by the 2nd-3rd session. Generally preferred in crisis if feasible."
+            },
+            {
+              "name": "Pyridostigmine",
+              "dose": "30-60 mg PO q4-6h (max 90 mg q4h); IV: 2-3 mg (1/30th PO dose)",
+              "route": "PO / IV",
+              "contraindications": "Cholinergic crisis, mechanical ileus",
+              "notes": "Symptomatic only. Stop if intubated to reduce secretions; restart near extubation. If not intubated, abrupt cessation can worsen weakness."
+            },
+            {
+              "name": "Dexamethasone / Prednisone",
+              "dose": "Per neurology plan",
+              "route": "IV / PO",
+              "contraindications": "Active uncontrolled infection (relative)",
+              "notes": "If already taking steroids, continue. New initiation can transiently worsen weakness, especially in the first 5-10 days."
+            }
+          ]
+        },
+        {
+          "title": "Important Points",
+          "type": "bullets",
+          "items": [
+            "Reflexes, sensation, pupils, and autonomic findings should stay normal in MG: abnormalities push you toward another diagnosis.",
+            "SpO2 can stay normal until late: worsening ventilation often shows up first as rising CO2, weak cough, and poor secretion clearance.",
+            "PLEX and IVIG both work; PLEX is often favored in crisis because the response is quicker.",
+            "Avoid magnesium: it can noticeably worsen NMJ transmission and tip a borderline pt into respiratory failure.",
+            "Thymic disease is common in MG, but thymectomy is a longgame issue, not the priority in the acute crisis window."
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Sanders DB, Wolfe GI, Benatar M, et al. International Consensus Guidance for Management of Myasthenia Gravis: Executive Summary. Neurology. 2016;87(4):419425. https://doi.org/10.1212/WNL.0000000000002790",
+            "Narayanaswami P, Sanders DB, Wolfe G, et al. International Consensus Guidance for Management of Myasthenia Gravis: 2020 Update. Neurology. 2021;96(3):114122. https://doi.org/10.1212/WNL.0000000000011124"
+          ]
+        }
+      ]
+    }
+  ]
+}

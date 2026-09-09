@@ -1,0 +1,1214 @@
+[
+  {
+    "name": "Endocrine / Metabolic",
+    "icon": "pills.fill",
+    "color": "pink",
+    "topics": [
+      {
+        "title": "DKA / HHS",
+        "subtitle": "Hyperglycemia, ketoacidosis, hyperosmolarity, dehydration, AMS",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Airway: if GCS <8 or unable to protect airway: intubate; CAUTION: Kussmaul respirations are compensatory: if intubating, match high RR & tidal volume to avoid worsening acidosis",
+              "Breathing: SpO2, RR; Kussmaul breathing (deep, rapid) is expected compensatory mechanism: do NOT suppress with sedation",
+              "Circulation: 2 largebore IVs; NS 1 L in first hour (avg fluid deficit: DKA 5–9 L, HHS 100–220 mL/kg); recheck volume status then 250–500 mL/hr",
+              "Start insulin 1–2 hours AFTER initiating fluid resuscitation: early insulin before fluids may detrimental, especially in HHS"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Known T1DM vs T2DM; baseline insulin regimen (basal/bolus, pump)",
+              "Home A1c, last glucose monitoring",
+              "SGLT2 inhibitor use: risk for euglycemic DKA (glucose may <200 mg/dL)",
+              "Recent illness, infection, surgery, trauma",
+              "Medication compliance: missed insulin doses, new meds (steroids, atypicals)",
+              "Alcohol use (ketoacidosis, reduced food intake)",
+              "Pregnancy status (higher risk for DKA)",
+              "Prior episodes of DKA/HHS, prior ICU admissions"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "Volume status: skin turgor, dry mucous membranes, cap refill, tachycardia, hypotension",
+              "Kussmaul respirations (deep, rapid: compensatory for metabolic acidosis)",
+              "Fruity breath (acetone)",
+              "Abdominal tenderness (common in DKA: may mimic surgical abdomen)",
+              "Mentation: lethargy: obtundation: coma (HHSmore severe AMS than DKA)",
+              "Signs of precipitant: fever, focal infection, new murmur, focal neuro deficits"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "DKA",
+                "value": "Glucose >250 mg/dL + pH <7.3 + bicarb <18 + anion gap >12 + positive serum/urine ketones. All criteria must be met. ~10% present as euglycemic DKA (glucose <200): associated with SGLT2i, reduced intake, pregnancy, alcohol, liver failure"
+              },
+              {
+                "key": "DKA severity",
+                "value": "Mild: pH 7.25–7.30, bicarb 15–18. Moderate: pH 7.00–7.24, bicarb 10–15. Severe: pH <7.00, bicarb <10"
+              },
+              {
+                "key": "HHS",
+                "value": "Glucose >600 mg/dL + serum osmolality >320 mOsm/kg + minimal/absent ketones + pH >7.3. Fluid deficit 100–220 mL/kg. Higher mortality than DKA"
+              },
+              {
+                "key": "Precipitants",
+                "value": "Infection (MCC), new T1DM/T2DM, insulin noncompliance, MI, stroke, pregnancy, meds (steroids, SGLT2i, atypical antipsychotics)"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Anion gap acidosis DDx",
+                "value": "DKA, lactic acidosis, renal failure (uremia), toxic ingestion (methanol, ethylene glycol, salicylates): MUDPILES mnemonic"
+              },
+              {
+                "key": "Hyperglycemia DDx",
+                "value": "DKA, HHS, stress hyperglycemia, steroidinduced, newonset DM, pancreatitis"
+              },
+              {
+                "key": "Ketosis without acidosis",
+                "value": "Starvation ketosis, alcoholic ketoacidosis: glucose is normal or low"
+              },
+              {
+                "key": "Euglycemic DKA",
+                "value": "SGLT2 inhibitor use, pregnancy, reduced oral intake, alcohol use, liver failure: check ketones & AG even with normal glucose"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Check K+ BEFORE starting insulin: if K+ <3.3, replete K+ FIRST (insulin drives K+ intracellularly: fatal hypokalemia)",
+              "Search for precipitant: infection (#1), insulin noncompliance, newonset DM, MI, stroke, pancreatitis, pregnancy, meds (steroids, SGLT2i)",
+              "DKA & HHSpresent concurrently: mixed presentations have higher mortality than either alone"
+            ]
+          },
+          {
+            "title": "DKA Management",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Fluids (0–1h)",
+                "value": "NS 1 L in first hour. If shock: rapid boluses with attention to airway. Then 250–500 mL/hr based on volume status. Replace deficits over 24–48h. Switch to D5½NS when glucose <250 mg/dL"
+              },
+              {
+                "key": "Insulin",
+                "value": "Start 1–2h after fluids. Regular insulin 0.1 units/kg/hr IV infusion. Target glucose reduction ~50 mg/dL/hr & bicarb ↑ ~3 mEq/L/hr. If not meeting goals: ↑ by 1 unit/hr. When glucose <250: ↓ to 0.05 units/kg/hr & add D5 to IVF. Minimum rate 1 unit/hr to allow acidosis resolution"
+              },
+              {
+                "key": "Mild DKA option",
+                "value": "SQ rapidacting insulin q1–2h may used in ED or stepdown (safer, more costeffective). No significant outcome difference vs IV insulin when combined with aggressive fluids"
+              },
+              {
+                "key": "Potassium",
+                "value": "Check K+ before insulin. If K+ <3.3: hold insulin, replete K+ first. Add 20–40 mEq KCl/L to IVF if K+ <5.0. Target K+ 4.0–5.0. Monitor q2h (q1h if abnormal)"
+              },
+              {
+                "key": "Early basal insulin",
+                "value": "Continue home basal dose or start glargine 0.3 units/kg early alongside IV insulin: prevents rebound hyperglycemia & facilitates SQ transition"
+              },
+              {
+                "key": "Bicarbonate",
+                "value": "Not routinely suggested: studies show no difference in acidosis resolution or time to discharge. Consider only if pH <6.9 with ↓ cardiac function or severe hyperkalemia"
+              },
+              {
+                "key": "Phosphate/Mg",
+                "value": "Not routinely replaced. Consider if severe deficiency present"
+              },
+              {
+                "key": "Resolution criteria",
+                "value": "Clinical improvement + pH >7.3 + betahydroxybutyrate normalized + bicarb ≥18 + anion gap closed + glucose <200 mg/dL. Do NOT stop insulin based on glucose alone: gap must close"
+              }
+            ]
+          },
+          {
+            "title": "HHS Management",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Fluids",
+                "value": "NS (0.9% NaCl) is principal fluid. Replace ~50% of estimated fluid loss within first 12h. Fluid replacement alone will ↓ glucose. Switch to 5% or 10% dextrose when glucose <252 mg/dL (14 mmol/L)"
+              },
+              {
+                "key": "Insulin",
+                "value": "Withhold insulin until glucose is no longer falling with IV fluids alone (unless ketonaemia present). When starting: 0.05–0.1 units/kg/hr. ↑ by 1 unit/hr as needed. Early insulin before adequate fluids is harmful in HHS"
+              },
+              {
+                "key": "Osmolality monitoring",
+                "value": "Measure/calculate serum osmolality regularly. Target reduction 3–8 mOsm/kg/h: rapid correction risks central pontine myelinolysis. An initial ↑ in Na is expected & is NOT an indication for hypotonic fluids"
+              },
+              {
+                "key": "Target glucose",
+                "value": "10–15 mmol/L (180–270 mg/dL) in first 24h: avoid overcorrection"
+              },
+              {
+                "key": "Complications",
+                "value": "Higher mortality than DKA. Risk of MI, stroke, seizures, cerebral edema, central pontine myelinolysis, VTE, foot ulceration. Prevent VTE with prophylaxis. Involve diabetes specialist team early"
+              },
+              {
+                "key": "Resolution criteria",
+                "value": "Osmolality <300 mOsm/kg + hypovolemia corrected (UOP ≥0.5 mL/kg/h) + cognitive status returned to baseline + glucose <270 mg/dL"
+              }
+            ]
+          },
+          {
+            "title": "Transition to SQ Insulin",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Timing",
+                "value": "Give basal SQ insulin 2–4h BEFORE stopping IV insulin to prevent rebound hyperglycemia & recurrent ketoacidosis. Overlap IV + SQ for 30–60 min minimum"
+              },
+              {
+                "key": "Dosing",
+                "value": "If wellcontrolled on home regimen: resume home doses. If new: 0.5–0.8 units/kg/day total, with half as basal (glargine/detemir) & half as prandial (lispro/aspart) with meals"
+              },
+              {
+                "key": "Early basal strategy",
+                "value": "Giving lowdose basal analog early during IV infusion prevents rebound hyperglycemia without ↑ hypoglycemia risk"
+              }
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Stat labs",
+                "value": "BMP (glucose, K+, bicarb, BUN/Cr), VBG or ABG, serum ketones (betahydroxybutyrate preferred), CBC, lactate, serum osmolality, urinalysis"
+              },
+              {
+                "key": "More",
+                "value": "Acetaminophen level (r/o coingestion), lipase, troponin if MI suspected, blood cultures if febrile, CXR, ECG"
+              },
+              {
+                "key": "DKA monitoring",
+                "value": "POC glucose & betahydroxybutyrate q1h. BMP & pH q2–4h. K+ q2h (q1h if abnormal). Strict I&Os"
+              },
+              {
+                "key": "HHS monitoring",
+                "value": "Serum osmolality q2–4h (target ↓ 3–8 mOsm/kg/h). POC glucose q1h. BMP q2–4h. Strict I&Os"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Normal saline (0.9% NaCl)",
+                "dose": "1 L in first hour, then 250–500 mL/hr",
+                "route": "IV",
+                "contraindications": "Heart failure (use caution)",
+                "notes": "Cornerstone of DKA & HHS tx. For HHS: replace ~50% deficit in first 12h."
+              },
+              {
+                "name": "Regular insulin",
+                "dose": "0.1 units/kg/hr infusion",
+                "route": "IV gtt",
+                "contraindications": "K+ <3.3 (replete K+ first)",
+                "notes": "Start 1–2h after fluids. ↓ to 0.05 units/kg/hr when glucose <250. Min rate 1 unit/hr for acidosis resolution. For HHS: may start at 0.05 units/kg/hr."
+              },
+              {
+                "name": "KCl replacement",
+                "dose": "20–40 mEq/L added to IVF",
+                "route": "IV",
+                "contraindications": "K+ >5.0, anuria",
+                "notes": "Start when K+ <5.0 & UOP confirmed. Target 4.0–5.0. Monitor q2h (q1h if abnormal)."
+              },
+              {
+                "name": "D5W or D10W",
+                "dose": "Add to IVF when glucose <250 (DKA) or <252 (HHS)",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Prevents hypoglycemia while insulin continues for acidosis/ketosis resolution."
+              },
+              {
+                "name": "Insulin glargine (basal)",
+                "dose": "Continue home dose or 0.3 units/kg",
+                "route": "SQ",
+                "contraindications": "",
+                "notes": "Give early alongside IV insulin for faster resolution & easier SQ transition. Give 2–4h before stopping IV insulin."
+              },
+              {
+                "name": "Sodium bicarb",
+                "dose": "100 mEq in 400 mL D5W over 2h",
+                "route": "IV",
+                "contraindications": "pH >6.9 (not routine)",
+                "notes": "Not routinely suggested: no benefit shown in studies. Consider only if pH <6.9 with ↓ cardiac function or severe hyperkalemia."
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / immediate higher level of care if",
+                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "American Diabetes Association Professional Practice Committee. 16. Diabetes Care in the Hospital: Standards of Care in Diabetes—2026. Diabetes Care. 2026;49(Suppl 1):S339–S355.",
+              "Veauthier B, LevyGrau B. Diabetic Ketoacidosis: Evaluation & Treatment. American Family Physician. 2024.",
+              "Mustafa OG, Haq M, Dashora U, et al. Management of Hyperosmolar Hyperglycaemic State (HHS) in Adults: An Updated Guideline From the JBDS for Inpatient Care Group. Diabetic Medicine. 2023.",
+              "Kitabchi AE, Umpierrez GE, Miles JM, Fisher JN. Hyperglycemic Crises in Adult Patients With Diabetes. Diabetes Care. 2009;32(7):13351343. https://doi.org/10.2337/dc09-9032",
+              "Umpierrez GE, Davis GM, ElSayed NA, et al. ADA Consensus Report: Management of Hyperglycaemic Crises — Diabetic Ketoacidosis and Hyperglycaemic Hyperosmolar State. Diabetologia. 2024;67:14551479. https://doi.org/10.1007/s00125-024-06183-8",
+              "Joint British Diabetes Societies (JBDS). The Management of Diabetic Ketoacidosis in Adults. 2023. https://abcd.care/resource/current/jbds-02-management-diabetic-ketoacidosis-adults"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hypoglycemia",
+        "subtitle": "Diaphoresis, tremor, confusion, seizure, glucose <70 mg/dL",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "ABCs: check airway (protect if obtunded/seizing), breathing, circulation",
+              "Fingerstick glucose STAT: confirm hypoglycemia (<70 mg/dL)",
+              "If unconscious, seizing, or unable to swallow: D50 25 g (1 amp) IV push or glucagon 1 mg IM if no IV",
+              "If alert & can swallow: 15–20 g fastacting PO carbs (4 oz juice, glucose tabs): recheck in 15 min (Rule of 15)",
+              "Place on cardiac monitor: arrhythmia risk with severe hypoglycemia",
+              "IV access if not already established"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Diabetes type & home regimen: insulin (type, dose, timing), sulfonylurea, meglitinide",
+              "Last meal, PO intake, recent illness, vomiting, diarrhea",
+              "Recent medication changes: new insulin dose, ↑ sulfonylurea, added potentiator (fluoroquinolone, TMPSMX)",
+              "EtOH use: inhibits gluconeogenesis; causes prolonged hypoglycemia",
+              "Renal function: CKD ↓ insulin & sulfonylurea clearance",
+              "Adrenal insufficiency, liver disease, sepsis, malignancy, bariatric surgery hx",
+              "Betablocker use: masks adrenergic sx (tremor, tachycardia) but NOT diaphoresis",
+              "Intentional OD or insulin misuse: consider if recurrent or unexplained"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "Adrenergic signs: diaphoresis, tremor, tachycardia, pallor, anxiety",
+              "Neuroglycopenic signs: confusion, slurred speech, ataxia, seizure, focal deficits, coma",
+              "Vitals: tachycardia, hypo or hypertension; hypothermia in severe cases",
+              "Signs of underlying cause: jaundice (liver failure), Kussmaul breathing (DKA overshoot), Addisonian features (hyperpigmentation, ↓ BP)",
+              "Injection sites: lipohypertrophy, signs of surreptitious insulin use"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Hypoglycemia",
+                "value": "Glucose <70 mg/dL. Clinically significant: <54 mg/dL. Severe: requires help from another person."
+              },
+              {
+                "key": "Whipple's Triad",
+                "value": "1) Sx consistent with hypoglycemia, 2) Low measured glucose, 3) Resolution of sx after glucose correction"
+              },
+              {
+                "key": "Hypoglycemia unawareness",
+                "value": "Loss of adrenergic warning sx from recurrent episodes: common in T1DM & tightly controlled T2DM. ↑ risk of severe events."
+              },
+              {
+                "key": "Rebound hyperglycemia",
+                "value": "Somogyi effect: overcorrection or counterregulatory hormone surge causing ↑ glucose after treatment"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Insulin excess",
+                "value": "Exogenous insulin (most common in DM pts), sulfonylurea, meglitinide: check Cpeptide & insulin level"
+              },
+              {
+                "key": "Sulfonylurea OD",
+                "value": "Prolonged hypoglycemia (up to 72h) from long halflife: requires octreotide & extended monitoring"
+              },
+              {
+                "key": "EtOH",
+                "value": "Inhibits hepatic gluconeogenesis. May present hours after drinking. Glycogen stores depleted in malnourished pts."
+              },
+              {
+                "key": "Adrenal insufficiency",
+                "value": "↓ cortisol: impaired gluconeogenesis & glycogenolysis. Check random cortisol.",
+                "topicLink": "Adrenal Crisis"
+              },
+              {
+                "key": "Sepsis / critical illness",
+                "value": "↑ glucose consumption, hepatic dysfunction, ↓ glycogen stores",
+                "topicLink": "Sepsis & Septic Shock"
+              },
+              {
+                "key": "Hepatic failure",
+                "value": "↓ glycogen storage & gluconeogenesis capacity",
+                "topicLink": "Acute Liver Failure"
+              },
+              {
+                "key": "Insulinoma",
+                "value": "Rare. Fasting hypoglycemia with inappropriately ↑ insulin & Cpeptide. 72h supervised fast is gold standard dx."
+              },
+              {
+                "key": "Medicationinduced",
+                "value": "Fluoroquinolones, TMPSMX, pentamidine, quinine, BB (mask sx), ACEi (rare)"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Mild (54–70, alert): 15–20 g PO carbs: recheck 15 min: repeat PRN (Rule of 15). Follow with complex carb snack if next meal >1h.",
+              "Moderate (40–54, symptomatic): D50 25 g IV or D10 250 mL IV if peripheral line. Recheck q15 min.",
+              "Severe (<40, AMS, seizure): D50 25 g IV push. If no IV: glucagon 1 mg IM. Recheck q15 min. Consider D10 infusion.",
+              "Sulfonylureainduced: Octreotide 50–100 mcg SQ/IV q6–12h: prevents rebound hypoglycemia. Monitor 24–72h (prolonged effect).",
+              "EtOH related: D50 + thiamine 100 mg IV BEFORE or WITH dextrose (prevent Wernicke). D10 infusion until eating.",
+              "After correction: identify & address root cause: adjust insulin dose, hold sulfonylurea, treat infection, r/o adrenal crisis",
+              "Recheck glucose q15–30 min during active treatment, then q1–2h until stable >100 for ≥2 consecutive checks",
+              "If recurrent despite treatment: start D10 infusion at 75–125 mL/h & investigate underlying cause"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Fingerstick glucose",
+                "value": "STAT, then q15 min during treatment, q1–2h once stable"
+              },
+              {
+                "key": "BMP",
+                "value": "K+, Cr, Na: check renal function & electrolytes"
+              },
+              {
+                "key": "LFTs",
+                "value": "If liver disease suspected as contributor"
+              },
+              {
+                "key": "Cortisol / ACTH",
+                "value": "Random cortisol if adrenal insufficiency suspected (draw before giving steroids)"
+              },
+              {
+                "key": "Cpeptide & insulin level",
+                "value": "If cause unclear: draw DURING hypoglycemic episode. ↑ insulin + ↑ Cpeptide = endogenous (insulinoma, sulfonylurea). ↑ insulin + ↓ Cpeptide = exogenous insulin."
+              },
+              {
+                "key": "Sulfonylurea screen",
+                "value": "If medication induced hypoglycemia suspected & pt denies use"
+              },
+              {
+                "key": "EtOH level",
+                "value": "If alcohol related hypoglycemia suspected"
+              },
+              {
+                "key": "Telemetry",
+                "value": "For glucose <54 or symptomatic: arrhythmia risk"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Dextrose 50% (D50)",
+                "dose": "25 g (1 amp = 50 mL) IV push",
+                "route": "IV",
+                "contraindications": "Extravasation causes tissue necrosis: ensure good IV",
+                "notes": "Firstline for severe hypoglycemia. Raises glucose ~75–100 mg/dL. Transient effect: follow with D10 or PO if needed."
+              },
+              {
+                "name": "Dextrose 10% (D10)",
+                "dose": "250 mL IV over 15–30 min or infusion at 75–125 mL/h",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Gentler on veins than D50. Preferred for maintenance infusion or peripheral IV only. Avoids rebound spikes."
+              },
+              {
+                "name": "Glucagon",
+                "dose": "1 mg IM or SQ",
+                "route": "IM / SQ",
+                "contraindications": "Ineffective if glycogen depleted (EtOH, starvation, adrenal insufficiency)",
+                "notes": "When no IV access. Onset 10–15 min. May cause N/V. Nasal formulation also available (3 mg)."
+              },
+              {
+                "name": "Octreotide",
+                "dose": "50–100 mcg SQ or IV q6–12h",
+                "route": "SQ / IV",
+                "contraindications": "",
+                "notes": "Sulfonylureainduced hypoglycemia: suppresses insulin secretion, prevents rebound. Give for 24–72h."
+              },
+              {
+                "name": "Thiamine",
+                "dose": "100 mg IV",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Give BEFORE or WITH dextrose in EtOH related or malnourished pts: prevents Wernicke encephalopathy."
+              },
+              {
+                "name": "Diazoxide",
+                "dose": "3–8 mg/kg/day PO divided q8–12h",
+                "route": "PO",
+                "contraindications": "CHF, fluid overload",
+                "notes": "For refractory hypoglycemia (insulinoma, nesidioblastosis): inhibits insulin release. Rarely used acutely."
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / immediate higher level of care if",
+                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "ADA Standards of Care 2026: Glycemic targets & hypoglycemia management in diabetes",
+              "Cryer PE. NEJM 2024: Evaluation & management of adult hypoglycemic disorders",
+              "Endocrine Society 2009: Evaluation & management of hypoglycemia in adults (guideline)",
+              "American Diabetes Association. Standards of Care in Diabetes — 2024: Glycemic Goals and Hypoglycemia. Diabetes Care. 2024;47(Suppl 1):S111S125. https://doi.org/10.2337/dc24-S006",
+              "Cryer PE, Axelrod L, Grossman AB, et al. Evaluation and Management of Adult Hypoglycemic Disorders: Endocrine Society Clinical Practice Guideline. Journal of Clinical Endocrinology & Metabolism. 2009;94(3):709728. https://doi.org/10.1210/jc.2008-1410"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Adrenal Crisis",
+        "subtitle": "Hypotension, hyponatremia, hyperkalemia, hypoglycemia, shock",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+              "Suspect adrenal crisis in shock refractory to fluids & vasopressors —don't wait for confirmatory testing",
+              "Aggressive isotonic fluid: nl. saline 1-3 L initially, then continue guided by hemodynamics, sodium, urine output, & comorbidities",
+              "If hypoglycemic: give dextrose now & continue glucose monitoring",
+              "Consult endocrinology early, especially if diagnosis is uncertain, shock persists, or transition planning is needed"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Known primary, secondary, or tertiary adrenal insufficiency; prior adrenal crisis; usual glucocorticoid replacement dose",
+              "Recent GI illness, flulike illness, fever, infection, trauma, childbirth, surgery, extreme heat/cold exposure, or major emotional/physical stress",
+              "Abrupt cessation or underdosing of chronic steroids: prednisone ≥5 mg/day for 4 weeks or longer can suppress HPA axis",
+              "Look for nonoral steroid exposure: inhaled steroids, steroid creams, joint injections, or exogenous glucocorticoids",
+              "Medication review: levothyroxine initiation, phenytoin, phenobarbital, rifampin, carbamazepine, St John's wort, ketoconazole, etomidate, fluconazole, checkpoint inhibitors",
+              "History of autoimmune disease or polyglandular syndrome: type 1 diabetes, thyroid disease, vitiligo, pernicious anemia"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "↓ BP, orthostasis, tachycardia, signs of volume depletion",
+              "AMS ranging from lethargy/confusion to obtundation",
+              "Fever may present & can reflect trigger or cytokine driven stress response",
+              "Diffuse abdominal tenderness or pain may mimic an acute abdomen",
+              "Hyperpigmentation suggests primary adrenal insufficiency",
+              "Look for associated autoimmune findings or endocrine disease"
+            ]
+          },
+          {
+            "title": "Recognition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Classic clue",
+                "value": "↓ BP that remains unexplained or resistant to standard fluid & vasopressor support"
+              },
+              {
+                "key": "Typical symptoms",
+                "value": "Weakness, fatigue, nausea, vomiting, abdominal pain, back pain, anorexia, dizziness, fever, confusion, syncope"
+              },
+              {
+                "key": "Progression",
+                "value": "Can worsen from nonspecific symptoms to shock, metabolic encephalopathy, obtundation, & coma"
+              },
+              {
+                "key": "Primary AI clues",
+                "value": "Hyponatremia, hyperkalemia, volume depletion, salt craving, hyperpigmentation, higher risk than secondary adrenal insufficiency"
+              },
+              {
+                "key": "Secondary / tertiary AI",
+                "value": "Low cortisol with low or inappropriately nl. ACTH; aldosterone ispreserved, so hyperkalemia may absent"
+              }
+            ]
+          },
+          {
+            "title": "Precipitants / Risk Factors",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Most common trigger",
+                "value": "Gastrointestinal infection / illness is common precipitating event"
+              },
+              {
+                "key": "Stressors",
+                "value": "Infection, trauma, surgery, pregnancy, childbirth, strenuous activity, severe emotional stress, or any major physiologic insult"
+              },
+              {
+                "key": "Medication related",
+                "value": "Abrupt cessation of glucocorticoids, antiadrenal medications, checkpoint inhibitors, & drugs that increase cortisol metabolism"
+              },
+              {
+                "key": "Who is highest risk",
+                "value": "Known adrenal insufficiency, prior adrenal crisis, primary adrenal insufficiency, older adults, multiple comorbidities, autoimmune polyglandular disease, type 1 diabetes"
+              },
+              {
+                "key": "Special caution",
+                "value": "Starting levothyroxine in an untreated adrenal insufficient pt can precipitate crisis by increasing metabolic demand & cortisol clearance"
+              }
+            ]
+          },
+          {
+            "title": "Differential Diagnosis",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Shock states",
+                "value": "Septic, hypovolemic, cardiogenic, & obstructive shock can all overlap; refractory ↓ BP is major adrenal crisis clue"
+              },
+              {
+                "key": "Endocrine",
+                "value": "Thyroid storm, myxedema coma, DKA, HHS, pituitary disease"
+              },
+              {
+                "key": "GI / surgical",
+                "value": "Gastroenteritis, bowel obstruction, appendicitis, diverticulitis, pancreatitis, or causes of acute abdomen"
+              },
+              {
+                "key": "Oncology / medication",
+                "value": "Checkpointinhibitor endocrinopathy, adrenal metastases, adrenal hemorrhage, steroid withdrawal, antiadrenal drugs"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Suspect adrenal crisis in hypotension or shock with AMS, vomiting, abdominal pain, hyponatremia, hyperkalemia, or hypoglycemia.",
+              "Place pt on a monitor, give oxygen as needed, and get 2 IV lines.",
+              "Check point-of-care glucose immediately and give IV dextrose if low.",
+              "Draw BMP, glucose, and if helpful cortisol, ACTH, and cultures without delaying treatment.",
+              "Give hydrocortisone 100 mg IV immediately.",
+              "Start isotonic fluids with a 1 L normal saline bolus, then recheck and repeat as needed.",
+              "Continue hydrocortisone 50 mg IV q6h or 200 mg/day as an infusion.",
+              "Treat hyperkalemia, hypoglycemia, and other critical abnormalities per standard protocol.",
+              "Identify and treat the trigger, with early antibiotics if infection is suspected.",
+              "Escalate persistent hypotension to vasopressors and ICU transfer."
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "STAT labs",
+                "value": "BMP/CMP, CBC, glucose, cortisol, ACTH, lactate, VBG/ABG, BCxs if infectious trigger suspected"
+              },
+              {
+                "key": "Typical abnormalities",
+                "value": "Hyponatremia, hyperkalemia, ↓ Glucose, prerenal AKI, metabolic acidosis; hypercalcemia can also occur"
+              },
+              {
+                "key": "Endocrine testing",
+                "value": "If stable enough, draw cortisol & ACTH before steroids. ACTH stimulation testing can help later, but never delay acute therapy"
+              },
+              {
+                "key": "Or workup",
+                "value": "Urinalysis, CXR, cultures, ECG, troponin, thyroid testing, or abdominal imaging depending on trigger & differential"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Hydrocortisone",
+                "dose": "100mg IV/IM bolus, then 200mg over 24h (commonly 50mg IV q6h)",
+                "route": "IV / IM",
+                "contraindications": "",
+                "notes": "Tx of choice.Don't delay treatment for labs. At doses >50mg/day, mineralocorticoid replacement isunnecessary acutely."
+              },
+              {
+                "name": "Dexamethasone",
+                "dose": "4mg IV q24h",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Alternative if diagnostic cortisol testing is still needed. Least preferred emergency alternative. No mineralocorticoid activity."
+              },
+              {
+                "name": "Prednisolone",
+                "dose": "25mg IV bolus, then 25mg x2 more doses in first 24h, then 50mg daily",
+                "route": "IV / PO",
+                "contraindications": "",
+                "notes": "Preferred alternative parenteral steroid if hydrocortisone is unavailable."
+              },
+              {
+                "name": "Methylprednisolone",
+                "dose": "40mg IV q24h",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Alternative steroid option if hydrocortisone is unavailable."
+              },
+              {
+                "name": "nl. saline",
+                "dose": "1-3L initially, then isotonic resuscitation",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Cornerstone of initial resuscitation for hypovolemia & ↓ BP."
+              },
+              {
+                "name": "Dextrose 50%",
+                "dose": "25g IV as needed",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Treat ↓ Glucose now; continue glucose monitoring afterward."
+              },
+              {
+                "name": "Fludrocortisone",
+                "dose": "0.1mg PO daily",
+                "route": "PO",
+                "contraindications": "",
+                "notes": "Add after stabilization in primary adrenal insufficiency if needed. Not required acutely when high dose hydrocortisone is being used."
+              }
+            ]
+          },
+          {
+            "title": "Prevention / Pearls",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Sick day rules",
+                "value": "Patients with known adrenal insufficiencydouble or triple ir oral glucocorticoid dose during acute illness for 2-3 days depending on severity"
+              },
+              {
+                "key": "Home rescue kit",
+                "value": "Patients have emergency injectable hydrocortisone (or dexamethasone), saline, & syringes available"
+              },
+              {
+                "key": "Medical alert",
+                "value": "Encourage medical alert bracelet / necklace & steroid card with emergency dosing instructions"
+              },
+              {
+                "key": "Big pitfall",
+                "value": "In undifferentiated shock, adrenal crisis ismissed b/c presenting symptoms are nonspecific: major bedside clue is persistent ↓ BP despite usual resuscitation"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / immediate higher level of care if",
+                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Bornstein SR, Allolio B, Arlt W, et al. Diagnosis and Treatment of Primary Adrenal Insufficiency: An Endocrine Society Clinical Practice Guideline. Journal of Clinical Endocrinology & Metabolism. 2016;101(2):364389. https://doi.org/10.1210/jc.2015-1710",
+              "Rushworth RL, Torpy DJ, Falhammar H. Adrenal Crisis. New England Journal of Medicine. 2019;381(9):852861. https://doi.org/10.1056/NEJMra1807486"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Thyroid Storm",
+        "subtitle": "Fever, tachycardia, agitation, heart failure, GI symptoms",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+              "ABCs: ICUlevel monitoring, IV access × 2, telemetry",
+              "Aggressive IV fluid: pts are volumedepleted from fever, diaphoresis, GI losses",
+              "Cooling measures: cooling blankets, cold IV fluids. Rectal acetaminophen if altered. Avoid aspirin (displaces T4 from binding proteins)"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Known hyperthyroidism or Graves' disease",
+              "Recent discontinuation of antithyroid Meds (PTU, methimazole)",
+              "Recent iodine load: contrast dye, amiodarone",
+              "Recent surgery, anesthesia, trauma, or sepsis (precipitants)",
+              "Med list: levothyroxine dose, anticholinergics, adrenergic drugs",
+              "Hx. of prior thyroid storm or thyroidectomy"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "High fever (often >40°C / 104°F), profuse diaphoresis",
+              "Tachycardia (often >140), irregular rhythm (AFib common)",
+              "Lid lag, proptosis, goiter, thyroid bruit",
+              "Hyperreflexia, fine tremor, proximal muscle weakness",
+              "AMS: agitation: confusion: obtundation: coma",
+              "Signs of CHF: JVD, crackles, peripheral edema"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Thyroid Storm",
+                "value": "Lifethreatening exaggeration of thyrotoxicosis with multiorgan dysfunction. BurchWartofsky score ≥45."
+              },
+              {
+                "key": "Thyrotoxicosis",
+                "value": "Excess thyroid hormone from any cause: Graves', toxic nodule, thyroiditis, exogenous thyroid hormone"
+              },
+              {
+                "key": "BurchWartofsky Score",
+                "value": "≥45 = thyroid storm, 25–44 = impending storm. Components: temp, HR, AFib, CHF, GI/hepatic, CNS effects"
+              },
+              {
+                "key": "Mortality",
+                "value": "10–30% even with tx. Early recognition & multiagent therapy are critical"
+              }
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Graves' disease",
+                "value": "MCC. TSI antibodies. Proptosis, diffuse goiter, pretibial myxedema."
+              },
+              {
+                "key": "Toxic MNG/adenoma",
+                "value": "Nodular thyroid disease. Usually elderly pts."
+              },
+              {
+                "key": "Thyroiditis",
+                "value": "Subacute, postpartum, or drug induced (amiodarone, checkpoint inhibitors)"
+              },
+              {
+                "key": "Exogenous",
+                "value": "Thyroid hormone OD (intentional or accidental)"
+              },
+              {
+                "key": "DDx: Sepsis",
+                "value": "Fever, tachycardia, AMS. Check TFTs in any unexplained multiorgan dysfunction.",
+                "topicLink": "Sepsis & Septic Shock"
+              },
+              {
+                "key": "DDx: Serotonin Syndrome",
+                "value": "Clonus/hyperreflexia, agitation, hyperthermia. Check Med list for serotonergic agents.",
+                "topicLink": "Serotonin Syndrome"
+              },
+              {
+                "key": "DDx: Pheochromocytoma",
+                "value": "Paroxysmal HTN, tachycardia, diaphoresis, headache. Plasma/urine metanephrines."
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "**Step 1: Block new hormone synsis**: PTU 600–1000 mg load PO/NG: 200–250 mg q4–6h",
+              "**Step 2: Block sympathetic effects**: propranolol 1–2 mg IV q15min (max 10 mg) OR esmolol gtt 50–100 mcg/kg/min",
+              "**Step 3: Block T4, then T3 conversion**: hydrocortisone 100 mg IV q6–8h (also prevents adrenal crisis)",
+              "**Step 4: Block hormone release** (give ≥1h AFTER PTU): potassium iodide (SSKI) 5 drops PO/NG q6h",
+              "Consult endocrinology STAT",
+              "Continue PTU + betablocker + hydrocortisone + iodine regimen",
+              "Monitor HR, temp, mentation q1–2h: gauge tx response",
+              "Serial TFTs q12–24h initially",
+              "Transition PTU: methimazole 20 mg PO q6h once stable (less hepatotoxicity)",
+              "Taper hydrocortisone over 3–5 days as pt improves",
+              "Treat precipitant: antibiotics if sepsis, address Med noncompliance",
+              "Refractory: consult nephrology for plasmapheresis or cholestyramine 4g PO QID (binds thyroid hormone)"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Stat",
+                "value": "TSH, free T4, free T3 (TSH undetectable, elevated fT4/fT3)"
+              },
+              {
+                "key": "Labs",
+                "value": "CBC, BMP (hypercalcemia common), Mg, LFTs (hepatic dysfunction), ABG/VBG, lactate"
+              },
+              {
+                "key": "ECG",
+                "value": "AFib/flutter(common), sinus tachycardia, ventricular arrhythmias"
+              },
+              {
+                "key": "Imaging",
+                "value": "CXR (pulmonary edema, cardiomegaly). Head CT if AMS to exclude or causes."
+              },
+              {
+                "key": "Or",
+                "value": "BCxs (r/o sepsis as precipitant), cortisol level"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "PTU",
+                "dose": "600–1000 mg load, then 200–250 mg q4–6h",
+                "route": "PO/NG/PR",
+                "contraindications": "Liver failure",
+                "notes": "Preferred over methimazole in storm: also blocks peripheral T4, then T3 conversion. Check LFTs."
+              },
+              {
+                "name": "Propranolol",
+                "dose": "1–2 mg IV q15min (max 10 mg)",
+                "route": "IV",
+                "contraindications": "Asthma, severe CHF, ↓ HR",
+                "notes": "Controls tachycardia & adrenergic sx. Also blocks T4, then T3. PO: 60–80 mg q4–6h."
+              },
+              {
+                "name": "Esmolol",
+                "dose": "500 mcg/kg bolus, then 50–100 mcg/kg/min",
+                "route": "IV gtt",
+                "contraindications": "Asthma, severe CHF",
+                "notes": "Ultrashort acting. Preferred if concerned ~betablocker tolerance."
+              },
+              {
+                "name": "Hydrocortisone",
+                "dose": "100 mg IV q6–8h",
+                "route": "IV",
+                "contraindications": "",
+                "notes": "Blocks T4, then T3 conversion. Prevents relative adrenal insufficiency. Taper over days."
+              },
+              {
+                "name": "SSKI (Iodine)",
+                "dose": "5 drops PO/NG q6h",
+                "route": "PO/NG",
+                "contraindications": "Iodine allergy",
+                "notes": "Give ≥1h AFTER PTU: otherwise feeds new hormone synsis (WolffChaikoff effect)."
+              },
+              {
+                "name": "Acetaminophen",
+                "dose": "650–1000 mg q6h",
+                "route": "PO/PR/IV",
+                "contraindications": "Liver failure",
+                "notes": "For fever. Avoid aspirin: displaces T4 from TBG, worsening free T4 levels."
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / immediate higher level of care if",
+                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Ross DS, Burch HB, Cooper DS, et al. 2016 ATA Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis. Thyroid. 2016;26(10):13431421. https://doi.org/10.1089/thy.2016.0229",
+              "Akamizu T, Satoh T, Isozaki O, et al. Diagnostic Criteria, Clinical Features, and Incidence of Thyroid Storm Based on Nationwide Surveys. Thyroid. 2012;22(7):661679. https://doi.org/10.1089/thy.2011.0334"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Myxedema Coma",
+        "subtitle": "Hypothermia, bradycardia, AMS, hypoventilation, hyponatremia",
+        "sections": [
+          {
+            "title": "Acute Management",
+            "type": "steps",
+            "items": [
+              "ABCs: check airway (macroglossia can complicate intubation), breathing (hypoventilation/hypercapnia common), circulation (↓ HR, refractory ↓ BP )",
+              "cardiac monitoring, pulse ox, frequent BP, temp monitoring",
+              "IV liothyronine (T3): 5-20 mcg IV load, then 2.5-10 mcg IV q8h: save for critically ill pts requiring hemodynamic/vent support. D/C after 48h or if T3 levels ↑",
+              "IV dextrose for ↓ Glucose: follow serial glucose",
+              "Intubate if resp failure, severe hypercapnia, or unable to protect airway. Anticipate difficult airway (macroglossia, edema)",
+              "Shock may vasopressorrefractory until thyroid hormone is administered: for refractory shock, consider T3"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Known hypothyroidism: check compliance with levothyroxine. Recent dose changes or discontinuation",
+              "Prior thyroidectomy, radioactive iodine ablation, h/o Hashimoto thyroiditis",
+              "Precipitants (most common = infection): infection/sepsis, cold exposure, med nonadherence, surgery/trauma, MI, stroke, GI bleed",
+              "meds that worsen: amiodarone, lithium, sedatives, opioids, anesthetics, BB, diuretics, checkpoint inhibitors, TKIs",
+              "Recent sedation, surgery, or anesthesia: common inpt trigger",
+              "Baseline mentation: decompensationpresents as hypoactive delirium, not true coma",
+              "Comorbidities: CAD (thyroid replacement can unmask ischemia), adrenal insufficiency, pituitary dz (central hypothyroidism)",
+              "Prior TSH/T4 values, last labs"
+            ]
+          },
+          {
+            "title": "Exam",
+            "type": "bullets",
+            "items": [
+              "Classic triad: AMS + hypothermia + precipitating event",
+              "AMS (~90%): confusion, lethargy, obtundation —hypoactive delirium, not true coma despite name",
+              "Hypothermia (~70-90%): may severe (<32°C). Absence of fever despite infection is classic: hypothyroidism masks sepsis",
+              "↓ HR (~70%): sinus brady, may refractory to atropine",
+              "↓ BP:refractory to fluids & vasopressors until thyroid hormone given",
+              "Hypoventilation: shallow respirations, ↑ PaCO2",
+              "Skin: dry, coarse, cool, nonpitting edema (myxedema), periorbital edema",
+              "Delayed DTRs (hungup reflexes): slow relaxation phase",
+              "Macroglossia, hoarse voice",
+              "Ileus (↓ bowel sounds, distension), urinary retention",
+              "Hair loss (lateral eyebrows), brittle nails"
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Myxedema coma",
+                "value": "Extreme decompensated hypothyroidism with endorgan dysfunction. Endocrine emergency. 30-60% mortality even with tx. Most pts are NOT truly comatose (misnomer)"
+              },
+              {
+                "key": "Primary hypothyroidism",
+                "value": "Thyroid gl& failure (Hashimoto, postthyroidectomy, postRAI). ↑↑ TSH, ↓↓ free T4"
+              },
+              {
+                "key": "Central hypothyroidism",
+                "value": "Pituitary/hypothalamic cause. TSH may lowith nl./mildly ↑ despite low free T4. Can coexist with adrenal insufficiency ( must give steroids first)"
+              },
+              {
+                "key": "Decompensation triggers",
+                "value": "Infection (most common), cold exposure, med nonadherence, surgery, MI, CVA, sedatives, opioids, amiodarone, lithium"
+              },
+              {
+                "key": "Why steroids first?",
+                "value": "Hypothyroidism may coexist with adrenal insufficiency (esp central). Giving thyroid hormone ↑ cortisol clearance: can precipitate adrenal crisis if cortisol is already low"
+              }
+            ]
+          },
+          {
+            "title": "Hypothermia & Rewarming",
+            "type": "bullets",
+            "items": [
+              "Passive rewarming ONLY: warm blankets, ↑ room temp, warm IV fluids",
+              "Do NOT use active external rewarming (forced air, heating blankets at high temp): causes peripheral vasodilation: ↓ SVR: cardiovascular collapse in already hypotensive pt",
+              "Core temp may severely low (<32°C / 89.6°F): standard rmometers may not register",
+              "Use esophageal or rectal probe for accurate core temp",
+              "Goal: gradual rewarming ~0.5°C/h",
+              "Absence of fever does NOT r/o infection: hypothyroidism blunts febrile response. Treat empirically if any suspicion"
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Primary hypothyroidism",
+                "value": "Hashimoto thyroiditis (autoimmune, most common), postthyroidectomy, postradioactive iodine, radiation to neck, drugs (amiodarone, lithium, checkpoint inhibitors, TKIs)"
+              },
+              {
+                "key": "Central hypothyroidism",
+                "value": "Pituitary adenoma, Sheehan syndrome, pituitary surgery/radiation, infiltrative dz, TBI. TSH unreliable: check free T4"
+              },
+              {
+                "key": "DDx for AMS + hypothermia",
+                "value": "Sepsis, adrenal crisis, hypothermia (primary exposure), ↓ Glucose, drug OD (opioids, sedatives), stroke, CO poisoning"
+              },
+              {
+                "key": "DDx for refractory ↓ BP + ↓ HR",
+                "value": "Adrenal crisis (check cortisol), severe sepsis, betablocker/CCB OD, ↑K, complete heart block, PE"
+              },
+              {
+                "key": "Coexisting conditions",
+                "value": "Adrenal insufficiency (Schmidt syndrome: autoimmune thyroid + adrenal), or autoimmune disease (vitiligo, pernicious anemia, T1DM), acquired von Willebrand syndrome"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "Give stressdose steroids BEFORE or concurrent with thyroid hormone: hydrocortisone 50mg IV q6h (or 100mg IV q8h). Giving T4 without steroids can precipitate adrenal crisis",
+              "IV levothyroxine (T4): loading dose 200-400 mcg IV push (lower dose for elderly, low body weight, cardiac dz). then 1.2 mcg/kg/day IV or 100mcg/day IV",
+              "IV route only: GI absorption unreliable in decompensated state (ileus, edema)",
+              "Passive rewarming ONLY: warm blankets, warm room. Avoid active external rewarming (can cause vasodilation: cardiovascular collapse)",
+              "IVF cautiously: pts may volumedepleted, but hyponatremia is common (dilutional from ↑ ADH). Avoid hypotonic fluids",
+              "Serial TSH, free T4, T3 q1-2 days: TSH ↓ ~50%/wk, free T4 normalize within 4 days",
+              "Vitals improvement expected 24-48h. Mentation may take days to weeks to normalize",
+              "Identify & treat precipitant: infection is most common but may masked (no fever, no leukocytosis). Low threshold for broad spectrum abx",
+              "Aggressive bowel regimen: ↓ motility, ileus risk",
+              "Stress ulcer prophylaxis",
+              "Avoid sedatives, opioids: can worsen/trigger decompensation",
+              "Monitor for cardiac ischemia during thyroid replacement: esp in elderly/CAD pts. EKG changes, troponin",
+              "Transition IV T4: PO levothyroxine when GI function returns & pt improving",
+              "Taper hydrocortisone once adrenal insufficiency excluded (cortisol, ACTH stim test)",
+              "DVT prophylaxis: immobile pts",
+              "Endocrinology consult for all pts: long term thyroid management"
+            ]
+          },
+          {
+            "title": "Orders",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "TSH",
+                "value": "Markedly ↑↑ in primary hypothyroidism. May be lowith nl. in central hypothyroidism: do NOT rely on TSH alone"
+              },
+              {
+                "key": "Free T4",
+                "value": "Very low or undetectable. Key diagnostic test"
+              },
+              {
+                "key": "Free T3",
+                "value": "Often low. Useful for monitoring T3 replacement therapy"
+              },
+              {
+                "key": "Cortisol (random)",
+                "value": "Draw BEFORE giving steroids. r/o concomitant adrenal insufficiency. If low: supports giving stressdose steroids"
+              },
+              {
+                "key": "BMP",
+                "value": "Hyponatremia (~50%: dilutional from ↑ ADH). ↓ Glucose. ↑ Cr (↓ renal perfusion)"
+              },
+              {
+                "key": "CBC",
+                "value": "Anemia (often macrocytic). Infection may NOT cause leukocytosis in myxedema"
+              },
+              {
+                "key": "ABG/VBG",
+                "value": "Check even without apparent resp distress: hypoventilation/hypercapnia common. Respiratory acidosis"
+              },
+              {
+                "key": "CK",
+                "value": "Often ↑ (hypothyroid myopathy, Rhabdo)"
+              },
+              {
+                "key": "Lipid panel",
+                "value": "Markedly ↑ cholesterol/TG (chronic hypothyroidism)"
+              },
+              {
+                "key": "BCxs, UA, CXR",
+                "value": "r/o infection as precipitant: remember fever may absent"
+              },
+              {
+                "key": "EKG",
+                "value": "Sinus ↓ HR, low voltage, prolonged QT, ± pericardial effusion (low voltage + electrical alternans)"
+              },
+              {
+                "key": "Monitoring",
+                "value": "TSH, free T4, T3 q1-2 days. TSH ↓ ~50%/wk. Free T4 normalize within 4 days"
+              }
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Hydrocortisone",
+                "dose": "50mg IV q6h (or 100mg IV q8h)",
+                "route": "IV",
+                "contraindications": "None in this emergency setting",
+                "notes": "Give BEFORE or concurrent with thyroid hormone. Can precipitate adrenal crisis if omitted. D/C once adrenal insufficiency r/o (nl. cortisol, ACTH stim test)"
+              },
+              {
+                "name": "Levothyroxine (T4) IV",
+                "dose": "Loading: 200-400 mcg IV push. Maintenance: 100 mcg/day IV (or 1.2 mcg/kg/day)",
+                "route": "IV only",
+                "contraindications": "Acute MI (relative: use lower dose 100-200mcg), severe CAD (risk of ischemia/arrhythmia)",
+                "notes": "Lower loading dose (100-200mcg) in elderly, low body weight, cardiac dz. IV only: GI absorption unreliable. Improvement in vitals expected 24-48h"
+              },
+              {
+                "name": "Liothyronine (T3) IV",
+                "dose": "Loading: 5-20 mcg IV. Maintenance: 2.5-10 mcg IV q8h",
+                "route": "IV",
+                "contraindications": "Acute MI, unstable angina (relative: ↑ myocardial O2 demand)",
+                "notes": "save for critically ill (hemodynamic instability, vent dependence, no improvement with T4 alone). More rapid onset than T4. D/C after 48h or if T3 levels ↑. Higher arrhythmia risk"
+              },
+              {
+                "name": "Thiamine",
+                "dose": "100mg IV daily",
+                "route": "IV",
+                "contraindications": "None",
+                "notes": "Empiric: malnourished/chronically ill pts at Wernicke risk. Give before or with dextrose"
+              },
+              {
+                "name": "Desmopressin (DDAVP)",
+                "dose": "0.3 mcg/kg IV",
+                "route": "IV",
+                "contraindications": "Hyponatremia (will worsen)",
+                "notes": "Consider if hemorrhage: acquired von Willebrand syndrome can occur in severe hypothyroidism"
+              }
+            ]
+          },
+          {
+            "title": "Disposition",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ICU / immediate higher level of care if",
+                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Jonklaas J, Bianco AC, Bauer AJ, et al. Guidelines for the Treatment of Hypothyroidism: ATA/AACE Task Force. Thyroid. 2014;24(12):16701751. https://doi.org/10.1089/thy.2014.0028",
+              "Wall CR. Myxedema Coma: Diagnosis and Treatment. American Family Physician. 2000;62(11):24852490.",
+              "Wiersinga WM. Myxedema and Coma (Severe Hypothyroidism). Endotext [Internet]. 2018. https://www.ncbi.nlm.nih.gov/books/NBK279007/"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

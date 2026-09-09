@@ -384,7 +384,7 @@ struct InfoPage: Identifiable, Hashable {
             accentColor: .orange,
             sections: [
                 InfoPageSection(title: "Support", items: [
-                    "For questions, feedback, or urgent app issues, contact: amcgowan12@gmail.com",
+                    "For questions, feedback, or urgent app issues, contact: amcgowan12@rrtxapp.com",
                     "Include the page name, issue observed, and device or iOS version when possible."
                 ])
             ]
@@ -416,7 +416,7 @@ struct InfoPage: Identifiable, Hashable {
                     "If reproducible, list the steps that trigger the problem."
                 ]),
                 InfoPageSection(title: "Where to Report", items: [
-                    "Email bug reports to: amcgowan12@gmail.com"
+                    "Email bug reports to: amcgowan12@rrtxapp.com"
                 ])
             ]
         )

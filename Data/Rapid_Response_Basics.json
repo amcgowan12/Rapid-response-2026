@@ -1,0 +1,178 @@
+{
+  "name": "Rapid Response Basics",
+  "icon": "bolt.heart.fill",
+  "color": "#2563EB",
+  "topics": [
+    {
+      "title": "Introduction to Rapid Response",
+      "subtitle": "Acute deterioration, bedside assessment, vitals, first pass stabilization",
+      "sections": [
+        {
+          "title": "Overview",
+          "type": "bullets",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "A rapid response is called for acute clinical deterioration before full cardiopulmonary arrest.",
+            "The goal is early recognition, immediate stabilization, escalation of care, & prevention of ICU transfer or code.",
+            "Approach bedside with a script: stabilize first, gather key context fast, run a stripped-down ABCDE, & escalate early when trajectory looks bad."
+          ]
+        },
+        {
+          "title": "Before You Arrive",
+          "type": "steps",
+          "items": [
+            "On phone, first ask: current vitals, O2 need, mentation change, urine output, & any new chest pain, dyspnea, or bleeding.",
+            "If unstable, tell nursing to call rapid now, get full vitals, place oxygen, & confirm IV access while you head in.",
+            "If not crashing, give immediate low-risk orders: repeat vitals, fingerstick glucose, fix bad pulse ox waveform, ECG if needed, & stay at bedside if pt worsens."
+          ]
+        },
+        {
+          "title": "Immediate Bedside Priorities",
+          "type": "steps",
+          "items": [
+            "Start with a doorway 10-second scan: are they talking, working to breathe, pale/diaphoretic/cyanotic, & what oxygen, monitors, drips, or pressors are already running?",
+            "If they look like they may crash, grab help now & start ABCs from room.",
+            "check airway, breathing, circulation, & mentation on arrival.",
+            "Get your own full vitals; place on telemetry & pulse oximetry if not already monitored.",
+            "Get EKG when chest pain, arrhythmia, syncope, unexplained ↓ BP, or ischemia is suspected",
+            "Confirm code status, allergies, IV access, oxygen delivery device, & whether pt is worsening or transiently abnormal.",
+            "Start time-sensitive treatment now for obvious instability while another team member gathers chart history & recent data"
+          ]
+        },
+        {
+          "title": "Critical Information to Gather",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Reason for admission",
+              "value": "Know why pt is in hospital & what problems have already been identified."
+            },
+            {
+              "key": "Nursing SBAR",
+              "value": "Ask what triggered call now, what nurse thinks problem is, & what change happened over last few hours."
+            },
+            {
+              "key": "PMHx",
+              "value": "Look for baseline cardiopulmonary disease, renal failure, liver disease, endocrine disease, anticoagulation use, seizure history, & prior ICU admissions."
+            },
+            {
+              "key": "Recent labs",
+              "value": "Review CBC, BMP/CMP, lactate, blood gas, troponin, BNP, cultures, glucose, & any changing values."
+            },
+            {
+              "key": "Current meds",
+              "value": "Identify what pt is actively receiving including fluids, antibiotics, anticoagulants, insulin, sedatives, opioids, & vasoactive medications."
+            },
+            {
+              "key": "Held meds",
+              "value": "Ask which important medications have been held such as beta blockers, antihypertensives, anticoagulants, steroids, diuretics, antiseizure drugs, or home oxygen support."
+            },
+            {
+              "key": "Recent events",
+              "value": "Clarify what changed today: procedure, dialysis, new medication, bleeding, aspiration, fever, rhythm change, seizure, fall, or worsening urine output."
+            },
+            {
+              "key": "High-risk context",
+              "value": "Mentally upgrade pts who are recent ICU downgrades, septic, neutropenic, high risk postop, or recently bleeding."
+            }
+          ]
+        },
+        {
+          "title": "Stripped Down ABCDE",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "A Airway",
+              "value": "Talking normally suggests a patent airway. Hoarseness, gurgling, stridor, snoring, or inability to clear secretions means airway threat. Use jaw thrust, suction, sit upright, & escalate early."
+            },
+            {
+              "key": "B Breathing",
+              "value": "Count RR yourself, check WOB, wheeze/crackles/absent sounds, verify SpO2 waveform, & check oxygen setup. Escalate for marked tachypnea, hypoxemia despite support, or fatigue."
+            },
+            {
+              "key": "C Circulation",
+              "value": "Feel pulse, repeat BP if it does not fit picture, check perfusion, review urine output, & look at access. Consider ECG, fingerstick glucose, & targeted labs early."
+            },
+            {
+              "key": "D Disability",
+              "value": "Check AVPU, orientation, pupils, speech, & gross motor function. Review for opioids, sedatives, insulin, seizure risk, or stroke symptoms."
+            },
+            {
+              "key": "E Exposure",
+              "value": "Look for bleeding, rash, swelling, distended abdomen, surgical complications, line problems, or obvious bedside clues."
+            }
+          ]
+        },
+        {
+          "title": "Focused Exam / ROS",
+          "type": "bullets",
+          "items": [
+            "Do a focused physical exam directed by instability: mentation, speech, WOB, lung exam, cardiac rhythm, perfusion, abdomen, edema, bleeding, & skin findings.",
+            "If pt can answer questions, get brief ROS for chest pain, dyspnea, palpitations, dizziness, headache, focal deficit, fever, abdominal pain, & bleeding symptoms.",
+            "Use bedside nurse's observations when pt cannot provide history: last known well, urine output, mentation trend, O2 need, & symptom progression."
+          ]
+        },
+        {
+          "title": "Typical Team Composition",
+          "type": "bullets",
+          "items": [
+            "Bedside nurse & charge nurse",
+            "Primary team clinician or covering provider",
+            "Rapid response nurse",
+            "Respiratory therapist when respiratory distress, hypoxemia, or airway concern",
+            "Pharmacist when medication support, pressors, reversal agents, or emergent dosing is needed",
+            "More support as needed: ICU team, anesthesia, security, or procedural staff"
+          ]
+        },
+        {
+          "title": "Why Rapid Response Is Called",
+          "type": "bullets",
+          "items": [
+            "Acute AMS, WOB, oxygenation, heart rate, BP, or perfusion",
+            "Concern from bedside staff that pt is decompensating, even if trigger does not fit strict threshold",
+            "New chest pain, syncope, seizure, severe agitation, suspected stroke, sepsis, or unexpected bleeding",
+            "Any situation where early team-based assessment may prevent cardiac arrest or unplanned ICU transfer"
+          ]
+        },
+        {
+          "title": "Escalation Lane",
+          "type": "bullets",
+          "items": [
+            "Wardmanageable: problem identified, initial treatment started, repeat vitals improving, & monitoring plan is clear.",
+            "Urgent help: call senior, ICU, specialty, or procedural support early if pt is high risk or may need a higher level of care.",
+            "Rapid / code now: severe airway threat, major respiratory distress, shock, severe dysrhythmia,worsening mentation, or any pt who looks close to arrest."
+          ]
+        },
+        {
+          "title": "Assessment & Initial Workup",
+          "type": "bullets",
+          "items": [
+            "Generate practical differential diagnosis based on first minute of information,then narrow it with the exam, vitals, ECG, & targeted testing.",
+            "Order appropriate labs & imaging early when they will change management: CBC, CMP, VBG/ABG, lactate, troponin, BNP, cultures, chest xray, CT, or POCUS as needed.",
+            "Treat now reversible problems without waiting for every result: oxygen, suction, bronchodilators, fluids, vasopressors, glucose, naloxone, antibiotics, blood products, or antiarrhythmics as clinically indicated.",
+            "Escalate to ICU, anesthesia, cath lab, stroke pathway, code team, or surgical consultation when bedside trajectory suggests pt may not remain stable on floor."
+          ]
+        },
+        {
+          "title": "Disposition / Communication",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Jones DA, DeVita MA, Bellomo R. Rapid Response Teams. New England Journal of Medicine. 2011;365(2):139146. https://doi.org/10.1056/NEJMra0910926",
+            "Churpek MM, Yuen TC, Winslow C, et al. Multicenter Comparison of Machine Learning Methods and Conventional Regression for Predicting Clinical Deterioration on the Wards. Critical Care Medicine. 2016;44(2):368374.",
+            "Society of Critical Care Medicine. Rapid Response Systems. Critical Care Medicine. 2024. https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-on-recognizing-and-responding-to-clinical-deterioration-outside-the-icu"
+          ]
+        }
+      ]
+    }
+  ]
+}

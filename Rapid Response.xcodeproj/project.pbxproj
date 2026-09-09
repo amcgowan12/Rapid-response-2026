@@ -16,13 +16,25 @@
 		156B74812F6F07EE00A5D6EA /* SectionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B74802F6F07EE00A5D6EA /* SectionContentView.swift */; };
 		156B74832F6F080800A5D6EA /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B74822F6F080800A5D6EA /* SampleData.swift */; };
 		156B74852F6F0D2C00A5D6EA /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B74842F6F0D2C00A5D6EA /* DisclaimerView.swift */; };
-		156B74872F6F0E5000A5D6EA /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 156B74862F6F0E5000A5D6EA /* content.json */; };
 		156B748D2F6FA3CE00A5D6EA /* Symptoms.json in Resources */ = {isa = PBXBuildFile; fileRef = 156B748C2F6FA3CE00A5D6EA /* Symptoms.json */; };
 		156B74972F703D6B00A5D6EA /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B74962F703D6B00A5D6EA /* FavoritesManager.swift */; };
 		156B74992F703E9E00A5D6EA /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B74982F703E9E00A5D6EA /* FavoritesView.swift */; };
 		156B749B2F717E0F00A5D6EA /* ConversionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B749A2F717E0F00A5D6EA /* ConversionData.swift */; };
 		156B749D2F717E2600A5D6EA /* ConversionTableDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B749C2F717E2600A5D6EA /* ConversionTableDetailView.swift */; };
 		156B749F2F717E3700A5D6EA /* ToolsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B749E2F717E3700A5D6EA /* ToolsListView.swift */; };
+		158026573050B5BC000E25BE /* Oncology_Emergencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 158026503050B5BC000E25BE /* Oncology_Emergencies.json */; };
+		158026583050B5BC000E25BE /* content_cardiovascular.json in Resources */ = {isa = PBXBuildFile; fileRef = 158026483050B5BC000E25BE /* content_cardiovascular.json */; };
+		158026593050B5BC000E25BE /* content_toxicology.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580264B3050B5BC000E25BE /* content_toxicology.json */; };
+		1580265A3050B5BC000E25BE /* content_endocrine_metabolic.json in Resources */ = {isa = PBXBuildFile; fileRef = 158026493050B5BC000E25BE /* content_endocrine_metabolic.json */; };
+		1580265B3050B5BC000E25BE /* GI_-_Hepatology.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580264D3050B5BC000E25BE /* GI_-_Hepatology.json */; };
+		1580265C3050B5BC000E25BE /* Heme_Emergencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580264E3050B5BC000E25BE /* Heme_Emergencies.json */; };
+		1580265D3050B5BC000E25BE /* Sepsis_-_Infectious.json in Resources */ = {isa = PBXBuildFile; fileRef = 158026543050B5BC000E25BE /* Sepsis_-_Infectious.json */; };
+		158026603050B5BC000E25BE /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 158026473050B5BC000E25BE /* content.json */; };
+		158026613050B5BC000E25BE /* Rapid_Response_Basics.json in Resources */ = {isa = PBXBuildFile; fileRef = 158026513050B5BC000E25BE /* Rapid_Response_Basics.json */; };
+		158026623050B5BC000E25BE /* Renal-Electrolytes.json in Resources */ = {isa = PBXBuildFile; fileRef = 158026523050B5BC000E25BE /* Renal-Electrolytes.json */; };
+		158026633050B5BC000E25BE /* Neurology.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580264F3050B5BC000E25BE /* Neurology.json */; };
+		158026663050B5BC000E25BE /* content_respiratory.json in Resources */ = {isa = PBXBuildFile; fileRef = 1580264A3050B5BC000E25BE /* content_respiratory.json */; };
+		158026673050B5BC000E25BE /* Surgical_-_Trauma.json in Resources */ = {isa = PBXBuildFile; fileRef = 158026553050B5BC000E25BE /* Surgical_-_Trauma.json */; };
 		15E70EF52F7C3FBE00BB66F3 /* Rapid_ResponseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E70EF22F7C3FBE00BB66F3 /* Rapid_ResponseApp.swift */; };
 		15EF5EE82F75366C0004832C /* ScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF5EE72F75366C0004832C /* ScoreCalculator.swift */; };
 		15EF5EEA2F7536960004832C /* ScoreCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF5EE92F7536960004832C /* ScoreCalculatorView.swift */; };
@@ -39,13 +51,25 @@
 		156B74802F6F07EE00A5D6EA /* SectionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionContentView.swift; sourceTree = "<group>"; };
 		156B74822F6F080800A5D6EA /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		156B74842F6F0D2C00A5D6EA /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
-		156B74862F6F0E5000A5D6EA /* content.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = content.json; sourceTree = "<group>"; };
 		156B748C2F6FA3CE00A5D6EA /* Symptoms.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = Symptoms.json; sourceTree = "<group>"; };
 		156B74962F703D6B00A5D6EA /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
 		156B74982F703E9E00A5D6EA /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		156B749A2F717E0F00A5D6EA /* ConversionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionData.swift; sourceTree = "<group>"; };
 		156B749C2F717E2600A5D6EA /* ConversionTableDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionTableDetailView.swift; sourceTree = "<group>"; };
 		156B749E2F717E3700A5D6EA /* ToolsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsListView.swift; sourceTree = "<group>"; };
+		158026473050B5BC000E25BE /* content.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		158026483050B5BC000E25BE /* content_cardiovascular.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = content_cardiovascular.json; sourceTree = "<group>"; };
+		158026493050B5BC000E25BE /* content_endocrine_metabolic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = content_endocrine_metabolic.json; sourceTree = "<group>"; };
+		1580264A3050B5BC000E25BE /* content_respiratory.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = content_respiratory.json; sourceTree = "<group>"; };
+		1580264B3050B5BC000E25BE /* content_toxicology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = content_toxicology.json; sourceTree = "<group>"; };
+		1580264D3050B5BC000E25BE /* GI_-_Hepatology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "GI_-_Hepatology.json"; sourceTree = "<group>"; };
+		1580264E3050B5BC000E25BE /* Heme_Emergencies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Heme_Emergencies.json; sourceTree = "<group>"; };
+		1580264F3050B5BC000E25BE /* Neurology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Neurology.json; sourceTree = "<group>"; };
+		158026503050B5BC000E25BE /* Oncology_Emergencies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Oncology_Emergencies.json; sourceTree = "<group>"; };
+		158026513050B5BC000E25BE /* Rapid_Response_Basics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Rapid_Response_Basics.json; sourceTree = "<group>"; };
+		158026523050B5BC000E25BE /* Renal-Electrolytes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Renal-Electrolytes.json"; sourceTree = "<group>"; };
+		158026543050B5BC000E25BE /* Sepsis_-_Infectious.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Sepsis_-_Infectious.json"; sourceTree = "<group>"; };
+		158026553050B5BC000E25BE /* Surgical_-_Trauma.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Surgical_-_Trauma.json"; sourceTree = "<group>"; };
 		15E70EF22F7C3FBE00BB66F3 /* Rapid_ResponseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rapid_ResponseApp.swift; sourceTree = "<group>"; };
 		15EF5EE72F75366C0004832C /* ScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculator.swift; sourceTree = "<group>"; };
 		15EF5EE92F7536960004832C /* ScoreCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorView.swift; sourceTree = "<group>"; };
@@ -106,7 +130,19 @@
 			isa = PBXGroup;
 			children = (
 				156B74822F6F080800A5D6EA /* SampleData.swift */,
-				156B74862F6F0E5000A5D6EA /* content.json */,
+				158026513050B5BC000E25BE /* Rapid_Response_Basics.json */,
+				158026483050B5BC000E25BE /* content_cardiovascular.json */,
+				1580264A3050B5BC000E25BE /* content_respiratory.json */,
+				158026473050B5BC000E25BE /* content.json */,
+				1580264F3050B5BC000E25BE /* Neurology.json */,
+				158026493050B5BC000E25BE /* content_endocrine_metabolic.json */,
+				158026523050B5BC000E25BE /* Renal-Electrolytes.json */,
+				1580264D3050B5BC000E25BE /* GI_-_Hepatology.json */,
+				158026543050B5BC000E25BE /* Sepsis_-_Infectious.json */,
+				1580264E3050B5BC000E25BE /* Heme_Emergencies.json */,
+				158026503050B5BC000E25BE /* Oncology_Emergencies.json */,
+				158026553050B5BC000E25BE /* Surgical_-_Trauma.json */,
+				1580264B3050B5BC000E25BE /* content_toxicology.json */,
 				156B74612F6F06A400A5D6EA /* Products */,
 				156B748C2F6FA3CE00A5D6EA /* Symptoms.json */,
 			);
@@ -170,7 +206,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
-				LastUpgradeCheck = 2630;
+				LastUpgradeCheck = 2660;
 				TargetAttributes = {
 					156B745F2F6F06A400A5D6EA = {
 						CreatedOnToolsVersion = 26.3;
@@ -202,7 +238,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				156B748D2F6FA3CE00A5D6EA /* Symptoms.json in Resources */,
-				156B74872F6F0E5000A5D6EA /* content.json in Resources */,
+				158026573050B5BC000E25BE /* Oncology_Emergencies.json in Resources */,
+				158026583050B5BC000E25BE /* content_cardiovascular.json in Resources */,
+				158026593050B5BC000E25BE /* content_toxicology.json in Resources */,
+				1580265A3050B5BC000E25BE /* content_endocrine_metabolic.json in Resources */,
+				1580265B3050B5BC000E25BE /* GI_-_Hepatology.json in Resources */,
+				1580265C3050B5BC000E25BE /* Heme_Emergencies.json in Resources */,
+				1580265D3050B5BC000E25BE /* Sepsis_-_Infectious.json in Resources */,
+				158026603050B5BC000E25BE /* content.json in Resources */,
+				158026613050B5BC000E25BE /* Rapid_Response_Basics.json in Resources */,
+				158026623050B5BC000E25BE /* Renal-Electrolytes.json in Resources */,
+				158026633050B5BC000E25BE /* Neurology.json in Resources */,
+				158026663050B5BC000E25BE /* content_respiratory.json in Resources */,
+				158026673050B5BC000E25BE /* Surgical_-_Trauma.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +343,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -352,6 +401,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -378,7 +428,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "MCG.Rapid-Response";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -413,7 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "MCG.Rapid-Response";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

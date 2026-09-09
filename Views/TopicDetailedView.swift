@@ -15,8 +15,13 @@ struct TopicDetailView: View {
     @State private var cardiacArrestTimerSeconds = 0
     @State private var cardiacArrestTimerIsRunning = false
     @State private var cardiacArrestTimerIsMinimized = false
+    @State private var epiTimerSeconds = 0
+    @State private var epiDoseCount = 0
+    @State private var medCounts: [String: Int] = [:]
     var favorites = FavoritesManager.shared
     private let cardiacArrestTimer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    /// Other ACLS meds tracked with tap-to-count buttons (epi & shock have dedicated buttons).
+    private let aclsMedButtons = ["Amiodarone", "Lidocaine", "Bicarb", "Calcium", "Mag"]
 
     var body: some View {
         ZStack(alignment: .top) {
@@ -103,13 +108,15 @@ struct TopicDetailView: View {
 
             if showsCardiacArrestTimer {
                 VStack {
-                    Spacer()
                     HStack {
-                        Spacer()
                         floatingCardiacArrestTimer
+                        if cardiacArrestTimerIsMinimized {
+                            Spacer()
+                        }
                     }
-                    .padding(.horizontal, 16)
-                    .padding(.bottom, 20)
+                    .padding(.horizontal, 12)
+                    .padding(.top, 8)
+                    Spacer()
                 }
             }
         }
@@ -162,7 +169,7 @@ struct TopicDetailView: View {
         }
         .sheet(isPresented: $showMailComposer) {
             MailComposeView(
-                recipients: ["amcgowan12@gmail.com"],
+                recipients: ["amcgowan12@rrtxapp.com"],
                 subject: "Rapid Response Feedback: \(topic.title)",
                 body: formattedCommentBody,
                 onFinish: { result, _ in
@@ -188,9 +195,7 @@ struct TopicDetailView: View {
             }
 
             if showsCardiacArrestTimer {
-                cardiacArrestTimerSeconds = 0
-                cardiacArrestTimerIsRunning = false
-                cardiacArrestTimerIsMinimized = false
+                resetCardiacArrestTracking()
             }
         }
         .onDisappear {
@@ -200,6 +205,7 @@ struct TopicDetailView: View {
         .onReceive(cardiacArrestTimer) { _ in
             guard showsCardiacArrestTimer, cardiacArrestTimerIsRunning else { return }
             cardiacArrestTimerSeconds += 1
+            epiTimerSeconds += 1
         }
     }
 
@@ -306,18 +312,42 @@ struct TopicDetailView: View {
     }
 
     private var floatingCardiacArrestTimer: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(alignment: .top, spacing: 12) {
-                VStack(alignment: .leading, spacing: 6) {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(alignment: .center, spacing: 12) {
+                VStack(alignment: .leading, spacing: 0) {
                     Text("Code Timer")
-                        .font(.caption.weight(.semibold))
+                        .font(.caption2.weight(.semibold))
                         .foregroundStyle(Color.rrDarkAccentText)
                         .textCase(.uppercase)
 
                     Text(formattedCardiacArrestTime)
-                        .font(.system(size: cardiacArrestTimerIsMinimized ? 22 : 28, weight: .bold, design: .rounded))
+                        .font(.system(size: cardiacArrestTimerIsMinimized ? 22 : 30, weight: .bold, design: .rounded))
                         .monospacedDigit()
                         .foregroundStyle(.primary)
+                }
+
+                if cardiacArrestTimerIsMinimized && epiDoseCount > 0 {
+                    Text("EPI \(formattedEpiTime) · ×\(epiDoseCount)")
+                        .font(.caption2.weight(.semibold))
+                        .monospacedDigit()
+                        .foregroundStyle(epiIntervalColor)
+                }
+
+                Spacer(minLength: 8)
+
+                if !cardiacArrestTimerIsMinimized {
+                    Button(cardiacArrestTimerIsRunning ? "Stop" : "Start") {
+                        cardiacArrestTimerIsRunning.toggle()
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .controlSize(.small)
+                    .tint(cardiacArrestTimerIsRunning ? .red : .accentColor)
+
+                    Button("Reset") {
+                        resetCardiacArrestTracking()
+                    }
+                    .buttonStyle(.bordered)
+                    .controlSize(.small)
                 }
 
                 Button {
@@ -334,22 +364,13 @@ struct TopicDetailView: View {
             }
 
             if !cardiacArrestTimerIsMinimized {
-                HStack(spacing: 8) {
-                    Button(cardiacArrestTimerIsRunning ? "Stop" : "Start") {
-                        cardiacArrestTimerIsRunning.toggle()
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .tint(cardiacArrestTimerIsRunning ? .red : .accentColor)
+                epiTrackerCard
 
-                    Button("Reset") {
-                        cardiacArrestTimerSeconds = 0
-                        cardiacArrestTimerIsRunning = false
-                    }
-                    .buttonStyle(.bordered)
-                }
+                medButtonGrid
             }
         }
-        .padding(14)
+        .padding(12)
+        .frame(maxWidth: cardiacArrestTimerIsMinimized ? nil : .infinity, alignment: .leading)
         .background(Color.rrNeutralCard.opacity(0.96))
         .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
         .overlay(
@@ -359,10 +380,159 @@ struct TopicDetailView: View {
         .shadow(color: Color.black.opacity(0.12), radius: 16, x: 0, y: 8)
     }
 
+    /// EPI interval timer: elapsed since last dose (color-coded to the q3–5 min window) + dose count.
+    private var epiTrackerCard: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack {
+                Text("EPI")
+                    .font(.caption.weight(.bold))
+                    .textCase(.uppercase)
+                    .foregroundStyle(Color.rrDarkAccentText)
+                Spacer()
+                Text("×\(epiDoseCount)")
+                    .font(.caption.weight(.bold))
+                    .monospacedDigit()
+            }
+
+            HStack(alignment: .firstTextBaseline, spacing: 8) {
+                VStack(alignment: .leading, spacing: 0) {
+                    Text("Since last dose")
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                    Text(epiDoseCount > 0 ? formattedEpiTime : "--:--")
+                        .font(.system(size: 20, weight: .bold, design: .rounded))
+                        .monospacedDigit()
+                        .foregroundStyle(epiDoseCount > 0 ? epiIntervalColor : .secondary)
+                }
+
+                Spacer()
+
+                Text(epiStatusText)
+                    .font(.caption2.weight(.medium))
+                    .multilineTextAlignment(.trailing)
+                    .foregroundStyle(epiDoseCount > 0 ? epiIntervalColor : .secondary)
+            }
+
+            HStack(spacing: 8) {
+                Button {
+                    UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+                    epiDoseCount += 1
+                    epiTimerSeconds = 0
+                    if !cardiacArrestTimerIsRunning {
+                        cardiacArrestTimerIsRunning = true
+                    }
+                } label: {
+                    Text("EPI given")
+                        .font(.caption.weight(.bold))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 8)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.orange)
+
+                Button {
+                    UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+                    medCounts["Shock", default: 0] += 1
+                    if !cardiacArrestTimerIsRunning {
+                        cardiacArrestTimerIsRunning = true
+                    }
+                } label: {
+                    Text("Shock ×\(medCounts["Shock", default: 0])")
+                        .font(.caption.weight(.bold))
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 8)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.blue)
+                .onLongPressGesture {
+                    if medCounts["Shock", default: 0] > 0 {
+                        UIImpactFeedbackGenerator(style: .rigid).impactOccurred()
+                        medCounts["Shock", default: 0] -= 1
+                    }
+                }
+            }
+        }
+        .padding(10)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Color.rrSectionBackground.opacity(0.5))
+        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+    }
+
+    /// Tap-to-count buttons for the other ACLS meds / shocks (long-press to decrement a mis-tap).
+    private var medButtonGrid: some View {
+        LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 6), count: aclsMedButtons.count), spacing: 6) {
+            ForEach(aclsMedButtons, id: \.self) { name in
+                let count = medCounts[name, default: 0]
+                Button {
+                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                    medCounts[name, default: 0] += 1
+                } label: {
+                    VStack(spacing: 2) {
+                        Text(name)
+                            .font(.caption2.weight(.semibold))
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.7)
+                        Text("×\(count)")
+                            .font(.caption.weight(.bold))
+                            .monospacedDigit()
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 7)
+                    .background(count > 0 ? Color.rrDarkAccentText.opacity(0.14) : Color.rrSectionBackground)
+                    .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                }
+                .buttonStyle(.plain)
+                .foregroundStyle(count > 0 ? Color.rrDarkAccentText : .primary)
+                .onLongPressGesture {
+                    if medCounts[name, default: 0] > 0 {
+                        UIImpactFeedbackGenerator(style: .rigid).impactOccurred()
+                        medCounts[name, default: 0] -= 1
+                    }
+                }
+            }
+        }
+    }
+
+    private func resetCardiacArrestTracking() {
+        cardiacArrestTimerSeconds = 0
+        cardiacArrestTimerIsRunning = false
+        cardiacArrestTimerIsMinimized = false
+        epiTimerSeconds = 0
+        epiDoseCount = 0
+        medCounts = [:]
+    }
+
     private var formattedCardiacArrestTime: String {
-        let minutes = cardiacArrestTimerSeconds / 60
-        let seconds = cardiacArrestTimerSeconds % 60
-        return String(format: "%02d:%02d", minutes, seconds)
+        formattedClock(cardiacArrestTimerSeconds)
+    }
+
+    private var formattedEpiTime: String {
+        formattedClock(epiTimerSeconds)
+    }
+
+    private func formattedClock(_ totalSeconds: Int) -> String {
+        String(format: "%02d:%02d", totalSeconds / 60, totalSeconds % 60)
+    }
+
+    /// Gray before 3 min, green in the 3–5 min give-window, red once overdue.
+    private var epiIntervalColor: Color {
+        switch epiTimerSeconds {
+        case ..<180: return .secondary
+        case 180...300: return .green
+        default: return .red
+        }
+    }
+
+    private var epiStatusText: String {
+        guard epiDoseCount > 0 else { return "No epi given yet" }
+        switch epiTimerSeconds {
+        case ..<180:
+            return "Next dose in \(formattedClock(180 - epiTimerSeconds))"
+        case 180...300:
+            return "Due now (3–5 min window)"
+        default:
+            return "Overdue — give epi"
+        }
     }
 
     private var checklistView: some View {
@@ -561,7 +731,7 @@ struct TopicDetailView: View {
         guard
             let subject = "Rapid Response Feedback: \(topic.title)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
             let body = formattedCommentBody.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
-            let url = URL(string: "mailto:amcgowan12@gmail.com?subject=\(subject)&body=\(body)")
+            let url = URL(string: "mailto:amcgowan12@rrtxapp.com?subject=\(subject)&body=\(body)")
         else {
             return
         }

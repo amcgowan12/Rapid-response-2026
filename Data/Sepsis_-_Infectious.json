@@ -1,0 +1,797 @@
+{
+  "name": "Sepsis / Infectious",
+  "icon": "allergens",
+  "color": "orange",
+  "topics": [
+    {
+      "title": "Sepsis & Septic Shock",
+      "subtitle": "Fever, hypotension, tachycardia, elevated lactate, organ dysfunction",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "How do they look? Toxic, mottled, febrile, tachypneic, altered, hypotensive, oliguric?",
+            "ABCs: protect airway if severe encephalopathy or respiratory failure; give supplemental O2 & escalate support as needed",
+            "Place on monitor, get IV access, & start immediate sepsis resuscitation if shock or probable sepsis is present",
+            "Get cultures & lactate promptly, butdon't meaningfully delay antibiotics in probable sepsis or septic shock",
+            "Give broad spectrum antibiotics urgently; septic shock is a timecritical emergency"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Time course: new fever, rigors, hypotension, altered mentation, oliguria, or rising lactate",
+            "Likely source: lung, urine, abdomen, skin/soft tissue, line/device, CNS, biliary tree",
+            "Recent antibiotics, breakthrough fever, prior resistant organisms, immunosuppression, neutropenia, transplant, steroids, chemotherapy",
+            "Indwelling devices: central line, Foley, nephrostomy, dialysis access, drains, prosthetic joints/valves, VP shunt",
+            "Recent surgery, procedures, aspiration, diarrhea, wounds, travel, sick contacts, animal exposures",
+            "Baseline BP, renal function, mentation, & current code status"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Vitals & perfusion: fever or hypothermia, tachycardia, tachypnea, hypotension, narrow pulse pressure, mottling, delayed cap refill",
+            "Respiratory source: crackles, focal findings, hypoxemia, increased WOB",
+            "Abdominal source: distension, tenderness, peritoneal signs, RUQ pain, wound infection",
+            "GU source: CVA tenderness, suprapubic tenderness, cloudy urine, obstructed catheter or stent",
+            "Skin/device source: cellulitis, pressure injury, line erythema/purulence, necrotizing features",
+            "Neuro: encephalopathy, meningismus, focal deficits, agitation, severe lethargy"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Sepsis",
+              "value": "Lifethreatening organ dysfunction caused by a dysregulated host response to infection"
+            },
+            {
+              "key": "Septic shock",
+              "value": "Sepsis with persistent hypotension requiring vasopressors to maintain MAP >=65 &lactate >2 mmol/L despite adequate fluid resuscitation"
+            },
+            {
+              "key": "qSOFA",
+              "value": "Screening bedside prompt: RR >=22, altered mentation, or SBP <=100"
+            },
+            {
+              "key": "Lactate",
+              "value": "Marker of illness severity & hypoperfusion; trend it, butdon't treat it in isolation"
+            },
+            {
+              "key": "Febrile neutropenia",
+              "value": "Medical emergency: fever with ANC <500/mm3 or expected decline to <500; start broad spectrum antibiotics urgently"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Common sources",
+              "value": "Pneumonia, urinary tract infection, abdominal infection, skin/soft tissue infection, line/device infection, CNS infection"
+            },
+            {
+              "key": "Shock mimics",
+              "value": "Hemorrhage, cardiogenic shock, pulmonary embolism, adrenal crisis, severe dehydration, anaphylaxis"
+            },
+            {
+              "key": "Noninfectious mimics",
+              "value": "Pancreatitis, autoimmune flare, drug reaction, ischemic bowel, thyroid storm, neuroleptic malignant syndrome"
+            },
+            {
+              "key": "Other fever mimics",
+              "value": "DVT/PE, postoperative inflammatory fever, hematoma, gout/pseudogout, transfusion reaction, drug fever"
+            },
+            {
+              "key": "Sourcecontrol disease",
+              "value": "Abscess, empyema, infected line, obstructed pyelonephritis, bowel perforation, necrotizing infection"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "If hypotensive or hypoperfused, start balanced crystalloid & prepare early norepinephrine if MAP stays <65",
+            "Look for source control needs early: abscess, infected line, obstructed urinary system, ischemic bowel, necrotizing infection",
+            "Initial bundle: Measure lactate, get blood cultures before antibiotics when feasible, start broad spectrum antibiotics, begin balanced crystalloid for hypoperfusion, & start vasopressors early if MAP stays <65.",
+            "Fluids: Use balanced crystalloids not normal saline; traditional initial target is 30 mL/kg in septic shock or significant hypoperfusion, then recheck dynamically.",
+            "Vasopressors: Norepinephrine is first line & can started peripherally while central access is being arranged. Add vasopressin if norepinephrine requirements climb.",
+            "Adjuncts: Consider hydrocortisone 200 mg/day in vasopressordependent septic shock not improving despite fluids & vasopressors.",
+            "Antibiotics: Use broad spectrum thetherapy tailored to source, host factors, & resistance risk; deescalate once cultures & clinical data return.",
+            "Source control: Drain, debride, remove, or decompress infected sources early."
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stat",
+              "value": "CBC, CMP/BMP, lactate, blood cultures x2 sets, VBG/ABG if ill, coags, glucose."
+            },
+            {
+              "key": "Source studies",
+              "value": "UA/urine culture, CXR, sputum culture if appropriate, stool testing if diarrheal source, wound or line cultures when relevant."
+            },
+            {
+              "key": "Hemodynamics",
+              "value": "Continuous monitoring, strict I/O, repeat lactate when elevated, consider bedside ultrasound for shock phenotype & fluid responsiveness."
+            },
+            {
+              "key": "Imaging",
+              "value": "CT/US or focused imaging if abdominal, biliary, urinary, CNS, or occult source is suspected."
+            },
+            {
+              "key": "Special situations",
+              "value": "Check ANC if immunocompromised; avoid rectal temperature checks in neutropenic pts; check devices & remove infected lines when feasible."
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Norepinephrine",
+              "dose": "0.01-3 mcg/kg/min",
+              "route": "IV infusion",
+              "contraindications": "",
+              "notes": "Firstline vasopressor. Target MAP >=65."
+            },
+            {
+              "name": "Vasopressin",
+              "dose": "0.04 units/min",
+              "route": "IV infusion",
+              "contraindications": "",
+              "notes": "Addon pressor if norepinephrine requirements are rising."
+            },
+            {
+              "name": "Hydrocortisone",
+              "dose": "200 mg/day or 50 mg q6h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Adjunct for refractory septic shock."
+            },
+            {
+              "name": "Fludrocortisone",
+              "dose": "50 mcg PO daily",
+              "route": "PO",
+              "contraindications": "",
+              "notes": "Optional adjunct with hydrocortisone in refractory septic shock."
+            },
+            {
+              "name": "Balanced crystalloid",
+              "dose": "Initial bolus based on shock/hypoperfusion;30 mL/kg",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Preferred resuscitation fluid when feasible."
+            },
+            {
+              "name": "Empiric broad spectrum antibiotics",
+              "dose": "Source & resistancerisk dependent",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Give urgently in probable sepsis or septic shock; tailor & deescalate as data return."
+            },
+            {
+              "name": "Vancomycin + piperacillintazobactam / cefepime / meropenem",
+              "dose": "Institutionspecific dosing",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Reasonable broad empiric pattern for undifferentiated severe sepsis, depending on source & resistance risk."
+            },
+            {
+              "name": "Ceftriaxone + azithromycin",
+              "dose": "Institutionspecific dosing",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Common empiric CAP regimen when pneumonia is the likely source."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis & Septic Shock. Critical Care Medicine. 2025. https://journals.lww.com/ccmjournal/fulltext/9900/surviving_sepsis_campaign__international.786.aspx"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Meningitis / Encephalitis",
+      "subtitle": "Fever, headache, neck stiffness, AMS, seizures, CSF abnormalities",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "If concern is high: get BCxs, then give empiric abx now. Do NOT wait for CT or LP if there will be delay",
+            "If encephalitis is possible: add acyclovir early",
+            "Give dexamethasone before or with first abx dose if bacterial meningitis is suspected",
+            "Stabilize ABCs, treat shock/seizures, & use droplet isolation if meningococcal disease is possible"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Timing: hyperacute toxic presentation vs subacute progressive symptoms",
+            "Recent URI, otitis, sinusitis, mastoiditis, pneumonia, CSF leak, neurosurgery, VP shunt, or head trauma",
+            "Immune status: steroids, transplant, HIV, chemo, asplenia, alcohol use disorder",
+            "Age >50, pregnancy, malignancy, or immunocompromise: raises concern for Listeria",
+            "Travel, animal/tick/mosquito exposure, TB risk, HSV/VZV exposure, fungal risk factors",
+            "Ask about seizure, focal deficits, behavior change, hallucinations, or memory loss: more suggestive of encephalitis"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Vitals: fever, hypotension, tachycardia, hypoxia",
+            "Mentation: agitation, delirium, lethargy, coma",
+            "Meningismus: neck stiffness, Kernig, Brudzinski",
+            "Neuro exam: focal deficits, aphasia, cranial neuropathies, papilledema, seizure activity",
+            "Skin: petechiae/purpura suggests meningococcemia",
+            "Look for source: otitis, sinus tenderness, mastoiditis, endocarditis stigmata, trauma or neurosurgical wounds"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Meningitis",
+              "value": "Infection/inflammation of the meninges. Typical features: fever, HA, neck stiffness, AMS."
+            },
+            {
+              "key": "Encephalitis",
+              "value": "Brain parenchymal inflammation,viral. Think AMS, seizure, focal deficits, behavior change, or memory problems."
+            },
+            {
+              "key": "Meningoencephalitis",
+              "value": "Mixed meningeal + parenchymal process. Treat for both until data narrow the cause."
+            },
+            {
+              "key": "Bacterial meningitis",
+              "value": "Medical emergency. Delayed abx worsens mortality & neurologic outcomes."
+            }
+          ]
+        },
+        {
+          "title": "Recognition",
+          "type": "bullets",
+          "items": [
+            "Classic triad: fever, neck stiffness, AMS (present in only 44% —don't wait for all three)",
+            "Kernig's sign: pain/resistance extending knee with hip flexed at 90 degrees",
+            "Brudzinski's sign: passive neck flexion causes involuntary hip/knee flexion",
+            "Photophobia, phonophobia, severe headache",
+            "Petechial/purpuric rash suggests Neisseria meningitidis (meningococcus)"
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Bacterial",
+              "value": "S. pneumoniae, N. meningitidis, Listeria, H. influenzae, GBS, nosocomial gramnegatives."
+            },
+            {
+              "key": "Viral / encephalitis",
+              "value": "HSV1, VZV, enterovirus, arboviruses, influenza, HHV6."
+            },
+            {
+              "key": "Fungal / TB",
+              "value": "Cryptococcus, coccidioides, TB: think subacute course or immunocompromise."
+            },
+            {
+              "key": "Inflammatory / other",
+              "value": "Autoimmune encephalitis, carcinomatous meningitis, drug induced aseptic meningitis."
+            },
+            {
+              "key": "DDx",
+              "value": "SAH, brain abscess, sepsisassociated encephalopathy, toxicmetabolic encephalopathy, status epilepticus, cerebral venous sinus thrombosis."
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Treat first if suspicion is high: BCxs, dexamethasone, empiric abx, & acyclovir if encephalitis is on the table",
+            "Decide on CT before LP only if focal deficit, papilledema, immunocompromised state, new seizure, or GCS <14; otherwise get LP quickly",
+            "Narrow thetherapy once CSF, PCR, & culture data return; continue seizure control, ICP management, fluids/vasopressors, & ICUlevel monitoring as needed"
+          ]
+        },
+        {
+          "title": "Workup",
+          "type": "steps",
+          "items": [
+            "BCxs x2 now",
+            "CT head BEFORE LP only if: focal neuro deficits, papilledema, immunocompromised, new seizure, or GCS <14",
+            "LP: opening pressure, cell count, glucose, protein, Gram stain, culture, HSV PCR",
+            "Do NOT delay antibiotics for CT or LP: treat first if any delay anticipated",
+            "Serum glucose, CBC, BMP, lactate, coags"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "BCxs x2",
+              "value": "Get now, ideally before abx if this does not delay treatment."
+            },
+            {
+              "key": "CT head",
+              "value": "Only before LP if focal deficits, papilledema, immunocompromised, new seizure, or GCS <14."
+            },
+            {
+              "key": "LP studies",
+              "value": "Opening pressure, cell count/diff, protein, glucose, Gram stain, culture, HSV PCR; add extra tubes if TB/fungal workup is needed."
+            },
+            {
+              "key": "Labs",
+              "value": "CBC, BMP/CMP, serum glucose, lactate, coags, HIV if relevant."
+            },
+            {
+              "key": "Other tests",
+              "value": "EEG if persistent AMS/seizure concern; MRI brain if encephalitis, abscess, or focal deficits are suspected."
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Dexamethasone",
+              "dose": "0.15 mg/kg IV q6h x4 days",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Give BEFORE or WITH first antibiotic dose. ↓ hearing loss & neurologic sequelae in bacterial meningitis."
+            },
+            {
+              "name": "Ceftriaxone",
+              "dose": "2g IV q12h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Firstline for bacterial meningitis (S. pneumo, N. meningitidis)."
+            },
+            {
+              "name": "Vancomycin",
+              "dose": "25-30 mg/kg IV q8-12h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Add for penicillinresistant S. pneumoniae coverage. Target trough 15-20."
+            },
+            {
+              "name": "Ampicillin",
+              "dose": "2g IV q4h",
+              "route": "IV",
+              "contraindications": "PCN allergy (crossrxn)",
+              "notes": "Add if age >50, immunocompromised, or pregnant: covers Listeria."
+            },
+            {
+              "name": "Acyclovir",
+              "dose": "10 mg/kg IV q8h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Start empirically for encephalitis until HSV PCR results. Renally dose adjusted."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Tunkel AR, Hartman BJ, Kaplan SL, et al. Practice Guidelines for the Management of Bacterial Meningitis. Clinical Infectious Diseases. 2004;39(9):12671284. https://doi.org/10.1086/425368",
+            "van de Beek D, Cabellos C, Dzupova O, et al. ESCMID Guideline: Diagnosis and Treatment of Acute Bacterial Meningitis. Clinical Microbiology and Infection. 2016;22(Suppl 3):S37S62. https://doi.org/10.1016/j.cmi.2016.01.007",
+            "Venkatesan A, Tunkel AR, Bloch KC, et al. Case Definitions, Diagnostic Algorithms, and Priorities in Encephalitis: Consensus Statement of the International Encephalitis Consortium. Clinical Infectious Diseases. 2013;57(8):11141128. https://doi.org/10.1093/cid/cit458"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Anaphylaxis",
+      "subtitle": "Hypotension, wheeze, urticaria, angioedema, GI symptoms after exposure",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "IM EPINEPHRINE 0.3-0.5mg (1:1000) anterolateral thigh: FIRSTLINE, give now. Repeat q5-15min PRN",
+            "Remove trigger: stop infusion, remove stinger, d/c offending drug",
+            "ABCs: secure airway early if laryngeal edema (stridor, voice changes, tongue swelling). Do NOT delay intubation if airway progressing",
+            "IVF: NS 1-2L bolus: anaphylactic shock is distributive (vasodilation + capillary leak). May need aggressive volume",
+            "Supplemental O2, monitoring, 2 largebore IVs"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Known allergies & prior anaphylaxis: severity of prior reactions",
+            "Trigger identification: new meds (antibiotics, NSAIDs, contrast, biologics), foods (nuts, shellfish), insect sting, latex, blood products, immunothetherapy",
+            "Timing: onset within min to 2h of exposure (most within 30 min)",
+            "Betablocker use: ↑ severity & epi resistance. May need glucagon",
+            "ACEI use: ↑ risk of severe angioedema",
+            "Mast cell disorder / mastocytosis (↑ anaphylaxis risk)",
+            "Exerciseinduced anaphylaxis (food + exercise trigger)",
+            "Epi autoinjector available? Used?"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Diagnostic criteria (NIAID): involvement of ≥2 organ systems after likely allergen exposure:",
+            "Skin/mucosal: urticaria, flushing, pruritus, angioedema ( 90% of cases have skin findings: but 10% do NOT)",
+            "Respiratory: stridor, wheezing, dyspnea, ↓ SpO2, tongue/lip/uvula swelling",
+            "Cardiovascular: ↓ BP, tachycardia, syncope, shock",
+            "GI: cramping, vomiting, diarrhea",
+            "Can present as isolated ↓ BP /shock without skin findings: esp perioperative anaphylaxis",
+            "check airway: voice changes, drooling, stridor: early intubation"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Anaphylaxis",
+              "value": "Acute, potentially fatal systemic hypersensitivity reaction. IgEmed. (most) or nonIgE (anaphylactoid: radiocontrast, NSAIDs). Same tx for both"
+            },
+            {
+              "key": "Biphasic reaction",
+              "value": "Recurrence of sx 1-72h after initial resolution (most within 8-12h). Occurs in~5-20% of cases. Reason for observation period"
+            },
+            {
+              "key": "Refractory anaphylaxis",
+              "value": "No response to ≥2 appropriate IM epi doses + IVF. Consider epi infusion, vasopressin, glucagon (if on BB)"
+            },
+            {
+              "key": "Kounis syndrome",
+              "value": "Allergic/anaphylactic coronary spasm: ACS triggered by mast cell mediators. Chest pain + anaphylaxis: check troponin, EKG"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Common triggers",
+              "value": "Antibiotics (penicillins, cephalosporins), NSAIDs, foods (peanuts, tree nuts, shellfish, milk, eggs), insect stings (Hymenoptera), latex, contrast, blood products, biologics, anesthetics"
+            },
+            {
+              "key": "DDx",
+              "value": "Vasovagal syncope (↓ HR, no urticaria), asthma exacerbation, angioedema (ACEI: no urticaria/pruritus), panic attack, carcinoid, mastocytosis, vocal cord dysfunction, septic shock"
+            },
+            {
+              "key": "Key differentiator",
+              "value": "Anaphylaxis = tachycardia + ↓ BP + skin findings. Vasovagal = ↓ HR + pallor. ACEI angioedema = no urticaria, no response to epi"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Position pt flat with legs elevated if tolerated; if vomiting or in resp distress, use lateral or upright positioning as needed",
+            "Recheck after each IM epi dose. If still hypotensive after repeat IM epi + IVF: start epinephrine infusion 0.1-0.5 mcg/kg/min IV; consider vasopressin 0.04 U/min in refractory shock",
+            "Add adjuncts only after epi: diphenhydramine 25-50mg IV, famotidine 20mg IV, methylprednisolone 125mg IV, albuterol neb for bronchospasm",
+            "If on betablocker & epiresistant: give glucagon 1-5mg IV bolus, then infusion if needed",
+            "Observe for recurrence/biphasic reaction & escalate to ICU if infusion, airway intervention, or persistent instability is needed"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Tryptase",
+              "value": "Draw within 1-2h of onset (peaks 60-90min). Elevated confirms mast cell degranulation. nl. does NOT r/o anaphylaxis (esp food triggered)"
+            },
+            {
+              "key": "EKG",
+              "value": "If chest pain or hemodynamic instability: r/o Kounis syndrome (allergic ACS)"
+            },
+            {
+              "key": "CBC, BMP",
+              "value": "Baseline. Hemoconcentration from capillary leak"
+            },
+            {
+              "key": "CXR",
+              "value": "If wheezing, dyspnea: r/o pneumo, aspiration"
+            },
+            {
+              "key": "Monitoring",
+              "value": "telemetry, SpO2, frequent BP for ≥4-6h minimum (biphasic risk)"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Epinephrine (IM)",
+              "dose": "0.3-0.5mg IM (1:1000 = 1mg/mL) q5-15min PRN",
+              "route": "IM anterolateral thigh",
+              "contraindications": "None absolute in anaphylaxis",
+              "notes": "FIRST LINE: give now. Do NOT substitute with antihistamines or steroids. IM > SC (better absorption)"
+            },
+            {
+              "name": "Epinephrine infusion",
+              "dose": "0.1-0.5 mcg/kg/min IV (start low, titrate)",
+              "route": "IV infusion",
+              "contraindications": "None absolute",
+              "notes": "For refractory anaphylaxis: persistent ↓ BP despite IM epi + IVF. Requires monitoring"
+            },
+            {
+              "name": "Diphenhydramine",
+              "dose": "25-50mg IV",
+              "route": "IV",
+              "contraindications": "None absolute",
+              "notes": "H1 blocker: adjunct ONLY. Not substitute for epinephrine. Helps urticaria/pruritus"
+            },
+            {
+              "name": "Famotidine",
+              "dose": "20mg IV",
+              "route": "IV",
+              "contraindications": "None significant",
+              "notes": "H2 blocker: adjunct. Combined H1+H2 blockade may ↑ effectiveness"
+            },
+            {
+              "name": "Methylprednisolone",
+              "dose": "125mg IV",
+              "route": "IV",
+              "contraindications": "None in this emergency",
+              "notes": "May ↓ biphasic reactions (oretical: not proven). Onset 4-6h. Does NOT treat acute anaphylaxis. Alt: dexamethasone 10mg IV"
+            },
+            {
+              "name": "Glucagon",
+              "dose": "1-5mg IV bolus, then 5-15 mcg/min infusion",
+              "route": "IV",
+              "contraindications": "Pheochromocytoma",
+              "notes": "For epiresistant anaphylaxis in pts on BB. Bypasses betareceptor blockade. Can cause vomiting: airway protection"
+            },
+            {
+              "name": "Albuterol",
+              "dose": "2.5-5mg neb q20min PRN",
+              "route": "Nebulizer",
+              "contraindications": "None significant",
+              "notes": "For bronchospasm component. Adjunct to epi, not replacement"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Cardona V, Ansotegui IJ, Ebisawa M, et al. World Allergy Organization Anaphylaxis Guidance 2020. World Allergy Organization Journal. 2020;13(10):100472. https://doi.org/10.1016/j.waojou.2020.100472",
+            "Shaker MS, Wallace DV, Golden DBK, et al. Anaphylaxis — A 2020 Practice Parameter Update, Systematic Review, and GRADE Analysis. Journal of Allergy & Clinical Immunology. 2020;145(4):10821123. https://doi.org/10.1016/j.jaci.2020.01.017",
+            "Muraro A, Worm M, Alviani C, et al. EAACI Guidelines: Anaphylaxis (2021 Update). Allergy. 2022;77(2):357377. https://doi.org/10.1111/all.15032"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Necrotizing Fasciitis",
+      "subtitle": "Rapidly progressive softtissue infection with systemic toxicity, pain out of proportion, crepitus",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "!!This is a surgical emergency!! — call surgery immediately if clinical suspicion is present",
+            "ABCs: IV access, fluids, vasopressors if septic shock",
+            "Draw labs & cultures but !!do NOT delay antibiotics or surgical consult for results!!",
+            "Start broad spectrum IV antibiotics immediately (see drug table)",
+            "Pain control — these pts often have severe, escalating pain",
+            "Mark wound margins with skin marker & note time — track rapid spread"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Recent surgery, trauma, wound, abscess drainage, injection drug use",
+            "Immunosuppression: diabetes, obesity, chronic liver/kidney disease, cancer, steroids, HIV",
+            "History of PVD or chronic wounds",
+            "Recent NSAIDs or steroid use (may mask early signs)",
+            "Timing: when did pain/swelling start? How rapidly is it progressing?",
+            "Prior episodes, prior MRSA or resistant organisms"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Vital signs: fever (or hypothermia), tachycardia, hypotension — signs of sepsis",
+            "Skin: erythema, induration, edema, bullae, ecchymosis, gray/necrotic patches, crepitus",
+            "!!Pain out of proportion to exam!! — especially with relatively normalappearing skin early on",
+            "Probe wound if present: !!dishwatergray drainage!! or tissue that separates easily along fascial planes (\"finger test\")",
+            "Mark the leading edge of erythema with a skin marker & write the time",
+            "Check distal pulses if extremity involvement (compartment syndrome can coexist)"
+          ]
+        },
+        {
+          "title": "Recognition",
+          "type": "bullets",
+          "items": [
+            "!!Pain out of proportion!! to visible skin findings is the hallmark early sign",
+            "Erythema, edema, warmth that spreads rapidly over hours",
+            "Skin changes: dusky/gray discoloration, hemorrhagic bullae, crepitus (late)",
+            "Systemic toxicity: fever, tachycardia, hypotension, AMS",
+            "!!Crepitus = subcutaneous gas = do not wait for imaging — call surgery NOW!!",
+            "Skin anesthesia or !!woodenhard!! induration of subcutaneous tissue",
+            "Often follows recent wound, surgery, injection, or minor skin break — but can occur spontaneously"
+          ]
+        },
+        {
+          "title": "Types & Microbiology",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Type I (polymicrobial)",
+              "value": "Mixed aerobes + anaerobes. Usually postsurgical, diabetic, perineal (Fournier). Most common type overall"
+            },
+            {
+              "key": "Type II (monomicrobial)",
+              "value": "!!Group A Strep (S. pyogenes)!! most classic; also Staph aureus (including MRSA). Often in healthy pts after minor trauma"
+            },
+            {
+              "key": "Type III (gas gangrene)",
+              "value": "Clostridium perfringens or other Clostridial spp. Rapid gas production, myonecrosis. Often posttraumatic or contaminated wound"
+            },
+            {
+              "key": "Vibrio vulnificus",
+              "value": "Saltwater/raw shellfish exposure + liver disease. Rapidly fatal — suspect in coastal pts with hemorrhagic bullae"
+            },
+            {
+              "key": "Fournier gangrene",
+              "value": "Necrotizing fasciitis of the perineum/genitalia. Polymicrobial. !!Surgical emergency!! — high mortality"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "!!Emergent surgical debridement!! is the definitive treatment — antibiotics alone are not sufficient",
+            "Aggressive IV fluid resuscitation — these pts are often profoundly volume depleted",
+            "Start empiric broad spectrum antibiotics immediately (see drug table below)",
+            "Vasopressors for septic shock refractory to fluids (norepinephrine first line)",
+            "Repeat surgical debridement often needed at 24–48h — plan for reexploration",
+            "Wound management: negativepressure wound therapy (wound vac) after debridement when appropriate",
+            "!!If diagnosis is uncertain: take pt to the OR!! — operative exploration is both diagnostic and thetherapeutic",
+            "ICU admission for hemodynamic monitoring, serial wound checks, and ongoing resuscitation"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Labs",
+              "value": "CBC, BMP, lactate, CRP, CK, BCx × 2, wound culture (from OR), coags, type & screen"
+            },
+            {
+              "key": "Imaging",
+              "value": "CT with contrast of affected area if diagnosis uncertain — look for gas, fascial thickening, fluid tracking. !!Do NOT delay surgery for imaging if clinical suspicion is high!!"
+            },
+            {
+              "key": "Blood products",
+              "value": "Type & crossmatch — prepare for possible transfusion if extensive debridement"
+            },
+            {
+              "key": "Consults",
+              "value": "!!Surgery STAT!!. ICU. Infectious disease. Consider hyperbaric oxygen (controversial, do not delay debridement)"
+            },
+            {
+              "key": "Monitoring",
+              "value": "Serial wound margin checks (remark edges q2–4h), serial lactate, urine output, hemodynamics"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Vancomycin",
+              "dose": "25–30 mg/kg IV load, then 15–20 mg/kg q8–12h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "MRSA coverage. Adjust by trough or AUC/MIC"
+            },
+            {
+              "name": "PiperacillinTazobactam",
+              "dose": "4.5 g IV q6h",
+              "route": "IV",
+              "contraindications": "Severe PCN allergy",
+              "notes": "Broad gramnegative + anaerobic coverage. Alternative: meropenem 1 g IV q8h"
+            },
+            {
+              "name": "Clindamycin",
+              "dose": "900 mg IV q8h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "!!Add for toxin suppression!! — inhibits GAS exotoxin & superantigen production. Key adjunct in Type II nec fasc"
+            },
+            {
+              "name": "Meropenem",
+              "dose": "1 g IV q8h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Alternative broad spectrum option if PCN allergy or resistant organisms suspected"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Stevens DL, Bisno AL, Chambers HF, et al. Practice Guidelines for the Diagnosis and Management of Skin and Soft Tissue Infections: 2014 Update by the IDSA. Clinical Infectious Diseases. 2014;59(2):e10e52. https://doi.org/10.1093/cid/ciu296",
+            "Sarani B, Strong M, Pascual J, Schwab CW. Necrotizing Fasciitis: Current Concepts and Review of the Literature. Journal of the American College of Surgeons. 2009;208(2):279288. https://doi.org/10.1016/j.jamcollsurg.2008.10.032",
+            "Wong CH, Khin LW, Heng KS, Tan KC, Low CO. The LRINEC (Laboratory Risk Indicator for Necrotizing Fasciitis) Score: A Tool for Distinguishing Necrotizing Fasciitis from Other Soft Tissue Infections. Critical Care Medicine. 2004;32(7):15351541."
+          ]
+        }
+      ]
+    }
+  ]
+}

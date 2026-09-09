@@ -1,0 +1,733 @@
+{
+  "name": "GI / Hepatology",
+  "icon": "waveform.path.ecg",
+  "color": "green",
+  "topics": [
+    {
+      "title": "Massive GI Bleed",
+      "subtitle": "Hematemesis, melena, hematochezia, shock, falling hemoglobin",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: if massive hematemesis, AMS, or inprotect airway: intubate early (blood in airway = aspiration risk)",
+            "Breathing: SpO2, supplemental O2; monitor for aspiration",
+            "Circulation: 2 largebore IVs (≥16G) or IO access",
+            "Activate massive transfusion protocol (MTP) if hemodynamically unstable or brisk hemorrhage",
+            "Transfuse pRBCs now: do NOT wait for type & cross if actively bleeding: use (O) or uncrossmatched",
+            "Reverse anticoagulation if needed",
+            "Call GI early for urgent endoscopy; call IR / surgery early if brisk hemorrhage or lower GI source is likely",
+            "Keep pt NPO"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Ask if this is hematemesis, melena, hematochezia, or mixed: hematemesis + hematochezia together suggests a brisk upper GI source",
+            "Hx of cirrhosis, portal HTN, varices, prior GI bleed, peptic ulcer dz, aortic graft/surgery, anticoagulants, antiplatelets, NSAIDs, alcohol use",
+            "Red flags for massive bleed: syncope, shock, bright red output, for vasopressors, or failure to respond to 2 units pRBC",
+            "Find out if the pt is a candidate for endoscopy, IR, or surgery & call the right team early",
+            "If cirrhosis/varices are possible: plan for octreotide + ceftriaxone early"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Vitals: tachycardia, ↓ BP, narrowed pulse pressure, orthostasis, shock",
+            "Mentation: agitation, lethargy, syncope",
+            "Look for active hematemesis, melena, hematochezia, abdominal distention, or signs of chronic liver dz",
+            "Check perfusion: cool extremities, delayed cap refill, low urine output",
+            "In cirrhosis/portal HTN: ascites, jaundice, spider angiomata, splenomegaly"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Massive GI bleed",
+              "value": "GI hemorrhage causing shock, brisk blood loss, rapid Hgb drop, or for blood/MTP."
+            },
+            {
+              "key": "Upper GI bleed",
+              "value": "Source proximal to the ligament of Treitz. Hematemesis or melena are common; brisk bleeds can also cause hematochezia."
+            },
+            {
+              "key": "Variceal bleed",
+              "value": "Portal hypertensive hemorrhage,from esophageal or gastric varices. Treat early with octreotide, antibiotics, & urgent endoscopy."
+            },
+            {
+              "key": "Damage control resuscitation",
+              "value": "Bloodfirst resuscitation for major hemorrhage: early MTP, minimal crystalloid, & correction of coagulopathy/fibrinogen/calcium."
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Upper GI",
+              "value": "Peptic ulcer, varices, gastritis/esophagitis, MalloryWeiss tear, Dieulafoy lesion, malignancy."
+            },
+            {
+              "key": "Lower GI",
+              "value": "Diverticular bleed, angiodysplasia, ischemic colitis, malignancy, postpolypectomy bleed."
+            },
+            {
+              "key": "rare causes",
+              "value": "Aortoenteric fistula after prior aortic surgery, hemobilia."
+            },
+            {
+              "key": "DDx",
+              "value": "Hemoptysis, posterior epistaxis, swallowed blood, severe coagulopathy without focal GI source, hemorrhagic shock from nonGI source."
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Pillar 1: Hemodynamic resuscitation: activate MTP early, use bloodfirst resuscitation, target balanced products, minimize crystalloid, give calcium during large transfusion, & treat fibrinogen <150 mg/dL with cryoprecipitate. In cirrhosis/varices, avoid overtransfusion once perfusion is restored",
+            "Pillar 2: Airway management: avoid intubation unless needed for airway protection, severe hematemesis, or procedures. If intubating, resuscitate first, have suction ready, & start norepinephrine before induction if the pt is vasopressordependent or borderline hypotensive",
+            "Pillar 3: Temporizing measures: start octreotide if varices are possible, give IV PPI, reverse anticoagulation, & give ceftriaxone in cirrhosis. Use Blakemore only as a bridge for exsanguinating variceal bleed in an intubated pt",
+            "Get definitive source control: upper GI bleedgoes to urgent endoscopy; active lower GI bleed goes to CTA then IR if bleeding continues; surgery if endoscopy/IR fail or if aortoenteric fistula is suspected",
+            "Pillar 1: Resuscitation: Largebore access; consider CORDIS/Aline if MTP is running. If a vasopressordependent pt has a distended IVC, recheck whether this is truly hemorrhagic shock before committing to MTP.",
+            "Pillar 2: Airway: If endoscopy or intubation is likely, erythromycin 250mg IV 20-90 min before can improve gastric emptying. If stomach is distended, NGT suction may help before induction.",
+            "Pillar 3: Temporizing: Do not reflexively give FFP for elevated INR alone in cirrhosis. CTA is only useful while actively bleeding. Order it STAT & call CT if lower GI or unclear active bleeding is suspected.",
+            "Source control: Variceal bleed: banding/sclerothetherapy, then TIPS if refractory. Posterior duodenal ulcer with active extravasation may go straight to IR if endoscopic control is unlikely."
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Labs",
+              "value": "CBC, CMP/BMP, INR/PTT, fibrinogen, lactate, VBG/ABG as needed, type & cross."
+            },
+            {
+              "key": "Blood bank",
+              "value": "Call early. If bleeding is brisk, move quickly to uncrossmatched blood / MTP."
+            },
+            {
+              "key": "TEG / ROTEM",
+              "value": "Use if avail to guide product replacement during massive hemorrhage."
+            },
+            {
+              "key": "CTA",
+              "value": "Useful only while actively bleeding. Strongly consider for lower GI bleed or unclear source."
+            },
+            {
+              "key": "Monitoring",
+              "value": "Continuous SpO2/telemetry, frequent BP, strict I&O, & consider arterial line if unstable."
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Octreotide",
+              "dose": "50 mcg IV bolus, then 50 mcg/hr infusion",
+              "route": "IV drip",
+              "contraindications": "",
+              "notes": "Start empirically for any possible variceal or portal hypertensive bleed. Continue for 3-5 days if variceal bleed confirmed."
+            },
+            {
+              "name": "Pantoprazole",
+              "dose": "40mg IV q12h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Intermittent dosing is acceptable. Continue after endoscopy for suspected peptic ulcer bleed."
+            },
+            {
+              "name": "Erythromycin",
+              "dose": "250mg IV 20-90 min before endoscopy or intubation",
+              "route": "IV",
+              "contraindications": "QT prolongation",
+              "notes": "Prokinetic to clear the stomach before endoscopy/intubation."
+            },
+            {
+              "name": "Ceftriaxone",
+              "dose": "1g IV daily x7 days",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Antibiotic prophylaxis in cirrhotic pts with GI bleed: ↓ bacterial translocation, SBP, & mortality."
+            },
+            {
+              "name": "Norepinephrine",
+              "dose": "0.01-3 mcg/kg/min (start at 0.05)",
+              "route": "IV drip",
+              "contraindications": "",
+              "notes": "Start before intubation if vasopressordependent or borderline hypotensive."
+            },
+            {
+              "name": "(tramatic hemorrhage)Tranexamic acid (TXA)",
+              "dose": "1g IV over 10 min, then 1g over 8h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Not routine for nonvariceal GI bleed. Evidence is stronger in traumatic hemorrhage than GI bleeding."
+            },
+            {
+              "name": "Calcium gluconate",
+              "dose": "2g IV per 4 units pRBC transfused",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Citrate in blood products chelates ionized calcium. Hypocalcemia worsens coagulopathy & cardiac function. Can Use 1g CaCl if central line present, but higher risk of extravasation injury."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Laine L, Barkun AN, Saltzman JR, et al. ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding. American Journal of Gastroenterology. 2021;116(5):899917. https://doi.org/10.14309/ajg.0000000000001245",
+            "Oakland K, Chadwick G, East JE, et al. Diagnosis and Management of Acute Lower Gastrointestinal Bleeding: Guidelines from the British Society of Gastroenterology. Gut. 2019;68(5):776789. https://doi.org/10.1136/gutjnl-2018-317807",
+            "Villanueva C, Colomo A, Bosch A, et al. Transfusion Strategies for Acute Upper Gastrointestinal Bleeding. New England Journal of Medicine. 2013;368(1):1121. https://doi.org/10.1056/NEJMoa1211801"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acute Liver Failure",
+      "subtitle": "Jaundice, encephalopathy, coagulopathy, transaminitis, hypoglycemia",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "ABCs: check airway (HE grade 3–4 may need intubation), breathing, circulation",
+            "Check fingerstick glucose: hypoglycemia is common: start D10 infusion if needed",
+            "For ACLF: early goaldirected thetherapy, intravascular volume resuscitation, broad spectrum abx within 1h of sepsis presentation"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Known liver disease?: distinguishes ALF (no prior dz) from ACLF (known cirrhotic)",
+            "Acetaminophen use (intentional or unintentional), OTC meds, supplements, herbals",
+            "Recent drug changes: antibiotics, antiTB drugs, statins, immunothetherapy",
+            "Alcohol use history & pattern",
+            "Travel history (hepatitis A/E endemic areas)",
+            "Autoimmune disease history (SLE, thyroiditis)",
+            "Family hx of Wilson's disease or liver failure",
+            "Pregnancy status (HELLP, acute fatty liver of pregnancy)"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Hepatic encephalopathy grade: 1 (confusion/mood): 2 (drowsy/asterixis): 3 (somnolent but arousable): 4 (coma)",
+            "Jaundice, scleral icterus",
+            "Liver size: tender hepatomegaly (acute hepatitis) vs small/shrunken (fulminant necrosis)",
+            "Asterixis (flapping tremor)",
+            "Signs of chronic liver disease: spider nevi, palmar erythema, ascites, caput medusae (suggests ACLF, not pure ALF)",
+            "Right upper quadrant tenderness",
+            "check for cerebral edema: pupillary changes, posturing, Cushing response"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ALF",
+              "value": "Acute liver failure: coagulopathy (INR ≥1.5) + hepatic encephalopathy within <26 weeks of symptom onset in a pt without pre-existing liver disease"
+            },
+            {
+              "key": "ACLF",
+              "value": "Acuteonchronic liver failure: acute hepatic decompensation in a known cirrhotic with ≥2 organ failures: use CLIFC ACLF score for grading"
+            },
+            {
+              "key": "Hyperacute",
+              "value": "Encephalopathy within 7 days of jaundice (e.g., acetaminophen, ischemic): best transplantfree survival"
+            },
+            {
+              "key": "Acute",
+              "value": "Encephalopathy 8–28 days after jaundice"
+            },
+            {
+              "key": "Subacute",
+              "value": "Encephalopathy 29 days–26 weeks after jaundice: worst transplantfree survival"
+            }
+          ]
+        },
+        {
+          "title": "LifeThreatening Complications",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Cerebral edema",
+              "value": "ALFspecific: ammonia >200 µmol/L = 55% risk of intracranial HTN. Neuroprotective measures: HOB 30°, avoid fever/hypo/hyperglycemia, maintain Na 140–145 with hypertonic saline, normocapnia, highlevel sedation. Plasma exchange may help. Invasive ICP monitoring NOT routinely suggested"
+            },
+            {
+              "key": "Hepatic encephalopathy",
+              "value": "ACLF: lactulose 10–20g q2h until 2 soft BMs, then 2–4x daily. Grade 3–4: give via NG or enema (200g in 700 mL water, retain 30–60 min, q4–6h). PEG 3350 may superior for rapid resolution. Add rifaximin 550 mg BID (combined > lactulose alone). For ALF: lactulose & rifaximin have NOT demonstrated benefit: focus on treating precipitants, consider plasma exchange"
+            },
+            {
+              "key": "Variceal hemorrhage",
+              "value": "Start vasoactive drugs now when suspected (octreotide 50 µg bolus: 50 µg/h gtt). PPI strongly suggested. High-risk pts (ChildPugh 10–13 or 8–9 with active bleed): preemptive TIPS improves mortality. If medical + endoscopic thetherapy fail: TIPS",
+              "topicLink": "Massive GI Bleed"
+            },
+            {
+              "key": "HRSAKI",
+              "value": "Vasoconstrictor + albumin (1.5 g/kg day 1, 1 g/kg day 2). Terlipressin preferred (response = Cr <1.5 or within 0.3 of baseline, max 14 days). Norepinephrine (0.5–3 mg/h) is noninferior (~50% reversal). Alt: midodrine 5–15 mg q8h + octreotide 100–200 µg q8h (lower efficacy). All AKI pts: urgent transplant eval"
+            },
+            {
+              "key": "SBP",
+              "value": "Ceftriaxone 2g daily + IV albumin (1.5 g/kg day 1, 1 g/kg day 2): albumin ↓ mortality from 41% to 22% at 3 months. Broadspectrum abx within 1h if septic shock. After first episode: secondary ppx with TMP/SMX or ciprofloxacin"
+            },
+            {
+              "key": "Coagulopathy",
+              "value": "Despite ↑ INR, significant bleeding is uncommon (5–7%). INR does NOT predict bleeding risk (rebalanced hemostasis). Do NOT routinely correct with FFP/plts/cryo: may ↑ mortality. Use TEG/thromboelastometry for transfusion guidance. Correction may needed before high risk procedures (ICP monitoring)"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Acetaminophen",
+              "value": "MCC in US: intentional OD or unintentional (chronic suprathetherapeutic use). Check level & start NAC"
+            },
+            {
+              "key": "Viral hepatitis",
+              "value": "Hep A, B (most common viral cause), E; rarely CMV, EBV, HSV, VZV"
+            },
+            {
+              "key": "Ischemic hepatitis",
+              "value": "Shock liver: massive transaminase elevation (often >5,000) in setting of hemodynamic compromise"
+            },
+            {
+              "key": "Druginduced",
+              "value": "AntiTB drugs (INH, rifampin), antibiotics, anticonvulsants, statins, herbals/supplements, immunothetherapy"
+            },
+            {
+              "key": "Autoimmune hepatitis",
+              "value": "ANA, antismooth muscle Ab. Steroids controversial: may ↓ survival in highest MELD scores"
+            },
+            {
+              "key": "Wilson's disease",
+              "value": "Young pt, Coombsnegative hemolytic anemia, low ceruloplasmin, high urine copper, KF rings on slitlamp"
+            },
+            {
+              "key": "Vascular",
+              "value": "BuddChiari syndrome, hepatic vein thrombosis, sinusoidal obstruction syndrome"
+            },
+            {
+              "key": "Pregnancyrelated",
+              "value": "HELLP syndrome, acute fatty liver of pregnancy (AFLP)"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "ICU referral early: all ALF pts need ICUlevel monitoring",
+            "Start NAC now if any suspicion for acetaminophen: also improves transplantfree survival in nonacetaminophen ALF",
+            "Hold all hepatotoxic medications & unnecessary drugs",
+            "Contact transplant center early: ~50% of ALF pts will require transplant (1yr survival 79–84%)",
+            "NAC: Start now for acetaminophen & consider for all ALF (improves transplantfree survival in nonacetaminophen causes)",
+            "Hemodynamics: Target MAP to maintain CPP 60–80 mmHg. Norepinephrine preferred vasopressor. Balanced crystalloids over NS. For ACLF: target MAP ≥60 mmHg",
+            "RRT / CRRT: CRRT preferred over intermittent HD (↓ cardiovascular instability & cerebral edema risk). Indications: acidbase disturbance, oliguria, volume overload, hyperammonemia independent of AKI. Early CRRT (within 4–12h) for hyperammonemia in ALF improves transplantfree survival. Highvolume hemofiltration (90 mL/kg/h) more effective for ammonia clearance",
+            "Infection: Empiric broad spectrum antibiotics if infection signs present. Systemic antifungal prophylaxis for high risk transplant recipients",
+            "Transplant evaluation: Urgent for all ALF. Status 1a: ICU + ventilator dependence, RRT, or INR ≥2 with encephalopathy within 8 wks. King’s College Criteria better for acetaminophen ALF; MELD more accurate for nonacetaminophen. ACLF grades 1–2: acceptable posttransplant outcomes; ACLF3: careful selection",
+            "ACLF3 futility criteria: Age ≥53, lactate ≥4 mmol/L, mechanical vent with P/F ≤200, WBC ≤10 g/L: ≥2 factors predict 8% 1yr survival"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stat labs",
+              "value": "LFTs, T/D bili, albumin, INR/PT/PTT, CBC, BMP, ammonia, lactate, ABG, fibrinogen, lipase, blood glucose"
+            },
+            {
+              "key": "Etiology workup",
+              "value": "Acetaminophen level, tox screen, hepatitis A IgM, HBsAg, HBcAb IgM, HCV RNA, HEV IgM, ANA, antismooth muscle Ab, ceruloplasmin, slitlamp exam (Wilson’s)"
+            },
+            {
+              "key": "Imaging",
+              "value": "CT abdomen (BuddChiari, hepatic vein thrombosis), RUQ ultrasound with Doppler, CXR"
+            },
+            {
+              "key": "If bleeding",
+              "value": "Type & crossmatch, TEG/thromboelastometry, fibrinogen, coags"
+            },
+            {
+              "key": "Monitoring",
+              "value": "Continuous telemetry, SpO2, q1h glucose checks, q4–6h ammonia, strict I&Os, daily LFTs/INR"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Nacetylcysteine (NAC)",
+              "dose": "150 mg/kg IV over 1h, then 50 mg/kg over 4h, then 100 mg/kg over 16h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Start now for acetaminophen. Also improves transplantfree survival in nonacetaminophen ALF."
+            },
+            {
+              "name": "Lactulose",
+              "dose": "10–20 g PO/NG q2h until 2 soft BMs, then 2–4x daily",
+              "route": "PO/NG/PR",
+              "contraindications": "Bowel Obst.",
+              "notes": "For ACLF hepatic encephalopathy. Grade 3–4: give via NG or as enema (200g in 700 mL, retain 30–60 min). Not demonstrated beneficial in ALF."
+            },
+            {
+              "name": "Rifaximin",
+              "dose": "550 mg PO BID",
+              "route": "PO",
+              "contraindications": "",
+              "notes": "Combined with lactulose > lactulose alone for ACLF encephalopathy (↓ hospital stay & mortality). Not demonstrated beneficial in ALF."
+            },
+            {
+              "name": "Octreotide",
+              "dose": "50 µg IV bolus, then 50 µg/h gtt",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Variceal hemorrhage: start now when suspected, before endoscopy."
+            },
+            {
+              "name": "Ceftriaxone",
+              "dose": "2 g IV daily",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "SBP treatment. Give with IV albumin."
+            },
+            {
+              "name": "Albumin",
+              "dose": "1.5 g/kg day 1, 1 g/kg day 2",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "SBP: ↓ mortality from 41% to 22% at 3 months. HRSAKI: give with vasoconstrictor."
+            },
+            {
+              "name": "Norepinephrine",
+              "dose": "0.5–3 mg/h (titrate to MAP)",
+              "route": "IV gtt",
+              "contraindications": "",
+              "notes": "Preferred vasopressor. Also used for HRSAKI (~50% reversal rate) when terlipressin unavailable."
+            },
+            {
+              "name": "Zinc sulfate",
+              "dose": "220 mg PO BID",
+              "route": "PO",
+              "contraindications": "",
+              "notes": "Cofactor in urea cycle: ↓ ammonia in chronic hepatic encephalopathy."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Nanchal R, Subramanian R, Alhazzani W, et al. Guidelines for the Management of Adult Acute & AcuteonChronic Liver Failure in ICU. Critical Care Medicine. 2023.",
+            "Maiwall R, Kulkarni AV, Arab JP, Piano S. Acute Liver Failure. Lancet. 2024.",
+            "Shingina A, Mukhtar N, WakimFleming J, et al. Acute Liver Failure Guidelines. The American Journal of Gastroenterology. 2023.",
+            "European Association for the Study of the Liver (EASL). EASL Clinical Practical Guidelines on the Management of Acute (Fulminant) Liver Failure. Journal of Hepatology. 2017;66(5):10471081. https://doi.org/10.1016/j.jhep.2016.12.003",
+            "Lee WM, Stravitz RT, Larson AM. Introduction to the Revised AASLD Position Paper on Acute Liver Failure. Hepatology. 2012;55(3):965967. https://doi.org/10.1002/hep.25551",
+            "Bernal W, Wendon J. Acute Liver Failure. New England Journal of Medicine. 2013;369(26):25252534. https://doi.org/10.1056/NEJMra1208937"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acute Mesenteric Ischemia",
+      "subtitle": "Pain out of proportion, lactate rise, acidosis, atrial fibrillation",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency; if AMS from shock or severe sepsis: intubate",
+            "Breathing: SpO2, RR; tachypnea may compensatory for metabolic acidosis (lactic acidosis from ischemic bowel)",
+            "Circulation: 2 largebore IVs; aggressive IV crystalloid resuscitation: pts are profoundly volumedepleted",
+            "Emergent surgical consult: vascular surgery + general surgery + IR; do NOT delay for labs if clinical suspicion is high",
+            "NPO, NG tube if vomiting/distension, Foley for UOP monitoring",
+            "IV opioid analgesia: do NOT withhold pain control; fentanyl or morphine titrated to effect"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Atrial fibrillation: #1 risk factor for SMA embolism; check if on anticoagulation",
+            "Cardiac hx: recent MI (mural thrombus), cardiomyopathy, prosthetic valves, endocarditis, ventricular aneurysm",
+            "Vascular hx: PAD, prior arterial thrombosis, aortic disease",
+            "Prior episodes of postprandial pain, food fear (sitophobia), weight loss: suggests chronic mesenteric ischemia (, then acuteonchronic thrombosis)",
+            "Hypercoagulable state: prior DVT/PE, Factor V Leiden, protein C/S deficiency, malignancy, OCP use",
+            "Recent surgery: esp cardiac bypass (NOMI risk)",
+            "ICU pt on vasopressors or with low cardiac output: think NOMI",
+            "Anticoagulant use: type, compliance, last dose",
+            "Cirrhosis / portal HTN: risk for mesenteric venous thrombosis"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Classic finding",
+              "value": "Pain out of proportion to physical exam: severe pain with benignappearing, soft, nontender abdomen (early)"
+            },
+            {
+              "key": "Vitals",
+              "value": "Tachycardia (often earliest sign); ↓ BP (late: suggests necrosis/sepsis); tachypnea (metabolic acidosis compensation); fever (late)"
+            },
+            {
+              "key": "Abdomen: early",
+              "value": "Soft, minimal tenderness, nondistended: deceptively benign exam despite severe pain"
+            },
+            {
+              "key": "Abdomen: late",
+              "value": "Peritoneal signs (guarding, rigidity, rebound) = bowel necrosis has likely already occurred: ominous & late finding"
+            },
+            {
+              "key": "Bowel sounds",
+              "value": "May be hyperactive early: absent late (ileus from necrosis)"
+            },
+            {
+              "key": "Rectal",
+              "value": "Hemepositive stool or frankly bloody (\"currant jelly\" stools = mucosal sloughing): present in ~25%"
+            },
+            {
+              "key": "General",
+              "value": "Rapid gut emptying (forceful diarrhea) early; AMS, mottled skin, cool extremities if in shock"
+            }
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Acute mesenteric ischemia",
+              "value": "Inadequate blood flow to intestines: ischemia: infarction: necrosis if untreated; mortality 60-80% overall"
+            },
+            {
+              "key": "SMA embolism (~50%)",
+              "value": "Thrombus lodges in SMA (usually at branch points); most common type; classically from AFib or cardiac source"
+            },
+            {
+              "key": "SMA thrombosis (~15-25%)",
+              "value": "Progressive arosclerotic narrowing;hx of chronic mesenteric ischemia; highest mortality (70-100%)"
+            },
+            {
+              "key": "NOMI (~20%)",
+              "value": "Nonocclusive mesenteric ischemia: low flow state (shock, CHF, vasopressors) without mechanical Obst.; occurs in critically ill pts"
+            },
+            {
+              "key": "Mesenteric venous thrombosis (~5-15%)",
+              "value": "SMV thrombosis: most insidious onset; best prognosis (20-50% mortality); associated with hypercoagulable states"
+            },
+            {
+              "key": "Ischemic colitis",
+              "value": "Most common form of intestinal ischemia (80-85%);watershed areas (splenic flexure, rectosigmoid);selflimited"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Arterial embolism",
+              "value": "AFib, recent MI, prosthetic valves, endocarditis, ventricular aneurysm, cardiomyopathy"
+            },
+            {
+              "key": "Arterial thrombosis",
+              "value": "Arosclerosis, chronic mesenteric ischemia, PAD, aortic disease/dissection"
+            },
+            {
+              "key": "Venous thrombosis",
+              "value": "Hypercoagulable states, malignancy, cirrhosis/portal HTN, pancreatitis, recent surgery, OCP use"
+            },
+            {
+              "key": "NOMI",
+              "value": "Shock (any type), CHF with ↓ CO, vasopressor use, cardiac bypass surgery, hemodialysis, sepsis"
+            },
+            {
+              "key": "DDx: acute abdomen",
+              "value": "Bowel Obst. (SBO/LBO), perforated viscus, pancreatitis, ruptured AAA, volvulus, acute cholecystitis"
+            },
+            {
+              "key": "DDx: vascular",
+              "value": "Aortic dissection with mesenteric malperfusion, renal infarction, splenic infarction"
+            },
+            {
+              "key": "DDx: or",
+              "value": "Ischemic colitis (usually less severe, selflimited), C. diff colitis, IBD flare, acute diverticulitis"
+            }
+          ]
+        },
+        {
+          "title": "Management & Pearls",
+          "type": "steps",
+          "items": [
+            "Call surgery urgently and involve vascular or interventional radiology early if avail.",
+            "Place on monitor, give oxygen as needed, and get 2 large-bore IV lines.",
+            "Keep NPO and begin aggressive isotonic IV fluids unless contraindicated.",
+            "Send STAT labs including CBC, CMP or BMP, lactate, ABG or VBG, coagulation studies, and type and screen.",
+            "Start broad-spectrum IV antibiotics early.",
+            "Begin systemic anticoagulation with IV heparin unless active bleeding or another clear contraindication.",
+            "get emergent CTA abdomen or pelvis with IV contrast without delaying consultation.",
+            "Avoid delays from nonspecific tests and do not rely on a normal lactate to exclude disease.",
+            "Escalate immediately to operative or endovascular management if peritonitis, bowel infarction, or ongoing instability is present."
+          ]
+        },
+        {
+          "title": "Surgical / IR Interventions",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Arterial embolism",
+              "value": "Surgical embolectomy (mainstay) or catheter directed tPA thrombolysis (IR); resect necrotic bowel; second look laparotomy at 24-48 hrs"
+            },
+            {
+              "key": "Arterial thrombosis",
+              "value": "Angioplasty ± stenting (IR) or surgical bypass/endarterectomy; bowel resection if necrosis"
+            },
+            {
+              "key": "Venous thrombosis",
+              "value": "Anticoagulation alone is sufficient in ~95%; catheter directed thrombolysis if worsening; surgery only for peritonitis/necrosis"
+            },
+            {
+              "key": "NOMI",
+              "value": "Transcatheter vasodilator infusion (papaverine) via SMA catheter; treat underlying cause (optimize CO, d/c vasoconstrictors); bowel resection if necrosis"
+            },
+            {
+              "key": "Secondlook laparotomy",
+              "value": "Planned reexploration at 24-48 hrs: standard after revascularization to recheck bowel viability;don't skip"
+            },
+            {
+              "key": "Peritoneal signs = OR",
+              "value": "If peritonitis present: emergent laparotomy for bowel resection;don't delay for furr workup"
+            }
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "bullets",
+          "items": [
+            "Lactate: ↑ as ischemia progresses; nl. lactate does NOT r/o AMI (can be nl. early)",
+            "CBC: leukocytosis with left shift (WBC>15,000)",
+            "BMP: metabolic acidosis (AG), ↑ BUN/Cr (prerenal from dehydration)",
+            "ABG/VBG: base deficit correlates with severity; lactic acidosis",
+            "Ddimer: elevated (sensitive but nonspecific; high negative predictive value)",
+            "Phosphate: hyperphosphatemia (released from ischemic bowel mucosa: relatively specific)",
+            "LDH: ↑ (nonspecific tissue necrosis marker)",
+            "Amylase: may ↑ (confuses with pancreatitis)",
+            "LFTs: AST/ALT may ↑ if portal/hepatic flow affected",
+            "Coags (PT/INR, aPTT): baseline before heparin; DIC screen",
+            "Type & screen: prepare for possible surgery",
+            "BCxs if septic",
+            "CTA abdomen/pelvis (arterial + venous phase): study of choice; sensitivity ~94%, specificity ~95%",
+            "Plain Abd XR —nl. early; late: thumbprinting, pneumatosis intestinalis, portal venous gas, free air"
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Heparin (UFH)",
+              "dose": "80 units/kg IV bolus (max 5,000 units), then 18 units/kg/hr infusion (max 1,000 units/hr)",
+              "route": "IV",
+              "contraindications": "Active hemorrhage, HIT, recent surgery (relative)",
+              "notes": "Start now once dx suspected: even if surgery planned, heparinize first. Target aPTT 1.5-2.5× nl. (60-80 sec)"
+            },
+            {
+              "name": "PiperacillinTazobactam",
+              "dose": "4.5 g IV q6h",
+              "route": "IV",
+              "contraindications": "PCN allergy",
+              "notes": "Covers gramnegatives + anaerobes: bacterial translocation from ischemic gut. Start empirically"
+            },
+            {
+              "name": "Meropenem",
+              "dose": "1 g IV q8h",
+              "route": "IV",
+              "contraindications": "Carbapenem allergy",
+              "notes": "For critically ill / septic pts or if high resistance risk; alternative to piptazo"
+            },
+            {
+              "name": "Fentanyl",
+              "dose": "25-100 mcg IV q30-60 min PRN; or infusion 25-100 mcg/hr",
+              "route": "IV",
+              "contraindications": "Resp depression (monitor closely)",
+              "notes": "For analgesia: do NOT withhold pain control; hemodynamically neutral (preferred over morphine in ↓ BP )"
+            },
+            {
+              "name": "Papaverine (via IR catheter)",
+              "dose": "30-60 mg/hr intraarterial infusion via SMA catheter",
+              "route": "Intraarterial",
+              "contraindications": "Recent stroke/MI (relative), glaucoma",
+              "notes": "Mesenteric vasodilator: used for arterial embolism & NOMI; administered via IR catheter directly into SMA"
+            },
+            {
+              "name": "Norepinephrine (if shock)",
+              "dose": "0.1-0.5 mcg/kg/min IV; use lowest effective dose",
+              "route": "IV",
+              "contraindications": "Worsens mesenteric ischemia: use only if necessary",
+              "notes": "Vasopressors worsen mesenteric perfusion; minimize dose; avoid pure alphaagonists (phenylephrine)"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Bala M, Kashuk J, Moore EE, et al. Acute Mesenteric Ischemia: Guidelines of the World Society of Emergency Surgery. World Journal of Emergency Surgery. 2017;12:38. https://doi.org/10.1186/s13017-017-0150-5",
+            "Defined Approach to Acute Mesenteric Ischemia — AGA Clinical Practice Update. Clin Gastroenterol Hepatol. 2020;18(5):944953. https://doi.org/10.1016/j.cgh.2019.11.029",
+            "Defined Approach: Defined Approach to diagnosis and treatment of mesenteric ischemia. European Journal of Vascular and Endovascular Surgery. 2017;53(4):4605-10."
+          ]
+        }
+      ]
+    }
+  ]
+}

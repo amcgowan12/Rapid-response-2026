@@ -1,0 +1,2096 @@
+{
+  "name": "Heme Emergencies",
+  "icon": "cross.fill",
+  "color": "yellow",
+  "topics": [
+    {
+      "title": "Massive Hemorrhage / MTP",
+      "subtitle": "Shock, active bleeding, falling hemoglobin, coagulopathy, transfusion need",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: if AMS, massive hematemesis, or hemodynamic collapse: intubate early; RSI with hemodynamically neutral agents (ketamine, avoid propofol in shock)",
+            "Breathing: SpO2, supplemental O2; monitor for aspiration if upper GI source",
+            "Circulation: 2 largebore IVs (≥16G), IO, or rapid infuser access; start crystalloid wide open while blood products prepared",
+            "Activate MTP now: do NOT wait for labs to confirm hemorrhage if clinical picture is clear",
+            "Transfuse Oneg or uncrossmatched pRBCs while type & cross pending"
+          ]
+        },
+        {
+          "title": "PostMTP assessment",
+          "type": "steps",
+          "items": [
+            "Repeat MTP labs: CBC, coags, fibrinogen, iCa, ABG",
+            "Check pt temp: treat hypothermia",
+            "POCUS to check volume status: flat IVC may indicate continued hemorrhage vs overresuscitation",
+            "Correct electrolyte abnormalities (calcium, potassium, magnesium)",
+            "Platelet & coagulation factor targets depend on hemostasis security: if definitive hemostasis achieved (IR embolization), repletion less critical; if tenuous, target more robust coag parameters",
+            "Fibrinogen >150-200, INR <1.5, platelets >50k (>100k for CNS or ocular bleeding), iCa >1.1, temp >35, pH >7.2"
+          ]
+        },
+        {
+          "title": "When to Activate MTP",
+          "type": "bullets",
+          "items": [
+            ">5 units PBCs within 4 hours",
+            "Active hemorrhage with hemodynamic instability (SBP <90, HR >120)",
+            "on pressors",
+            "ruptured AAA, massive GIB, Ob bleed",
+            "Do NOT use hemoglobin to trigger MTP: Hgb takes hours to fall after hemorrhage",
+            "If doubt exists whether the pt is in hemorrhagic shock: bedside echo to confirm hypovolemia"
+          ]
+        },
+        {
+          "title": "MTP Blood Products",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "standard ratio",
+              "value": "1:1:1: pRBC: FFP: Platelets."
+            },
+            {
+              "key": "Fibrinogen (Cryo)",
+              "value": "Consider 1:1:1:1 adding cryoprecipitate for prolonged MTP. Give 10 units cryo if fibrinogen <150-200 mg/dL. inc ↑fibrinogen ~75 mg/dL / 10 units."
+            },
+            {
+              "key": "Avoid crystalloid",
+              "value": "Saline & LR dilute clotting factors & do nothing to stop hemorrhage. Blood products only for hemorrhagic shock resuscitation."
+            },
+            {
+              "key": "Permissive ↓ BP",
+              "value": "Target MAP 50-60 mmHg until hemostasis achieved. Overresuscitation dislodges clots & worsens venous bleeding (esp variceal). Exception: TBI: target higher MAP."
+            }
+          ]
+        },
+        {
+          "title": "Vascular Access",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "First line",
+              "value": "Multiple 16-18G peripheral IVs: adequate with Belmont pressure infuser (300-500 mL/min)."
+            },
+            {
+              "key": "RIC catheter",
+              "value": "Rapid Infusion Cater: 7Fr placed via Seldinger through existing PIV. Equivalent to 13.3G. Best option for largebore peripheral access. NOT pressureinjectable (no CT contrast)."
+            },
+            {
+              "key": "Greater saphenous vein",
+              "value": "Ultrasoundguided access above medial malleolus. Large,pristine vein. Distend with tourniquet + Trendelenburg. Good option when arm veins are collapsed or damaged."
+            },
+            {
+              "key": "Central line",
+              "value": "Acceptable but lower flow rates. Remove line cap before attaching pressure infuser. Use largest lumen. Most are pressureinjectable for CT."
+            },
+            {
+              "key": "Avoid",
+              "value": "Introducer sheaths: high failure rate, kink without catheter in place. Hemodialysis catheter NOT pressureinjectable."
+            },
+            {
+              "key": "Arterial line",
+              "value": "Place early for BP monitoring. Femoral artery + femoral vein on same side (dirty double) is fastest way to get both simultaneously."
+            }
+          ]
+        },
+        {
+          "title": "MTP Labs (q30-60 min)",
+          "type": "bullets",
+          "items": [
+            "CBC: trending Hgb & platelets",
+            "Coags: INR, PTT, fibrinogen",
+            "AntiXa level if on heparin or oral Xa inhibitor",
+            "TEG (if avail): guides fibrinogen, antifibrinolytic, & platelet therapy in real time",
+            "Electrolytes + ionized calcium (iCa): follow closely during MTP",
+            "ABG/VBG: monitor pH, avoid acidosis",
+            "Type & crossmatch: already be done before MTP activation"
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Goal 1:1:1 ratio (pRBCs: FFP: platelets); give TXA 1 g IV over 10 min within first 3 hrs of hemorrhage",
+            "check & treat lethal triad: hypothermia (warm fluids, blankets), acidosis (resuscitate, limit crystalloid), coagulopathy (blood products, TXA, factor replacement)",
+            "Permissive ↓ BP: target SBP 80-90 mmHg or MAP ~50-60 until source control achieved. Exception: TBI, spinal cord ischemia, or pregnancy may require higher targets",
+            "Use blood products, not liters of crystalloid, as the primary resuscitation fluid once hemorrhagic shock is recognized",
+            "Replace fibrinogen early: cryoprecipitate if fibrinogen <150-200 mg/dL or if prolonged MTP suggests depletion",
+            "Replace calcium aggressively during MTP; citrate load from products causes hypocalcemia & worsens coagulopathy",
+            "Reverse pre-existing anticoagulation / coagulopathy: PCC + vitamin K for warfarin, specific DOAC reversal when indicated, protamine for heparin",
+            "Identify source & achieve source control: surgical consult, GI for endoscopy, IR for embolization, OB for postpartum hemorrhage",
+            "Do not chase a normal hemoglobin early: hemodynamics, transfusion requirement, bedside exam, & response to products matter more in the first hours"
+          ]
+        },
+        {
+          "title": "MTP Adjuncts: 11Step Checklist",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "1. Antifibrinolytic",
+              "value": "Tranexamic acid (TXA) 1g over 10 min then 1g over 8h: give within 3h of injury. Indications: trauma, obstetric hemorrhage, TEG LY30 >3%, cirrhosis with hyperfibrinolysis."
+            },
+            {
+              "key": "2. Fibrinogen",
+              "value": "Cryoprecipitate if fibrinogen <150-200 mg/dL. Fibrinogen is first factor to reach critically low levels in massive hemorrhage."
+            },
+            {
+              "key": "3. Calcium",
+              "value": "1-2g CaCl2 OR 3-6g calcium gluconate per MTP round (every 6 units pRBC). Target iCa 1.1-1.3 mM. Citrate in blood products chelates calcium: hypocalcemia causes coagulopathy."
+            },
+            {
+              "key": "4. DDAVP",
+              "value": "0.3 mcg/kg IV (max 21 mcg). Consider if: renal failure, thrombocytopenia, or antiplatelet drugs."
+            },
+            {
+              "key": "5. Coagulopathy reversal",
+              "value": "MTP will not correct pre-existing coagulopathy. Reverse warfarin (PCC + Vit K), DOACs (&exanet/idarucizumab), heparin (protamine) independently."
+            },
+            {
+              "key": "6. Avoid acidosis",
+              "value": "Target nl. pH. Even mild acidosis (pH 7.20) substantially impairs coagulation cascade. Correct with bicarb if needed."
+            },
+            {
+              "key": "7. Avoid hypothermia",
+              "value": "Use warmed blood products (Level1 or Belmont infusers with inline warming). Forcedair warming blanket. Monitor core temp ly."
+            },
+            {
+              "key": "8. Source control",
+              "value": "Prioritize fastest strategy: IR embolization or surgical packing over definitive repair.Don't delay source control for resuscitation optimization."
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Tranexamic acid (TXA)",
+              "dose": "1g IV over 10 min, then 1g over 8h",
+              "route": "IV",
+              "contraindications": ">3h from injury",
+              "notes": "Give within 3h of injury. Trauma & obstetric hemorrhage. Aminocaproic acid 4-5g load then 1g/hr is an alternative."
+            },
+            {
+              "name": "Calcium chloride (CaCl2)",
+              "dose": "1-2g IV per MTP round (6 units pRBC)",
+              "route": "IV central",
+              "contraindications": "Peripheral IV (tissue necrosis)",
+              "notes": "Preferred if central access available. Peripheral extravasation causes tissue necrosis: use calcium gluconate for peripheral lines."
+            },
+            {
+              "name": "Calcium gluconate",
+              "dose": "3-6g IV per MTP round",
+              "route": "IV peripheral",
+              "contraindications": "",
+              "notes": "Safe for peripheral administration. Target iCa 1.1-1.3 mM. Replace routinely —don't wait for sx."
+            },
+            {
+              "name": "Cryoprecipitate",
+              "dose": "10 units IV (raises fibrinogen ~75 mg/dL)",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Give if fibrinogen <150-200 mg/dL. Consider empiric 1:1:1:1 ratio (adding cryo) for prolonged MTP."
+            },
+            {
+              "name": "DDAVP (desmopressin)",
+              "dose": "0.3 mcg/kg IV, max 21 mcg",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Promotes platelet function. Use if renal failure, thrombocytopenia, or on antiplatelet agents."
+            },
+            {
+              "name": "4factor PCC (Kcentra)",
+              "dose": "25-50 units/kg based on INR",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Warfarin reversal: faster than FFP. Always give with Vitamin K 10mg IV to prevent rebound."
+            },
+            {
+              "name": "Sodium bicarbonate",
+              "dose": "1-2 mEq/kg IV",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Correct acidosis: pH <7.2 substantially impairs coagulation. Target nl. pH during MTP."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Spahn DR, Bouillon B, Cerny V, et al. The European Guideline on Management of Major Bleeding and Coagulopathy Following Trauma: 6th Edition. Critical Care. 2023;27:80. https://doi.org/10.1186/s13054-023-04327-7",
+            "Holcomb JB, Tilley BC, Baraniuk S, et al. Transfusion of Plasma, Platelets, and Red Blood Cells in a 1:1:1 vs a 1:1:2 Ratio (PROPPR trial). JAMA. 2015;313(5):471482. https://doi.org/10.1001/jama.2015.12",
+            "Cannon JW, Khan MA, Raja AS, et al. Damage Control Resuscitation in Patients with Severe Traumatic Hemorrhage: A Practice Management Guideline. Journal of Trauma and Acute Care Surgery. 2017;82(3):605617."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Anticoagulation Reversal",
+      "subtitle": "Major bleeding, suprathetherapeutic anticoagulation, urgent procedure, intracranial hemorrhage",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "Do NOT delay reversal for labs if life-threatening hemorrhage: give empiric reversal based on known agent"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "IDanticoagulant, dose, indication, & time of last dose: this determines if reversal is still useful",
+            "Clarify bleeding site & severity: ICH, GI bleed, retroperitoneal, airway, pericardial, intraocular, postop, traumatic",
+            "Ask whether the issue is major bleeding, clinically relevant nonmajor bleeding, or urgent surgery / procedure",
+            "Renal & hepatic function matter: DOAC clearance is prolonged in CKD / liver disease",
+            "Review concomitant agents: aspirin, clopidogrel, ticagrelor, NSAIDs, SSRIs, thrombolytics",
+            "For warfarin: check baseline INR trend, diet changes, antibiotics, amiodarone, liver disease, alcohol use",
+            "For heparin / LMWH: determine when it was started, infusion rate, bolus timing, & recent procedures",
+            "Look for thrombotic indication & risk if held: mechanical valve, recent VTE, LV thrombus, AFib with prior stroke"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Airway & neuro status first: headache, vomiting, focal deficit, declining GCS, neck swelling, stridor",
+            "Hemodynamics: tachycardia, hypotension, perfusion, orthostasis, shock",
+            "Look for occult bleeding: flank / back ecchymosis, abd distension, melena, hematuria, large hematomas, joint swelling",
+            "Skin / access sites: expanding IV site hematoma, surgical drains, catheter sites, ecchymoses",
+            "Remember: anticoagulant level / INR DOESN'T predict bleeding severity: treat pt & source"
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Identify anticoagulant: warfarin, heparin, enoxaparin, rivaroxaban, apixaban, dabigatran, etc.",
+            "Hold ALL anticoagulants & antiplatelets now",
+            "Control source: endoscopy, IR embolization, surgery, neurosurgery, ENT, bronchoscopy, compression / packing",
+            "Transfuse blood products as clinically indicated; reversal agents don't replace standard hemorrhage resuscitation",
+            "For warfarin: 4factor PCC (Kcentra) 25-50 units/kg IV + vitamin K 10 mg IV (PCC works in minutes; vitamin K takes 6-24 hrs)",
+            "For dabigatran: idarucizumab (Praxbind) 5 g IV",
+            "For rivaroxaban/apixaban: &exanet alfa (&exxa) or 4factor PCC 50 units/kg if &exanet unavailable",
+            "For heparin: protamine sulfate 1 mg per 100 units heparin given in last 2-3 hrs (max 50 mg)",
+            "If bleeding is not life-threatening & the last dose was remote, supportive care + temporary drug hold may safer than full reversal",
+            "Repeat reassessment after reversal: vitals, bleeding exam, Hgmb trend, & whether source control has been achieved",
+            "Recheck coag parameters after intervention: INR after warfarin reversal, aPTT / antiXa, fibrinogen if massively bleeding",
+            "Watch for rebound anticoagulation or continued bleeding: especially after vitamin K is omitted, PCC wears off, or dabigatran redistributes",
+            "Monitor for thrombosis after PCC / &exanet / factor products, particularly in recent VTE, ACS, stroke, or mechanical valve pts",
+            "Develop a reanticoagulation plan post hemostasis. thrombosis risk returns quickly in some pts"
+          ]
+        },
+        {
+          "title": "Reversal by Agent",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Warfarin",
+              "value": "4factor PCC (Kcentra) for urgent reversal + Vitamin K 10mg IV. FFP if PCC unavailable."
+            },
+            {
+              "key": "UFH",
+              "value": "Protamine sulfate 1mg per 100 units heparin given in last 2-3h. Max 50mg."
+            },
+            {
+              "key": "LMWH (Lovenox)",
+              "value": "Protamine 1mg per 1mg enoxaparin if <8h since last dose. Partial reversal if >8h."
+            },
+            {
+              "key": "Rivaroxaban/Apixaban",
+              "value": "4factor PCC 50 units/kg."
+            },
+            {
+              "key": "Dabigatran",
+              "value": "Idarucizumab (Praxbind) 5g IV: complete reversal. Dialyzable as backup."
+            },
+            {
+              "key": "Fondaparinux",
+              "value": "No specific antidote. Supportive care; consider PCC / aPCC in life-threatening bleeding after specialist discussion"
+            },
+            {
+              "key": "Argatroban / Bivalirudin",
+              "value": "No specific antidote. Stop infusion; short halflife means effect falls quickly, but may prolonged in organ dysfunction"
+            },
+            {
+              "key": "Mechanical valve / high thrombosis risk",
+              "value": "Reverse only for true major bleeding / critical procedures. Restart planning matters early: discuss with cardiology / hematology"
+            }
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stat labs",
+              "value": "CBC, PT/INR, aPTT, fibrinogen, CMP / Cr, type & screen, lactate if unstable"
+            },
+            {
+              "key": "Drugspecific",
+              "value": "AntiXa level if avail for apixaban / rivaroxaban or LMWH; thrombin time for dabigatran; heparin antiXa / aPTT for UFH"
+            },
+            {
+              "key": "Imaging / source control",
+              "value": "CT head for neuro sx or trauma, CTA / endoscopy / bronchoscopy / IR imaging based on suspected source"
+            },
+            {
+              "key": "Monitoring",
+              "value": "Serial Hgb / Hct q4-6h in active bleed, telemetry if unstable, strict I&Os, neuro checks if CNS bleed suspected"
+            },
+            {
+              "key": "Consults",
+              "value": "Pharmacy, hematology, IR / surgery / GI / neurosurgery depending on bleed site; cardiology if mechanical valve or extreme thrombotic risk"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "4factor PCC (Kcentra)",
+              "dose": "25 units/kg (INR 2-4), 35 units/kg (INR 4-6), 50 units/kg (INR >6)",
+              "route": "IV",
+              "contraindications": "Active DIC",
+              "notes": "Fastest warfarin reversal. Always give with Vitamin K to prevent rebound."
+            },
+            {
+              "name": "Vitamin K (phytonadione)",
+              "dose": "10mg IV over 30 min",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Sustained warfarin reversal (effect in 6-24h). Always give with PCC for urgent reversal."
+            },
+            {
+              "name": "Protamine sulfate",
+              "dose": "1mg per 100 units UFH (max 50mg)",
+              "route": "IV",
+              "contraindications": "Fish allergy, vasectomy",
+              "notes": "Give slowly over 10 min: rapid infusion causes ↓ BP. Monitor for anaphylaxis."
+            },
+            {
+              "name": "Idarucizumab (Praxbind)",
+              "dose": "5g IV (two 2.5g vials)",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Dabigatran reversal. Immediate reversal."
+            },
+            {
+              "name": "&andexanet alfa",
+              "dose": "Low dose: 400mg bolus + 480mg over 2h; High dose: 800mg bolus + 960mg over 2h",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Reverses rivaroxaban, apixaban. High dose for rivaroxaban >10mg or apixaban >5mg taken <8h prior."
+            },
+            {
+              "name": "FFP",
+              "dose": "10-15 mL/kg IV",
+              "route": "IV",
+              "contraindications": "Volume overload, TACO risk",
+              "notes": "Use if PCC unavailable for warfarin reversal or if broader factor replacement is needed. Slower & largervolume than PCC."
+            },
+            {
+              "name": "Tranexamic acid (TXA)",
+              "dose": "1g IV over 10 min, then 1g over 8h when appropriate",
+              "route": "IV",
+              "contraindications": "Active intravascular clotting; caution in hematuria / upper urinary tract bleeding",
+              "notes": "Adjunctive hemostatic thetherapy for selected trauma, postop, mucosal, or postpartum bleeding. Not an anticoagulant antidote."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Tomaselli GF, Mahaffey KW, Cuker A, et al. 2020 ACC Expert Consensus Decision Pathway on Management of Bleeding in Patients on Oral Anticoagulants. Journal of the American College of Cardiology. 2020;76(5):594622. https://doi.org/10.1016/j.jacc.2020.04.053",
+            "Frontera JA, Lewin JJ III, Rabinstein AA, et al. Guideline for Reversal of Antithrombotics in Intracranial Hemorrhage. Neurocritical Care. 2016;24(1):646. https://doi.org/10.1007/s12028-015-0222-x",
+            "Pollack CV Jr, Reilly PA, van Ryn J, et al. Idarucizumab for Dabigatran Reversal — Full Cohort Analysis (REVERSE AD trial). New England Journal of Medicine. 2017;377(5):431441. https://doi.org/10.1056/NEJMoa1707278"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bloodless Medicine / Jehovah's Witness",
+      "subtitle": "Severe anemia, bleeding risk, transfusion refusal, hypoperfusion signs",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "Control bleeding now: source control, procedural hemostasis, surgery, IR, OB/GI intervention, & local/topical hemostatic measures.",
+            "Minimize iatrogenic blood loss: pediatric tubes, bundle labs, point of care testing, & bloodconservation sampling devices when available.",
+            "Support oxygen delivery: supplemental oxygen, optimize preload & perfusion, treat fever, treat shock, & avoid unnecessary hemodilution."
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "What is specifically refused: packed RBCs, plasma, platelets, cryoprecipitate, albumin, cell salvage, acute normovolemic hemodilution, clotting factor concentrates, PCC, recombinant factor VIIa, etc.",
+            "Baseline hemoglobin, trajectory, active bleeding source, hemodynamic stability, & signs of endorgan ischemia.",
+            "Current anticoagulants / antiplatelets & last dose.",
+            "Iron deficiency, CKD, malignancy, infection, or nutritional deficiency that may limit erythropoiesis.",
+            "Prior documentation, advance directives, blood refusal card, durable power of attorney, or prior bloodless medicine plan."
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Vitals/perfusion: tachycardia, ↓ BP, cool extremities, delayed cap refill, shock",
+            "Look for active blood loss: melena, hematemesis, hematuria, vaginal bleeding, drain output, expanding hematoma",
+            "Signs of critical anemia: chest pain, dyspnea, syncope, AMS, ischemic EKG changes, low UOP, rising lactate",
+            "check volume status: severe anemia may coexist with hemorrhagic shock or dilution from excess IVF",
+            "Document neuro, cardiopulm, & airway findings if the bleed location could worsen quickly"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Bloodless medicine",
+              "value": "Care strategy that respects transfusion refusal while maximizing hemostasis, oxygen delivery, & erythropoiesis."
+            },
+            {
+              "key": "Key principle",
+              "value": "Acceptance of fractions or bloodconservation techniques is individualized. Ask & document exactly what is acceptable."
+            },
+            {
+              "key": "Critical anemia",
+              "value": "No single cutoff, but risk rises sharply as Hgb approaches <5-6 g/dL, especially with bleeding, shock, sepsis, or ischemia."
+            }
+          ]
+        },
+        {
+          "title": "What May Be Acceptable",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Usually refused",
+              "value": "Whole blood & primary blood components such as RBCs, plasma, platelets, & WBCs are commonly refused."
+            },
+            {
+              "key": "Often individualized",
+              "value": "Some pts may accept minor fractions or procedures that maintain continuity with body, such as clotting factors, PCC, recombinant factor VIIa, albumin, cell salvage, or acute normovolemic hemodilution. Individual preference matters."
+            },
+            {
+              "key": "Key principle",
+              "value": "Never assume acceptance or refusal of fractionated product or bloodconservation technique without asking pt."
+            }
+          ]
+        },
+        {
+          "title": "Severe Anemia Thresholds",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "High risk zone",
+              "value": "Mortality rises sharply as hemoglobin falls into <5-6 g/dL range, especially with bleeding, shock, ischemia, or sepsis."
+            },
+            {
+              "key": "Immediate priorities",
+              "value": "Stop bleeding, reduce oxygen consumption, optimize perfusion, & stimulate erythropoiesis early."
+            },
+            {
+              "key": "Experimental rescue",
+              "value": "Hemoglobinbased oxygen carriers may considered in extreme, life-threatening anemia where available, but access is limited &requires emergency regulatory processes."
+            }
+          ]
+        },
+        {
+          "title": "Blood Conservation Strategies",
+          "type": "bullets",
+          "items": [
+            "Use pediatric / lowvolume phlebotomy tubes for all draws.",
+            "Order only essential labs & avoid repetitive \"routine\" blood work.",
+            "Use point of care testing when it decreases total blood loss.",
+            "If pt accepts it, consider cell salvage or autologous techniques for surgical/procedural blood loss.",
+            "Avoid unnecessary IV fluids once initial resuscitation is complete: excessive crystalloid worsens hemodilution.",
+            "Treat fever, agitation, pain, & shivering to reduce oxygen demand."
+          ]
+        },
+        {
+          "title": "Pharmacologic Support",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Epoetin alfa",
+              "dose": "20,000-30,000 units IV daily to every or day OR 40,000 units daily until Hgb >7 g/dL, then weekly",
+              "route": "IV / SQ",
+              "contraindications": "Uncontrolled severe HTN, history of ESA hypersensitivity; use caution with thrombosis risk",
+              "notes": "Stimulates erythropoiesis. Effect is not immediate; reticulocyte response begins after several days. Requires adequate iron support."
+            },
+            {
+              "name": "Iron sucrose",
+              "dose": "100-200 mg IV daily for several days (commonly 3-10 days depending on severity & iron status)",
+              "route": "IV",
+              "contraindications": "Prior iron hypersensitivity; caution with active infection",
+              "notes": "Useful when iron deficiency is present or suspected, or when rapid support of erythropoiesis is needed. Oral iron is slower."
+            },
+            {
+              "name": "Folate",
+              "dose": "1 mg daily",
+              "route": "PO / IV",
+              "contraindications": "",
+              "notes": "Supportive vitamin supplementation to maximize erythropoiesis."
+            },
+            {
+              "name": "Vitamin B12",
+              "dose": "Per deficiency protocol or daily supplementation if deficiency status is unclear",
+              "route": "PO / IM / IV",
+              "contraindications": "",
+              "notes": "Correct deficiency or empirically supplement when erythropoietic support is being pursued."
+            },
+            {
+              "name": "Vitamin C",
+              "dose": "500 mg TID",
+              "route": "PO / IV",
+              "contraindications": "Renal failure: reduce frequency",
+              "notes": "Often used as an adjunct with iron therapy in bloodless anemia protocols."
+            },
+            {
+              "name": "Tranexamic acid",
+              "dose": "1 g IV over 10 min, then 1 g over 8 h for major bleeding when appropriate",
+              "route": "IV",
+              "contraindications": "Active intravascular clotting; use indicationspecific caution",
+              "notes": "Antifibrinolytic adjunct for trauma, procedural bleeding, postpartum hemorrhage, & selected mucosal bleeding states."
+            },
+            {
+              "name": "4factor PCC (Kcentra)",
+              "dose": "25-50 units/kg IV depending on indication / INR",
+              "route": "IV",
+              "contraindications": "Active DIC",
+              "notes": "Often acceptable to some Jehovah's Witness pts b/c it is blood fraction, but acceptance is individual. Useful for urgent warfarin or factorbased reversal."
+            },
+            {
+              "name": "Recombinant factor VIIa",
+              "dose": "Consult hematology / protocolbased dosing",
+              "route": "IV",
+              "contraindications": "High thrombotic risk",
+              "notes": "May be considered as rescue hemostatic adjunct in selected life-threatening bleeding cases if acceptable to pt."
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Acute blood loss",
+              "value": "Trauma, GI bleed, postpartum hemorrhage, operative/procedural bleeding, ruptured vascular source."
+            },
+            {
+              "key": "Impaired production",
+              "value": "Iron deficiency, CKD, marrow suppression, malignancy, B12/folate deficiency, inflammation."
+            },
+            {
+              "key": "Hemolysis",
+              "value": "Autoimmune hemolysis, microangiopathy, drug induced hemolysis, mechanical hemolysis."
+            },
+            {
+              "key": "Iatrogenic",
+              "value": "Repeated phlebotomy, excess crystalloid causing hemodilution, anticoagulation/antiplatelet effect."
+            },
+            {
+              "key": "DDx for hypoperfusion",
+              "value": "Do not assume anemia alone: also consider sepsis, PE, ACS, tamponade, tension physiology, or occult hemorrhage."
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Clarify goals & exactly what pt will or will not accept early. Document discussionin chart.",
+            "If pt has decisionmaking capacity, discuss blood products privately & directly with pt not relying only on family input.",
+            "Stop anticoagulants & antiplatelet agents when bleeding riskoutweighs benefit; reverse coagulopathy with acceptable agents.",
+            "Consult hematology, anesthesia, surgery/procedure team, pharmacy, ethics, & bloodless medicine services early if avail."
+          ]
+        },
+        {
+          "title": "Workup & Monitoring",
+          "type": "steps",
+          "items": [
+            "CBC trend, reticulocyte count, ferritin, iron studies, B12, folate, CMP, hemolysis labs if needed.",
+            "Coags & fibrinogen when bleeding or coagulopathy is suspected.",
+            "Track perfusion & oxygen delivery: lactate, telemetry, chest pain symptoms, neuro status, urine output.",
+            "Recheck hemoglobin trend after limiting phlebotomy b/c act of monitoring worsens anemia."
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Labs",
+              "value": "CBC trend, retic, ferritin/iron studies, B12, folate, CMP, coags/fibrinogen, hemolysis labs if needed."
+            },
+            {
+              "key": "Monitoring",
+              "value": "Telemetry, serial vitals, lactate, urine output, ischemic symptoms, & minimize repeat phlebotomy."
+            },
+            {
+              "key": "Bleeding workup",
+              "value": "Sourcespecific imaging/endoscopy/procedural evaluation if active blood loss is suspected."
+            },
+            {
+              "key": "Documentation",
+              "value": "Record accepted and refused products, fractions, & procedures in a visible part of the chart."
+            },
+            {
+              "key": "Consults",
+              "value": "Early heme, surgery/procedural team, anesthesia, pharmacy, ethics, & bloodless medicine service if avail."
+            }
+          ]
+        },
+        {
+          "title": "Management Pearls",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Source control first",
+              "value": "In severe hemorrhage, definitive bleeding control matters more than any anemia adjunct."
+            },
+            {
+              "key": "ESA timing",
+              "value": "Erythropoietin helps, but it is not an immediate rescue therapy: plan for lag of days before meaningful hemoglobin response."
+            },
+            {
+              "key": "Iron strategy",
+              "value": "IV iron is preferred over oral iron in severe inpt anemia or when rapid marrow support is needed."
+            },
+            {
+              "key": "Documentation",
+              "value": "Document accepted & refused therapies precisely so consultants, overnight teams, & procedural servicesdon't make assumptions."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "[ASH review: Bloodless medicine: what to do when you can't transfuse](https://www.hopkinsmedicine.org/-/media/bloodless-medicine-surgery/documents/bloodless-papers/bloodless-ash-paper-2015.pdf)",
+            "[WikEM: Severe anemia in Jehovah's Witness pts](https://wikem.org/wiki/Severe_anemia_in_Jehovah%27s_Witness_patients)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Coagulopathy Reversal",
+      "subtitle": "Elevated INR, low fibrinogen, bleeding, liver disease, DIC",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check for expanding neck/oropharyngeal bleed; intubate early if airway compromise is possible",
+            "Breathing: monitor SpO2 & WOB; treat hemothorax or pulmonary hemorrhage",
+            "Circulation: 2 largebore IVs, type & screen, CBC, coags, fibrinogen; activate MTP if life-threatening hemorrhage",
+            "Do NOT delay treatment while waiting for confirmatory factor levels if known or strongly suspected inherited bleeding disorder"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Known diagnosis & type: Hemophilia A, Hemophilia B, vWD type 1, 2A, 2B, 2M, 2N, or 3",
+            "Baseline severity & home regimen: prophylactic factor, emicizumab use, prior DDAVP response, HumateP/Wilate/Vonvendi availability",
+            "Inhibitor history: prior factor VIII or IX inhibitor, bypassing agent use (rFVIIa or FEIBA)",
+            "Bleeding phenotype: hemarthrosis, deep muscle bleed, mucosal bleeding, epistaxis, menorrhagia, postpartum hemorrhage, procedurerelated bleeding",
+            "Timing & mechanism: spontaneous vs trauma vs postop/dental; head strike always matters",
+            "Medication review: aspirin, NSAIDs, anticoagulants, SSRIs, herbal supplements, recent DDAVP",
+            "Family history & prior abnl. procedures/extractions",
+            "Renal disease, CAD, pregnancy/postpartum status, & hyponatremia risk: se affect DDAVP safety"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Inspect for expanding hematoma, ecchymosis, hemarthrosis, compartment syndrome, & occult blood loss",
+            "Neuro exam if headache, trauma, or AMS: ICH can occult",
+            "Joint exam: warmth, swelling, ↓ ROM suggest hemarthrosis",
+            "Muscle groups/back/abdomen: deep bleeds can present with pain, neuropathy, or ↓ BP",
+            "Mucosal exam: epistaxis, gingival bleeding, oral cavity bleeding, menorrhagia severity",
+            "Airway/neck exam: tongue, retropharyngeal, or cervical hematoma"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Hemophilia A",
+              "value": "Factor VIII deficiency. Xlinked. Severity by factor level: severe <1%, moderate 1-5%, mild 5-40%."
+            },
+            {
+              "key": "Hemophilia B",
+              "value": "Factor IX deficiency. Xlinked. Clinical bleeding pattern similar to Hemophilia A."
+            },
+            {
+              "key": "vWD Type 1",
+              "value": "Partial quantitative vWF deficiency. Most common &mild;DDAVP responsive."
+            },
+            {
+              "key": "vWD Type 2",
+              "value": "Qualitative vWF defect. 2A = loss of highmolecularweight multimers, 2B = increased platelet binding, 2M = defective platelet binding, 2N = low FVIII binding & may mimic mild Hemophilia A."
+            },
+            {
+              "key": "vWD Type 3",
+              "value": "Nearcomplete vWF deficiency. Severe disease with mucosal & deep bleeding; DDAVPineffective."
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Hemophilia A",
+              "value": "Deep tissue bleeding, hemarthrosis, prolonged aPTT, low factor VIII. Consider acquired factor VIII inhibitor if no family history & severe unexplained bleeding."
+            },
+            {
+              "key": "Hemophilia B",
+              "value": "Deep tissue bleeding, hemarthrosis, prolonged aPTT, low factor IX."
+            },
+            {
+              "key": "vWD Type 1",
+              "value": "Mucosal bleeding, easy bruising, menorrhagia, procedurerelated bleeding; partial quantitative vWF deficiency."
+            },
+            {
+              "key": "vWD Type 2A/2M/2N",
+              "value": "Qualitative vWF disorders. 2N can look like mild Hemophilia A b/c factor VIII is low; multimer analysis & vWF studies distinguish m."
+            },
+            {
+              "key": "vWD Type 2B",
+              "value": "Enhanced platelet binding with thrombocytopenia risk; avoid DDAVP if suspected or known b/c it worsens thrombocytopenia"
+            },
+            {
+              "key": "vWD Type 3",
+              "value": "Severe inherited vWF deficiency; major mucosal & surgical bleeding, sometimes hemarthrosis b/c factor VIII canlow."
+            },
+            {
+              "key": "DDx: Platelet disorder",
+              "value": "Mucosal bleeding with nl. PT/PTT may reflect platelet dysfunction, uremia, antiplatelet drugs, or thrombocytopenia."
+            },
+            {
+              "key": "DDx: Liver disease / DIC",
+              "value": "Abnl. PT & PTT, low fibrinogen, thrombocytopenia, schistocytes, critical illness context."
+            },
+            {
+              "key": "DDx: Acquired vWD / factor inhibitor",
+              "value": "Consider with new bleeding later in life, autoimmune disease, LVAD/aortic stenosis, lymphoproliferative disease, or isolated prolonged aPTT that does not correct."
+            }
+          ]
+        },
+        {
+          "title": "Management: Hemophilia A",
+          "type": "steps",
+          "items": [
+            "Give recombinant factor VIII concentrate now for major bleeding; typical target FVIII activity 80-100% for life-threatening/CNS/neck/GI bleeding & 40-60% for less severe bleeds",
+            "If mild Hemophilia A & known DDAVP responder, DDAVP can used for minor bleeding or procedures; do NOT rely on DDAVP alone for major bleeding",
+            "If inhibitor history or poor response to factor VIII, use bypassing therapy (rFVIIa or FEIBA per hematology) instead of repeated ineffective FVIII dosing",
+            "Pts on emicizumab can still have breakthrough bleeding: coordinate with hematology before giving bypassing agents, especially FEIBA",
+            "Hemarthrosis or muscle bleed: factor first,thenrest/ice/compression/elevation & pain control; avoid NSAIDs"
+          ]
+        },
+        {
+          "title": "Management: Hemophilia B",
+          "type": "steps",
+          "items": [
+            "Give recombinant factor IX concentrate now for major bleeding; typical target FIX activity 60-100% depending on bleed severity & site",
+            "DDAVP is not useful in Hemophilia B",
+            "Because factor IX has longer halflife, repeat dosing unless frequent than factor VIII but still guided by bleed site, severity, & hematology",
+            "If known factor IX inhibitor or inadequate response, involve hematology urgently for bypassing therapy",
+            "Deep muscle, retroperitoneal, CNS, airway, & abdominal bleeds require admission & factor support even if initial symptoms improve"
+          ]
+        },
+        {
+          "title": "Management: von Willebrand Disease",
+          "type": "steps",
+          "items": [
+            "Type 1: DDAVP isfirst line if prior response is known or likely & bleeding is not life-threatening; monitor sodium & restrict free water",
+            "Type 2A & 2M: some pts respond to DDAVP, but many need vWFcontaining concentrate for significant bleeding or procedures",
+            "Type 2B: avoid DDAVP b/c it worsens thrombocytopenia; use vWFcontaining concentrate instead",
+            "Type 2N: may mimic mild Hemophilia A b/c FVIII is low; treat major bleeding with vWFcontaining concentrate not assuming isolated FVIII deficiency",
+            "Type 3: severe disease: DDAVP is ineffective; use vWFcontaining concentrate for major bleeding, surgery, & serious trauma",
+            "For all vWD types, add tranexamic acid for mucosal/oral/gynecologic bleeding when not contraindicated; escalate to vWFcontaining concentrate for major bleeding, failed DDAVP, pregnancy/postpartum hemorrhage, or invasive procedures"
+          ]
+        },
+        {
+          "title": "Ongoing Management",
+          "type": "steps",
+          "items": [
+            "Trend bleeding, hemoglobin, & product response; repeat factor levels if guided by hematology",
+            "Immobilize & ice hemarthrosis initially; avoid joint aspiration unless directed by specialists",
+            "Monitor sodium after DDAVP & restrict free water for 24h",
+            "For GI/intracranial/retroperitoneal bleeding or surgery, continue factor support beyond first dose based on site & severity",
+            "Documentproduct, dose, time, & response: this matters for repeat dosing & transfer",
+            "Before discharge, confirm access to home factor/vWF product, hematology follow up, & return precautions"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "STAT labs",
+              "value": "CBC, type & screen, PT/INR, aPTT, fibrinogen, CMP;PT/PTT can nl. in mild vWD."
+            },
+            {
+              "key": "Factor / vWF panel",
+              "value": "Factor VIII, factor IX, vWF antigen, vWF activity (ristocetin or GPIbbased), ± factor XI if needed."
+            },
+            {
+              "key": "If C/F inhibitor",
+              "value": "Mixing study & Besda inhibitor assay.Don't wait for result before treating major bleed."
+            },
+            {
+              "key": "Imaging",
+              "value": "CT head for trauma/headache; CTA/CT as needed for neck, retroperitoneal, GI, or intramuscular bleeding."
+            },
+            {
+              "key": "Supportive",
+              "value": "Type & cross, serial hemoglobin, joint circumference/compartment checks, strict I&O if giving DDAVP."
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Recombinant factor VIII",
+              "dose": "Dose per hematology/product guide; typical major bleed target FVIII 80-100%",
+              "route": "IV",
+              "contraindications": "Known inhibitor (relative: may fail)",
+              "notes": "Firstline for Hemophilia A major bleeding. If inhibitor present, may need bypassing agent instead."
+            },
+            {
+              "name": "Recombinant factor IX",
+              "dose": "Dose per hematology/product guide; typical major bleed target FIX 60-100%",
+              "route": "IV",
+              "contraindications": "Known inhibitor (relative: may fail)",
+              "notes": "Firstline for Hemophilia B major bleeding. Longer halflife than FVIII products."
+            },
+            {
+              "name": "vWFcontaining concentrate",
+              "dose": "Per product guide (HumateP, Wilate, Vonvendibased strategy)",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Preferred for major vWD bleeding, type 3 disease, DDAVP nonresponse, or when DDAVP is contraindicated."
+            },
+            {
+              "name": "DDAVP (desmopressin)",
+              "dose": "0.3 mcg/kg IV over 20-30 min or 150-300 mcg IN depending on weight",
+              "route": "IV / IN",
+              "contraindications": "Type 2B vWD, significant hyponatremia risk, unstable CAD",
+              "notes": "Useful for mild Hemophilia A & many type 1 vWD pts if known responder. Restrict free water & monitor sodium."
+            },
+            {
+              "name": "Tranexamic acid",
+              "dose": "10 mg/kg IV q8h or 1300 mg PO TID",
+              "route": "IV / PO",
+              "contraindications": "Gross hematuria, high risk urinary tract clot retention",
+              "notes": "Excellent adjunct for mucosal, oral, epistaxis, gynecologic, & dental bleeding."
+            },
+            {
+              "name": "rFVIIa (NovoSeven)",
+              "dose": "Per hematology guidance",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "Bypassing agent for hemophilia with inhibitors when factor replacement is ineffective."
+            },
+            {
+              "name": "FEIBA",
+              "dose": "Per hematology guidance",
+              "route": "IV",
+              "contraindications": "Use caution with concomitant emicizumab",
+              "notes": "Alternative bypassing agent for inhibitor pts; thrombosis risk rises with emicizumab."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Pabinger I, Fries D, Schöchl H, et al. Tranexamic Acid for Treatment and Prophylaxis of Bleeding and Hyperfibrinolysis. Wiener Klinische Wochenschrift. 2017;129(910):303316. https://doi.org/10.1007/s00508-017-1194-y",
+            "Levy JH, Dutton RP, Hemphill JC III, et al. Multidisciplinary Approach to the Challenge of Hemostasis. Anesthesia & Analgesia. 2010;110(2):354364. https://doi.org/10.1213/ANE.0b013e3181c84ba5",
+            "Levi M, Toh CH, Thachil J, Watson HG. Guidelines for the Diagnosis and Management of Disseminated Intravascular Coagulation. British Journal of Haematology. 2009;145(1):2433. https://doi.org/10.1111/j.1365-2141.2009.07600.x"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Transfusion Reactions",
+      "subtitle": "Fever, dyspnea, hypotension, hemolysis, rash during transfusion",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "STOP transfusion now: clamp tubing, keep IV access open with NS",
+            "ABCs: check airway, breathing, hemodynamics. monitoring",
+            "Notify blood bank: save blood product bag & tubing for analysis",
+            "Draw: type & screen (new), DAT (Coombs), CBC, haptoglobin, LDH, bilirubin, free Hgb, fibrinogen",
+            "If anaphylaxis: IM epinephrine 0.3-0.5mg, IV fluids, Stop blood product",
+            "If TRALI: supportive care, O2, may need intubation & mechanical ventilation. Diuretics NOT helpful (noncardiogenic edema)",
+            "If TACO: sit upright, O2, furosemide 20-40mg IV, consider NIPPV. Volume overload: not permeability",
+            "If acute hemolytic: aggressive IVF (NS 200-300 mL/h) to maintain UOP >1 mL/kg/h, prevent renal failure from free Hgb. Send type & screen, DAT, hemolysis labs"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Transfusion hx: prior reactions (type, severity), prior antibodies",
+            "Blood product type & volume being transfused, rate, how long into transfusion",
+            "Pretransfusion vitals vs current vitals: ↑ temp, ↑ HR, ↓/↑ BP, ↓ SpO2",
+            "Volume status: cardiac hx ( CHF: TACO risk), renal failure, recent fluid balance",
+            "PreMeds given? (acetaminophen, diphenhydramine: no longer routinely suggested but still common)",
+            "Reason for transfusion, Hgb pretransfusion, how many units already given",
+            "IgA deficiency ( anaphylaxis risk: need IgAdeficient products)",
+            "Multiparous female or prior pregnancies ( ↑ TRALI risk from donor antibodies)"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Vitals: temp (fever: FNHTR, hemolytic, sepsis), BP ( ↓ in hemolytic, TRALI, anaphylaxis; ↑ in TACO), HR, SpO2, RR",
+            "Respiratory: crackles (TACO), bilateral infiltrates on CXR (TRALI vs TACO), wheezing (anaphylaxis), dyspnea",
+            "Skin: urticaria (allergic), flushing, angioedema (anaphylaxis), jaundice (hemolysis)",
+            "Flank/back pain, dark urine ( hemolytic)",
+            "Rigors, chills (FNHTR, hemolytic, sepsis)",
+            "JVD, peripheral edema (TACO)",
+            "Mentation changes (hemolytic, TRALI, anaphylaxis)"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "FNHTR",
+              "value": "Febrile nonhemolytic transfusion reaction: most common (1:300 pRBC, 1:10 plt). Temp ↑ ≥1°C during/after transfusion. Cytokinemed.. Dx of exclusion: must r/o hemolytic rxn & sepsis first"
+            },
+            {
+              "key": "TACO",
+              "value": "Transfusionassociated circulatory overload (1:700). Volume overload: pulm edema. HTN, ↑ JVP, ↑ BNP. Responds to diuretics. MCC of transfusionrelated death"
+            },
+            {
+              "key": "TRALI",
+              "value": "Transfusionrelated acute lung injury (1:5,000). Noncardiogenic pulm edema within 6h of transfusion. ↓ BP, fever, bilateral infiltrates, nl BNP. Diuretics do NOT help: supportive care only"
+            },
+            {
+              "key": "Acute hemolytic",
+              "value": "ABO incompatibility: medical emergency. Fever, flank pain, hemoglobinuria, DIC, renal failure, shock. Positive DAT. Mortality 5-10% if recognized early"
+            },
+            {
+              "key": "Allergic / Anaphylactic",
+              "value": "Minor allergic (urticaria) = 1:100. Anaphylaxis = 1:40,000. IgAdeficient pts at highest risk of anaphylaxis. Treat with epi"
+            },
+            {
+              "key": "Bacterial sepsis",
+              "value": "Contaminated product: esp platelets (stored at room temp). High fever, rigors, ↓ BP, shock. Gram stain & culture of product"
+            }
+          ]
+        },
+        {
+          "title": "TRALI vs TACO",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Onset",
+              "value": "TRALI: acute, within 6h. TACO: gradual, during/shortly after transfusion"
+            },
+            {
+              "key": "BP",
+              "value": "TRALI: ↓ BP . TACO: HTN"
+            },
+            {
+              "key": "Temperature",
+              "value": "TRALI: febrile. TACO: nl."
+            },
+            {
+              "key": "BNP / NTproBNP",
+              "value": "TRALI: nl.. TACO: elevated"
+            },
+            {
+              "key": "CVP / JVP",
+              "value": "TRALI: nl. TACO: elevated"
+            },
+            {
+              "key": "CXR",
+              "value": "Both: bilateral infiltrates / pulm edema"
+            },
+            {
+              "key": "Fluid balance",
+              "value": "TRALI: net even/negative. TACO: net positive (volume overload)"
+            },
+            {
+              "key": "Response to diuretics",
+              "value": "TRALI: no: noncardiogenic. TACO: yes: volume overload"
+            },
+            {
+              "key": "Treatment",
+              "value": "TRALI: supportive (O2, MV if needed). TACO: upright positioning, diuretics, O2, slow future transfusions"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Stop the transfusion immediately, keep the IV open with normal saline, recheck pt and product identification, and notify the blood bank.",
+            "Send the remaining blood product plus post-reaction blood and urine samples for repeat type and screen, DAT, hemolysis evaluation, and culture when sepsis is a concern.",
+            "Acute hemolytic reaction: ICU plus renal support, aggressive isotonic fluids to maintain urine output, treat hyperkalemia, shock, and DIC, and send repeat ABO or crossmatch with full hemolysis labs.",
+            "FNHTR: exclude hemolysis and sepsis first, give acetaminophen or meperidine for rigors, and only resume transfusion if evaluation is negative and symptoms fully resolve.",
+            "Allergic reaction: pause for urticaria and give diphenhydramine; for bronchospasm, hypotension, or airway edema, stop permanently and treat as anaphylaxis with IM epinephrine plus oxygen, IV fluids, bronchodilator, antihistamines, and steroids.",
+            "TACO: stop transfusion, sit upright, give oxygen, and diurese; think hypertension, positive fluid balance, elevated BNP or CVP, and pulmonary edema on chest x-ray.",
+            "TRALI: stop transfusion and give supportive respiratory care with oxygen or lung-protective ventilation; avoid diuretics and distinguish from TACO by normal or low BNP or CVP and more frequent hypotension.",
+            "Delayed hemolytic reaction: confirm with DAT or antibody testing and hemolysis labs; avoid further transfusion if possible, use extended antigen-matched blood if transfusion is unavoidable, and treat severe hyperhemolysis with hematology-guided steroids plus IVIG and possible complement blockade.",
+            "Septic transfusion reaction: stop transfusion, start broad-spectrum antibiotics immediately, get pt and product cultures, and manage as sepsis with fluids and vasopressors if needed."
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "For all reactions",
+              "value": "Stop transfusion, save product & tubing, notify blood bank, new type & screen"
+            },
+            {
+              "key": "DAT (direct Coombs)",
+              "value": "Positive = antibodycoated RBCs (acute hemolytic rxn)"
+            },
+            {
+              "key": "Hemolysis labs",
+              "value": "↑ LDH, ↑ indirect bilirubin, ↓ haptoglobin (often undetectable), ↑ free Hgb, ↑ reticulocytes"
+            },
+            {
+              "key": "UA",
+              "value": "Hemoglobinuria (pink/red urine, dip + for blood, no RBCs on micro)"
+            },
+            {
+              "key": "CBC",
+              "value": "↓ Hgb (if hemolytic), ↓ plt (DIC), check vs pretransfusion"
+            },
+            {
+              "key": "Coags + fibrinogen",
+              "value": "DIC screen if hemolytic rxn suspected (↑ PT/INR, ↑ PTT, ↓ fibrinogen, ↑ Ddimer)"
+            },
+            {
+              "key": "BNP / NTproBNP",
+              "value": "TACO vs TRALI differentiation. ↑ = TACO"
+            },
+            {
+              "key": "BCxs (pt + product)",
+              "value": "If septic transfusion rxn suspected"
+            },
+            {
+              "key": "CXR",
+              "value": "Bilateral infiltrates (TRALI, TACO). Cardiomegaly (TACO)"
+            },
+            {
+              "key": "Tryptase",
+              "value": "If anaphylaxis suspected: send within 1-2h"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Acetaminophen",
+              "dose": "650-1000mg PO/IV",
+              "route": "PO / IV",
+              "contraindications": "Severe hepatic failure",
+              "notes": "For FNHTR (fever/rigors). Only after hemolytic rxn r/o"
+            },
+            {
+              "name": "Diphenhydramine",
+              "dose": "25-50mg IV",
+              "route": "IV",
+              "contraindications": "None absolute",
+              "notes": "For mild allergic rxn (urticaria). May cautiously restart transfusion after sx resolve"
+            },
+            {
+              "name": "Epinephrine (IM)",
+              "dose": "0.3-0.5mg IM (1:1000) q5-15min",
+              "route": "IM",
+              "contraindications": "None absolute in anaphylaxis",
+              "notes": "Firstline for anaphylactic transfusion rxn. Do NOT restart product"
+            },
+            {
+              "name": "Furosemide",
+              "dose": "20-40mg IV",
+              "route": "IV",
+              "contraindications": "Hypovolemia",
+              "notes": "For TACO only: diuresis for volume overload. Does NOT work for TRALI"
+            },
+            {
+              "name": "NS",
+              "dose": "200-300 mL/h IV, titrate to UOP >1 mL/kg/h",
+              "route": "IV",
+              "contraindications": "TACO (volume overload)",
+              "notes": "For acute hemolytic rxn: aggressive IVF to maintain renal perfusion & flush free Hgb. Prevent AKI"
+            },
+            {
+              "name": "Meperidine",
+              "dose": "25-50mg IV",
+              "route": "IV",
+              "contraindications": "MAOIs, seizure hx, renal failure",
+              "notes": "For severe rigors unresponsive to acetaminophen. Rarely needed"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Delaney M, Wendel S, Bercovitz RS, et al. Transfusion Reactions: Prevention, Diagnosis, and Treatment. The Lancet. 2016;388(10061):28252836. https://doi.org/10.1016/S0140-6736(15)01313-6",
+            "AABB. Standards for Blood Banks and Transfusion Services, 33rd Edition. 2022.",
+            "Panch SR, MontemayorGarcia C, Klein HG. Hemolytic Transfusion Reactions. New England Journal of Medicine. 2019;381(2):150162. https://doi.org/10.1056/NEJMra1802338"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acute Chest Syndrome",
+      "subtitle": "Chest pain, fever, hypoxemia, infiltrate, sickle cell disease",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "ABCs: O2 to maintain SpO2 ≥95%. monitoring. Largebore IV access",
+            "Simple transfusion: target Hgb 10 g/dL (do NOT exceed: ↑ viscosity). For moderate ACS without rapid decline",
+            "Exchange transfusion (automated erythrocytapheresis): for severe ACS (SpO2 <90% despite O2, multilobar infiltrates, rapid deterioration, HgbS >30%). Target HgbS <30%, Hgb ~10",
+            "Bronchodilators (albuterol neb q4-6h): if wheezing or reactive airway component",
+            "Avoid excessive O2 (rebound sickling when removed), excessive IVF, transfusion to Hgb >10"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Sickle cell genotype: HbSS (most severe), HbSC, HbSbeta thal",
+            "Baseline Hgb & HgbS% (for transfusion targets)",
+            "Triggers: VOC (vasoocclusive crisis): ACS is most common complication of hospitalized VOC pts. Also: infection, fat embolism from bone marrow necrosis, PE, postop (esp Abd/chest surgery)",
+            "Hydroxyurea use & compliance (↓ ACS episodes)",
+            "Prior ACS episodes: frequency, severity, prior exchange transfusions",
+            "Alloimmunization status: sickle pts develop alloantibodies from frequent transfusions: need extended phenotypematched blood",
+            "Iron overload status (chronic transfusions)",
+            "Recent surgery, anesthesia (↑ ACS risk postop)"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Fever + new pulmonary infiltrate + respiratory sx in sickle cell pt = ACS until proven otherwise",
+            "Respiratory: tachypnea, ↓ SpO2, crackles, wheezing, ↓ breath sounds, pleuritic chest pain",
+            "Fever (common: does not differentiate infection from infarction)",
+            "Pain: chest wall, rib, sternal: distinguish from VOC pain vs new ACS",
+            "Abd: splinting from pain, hepatomegaly, RUQ tenderness (hepatic sequestration)",
+            "Signs of worsening anemia: pallor, tachycardia, fatigue, jaundice (hemolysis)",
+            "Neuro: AMS, focal deficits (concurrent stroke: can cooccur with ACS)"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Acute Chest Syndrome",
+              "value": "New pulmonary infiltrate on CXR + ≥1 of: fever (>38.5°C), chest pain, respiratory sx (cough, dyspnea, tachypnea, ↓ SpO2) in sickle cell pt"
+            },
+            {
+              "key": "Pathophysiology",
+              "value": "Vasoocclusion in pulmonary vasculature + infection + fat embolism from bone marrow necrosis: V/Q mismatch, atelectasis, infarction: cycle of sickling"
+            },
+            {
+              "key": "Leading cause of death",
+              "value": "ACS is #1 cause of death in sickle cell dz & #1 cause of ICU admission"
+            },
+            {
+              "key": "Exchange transfusion",
+              "value": "Automated erythrocytapheresis: removes HgbS cells & replaces with HgbA. Target HgbS <30%, Hgb ~10. Avoids hyperviscosity"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Infection",
+              "value": "Most common identifiable cause (~30%). Atypicals (Mycoplasma, Chlamydia) + typical bacteria (S. pneumo, H. flu)"
+            },
+            {
+              "key": "Fat embolism",
+              "value": "From bone marrow necrosis during VOC. Leads to lung injury & ACS"
+            },
+            {
+              "key": "Pulmonary infarction",
+              "value": "In situ thrombosis / vasoocclusion in pulm vasculature"
+            },
+            {
+              "key": "Hypoventilation / atelectasis",
+              "value": "Rib/chest wall pain from VOC: splinting: atelectasis: ACS. Why IS q2h is critical"
+            },
+            {
+              "key": "DDx",
+              "value": "PNA (overlap), PE, VOC without ACS (no infiltrate), ARDS, heart failure, fat embolism syndrome, pulm hemorrhage"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Start empiric abx: ceftriaxone 2g IV + azithromycin 500mg IV/PO to cover typical + atypical triggers",
+            "Control pain aggressively & use incentive spirometry q2h while awake: pain/splinting drives atelectasis & worsens ACS",
+            "Give judicious IVF only; avoid overhydration. Add albuterol if wheezing or reactive airway component is present",
+            "Escalate transfusion based on severity: simple transfusion for moderate ACS, exchange transfusion for severe hypoxemia, multilobar disease, or rapid decline",
+            "Add supportive care: DVT prophylaxis, repeat CXR/oxygen assessment, & ICUlevel monitoring if worsening"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "CXR",
+              "value": "New infiltrate required for dx. May lag behind clinical sx by 24-48h. Repeat if initially negative but clinical concern"
+            },
+            {
+              "key": "CBC with retic",
+              "value": "Hgb (↓ from baseline: transfusion threshold), reticulocyte count, WBC"
+            },
+            {
+              "key": "Hgb electrophoresis",
+              "value": "HgbS%: guides exchange transfusion (target <30%)"
+            },
+            {
+              "key": "Type & screen / crossmatch",
+              "value": "Extended phenotype match: sickle pts have high alloimmunization rates"
+            },
+            {
+              "key": "BMP, LDH, bilirubin, retics",
+              "value": "Hemolysis markers, renal function"
+            },
+            {
+              "key": "BCxs",
+              "value": "If febrile: r/o bacteremia"
+            },
+            {
+              "key": "ABG/VBG",
+              "value": "Oxygenation, ventilation, A gradient"
+            },
+            {
+              "key": "CTPE",
+              "value": "If PE suspected (can coexist). Incidental finding of in situ thrombosis common in SCD"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Ceftriaxone",
+              "dose": "2g IV daily",
+              "route": "IV",
+              "contraindications": "Cephalosporin allergy",
+              "notes": "Empiric coverage for typical bacteria (S. pneumo, H. flu). Combine with azithromycin"
+            },
+            {
+              "name": "Azithromycin",
+              "dose": "500mg IV/PO daily",
+              "route": "IV or PO",
+              "contraindications": "QT prolongation (relative)",
+              "notes": "Atypical coverage (Mycoplasma, Chlamydia): common ACS triggers"
+            },
+            {
+              "name": "Morphine / Hydromorphone",
+              "dose": "Morphine 2-4mg IV q2-4h PRN or hydromorphone 0.5-1mg IV q3-4h PRN. Consider PCA",
+              "route": "IV",
+              "contraindications": "Resp depression (monitor closely), severe hepatic failure",
+              "notes": "Adequate pain control is critical: splinting: atelectasis: worsens ACS. Avoid meperidine (seizure risk in SCD). Avoid oversedation"
+            },
+            {
+              "name": "Albuterol",
+              "dose": "2.5mg neb q4-6h PRN",
+              "route": "Nebulizer",
+              "contraindications": "None significant",
+              "notes": "If wheezing or reactive airway component. ~30% of SCD pts have airway hyperreactivity"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Yawn BP, Buchanan GR, AfenyiAnnan AN, et al. Management of Sickle Cell Disease: Summary of the 2014 EvidenceBased Report by Expert Panel Members (NHLBI). JAMA. 2014;312(10):10331048. https://doi.org/10.1001/jama.2014.10517",
+            "Howard J, Hart N, RobertsHarewood M, et al. Guideline on the Management of Acute Chest Syndrome in Sickle Cell Disease. British Journal of Haematology. 2015;169(4):492505. https://doi.org/10.1111/bjh.13348",
+            "DeBaun MR, Jordan LC, King AA, et al. ASH 2020 Guidelines for Sickle Cell Disease: Prevention, Diagnosis, and Treatment of Cerebrovascular Disease in Children and Adults. Blood Advances. 2020;4(8):15541588. https://doi.org/10.1182/bloodadvances.2019001142"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Immune Thrombocytopenia (ITP)",
+      "subtitle": "Petechiae, mucosal bleeding, severe thrombocytopenia, otherwise normal coagulation",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "check for life-threatening bleeding: ICH, GI hemorrhage, mucosal hemorrhage, hemodynamic instability",
+            "Type & screen, crossmatch if surgical intervention possible",
+            "If critical bleeding or plt <10,000 with active bleeding: platelet transfusion (even though consumed rapidly) + IVIG 1g/kg IV + methylprednisolone 1g IV daily x3 days + consider TXA"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "New vs chronic ITP (new: <3 months, persistent: 3-12 months, chronic: >12 months)",
+            "Meds: heparin ( r/o HIT), quinine, sulfonamides, vancomycin, GPIIb/IIIa inhibitors, vaccines",
+            "Recent infections: viral URI, HIV, HCV, H. pylori, CMV, EBV",
+            "Autoimmune dz: SLE (lupus), antiphospholipid syndrome, CLL, lymphoma",
+            "Pregnancy (gestational thrombocytopenia vs ITP vs HELLP vs TTP)",
+            "Prior plt counts: sudden ↓ vs chronic low baseline",
+            "Bleeding hx: mucocutaneous (petechiae, purpura, gingival bleeding, menorrhagia, epistaxis), GI, hematuria, ICH",
+            "Prior treatments for ITP: steroids, IVIG, antiD, splenectomy, TPO agonists",
+            "Family hx of bleeding disorders"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Mucocutaneous bleeding pattern: petechiae, purpura, ecchymoses (nonpalpable: palpable purpura: think vasculitis/TTP)",
+            "Wet purpura: blood blisters in oral mucosa: marker of severe disease & ↑ ICH risk",
+            "Gingival bleeding, epistaxis, menorrhagia",
+            "Splenomegaly: absence expected in ITP: if spleen palpable, consider or dx (lymphoma, liver dz, splenic sequestration)",
+            "Signs of underlying cause: lymphadenopathy (lymphoma), malar rash (SLE), hepatomegaly (liver dz)",
+            "Neuro exam: headache, AMS, focal deficits: r/o ICH (CT head now)",
+            "No joint hemarthroses or deep tissue bleeds (that's coagulation factor deficiency, not platelet disorder)"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ITP",
+              "value": "Immunemed. platelet destruction: autoantibodies (usually antiGPIIb/IIIa) target platelets for splenic destruction. Dx of exclusion: r/o or causes of thrombocytopenia"
+            },
+            {
+              "key": "Platelet count thresholds",
+              "value": "<10,000: spontaneous bleeding risk (esp ICH). <20,000: tx indicated. <30,000: tx if bleeding or procedure. >30,000 + no bleeding: may observe"
+            },
+            {
+              "key": "Wet purpura",
+              "value": "Blood blisters in oral mucosa. Marker of severe ITP with ↑ risk of ICH. Warrants aggressive tx"
+            },
+            {
+              "key": "Primary vs secondary ITP",
+              "value": "Primary: isolated thrombocytopenia, no identifiable cause. Secondary: from underlying condition (SLE, HIV, HCV, drugs, lymphoma)"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Must r/o",
+              "value": "TTP/HUS (MAHA + thrombocytopenia + AKI/neuro sx), HIT (plt ↓ 5-10d after heparin), DIC (↑ PT/INR, ↓ fibrinogen), drug induced, bone marrow failure, splenic sequestration, pseudothrombocytopenia (EDTA artifact: check citrated tube)"
+            },
+            {
+              "key": "Secondary ITP causes",
+              "value": "SLE, antiphospholipid syndrome, HIV, HCV, H. pylori, CLL, lymphoma, common variable immunodeficiency, postvaccine"
+            },
+            {
+              "key": "DDx for thrombocytopenia",
+              "value": "↓ Production: bone marrow failure, chemo, radiation, B12/folate deficiency, MDS. ↑ Destruction: ITP, TTP/HUS, HIT, DIC. Sequestration: hypersplenism, cirrhosis. Dilutional: massive transfusion"
+            },
+            {
+              "key": "Key distinguishing features",
+              "value": "ITP: isolated plt ↓, nl. smear (or ↑ megakaryocytes). TTP: MAHA (schistocytes), ↑ LDH, ↓ haptoglobin. DIC: ↑ PT, ↓ fibrinogen. HIT: 5-10d postheparin"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "First decide if this is critical bleeding, noncritical bleeding, or isolated thrombocytopenia",
+            "If critical bleeding: give platelets + IVIG + high dose steroids now, hold anticoagulants/antiplatelets, & control the bleed source",
+            "If plt <30,000 with significant but nonlife-threatening bleeding: start dexamethasone 40mg PO/IV daily x4 days preferred, or prednisone 1 mg/kg/day",
+            "If plt <20,000-30,000 without bleeding: treat with corticosteroids; if plt >30,000 & no bleeding or planned procedure: observation may reasonable",
+            "Avoid IM injections, rectal exams, & unnecessary procedures while platelets arelow"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "CBC with peripheral smear",
+              "value": "Isolated thrombocytopenia with nl. WBC & Hgb (unless bleeding). Smear: large platelets (young), NO schistocytes (schistocytes: TTP/DIC)"
+            },
+            {
+              "key": "Retic count",
+              "value": "nl. (unless bleeding)"
+            },
+            {
+              "key": "Coags (PT/INR, PTT, fibrinogen)",
+              "value": "nl. in ITP: if abnl., consider DIC, liver dz, or coagulopathy"
+            },
+            {
+              "key": "Peripheral blood smear",
+              "value": "Mandatory: r/o schistocytes (TTP), blasts (leukemia), pseudothrombocytopenia (clumps)"
+            },
+            {
+              "key": "LDH, haptoglobin, bilirubin",
+              "value": "r/o hemolysis (TTP/HUS/Evans syndrome)"
+            },
+            {
+              "key": "DAT (Coombs)",
+              "value": "If anemia present: Evans syndrome = ITP + AIHA"
+            },
+            {
+              "key": "HIV, HCV",
+              "value": "Screen all new ITP pts: secondary causes that change management"
+            },
+            {
+              "key": "ANA, antiphospholipid Ab",
+              "value": "If SLE or APLS suspected"
+            },
+            {
+              "key": "H. pylori testing",
+              "value": "Eradication can improve plt count"
+            },
+            {
+              "key": "CT head",
+              "value": "Immediately if headache, AMS, or focal neuro deficit: r/o ICH"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Dexamethasone",
+              "dose": "40mg PO/IV daily x4 days",
+              "route": "PO or IV",
+              "contraindications": "Active untreated infection (relative)",
+              "notes": "Preferred first line over prednisone: faster plt response, shorter course. Plt rise in 2-4 days. Can repeat cycles"
+            },
+            {
+              "name": "Prednisone",
+              "dose": "1 mg/kg/day PO (max 80mg) x2-4 wks, then taper",
+              "route": "PO",
+              "contraindications": "Active untreated infection (relative)",
+              "notes": "Alternative to dexamethasone. Slower response, longer course, more side effects from prolonged use"
+            },
+            {
+              "name": "IVIG",
+              "dose": "1 g/kg IV x1-2 days",
+              "route": "IV",
+              "contraindications": "IgA deficiency (anaphylaxis risk)",
+              "notes": "For life-threatening bleeding or preprocedure. Rapid plt rise in 24-48h (faster than steroids). Temporary effect (2-4 wks). Combine with steroids"
+            },
+            {
+              "name": "Platelet transfusion",
+              "dose": "1 apheresis unit or 6pack pooled",
+              "route": "IV",
+              "contraindications": "Avoid if not actively bleeding (consumed rapidly, rarely effective alone)",
+              "notes": "Only for life-threatening bleeding in ITP. Consumedbut provides transient hemostasis. Always combine with IVIG + steroids"
+            },
+            {
+              "name": "Tranexamic acid (TXA)",
+              "dose": "1g IV q8h or 1g PO TID",
+              "route": "IV or PO",
+              "contraindications": "Active intravascular clotting, hematuria from upper urinary tract",
+              "notes": "Adjunct for mucosal bleeding (epistaxis, menorrhagia, GI). Antifibrinolytic"
+            },
+            {
+              "name": "Aminocaproic acid",
+              "dose": "5g PO/IV load, then 1g/h",
+              "route": "PO or IV",
+              "contraindications": "DIC, active intravascular clotting",
+              "notes": "Alternative antifibrinolytic to TXA for mucosal bleeding"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Neunert C, Terrell DR, Arnold DM, et al. ASH 2019 Guidelines for Immune Thrombocytopenia. Blood Advances. 2019;3(23):38293866. https://doi.org/10.1182/bloodadvances.2019000966",
+            "Provan D, Arnold DM, Bussel JB, et al. Updated International Consensus Report on the Investigation and Management of Primary Immune Thrombocytopenia. Blood Advances. 2019;3(22):37803817. https://doi.org/10.1182/bloodadvances.2019000812"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TMA / TTP / HUS",
+      "subtitle": "MAHA, thrombocytopenia, AKI, neuro changes, hemolysis labs",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "Plasma exchange (PLEX): definitive tx. Contact blood bank/apheresis team IMMEDIATELY.Don't wait for ADAMTS13 results",
+            "Do NOT transfuse platelets: worsens microvascular thrombosis & organ damage. Exception: life-threatening bleeding only",
+            "IVF, monitor UOP, check Cr q6-12h (renal involvement)"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Acute onset: AMS, petechiae/purpura, fatigue, dark urine, ↓ UOP, Abd pain",
+            "Preceding diarrhea (bloody: Shiga toxin HUS: E. coli O157:H7, Shigella)",
+            "meds: quinine, calcineurin inhibitors (tacrolimus, cyclosporine), gemcitabine, bevacizumab, ticlopidine, clopidogrel",
+            "Pregnancy / postpartum (TTP, HELLP, preeclampsia overlap)",
+            "HIV, autoimmune dz (SLE: secondary TMA)",
+            "Transplant: BMT or solid organ (calcineurin inhibitor toxicity)",
+            "Recurrent TTP episodes (relapsing acquired TTP: may need rituximab)",
+            "Family hx (congenital TTP: UpshawSchulman syndrome, hereditary ADAMTS13 deficiency)"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Classic TTP pentad (FAT RN): Fever, Anemia (MAHA), Thrombocytopenia, Renal dysfunction, Neurologic sx. All 5 rarely present: do NOT wait for full pentad",
+            "Neuro: AMS, headache, seizures, focal deficits, visual changes, coma ( present in ~60%)",
+            "Skin: petechiae, purpura, jaundice (hemolysis)",
+            "Renal: ↓ UOP, edema, HTN (more prominent in HUS)",
+            "Abd: pain, N/V, bloody diarrhea (Shigatoxin HUS)",
+            "Cardiac: chest pain, arrhythmia (myocardial microthrombi: underrecognized cause of death)",
+            "Pallor, tachycardia, fatigue (severe anemia from MAHA)"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "TMA",
+              "value": "Thrombotic microangiopathy: umbrella term for MAHA + thrombocytopenia + organ damage from microvascular thrombosis. Includes TTP, HUS, & or causes"
+            },
+            {
+              "key": "TTP",
+              "value": "Acquired autoimmune (antiADAMTS13 antibodies) or congenital (UpshawSchulman). ADAMTS13 <10% = TTP. Deficiency: ultralarge vWF multimers: platelet microthrombi"
+            },
+            {
+              "key": "MAHA",
+              "value": "Microangiopathic hemolytic anemia: schistocytes on smear (fragmented RBCs), ↑ LDH, ↓ haptoglobin, ↑ indirect bilirubin, negative DAT"
+            },
+            {
+              "key": "Shigatoxin HUS (STHUS)",
+              "value": "Typical HUS: bloody diarrhea: E. coli O157:H7 or Shigella. Mainly pediatric. Supportive care only: PLEX & abx NOT beneficial. Avoid antidiarrheals"
+            },
+            {
+              "key": "Atypical HUS (aHUS)",
+              "value": "Complementmed. TMA. Primarily renal. Tx: eculizumab (antiC5 monoclonal ab). PLEX is bridge only"
+            },
+            {
+              "key": "PLASMIC score",
+              "value": "Predicts ADAMTS13 <10%. Score <5 = effectively r/o TTP (99% NPV). Factors: plt <30K, hemolysis, no cancer, no transplant, MCV <90, INR <1.5, Cr <2.0"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "TTP causes",
+              "value": "Acquired autoimmune (most common adult TMA), congenital ADAMTS13 deficiency (UpshawSchulman), pregnancyassociated"
+            },
+            {
+              "key": "HUS causes",
+              "value": "Shigatoxin (E. coli O157, Shigella), complementmed. (aHUS), drug induced"
+            },
+            {
+              "key": "Druginduced TMA",
+              "value": "Calcineurin inhibitors (tacrolimus, cyclosporine), quinine, gemcitabine, bevacizumab, mitomycin C, ticlopidine"
+            },
+            {
+              "key": "DDx for MAHA + thrombocytopenia",
+              "value": "TTP, HUS, DIC (↑ PT, ↓ fibrinogen), HELLP syndrome, malignant HTN, scleroderma renal crisis, catastrophic APLS, prosthetic valve hemolysis, disseminated cancer"
+            },
+            {
+              "key": "TTP vs DIC",
+              "value": "TTP: nl. PT/INR & fibrinogen. DIC: ↑ PT/INR, ↓ fibrinogen, ↑ Ddimer. Both have MAHA & thrombocytopenia"
+            },
+            {
+              "key": "TTP vs HUS",
+              "value": "TTP: neuro predominant, ADAMTS13 <10%. HUS: renal predominant, ± bloody diarrhea, ADAMTS13 nl."
+            }
+          ]
+        },
+        {
+          "title": "General TMA Management",
+          "type": "steps",
+          "items": [
+            "MAHA + thrombocytopenia = TTP until proven otherwise while you send confirmatory studies",
+            "Stop potential triggers: quinine, calcineurin inhibitors, gemcitabine, bevacizumab, clopidogrel / ticlopidine, offending chemo or transplant meds",
+            "Support endorgan perfusion: isotonic IVF if not overloaded, strict I&Os, telemetry, serial CBC / LDH / Cr",
+            "RBC transfusion is appropriate for symptomatic anemia; avoid platelet transfusion unless life-threatening hemorrhage or urgent procedure",
+            "Involve hematology early for all suspected TMAs, plus nephrology if AKI / dialysis risk & blood bank / apheresis if TTP remains on table"
+          ]
+        },
+        {
+          "title": "TTP Management",
+          "type": "steps",
+          "items": [
+            "If TTP suspected: treat empirically: mortality >90% untreatedDon't wait for ADAMTS13 result",
+            "Start PLEX now & continue daily until plt >150K for 2 days & hemolysis resolves",
+            "Give steroids: methylprednisolone 1g IV daily x3 days, then prednisone 1mg/kg/day",
+            "Add caplacizumab 11mg IV before first PLEX, then 11mg SC daily after each PLEX & continue 30 days after PLEX completion",
+            "If PLEX is delayed, give FFP 15-30 mL/kg as bridge after drawing ADAMTS13 & inhibitor studies",
+            "Consider rituximab early for refractory, relapsing, autoimmune, or severe disease with slow platelet recovery"
+          ]
+        },
+        {
+          "title": "Shigatoxin HUS Management",
+          "type": "steps",
+          "items": [
+            "Supportive care is definitive tx. Careful isotonic IVF early, monitor UOP, daily weights, electrolytes, CBC, LDH, & Cr",
+            "Avoid antibiotics & antimotility agents in suspected enterohemorrhagic E. coli: may increase toxin exposure & worsen HUS",
+            "Manage complications: transfuse RBCs for symptomatic anemia, treat severe HTN, correct electrolytes, & start dialysis if needed",
+            "Do NOT use routine PLEX or eculizumab for typical Shigatoxin HUS unless another TMA phenotype is emerging",
+            "Escalate level of care for worsening AKI, encephalopathy, severe colitis, fluid overload, or dialysis need"
+          ]
+        },
+        {
+          "title": "Atypical HUS Management",
+          "type": "steps",
+          "items": [
+            "Suspect aHUS when renalpredominant TMA has nl. / nearnl. ADAMTS13 & no convincing Shigatoxin trigger",
+            "Start eculizumab (or ravulizumab if your center has it per local protocol) as definitive complement blockade once meningococcal prophylaxis plan is addressed",
+            "PLEX is not definitive for aHUS, but may used only as a temporary bridge while diagnosis is clarified & complement inhibition is arranged",
+            "Involve nephrology early: many pts need dialysis support & close renal recovery monitoring",
+            "Screen for complementmed. / secondary triggers: pregnancy, transplant, infection, autoimmune disease, malignant HTN, & offending meds"
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ADAMTS13 activity",
+              "value": "<10% = TTP. 10-20% = equivocal. >20% = not TTP. Draw BEFORE starting PLEX. Also send ADAMTS13 inhibitor/antibody"
+            },
+            {
+              "key": "PLASMIC score",
+              "value": "Calculate now: plt <30K, hemolysis markers, no active cancer, no transplant, MCV <90, INR <1.5, Cr <2.0. Score <5 effectively r/o TTP"
+            },
+            {
+              "key": "Peripheral smear",
+              "value": "Schistocytes (fragmented RBCs): hallmark of MAHA. Also: polychromasia, ↓ plt"
+            },
+            {
+              "key": "Hemolysis labs",
+              "value": "↑↑ LDH (often >1000), ↓↓ haptoglobin (often undetectable), ↑ indirect bilirubin, ↑ reticulocytes, negative DAT"
+            },
+            {
+              "key": "Coags",
+              "value": "PT/INR & fibrinogen nl. in TTP. If abnl.: think DIC"
+            },
+            {
+              "key": "BMP + Cr",
+              "value": "Renal function: AKI more prominent in HUS"
+            },
+            {
+              "key": "Stool studies",
+              "value": "Shiga toxin PCR / E. coli O157 culture if bloody diarrhea"
+            },
+            {
+              "key": "Complement levels",
+              "value": "C3, C4, Factor H, Factor I: if aHUS suspected"
+            },
+            {
+              "key": "Troponin, EKG",
+              "value": "Cardiac microthrombi: underrecognized cause of mortality"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Plasma exchange (PLEX)",
+              "dose": "1-1.5 plasma volumes daily until plt >150K x2 days + LDH returning to normal",
+              "route": "Central venous access (apheresis catheter)",
+              "contraindications": "None absolute in TTP (lifesaving). Hemodynamic instability (relative)",
+              "notes": "Definitive tx for TTP. Removes antiADAMTS13 antibodies & ultralarge vWF multimers. Replaces with donor ADAMTS13. Start ASAP —don't wait for ADAMTS13 result"
+            },
+            {
+              "name": "Methylprednisolone (pulse)",
+              "dose": "1g IV daily x3 days, then prednisone 1mg/kg/day PO",
+              "route": "IVthenPO",
+              "contraindications": "Active untreated infection (relative)",
+              "notes": "Suppresses autoantibody production. Start concurrent with PLEX"
+            },
+            {
+              "name": "Caplacizumab",
+              "dose": "11mg IV bolus (before first PLEX), then 11mg SC daily (after each PLEX) + 30 days after PLEX series ends",
+              "route": "IVthenSC",
+              "contraindications": "Active pathologic bleeding",
+              "notes": "AntivWF nanobody: blocks plateletvWF interaction. ↓ Thrombotic events, ↓ exacerbations, ↓ time to plt recovery. ↑ Bleeding risk: monitor closely"
+            },
+            {
+              "name": "Rituximab",
+              "dose": "375 mg/m² IV weekly x4 wks",
+              "route": "IV",
+              "contraindications": "Active HBV (reactivation risk: screen first)",
+              "notes": "For refractory or relapsing TTP. Depletes antiADAMTS13 antibodyproducing B cells. Takes 1-2 wks for effect"
+            },
+            {
+              "name": "FFP (fresh frozen plasma)",
+              "dose": "15-30 mL/kg IV",
+              "route": "IV",
+              "contraindications": "Volume overload (use cautiously)",
+              "notes": "Bridge only until PLEX available. Provides ADAMTS13 enzyme. Not substitute for PLEX"
+            },
+            {
+              "name": "Eculizumab",
+              "dose": "900mg IV weekly x4 wks, then 1200mg q2wks",
+              "route": "IV",
+              "contraindications": "Unvaccinated for meningococcus (must vaccinate + prophylactic abx)",
+              "notes": "For atypical HUS (complementmed.). AntiC5 monoclonal antibody. Not for TTP or Shigatoxin HUS"
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Zheng XL, Vesely SK, Cataland SR, et al. ISTH Guidelines for Treatment of Thrombotic Thrombocytopenic Purpura. Journal of Thrombosis and Haemostasis. 2020;18(10):24962502. https://doi.org/10.1111/jth.15010",
+            "Scully M, Cataland S, Coppo P, et al. Consensus on the Standardization of Terminology in Thrombotic Thrombocytopenic Purpura and Related Thrombotic Microangiopathies. Journal of Thrombosis and Haemostasis. 2017;15(2):312322. https://doi.org/10.1111/jth.13571",
+            "Coppo P, Cuker A, George JN. Thrombotic Thrombocytopenic Purpura: Toward Targeted Therapy and Precision Medicine. Research and Practice in Thrombosis and Haemostasis. 2019;3(1):2637."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "HLH",
+      "subtitle": "Fever, cytopenias, hepatosplenomegaly, hyperferritinemia, multiorgan failure",
+      "sections": [
+        {
+          "title": "Acute Management",
+          "type": "steps",
+          "items": [
+            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
+            "ABCs: many pts need ICU (MV/pressors in ~70% of ICU admissions)",
+            "Stat labs: CBC, CMP, ferritin, fibrinogen, triglycerides, LDH, sCD25 (sIL2R), Ddimer",
+            "Lifethreatening hyperinflammatory emergency: high mortality if untreated"
+          ]
+        },
+        {
+          "title": "Chart Check / Hx.",
+          "type": "bullets",
+          "items": [
+            "Known malignancy (esp lymphoma: 76% of malignant triggers), recent chemo/immunothetherapy",
+            "Autoimmune dz (SLE = 39% of autoimmune triggered HLH; sJIA, AOSD)",
+            "Recent infections: EBV (worst viral prognosis, 5yr survival 25%), CMV, HIV",
+            "Immunodeficiency, transplant history, immunosuppressant use",
+            "Family hx: consanguinity, infant deaths, primary HLH (median onset 3–6 months)",
+            "CART or bispecific Ab thetherapy (CRS: HLH overlap)"
+          ]
+        },
+        {
+          "title": "Exam",
+          "type": "bullets",
+          "items": [
+            "Persistent fever (≥38.5°C) unresponsive to abx",
+            "Hepatosplenomegaly (common; unusual in sepsis: distinguishing feature)",
+            "Lymphadenopathy",
+            "Petechiae, purpura, maculopapular rash",
+            "Jaundice, RUQ tenderness (hepatic involvement in ~60% adults)",
+            "Neuro: AMS, seizures, ataxia, meningism (~1/3 at dx; ↑ mortality)",
+            "Signs of multiorgan failure: pulmonary, renal, GI"
+          ]
+        },
+        {
+          "title": "Recognition / Key Concepts",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "HLH",
+              "value": "Hemophagocytic lymphohistiocytosis: overwhelming immune activation with uncontrolled macrophage/Tcell proliferation: cytokine storm: multiorgan failure"
+            },
+            {
+              "key": "Primary HLH",
+              "value": "Inherited defects in cytotoxic lymphocyte function (PRF1, UNC13D, STX11, STXBP2). Mainly infants. Requires HSCT for cure"
+            },
+            {
+              "key": "Secondary HLH",
+              "value": "Acquired; triggered by infection, malignancy, or autoimmune dz. Adults: mean age ~50, M:F 1.7:1"
+            },
+            {
+              "key": "MAS",
+              "value": "Macrophage activation syndrome: form of secondary HLH in autoimmune dz (SLE, sJIA, AOSD)"
+            },
+            {
+              "key": "HLH2004 criteria",
+              "value": "Need ≥5/8: fever ≥38.5°C, splenomegaly, bicytopenia (Hb <90, plt <100, ANC <1.0), hypertriglyceridemia (≥3.0 mmol/L) or hypofibrinogenemia (≤1.5 g/L), hemophagocytosis on biopsy, ferritin ≥500, ↓/absent NK activity, sCD25 ≥2400 U/mL. 4 criteria = 95% sensitivity, 94% specificity"
+            },
+            {
+              "key": "HScore",
+              "value": "Weighted scoring (0–337) using 9 variables. Score ≥168 = 100% sensitivity, 94% specificity. Better validated for adults"
+            }
+          ]
+        },
+        {
+          "title": "Etiology / DDx",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Infectiontriggered",
+              "value": "EBV (most common viral), CMV, HIV, adenovirus, bacterial sepsis. EBVHLH: 5yr survival only 25%"
+            },
+            {
+              "key": "Malignancytriggered",
+              "value": "Lymphoma (76% of malignant triggers), esp T/NKcell, AITL, intravascular DLBCL. sCD25:ferritin ratio ≥2.0 = 85% PPV for lymphomaHLH. Worst prognosis (20–30% 2yr survival)"
+            },
+            {
+              "key": "Autoimmunetriggered",
+              "value": "SLE (39%), sJIA, AOSD. AOSD:high CRP, IL18 >18,550 pg/mL (90% Sn, 94% Sp vs HLH)"
+            },
+            {
+              "key": "Sepsis (mimic)",
+              "value": "Shares fever, cytopenias, MOF. HLH distinguished by: hepatosplenomegaly, hypofibrinogenemia, hypertriglyceridemia, markedly ↑ sCD25, CD38²⁰/HLADR+ >7% of CD8+ Tcells"
+            },
+            {
+              "key": "AOSD (mimic)",
+              "value": "Spiking fever, rash, arthralgia, ↑↑ ferritin. CRP >130 + sCD25 <3900 = 91% Sn/93% Sp for AOSD vs HLH"
+            },
+            {
+              "key": "Other mimics",
+              "value": "DIC, TTP, MODS, histiocytic malignancies, inborn errors of metabolism (infants)"
+            }
+          ]
+        },
+        {
+          "title": "Management",
+          "type": "steps",
+          "items": [
+            "Check ferritin early: it is almost always elevated; >500 supports HLH and >10,000 is more specific in adults.",
+            "Apply HLH-2004 criteria or an adult HScore; send sCD25, NK-cell activity, and perforin or CD107a flow cytometry when appropriate.",
+            "Identify the trigger immediately: infection, malignancy, rheumatologic disease or MAS, or familial or genetic HLH.",
+            "Give ICU-level supportive care when organ dysfunction, respiratory failure, or shock is present; start empiric antimicrobials if infection is possible and support cytopenias or coagulopathy.",
+            "If disease is severe or progressive, start immunomodulation while the workup continues: high-dose methylprednisolone 10-30 mg/kg/day (max 1 g) or dexamethasone 10 mg/m²/day.",
+            "Add anakinra 2-10 mg/kg/day early when suspicion remains high; IVIG 1-2 g/kg is another adjunct when appropriate.",
+            "Primary or familial HLH usually needs an HLH-2004-type regimen with etoposide, dexamethasone, and cyclosporine as a bridge to HSCT.",
+            "Secondary HLH may respond to glucocorticoids with or without IVIG or anakinra, but severe, progressive, or CNS disease should prompt etoposide-based therapy.",
+            "check for CNS involvement and do not delay systemic treatment for MRI or LP; intrathecal methotrexate plus corticosteroids may be needed when CNS disease is confirmed.",
+            "Trend clinical status daily and ferritin, CBC, LFTs, coagulation studies, and triglycerides at least twice weekly; worsening ferritin, cytopenias, hepatitis, or DIC means recheck and escalate.",
+            "For refractory disease, discuss emapalumab, ruxolitinib, or alemtuzumab with hematology.",
+            "Consult hematology or oncology urgently and involve rheumatology, infectious disease, critical care, and HSCT teams early."
+          ]
+        },
+        {
+          "title": "Orders",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Stat labs",
+              "value": "CBC with diff, CMP, LDH, ferritin, fibrinogen, triglycerides, Ddimer, PT/PTT, CRP, lactate"
+            },
+            {
+              "key": "Specialized",
+              "value": "sCD25 (sIL2R), CXCL9, NK cell activity, flow cytometry (perforin, CD107a degranulation). IL18 if AOSD suspected"
+            },
+            {
+              "key": "Infectious workup",
+              "value": "EBV PCR, CMV PCR, adenovirus PCR, HIV, blood cultures, fungal markers (if immunosuppressed)"
+            },
+            {
+              "key": "BM biopsy",
+              "value": "Aspirate preferred over biopsy (84% vs 64% sensitivity for hemophagocytosis). R/o malignancy. May be absent early"
+            },
+            {
+              "key": "Imaging",
+              "value": "CT C/A/P (r/o malignancy, occult infection). FDGPET if lymphoma suspected (may present without discrete lesions on CT)"
+            },
+            {
+              "key": "CNS eval",
+              "value": "Brain MRI (multifocal WM lesions, cerebellar involvement) + CSF analysis (cell count, protein, glucose) if neuro sx, age <1 yr, or known genetic dz"
+            },
+            {
+              "key": "Genetic testing",
+              "value": "NGS panel or WES early in pediatric cases or young adults. Flow for perforin/CD107a for rapid screening"
+            }
+          ]
+        },
+        {
+          "title": "Medications",
+          "type": "drugTable",
+          "drugs": [
+            {
+              "name": "Methylprednisolone",
+              "dose": "10–30 mg/kg/d (pulse) or 1–2 mg/kg/d",
+              "route": "IV",
+              "contraindications": "Active uncontrolled infection (relative)",
+              "notes": "Firstline per EULAR/ACR 2022. Alt: dexamethasone 10 mg/m²/d (better CNS penetration)."
+            },
+            {
+              "name": "Anakinra",
+              "dose": "2–10 mg/kg/d",
+              "route": "IV/SQ",
+              "contraindications": "",
+              "notes": "IL1RA. Early immunomodulation with minimal immunosuppression. Favorable safety at high doses."
+            },
+            {
+              "name": "Etoposide",
+              "dose": "50–150 mg/m² weekly",
+              "route": "IV",
+              "contraindications": "Severe hepatic/renal failure (dose adjust)",
+              "notes": "For severe/refractory dz or CNS involvement. Ageadjusted dosing. Core of HLH94/2004 protocols."
+            },
+            {
+              "name": "Cyclosporine",
+              "dose": "Target trough 100–200 ng/mL",
+              "route": "PO/IV",
+              "contraindications": "Renal impairment",
+              "notes": "Part of HLH2004 protocol for primary HLH. Monitor levels, renal function."
+            },
+            {
+              "name": "Emapalumab",
+              "dose": "Per protocol",
+              "route": "IV",
+              "contraindications": "",
+              "notes": "AntiIFNγ mAb. FDAapproved for primary HLH. 57% preHSCT survival in refractory dz."
+            },
+            {
+              "name": "IVIG",
+              "dose": "0.4 g/kg/d × 5 days or 1 g/kg × 2 days",
+              "route": "IV",
+              "contraindications": "IgA deficiency (anaphylaxis risk)",
+              "notes": "Immunomodulatory adjunct. May be used early alongside steroids."
+            }
+          ]
+        },
+        {
+          "title": "Disposition",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "ICU / immediate higher level of care if",
+              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+            }
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Hsu JI, Nikiforow S, Berliner N. Hemophagocytic Lymphohistiocytosis in Adults. Blood. 2025.",
+            "Henter JI. Hemophagocytic Lymphohistiocytosis.thenEngl J Med. 2025.",
+            "Shakoory B, et al. 2022 EULAR/ACR Points to Consider for HLH/MAS. Arthritis Rheumatol. 2023.",
+            "RamosCasals M, et al. Adult Haemophagocytic Syndrome. Lancet. 2014.",
+            "La Rosée P, Horne A, Hines M, et al. Recommendations for the Management of Hemophagocytic Lymphohistiocytosis in Adults. Blood. 2019;133(23):24652477. https://doi.org/10.1182/blood.2018874828",
+            "Jordan MB, Allen CE, Greenberg J, et al. Challenges in the Diagnosis of Hemophagocytic Lymphohistiocytosis: Recommendations from the North American Consortium for Histiocytosis (NACHO). Pediatric Blood & Cancer. 2019;66(11):e27929. https://doi.org/10.1002/pbc.27929",
+            "Henter JI, Horne A, Aricó M, et al. HLH2004: Diagnostic and Thetherapeutic Guidelines for Hemophagocytic Lymphohistiocytosis. Pediatric Blood & Cancer. 2007;48(2):124131. https://doi.org/10.1002/pbc.21039"
+          ]
+        }
+      ]
+    }
+  ]
+}
