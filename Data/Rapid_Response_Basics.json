@@ -8,13 +8,16 @@
       "subtitle": "Acute deterioration, bedside assessment, vitals, first pass stabilization",
       "sections": [
         {
-          "title": "Overview",
-          "type": "bullets",
+          "title": "The First 60 Seconds",
+          "type": "steps",
           "items": [
-            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-            "A rapid response is called for acute clinical deterioration before full cardiopulmonary arrest.",
-            "The goal is early recognition, immediate stabilization, escalation of care, & prevention of ICU transfer or code.",
-            "Approach bedside with a script: stabilize first, gather key context fast, run a stripped-down ABCDE, & escalate early when trajectory looks bad."
+            "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+            "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+            "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+            "Start O2 now: NRB 15 L/min if in distress",
+            "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+            "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
+            "Put on cardiac monitor"
           ]
         },
         {
@@ -154,22 +157,151 @@
           ]
         },
         {
-          "title": "Disposition / Communication",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "ICU / immediate higher level of care if",
-              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
-            }
-          ]
-        },
-        {
           "title": "References & Resources",
           "type": "bullets",
           "items": [
             "Jones DA, DeVita MA, Bellomo R. Rapid Response Teams. New England Journal of Medicine. 2011;365(2):139146. https://doi.org/10.1056/NEJMra0910926",
             "Churpek MM, Yuen TC, Winslow C, et al. Multicenter Comparison of Machine Learning Methods and Conventional Regression for Predicting Clinical Deterioration on the Wards. Critical Care Medicine. 2016;44(2):368374.",
             "Society of Critical Care Medicine. Rapid Response Systems. Critical Care Medicine. 2024. https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-on-recognizing-and-responding-to-clinical-deterioration-outside-the-icu"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Breaking Bad News & Family Communication",
+      "subtitle": "Structured framework for delivering serious news — preparation, conversation, and follow-up",
+      "sections": [
+        {
+          "title": "Overview",
+          "type": "bullets",
+          "items": [
+            "Communication with patients and families should be part of ongoing care — at regular intervals and whenever the clinical situation changes",
+            "Given the severity of illness in critically ill patients, breaking bad news is a common occurrence during and after rapid responses",
+            "Where possible, this should be led by a senior clinician — but the pace of deterioration may not allow that",
+            "What follows is a structured template adaptable to most situations; individual circumstances and the people involved will require flexibility"
+          ]
+        },
+        {
+          "title": "Preparation",
+          "type": "steps",
+          "items": [
+            "Confirm you have the right patient — review the latest details on their condition, recent changes, and the current management plan before the conversation",
+            "Find a private space: quiet room or pulled curtains — privacy reduces distress and allows the family to respond freely",
+            "Minimize interruptions: hand pagers and phones to a colleague when possible; this conversation deserves undivided attention",
+            "Have the patient's nurse present — continuity of information and support for the family after you leave",
+            "Introduce yourself clearly (name, role, relationship to the patient's care) and confirm who you are speaking with and their relationship to the patient",
+            "Sit at the same level as the person you are speaking to — avoid standing over them; maintain comfortable eye contact"
+          ]
+        },
+        {
+          "title": "The Conversation — Step by Step",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Step 1 — What do they already know?",
+              "value": "Ask what information has already been given: 'What has the team told you so far about how things are going?' Confirm their understanding — families often receive fragmented or inconsistent information"
+            },
+            {
+              "key": "Step 2 — What do they want to know?",
+              "value": "Ask what they want to hear: 'Is there anything specific you'd like me to explain?' Some want a full overview; others want to ask one question at a time — follow their lead"
+            },
+            {
+              "key": "Step 3 — Give a warning shot",
+              "value": "Prepare them before delivering bad news: 'I'm afraid I have some difficult news' or 'I want to be honest with you — the situation is very serious.' This gives them a moment to brace emotionally before the detail"
+            },
+            {
+              "key": "Step 4 — Allow them to pause or decline",
+              "value": "Some families may not be ready to hear more right now — that is okay. Let them know: 'You do not have to hear all of this at once — I am here when you are ready.' Note: a family member cannot refuse information on behalf of a patient who has decision-making capacity"
+            },
+            {
+              "key": "Step 5 — Give an honest explanation",
+              "value": "Explain the clinical situation clearly and honestly. Use plain language; avoid medical jargon or translate it. Use words like 'dying' or 'death' when appropriate — euphemisms can create ambiguity. Do not give false reassurance. If you do not know the answer, say so"
+            },
+            {
+              "key": "Step 6 — Check understanding",
+              "value": "Re-state key points and confirm they landed: 'Does that make sense?' or 'Can you tell me what you are taking away from this?' Silence after bad news is normal — sit with it"
+            },
+            {
+              "key": "Step 7 — Listen to concerns",
+              "value": "Ask: 'Is there anything on your mind you'd like to talk about?' Their agenda may differ from yours — a family member may be preoccupied with a practical issue, a prior interaction, or a specific fear; listen without rushing"
+            },
+            {
+              "key": "Step 8 — Invite expression of feelings",
+              "value": "'How does that leave you feeling?' or 'This must be incredibly hard to hear.' Acknowledging emotions is therapeutic in itself — do not redirect to clinical facts when someone is expressing grief, fear, or anger"
+            },
+            {
+              "key": "Step 9 — Summarize and explain the plan",
+              "value": "Recap what was discussed and outline what happens next — diagnostics, treatments, comfort measures, or further conversations. Make the plan feel concrete even when uncertainty remains"
+            },
+            {
+              "key": "Step 10 — Offer availability and support",
+              "value": "Make clear that you or a team member is available: 'Please ask the nurse to reach us if questions come up.' Identify who the family's main point of contact will be going forward"
+            },
+            {
+              "key": "Step 11 — Document the conversation",
+              "value": "Write a note in the medical record summarizing: who was present, key information shared, family understanding, concerns raised, and the plan — this ensures continuity across the team"
+            }
+          ]
+        },
+        {
+          "title": "Language Tips",
+          "type": "bullets",
+          "items": [
+            "Use plain language: 'the heart is not pumping well' instead of 'cardiogenic shock'",
+            "Use direct words when appropriate: 'dying' and 'death' are clearer than 'passing' or 'not doing well'",
+            "Avoid information overload — one clear concept at a time; pause and check in frequently",
+            "Avoid false reassurance: 'We are doing everything we can' is okay — 'I am sure things will get better' is not",
+            "It is appropriate and honest to say: 'I do not know' or 'We are not sure yet — here is what we do know'",
+            "Silence is not failure — sitting quietly after difficult news gives the family space to process"
+          ]
+        },
+        {
+          "title": "Goals of Care",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "When to have the conversation",
+              "value": "Early in any serious admission or rapid deterioration — ideally before a crisis forces the discussion. Do not wait until the patient is peri-arrest to address code status and goals"
+            },
+            {
+              "key": "Frame it as values-based",
+              "value": "'What matters most to your family member?' and 'What would they consider a good quality of life?' — not just 'Do you want us to do everything?' The latter puts families in a position of guilt rather than guidance"
+            },
+            {
+              "key": "Decisional capacity",
+              "value": "If the patient has capacity, they direct their own care — a family member cannot override this. If the patient lacks capacity, identify the legal surrogate and clarify their role: substituted judgment (what the patient would want), not substituted preference (what the family wants)"
+            },
+            {
+              "key": "DNR/DNI conversations",
+              "value": "Describe what CPR actually involves — realistic description of resuscitation, survival rates in the clinical context, and what life may look like afterward. Families often agree to DNR when they understand what they are and are not declining"
+            },
+            {
+              "key": "Comfort-focused care",
+              "value": "Frame comfort care as active, not passive: 'We will continue to treat pain, shortness of breath, and anxiety aggressively — we are not giving up, we are changing our focus to what matters most to the patient'"
+            }
+          ]
+        },
+        {
+          "title": "Pitfalls",
+          "type": "bullets",
+          "items": [
+            "Communication is a process — it may take several conversations before a serious situation is fully understood and accepted",
+            "Families may be angry — about the diagnosis, prior care, or the situation itself; acknowledge the anger, do not dismiss it, and do not criticize previous management",
+            "Do not deliver news in a hallway, in front of other patients, or while holding a pager — environment matters",
+            "Do not use jargon or acronyms without explaining them (ICU, DNR, ARDS, etc.)",
+            "Do not overload — too much information at once reduces retention; focus on the 2–3 most important points",
+            "Do not leave without a clear next step — families should always know who to call and what to expect next",
+            "An apology for a difficult situation ('I am so sorry this is happening') is not an admission of fault — it is human and appropriate"
+          ]
+        },
+        {
+          "title": "References & Resources",
+          "type": "bullets",
+          "items": [
+            "Back AL, Arnold RM, Baile WF, et al. Approaching Difficult Communication Tasks in Oncology. CA: A Cancer Journal for Clinicians. 2005;55(3):164-177.",
+            "Lautrette A, Darmon M, Megarbane B, et al. A Communication Strategy and Brochure for Relatives of Patients Dying in the ICU. New England Journal of Medicine. 2007;356(5):469-478.",
+            "Kon AA, Davidson JE, Morrison W, et al. Shared Decision Making in Intensive Care Units. Critical Care Medicine. 2016;44(1):188-201.",
+            "Curtis JR, White DB. Practical Guidance for Evidence-Based ICU Family Conferences. Chest. 2008;134(4):835-843."
           ]
         }
       ]

@@ -9,76 +9,51 @@
         "subtitle": "Somnolence or agitation, rigidity, seizures, autonomic instability",
         "sections": [
           {
-            "title": "Acute Management",
+            "title": "The First 60 Seconds",
             "type": "steps",
             "items": [
-              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-              "Secure airway: intubation for respiratory depression or GCS ≤8. Start enteral nutrition early",
-              "Hemodynamic support: IV fluids, vasopressors for ↓ BP; rewarm if hypothermic",
-              "Determine: Is this TOXICITY (OD) or WITHDRAWAL (cessation)?: management is opposite"
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
+              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor",
+              "Check fingerstick glucose."
             ]
           },
           {
             "title": "Chart Check / Hx.",
             "type": "bullets",
             "items": [
-              "Oral vs intracal baclofen: route determines severity of withdrawal",
-              "Intracal pump: manufacturer, last refill date, dose, alarm Hx., recent pump procedures",
-              "Renal function: GFR <30 is strong contraindication for oral baclofen; accumulation causes toxicity",
-              "Current baclofen dose & recent changes: abrupt dose ↑ or renal decline causes toxicity",
-              "Concurrent CNS depressants: opioids, benzodiazepines, alcohol: synergistic respiratory depression",
-              "Underlying spasticity etiology: spinal cord injury, MS, cerebral palsy, TBI",
+              "**Oral vs intrathecal baclofen**: route determines severity of withdrawal",
+              "**Intracal pump**: manufacturer, last refill date, dose, alarm Hx., recent pump procedures",
+              "**Renal function**: GFR <30 is strong contraindication for oral baclofen; accumulation causes toxicity",
+              "**Current baclofen dose & recent changes**: abrupt dose \u2191 or renal decline causes toxicity",
+              "**Concurrent CNS depressants**: opioids, benzodiazepines, alcohol: synergistic respiratory depression",
+              "**Baclofen Indication**: spinal cord injury, MS, cerebral palsy, TBI",
               "Hx. of prior withdrawal episodes or toxicity",
               "Recent surgery, trauma, or illness that may have interrupted baclofen administration"
             ]
           },
           {
-            "title": "Exam",
+            "title": "Presentation/Exam",
             "type": "bullets",
             "items": [
-              "── TOXICITY findings ──",
-              "CNS depression: somnolence: coma. With large intoxications, brainstem reflexes may lost (mimics brain death)",
-              "Hypothermia, ↓ HR, ↓ BP (lowdose). Paradoxical HTN/tachycardia with >200mg",
-              "Hypotonia, flaccid paralysis, absent reflexes",
-              "Respiratory depression: rate, depth, SpO2",
-              "Excessive salivation, nystagmus, myoclonus",
-              "── WITHDRAWAL findings ──",
-              "Rebound spasticity: rigidity, hyperreflexia, clonus, hypertonia",
-              "Autonomic instability: tachycardia, HTN or ↓ BP, hyperthermia",
-              "Agitation, hallucinations, delirium, disorientation, seizures",
-              "Diaphoresis, goosebumps, pruritus",
-              "Resembles NMS: rigidity + fever + tachycardia + AMS + autonomic instability",
-              "Pump site: inspect for infection, swelling, catheter displacement"
-            ]
-          },
-          {
-            "title": "Recognition / Key Concepts",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "Baclofen",
-                "value": "GABAB receptor agonist used for spasticity (oral or intracal pump). Narrow therapeutic window, esp with renal impairment"
-              },
-              {
-                "key": "Baclofen toxicity",
-                "value": "OD or accumulation causing CNS depression, respiratory failure, seizures, & hemodynamic instability. Ingestion >200-400mg associated with coma, seizure, or intubation"
-              },
-              {
-                "key": "Intracal (IT) withdrawal",
-                "value": "Lifethreatening cessation of IT baclofen from pump malfunction, catheter fracture, battery/reservoir depletion, or dosing error. More severe than oral withdrawal"
-              },
-              {
-                "key": "Oral withdrawal",
-                "value": "Agitated delirium, seizures, autonomic instability within 1-4 days of stopping. Slower onset than IT withdrawal"
-              },
-              {
-                "key": "Key pharmacology",
-                "value": "Peak plasma 2-3h postingestion. Halflife 4-5h (nl. renal function). CSF penetration is slow: clinical effects begin 3-4 days, peak 5-10 days"
-              },
-              {
-                "key": "Renal dosing",
-                "value": "GFR <30 is strong contraindication. GFR 50-80: reduce dose 33%. GFR 30-50: reduce dose 50%. Accumulation causes toxicity"
-              }
+              "**Classic presentation**: Toxicity: CNS/respiratory depression, hypotonia, coma, bradycardia from excess baclofen; Withdrawal: severe spasticity, seizures, autonomic instability \u2014 intrathecal baclofen withdrawal mimics malignant hyperthermia and can be fatal",
+              "TOXICITY findings",
+              "--CNS depression**: somnolence: coma. With large intoxications, brainstem reflexes may lost (mimics brain death)",
+              "--Hypothermia, \u2193 HR, \u2193 BP (lowdose). Paradoxical HTN/tachycardia with >200mg",
+              "--Hypotonia, flaccid paralysis, absent reflexes",
+              "--Respiratory depression: rate, depth, SpO2",
+              "--Excessive salivation, nystagmus, myoclonus",
+              "WITHDRAWAL findings",
+              "--Rebound spasticity: rigidity, hyperreflexia, clonus, hypertonia",
+              "--Autonomic instability: tachycardia, HTN or \u2193 BP, hyperthermia",
+              "--Agitation, hallucinations, delirium, disorientation, seizures",
+              "--Diaphoresis, goosebumps, pruritus",
+              "--Resembles NMS: rigidity + fever + tachycardia + AMS + autonomic instability",
+              "--Pump site: inspect for infection, swelling, catheter displacement"
             ]
           },
           {
@@ -119,7 +94,7 @@
               },
               {
                 "key": "DDx: Autonomic dysreflexia",
-                "value": "In spinal cord injury pts: HTN, ↓ HR, flushing above lesion"
+                "value": "In spinal cord injury pts: HTN, \u2193 HR, flushing above lesion"
               },
               {
                 "key": "DDx: Alcohol/benzo withdrawal",
@@ -131,74 +106,44 @@
             "title": "Management",
             "type": "steps",
             "items": [
-              "─── BACLOFEN TOXICITY (OD) ───",
-              "Stop baclofen now: for pump pts, consult pump specialist & stop for 48h",
-              "EEG monitoring: nonconvulsive status epilepticus can occur in comatose pts",
-              "Hemodialysis: consider if severe renal failure + critical intoxication; NOT suggested with preserved renal function. Multiple sessionsneeded",
-              "Must eventually restart baclofen at lower dose to prevent withdrawal",
-              "─── INTRACAL BACLOFEN WITHDRAWAL ───",
-              "Resume intracal baclofen asas possible: this is only definitive tx",
-              "Consult neurosurgery/anesthesia for pump revision or temporary lumbar drain",
-              "Single IT bolus via lumbar puncture as temporizing bridge",
-              "If IT access unavailable: multimodal oral therapy (see meds below)",
-              "Aggressive supportive care: IV fluids, cooling for hyperthermia, Rhabdo management",
-              "─── ORAL BACLOFEN WITHDRAWAL ───",
-              "Resume oral baclofen: definitive therapy, but resolution delayed up to 4 days (slow CNS penetration)",
-              "Benzodiazepines + dexmedetomidine for agitation & autonomic instability",
-              "── TOXICITY ──",
-              "Monitor respiratory & neurological status closely: toxicity can last days with renal impairment",
-              "Baclofen must be restarted at lower dose once toxicity resolving: abrupt discontinuation causes withdrawal",
-              "If hemodialysis performed: multiple sessionsneeded. Goal is reduce baclofen enough for extubation: avoid excessive removal triggering withdrawal",
-              "Serial CK if Rhabdo suspected; aggressive IV fluids to prevent renal injury",
-              "── WITHDRAWAL ──",
-              "Multimodal therapy is essential: no single agent adequately treats IT withdrawal. Use several antispasmodics at low doses for synergistic effect",
-              "Preferred combination: oral baclofen + benzodiazepine + dexmedetomidine + tizanidine",
-              "Strongest indication for intubation: profound hyperthermia: chemical paralysis eliminates skeletal muscle heat generation",
-              "Aggressive cooling: target normothermia. Rhabdo management: IV NS, target UOP >200 mL/h",
-              "Definitive: restore intracal delivery via pump revision or temporary lumbar drain",
-              "Monitor CK q6-12h, renal function daily, telemetry"
-            ]
-          },
-          {
-            "title": "Orders",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "BMP with Cr/GFR",
-                "value": "Critical: renal function determines baclofen clearance & toxicity risk"
-              },
-              {
-                "key": "CK / myoglobin",
-                "value": "Rhabdo from severe spasticity/rigidity in withdrawal: causes AKI"
-              },
-              {
-                "key": "CBC, BCxs, lactate",
-                "value": "r/o sepsis: infected pump is an important ddx"
-              },
-              {
-                "key": "LFTs",
-                "value": "Baseline liver Fxn; dantrolene is hepatotoxic"
-              },
-              {
-                "key": "ABG/VBG",
-                "value": "Respiratory status in toxicity; acidosis in Rhabdo"
-              },
-              {
-                "key": "EEG",
-                "value": "For comatose pts with toxicity: nonconvulsive status epilepticus occurs"
-              },
-              {
-                "key": "Pump interrogation",
-                "value": "Consult pump specialist: check reservoir volume, battery, alarm Hx., programmed dose"
-              },
-              {
-                "key": "Plain radiographs (KUB/spine)",
-                "value": "Check catheter: kinking, migration, disconnection, fracture"
-              },
-              {
-                "key": "CT/MRI spine or contrast study",
-                "value": "If radiographs inconclusive: catheter tip position, CSF flow study"
-              }
+              "CHECK NOW",
+              "-**Orders:** IV access, continuous SpO2, continuous EEG (withdrawal seizures), telemetry, toxicology/poison control consult",
+              "-**Labs:** BMP, CBC, ABG/VBG (if respiratory compromise), urine drug screen, baclofen level (if available)",
+              "**BMP with Cr/GFR:** Critical: renal function determines baclofen clearance & toxicity risk",
+              "**CK / myoglobin:** Rhabdo from severe spasticity/rigidity in withdrawal: causes AKI",
+              "**CBC, BCxs, lactate:** r/o sepsis: infected pump is an important ddx",
+              "**LFTs:** Baseline liver Fxn; dantrolene is hepatotoxic",
+              "**ABG/VBG:** Respiratory status in toxicity; acidosis in Rhabdo",
+              "**EEG:** For comatose pts with toxicity: nonconvulsive status epilepticus occurs",
+              "**Plain radiographs (KUB/spine):** Check catheter: kinking, migration, disconnection, fracture",
+              "**CT/MRI spine or contrast study:** If radiographs inconclusive: catheter tip position, CSF flow study",
+              "BACLOFEN TOXICITY (OD)",
+              "--Stop baclofen now: for pump pts, consult pump specialist & stop for 48h",
+              "--EEG monitoring: nonconvulsive status epilepticus can occur in comatose pts",
+              "--Hemodialysis: consider if severe renal failure + critical intoxication; NOT suggested with preserved renal function. Multiple sessionsneeded",
+              "--Must eventually restart baclofen at lower dose to prevent withdrawal",
+              "INTRACAL BACLOFEN WITHDRAWAL",
+              "--Resume intracal baclofen asas possible: this is only definitive tx",
+              "--Consult neurosurgery/anesthesia for pump revision or temporary lumbar drain",
+              "--Single IT bolus via lumbar puncture as temporizing bridge",
+              "--If IT access unavailable: multimodal oral therapy (see meds below)",
+              "--Aggressive supportive care: IV fluids, cooling for hyperthermia, Rhabdo management",
+              "ORAL BACLOFEN WITHDRAWAL",
+              "--Resume oral baclofen: definitive therapy, but resolution delayed up to 4 days (slow CNS penetration)",
+              "--Benzodiazepines + dexmedetomidine for agitation & autonomic instability",
+              "TOXICITY",
+              "--Monitor respiratory & neurological status closely: toxicity can last days with renal impairment",
+              "--Baclofen must be restarted at lower dose once toxicity resolving: abrupt discontinuation causes withdrawal",
+              "--If hemodialysis performed: multiple sessionsneeded. Goal is reduce baclofen enough for extubation: avoid excessive removal triggering withdrawal",
+              "--Serial CK if Rhabdo suspected; aggressive IV fluids to prevent renal injury",
+              "WITHDRAWAL",
+              "--Multimodal therapy is essential: no single agent adequately treats IT withdrawal. Use several antispasmodics at low doses for synergistic effect",
+              "--Preferred combination: oral baclofen + benzodiazepine + dexmedetomidine + tizanidine",
+              "--Strongest indication for intubation: profound hyperthermia: chemical paralysis eliminates skeletal muscle heat generation",
+              "--Aggressive cooling: target normothermia. Rhabdo management: IV NS, target UOP >200 mL/h",
+              "--Definitive: restore intracal delivery via pump revision or temporary lumbar drain",
+              "--Monitor CK q6-12h, renal function daily, telemetry",
+              "**Pump interrogation:** Consult pump specialist: check reservoir volume, battery, alarm Hx., programmed dose"
             ]
           },
           {
@@ -214,10 +159,10 @@
               },
               {
                 "name": "Lorazepam (for withdrawal)",
-                "dose": "0.5-2mg IV q6h",
+                "dose": "1-2mg IV q6h",
                 "route": "IV",
                 "contraindications": "Respiratory depression",
-                "notes": "Stimulates spinal GABAA receptors: may circumvent GABAB deficiency. ↓ seizure risk. Titrate IV while observing response; hold if somnolence."
+                "notes": "Stimulates spinal GABAA receptors: may circumvent GABAB deficiency. \u2193 seizure risk. Titrate IV while observing response; hold if somnolence."
               },
               {
                 "name": "Midazolam (for withdrawal)",
@@ -237,7 +182,7 @@
                 "name": "Dexmedetomidine (for withdrawal)",
                 "dose": "0.2-1.5 mcg/kg/h IV infusion",
                 "route": "IV",
-                "contraindications": "Severe ↓ HR, heart block",
+                "contraindications": "Severe \u2193 HR, heart block",
                 "notes": "Preferred for agitation: highly titratable, does NOT cause respiratory suppression. Suppresses sympathetic activation (tachycardia, HTN)."
               },
               {
@@ -271,12 +216,32 @@
             ]
           },
           {
-            "title": "Disposition",
+            "title": "Recognition / Key Concepts",
             "type": "keyValue",
             "pairs": [
               {
-                "key": "ICU / immediate higher level of care if",
-                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+                "key": "Baclofen",
+                "value": "GABAB receptor agonist used for spasticity (oral or intracal pump). Narrow therapeutic window, esp with renal impairment"
+              },
+              {
+                "key": "Baclofen toxicity",
+                "value": "OD or accumulation causing CNS depression, respiratory failure, seizures, & hemodynamic instability. Ingestion >200-400mg associated with coma, seizure, or intubation"
+              },
+              {
+                "key": "Intracal (IT) withdrawal",
+                "value": "Lifethreatening cessation of IT baclofen from pump malfunction, catheter fracture, battery/reservoir depletion, or dosing error. More severe than oral withdrawal"
+              },
+              {
+                "key": "Oral withdrawal",
+                "value": "Agitated delirium, seizures, autonomic instability within 1-4 days of stopping. Slower onset than IT withdrawal"
+              },
+              {
+                "key": "Key pharmacology",
+                "value": "Peak plasma 2-3h postingestion. Halflife 4-5h (nl. renal function). CSF penetration is slow: clinical effects begin 3-4 days, peak 5-10 days"
+              },
+              {
+                "key": "Renal dosing",
+                "value": "GFR <30 is strong contraindication. GFR 50-80: reduce dose 33%. GFR 30-50: reduce dose 50%. Accumulation causes toxicity"
               }
             ]
           },
@@ -295,22 +260,24 @@
         "subtitle": "Hypercarbia, rigidity, hyperthermia, acidosis, rhabdomyolysis after anesthetic trigger",
         "sections": [
           {
-            "title": "Acute Management",
+            "title": "The First 60 Seconds",
             "type": "steps",
             "items": [
-              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-              "Stop ALL triggering agents (volatile anesthetics, succinylcholine)",
-              "100% O2 at max LPM: hyperventilate to blow off CO2",
-              "Call MHAUS Hotline: 18006449737 (24/7 physician support)",
-              "AVOID CCBs: may cause ↑K or cardiac arrest in presence of dantrolene",
-              "Actively cool pt: ice packs, cold IV fluids, cooling blanket. STOP cooling when temp reaches 38°C (100.4°F)"
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
+              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor",
+              "Check fingerstick glucose."
             ]
           },
           {
             "title": "Chart Check / Hx.",
             "type": "bullets",
             "items": [
-              "Recent exposure to volatile anesthetics (halothane, sevoflurane, desflurane, isoflurane) or succinylcholine",
+              "Recent volatile anesthetics (halothane, sevoflurane, desflurane, isoflurane) or succinylcholine",
               "Timing relative to induction, maintenance, or early postanesthesia period: lateonset MH is uncommon but can begin shortly after anesthesia stops",
               "Family or personal history of malignant hyperthermia, unexplained anesthetic death, or known RYR1/CACNA1S mutation",
               "Masseter spasm after succinylcholine, prior perianesthetic hypercarbia, or unexplained rhabdomyolysis history",
@@ -318,36 +285,15 @@
             ]
           },
           {
-            "title": "Exam",
+            "title": "Presentation/Exam",
             "type": "bullets",
             "items": [
+              "**Classic presentation**: Hyperthermia + generalized muscle rigidity + hypercarbia triggered by volatile anesthetics (halothane, sevoflurane) or succinylcholine in genetically susceptible patients; rapidly fatal without dantrolene \u2014 call MH hotline immediately",
               "Earliest signs: rising EtCO2, tachycardia, unexplained hypercarbia despite increased ventilation",
               "Muscle rigidity, masseter spasm, generalized contracture,rising core temperature",
               "Dark urine or myoglobinuria, signs of rhabdomyolysis, metabolic instability",
-              "Dysrhythmias, ↓ BP or hemodynamic collapse late in course",
-              "Hyperthermia may later sign —don't wait for high temperature to treat"
-            ]
-          },
-          {
-            "title": "Recognition / Key Concepts",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "Malignant hyperthermia",
-                "value": "Pharmacogenetic hypermetabolic crisis of skeletal muscle triggered by volatile anesthetics or succinylcholine"
-              },
-              {
-                "key": "Earliest clue",
-                "value": "Rising EtCO2 / hypercarbia is first detectable sign"
-              },
-              {
-                "key": "Fulminant MH",
-                "value": "Muscle rigidity +rising temperature + tachycardia shortly after anesthesia induction"
-              },
-              {
-                "key": "Recrudescence",
-                "value": "Recurrence after initial txt occurs in ~25% of cases: watch for 2448h"
-              }
+              "Dysrhythmias, \u2193 BP or hemodynamic collapse late in course",
+              "Hyperthermia may later sign \u2014don't wait for high temperature to treat"
             ]
           },
           {
@@ -380,49 +326,19 @@
             "title": "Management",
             "type": "steps",
             "items": [
-              "Call anesthesia / OR team & give dantrolene 2.5 mg/kg IV; repeat q5 min until controlled,>10 mg/kg total",
-              "Hyperventilate with 100% O2 & stop all triggering agents",
-              "Treat complications: bicarb for acidosis, standard txt for ↑K, & treat dysrhythmias by correcting acidosis/↑K first",
-              "Cool aggressively with ice, cooling blanket, & cold IV fluids; stop active cooling once temp reaches 38°C",
-              "Monitor for Rhabdo / recrudescence & continue ICUlevel care for 2448h",
-              "Core temp: monitoring, target <38°C",
-              "EtCO2 & arterial blood gas: check CO2 clearance & acidbase status",
-              "CK every 46 hours: peak may not occur until 1224h after episode",
-              "Urine output & color: target UO >1 mL/kg/hr; dark urine = myoglobinuria",
-              "Electrolytes (K, Ca, Mg): ↑K is common",
-              "Coagulation studies: DIC can develop",
-              "Glucose q1h if insulin was given for ↑K",
-              "check for recrudescence (25% rate) for 2448 hours"
-            ]
-          },
-          {
-            "title": "Orders",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "ABG / VBG",
-                "value": "check hypercarbia & metabolic acidosis; trend response to hyperventilation & resuscitation"
-              },
-              {
-                "key": "Electrolytes",
-                "value": "check K, Ca, Mg: hyperkalemia is common & dangerous"
-              },
-              {
-                "key": "CK",
-                "value": "Check every 46 hours; peak may not occur until 1224h after event"
-              },
-              {
-                "key": "Urine output / urinalysis",
-                "value": "Target UO >1 mL/kg/hr; check for dark urine & myoglobinuria"
-              },
-              {
-                "key": "Coags / DIC screen",
-                "value": "Coagulation abnormalities & DIC can develop in severe cases"
-              },
-              {
-                "key": "Glucose",
-                "value": "check q1h if insulin was used for hyperkalemia treatment"
-              }
+              "Call anesthesia & give **dantrolene 2.5 mg/kg IV**; repeat q5min until controlled,>10 mg/kg total",
+              "**Hyperventilate with 100% O2** & stop all triggering agents",
+              "**Treat complications**: bicarb for acidosis, standard txt for \u2191K, & treat dysrhythmias by correcting acidosis/\u2191K first",
+              "Cool aggressively with ice, cooling blanket, & cold IV fluids; stop active cooling once temp reaches 38\u00b0C",
+              "Monitor for Rhabdo / recrudescence & continue ICUlevel care for 24-48h",
+              "Core temp: monitoring, target <38\u00b0C",
+              "**EtCO2 & ABG**: check CO2 clearance",
+              "CK q4-6h: peak may not occur until 12-24h after episode",
+              "Urine output & color: target UO **>1 mL/kg/hr**; dark urine = myoglobinuria",
+              "Electrolytes (K, Ca, Mg): \u2191K is common",
+              "Coags: DIC can develop",
+              "Glucose q1h if insulin was given for \u2191K",
+              "Recurrance possible (25% rate) after 24-48 hours"
             ]
           },
           {
@@ -433,46 +349,58 @@
                 "name": "Dantrolene",
                 "dose": "2.5 mg/kg IV push, repeat q5min until resolved",
                 "route": "IV",
-                "contraindications": "",
-                "notes": "**Firstline & only effective tx for MH.** May need >10 mg/kg acutely. Follow with 1 mg/kg q46h for 2448h. Call MHAUS: 18006449737."
+                "contraindications": "Hepatic impairment (relative \u2014 use in MH regardless); respiratory depression",
+                "notes": "**First-line & only effective tx for MH.** May need >10 mg/kg acutely. Follow with 1 mg/kg q46h for 24-48h. Call MHAUS: 1-800-644-9737."
               },
               {
-                "name": "Sodium bicarbonate",
+                "name": "Sodium bicarb",
                 "dose": "12 mEq/kg IV",
                 "route": "IV",
-                "contraindications": "",
+                "contraindications": "Metabolic alkalosis, hypocalcemia, volume overload",
                 "notes": "For metabolic acidosis temporization if blood gas not yet available. Titrate to ABG."
               },
               {
                 "name": "Calcium gluconate",
-                "dose": "12g IV",
+                "dose": "2-3g IV",
                 "route": "IV",
-                "contraindications": "",
-                "notes": "For ↑K: cardiac toxicity. **AVOID CCBs** (verapamil, diltiazem): cardiac arrest risk with dantrolene."
+                "contraindications": "Digitalis toxicity (relative \u2014 may precipitate arrhythmia); hypercalcemia",
+                "notes": "For \u2191K: cardiac toxicity. **AVOID CCBs** (verapamil, diltiazem): cardiac arrest risk with dantrolene."
               },
               {
                 "name": "Regular insulin + Dextrose",
                 "dose": "10 units Insulin IV + D50 1 amp",
                 "route": "IV",
-                "contraindications": "",
-                "notes": "↑K tx. check glucose q1h after administration."
+                "contraindications": "Hypoglycemia, allergy to insulin preparation",
+                "notes": "\u2191K tx. check glucose q1h after administration."
               },
               {
-                "name": "Cold IV fluids",
+                "name": "**Cold** IV fluids",
                 "dose": "Cold NS or LR wide open",
                 "route": "IV",
-                "contraindications": "",
-                "notes": "Active cooling. Target temp <38°C (100.4°F). Stop active cooling at 38°C to avoid overshoot hypothermia."
+                "contraindications": "None in MH context; avoid in already-hypothermic patients",
+                "notes": "Active cooling. Target temp <38\u00b0C (100.4\u00b0F). Stop active cooling at 38\u00b0C to avoid overshoot hypothermia."
               }
             ]
           },
           {
-            "title": "Disposition",
+            "title": "Recognition / Key Concepts",
             "type": "keyValue",
             "pairs": [
               {
-                "key": "ICU / immediate higher level of care if",
-                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+                "key": "Malignant hyperthermia",
+                "value": "Pharmacogenetic hypermetabolic crisis of skeletal muscle triggered by volatile anesthetics or succinylcholine"
+              },
+              {
+                "key": "Earliest clue",
+                "value": "Rising EtCO2 / hypercarbia is first detectable sign"
+              },
+              {
+                "key": "Fulminant MH",
+                "value": "Muscle rigidity +rising temperature + tachycardia shortly after anesthesia induction"
+              },
+              {
+                "key": "Recrudescence",
+                "value": "Recurrence after initial txt occurs in ~25% of cases: watch for 2448h"
               }
             ]
           },
@@ -483,7 +411,7 @@
               "[ORCC Malignant Hyperthermia Resource](https://orcc.ariadnelabs.net/malignant_hyperthermia)",
               "Malignant Hyperthermia Association of the United States (MHAUS). Emergency Therapy for Malignant Hyperthermia. 2024. https://www.mhaus.org/healthcare-professionals/managing-a-crisis/",
               "Rosenberg H, Pollock N, Schiemann A, et al. Malignant Hyperthermia: A Review. Orphanet Journal of Rare Diseases. 2015;10:93. https://doi.org/10.1186/s13023-015-0310-1",
-              "Hopkins PM, Rüffert H, Snoeck MM, et al. European Malignant Hyperthermia Group Guidelines for Investigation of Malignant Hyperthermia Susceptibility. British Journal of Anaesthesia. 2015;115(4):531539. https://doi.org/10.1093/bja/aev225"
+              "Hopkins PM, R\u00fcffert H, Snoeck MM, et al. European Malignant Hyperthermia Group Guidelines for Investigation of Malignant Hyperthermia Susceptibility. British Journal of Anaesthesia. 2015;115(4):531539. https://doi.org/10.1093/bja/aev225"
             ]
           }
         ]
@@ -493,13 +421,17 @@
         "subtitle": "Salivation, lacrimation, diarrhea, bronchorrhea, bradycardia, miosis",
         "sections": [
           {
-            "title": "Acute Management",
+            "title": "The First 60 Seconds",
             "type": "steps",
             "items": [
-              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-              "Secure airway early: bronchorrhea & bronchospasm are primary killers",
-              "Suction copious secretions; prepare for intubation if resp distress",
-              "Avoid succinylcholine: causes prolonged paralysis (depressed pseudocholinesterase)"
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
+              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor",
+              "Check fingerstick glucose."
             ]
           },
           {
@@ -517,12 +449,16 @@
             ]
           },
           {
-            "title": "Exam",
+            "title": "Presentation/Exam",
             "type": "keyValue",
             "pairs": [
               {
+                "key": "Classic presentation",
+                "value": "SLUDGE (Salivation, Lacrimation, Urination, Defecation, GI upset, Emesis) + DUMBELS + miosis + bronchospasm + bradycardia from organophosphates, nerve agents, or physostigmine; bronchospasm and secretions kill \u2014 atropine first"
+              },
+              {
                 "key": "Vitals pattern",
-                "value": "HR variable (↓ HR from muscarinic, tachycardia from nicotinic); BP ↑ or variable; RR ↑; temp nl. or ↓"
+                "value": "HR variable (\u2193 HR from muscarinic, tachycardia from nicotinic); BP \u2191 or variable; RR \u2191; temp nl. or \u2193"
               },
               {
                 "key": "Pupils",
@@ -530,7 +466,7 @@
               },
               {
                 "key": "Respiratory",
-                "value": "Bronchorrhea (copious secretions), bronchospasm, wheezing, ↑ WOB: primary cause of death"
+                "value": "Bronchorrhea (copious secretions), bronchospasm, wheezing, \u2191 WOB: primary cause of death"
               },
               {
                 "key": "Skin",
@@ -551,32 +487,6 @@
               {
                 "key": "Eyes",
                 "value": "Lacrimation, miosis, blurred vision"
-              }
-            ]
-          },
-          {
-            "title": "Recognition / Key Concepts",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "SLUDGE(M)",
-                "value": "**S**alivation, **L**acrimation, **U**rination, **D**iarrhea, **G**I cramping, **E**mesis, **M**iosis: muscarinic effects mnemonic"
-              },
-              {
-                "key": "DUMBELS",
-                "value": "**D**iarrhea/**D**iaphoresis, **U**rination, **M**iosis, **B**radycardia/**B**ronchorrhea/**B**ronchospasm, **E**mesis, **L**acrimation, **S**alivation"
-              },
-              {
-                "key": "Nicotinic effects",
-                "value": "Mydriasis, tachycardia, weakness, fasciculations, HTN: can mask classic muscarinic presentation"
-              },
-              {
-                "key": "Enzyme aging",
-                "value": "Irreversible binding of organophosphate to acetylcholinesterase: once aged, 2PAM is ineffective; timing varies by agent"
-              },
-              {
-                "key": "Intermediate syndrome",
-                "value": "Proximal muscle weakness & respiratory failure occurring 24-96 hrs postexposure; monitor 48-96 hrs after severe exposure"
               }
             ]
           },
@@ -611,36 +521,27 @@
             ]
           },
           {
-            "title": "Management & Pearls",
+            "title": "Management",
             "type": "steps",
             "items": [
-              "Determine exposure route & decontaminate ASAP; use full PPE & remove contaminated clothing",
-              "Give atropine 2 mg IV & double q3-5 min until pulmonary secretions dry",
+              "CHECK NOW",
+              "-**Labs:** POC glucose,BMP, CBC(leukocytosis), !!RBC cholinesterase + plasma cholinesterase!!, ABG/VBG (resp failure, acidosis assessment)",
+              "-**Orders:** IV access, continuous SpO2, **EKG**(QTc prolongation correlates with severity) atropine at bedside, pralidoxime (2-PAM) at bedside, decontamination  toxicology/poison control consult",
+              "Ensure Decontaminated",
+              "Ensure Airway patient, hemodynamically stable",
+              "cardiac monitoring, pulse oximetry, IV access",
+              "Give **atropine 2 mg IV** & increase dose q3-5 min until pulmonary secretions dry",
+              "--**Atropine gtt**: once secretions controlled, start infusion at 10-20% of total loading dose per hour",
               "Add pralidoxime (2PAM) 1-2 g IV over 15-30 min, then infusion if needed; give early before enzyme aging",
+              "--2PAM is most effective within first 24-48 hrs but may still help later \u2014don't withhold based on time alone",
               "Treat seizures/agitation with benzos & support airway/ventilation as needed",
-              "Nicotinic effects (tachycardia, HTN, mydriasis) can mask classic muscarinic presentation —don't exclude dx based on absence of miosis alone",
-              "Atropine drip: once secretions controlled, start infusion at 10-20% of total loading dose per hour",
-              "Monitor for intermediate syndrome: proximal weakness & resp failure at 24-96 hrs",
-              "Lipophilic agents (fenthion, chlorfenthion) may cause delayed or prolonged toxicity: observe 24+ hrs",
-              "Avoid succinylcholine for RSI: depressed pseudocholinesterase causes prolonged paralysis; use rocuronium",
-              "Decontaminate early: doubleglove providers; remove & bag all pt clothing",
-              "2PAM is most effective within first 24-48 hrs but may still help later —don't withhold based on time alone"
-            ]
-          },
-          {
-            "title": "Orders",
-            "type": "bullets",
-            "items": [
-              "POC glucose",
-              "CBC: leukocytosis common",
-              "BMP: monitor K+, renal function",
-              "VBG/ABG: resp failure, acidosis assessment",
-              "Lipase: pancreatitis reported",
-              "ECG: QTc prolongation correlates with severity; dysrhythmias",
-              "CXR: pulmonary edema in severe cases",
-              "RBC acetylcholinesterase (confirmatory but results delayed)",
-              "Plasma butyrylcholinesterase / pseudocholinesterase (faster but less specific)",
-              "cardiac monitoring, pulse oximetry"
+              "--RBC acetylcholinesterase (confirmatory but results delayed)",
+              "--Plasma butyrylcholinesterase / pseudocholinesterase (faster but less specific)",
+              "**CXR**: pulmonary edema in severe cases",
+              "!!Nicotinic effects!! (tachycardia, HTN, mydriasis) can mask classic muscarinic presentation: **Don't R/O dx based on absence of miosis**",
+              "Watch for !!intermediate syndrome!!: proximal weakness & resp failure at 24-96 hrs",
+              "Lipophilic agents (fenthion, chlorfenthion) --> delayed/prolonged toxicity: watch 24+ hrs",
+              "Avoid succinylcholine for RSI: depressed pseudocholinesterase causes prolonged paralysis; use !!rocuronium!!"
             ]
           },
           {
@@ -659,7 +560,7 @@
                 "dose": "1-2 g IV over 15-30 min, then 500 mg/hr infusion; peds: 20-50 mg/kg, then 5-10 mg/kg/hr",
                 "route": "IV",
                 "contraindications": "Ineffective after enzyme aging",
-                "notes": "Give ASAP: must give before aging occurs. Reverses nicotinic effects (weakness, fasciculations). Continue infusion ≥24 hrs"
+                "notes": "Give ASAP: must give before aging occurs. Reverses nicotinic effects (weakness, fasciculations). Continue infusion \u226524 hrs"
               },
               {
                 "name": "Diazepam",
@@ -678,12 +579,28 @@
             ]
           },
           {
-            "title": "Disposition",
+            "title": "Recognition / Key Concepts",
             "type": "keyValue",
             "pairs": [
               {
-                "key": "ICU / immediate higher level of care if",
-                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+                "key": "SLUDGE(M)",
+                "value": "**S**alivation, **L**acrimation, **U**rination, **D**iarrhea, **G**I cramping, **E**mesis, **M**iosis: muscarinic effects mnemonic"
+              },
+              {
+                "key": "DUMBELS",
+                "value": "**D**iarrhea/**D**iaphoresis, **U**rination, **M**iosis, **B**radycardia/**B**ronchorrhea/**B**ronchospasm, **E**mesis, **L**acrimation, **S**alivation"
+              },
+              {
+                "key": "Nicotinic effects",
+                "value": "Mydriasis, tachycardia, weakness, fasciculations, HTN: can mask classic muscarinic presentation"
+              },
+              {
+                "key": "Enzyme aging",
+                "value": "Irreversible binding of organophosphate to acetylcholinesterase: once aged, 2PAM is ineffective; timing varies by agent"
+              },
+              {
+                "key": "Intermediate syndrome",
+                "value": "Proximal muscle weakness & respiratory failure occurring 24-96 hrs postexposure; monitor 48-96 hrs after severe exposure"
               }
             ]
           },
@@ -702,36 +619,48 @@
         "subtitle": "Agitation, mydriasis, dry skin, urinary retention, hyperthermia",
         "sections": [
           {
-            "title": "Acute Management",
+            "title": "The First 60 Seconds",
             "type": "steps",
             "items": [
-              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-              "Immediate ECG: QRS widening suggests TCA ingestion: changes entire management",
-              "Monitor on cardiac telemetry",
-              "Activated charcoal 1 g/kg PO if within 1-2 hrs of ingestion & airway protected"
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
+              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor",
+              "Check fingerstick glucose."
             ]
           },
           {
             "title": "Chart Check / Hx.",
             "type": "bullets",
             "items": [
-              "Meds list: antihistamines, TCAs, antipsychotics, muscle relaxants, bladder antispasmodics",
-              "OTC meds: diphenhydramine (Benadryl) is MCC",
+              "**Meds list**: antihistamines, TCAs, antipsychotics, muscle relaxants, bladder antispasmodics",
+              "**OTC meds**: diphenhydramine (Benadryl) is MCC",
               "Intentional vs accidental ingestion",
               "Amount ingested & time since ingestion",
-              "Psychiatric hx: suicidal ideation, prior OD attempts",
-              "Plant/mushroom exposure: jimson weed (Datura), deadly nightshade",
-              "Eye drop use: atropine, cyclopentolate, tropicamide",
+              "**Psychiatric hx**: suicidal ideation, prior OD attempts",
+              "**Plant/mushroom exposure**: jimson weed (Datura), deadly nightshade",
+              "**Eye drop use**: atropine, cyclopentolate, tropicamide",
               "Coingestants: esp acetaminophen, aspirin"
             ]
           },
           {
-            "title": "Exam",
+            "title": "Presentation/Exam",
             "type": "keyValue",
             "pairs": [
               {
+                "key": "Classic presentation",
+                "value": "'Hot as a hare, dry as a bone, red as a beet, blind as a bat, mad as a hatter' \u2014 hyperthermia + dry skin + flushing + mydriasis + delirium from atropine, scopolamine, diphenhydramine, TCAs, or toxic plants"
+              },
+              {
+                "key": "Sign frequencies (clinical data)",
+                "value": "Decreased secretions (dry mucosa/axillae): 75.1% | Tachycardia: 68.1% | Confusion: 49.3% | Drowsiness: 48.2% | Hypoactive/absent bowel sounds: 44.6% | Tachycardia + dry (most common pair): 55.4% | Classic triad (HR\u2191 + dry + mydriasis): 28.2% | \u22651 triad sign present: 94%"
+              },
+              {
                 "key": "Vitals pattern",
-                "value": "HR ↑↑ (120-160 typical); BP ↑; RR nl. or ↓; temp ↑ (anhydrotic hyperthermia)"
+                "value": "HR \u2191\u2191 (120-160 typical); BP \u2191; RR nl. or \u2193; temp \u2191 (anhydrotic hyperthermia)"
               },
               {
                 "key": "Pupils",
@@ -747,7 +676,7 @@
               },
               {
                 "key": "GI",
-                "value": "Decreased/absent bowel sounds, ileus"
+                "value": "Decreased/absent bowel sounds, ileus. obstruction if severe"
               },
               {
                 "key": "GU",
@@ -760,28 +689,6 @@
               {
                 "key": "KEY distinction",
                 "value": "Anticholinergic = DRY skin vs sympathomimetic = WET (diaphoretic). Both have mydriasis + tachycardia"
-              }
-            ]
-          },
-          {
-            "title": "Recognition / Key Concepts",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "Classic mnemonic",
-                "value": "\"Blind as bat\" (mydriasis), \"Mad as hatter\" (delirium), \"Red as beet\" (flushed), \"Hot as hare\" (hyperthermia), \"Dry as bone\" (anhidrosis), \"Full as flask\" (urinary retention)"
-              },
-              {
-                "key": "Anticholinergic",
-                "value": "Blockade of muscarinic acetylcholine receptors: loss of parasympathetic tone: sympathetic dominance"
-              },
-              {
-                "key": "Physostigmine",
-                "value": "Reversible acetylcholinesterase inhibitor: crosses BBB: reverses both central (delirium) & peripheral (tachycardia, mydriasis) effects"
-              },
-              {
-                "key": "Sodium channel blockade",
-                "value": "TCAs block fast sodium channels: QRS widening, right axis deviation, Brugada pattern: treat with sodium bicarbonate"
               }
             ]
           },
@@ -819,39 +726,35 @@
               },
               {
                 "key": "DDx",
-                "value": "Sympathomimetic (wet vs dry skin), serotonin syndrome (clonus, hyperreflexia), NMS (rigidity, ↑ CK), thyroid storm, heat stroke"
+                "value": "Sympathomimetic (wet vs dry skin), serotonin syndrome (clonus, hyperreflexia), NMS (rigidity, \u2191 CK), thyroid storm, heat stroke"
               }
             ]
           },
           {
-            "title": "Management & Pearls",
+            "title": "Management",
             "type": "steps",
             "items": [
-              "Check ECG first: if QRS >100 ms, give sodium bicarbonate 2 mEq/kg IV & treat as possible TCA toxicity",
-              "Use benzos first line for agitation & start active cooling for hyperthermia",
+              "CHECK NOW",
+              "-**Labs:** BMP, CBC, urine drug screen, toxicology screen",
+              "-**Orders:** IV access, continuous SpO2, telemetry (QTc prolongation), continuous temperature monitoring, toxicology/poison control consult",
+              "**Check ECG**: if QRS >100 ms, give sodium bicarbonate 2 mEq/kg IV & treat as possible TCA toxicity, especially if taking",
+              "**Use benzos for agitation & start active cooling for hyperthermia**",
               "Treat retention/supportive issues: Foley for urinary retention, IVF PRN, serial temp/ECG monitoring",
-              "Consider physostigmine 0.5-1 mg IV slow only if no C/F TCA, no wide QRS, no seizure hx, & no brady/AV block",
-              "Anticholinergic = DRY; sympathomimetic = WET: check axillae for moisture (key distinguishing exam finding)",
-              "If physostigmine causes seizures: benzos will be INEFFECTIVE: use phenobarbital or propofol",
-              "Avoid Class IA/IC antiarrhythmics (procainamide, flecainide) if TCA suspected",
-              "Plant ingestions (jimson weed) may havedelayed absorption from ↓ GI motility: observe 24-48 hrs",
-              "Mydriasis may persist 12-24 hrs after or sx resolve —don't use pupil size to judge resolution",
-              "Diphenhydramine is dose dependent: mild anticholinergic at low doses: QRS widening, seizures, Rhabdo at high doses",
-              "Always check ECG before giving physostigmine: QRS >100 ms = contraindication"
-            ]
-          },
-          {
-            "title": "Orders",
-            "type": "bullets",
-            "items": [
+              "**physostigmine 0.5-1 mg IV slow** only if no C/F TCA OD, no wide QRS, no seizure hx, & no brady/AV block",
+              "**--If physostigmine causes seizures: benzos will be INEFFECTIVE: use phenobarbital or propofol**",
               "ECG: sinus tach; QRS >100 ms: TCA; QTc prolongation",
-              "POC glucose",
-              "Acetaminophen & salicylate levels ( mandatory coingestion screen)",
-              "BMP",
-              "CPK if prolonged agitation (Rhabdo)",
-              "Urinalysis",
-              "UDS (limited utility: detects many anticholinergic agents poorly)",
-              "cardiac monitoring"
+              "--POC glucose",
+              "--Acetaminophen & salicylate levels ( mandatory coingestion screen)",
+              "--BMP",
+              "--CPK if prolonged agitation (Rhabdo)",
+              "--Urinalysis",
+              "--UDS (limited utility: detects many anticholinergic agents poorly)",
+              "Anticholinergic = DRY; sympathomimetic = WET: **check axillae for moisture (key distinguishing exam finding)**",
+              "Avoid Class IA/IC antiarrhythmics (procainamide, flecainide) if TCA suspected",
+              "Plant ingestions (jimson weed) may have delayed abs from \u2193 GI motility: watch 24-48 hrs",
+              "Mydriasis may last 12-24 hrs after or sx resolve = !!cant use pupil size to determine resolution!!",
+              "Diphenhydramine is dose dependent: mild anticholinergic at low doses: QRS widening, seizures, Rhabdo at high doses",
+              "**Always check ECG before giving physostigmine: QRS >100 ms = contraindication**"
             ]
           },
           {
@@ -862,14 +765,14 @@
                 "name": "Lorazepam",
                 "dose": "2-4 mg IV q5-15 min PRN agitation",
                 "route": "IV",
-                "contraindications": "Resp depression (ensure airway control)",
+                "contraindications": "Resp depression (make sure airway control)",
                 "notes": "Firstline for agitation: controls muscular heat generation, prevents hyperthermia"
               },
               {
                 "name": "Physostigmine",
                 "dose": "0.5-1 mg IV slowly over 5 min; may repeat q20 min up to 2 mg total in first hr",
                 "route": "IV",
-                "contraindications": "TCA ingestion, QRS >100 ms, ↓ HR, AV block, seizure hx, unknown OD",
+                "contraindications": "TCA ingestion, QRS >100 ms, \u2193 HR, AV block, seizure hx, unknown OD",
                 "notes": "Reverses central & peripheral effects. If needing >3 doses in 6 hrs, consider infusion 1 mg/hr. Duration shorter than most ingested agents: rebound risk"
               },
               {
@@ -889,12 +792,24 @@
             ]
           },
           {
-            "title": "Disposition",
+            "title": "Recognition / Key Concepts",
             "type": "keyValue",
             "pairs": [
               {
-                "key": "ICU / immediate higher level of care if",
-                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+                "key": "Classic mnemonic",
+                "value": "\"Blind as bat\" (mydriasis), \"Mad as hatter\" (delirium), \"Red as beet\" (flushed), \"Hot as hare\" (hyperthermia), \"Dry as bone\" (anhidrosis), \"Full as flask\" (urinary retention)"
+              },
+              {
+                "key": "Anticholinergic",
+                "value": "Blockade of muscarinic acetylcholine receptors: loss of parasympathetic tone: sympathetic dominance"
+              },
+              {
+                "key": "Physostigmine",
+                "value": "Reversible acetylcholinesterase inhibitor: crosses BBB: reverses both central (delirium) & peripheral (tachycardia, mydriasis) effects"
+              },
+              {
+                "key": "Sodium channel blockade",
+                "value": "TCAs block fast sodium channels: QRS widening, right axis deviation, Brugada pattern: treat with sodium bicarbonate"
               }
             ]
           },
@@ -913,13 +828,17 @@
         "subtitle": "Agitation, tachycardia, hypertension, diaphoresis, hyperthermia, mydriasis",
         "sections": [
           {
-            "title": "Acute Management",
+            "title": "The First 60 Seconds",
             "type": "steps",
             "items": [
-              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-              "Active cooling: ice packs to axillae/groin, evaporative cooling, cooling blankets",
-              "If temp >41°C & refractory to benzos: intubate + paralyze (rocuronium) to stop heat generation",
-              "Benzodiazepines are first line for EVERYTHING: agitation, HTN, tachycardia, hyperthermia, seizures"
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
+              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor",
+              "Check fingerstick glucose."
             ]
           },
           {
@@ -930,19 +849,23 @@
               "Route: smoked, snorted, IV, oral",
               "Time of last use & amount",
               "Coingestants: alcohol, opioids, benzodiazepines",
-              "Chest pain? (acute coronary syndrome, aortic dissection risk with cocaine)",
-              "Headache? (ICH risk)",
+              "Chest pain? (cf acute coronary syndrome, aortic dissection with cocaine)",
+              "Headache? (ICH)",
               "Prior substance use: chronic vs naive (tolerance affects presentation)",
-              "Psychiatric hx: stimulantinduced psychosis, prior OD"
+              "Psychiatric hx: stimulant induced psychosis, prior OD"
             ]
           },
           {
-            "title": "Exam",
+            "title": "Presentation/Exam",
             "type": "keyValue",
             "pairs": [
               {
+                "key": "Classic presentation",
+                "value": "Agitation + diaphoresis + mydriasis + hyperthermia + tachycardia + hypertension from cocaine, amphetamines, MDMA, or bath salts; hyperthermia-induced multiorgan failure is the most dangerous complication"
+              },
+              {
                 "key": "Vitals pattern",
-                "value": "HR ↑↑; BP ↑↑; RR ↑; temp ↑ (can be severely elevated)"
+                "value": "HR \u2191\u2191; BP \u2191\u2191; RR \u2191; temp \u2191 (can be severely elevated)"
               },
               {
                 "key": "Pupils",
@@ -1001,38 +924,35 @@
             ]
           },
           {
-            "title": "Management & Pearls",
+            "title": "Management",
             "type": "steps",
             "items": [
-              "Give benzos first line: lorazepam 2-4 mg IV or diazepam 5-10 mg IV; repeat aggressively as needed",
-              "Check core temp & cool early; severe hyperthermia needs aggressive external cooling +/ intubation/paralysis",
-              "Give IV crystalloids & treat refractory HTN only after adequate benzos, e.g. nicardipine or phentolamine",
+              "CHECK NOW",
+              "-**Labs:** BMP (K+), CBC, trop, CK, UDS, ABG/VBG (if severe)",
+              "--POC glucose",
+              "--BMP: Cr, lytes (hyponatremia with MDMA)",
+              "--CPK: Rhabdo screen (bath salts 63%, amphetamines 40%, cocaine 33%)",
+              "--UA with myoglobin",
+              "--ECG: QTc prolongation, QRS widening, ischemic changes, dysrhythmias",
+              "--Troponin if chest pain or ECG changes",
+              "--VBG/ABG",
+              "--Coags/DIC panel if severe hyperthermia",
+              "--UDS (limited: may miss syntic agents)",
+              "--Acetaminophen & salicylate levels",
+              "**Head CT** if focal neuro findings, severe HA, or AMS (hemorrhage, stroke)",
+              "**IV access, EKG + on monitor, check tele, call poison control**",
               "Avoid BB, avoid haloperidol as first line, & avoid antipyretics",
+              "**Give benzos**: lorazepam 2-4 mg IV or diazepam 5-10 mg IV; repeat aggressively as needed",
+              "**Check core temp** & cool early; severe hyperthermia needs aggressive external cooling +/ intubation/paralysis",
+              "Give IV fluids & treat refractory HTN only after adequate benzos, e.g. nicardipine or phentolamine",
               "No BB: labetalol, metoprolol, propranolol all contraindicated with cocaine (unopposed alpha: HTN crisis, coronary vasospasm)",
-              "No succinylcholine: ↑K risk from Rhabdo",
-              "No antipyretics: hyperthermia is from muscular heat generation, not febrile response",
-              "Rhabdo is VERY common: check CPK on all sympathomimetic presentations",
-              "Cocaine chest pain: benzos + NTG + aspirin; avoid BB; cath lab if STEMI",
+              "No succinylcholine: \u2191K risk from Rhabdo",
+              "**No antipyretics**: hyperthermia is from muscular heat generation, not febrile response",
+              "--Rhabdo is VERY common: check CPK on all sympathomimetic presentations",
+              "**Cocaine chest pain**: benzos + NTG + aspirin; avoid BB; cath lab if STEMI",
               "MDMA causes severe hyponatremia (SIADH + excessive free water intake): seizures",
               "Bath salts / syntic cathinones cause most severe agitation & highest Rhabdo rates",
               "Body packers (swallowed cocaine): wholebowel irrigation; surgical consult if packet rupture suspected"
-            ]
-          },
-          {
-            "title": "Orders",
-            "type": "bullets",
-            "items": [
-              "POC glucose",
-              "BMP: Cr, lytes (hyponatremia with MDMA)",
-              "CPK: Rhabdo screen (bath salts 63%, amphetamines 40%, cocaine 33%)",
-              "UA with myoglobin",
-              "ECG: QTc prolongation, QRS widening, ischemic changes, dysrhythmias",
-              "Troponin if chest pain or ECG changes",
-              "VBG/ABG",
-              "Coags/DIC panel if severe hyperthermia",
-              "UDS (limited: may miss syntic agents)",
-              "Acetaminophen & salicylate levels",
-              "Head CT if focal neuro findings, severe HA, or AMS (hemorrhage, stroke)"
             ]
           },
           {
@@ -1041,7 +961,7 @@
             "drugs": [
               {
                 "name": "Lorazepam",
-                "dose": "2-4 mg IV q5-10 min; may needlarge cumulative doses (50-100+ mg)",
+                "dose": "2-4 mg IV q5-10 min; may needlarge cumulative doses (50+ mg)",
                 "route": "IV",
                 "contraindications": "Resp depression at high doses (airway management)",
                 "notes": "Firstline for everything: agitation, HTN, tachycardia, seizures, hyperthermia. Treats the underlying cause"
@@ -1057,32 +977,22 @@
                 "name": "Phentolamine",
                 "dose": "2.5-5 mg IV bolus; may repeat q5-15 min",
                 "route": "IV",
-                "contraindications": "↓ BP",
+                "contraindications": "\u2193 BP",
                 "notes": "Alphablocker: for refractory HTN esp cocaine associated. Addresses unopposed alpha stimulation"
               },
               {
                 "name": "Nitroglycerin",
                 "dose": "0.4 mg SL or 5-200 mcg/min IV infusion",
                 "route": "SL / IV",
-                "contraindications": "↓ BP, PDE5 inhibitor use",
+                "contraindications": "\u2193 BP, PDE5 inhibitor use",
                 "notes": "For cocaine associated ACS: coronary vasodilator"
               },
               {
-                "name": "IV Crystalloid",
+                "name": "IV fluid",
                 "dose": "1-2 L bolus, then target UOP 200-300 mL/hr if Rhabdo",
                 "route": "IV",
                 "contraindications": "Volume overload / CHF",
                 "notes": "Aggressive hydration for Rhabdo prevention + volume depletion from diaphoresis"
-              }
-            ]
-          },
-          {
-            "title": "Disposition",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "ICU / immediate higher level of care if",
-                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
               }
             ]
           },
@@ -1101,16 +1011,17 @@
         "subtitle": "Bradycardia, hypotension, sedation, miosis, hypoglycemia",
         "sections": [
           {
-            "title": "Acute Management",
+            "title": "The First 60 Seconds",
             "type": "steps",
             "items": [
-              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-              "IV access, cardiac monitoring, EKG",
-              "IV crystalloid bolus 20 mL/kg for ↓ BP",
-              "For CCB OD: high dose insulin (HDI) 1 unit/kg bolus + D50: 0.5-1 unit/kg/hr infusion (start early: 30-60 min to full effect)",
-              "Vasopressors: norepinephrine or epinephrine if fluidrefractory ↓ BP",
-              "For clonidine: trial of naloxone 0.4-2 mg IV (may require high doses up to 10 mg)",
-              "Contact ECMO center early for massive BB/CCB ingestions with refractory shock"
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
+              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor",
+              "Check POC glucose."
             ]
           },
           {
@@ -1118,22 +1029,26 @@
             "type": "bullets",
             "items": [
               "Which agent?: specific drug, dose, formulation (immediaterelease vs sustainedrelease)",
-              "Time of ingestion: sustainedrelease CCBs have delayed, prolonged toxicity",
-              "Amount ingested: single pill can kill in pediatric clonidine ingestion",
+              "**Time of ingestion**: sustained-release CCBs have delayed, prolonged toxicity",
+              "**Amount ingested**: single pill can kill in pediatric clonidine ingestion",
               "Intentional vs accidental",
-              "Concurrent meds: digoxin (synergistic ↓ HR), or antihypertensives",
-              "Cardiac hx: baseline conduction disease, CHF, pacemaker",
-              "Renal/hepatic function: affects drug clearance",
+              "**Concurrent meds**: digoxin (synergistic \u2193 HR), or antihypertensives",
+              "**Cardiac hx**: baseline conduction disease, CHF, pacemaker",
+              "**Renal/hepatic fxn**: affects drug clearance",
               "Prior hx of similar ingestion"
             ]
           },
           {
-            "title": "Exam",
+            "title": "Presentation/Exam",
             "type": "keyValue",
             "pairs": [
               {
+                "key": "Classic presentation",
+                "value": "Bradycardia + hypotension + miosis + CNS depression from alpha/beta-blocker OD, clonidine, or opioids; distinguish from opioid toxidrome by the lack of response to naloxone and prominent bradycardia/hypotension"
+              },
+              {
                 "key": "Vitals pattern",
-                "value": "HR ↓ (↓ HR); BP ↓ (↓ BP ); RR ↓ (esp clonidine); temp nl. or ↓"
+                "value": "HR \u2193 (\u2193 HR); BP \u2193 (\u2193 BP ); RR \u2193 (esp clonidine); temp nl. or \u2193"
               },
               {
                 "key": "Pupils",
@@ -1141,11 +1056,11 @@
               },
               {
                 "key": "Neuro",
-                "value": "↓ LOC, sedation, lethargy: coma (esp clonidine); clonidine can closely mimic opioid OD"
+                "value": "\u2193 LOC, sedation, lethargy: coma (esp clonidine); clonidine can closely mimic opioid OD"
               },
               {
                 "key": "CV",
-                "value": "↓ HR, ↓ BP, AV blocks (verapamil/diltiazem), wide QRS (propranolol)"
+                "value": "\u2193 HR, \u2193 BP, AV blocks (verapamil/diltiazem), wide QRS (propranolol)"
               },
               {
                 "key": "Skin",
@@ -1153,37 +1068,11 @@
               },
               {
                 "key": "Respiratory",
-                "value": "↓ RR, periodic apnea, CheyneStokes (clonidine)"
+                "value": "\u2193 RR, periodic apnea, CheyneStokes (clonidine)"
               },
               {
                 "key": "Glucose clue",
-                "value": "↓ Glucose = betablocker; hyperglycemia = CCB: critical distinguishing feature when agent unknown"
-              }
-            ]
-          },
-          {
-            "title": "Recognition / Key Concepts",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "Sympatholytic",
-                "value": "Agents that ↓ sympathetic nervous system activity: ↓ HR, ↓ BP, ↓ consciousness"
-              },
-              {
-                "key": "Highdose insulin (HDI)",
-                "value": "Euglycemic therapy: insulin ↑ inotropy independent of betareceptors; most effective tx for CCB OD: start early as 30-60 min to full effect"
-              },
-              {
-                "key": "Glucagon",
-                "value": "Bypasses betareceptor blockade via Gs protein activation: ↑ cAMP: ↑ inotropy & chronotropy; first line for betablocker OD"
-              },
-              {
-                "key": "Dihydropyridine CCBs",
-                "value": "Amlodipine, nifedipine: primarily vasodilation: ↓ BP with reflex tachycardia (may NOT have ↓ HR)"
-              },
-              {
-                "key": "Nondihydropyridine CCBs",
-                "value": "Verapamil, diltiazem: negative chronotropy + inotropy: ↓ HR, AV block, ↓ cardiac output"
+                "value": "\u2193 Glucose = betablocker; hyperglycemia = CCB: critical distinguishing feature when agent unknown"
               }
             ]
           },
@@ -1204,38 +1093,35 @@
                 "value": "Verapamil (most dangerous CCB in OD); diltiazem; amlodipine, nifedipine (dihydropyridines)"
               },
               {
-                "key": "DDx: ↓ HR + ↓ BP",
-                "value": "Opioid OD (responds to naloxone), digoxin toxicity (bidirectional VT, ↑K), cholinergic toxidrome (SLUDGE), hypothyroidism, ↑K, sepsis"
+                "key": "DDx: \u2193 HR + \u2193 BP",
+                "value": "Opioid OD (responds to naloxone), digoxin toxicity (bidirectional VT, \u2191K), cholinergic toxidrome (SLUDGE), hypothyroidism, \u2191K, sepsis"
               }
             ]
           },
           {
-            "title": "Management & Pearls",
+            "title": "Management",
             "type": "steps",
             "items": [
+              "CHECK NOW",
+              "-**Labs:** BMP, CBC, digoxin level (if applicable), toxicology screen, ABG/VBG",
+              "-**Orders:** IV access, continuous SpO2, telemetry, transcutaneous pacing pads on (bradycardia), toxicology/poison control consult",
               "Identify the agent class: clonidine vs BB vs CCB, b/c treatment differs",
               "Support ABCs & treat symptomatic bradycardia/hypotension; atropine 0.5-1 mg IV may help butfails in severe BB/CCB OD",
               "For BB OD: glucagon 5 mg IV bolus, then infusion if responsive",
               "For CCB OD: IV calcium chloride 1-3 g or calcium gluconate 3-9 g, then escalate per shock severity",
-              "Glucose is key distinguishing clue: ↓ Glucose = BB; hyperglycemia = CCB; hyperglycemia severity correlates with CCB severity",
+              "Glucose is key distinguishing clue: \u2193 Glucose = BB; hyperglycemia = CCB; hyperglycemia severity correlates with CCB severity",
               "Clonidine mimics opioid OD: miosis + CNS depression + resp depression; consider clonidine in pts who don't fully respond to naloxone",
               "Start HDI early for CCB OD: takes 30-60 min to full effect; don't wait for or therapies to fail",
-              "Sustainedrelease CCBs (amlodipine, ER verapamil/diltiazem): delayed & prolonged toxicity: admit ALL SR ingestions even if asymptomatic",
+              "Sustained-release CCBs (amlodipine, ER verapamil/diltiazem): delayed & prolonged toxicity: admit ALL SR ingestions even if asymptomatic",
               "Propranolol is most dangerous BB: lipophilic (crosses BBB: seizures) + Na channel blockade (, then QRS widening)",
               "Sotalol is unique: K channel blockade: QT prolongation: TdP; give Mg 2 g IV; delayed toxicity",
               "Consider wholebowel irrigation for sustainedrelease preparations",
-              "VAECMO is definitive rescue therapy for refractory cardiogenic shock: contact ECMO center early"
-            ]
-          },
-          {
-            "title": "Orders",
-            "type": "bullets",
-            "items": [
-              "ECG: ↓ HR, AV blocks, QRS widening (propranolol), QT prolongation (sotalol)",
-              "POC glucose: ↓ Glucose: betablocker; hyperglycemia: CCB ( key distinguishing feature)",
+              "VAECMO is definitive rescue therapy for refractory cardiogenic shock: contact ECMO center early",
+              "ECG: \u2193 HR, AV blocks, QRS widening (propranolol), QT prolongation (sotalol)",
+              "POC glucose: \u2193 Glucose: betablocker; hyperglycemia: CCB ( key distinguishing feature)",
               "BMP: electrolytes, renal function, calcium",
               "Serum lactate: tissue hypoperfusion marker",
-              "Digoxin level (if applicable —coprescribed)",
+              "Digoxin level (if applicable \u2014coprescribed)",
               "Acetaminophen & salicylate levels",
               "VBG: check perfusion, acidbase status",
               "cardiac monitoring ( mandatory)",
@@ -1258,21 +1144,21 @@
                 "dose": "1 unit/kg IV bolus + D50 (0.5 g/kg), then infusion 0.5-1 unit/kg/hr (titrate up to 10 units/kg/hr)",
                 "route": "IV",
                 "contraindications": "Monitor glucose q15 min; maintain K+ >3.0",
-                "notes": "Most effective tx for CCB OD: takes 30-60 min for full effect: start early. ↑ inotropy independent of betareceptors. Maintain euglycemia with dextrose infusion"
+                "notes": "Most effective tx for CCB OD: takes 30-60 min for full effect: start early. \u2191 inotropy independent of betareceptors. Maintain euglycemia with dextrose infusion"
               },
               {
                 "name": "Calcium chloride 10%",
                 "dose": "1-3 g IV (20-40 mg/kg) via central line; may repeat",
                 "route": "IV (central)",
                 "contraindications": "Digoxin toxicity (calcium worsens dig toxicity)",
-                "notes": "For CCB OD: ↑ extracellular calcium to overcome channel blockade. CaCl has 3x more elemental calcium than gluconate. Target Ca 15-18 mg/dL"
+                "notes": "For CCB OD: \u2191 extracellular calcium to overcome channel blockade. CaCl has 3x more elemental calcium than gluconate. Target Ca 15-18 mg/dL"
               },
               {
                 "name": "Atropine",
                 "dose": "0.5-1 mg IV q3-5 min, max 3 mg",
                 "route": "IV",
-                "contraindications": "Avoid in widecomplex ↓ HR",
-                "notes": "For symptomatic ↓ HR —ineffective in severe BB/CCB OD"
+                "contraindications": "Avoid in widecomplex \u2193 HR",
+                "notes": "For symptomatic \u2193 HR \u2014ineffective in severe BB/CCB OD"
               },
               {
                 "name": "Naloxone",
@@ -1283,7 +1169,7 @@
               },
               {
                 "name": "Lipid emulsion 20%",
-                "dose": "1.5 mL/kg IV bolus (repeat 1-2x if pulseless), then 0.25 mL/kg/min × 30-60 min; max 12.5 mL/kg",
+                "dose": "1.5 mL/kg IV bolus (repeat 1-2x if pulseless), then 0.25 mL/kg/min \u00d7 30-60 min; max 12.5 mL/kg",
                 "route": "IV",
                 "contraindications": "Pancreatitis, fat embolism risk",
                 "notes": "For lipophilic betablocker OD (propranolol) refractory to or tx; consider for severe CCB OD"
@@ -1298,12 +1184,28 @@
             ]
           },
           {
-            "title": "Disposition",
+            "title": "Recognition / Key Concepts",
             "type": "keyValue",
             "pairs": [
               {
-                "key": "ICU / immediate higher level of care if",
-                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+                "key": "Sympatholytic",
+                "value": "Agents that \u2193 sympathetic nervous system activity: \u2193 HR, \u2193 BP, \u2193 consciousness"
+              },
+              {
+                "key": "Highdose insulin (HDI)",
+                "value": "Euglycemic therapy: insulin \u2191 inotropy independent of betareceptors; most effective tx for CCB OD: start early as 30-60 min to full effect"
+              },
+              {
+                "key": "Glucagon",
+                "value": "Bypasses betareceptor blockade via Gs protein activation: \u2191 cAMP: \u2191 inotropy & chronotropy; first line for betablocker OD"
+              },
+              {
+                "key": "Dihydropyridine CCBs",
+                "value": "Amlodipine, nifedipine: primarily vasodilation: \u2193 BP with reflex tachycardia (may NOT have \u2193 HR)"
+              },
+              {
+                "key": "Nondihydropyridine CCBs",
+                "value": "Verapamil, diltiazem: negative chronotropy + inotropy: \u2193 HR, AV block, \u2193 cardiac output"
               }
             ]
           },
@@ -1323,16 +1225,17 @@
         "subtitle": "Somnolence, hypoventilation, slurred speech, hypotension, coma",
         "sections": [
           {
-            "title": "Acute Management",
+            "title": "The First 60 Seconds",
             "type": "steps",
             "items": [
-              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-              "Airway is paramount: respiratory depression is primary cause of death",
-              "check GCS, gag reflex, respiratory effort: intubate for GCS <8, absent gag, or resp failure",
-              "Supplemental O2, pulse oximetry, capnography",
-              "IV access, POC glucose (↓ Glucose common with ethanol)",
-              "IV crystalloid for ↓ BP",
-              "Activated charcoal 1 g/kg if within 1-2 hrs & airway protected"
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
+              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor",
+              "Check fingerstick glucose."
             ]
           },
           {
@@ -1350,16 +1253,20 @@
             ]
           },
           {
-            "title": "Exam",
+            "title": "Presentation/Exam",
             "type": "keyValue",
             "pairs": [
               {
+                "key": "Classic presentation",
+                "value": "CNS depression + respiratory depression with normal or modest vital signs from benzodiazepines, barbiturates, or GHB; no autonomic excess; airway protection is the key concern \u2014 flumazenil rarely used"
+              },
+              {
                 "key": "Vitals pattern",
-                "value": "HR nl. or ↓; BP nl. or ↓; RR ↓ (resp depression: primary lethal mechanism); temp nl. or ↓"
+                "value": "HR nl. or \u2193; BP nl. or \u2193; RR \u2193 (resp depression: primary lethal mechanism); temp nl. or \u2193"
               },
               {
                 "key": "Pupils",
-                "value": "Variable —midpoint, nl. reactive (unlike opioids which are pinpoint)"
+                "value": "Variable \u2014midpoint, nl. reactive (unlike opioids which are pinpoint)"
               },
               {
                 "key": "Neuro",
@@ -1371,7 +1278,7 @@
               },
               {
                 "key": "Respiratory",
-                "value": "↓ RR, ↓ tidal volume, apnea: primary mechanism of death"
+                "value": "\u2193 RR, \u2193 tidal volume, apnea: primary mechanism of death"
               },
               {
                 "key": "GHBspecific",
@@ -1397,7 +1304,7 @@
               },
               {
                 "key": "Zdrugs",
-                "value": "Zolpidem (Ambien), zaleplon, eszopiclone —less severe than benzos"
+                "value": "Zolpidem (Ambien), zaleplon, eszopiclone \u2014less severe than benzos"
               },
               {
                 "key": "GHB / GBL",
@@ -1409,14 +1316,17 @@
               },
               {
                 "key": "DDx",
-                "value": "Opioid OD (miosis, responds to naloxone), sympatholytic (↓ HR + ↓ BP ), hepatic encephalopathy, ↓ Glucose, hypothyroidism, stroke, postictal state"
+                "value": "Opioid OD (miosis, responds to naloxone), sympatholytic (\u2193 HR + \u2193 BP ), hepatic encephalopathy, \u2193 Glucose, hypothyroidism, stroke, postictal state"
               }
             ]
           },
           {
-            "title": "Management & Pearls",
+            "title": "Management",
             "type": "steps",
             "items": [
+              "CHECK NOW",
+              "-**Labs:** BMP, CBC, ABG/VBG (respiratory depression), urine drug screen, ethanol level, specific drug levels (if known agent)",
+              "-**Orders:** IV access, continuous SpO2, continuous ETCO2, telemetry, toxicology/poison control consult",
               "Support airway/ventilation first; many pts need only time & supportive care",
               "Rewarm if hypothermic & monitor for recurrent sedation or apnea",
               "Flumazenil is not routine; reserve for clear iatrogenic benzo oversedation in the right pt",
@@ -1429,14 +1339,8 @@
               "Barbiturate OD can mimic brain death: do NOT make withdrawalofcare decisions acutely",
               "Standard UDS misses many benzos (lorazepam, alprazolam, clonazepam, midazolam) & all GHB",
               "Phenobarbital haslong halflife (80-120 hrs): prolonged monitoring required",
-              "Opioid + benzo coingestion = synergistic resp depression common lethal combination"
-            ]
-          },
-          {
-            "title": "Orders",
-            "type": "bullets",
-            "items": [
-              "POC glucose ( ↓ Glucose common with ethanol)",
+              "Opioid + benzo coingestion = synergistic resp depression common lethal combination",
+              "POC glucose ( \u2193 Glucose common with ethanol)",
               "Acetaminophen & salicylate levels: mandatory in any OD presentation",
               "Serum ethanol level",
               "BMP",
@@ -1463,7 +1367,7 @@
                 "name": "Activated charcoal",
                 "dose": "1 g/kg PO (max 50 g)",
                 "route": "PO",
-                "contraindications": "Unprotected airway, ↓ GCS without intubation",
+                "contraindications": "Unprotected airway, \u2193 GCS without intubation",
                 "notes": "Most effective within 1-2 hrs of ingestion. Protect airway first. Consider multidose charcoal for phenobarbital"
               },
               {
@@ -1478,17 +1382,7 @@
                 "dose": "150 mEq in 1L D5W at 150-200 mL/hr; target urine pH 7.5-8.0",
                 "route": "IV",
                 "contraindications": "Metabolic alkalosis, pulmonary edema",
-                "notes": "For phenobarbital OD: ↑ renal clearance via ion trapping. Monitor urine pH, serum K+"
-              }
-            ]
-          },
-          {
-            "title": "Disposition",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "ICU / immediate higher level of care if",
-                "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
+                "notes": "For phenobarbital OD: \u2191 renal clearance via ion trapping. Monitor urine pH, serum K+"
               }
             ]
           },
@@ -1497,7 +1391,7 @@
             "type": "bullets",
             "items": [
               "Kang M, Galuska MA, Ghassemzadeh S. Benzodiazepine Toxicity. StatPearls [Internet]. 2024. https://www.ncbi.nlm.nih.gov/books/NBK482238/",
-              "Penninga EI, Graudal N, Ladekarl MB, Jürgens G. Adverse Events Associated with Flumazenil Treatment for the Management of Suspected Benzodiazepine Intoxication — A Systematic Review with MetaAnalyses of Randomised Trials. Basic & Clinical Pharmacology & Toxicology. 2016;118(1):3744. https://doi.org/10.1111/bcpt.12434"
+              "Penninga EI, Graudal N, Ladekarl MB, J\u00fcrgens G. Adverse Events Associated with Flumazenil Treatment for the Management of Suspected Benzodiazepine Intoxication \u2014 A Systematic Review with MetaAnalyses of Randomised Trials. Basic & Clinical Pharmacology & Toxicology. 2016;118(1):3744. https://doi.org/10.1111/bcpt.12434"
             ]
           }
         ]
@@ -1507,21 +1401,17 @@
         "subtitle": "Bradycardia, hypotension, shock, conduction abnormalities, cardiogenic collapse",
         "sections": [
           {
-            "title": "Acute Management",
+            "title": "The First 60 Seconds",
             "type": "steps",
             "items": [
-              "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-              "IV access (establish central access early for severe cases), continuous cardiac monitoring, 12-lead ECG",
-              "IV crystalloid bolus for hypotension; avoid over-resuscitation (volume overload is common in severe intoxications)",
-              "Vasopressors: epinephrine for bradycardia + hypotension; norepinephrine for vasodilatory shock (dihydropyridine CCBs, labetalol, carvedilol)",
-              "IV calcium: calcium chloride 1 g IV (central) or calcium gluconate 3 g IV (peripheral) over 5 min; repeat q10-20 min up to 3 g CaCl or 9 g Ca gluconate. Target ionized Ca ~2 mM",
-              "Hyperinsulinemic euglycemia (HIE): insulin 1 unit/kg IV bolus then 1 unit/kg/hr infusion. Start EARLY (takes 15-60 min to work). Give D50W 1-2 amps + D50W infusion ~1 mL/kg/hr via central line. Monitor glucose q15-30 min, target 125-250 mg/dL. Monitor K+, Mg, Phos",
-              "Glucagon (primarily for BB OD): 5 mg IV bolus over 5 min; if no response after 10 mg total, stop. If effective, infuse at response dose (1-10 mg/hr). Pre-treat with ondansetron (causes emesis). Caution: unprotected airway",
-              "Atropine 1 mg IV q5 min x 1-3 doses (max 3 mg) for symptomatic bradycardia (often ineffective in severe OD)",
-              "Decontamination: activated charcoal if within 1-2 hr of ingestion; consider whole bowel irrigation for sustained-release CCBs or amlodipine (must be given before onset of shock/ileus)",
-              "For refractory shock: contact ECMO center early for VA-ECMO (best for cardiogenic shock); consider methylene blue for refractory vasodilatory shock from CCBs",
-              "For QRS widening (propranolol, carvedilol): IV sodium bicarbonate 1-2 mEq/kg bolus",
-              "For QTc prolongation (sotalol, acebutolol): IV magnesium 2 g bolus; treat torsade de pointes with Mg infusion + overdrive pacing"
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
+              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor",
+              "Check fingerstick glucose."
             ]
           },
           {
@@ -1539,12 +1429,16 @@
             ]
           },
           {
-            "title": "Exam",
+            "title": "Presentation/Exam",
             "type": "keyValue",
             "pairs": [
               {
+                "key": "Classic presentation",
+                "value": "Bradycardia + hypotension + AV block in a patient on cardiac medications; CCB may preserve mental status with severe hemodynamic compromise; cardiogenic shock with bradycardia = CCB/BB OD until proven otherwise"
+              },
+              {
                 "key": "Vitals",
-                "value": "↓ HR, ↓ BP, shock. Dihydropyridine CCBs at lower doses may cause reflex tachycardia with ↓ BP"
+                "value": "\u2193 HR, \u2193 BP, shock. Dihydropyridine CCBs at lower doses may cause reflex tachycardia with \u2193 BP"
               },
               {
                 "key": "Glucose clue",
@@ -1569,48 +1463,6 @@
             ]
           },
           {
-            "title": "Recognition / Key Concepts",
-            "type": "keyValue",
-            "pairs": [
-              {
-                "key": "Nondihydropyridine CCBs",
-                "value": "Verapamil, diltiazem: cause myocardial suppression > vasodilation. Early ↓ HR + ↓ BP. Verapamil is most dangerous CCB in overdose"
-              },
-              {
-                "key": "Dihydropyridine CCBs",
-                "value": "Amlodipine, nifedipine, felodipine: primarily vasodilatory at lower doses (↓ BP with reflex tachycardia). Higher doses lose selectivity and cause bradycardia + vasodilation"
-              },
-              {
-                "key": "Propranolol",
-                "value": "Most dangerous BB in OD. Highly lipophilic (crosses BBB: seizures, coma). Na channel blockade: QRS widening, monomorphic VT, Brugada pattern. Severe hypotension"
-              },
-              {
-                "key": "Sotalol",
-                "value": "K channel blockade: QTc prolongation + torsade de pointes risk. Bradycardia + QT prolongation synergistically promote torsade. Delayed & prolonged toxicity. Dialyzable"
-              },
-              {
-                "key": "Na channel blocking BBs",
-                "value": "Acebutolol, betaxolol, carvedilol, oxprenolol, pindolol, propranolol: cause QRS widening, monomorphic VT, Brugada pattern. Treat with IV sodium bicarbonate"
-              },
-              {
-                "key": "Vasodilatory BBs",
-                "value": "Betaxolol, carvedilol, labetalol, nebivolol: cause hypotension partly from peripheral vasodilation. May need norepinephrine"
-              },
-              {
-                "key": "HIE mechanism",
-                "value": "Insulin ↑ myocardial inotropy independent of beta-receptors. Most effective for cardiogenic shock from CCB/BB OD. Takes 15-60 min to work: start early, do not wait for other therapies to fail"
-              },
-              {
-                "key": "Glucagon mechanism",
-                "value": "Increases myocardial cAMP bypassing beta-receptor. Positive inotropic + chronotropic effects. Most useful for BB OD with cardiogenic shock. Short half-life (5-7 min): requires continuous infusion"
-              },
-              {
-                "key": "Milrinone (niche)",
-                "value": "Also ↑ cAMP bypassing beta-receptor. Consider if glucagon supply is limited. Risk of vasodilation worsening ↓ BP. Renally cleared with long half-life"
-              }
-            ]
-          },
-          {
             "title": "Etiology / DDx",
             "type": "keyValue",
             "pairs": [
@@ -1623,8 +1475,8 @@
                 "value": "Propranolol (most dangerous), sotalol (unique QT risk), metoprolol, atenolol, carvedilol, labetalol, nadolol, acebutolol. Hypoglycemia distinguishes from CCB"
               },
               {
-                "key": "DDx: ↓ HR + ↓ BP",
-                "value": "Digoxin toxicity (bidirectional VT, ↑ K), clonidine/alpha-2 agonist OD (miosis, responds to naloxone), cholinergic toxidrome (SLUDGE), hypothyroidism/myxedema, hyperkalemia, inferior MI, sick sinus syndrome, Lyme disease, sepsis"
+                "key": "DDx: \u2193 HR + \u2193 BP",
+                "value": "Digoxin toxicity (bidirectional VT, \u2191 K), clonidine/alpha-2 agonist OD (miosis, responds to naloxone), cholinergic toxidrome (SLUDGE), hypothyroidism/myxedema, hyperkalemia, inferior MI, sick sinus syndrome, Lyme disease, sepsis"
               }
             ]
           },
@@ -1638,9 +1490,24 @@
               "Volume: IV fluids if hypovolemic, but most pts are NOT hypovolemic. Avoid over-resuscitation (volume overload is a major problem in severe cases)",
               "Vasopressors: epinephrine for bradycardia + shock; norepinephrine for vasodilatory shock. Patients may need unusually high doses. No maximum dose of catecholamines. Consider early HIE rather than escalating to extreme vasopressor doses",
               "Glucagon: 5 mg IV over 5 min (may repeat x1). If no improvement after 10 mg: stop. If effective: infuse at effective dose 1-10 mg/hr. Pre-treat with ondansetron. Caution: emesis risk with unprotected airway. Hospital supply may be limited: consider milrinone instead",
-              "IV calcium: CaCl 1 g (central) or Ca gluconate 3 g (peripheral) slow push over ≥5 min. Repeat q10-20 min. Target ionized Ca ~2 mM. May improve BP & contractility more than heart rate",
+              "IV calcium: CaCl 1 g (central) or Ca gluconate 3 g (peripheral) slow push over \u22655 min. Repeat q10-20 min. Target ionized Ca ~2 mM. May improve BP & contractility more than heart rate",
               "Atropine: 1 mg IV q5 min x 1-3 doses (max 3 mg). Unlikely to work in severe CCB OD",
-              "HIE: insulin 1 unit/kg bolus then 1 unit/kg/hr. Up-titrate q10-15 min to 1-10 units/kg/hr (>5 units/kg/hr may be excessive). Give D50W 1-2 amps unless glucose >250. Start D50W infusion ~1 mL/kg/hr via central line. Monitor glucose q15-30 min (target 125-250 mg/dL), K+ >3 mM, Mg, Phos"
+              "HIE: insulin 1 unit/kg bolus then 1 unit/kg/hr. Up-titrate q10-15 min to 1-10 units/kg/hr (>5 units/kg/hr may be excessive). Give D50W 1-2 amps unless glucose >250. Start D50W infusion ~1 mL/kg/hr via central line. Monitor glucose q15-30 min (target 125-250 mg/dL), K+ >3 mM, Mg, Phos",
+              "~~**Labs:** BMP (glucose, K+), CBC, troponin, drug levels (if known agent), ABG/VBG, lactate~~",
+              "~~**Orders:** IV access x2, continuous SpO2, telemetry, transcutaneous pacing pads on, continuous glucose monitoring, toxicology/poison control consult, high-dose insulin euglycemia setup~~",
+              "ECG: bradycardia, AV blocks, QRS widening (propranolol), QTc prolongation (sotalol), Brugada pattern. get serial ECGs",
+              "POC glucose: hypoglycemia = BB; hyperglycemia = CCB (severity correlates with CCB severity)",
+              "BMP: electrolytes, renal function, calcium, phosphorus, magnesium",
+              "Ionized calcium level (target ~2 mM if giving IV calcium)",
+              "Serum lactate: tissue hypoperfusion marker",
+              "VBG: acid-base status, perfusion",
+              "Digoxin level if taking digoxin",
+              "Acetaminophen & salicylate levels if coingestion possible",
+              "Consider TSH, Lyme/Tick serology",
+              "POCUS: check vasodilatory vs pump failure, check volume status & EF",
+              "Continuous cardiac monitoring (mandatory)",
+              "Pulse oximetry",
+              "Arterial line if hemodynamically unstable"
             ]
           },
           {
@@ -1648,10 +1515,10 @@
             "type": "steps",
             "items": [
               "Hemodialysis: consider for hydrophilic BBs (nadolol, sotalol, acebutolol, atenolol, timolol). CRRT for renal failure to avoid volume overload",
-              "Methylene blue: for refractory vasodilatory shock from CCBs (CCBs ↑ nitric oxide synthesis). Not for cardiogenic shock",
+              "Methylene blue: for refractory vasodilatory shock from CCBs (CCBs \u2191 nitric oxide synthesis). Not for cardiogenic shock",
               "VA-ECMO: definitive rescue for refractory cardiogenic shock. Supports pt until drug metabolism occurs. Limited by availability. Contact ECMO center early",
-              "Transvenous pacemaker: may help refractory bradycardia with preserved contractility, but results often disappointing. Capturing the myocardium is difficult (myocardial problem, not conduction problem). Loss of atrial kick and uncoordinated contraction may negate benefit of ↑ HR",
-              "Lipid emulsion (20%): falling out of favor. Concern that lipid may ↑ drug absorption from intestine. Reasonable for cardiac arrest/periarrest. 1.5 mL/kg bolus, then 0.25 mL/kg/min x 30-60 min. Unlikely to work with hydrophilic BBs. Risks: pancreatitis, ARDS, lab interference, ECMO circuit clotting"
+              "Transvenous pacemaker: may help refractory bradycardia with preserved contractility, but results often disappointing. Capturing the myocardium is difficult (myocardial problem, not conduction problem). Loss of atrial kick and uncoordinated contraction may negate benefit of \u2191 HR",
+              "Lipid emulsion (20%): falling out of favor. Concern that lipid may \u2191 drug absorption from intestine. Reasonable for cardiac arrest/periarrest. 1.5 mL/kg bolus, then 0.25 mL/kg/min x 30-60 min. Unlikely to work with hydrophilic BBs. Risks: pancreatitis, ARDS, lab interference, ECMO circuit clotting"
             ]
           },
           {
@@ -1695,31 +1562,12 @@
             ]
           },
           {
-            "title": "Orders",
-            "type": "bullets",
-            "items": [
-              "ECG: bradycardia, AV blocks, QRS widening (propranolol), QTc prolongation (sotalol), Brugada pattern. get serial ECGs",
-              "POC glucose: hypoglycemia = BB; hyperglycemia = CCB (severity correlates with CCB severity)",
-              "BMP: electrolytes, renal function, calcium, phosphorus, magnesium",
-              "Ionized calcium level (target ~2 mM if giving IV calcium)",
-              "Serum lactate: tissue hypoperfusion marker",
-              "VBG: acid-base status, perfusion",
-              "Digoxin level if taking digoxin",
-              "Acetaminophen & salicylate levels if coingestion possible",
-              "Consider TSH, Lyme/Tick serology",
-              "POCUS: check vasodilatory vs pump failure, check volume status & EF",
-              "Continuous cardiac monitoring (mandatory)",
-              "Pulse oximetry",
-              "Arterial line if hemodynamically unstable"
-            ]
-          },
-          {
             "title": "Medications",
             "type": "drugTable",
             "drugs": [
               {
                 "name": "Epinephrine",
-                "dose": "Start 1 mcg/min, titrate to MAP ≥60; no maximum dose",
+                "dose": "Start 1 mcg/min, titrate to MAP \u226560; no maximum dose",
                 "route": "IV",
                 "contraindications": "Tachyarrhythmias (relative)",
                 "notes": "Good first-line vasopressor: helps both bradycardia and hypotension. High doses may be needed"
@@ -1733,14 +1581,14 @@
               },
               {
                 "name": "Calcium chloride 10%",
-                "dose": "1 g IV over ≥5 min via central line; repeat q10-20 min up to 3 g total",
+                "dose": "1 g IV over \u22655 min via central line; repeat q10-20 min up to 3 g total",
                 "route": "IV (central only)",
                 "contraindications": "Digoxin toxicity (calcium worsens dig toxicity). Causes tissue necrosis if extravasates",
                 "notes": "3x more elemental Ca than gluconate. Target ionized Ca ~2 mM. May need repeat doses q1-2 hr"
               },
               {
                 "name": "Calcium gluconate 10%",
-                "dose": "3 g IV over ≥5 min; repeat q10-20 min up to 9 g total",
+                "dose": "3 g IV over \u22655 min; repeat q10-20 min up to 9 g total",
                 "route": "IV (peripheral OK)",
                 "contraindications": "Digoxin toxicity",
                 "notes": "Preferred without central access. Target ionized Ca ~2 mM"
@@ -1792,7 +1640,7 @@
                 "dose": "1-2 mg/kg IV over 5-30 min; may repeat",
                 "route": "IV",
                 "contraindications": "G6PD deficiency, serotonergic drugs (serotonin syndrome risk)",
-                "notes": "Tier-2 therapy for refractory vasodilatory shock from CCBs. CCBs ↑ nitric oxide synthesis. Not for cardiogenic shock"
+                "notes": "Tier-2 therapy for refractory vasodilatory shock from CCBs. CCBs \u2191 nitric oxide synthesis. Not for cardiogenic shock"
               },
               {
                 "name": "Lipid emulsion 20%",
@@ -1804,24 +1652,44 @@
             ]
           },
           {
-            "title": "Disposition",
+            "title": "Recognition / Key Concepts",
             "type": "keyValue",
             "pairs": [
               {
-                "key": "ICU admission",
-                "value": "All symptomatic pts. All sotalol ingestions (delayed/prolonged toxicity). All sustained-release CCB ingestions even if initially asymptomatic. Any pt requiring vasopressors, HIE, glucagon infusion, or ECMO"
+                "key": "Nondihydropyridine CCBs",
+                "value": "Verapamil, diltiazem: cause myocardial suppression > vasodilation. Early \u2193 HR + \u2193 BP. Verapamil is most dangerous CCB in overdose"
               },
               {
-                "key": "Monitored observation (≥6 hr)",
-                "value": "Asymptomatic immediate-release ingestions: observe ≥6 hr with continuous cardiac monitoring. Discharge if asymptomatic with normal vitals, ECG, and glucose after observation period"
+                "key": "Dihydropyridine CCBs",
+                "value": "Amlodipine, nifedipine, felodipine: primarily vasodilatory at lower doses (\u2193 BP with reflex tachycardia). Higher doses lose selectivity and cause bradycardia + vasodilation"
               },
               {
-                "key": "Extended observation (24 hr)",
-                "value": "All sustained-release formulations, sotalol, and amlodipine ingestions require ≥24 hr monitoring even if initially asymptomatic due to delayed toxicity"
+                "key": "Propranolol",
+                "value": "Most dangerous BB in OD. Highly lipophilic (crosses BBB: seizures, coma). Na channel blockade: QRS widening, monomorphic VT, Brugada pattern. Severe hypotension"
               },
               {
-                "key": "Before leaving bedside",
-                "value": "Repeat vitals, confirm monitoring plan, verify telemetry, communicate re-escalation triggers, ensure serial ECGs and glucose checks are ordered, and document disposition rationale"
+                "key": "Sotalol",
+                "value": "K channel blockade: QTc prolongation + torsade de pointes risk. Bradycardia + QT prolongation synergistically promote torsade. Delayed & prolonged toxicity. Dialyzable"
+              },
+              {
+                "key": "Na channel blocking BBs",
+                "value": "Acebutolol, betaxolol, carvedilol, oxprenolol, pindolol, propranolol: cause QRS widening, monomorphic VT, Brugada pattern. Treat with IV sodium bicarbonate"
+              },
+              {
+                "key": "Vasodilatory BBs",
+                "value": "Betaxolol, carvedilol, labetalol, nebivolol: cause hypotension partly from peripheral vasodilation. May need norepinephrine"
+              },
+              {
+                "key": "HIE mechanism",
+                "value": "Insulin \u2191 myocardial inotropy independent of beta-receptors. Most effective for cardiogenic shock from CCB/BB OD. Takes 15-60 min to work: start early, do not wait for other therapies to fail"
+              },
+              {
+                "key": "Glucagon mechanism",
+                "value": "Increases myocardial cAMP bypassing beta-receptor. Positive inotropic + chronotropic effects. Most useful for BB OD with cardiogenic shock. Short half-life (5-7 min): requires continuous infusion"
+              },
+              {
+                "key": "Milrinone (niche)",
+                "value": "Also \u2191 cAMP bypassing beta-receptor. Consider if glucagon supply is limited. Risk of vasodilation worsening \u2193 BP. Renally cleared with long half-life"
               }
             ]
           },
@@ -1835,6 +1703,453 @@
               "Engebretsen KM, Kaczmarek KM, Morgan J, Holger JS. High-Dose Insulin Therapy in Beta-Blocker and Calcium Channel-Blocker Poisoning. Clinical Toxicology. 2011;49(4):277-283. https://doi.org/10.3109/15563650.2011.582471",
               "Reith DM, Dawson AH, Epid D, Whyte IM, Buckley NA, Sayer GP. Relative Toxicity of Beta Blockers in Overdose. J Toxicol Clin Toxicol. 1996;34(3):273-278",
               "Bailey B. Glucagon in Beta-Blocker and Calcium Channel Blocker Overdoses: A Systematic Review. J Toxicol Clin Toxicol. 2003;41(5):595-602. PMID: 14514004"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Opioid & Medetomidine Withdrawal",
+        "subtitle": "Two-track approach: \u00b5-opioid deficit + \u03b12-agonist deficit \u2014 fentanyl era, Philadelphia context",
+        "sections": [
+          {
+            "title": "The First 60 Seconds",
+            "type": "steps",
+            "items": [
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
+              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor",
+              "Check fingerstick glucose."
+            ]
+          },
+          {
+            "title": "Step 1 \u2014 Differentiate: Opioid vs. Medetomidine Withdrawal",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Opioid-predominant signs",
+                "value": "Mydriasis, piloerection, rhinorrhea/lacrimation, yawning, diarrhea, diffuse pain/myalgias, craving, restlessness. Substantially improves after adequate opioid agonism. COWS captures this component well."
+              },
+              {
+                "key": "Medetomidine-predominant signs",
+                "value": "Rapidly escalating hypertension (SBP >180\u2013240 reported), marked sinus tachycardia (HR >140\u2013180 reported), severe/intractable vomiting, tremor or myoclonic-appearing movements, profuse diaphoresis, anxiety/agitation, waxing-waning or hypoactive mental status. Symptoms out of proportion to classic opioid withdrawal; poor response to escalating opioids despite clear tolerance."
+              },
+              {
+                "key": "Onset & timeline (medetomidine)",
+                "value": "Medetomidine withdrawal begins ~4\u20136 hours after last exposure and can become dramatic over subsequent hours. Philadelphia original cohort: 91% required ICU care, 83% received and responded to dexmedetomidine."
+              },
+              {
+                "key": "Key history questions",
+                "value": "Bags/day? Bundles/day? (1 bundle = 14 bags) Route (IV, intranasal, smoked)? Administrations per day? Last use? Wakes overnight to use? Prior ICU admission for withdrawal? Prior severe medetomidine withdrawal may predict recurrence better than bag count."
+              },
+              {
+                "key": "COWS interpretation caveat",
+                "value": "COWS 5\u201312: Mild. 13\u201324: Moderate. 25\u201336: Moderately severe. >36: Severe. COWS is useful for trending but can underestimate severity in fentanyl-era withdrawal; medetomidine autonomic findings inflate it while the sickest hypoactive patients may paradoxically score lower. Do not override the bedside examination."
+              },
+              {
+                "key": "UDS caveat",
+                "value": "Do NOT wait for UDS before treating a convincing syndrome. Standard opioid immunoassays frequently miss fentanyl, buprenorphine, and methadone unless specifically ordered. Treat the clinical syndrome."
+              },
+              {
+                "key": "Mimics / mixed syndromes",
+                "value": "Alcohol/benzodiazepine withdrawal, stimulant intoxication, serotonin syndrome, NMS, sepsis, thyrotoxicosis, PRES, intracranial pathology, hypoglycemia, DKA, severe electrolyte derangement, acute pain \u2014 consider before attributing entirely to withdrawal"
+              }
+            ]
+          },
+          {
+            "title": "Step 2 \u2014 Stratify Tolerance",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Key principle: tolerance tier, not MME conversion",
+                "value": "Do NOT convert bags or counterfeit pills to MME. Medetomidine and fentanyl concentrations vary substantially between bags and over time. Use reported use to classify tolerance tier, then titrate against withdrawal, craving, sedation, and respiratory status. Do not document '14 bags = X mg oxycodone.'"
+              },
+              {
+                "key": "Counterfeit M30 / Perc 30",
+                "value": "Counterfeit pills frequently contain fentanyl, not oxycodone. Treat as fentanyl exposure \u2014 do NOT assume 30 mg oxycodone equivalence."
+              },
+              {
+                "key": "Philadelphia-specific fentanyl context",
+                "value": "Penn Medicine CAMP estimates one Philadelphia bag may approximate ~300 mg oral oxycodone agonism. This is Philadelphia-specific, cannot be generalized, and explains why 5\u201310 bags/day produces extreme tolerance. Do not apply this conversion to other cities or drug supplies."
+              },
+              {
+                "key": "1\u20133 bags/day",
+                "value": "Moderate tolerance. Oxy ER 10\u201320 mg PO q8h scheduled + Oxy IR 10\u201315 mg PO q6h PRN"
+              },
+              {
+                "key": "4\u20137 bags/day",
+                "value": "Moderate-high tolerance. Oxy ER 20\u201330 mg PO q8h scheduled + Oxy IR 15\u201320 mg PO q6h PRN"
+              },
+              {
+                "key": "8\u201313 bags/day",
+                "value": "High tolerance. Oxy ER 30\u201340 mg PO q8h scheduled + Oxy IR 20\u201330 mg PO q6h PRN"
+              },
+              {
+                "key": "1 bundle/day (14 bags)",
+                "value": "Very high tolerance. Oxy ER 40 mg PO q8h scheduled + Oxy IR 30 mg PO q6h PRN. Alternative Penn/EMCrit full-agonist approach: Oxy IR 40 mg PO q4h (increase by 10 mg for persistent COWS >8). Goal COWS \u22645 without sedation."
+              },
+              {
+                "key": ">1 bundle/day",
+                "value": "Start at approximately the 1-bundle tier; titrate from observed rescue requirements at 12\u201324h rather than extrapolating indefinitely from bag count. Do not write Oxy ER 80\u2013100 mg q8h automatically. Observed opioid requirement during first 12\u201324h is a safer guide."
+              },
+              {
+                "key": "<2 bags/day, elderly, critical illness, or organ dysfunction",
+                "value": "Use approximately 50% lower starting doses and extend reassessment intervals."
+              }
+            ]
+          },
+          {
+            "title": "Step 3 \u2014 Opioid Track: Full-Agonist Framework",
+            "type": "steps",
+            "items": [
+              "**Goal:** Treat \u00b5-opioid receptor deficit. Targets \u2014 COWS \u22645, craving substantially reduced, no vomiting/diarrhea from opioid withdrawal, patient can sleep, not considering leaving. Do NOT target COWS = 0 at all costs.",
+              "**Scheduled baseline (oxy ER):** Provides continuous opioid receptor occupancy. Choose tier from tolerance stratification above. Start scheduled doses and allow meaningful rescue medication.",
+              "**Rescue (oxy IR):** Allow q6h PRN doses for withdrawal symptoms, craving, or COWS >8 attributable to opioid component. Rescue doses at the same tier as the scheduled dose (see table above).",
+              "**IV hydromorphone \u2014 floor indication:** Reserve for severe breakthrough symptoms despite oral rescue, active vomiting preventing PO, or severe acute pain. Start 1\u20132 mg IV q2h PRN; upward titrate in clearly extremely tolerant patients who remain awake, tachypneic rather than hypoventilating, and objectively withdrawing. Reassess sedation and RR after each dose.",
+              "**IV hydromorphone \u2014 ICU/cannot tolerate PO:** Penn/EMCrit ICU pathway: hydromorphone 4 mg IV q2h; for COWS >8, increase by 1\u20132 mg as frequently as every 30 minutes during active titration. This is an ICU/high-tolerance pathway \u2014 do NOT copy to opioid-na\u00efve or uncertain-tolerance patients.",
+              "**Hold for:** New somnolence, difficult arousal, slurred speech, falling RR, new hypoxemia, miosis + sedation, or any sign of opioid intoxication.",
+              "**Alternative \u2014 methadone-based:** Methadone 20\u201340 mg PO day 1; reassess 2\u20134h before substantial redosing (methadone stacks). QTc monitoring when: known prolonged QT, high doses, multiple QT-prolonging drugs. See Methadone Pathway section."
+            ]
+          },
+          {
+            "title": "Opioid Track: 24-Hour Titration & Upward Adjustment",
+            "type": "steps",
+            "items": [
+              "Reassess after each dose: COWS components specific to opioid withdrawal, craving, pain, RR, SpO2, sedation, pupils, ability to converse normally.",
+              "At ~24 hours: calculate total oxycodone IR actually required. If patient was never sedated and remained significantly symptomatic, incorporate approximately 50\u201375% of the prior day's effective rescue requirement into the next day's scheduled opioid.",
+              "Example: Oxy ER 40 mg q8h = 120 mg/day baseline. Patient required four oxy IR 30 mg doses (+120 mg). Total observed = 240 mg/day. Next day: Oxy ER 50\u201360 mg q8h + Oxy IR 20\u201330 mg q6h PRN, then reassess again.",
+              "Do NOT automatically schedule all of yesterday's total \u2014 step titrate with preserved breakthrough and frequent reassessment.",
+              "**Critical checkpoint:** Once pain is controlled, pupillary/GI opioid findings have improved, and craving is substantially improved \u2014 but patient remains hypertensive (BP 200/120), tachycardic, vomiting, tremulous, sweaty, or encephalopathic \u2014 STOP escalating opioids. That remaining syndrome is medetomidine withdrawal. Intensify alpha-2 replacement instead."
+            ]
+          },
+          {
+            "title": "Step 4 \u2014 Alpha-2 Track: Oral Regimen",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Principle",
+                "value": "Medetomidine creates \u03b12-adrenergic receptor dependence. Withdrawal = \u03b12-deficiency syndrome with autonomic storm. Replace the missing \u03b12 agonism with clonidine \u2192 tizanidine \u2192 clonidine patch, escalating to IV dexmedetomidine when oral therapy cannot keep up. Do not endlessly escalate opioids for a primarily \u03b12-deficiency problem."
+              },
+              {
+                "key": "Clonidine \u2014 initial",
+                "value": "Clonidine 0.2 mg PO q4h for clear autonomic withdrawal. With particularly severe HTN/tachycardia and adequate BP reserve: 0.3 mg PO q4\u20136h. Hold for SBP <100, MAP <65, HR <55\u201360, symptomatic hypotension, or new excessive sedation."
+              },
+              {
+                "key": "Clonidine \u2014 critical warning",
+                "value": "Do NOT abruptly stop high-dose clonidine after several days of therapy \u2014 patient can develop clonidine withdrawal superimposed on medetomidine withdrawal. Taper gradually."
+              },
+              {
+                "key": "Tizanidine \u2014 adjunct",
+                "value": "Add when clonidine alone does not provide enough \u03b12 coverage. Tizanidine 4 mg PO q8h scheduled (can give 2\u20134 mg PRN). PDPH guidance: 2\u20134 mg q6\u20138h PRN. Watch: sedation, hypotension, bradycardia, LFTs (prolonged use), QTc, drug interactions \u2014 strong CYP1A2 inhibitors (ciprofloxacin, fluvoxamine) dramatically increase tizanidine levels."
+              },
+              {
+                "key": "Clonidine patch",
+                "value": "For prolonged courses: clonidine patch 0.1\u20130.3 mg/day (change q7 days). Onset is slow (~18\u201324h) \u2014 useless as acute rescue but valuable as background \u03b12 coverage and for bridging off dexmedetomidine. Place early for anticipated prolonged withdrawal. Particularly useful during Precedex de-escalation \u2014 'Precedex extinguishes the storm; clonidine patch/tizanidine prevent the storm from returning when Precedex disappears.'"
+              },
+              {
+                "key": "Mild\u2013moderate autonomic symptoms",
+                "value": "Clonidine 0.2 mg PO q4h + Tizanidine 2\u20134 mg PO q6\u20138h PRN"
+              },
+              {
+                "key": "Worsening autonomic symptoms",
+                "value": "Clonidine 0.3 mg PO q4\u20136h (if hemodynamics allow) + Tizanidine 4 mg q6\u20138h + Consider clonidine patch early"
+              },
+              {
+                "key": "What NOT to do",
+                "value": "Do not spend 8 hours cycling through clonidine \u2192 Ativan \u2192 Haldol \u2192 more Dilaudid \u2192 more clonidine \u2192 more oxycodone while the patient remains BP 220/130 and vomiting. Escalate to ICU and dexmedetomidine early."
+              }
+            ]
+          },
+          {
+            "title": "Step 5 \u2014 When to Escalate to ICU (Precedex Triggers)",
+            "type": "bullets",
+            "items": [
+              "**Escalate early for any of:** SBP \u2265180 or DBP \u2265120 despite initial therapy; rapidly rising BP/HR not responding to oral \u03b12 therapy",
+              "Intractable vomiting preventing oral \u03b12 therapy (loss of oral route = floor strategy failing)",
+              "Waxing/waning consciousness or severely hypoactive mental status",
+              "Severe agitation not controlled with oral medications",
+              "Chest pain; troponin elevation; PRES symptoms (headache, visual changes, seizure)",
+              "QTc >500 ms with multiple necessary QT-prolonging agents",
+              "Severe metabolic abnormalities (hypokalemia, hypomagnesemia, severe acidosis)",
+              "Severe symptoms not materially improving within ~4\u20136 hours of adequate floor therapy",
+              "Philadelphia 2026 cohort context: 91% of severe medetomidine withdrawal cases required ICU care \u2014 have a low threshold in this population."
+            ]
+          },
+          {
+            "title": "Dexmedetomidine (Precedex) Protocol & Combination Strategy",
+            "type": "steps",
+            "items": [
+              "**Rationale:** Dexmedetomidine is not merely a sedative in this context \u2014 it is pharmacologically replacing the missing \u03b12 agonist. This distinguishes it from benzos or antipsychotics in this syndrome.",
+              "**Starting dose:** Dexmedetomidine 0.5 mcg/kg/hr IV.",
+              "**Titration (Penn ICU protocol):** Increase by up to 0.4 mcg/kg/hr every ~20 minutes. Nurse-driven ceiling: 1.5 mcg/kg/hr. Provider-directed for refractory cases: up to 2.5 mcg/kg/hr. Titrate to: control severe autonomic symptoms, SBP <160 (Penn target), improvement in vomiting/tremor, clinically appropriate RASS. 2026 review: most require ~24\u201372h infusion.",
+              "**Loading bolus:** Penn permits 0.5\u20131 mcg/kg IV in selected rapidly deteriorating patients with adequate hemodynamic reserve. Do NOT routinely bolus \u2014 dramatic bradycardia/hypotension can follow. Restrict to providers with clear indication and monitoring in place.",
+              "**Hold/start cautiously if:** HR <50, MAP <65, second/third-degree AV block without pacing, or significant evolving bradycardia.",
+              "**Once on dexmedetomidine:** Avoid blindly continuing escalating oral clonidine if BP/HR are falling \u2014 risk of additive hypotension/bradycardia.",
+              "**Coming off Precedex (de-escalation):** Restart/continue clonidine + tizanidine \u00b1 clonidine patch, then taper dexmedetomidine. Overlapping oral/transdermal \u03b12 agonists during de-escalation prevents rebound. The 2026 review specifically supports this overlap strategy.",
+              "**Discharge planning:** Get clonidine down to no more than 0.3 mg PO TID before community discharge (PDPH recommendation). Gradual taper with close BP follow-up."
+            ]
+          },
+          {
+            "title": "Buprenorphine Pathway (When Patient Wants MOUD)",
+            "type": "steps",
+            "items": [
+              "**Advantages:** Powerful withdrawal and craving suppression, lower respiratory depression risk, no X-waiver required, prescribable at discharge, straightforward linkage to outpatient treatment.",
+              "**Induction timing \u2014 fentanyl era:** Do NOT rely on '12 hours since last use.' Wait for convincing objective withdrawal. SAMHSA recommends COWS >12. Note: severe medetomidine withdrawal can precede classic fentanyl withdrawal \u2014 a high early COWS should not automatically trigger conventional buprenorphine induction if the picture is predominantly autonomic.",
+              "**Caution in medetomidine withdrawal:** If the patient has not yet been adequately treated for the \u03b12-deficiency component, buprenorphine induction timing requires extra care. Consult addiction medicine when uncertain.",
+              "**Conservative start:** Buprenorphine/naloxone 2\u20134 mg SL \u2192 reassess 30\u201360 min \u2192 additional 4\u20138 mg. Repeat until withdrawal and craving controlled.",
+              "**High fentanyl tolerance, clearly in withdrawal:** Buprenorphine 8\u201316 mg SL initially \u2192 reassess 30\u201360 min \u2192 additional 8\u201316 mg if still withdrawing. Common day-1 total: 24\u201332 mg. ASAM: rapid escalation to 24\u201332 mg/day recognized for high-potency synthetic opioid users. FDA labeling updated \u2014 24 mg is no longer an absolute daily maximum."
+            ]
+          },
+          {
+            "title": "Precipitated Withdrawal \u2014 Recognition & Treatment",
+            "type": "steps",
+            "items": [
+              "**Classic scenario:** Within 15\u201360 min of buprenorphine: abrupt dramatic worsening \u2014 vomiting, diarrhea, sweating, piloerection, agitation, myalgias, tachycardia, severe distress.",
+              "**Do not stop buprenorphine.** Do not conclude it failed. The most effective treatment is usually more buprenorphine.",
+              "**ASAM:** If <16 mg given, rapidly increase toward 24\u201332 mg total. Published experience up to 64 mg (not routine).",
+              "**Refractory precipitated withdrawal (ASAM options):** High-affinity full agonist opioid; dexmedetomidine; ketamine 0.3 mg/kg IV over 10\u201315 min; targeted benzodiazepine use; additional buprenorphine."
+            ]
+          },
+          {
+            "title": "Low-Dose Buprenorphine / Microinduction",
+            "type": "steps",
+            "items": [
+              "**Best indications:** Daily fentanyl use; prior precipitated withdrawal; significant acute pain; patient currently on full agonists; methadone-to-buprenorphine transitions.",
+              "**Strategy:** Full agonists are continued while small buprenorphine doses gradually occupy receptors \u2014 avoiding precipitated withdrawal.",
+              "**Penn inpatient protocol (example):** Day 1: buccal buprenorphine 300 mcg q4h OR 150 mcg q3h. Day 2: buprenorphine/naloxone 2 mg SL q6h. Day 3: 4 mg SL q6h. Day 4: 16\u201324 mg/day.",
+              "Full agonists continue through induction and are tapered once meaningful buprenorphine receptor occupancy is achieved. Institutional protocols vary."
+            ]
+          },
+          {
+            "title": "Methadone Pathway",
+            "type": "steps",
+            "items": [
+              "**Indications:** Patient wants methadone maintenance; very heavy fentanyl exposure; prior precipitated buprenorphine withdrawal; significant acute pain requiring full agonism; buprenorphine induction has repeatedly failed.",
+              "**Standard initiation:** Methadone 20\u201330 mg PO day 1 \u2192 reassess 2\u20134h \u2192 additional 10 mg if clearly withdrawing and awake. Goal: ~30\u201340 mg day 1 for moderate tolerance; 40\u201360 mg for heavy fentanyl tolerance (with appropriate monitoring).",
+              "**Safety pearl \u2014 methadone stacks:** Withdrawal improves quickly; methadone toxicity accumulates slowly. Do NOT redose every 60 minutes because the patient is still miserable. Peak effect delayed; half-life far exceeds initial subjective effect.",
+              "**Hold for:** New somnolence, difficult arousal, slurred speech, falling RR, new hypoxemia, miosis + sedation.",
+              "**QTc monitoring:** Check ECG when known prolonged QT, high doses, structural heart disease, hypokalemia/hypomagnesemia, multiple QT-prolonging drugs, or medetomidine-related autonomic instability. QTc >500 ms warrants specialty input."
+            ]
+          },
+          {
+            "title": "Refractory Vomiting & Severe Hypertension",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Why vomiting is clinically critical",
+                "value": "Once oral medications stop staying down, the entire floor management strategy collapses \u2014 patient cannot receive oral opioids, oral \u03b12 agonists, or buprenorphine. Treat vomiting aggressively and early."
+              },
+              {
+                "key": "Antiemetics: ondansetron underperforms",
+                "value": "Ondansetron may perform poorly in established medetomidine withdrawal. Penn experience and current reviews favor dopamine antagonists: prochlorperazine 10 mg IV q8h PRN, or olanzapine 5\u201310 mg PO/IV/IM. Penn ICU: olanzapine 10 mg \u00d71, then 5 mg qHS. Check QTc and cumulative dopamine-antagonist exposure before prescribing."
+              },
+              {
+                "key": "Severe hypertension: first question",
+                "value": "Is this severe asymptomatic withdrawal hypertension, or hypertensive emergency? If no end-organ injury \u2014 treating the underlying \u03b12 deficit is often the most physiologic treatment (dexmedetomidine)."
+              },
+              {
+                "key": "If hypertensive emergency with end-organ injury",
+                "value": "PRES, ACS/myocardial injury, pulmonary edema, aortic syndrome, or encephalopathy attributable to BP \u2014 treat concurrently with: nicardipine infusion, esmolol infusion, IV labetalol, or IV hydralazine. Do not normalize BP abruptly solely because it looks alarming."
+              }
+            ]
+          },
+          {
+            "title": "Still Refractory \u2014 Reassess Diagnosis First",
+            "type": "bullets",
+            "items": [
+              "**Before adding more medications, check:** Is this alcohol or benzodiazepine withdrawal?",
+              "Is the patient stimulant-intoxicated (co-use of cocaine, methamphetamine)?",
+              "Sepsis, thyrotoxicosis, PRES, intracranial pathology?",
+              "Hypoglycemia, DKA, severe electrolyte derangement?",
+              "Is there untreated acute pain on top of withdrawal?",
+              "Did buprenorphine precipitate withdrawal \u2014 and has enough additional buprenorphine been given?",
+              "Is akathisia from an antiemetic or antipsychotic being mistaken for worsening withdrawal?",
+              "Are you substantially underdosing a patient with massive fentanyl tolerance?",
+              "Did the patient vomit the oral medication?",
+              "Have you asked the patient directly whether the medication is actually helping?",
+              "**If diagnosis remains medetomidine withdrawal and patient is on adequate opioid + oral \u03b12 therapy \u2014 add ketamine:** Penn/EMCrit: ketamine infusion 0.1\u20130.5 mg/kg/hr IV; or if PO feasible: 1.5\u20133 mg/kg/day divided q6h. Ketamine is an adjunct to \u03b12 agonism, not a replacement."
+            ]
+          },
+          {
+            "title": "Monitoring & Lab Order Set (Severe Withdrawal)",
+            "type": "bullets",
+            "items": [
+              "**Monitoring:** Telemetry, continuous pulse oximetry, vitals q1h initially, COWS q4h (do not rely on COWS alone), RASS while on dexmedetomidine, strict I/O if severe vomiting",
+              "**Labs:** CBC, CMP, Mg, Phos, VBG/ABG if ill, lactate, CK if significant tremor/agitation, troponin if severe tachycardia/HTN/chest pain, ECG/QTc, UDS including fentanyl when available, EtOH level, targeted sedative testing based on history",
+              "**Aggressively replace:** K+ >4.0, Mg >2.0 \u2014 particularly with vomiting, methadone exposure, antipsychotics, or prolonged QT"
+            ]
+          },
+          {
+            "title": "Symptomatic Adjunct Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Clonidine",
+                "dose": "0.2\u20130.3 mg PO q4\u20136h",
+                "route": "PO",
+                "contraindications": "Hold for SBP <100, MAP <65, HR <55\u201360, symptomatic orthostasis. Taper gradually \u2014 do not stop abruptly after multi-day high-dose use.",
+                "notes": "First-line \u03b12 replacement for medetomidine withdrawal. 0.2 mg q4h initial; 0.3 mg q4\u20136h for severe autonomic symptoms with adequate BP reserve."
+              },
+              {
+                "name": "Tizanidine",
+                "dose": "2\u20134 mg PO q6\u20138h PRN; can schedule 4 mg q8h",
+                "route": "PO",
+                "contraindications": "Watch QTc, sedation, hypotension, bradycardia. Strong CYP1A2 inhibitors (ciprofloxacin, fluvoxamine) dramatically increase tizanidine levels \u2014 major interaction.",
+                "notes": "Adjunct \u03b12 agonist when clonidine alone insufficient. Add when oral clonidine at 0.2\u20130.3 mg q4h still not controlling autonomic symptoms."
+              },
+              {
+                "name": "Clonidine patch",
+                "dose": "0.1\u20130.3 mg/24h; change q7 days",
+                "route": "Transdermal",
+                "contraindications": "Slow onset (18\u201324h) \u2014 not for acute rescue",
+                "notes": "Use for prolonged withdrawal or during Precedex de-escalation. Provides stable background \u03b12 coverage; prevents rebound when dexmedetomidine is tapered."
+              },
+              {
+                "name": "Dexmedetomidine",
+                "dose": "Start 0.5 mcg/kg/hr IV; titrate by 0.4 mcg/kg/hr q20min; usual ceiling 1.5 mcg/kg/hr; refractory up to 2.5 mcg/kg/hr",
+                "route": "IV",
+                "contraindications": "HR <50, MAP <65, 2nd/3rd-degree AV block without pacing. Loading bolus (0.5\u20131 mcg/kg) only in selected patients with adequate hemodynamic reserve \u2014 risk of severe bradycardia/hypotension.",
+                "notes": "Pharmacologically replacing missing \u03b12 agonism, not just sedating. Most patients require 24\u201372h infusion. Overlap oral \u03b12 agonists before weaning."
+              },
+              {
+                "name": "Ondansetron",
+                "dose": "4\u20138 mg PO/IV q6\u20138h PRN",
+                "route": "PO/IV",
+                "contraindications": "QTc prolongation \u2014 check QTc; may underperform in medetomidine withdrawal",
+                "notes": "First-line antiemetic for opioid-component nausea; may be insufficient in established medetomidine withdrawal"
+              },
+              {
+                "name": "Prochlorperazine",
+                "dose": "10 mg IV q8h PRN",
+                "route": "IV",
+                "contraindications": "QTc, EPS, akathisia (can mimic worsening withdrawal), avoid if NMS suspected",
+                "notes": "Preferred antiemetic in medetomidine withdrawal (dopamine antagonist); monitor QTc and cumulative dopamine-antagonist load"
+              },
+              {
+                "name": "Olanzapine",
+                "dose": "5\u201310 mg PO/IV/IM; Penn ICU: 10 mg \u00d71, then 5 mg qHS",
+                "route": "PO/IV/IM",
+                "contraindications": "QTc prolongation; avoid concurrent IV benzodiazepines",
+                "notes": "For refractory vomiting and agitation in medetomidine withdrawal; check QTc and cumulative dopamine-antagonist exposure"
+              },
+              {
+                "name": "Loperamide",
+                "dose": "2 mg PO q2h PRN, max 16 mg/day",
+                "route": "PO",
+                "contraindications": "Do not exceed max; do not use in toxic megacolon",
+                "notes": "For diarrhea from opioid withdrawal component"
+              },
+              {
+                "name": "Hydroxyzine",
+                "dose": "25\u201350 mg PO q6h PRN",
+                "route": "PO",
+                "contraindications": "QTc monitoring if high-dose; sedating",
+                "notes": "For anxiety/agitation adjunct"
+              },
+              {
+                "name": "Acetaminophen",
+                "dose": "650\u20131000 mg PO q6\u20138h",
+                "route": "PO",
+                "contraindications": "Reduce dose in hepatic impairment",
+                "notes": "For myalgias and pain"
+              },
+              {
+                "name": "Ketamine (refractory)",
+                "dose": "Infusion 0.1\u20130.5 mg/kg/hr IV; or PO 1.5\u20133 mg/kg/day divided q6h",
+                "route": "IV/PO",
+                "contraindications": "Uncontrolled HTN, psychosis history",
+                "notes": "Adjunct for refractory medetomidine withdrawal or precipitated buprenorphine withdrawal; not a replacement for \u03b12 agonism"
+              },
+              {
+                "name": "Methadone (induction)",
+                "dose": "20\u201330 mg PO day 1; titrate 10 mg increments q2\u20134h to COWS <6 without sedation",
+                "route": "PO",
+                "contraindications": "QTc >500 ms, significant co-sedation, severe respiratory compromise. Does NOT redose q60min \u2014 methadone stacks.",
+                "notes": "Peak effect 2\u20134h. Continuous monitoring for first 24h. Alternative opioid track when patient wants methadone maintenance."
+              },
+              {
+                "name": "Buprenorphine/naloxone",
+                "dose": "2\u20138 mg SL to start; titrate to 16\u201332 mg day 1 for high fentanyl tolerance",
+                "route": "SL",
+                "contraindications": "Do not give until convincing objective withdrawal present (COWS >8\u201312 minimum, >12 for fentanyl); extra caution in medetomidine withdrawal where induction timing is complex",
+                "notes": "No X-waiver required. 24 mg no longer absolute daily maximum (updated FDA labeling)."
+              }
+            ]
+          },
+          {
+            "title": "Common Mistakes",
+            "type": "bullets",
+            "items": [
+              "**Treating the medetomidine component by endlessly escalating opioids:** Once adequate \u00b5-opioid agonism has been achieved and the patient is still in autonomic storm, more hydromorphone or oxycodone does not fix \u03b12 deficiency.",
+              "**Clonidine-only treatment for the \u03b12 component:** May reduce HR and diaphoresis while patient remains profoundly symptomatic \u2014 escalate to tizanidine and then dexmedetomidine when oral \u03b12 therapy is failing.",
+              "**Waiting too long for ICU escalation:** Severe medetomidine withdrawal can involve SBP >240, HR >180. If oral medications cannot keep up and vomiting is preventing oral therapy, escalate early.",
+              "**Assuming COWS accurately captures the whole syndrome:** Medetomidine autonomic findings inflate COWS; the sickest hypoactive patients may score paradoxically lower.",
+              "**Oxycodone 5 mg PRN for a 10-bag/day fentanyl user:** Pharmacologically irrelevant relative to their tolerance.",
+              "**Treating the COWS number rather than the patient:** COWS was not designed for today's fentanyl-medetomidine drug supply.",
+              "**Waiting for the urine tox before treating:** Treatment is clinical.",
+              "**Assuming counterfeit M30 = oxycodone 30 mg:** Treat as fentanyl exposure.",
+              "**Stopping buprenorphine when precipitated withdrawal occurs:** Give more buprenorphine.",
+              "**Giving methadone every hour because the patient still feels bad:** Methadone stacks \u2014 respect its delayed peak.",
+              "**Abruptly stopping high-dose clonidine after several days:** Can precipitate clonidine withdrawal superimposed on medetomidine withdrawal.",
+              "**Calling extreme hypertension 'just opioid withdrawal':** In 2026 Philadelphia/mid-Atlantic, think medetomidine \u03b12 deficiency first."
+            ]
+          },
+          {
+            "title": "Bedside Shorthand \u2014 One-Bundle/Day Patient",
+            "type": "bullets",
+            "items": [
+              "**Initial orders:** Oxycodone ER 40 mg PO q8h scheduled + Oxycodone IR 30 mg PO q6h PRN (withdrawal/craving/COWS >8) + Hydromorphone 1\u20132 mg IV q2h PRN severe breakthrough",
+              "**Alpha-2 from the start:** Clonidine 0.2 mg PO q4h + Tizanidine 4 mg PO q8h PRN",
+              "**Aggressive antiemetics:** Prochlorperazine 10 mg IV q8h PRN or olanzapine 5 mg PO qHS; check QTc",
+              "**Telemetry, frequent BP/HR, COWS q4h**",
+              "**If after adequate opioid treatment the patient still has HR 145, BP 210/120, repeated emesis, tremor, or encephalopathy:** Do not double the Dilaudid. Escalate to ICU. Start dexmedetomidine 0.5 mcg/kg/hr \u2192 rapidly titrate to symptom control (usual ceiling 1.5, refractory up to 2.5 mcg/kg/hr).",
+              "**Coming off dexmedetomidine:** Continue/restart clonidine \u00b1 tizanidine \u00b1 clonidine patch, then taper Precedex. Overlap prevents rebound storm."
+            ]
+          },
+          {
+            "title": "Special Situations",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Naloxone-precipitated withdrawal",
+                "value": "Once awake and objectively withdrawing, high-dose buprenorphine initiation can be highly effective rather than waiting hours."
+              },
+              {
+                "key": "Pregnancy",
+                "value": "Continue or initiate methadone or buprenorphine. Avoid abstinence-only withdrawal strategy. Involve OB and Addiction Medicine early."
+              },
+              {
+                "key": "Renal failure",
+                "value": "Buprenorphine and methadone generally perform well. Avoid morphine and codeine. Hydromorphone preferable to morphine for short-acting use, though metabolites may accumulate in ESRD."
+              },
+              {
+                "key": "Cirrhosis / frailty / older adult",
+                "value": "Reduce initial agonist doses by ~50% and extend reassessment intervals. Clonidine can cause pronounced hypotension \u2014 start low."
+              },
+              {
+                "key": "COPD / OSA / hypercapnia",
+                "value": "May simultaneously have enormous tolerance and limited respiratory reserve. Lower incremental doses, frequent sedation checks, continuous SpO2, consider capnography at high risk."
+              },
+              {
+                "key": "Acute pain plus withdrawal",
+                "value": "Maintenance MOUD does not provide adequate analgesia. For methadone: continue maintenance + split dosing BID/TID + short-acting opioid for pain. For buprenorphine: divide total dose q6\u20138h + acetaminophen/NSAIDs/regional \u00b1 full agonist if needed. Do NOT stop buprenorphine."
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Penn Medicine CAMP (Comprehensive Addiction Medicine Program). Inpatient Fentanyl/Medetomidine Withdrawal and Low-Dose Buprenorphine Protocols. 2025\u20132026.",
+              "EMCrit / Josh Farkas discussion with Penn Toxicology on medetomidine/xylazine withdrawal ICU management. 2025\u20132026.",
+              "Philadelphia Department of Public Health. Medetomidine in Philadelphia's Drug Supply: Clinical Guidance. 2026. https://www.phila.gov/departments/department-of-public-health/",
+              "ASAM Clinical Practice Guideline on Alcohol, Tobacco, and Other Drugs. American Society of Addiction Medicine. 2023. https://www.asam.org/quality-care/clinical-guidelines",
+              "SAMHSA TIP 63: Medications for Opioid Use Disorder. Substance Abuse and Mental Health Services Administration. 2021. https://store.samhsa.gov/product/tip-63-medications-opioid-use-disorder",
+              "Herring AA, Vosooghi AA, Luftig J, et al. High-Dose Buprenorphine Induction in the Emergency Department for Treatment of Opioid Use Disorder. JAMA Network Open. 2021;4(7):e2117128. https://doi.org/10.1001/jamanetworkopen.2021.17128",
+              "CDC case series on medetomidine/xylazine-associated withdrawal in Philadelphia. 2025\u20132026."
             ]
           }
         ]

@@ -70,6 +70,7 @@
 		158026523050B5BC000E25BE /* Renal-Electrolytes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Renal-Electrolytes.json"; sourceTree = "<group>"; };
 		158026543050B5BC000E25BE /* Sepsis_-_Infectious.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Sepsis_-_Infectious.json"; sourceTree = "<group>"; };
 		158026553050B5BC000E25BE /* Surgical_-_Trauma.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Surgical_-_Trauma.json"; sourceTree = "<group>"; };
+		1580266C3052384C000E25BE /* Rapid-Response-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Rapid-Response-Info.plist"; sourceTree = "<group>"; };
 		15E70EF22F7C3FBE00BB66F3 /* Rapid_ResponseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rapid_ResponseApp.swift; sourceTree = "<group>"; };
 		15EF5EE72F75366C0004832C /* ScoreCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculator.swift; sourceTree = "<group>"; };
 		15EF5EE92F7536960004832C /* ScoreCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorView.swift; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		156B74572F6F06A400A5D6EA = {
 			isa = PBXGroup;
 			children = (
+				1580266C3052384C000E25BE /* Rapid-Response-Info.plist */,
 				156B74702F6F06DD00A5D6EA /* Models */,
 				156B74722F6F06F400A5D6EA /* Views */,
 				156B74732F6F06FD00A5D6EA /* components */,
@@ -417,6 +419,7 @@
 				DEVELOPMENT_TEAM = 3RRDS6U2N5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rapid-Response-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Rapid Response Team RRTx";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,6 +432,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "MCG.Rapid-Response";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -452,6 +456,7 @@
 				DEVELOPMENT_TEAM = 3RRDS6U2N5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rapid-Response-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Rapid Response Team RRTx";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -464,6 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "MCG.Rapid-Response";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

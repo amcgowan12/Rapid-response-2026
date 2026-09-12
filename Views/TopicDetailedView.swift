@@ -1,3 +1,4 @@
+import AudioToolbox
 import MessageUI
 import SwiftUI
 import Combine
@@ -5,6 +6,7 @@ import Combine
 struct TopicDetailView: View {
     let topic: Topic
     @State private var expandedSections: Set<UUID> = []
+    @State private var searchText = ""
     @State private var showShareSheet = false
     @State private var isSeeAlsoExpanded = false
     @State private var topicPresentationMode: TopicPresentationMode = .guide
@@ -18,6 +20,7 @@ struct TopicDetailView: View {
     @State private var epiTimerSeconds = 0
     @State private var epiDoseCount = 0
     @State private var medCounts: [String: Int] = [:]
+    @StateObject private var metronome = MetronomeController()
     var favorites = FavoritesManager.shared
     private let cardiacArrestTimer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     /// Other ACLS meds tracked with tap-to-count buttons (epi & shock have dedicated buttons).
@@ -38,12 +41,23 @@ struct TopicDetailView: View {
                         checklistView
                     } else {
                         ForEach(Array(topic.sections.enumerated()), id: \.element.id) { index, section in
+                            let isSearching = !searchText.isEmpty
+                            let isMatch = matchingSectionIDs.contains(section.id)
                             SectionCard(
                                 section: section,
                                 isFirstSection: index == 0,
-                                isExpanded: expandedSections.contains(section.id),
-                                onTap: { toggleSection(section.id) }
+                                isExpanded: expandedSections.contains(section.id) || (isSearching && isMatch),
+                                onTap: { toggleSection(section.id) },
+                                currentTopicTitle: topic.title,
+                                drugLookup: topicDrugLookup
                             )
+                            .opacity(isSearching && !isMatch ? 0.35 : 1.0)
+                            .animation(.easeInOut(duration: 0.15), value: searchText.isEmpty)
+                        }
+
+                        if !searchText.isEmpty && matchingSectionIDs.isEmpty {
+                            ContentUnavailableView.search(text: searchText)
+                                .padding(.top, 8)
                         }
                     }
 
@@ -122,6 +136,7 @@ struct TopicDetailView: View {
         }
         .navigationTitle(topic.title)
         .navigationBarTitleDisplayMode(.large)
+        .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .automatic), prompt: "Search sections")
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 HStack(spacing: 16) {
@@ -201,6 +216,7 @@ struct TopicDetailView: View {
         .onDisappear {
             cardiacArrestTimerIsRunning = false
             cardiacArrestTimerIsMinimized = false
+            metronome.stop()
         }
         .onReceive(cardiacArrestTimer) { _ in
             guard showsCardiacArrestTimer, cardiacArrestTimerIsRunning else { return }
@@ -233,6 +249,28 @@ struct TopicDetailView: View {
     }
 
     /// Collects related topics: cross-linked topics + siblings from the same system
+    private var topicDrugLookup: [String: DrugEntry] {
+        var lookup: [String: DrugEntry] = [:]
+        for section in topic.sections {
+            if case .drugTable(let drugs) = section.content {
+                for drug in drugs {
+                    let key = drug.name.lowercased()
+                    lookup[key] = drug
+                    // Also index the name without parenthetical so "Normal saline" matches "Normal saline (0.9% NaCl)"
+                    if let parenIdx = drug.name.firstIndex(of: "(") {
+                        let base = drug.name[..<parenIdx]
+                            .trimmingCharacters(in: .whitespaces)
+                            .lowercased()
+                        if !base.isEmpty && lookup[base] == nil {
+                            lookup[base] = drug
+                        }
+                    }
+                }
+            }
+        }
+        return lookup
+    }
+
     private var seeAlsoTopics: [Topic] {
         var result: [Topic] = []
         var seen = Set<String>()
@@ -247,7 +285,7 @@ struct TopicDetailView: View {
         }
 
         // 2. Sibling topics from the same organ/symptom system
-        let allSystems: [OrganSystem] = OrganSystem.allSystems + SymptomSystem.allSystems
+        let allSystems: [OrganSystem] = OrganSystem.allSystems
         for system in allSystems {
             if system.topics.contains(where: { $0.title == topic.title }) {
                 for sibling in system.topics where !seen.contains(sibling.title) {
@@ -268,6 +306,32 @@ struct TopicDetailView: View {
         } else {
             expandedSections.insert(id)
         }
+    }
+
+    private var matchingSectionIDs: Set<UUID> {
+        guard !searchText.isEmpty else { return [] }
+        let query = searchText.lowercased()
+        return Set(topic.sections.compactMap { section -> UUID? in
+            if section.title.lowercased().contains(query) { return section.id }
+            switch section.content {
+            case .bullets(let items), .steps(let items):
+                return items.contains(where: { $0.lowercased().contains(query) }) ? section.id : nil
+            case .keyValue(let pairs):
+                return pairs.contains(where: {
+                    $0.key.lowercased().contains(query) || $0.value.lowercased().contains(query)
+                }) ? section.id : nil
+            case .drugTable(let drugs):
+                return drugs.contains(where: {
+                    $0.name.lowercased().contains(query) ||
+                    $0.dose.lowercased().contains(query) ||
+                    $0.notes.lowercased().contains(query)
+                }) ? section.id : nil
+            case .imageGallery(let images):
+                return images.contains(where: {
+                    $0.caption.lowercased().contains(query) || $0.description.lowercased().contains(query)
+                }) ? section.id : nil
+            }
+        })
     }
 
     private var topicHeader: some View {
@@ -312,8 +376,8 @@ struct TopicDetailView: View {
     }
 
     private var floatingCardiacArrestTimer: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            HStack(alignment: .center, spacing: 12) {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(alignment: .center, spacing: 10) {
                 VStack(alignment: .leading, spacing: 0) {
                     Text("Code Timer")
                         .font(.caption2.weight(.semibold))
@@ -321,7 +385,7 @@ struct TopicDetailView: View {
                         .textCase(.uppercase)
 
                     Text(formattedCardiacArrestTime)
-                        .font(.system(size: cardiacArrestTimerIsMinimized ? 22 : 30, weight: .bold, design: .rounded))
+                        .font(.system(size: cardiacArrestTimerIsMinimized ? 20 : 26, weight: .bold, design: .rounded))
                         .monospacedDigit()
                         .foregroundStyle(.primary)
                 }
@@ -356,7 +420,7 @@ struct TopicDetailView: View {
                     Image(systemName: cardiacArrestTimerIsMinimized ? "arrow.up.left.and.arrow.down.right" : "minus")
                         .font(.caption.weight(.bold))
                         .foregroundStyle(Color.rrDarkAccentText)
-                        .frame(width: 28, height: 28)
+                        .frame(width: 24, height: 24)
                         .background(Color.rrSectionBackground)
                         .clipShape(Circle())
                 }
@@ -367,9 +431,11 @@ struct TopicDetailView: View {
                 epiTrackerCard
 
                 medButtonGrid
+
+                metronomeCard
             }
         }
-        .padding(12)
+        .padding(10)
         .frame(maxWidth: cardiacArrestTimerIsMinimized ? nil : .infinity, alignment: .leading)
         .background(Color.rrNeutralCard.opacity(0.96))
         .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
@@ -400,7 +466,7 @@ struct TopicDetailView: View {
                         .font(.caption2)
                         .foregroundStyle(.secondary)
                     Text(epiDoseCount > 0 ? formattedEpiTime : "--:--")
-                        .font(.system(size: 20, weight: .bold, design: .rounded))
+                        .font(.system(size: 17, weight: .bold, design: .rounded))
                         .monospacedDigit()
                         .foregroundStyle(epiDoseCount > 0 ? epiIntervalColor : .secondary)
                 }
@@ -425,7 +491,7 @@ struct TopicDetailView: View {
                     Text("EPI given")
                         .font(.caption.weight(.bold))
                         .frame(maxWidth: .infinity)
-                        .padding(.vertical, 8)
+                        .padding(.vertical, 6)
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(.orange)
@@ -440,7 +506,7 @@ struct TopicDetailView: View {
                     Text("Shock ×\(medCounts["Shock", default: 0])")
                         .font(.caption.weight(.bold))
                         .frame(maxWidth: .infinity)
-                        .padding(.vertical, 8)
+                        .padding(.vertical, 6)
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(.blue)
@@ -452,7 +518,7 @@ struct TopicDetailView: View {
                 }
             }
         }
-        .padding(10)
+        .padding(8)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(Color.rrSectionBackground.opacity(0.5))
         .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
@@ -477,7 +543,7 @@ struct TopicDetailView: View {
                             .monospacedDigit()
                     }
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 7)
+                    .padding(.vertical, 5)
                     .background(count > 0 ? Color.rrDarkAccentText.opacity(0.14) : Color.rrSectionBackground)
                     .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
                 }
@@ -491,6 +557,86 @@ struct TopicDetailView: View {
                 }
             }
         }
+    }
+
+    private var metronomeCard: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack {
+                Image(systemName: "metronome")
+                    .font(.caption.weight(.bold))
+                    .foregroundStyle(Color.rrDarkAccentText)
+                Text("CPR Metronome")
+                    .font(.caption.weight(.bold))
+                    .textCase(.uppercase)
+                    .foregroundStyle(Color.rrDarkAccentText)
+                Spacer()
+                Button(metronome.isRunning ? "Stop" : "Start") {
+                    UIImpactFeedbackGenerator(style: .light).impactOccurred()
+                    if metronome.isRunning { metronome.stop() } else { metronome.start() }
+                }
+                .buttonStyle(.borderedProminent)
+                .controlSize(.small)
+                .tint(metronome.isRunning ? .red : Color.rrCheckmarkGreen)
+            }
+
+            HStack(spacing: 0) {
+                Button { metronome.adjustBPM(by: -5) } label: {
+                    Text("−5")
+                        .font(.caption.weight(.bold))
+                        .frame(width: 38, height: 32)
+                        .background(Color.rrSectionBackground)
+                        .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                }
+                .buttonStyle(.plain)
+
+                Button { metronome.adjustBPM(by: -1) } label: {
+                    Text("−1")
+                        .font(.caption2.weight(.semibold))
+                        .frame(width: 32, height: 32)
+                        .background(Color.rrSectionBackground)
+                        .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                }
+                .buttonStyle(.plain)
+                .padding(.leading, 4)
+
+                Spacer()
+
+                VStack(spacing: 1) {
+                    Text("\(metronome.bpm)")
+                        .font(.system(size: 22, weight: .bold, design: .rounded))
+                        .monospacedDigit()
+                        .foregroundStyle(metronome.isRunning ? Color.rrCheckmarkGreen : .primary)
+                    Text("BPM")
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                }
+
+                Spacer()
+
+                Button { metronome.adjustBPM(by: 1) } label: {
+                    Text("+1")
+                        .font(.caption2.weight(.semibold))
+                        .frame(width: 32, height: 32)
+                        .background(Color.rrSectionBackground)
+                        .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                }
+                .buttonStyle(.plain)
+                .padding(.trailing, 4)
+
+                Button { metronome.adjustBPM(by: 5) } label: {
+                    Text("+5")
+                        .font(.caption.weight(.bold))
+                        .frame(width: 38, height: 32)
+                        .background(Color.rrSectionBackground)
+                        .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                }
+                .buttonStyle(.plain)
+            }
+        }
+        .padding(10)
+        .frame(maxWidth: .infinity)
+        .background(Color.rrSectionBackground.opacity(0.5))
+        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 
     private func resetCardiacArrestTracking() {
@@ -738,6 +884,49 @@ struct TopicDetailView: View {
 
         UIApplication.shared.open(url)
     }
+}
+
+// MARK: - Metronome
+
+final class MetronomeController: ObservableObject {
+    @Published var isRunning = false
+    @Published var bpm: Int = 105
+
+    private var timer: DispatchSourceTimer?
+    private let haptic = UIImpactFeedbackGenerator(style: .rigid)
+
+    func start() {
+        guard !isRunning else { return }
+        isRunning = true
+        haptic.prepare()
+        schedule()
+    }
+
+    func stop() {
+        timer?.cancel()
+        timer = nil
+        isRunning = false
+    }
+
+    func adjustBPM(by delta: Int) {
+        bpm = max(60, min(180, bpm + delta))
+        if isRunning { timer?.cancel(); schedule() }
+    }
+
+    private func schedule() {
+        let interval = 60.0 / Double(bpm)
+        let source = DispatchSource.makeTimerSource(flags: .strict, queue: .main)
+        source.schedule(deadline: .now(), repeating: interval, leeway: .milliseconds(5))
+        source.setEventHandler { [weak self] in
+            AudioServicesPlaySystemSound(1057) // keyboard click — short, sharp
+            self?.haptic.impactOccurred()
+            self?.haptic.prepare()
+        }
+        source.resume()
+        timer = source
+    }
+
+    deinit { timer?.cancel() }
 }
 
 private enum TopicPresentationMode: String, CaseIterable, Identifiable {

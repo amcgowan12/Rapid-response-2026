@@ -146,7 +146,6 @@ final class DataLoader {
     static let shared = DataLoader()
 
     private(set) var conditionSystems: [OrganSystem] = []
-    private(set) var symptomSystems: [OrganSystem] = []
     private(set) var isLoaded = false
 
     private init() {}
@@ -171,10 +170,7 @@ final class DataLoader {
     func loadIfNeeded() {
         guard !isLoaded else { return }
         Task(priority: .userInitiated) {
-            let conditions = Self.conditionResources.flatMap { decodeResource($0) }
-            let symptoms = decodeResource("Symptoms")
-            self.conditionSystems = conditions
-            self.symptomSystems = symptoms
+            self.conditionSystems = Self.conditionResources.flatMap { decodeResource($0) }
             self.isLoaded = true
         }
     }
@@ -203,12 +199,6 @@ private func decodeResource(_ resource: String) -> [OrganSystem] {
     return []
 }
 
-// MARK: - Legacy accessors (kept for any other references)
-
 extension OrganSystem {
     static var allSystems: [OrganSystem] { DataLoader.shared.conditionSystems }
-}
-
-enum SymptomSystem {
-    static var allSystems: [OrganSystem] { DataLoader.shared.symptomSystems }
 }

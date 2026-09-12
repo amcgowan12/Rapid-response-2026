@@ -18,21 +18,6 @@ struct ToolsListView: View {
         }
 
         Section {
-            ForEach(ScoreCalculator.allScoreCalculators) { calc in
-                NavigationLink(destination: ScoreCalculatorView(calculator: calc)) {
-                    ScoreRow(calculator: calc)
-                }
-            }
-        } header: {
-            ToolSectionHeader(
-                title: "Scoring Tools",
-                subtitle: "Risk calculators and bedside scores",
-                systemImage: "number.circle",
-                color: .teal
-            )
-        }
-
-        Section {
             ForEach(InfoPage.howToPages) { page in
                 NavigationLink(destination: InfoPageView(page: page)) {
                     InfoPageRow(page: page)
@@ -43,6 +28,21 @@ struct ToolsListView: View {
                 title: "How To",
                 subtitle: "Quick procedural setup guides",
                 systemImage: "cross.case.fill",
+                color: .red
+            )
+        }
+
+        Section {
+            ForEach(InfoPage.zollPages) { page in
+                NavigationLink(destination: InfoPageView(page: page)) {
+                    InfoPageRow(page: page)
+                }
+            }
+        } header: {
+            ToolSectionHeader(
+                title: "ZOLL R Series",
+                subtitle: "Step-by-step device operation guides",
+                systemImage: "bolt.heart.fill",
                 color: .red
             )
         }
@@ -286,30 +286,218 @@ struct InfoPage: Identifiable, Hashable {
                     "Escalate quickly if ventilation is inadequate or airway pressures are high."
                 ])
             ]
-        ),
+        )
+    ]
+
+    static let zollPages: [InfoPage] = [
         InfoPage(
-            id: "use-zoll",
-            title: "Use the Zoll",
-            subtitle: "Pads, rhythm checks, cardioversion, and pacing basics",
-            icon: "bolt.badge.clock",
+            id: "zoll-aed-operation",
+            title: "AED Operation",
+            subtitle: "Automated defibrillation step-by-step",
+            icon: "bolt.heart.fill",
             accentColor: .red,
             sections: [
-                InfoPageSection(title: "Initial Setup", items: [
-                    "Turn the device on, expose the chest, place pads in the recommended position, and connect cables before you need to shock.",
-                    "Confirm the monitor is showing an interpretable rhythm and that leads or pads are attached correctly."
+                InfoPageSection(title: "Power On & Attach Pads", items: [
+                    "Turn Mode Selector to ON — unit beeps 4 times and green AED label lights up.",
+                    "Remove all clothing from chest. Dry chest; clip excessive hair if needed.",
+                    "Attach hands-free therapy electrodes per packaging instructions. Connect to OneStep cable.",
+                    "If pads are not connected, ATTACH PADS message and voice prompt will sound.",
+                    "Default adult energy: Shock 1 = 120 J, Shock 2 = 150 J, Shock 3 = 200 J.",
+                    "Default pediatric energy (OneStep Pediatric pads): 50 J / 70 J / 85 J. Use only OneStep Pediatric pads for patients under 8 years."
                 ]),
-                InfoPageSection(title: "Defibrillation / Cardioversion", items: [
-                    "For pulseless shockable rhythm, charge immediately and resume compressions while charging when appropriate.",
-                    "For synchronized cardioversion, activate sync mode, confirm markers on each QRS, select energy, announce clear, and deliver the shock."
+                InfoPageSection(title: "Analyze", items: [
+                    "Unit automatically begins ECG analysis and displays ANALYZING ECG for 5 seconds, then STAND CLEAR.",
+                    "Do not touch the patient during analysis. Ensure patient is motionless.",
+                    "Analysis = three consecutive 3-second segments. Shockable if ≥2/3 segments detect shockable rhythm.",
+                    "If nonshockable: NO SHOCK ADVISED displays — begin compressions per protocol.",
+                    "If shockable: SHOCK ADVISED displays, unit charges automatically."
                 ]),
-                InfoPageSection(title: "Pacing", items: [
-                    "For unstable bradycardia, place pads, start pacing mode, increase milliamps until electrical capture, then confirm mechanical capture with pulse or arterial waveform.",
-                    "Provide analgesia or sedation if the patient is awake and time permits."
+                InfoPageSection(title: "Deliver Shock", items: [
+                    "When fully charged, SHOCK button illuminates and PRESS SHOCK is announced.",
+                    "A continuous tone sounds for 20 seconds, then intermittent for 10 seconds (30-second window total).",
+                    "Warn everyone to STAND CLEAR. Press and hold SHOCK button until energy is delivered.",
+                    "Display returns to XXX J SEL. SHOCKS:1 after delivery.",
+                    "Begin CPR immediately after shock. Unit will restart analysis after the configured CPR interval."
                 ]),
-                InfoPageSection(title: "Common Pitfalls", items: [
-                    "Loss of sync markers before cardioversion can lead to an unsynchronized shock.",
-                    "Electrical capture alone is not enough during pacing; always confirm a pulse.",
-                    "If the rhythm or artifact looks wrong, check pad contact, cable connections, and patient movement."
+                InfoPageSection(title: "Key Display Messages", items: [
+                    "ATTACH PADS — pads not connected to patient.",
+                    "ANALYZING ECG / STAND CLEAR — analysis in progress.",
+                    "SHOCK ADVISED / XXXJ READY — shockable rhythm detected, charged and ready.",
+                    "NO SHOCK ADVISED — nonshockable rhythm; continue CPR.",
+                    "CHECK PADS — pads disconnected or poor contact.",
+                    "PUSH HARDER / GOOD COMPRESSIONS — CPR quality feedback (if OneStep CPR pads connected).",
+                    "Switching to Manual: press Manual Mode softkey → press Confirm within 10 seconds."
+                ])
+            ]
+        ),
+        InfoPage(
+            id: "zoll-manual-defib-pads",
+            title: "Manual Defibrillation (Pads)",
+            subtitle: "Hands-free therapy electrodes in Manual mode",
+            icon: "bolt.fill",
+            accentColor: .red,
+            sections: [
+                InfoPageSection(title: "Setup", items: [
+                    "Turn Mode Selector to ON (4 beeps). Press Manual Mode softkey → press Confirm.",
+                    "PADS selected as ECG source automatically when paddles are not connected.",
+                    "Attach hands-free therapy electrodes per packaging instructions. Connect to OneStep cable.",
+                    "Default adult energy: Shock 1 = 120 J, Shock 2 = 150 J, Shock 3 = 200 J.",
+                    "OneStep Pediatric pads default: 50 J / 70 J / 85 J.",
+                    "If escalating energy is configured, R Series auto-sets energy after each of the first two shocks."
+                ]),
+                InfoPageSection(title: "Select Energy & Charge", items: [
+                    "Verify selected energy on display (DEFIB XXXJ SEL.). Adjust with ENERGY SELECT buttons if needed.",
+                    "Press CHARGE button on front panel.",
+                    "Changing energy while charging or charged disarms the unit — press CHARGE again to recharge.",
+                    "When ready: SHOCK button illuminates, charge ready tone sounds, DEFIB XXXJ READY displayed."
+                ]),
+                InfoPageSection(title: "Deliver Shock", items: [
+                    "Announce STAND CLEAR. Ensure no one is touching patient, bed rails, or connected equipment.",
+                    "Press and hold SHOCK button until energy is delivered.",
+                    "If not discharged within 60–120 seconds (configurable), unit auto-disarms — recharge to shock again.",
+                    "Display shows XXXJ DELIVERED then returns to DEFIB XXXJ SEL."
+                ]),
+                InfoPageSection(title: "Troubleshooting", items: [
+                    "CHECK PADS / POOR PAD CONTACT — pads not making good skin contact; check placement and connections.",
+                    "DEFIB PAD SHORT — short circuit between electrodes.",
+                    "Energy not delivered when SHOCK pressed — ensure DEFIB XXXJ READY is displayed before pressing."
+                ])
+            ]
+        ),
+        InfoPage(
+            id: "zoll-synchronized-cardioversion",
+            title: "Synchronized Cardioversion",
+            subtitle: "Sync cardioversion procedure — Manual mode only",
+            icon: "waveform.path.ecg",
+            accentColor: .red,
+            sections: [
+                InfoPageSection(title: "Preparation", items: [
+                    "Manual mode only. Only skilled personnel trained in ACLS should perform cardioversion.",
+                    "Attach ECG electrodes (standard lead cable recommended). Attach hands-free therapy electrodes.",
+                    "If using paddles as ECG source: artifact from moving paddles can mimic R-wave and trigger early discharge — avoid if possible.",
+                    "Turn Mode Selector to ON → press Manual Mode → press Confirm."
+                ]),
+                InfoPageSection(title: "Enable Sync Mode", items: [
+                    "Press Sync On/Off softkey. Display shows SYNC XXXJ SEL. and two quick beeps sound.",
+                    "Sync markers (▲) appear above each detected R-wave on the ECG trace.",
+                    "Verify markers are clearly visible and consistent beat to beat. Adjust LEAD or SIZE if needed.",
+                    "Unit exits Sync mode automatically after each shock — press Sync On/Off again to reactivate if more shocks needed.",
+                    "If DEFIB XXXJ SEL. appears instead of SYNC XXXJ SEL., press Sync On/Off again."
+                ]),
+                InfoPageSection(title: "Charge & Deliver Shock", items: [
+                    "Select energy with ENERGY SELECT buttons. Press CHARGE (front panel or apex paddle).",
+                    "Changing energy after charging disarms the unit — press CHARGE again.",
+                    "When charged: SHOCK button or apex charge indicator illuminates. SYNC XXXJ READY displayed.",
+                    "Announce STAND CLEAR. Verify no one is touching patient, bed, or leads. Confirm Sync markers on each R-wave.",
+                    "Press and hold SHOCK button until energy is delivered with the next R-wave detection.",
+                    "If not discharged within 60–120 seconds, unit auto-disarms. Unit remains in Sync mode."
+                ]),
+                InfoPageSection(title: "Key Warnings", items: [
+                    "If ANALYZE is pressed while in Sync mode, REMOVE SYNC message appears and analysis is blocked.",
+                    "For repeated shocks: reselect energy as needed, press Sync On/Off again (must show SYNC XXXJ SEL. before charging).",
+                    "ECG LEAD OFF prevents synchronized discharge — check lead connections.",
+                    "To return to AED mode: power off for >10 seconds then power back on."
+                ])
+            ]
+        ),
+        InfoPage(
+            id: "zoll-pacing",
+            title: "Transcutaneous Pacing",
+            subtitle: "Noninvasive temporary pacing — Manual mode only",
+            icon: "waveform.badge.plus",
+            accentColor: .red,
+            sections: [
+                InfoPageSection(title: "Setup", items: [
+                    "Manual mode only. Requires hands-free therapy electrodes (OneStep Pacing, CPR, or Complete) or separate ECG leads + pacing pads.",
+                    "Turn Mode Selector to ON → Manual Mode → Confirm. Then turn Mode Selector to PACER — pacer door opens.",
+                    "OneStep Pacing cable must be connected to both MFC and ECG connectors when using OneStep Pacing or Complete electrodes.",
+                    "If using separate ECG electrodes + pads: connect ECG cable to rear ECG input and pacing pads to OneStep cable.",
+                    "Select ECG lead P1, P2, or P3 (OneStep pads) or Lead II (separate leads). Verify R-wave detection — heart symbol flashes with each R-wave."
+                ]),
+                InfoPageSection(title: "Set Rate & Output", items: [
+                    "Set PACER OUTPUT to 0 mA on startup.",
+                    "Set PACER RATE 10–20 ppm above patient's intrinsic rate. Use 100 ppm if no intrinsic rate.",
+                    "Verify pacing stimulus marker is well-positioned in diastole on the ECG trace.",
+                    "Increase PACER OUTPUT until capture is achieved. Typical threshold: 40–80 mA. Ideal output = ~10% above threshold.",
+                    "Rate increments in 2 ppm steps; output increments in 2 mA steps."
+                ]),
+                InfoPageSection(title: "Confirm Capture", items: [
+                    "Electrical capture: widened QRS, loss of intrinsic rhythm, enlarged T-wave after each pacer marker.",
+                    "Mechanical capture: palpate peripheral pulse — use femoral or right brachial/radial artery only (avoid mistaking muscle twitch for pulse).",
+                    "Provide analgesia/sedation if patient is conscious and condition allows.",
+                    "4:1 Mode: press and hold 4:1 button to withhold most pacing stimuli and observe underlying rhythm."
+                ]),
+                InfoPageSection(title: "Standby & Asynchronous Pacing", items: [
+                    "Standby pacing: set mA 10% above capture threshold, set rate below patient's intrinsic rate — unit paces automatically if rate drops.",
+                    "Asynchronous pacing: press Async Pacing On/Off softkey when ECG leads are unavailable. Display shows ASYNC PACE.",
+                    "CHECK PADS / POOR PAD CONTACT alarm: cable disconnected, pads off skin, or defective cable — reconnect and press Clear Pace Alarm.",
+                    "Pediatric pacing: identical procedure. Use OneStep Pediatric electrodes for patients <33 lbs (15 kg). Check skin every 30 minutes for burns."
+                ])
+            ]
+        ),
+        InfoPage(
+            id: "zoll-real-cpr-help",
+            title: "Real CPR Help",
+            subtitle: "CPR feedback features with OneStep CPR pads",
+            icon: "hand.raised.fill",
+            accentColor: .red,
+            sections: [
+                InfoPageSection(title: "Overview", items: [
+                    "Available when OneStep CPR or OneStep Complete electrodes are connected.",
+                    "CPR sensor between rescuer's hands and lower sternum monitors rate and depth.",
+                    "Not intended for patients under 8 years of age."
+                ]),
+                InfoPageSection(title: "CPR Index (R Series Plus Only)", items: [
+                    "Hexagon display fills from center out as compressions approach AHA/ERC targets.",
+                    "Fully filled = depth >1.75 inches and rate >90 cpm simultaneously.",
+                    "RATE and/or DEPTH indicators appear when below recommended levels (80 cpm / 1.5 inches)."
+                ]),
+                InfoPageSection(title: "CPR Metronome", items: [
+                    "Beeps at 100 cpm to guide compression rate.",
+                    "Silent during AED analysis and when compressions are detected at ≥80 cpm.",
+                    "In AED mode: always active during CPR intervals. In Manual/Advisory mode: active only when rate falls below threshold."
+                ]),
+                InfoPageSection(title: "See-Thru CPR Filter (R Series Plus Only)", items: [
+                    "Filters CPR artifact from ECG to show underlying rhythm during compressions.",
+                    "Activates automatically after 3–6 compressions. Filtered ECG labeled FIL displayed in Trace 2 or 3.",
+                    "Always stop CPR to verify rhythm before making treatment decisions — filter does not remove all artifact.",
+                    "To display: Options → Traces → Trace 2 or 3 → Filt ECG.",
+                    "Filter stops if unit enters Pace mode or OneStep CPR pads are removed."
+                ])
+            ]
+        ),
+        InfoPage(
+            id: "zoll-battery-maintenance",
+            title: "Battery & Daily Checks",
+            subtitle: "Readiness testing, battery replacement, and routine maintenance",
+            icon: "battery.100.bolt",
+            accentColor: .red,
+            sections: [
+                InfoPageSection(title: "Daily Visual Inspection", items: [
+                    "Check unit is clean, no fluid spills, no visible damage.",
+                    "Inspect all cables, cords, and connectors for cuts, fraying, or bent pins.",
+                    "Verify paddle surfaces are clean and free of gel.",
+                    "Confirm two sets of ZOLL therapy pads are available in sealed packages. Check expiration dates.",
+                    "Confirm fully charged battery is installed and a spare is present."
+                ]),
+                InfoPageSection(title: "Battery Replacement", items: [
+                    "To remove: press tab on end of battery pack inward and lift out.",
+                    "To install: place the end opposite the tab into the compartment first, lower tabbed end in, press until it locks.",
+                    "LOW BATTERY message during testing = replace or recharge before use.",
+                    "Selecting high display brightness depletes battery faster than low brightness."
+                ]),
+                InfoPageSection(title: "Code Readiness Test (Automatic)", items: [
+                    "Performed automatically once per day when connected to AC power.",
+                    "Green checkmark = unit ready. Red X = unit not ready for therapeutic use.",
+                    "If red X: connect to AC power, enter Manual mode, press Report Data → Test Log to identify the failure.",
+                    "Verified components: battery, OneStep electrodes (expiry and gel condition), ECG circuitry, defibrillator charge/discharge, microprocessor, CPR circuitry."
+                ]),
+                InfoPageSection(title: "Manual Defibrillator Test", items: [
+                    "Connect to AC power. Connect OneStep cable to test port, sealed OneStep electrodes, or paddles seated in wells.",
+                    "Turn ON → Manual Mode → Confirm. Set energy to 30 J. Press CHARGE.",
+                    "When charged, press SHOCK (paddles into wells with both SHOCK buttons, or SHOCK button for pads).",
+                    "30J TEST OK confirms successful test. 30J TEST FAILED = contact technical service.",
+                    "Changing energy away from 30 J during test disarms unit — reset to 30 J and recharge."
                 ])
             ]
         )
@@ -422,7 +610,7 @@ struct InfoPage: Identifiable, Hashable {
         )
     ]
 
-    static let allPages = howToPages + dataAndPrivacyPages + supportPages
+    static let allPages = howToPages + zollPages + dataAndPrivacyPages + supportPages
 }
 
 struct InfoPageSection: Hashable {

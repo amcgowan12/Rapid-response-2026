@@ -10,6 +10,18 @@ struct ConversionTableDetailView: View {
         table.title == "Abbreviations"
     }
 
+    // Available width inside the VStack (.padding() = 16pt each side)
+    private var tableContentWidth: CGFloat {
+        UIScreen.main.bounds.width - 32
+    }
+
+    // For wide tables (many columns) allow horizontal scrolling; for narrow tables fill the screen.
+    private var tableWidth: CGFloat {
+        let minColWidth: CGFloat = table.columns.count > 5 ? 160 : 100
+        let minNeeded = CGFloat(table.columns.count) * minColWidth
+        return max(tableContentWidth, minNeeded)
+    }
+
     private var displayedRows: [ConversionRow] {
         let baseRows: [ConversionRow]
 
@@ -101,10 +113,11 @@ struct ConversionTableDetailView: View {
                     }
                 }
 
-                // Wider clinical reference tables need horizontal room on smaller devices.
-                ScrollView(.horizontal, showsIndicators: true) {
+                // Size the table to fill available width for narrow column counts,
+                // or scroll horizontally when more space is needed.
+                ScrollView(.horizontal, showsIndicators: tableWidth > tableContentWidth) {
                     ConversionTableCard(columns: table.columns, rows: displayedRows)
-                        .frame(minWidth: max(360, CGFloat(table.columns.count) * 180), alignment: .leading)
+                        .frame(width: tableWidth, alignment: .leading)
                 }
 
                 // Key principles / footnotes

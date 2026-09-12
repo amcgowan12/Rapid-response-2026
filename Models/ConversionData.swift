@@ -1215,13 +1215,136 @@ extension ConversionTable {
         ]
     )
 
+    static let normalValues = ConversionTable(
+        title: "Normal Values",
+        subtitle: "Standard physiologic reference ranges for hemodynamics, blood gases, ECG, and respiratory monitoring",
+        icon: "chart.bar.doc.horizontal",
+        columns: ["Parameter", "Normal Range", "Clinical Context"],
+        rows: [
+
+            // ── Vital Signs ──────────────────────────────────────────────────
+            ConversionRow(cells: ["**Vital Signs**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["Heart rate (HR)", "60–100 /min", "< 60 = bradycardia; > 100 = tachycardia; trend matters more than snapshot"], isHighlighted: false),
+            ConversionRow(cells: ["Respiratory rate (RR)", "12–18 /min", "> 20 is a common early warning threshold; > 30 suggests impending failure"], isHighlighted: false),
+            ConversionRow(cells: ["SpO₂", "≥ 95% on room air", "Target ≥ 92–94% in COPD/hypercapnic pts; ≥ 98% post-ROSC (avoid hyperoxia)"], isHighlighted: false),
+
+            // ── Systemic Pressures ───────────────────────────────────────────
+            ConversionRow(cells: ["**Systemic Pressures**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["Mean arterial pressure (MAP)", "70–105 mmHg", "Sepsis target ≥ 65; TBI target ≥ 80; aortic dissection target 60–75"], isHighlighted: false),
+            ConversionRow(cells: ["LV pressure, systolic", "90–140 mmHg", "Approximated by systolic BP when no aortic outflow obstruction"], isHighlighted: false),
+            ConversionRow(cells: ["LV end-diastolic pressure (LVEDP)", "4–12 mmHg", "> 18 mmHg suggests elevated filling pressure or LV dysfunction"], isHighlighted: false),
+            ConversionRow(cells: ["Left atrial pressure (LAP)", "4–12 mmHg", "PAWP approximates LAP when no mitral valve disease"], isHighlighted: false),
+
+            // ── Right Heart & Central Venous Pressures ───────────────────────
+            ConversionRow(cells: ["**Right Heart & Central Pressures**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["Central venous pressure (CVP)", "0–8 mmHg", "Trend > absolute value; poor predictor of volume responsiveness alone"], isHighlighted: false),
+            ConversionRow(cells: ["Right atrial pressure (RAP)", "0–8 mmHg", "Approximated by CVP; elevated in RV failure, massive PE, tamponade"], isHighlighted: false),
+            ConversionRow(cells: ["RV systolic pressure", "14–30 mmHg", "> 30 mmHg suggests pulmonary HTN or acute RV pressure overload"], isHighlighted: false),
+            ConversionRow(cells: ["RV end-diastolic pressure (RVEDP)", "0–8 mmHg", "Elevated with RV dysfunction or right-sided volume overload"], isHighlighted: false),
+
+            // ── Pulmonary Artery Pressures ───────────────────────────────────
+            ConversionRow(cells: ["**Pulmonary Artery Pressures**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["PA systolic (sPAP)", "15–30 mmHg", "> 30 mmHg at rest suggests pulmonary HTN (confirm with MPAP)"], isHighlighted: false),
+            ConversionRow(cells: ["PA diastolic (dPAP)", "5–15 mmHg", ""], isHighlighted: false),
+            ConversionRow(cells: ["Mean PA pressure (MPAP)", "10–20 mmHg", "Pulmonary HTN = MPAP ≥ 20 mmHg at rest (2022 ESC/ERS definition)"], isHighlighted: false),
+            ConversionRow(cells: ["Pulmonary artery occlusion pressure (PAOP / PAWP)", "5–15 mmHg", "> 18 = cardiogenic pulmonary edema; < 8 = hypovolemia"], isHighlighted: false),
+
+            // ── Cardiac Output & Performance ─────────────────────────────────
+            ConversionRow(cells: ["**Cardiac Output & Performance**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["Cardiac output (CO)", "4.5–8.0 L/min", ""], isHighlighted: false),
+            ConversionRow(cells: ["Cardiac index (CI)", "2.7–4.0 L/min/m²", "< 2.2 = cardiogenic shock threshold; < 2.0 = poor cardiac reserve"], isHighlighted: false),
+            ConversionRow(cells: ["Stroke volume (SV)", "60–130 mL/beat", "CO = SV × HR"], isHighlighted: false),
+            ConversionRow(cells: ["Stroke volume index (SVI)", "38–60 mL/beat/m²", ""], isHighlighted: false),
+            ConversionRow(cells: ["Ejection fraction (EF)", "≥ 55–60%", "Mildly reduced: 41–54%; Reduced (HFrEF): ≤ 40%"], isHighlighted: false),
+            ConversionRow(cells: ["Estimated blood volume (adult)", "65–70 mL/kg", "≈ 5 L in a 70 kg adult"], isHighlighted: false),
+            ConversionRow(cells: ["Stroke volume variation (SVV)", "< 10%", "> 13% predicts fluid responsiveness in passively ventilated pts"], isHighlighted: false),
+
+            // ── Vascular Resistance ──────────────────────────────────────────
+            ConversionRow(cells: ["**Vascular Resistance**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["Systemic vascular resistance (SVR)", "770–1500 dyn·s/cm⁵", "↓ SVR = distributive shock (sepsis, anaphylaxis); ↑ SVR = cardiogenic or vasoconstrictive"], isHighlighted: false),
+            ConversionRow(cells: ["SVR index (SVRI)", "1860–2500 dyn·s/cm⁵/m²", "SVR = 79.9 × (MAP − CVP) / CO"], isHighlighted: false),
+            ConversionRow(cells: ["Pulmonary vascular resistance (PVR)", "100–250 dyn·s/cm⁵", "< 3 Wood units (≈ 240 dyn·s/cm⁵) is normal; > 3 = elevated PVR"], isHighlighted: false),
+            ConversionRow(cells: ["PVR index (PVRI)", "225–315 dyn·s/cm⁵/m²", ""], isHighlighted: false),
+
+            // ── Oxygen Delivery & Consumption ────────────────────────────────
+            ConversionRow(cells: ["**Oxygen Delivery & Consumption**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["Oxygen delivery (DO₂)", "950–1300 mL/min", "DO₂ = 0.134 × CO × Hb × SaO₂; critical delivery threshold ≈ 330 mL/min"], isHighlighted: false),
+            ConversionRow(cells: ["Oxygen consumption (VO₂)", "180–320 mL/min", "VO₂ = 0.134 × CO × Hb × (SaO₂ − SvO₂)"], isHighlighted: false),
+            ConversionRow(cells: ["Mixed venous O₂ sat (SvO₂)", "70–75%", "< 60% = impaired O₂ delivery or ↑ extraction; > 80% = distributive or shunting"], isHighlighted: false),
+
+            // ── Key Hemodynamic Formulas ─────────────────────────────────────
+            ConversionRow(cells: ["**Key Hemodynamic Formulas**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["MAP", "(SBP + 2 × DBP) / 3", "Equivalent: DBP + (pulse pressure / 3)"], isHighlighted: false),
+            ConversionRow(cells: ["CO", "SV × HR", ""], isHighlighted: false),
+            ConversionRow(cells: ["CI", "CO / BSA", "BSA (m²) ≈ √(height(cm) × weight(kg) / 3600)"], isHighlighted: false),
+            ConversionRow(cells: ["SVR", "79.9 × (MAP − CVP) / CO", "Result in dyn·s/cm⁵"], isHighlighted: false),
+            ConversionRow(cells: ["DO₂", "0.134 × CO × Hb × SaO₂", ""], isHighlighted: false),
+            ConversionRow(cells: ["VO₂", "0.134 × CO × Hb × (SaO₂ − SvO₂)", ""], isHighlighted: false),
+            ConversionRow(cells: ["Pulse pressure", "SBP − DBP  (normal ≈ 40 mmHg)", "> 25% variation with ventilation suggests fluid responsiveness"], isHighlighted: false),
+            ConversionRow(cells: ["Corrected calcium", "Measured Ca + 0.8 × (4 − albumin)", "Adjust for hypoalbuminemia; or use ionized calcium directly"], isHighlighted: false),
+
+            // ── ECG Parameters ───────────────────────────────────────────────
+            ConversionRow(cells: ["**ECG Parameters**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["Normal axis", "−30° to +90°", "< −30° = left axis deviation; > +90° = right axis deviation"], isHighlighted: false),
+            ConversionRow(cells: ["PR interval", "120–200 ms  (0.12–0.20 s)", "> 200 ms = 1st-degree AV block; < 120 ms = pre-excitation / WPW"], isHighlighted: false),
+            ConversionRow(cells: ["QRS duration", "< 120 ms  (< 0.12 s)", "120–140 ms = IVCD; ≥ 120 ms + morphology criteria = BBB"], isHighlighted: false),
+            ConversionRow(cells: ["Corrected QT (QTc)", "< 440 ms (men)\n< 460 ms (women)", "> 500 ms = high risk for torsades de pointes; many drugs prolong QT"], isHighlighted: false),
+            ConversionRow(cells: ["Rate–pressure product (RPP)", "< 9600 at rest", "HR × SBP; reflects myocardial O₂ demand; > 12,000 = ischemia risk"], isHighlighted: false),
+
+            // ── Arterial Blood Gas ───────────────────────────────────────────
+            ConversionRow(cells: ["**Arterial Blood Gas (ABG)**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["pH", "7.35–7.45", "< 7.35 = acidemia; > 7.45 = alkalemia"], isHighlighted: false),
+            ConversionRow(cells: ["PaO₂", "80–100 mmHg", "< 80 = hypoxemia; < 60 = severe hypoxemia; normal ↓ with age"], isHighlighted: false),
+            ConversionRow(cells: ["PaCO₂", "35–45 mmHg", "< 35 = hyperventilation; > 45 = hypoventilation / hypercapnia"], isHighlighted: false),
+            ConversionRow(cells: ["HCO₃⁻ (bicarbonate)", "22–26 mEq/L", "< 22 = metabolic acidosis; > 26 = metabolic alkalosis"], isHighlighted: false),
+            ConversionRow(cells: ["Base excess (BE)", "−2 to +2 mmol/L", "< −6 = severe metabolic acidosis; target > −6 in damage control resuscitation"], isHighlighted: false),
+            ConversionRow(cells: ["SaO₂", "95–98%", "Calculated from PaO₂; diverges from SpO₂ in dyshemoglobinemias (CO, MetHb)"], isHighlighted: false),
+            ConversionRow(cells: ["Anion gap (AG)", "8–12 mEq/L", "AG = Na − (Cl + HCO₃); add 2.5 mEq/L per 1 g/dL albumin below 4.0"], isHighlighted: false),
+            ConversionRow(cells: ["Lactate", "< 2.0 mmol/L", "2–4 = elevated; > 4 = severe hypoperfusion; clearance ≥ 10% at 2h in sepsis"], isHighlighted: false),
+
+            // ── Venous Blood Gas ─────────────────────────────────────────────
+            ConversionRow(cells: ["**Venous Blood Gas (VBG)**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["pH (venous)", "7.31–7.41", "Typically 0.02–0.04 lower than arterial pH"], isHighlighted: false),
+            ConversionRow(cells: ["PvCO₂", "41–51 mmHg", "≈ 6 mmHg higher than PaCO₂; reliable for ventilation trending"], isHighlighted: false),
+            ConversionRow(cells: ["SvO₂ (central)", "70–75%", "< 60% = inadequate delivery or ↑ consumption; > 80% = distributive / shunting"], isHighlighted: false),
+            ConversionRow(cells: ["VBG–ABG correlation", "pH ± 0.02–0.04", "Poor correlation in low-flow states (shock, cardiac arrest) — use ABG when accuracy is critical"], isHighlighted: false),
+
+            // ── P/F Ratio ────────────────────────────────────────────────────
+            ConversionRow(cells: ["**PaO₂ / FiO₂ Ratio (P/F Ratio)**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["Normal", "≥ 400–500 mmHg", "Room air: PaO₂ 100 ÷ FiO₂ 0.21 ≈ 476"], isHighlighted: false),
+            ConversionRow(cells: ["Mild ARDS", "201–300 mmHg", "Berlin criteria require PEEP ≥ 5 cmH₂O for all ARDS categories"], isHighlighted: false),
+            ConversionRow(cells: ["Moderate ARDS", "101–200 mmHg", "Consider prone positioning, neuromuscular blockade"], isHighlighted: false),
+            ConversionRow(cells: ["Severe ARDS", "≤ 100 mmHg", "Consider ECMO referral; high PEEP, prone, recruitment maneuvers"], isHighlighted: false),
+
+            // ── Respiratory Variables ────────────────────────────────────────
+            ConversionRow(cells: ["**Respiratory Variables**", "", ""], isHighlighted: true),
+            ConversionRow(cells: ["Tidal volume — spontaneous", "7–10 mL/kg", "Mechanical ventilation: 6–8 mL/kg IBW (lung-protective strategy)"], isHighlighted: false),
+            ConversionRow(cells: ["Minute ventilation (VE)", "6–8 L/min", "↑ in sepsis/fever/metabolic acidosis; ↓ in respiratory failure"], isHighlighted: false),
+            ConversionRow(cells: ["Functional residual capacity (FRC)", "2300–2800 mL", "↓ in obesity, pregnancy, ARDS, supine positioning — explains derecruitment"], isHighlighted: false),
+            ConversionRow(cells: ["Total lung capacity (TLC)", "5000–6500 mL", "↓ in restrictive disease; normal or ↑ in obstructive (air trapping)"], isHighlighted: false),
+            ConversionRow(cells: ["Vital capacity (VC)", "50–55 mL/kg", "Intubation threshold in neuromuscular disease: VC < 20 mL/kg"], isHighlighted: false),
+            ConversionRow(cells: ["FEV₁ / FVC ratio", "> 70%", "< 70% = obstructive; severity: mild 60–70%, moderate 50–60%, severe < 50%"], isHighlighted: false),
+            ConversionRow(cells: ["Lung compliance, static", "60–100 mL/cmH₂O", "↓ in ARDS, pulmonary edema, fibrosis; ↑ in emphysema"], isHighlighted: false),
+            ConversionRow(cells: ["Negative inspiratory force (NIF)", "More negative than −25 cmH₂O", "Target < −25 in GBS/MG monitoring; weaker = higher intubation risk"], isHighlighted: false),
+        ],
+        footnotes: [
+            "Shaded rows are category headers — not data rows.",
+            "These are population-based reference ranges, not resuscitation targets. Interpret in clinical context.",
+            "MAP targets vary by indication: sepsis ≥ 65 mmHg, TBI ≥ 80 mmHg, hypertensive emergency — titrate to end-organ signs.",
+            "Anion gap must be corrected for albumin: for every 1 g/dL albumin is below 4.0, add 2.5 mEq/L to the AG.",
+            "QTc > 500 ms is a widely used threshold for high torsades risk. Sex-specific cutoffs: men > 440 ms, women > 460 ms = prolonged.",
+            "P/F ratio ARDS Berlin criteria require PEEP ≥ 5 cmH₂O — a room-air P/F is not Berlin-diagnostic.",
+            "VBG–ABG correlation degrades in shock and cardiac arrest. Use ABG when pH or PaO₂ accuracy is critical.",
+            "Lactate clearance ≥ 10% at 2 hours is a resuscitation endpoint in septic shock (SCCM Surviving Sepsis guidelines)."
+        ]
+    )
+
     static var allTools: [ConversionTable] {
         [
-            medicationReference,
+            normalValues,
             opioidConversions,
             benzodiazepineConversions,
             fibrinolyticContraindications,
-            cognitiveBiases,
             abbreviationsReference
         ]
     }

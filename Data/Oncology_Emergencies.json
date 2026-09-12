@@ -1,1223 +1,1044 @@
-{
-  "name": "Oncology Emergencies",
-  "icon": "stethoscope.circle.fill",
-  "color": "yellow",
-  "topics": [
-    {
-      "title": "Malignant Spinal Cord Compression",
-      "subtitle": "Back pain, weakness, sensory loss, urinary retention, cancer history",
-      "sections": [
-        {
-          "title": "Acute Management",
-          "type": "steps",
-          "items": [
-            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-            "Immediately start dexamethasone 10mg IV: do NOT delay for imaging",
-            "Get emergent MRI of entire spine (whole spine: multifocal in 10-38%)",
-            "Consult radiation oncology STAT for emergent radiothetherapy"
-          ]
-        },
-        {
-          "title": "Chart Check / Hx.",
-          "type": "bullets",
-          "items": [
-            "Known cancer dx & type (breast, lung, prostate, renal, thyroid most common)",
-            "Back pain Hx.: 90% present with back pain, worse when supine (unlike degenerative pain)",
-            "Motor weakness (75%), sensory changes, bowel/bladder dysfunction",
-            "Ambulatory status before onset: strongest predictor of outcome",
-            "Prior spinal radiation or surgery",
-            "Current oncologic tx regimen",
-            "Hx. of DVT/PE"
-          ]
-        },
-        {
-          "title": "Exam",
-          "type": "bullets",
-          "items": [
-            "Point tenderness over spine at level of compression",
-            "Motor exam: grade strength in all extremities, note level",
-            "Sensory level: pinprick & light touch: identify dermatomal level",
-            "Rectal exam: ↓ rectal tone = cauda equina involvement",
-            "Reflexes: upper motor neuron signs (hyperreflexia, Babinski) above conus; lower motor neuron signs (areflexia) in cauda equina",
-            "Gait assessment if safe: ambulatory status is key prognostic factor",
-            "Bladder scan for post void residual (>200mL suggests retention)"
-          ]
-        },
-        {
-          "title": "Recognition / Key Concepts",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "MSCC",
-              "value": "Compression of spinal cord or cauda equina by direct tumor extension or vertebral body collapse in setting of metastatic or primary spinal malignancy"
-            },
-            {
-              "key": "Incidence",
-              "value": "5-10% of cancer pts; most common in breast, lung, prostate, renal cell, & thyroid cancers"
-            },
-            {
-              "key": "Location",
-              "value": "Thoracic spine 70%, lumbosacral 20%, cervical 10%"
-            },
-            {
-              "key": "Timecritical",
-              "value": "Neurological outcome depends on pretx function: once paraplegia is established, recovery is rare"
-            }
-          ]
-        },
-        {
-          "title": "Etiology / DDx",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "Epidural metastasis",
-              "value": "MCC: tumor extends from vertebral body into epidural space"
-            },
-            {
-              "key": "Pathologic fracture",
-              "value": "Vertebral body collapse compresses cord: lytic lesions from myeloma, breast, lung, renal, thyroid"
-            },
-            {
-              "key": "Direct extension",
-              "value": "Paraspinal tumors (lymphoma, neuroblastoma) growing through neural foramen"
-            },
-            {
-              "key": "DDx: Epidural abscess",
-              "value": "Fever, elevated WBC/ESR, IV drug use Hx."
-            },
-            {
-              "key": "DDx: Epidural hematoma",
-              "value": "Anticoagulation, recent procedure"
-            },
-            {
-              "key": "DDx: Transverse myelitis",
-              "value": "Inflammatory, MRI shows cord signal without epidural mass"
-            },
-            {
-              "key": "DDx: Disc herniation",
-              "value": "Mechanical back pain, radiculopathy distribution"
-            }
-          ]
-        },
-        {
-          "title": "Management",
-          "type": "steps",
-          "items": [
-            "Immediate stabilization: keep spinal precautions, continue dexamethasone 4mg IV/PO q6h after the 10mg IV load, & treat pain without delaying serial neuro exams",
-            "Definitive planning: get MRI whole spine & call radiation oncology plus neurosurgery / spine surgery now. Surgery is favored for instability, singlelevel disease, retropulsed bone, radioresistant tumor, or worsening deficits; otherwise move quickly to radiation",
-            "Supportive care: Foley if retention, keep NPO if surgery possible, give DVT prophylaxis if safe, & document serial motor / sensory / bowel bladder exams",
-            "Continue dexamethasone 4mg IV/PO q6h: begin taper after radiation starts",
-            "Radiothetherapy:30 Gy in 10 fractions or 20 Gy in 5 fractions",
-            "Surgery (decompressive laminectomy ± stabilization) if: single level compression, radioresistant tumor, spinal instability, neurological deterioration during radiation",
-            "Maintain DVT prophylaxis throughout hospitalization",
-            "Physical therapy & rehabilitation consultation",
-            "Monitor neurological exam q4-6h during acute phase",
-            "GI prophylaxis (PPI) while on high dose steroids",
-            "Glucose monitoring q6h: steroidinduced hyperglycemia common"
-          ]
-        },
-        {
-          "title": "Orders",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "MRI entire spine with contrast",
-              "value": "Gold standard: identifies level, extent, & multifocal disease (10-38%)"
-            },
-            {
-              "key": "CT myelogram",
-              "value": "Alternative if MRI contraindicated (pacemaker, etc.)"
-            },
-            {
-              "key": "CBC, CMP, coags",
-              "value": "Baseline labs, check renal function for contrast"
-            },
-            {
-              "key": "ESR/CRP",
-              "value": "Elevated in infection: helps differentiate epidural abscess"
-            },
-            {
-              "key": "Bladder scan",
-              "value": "check for urinary retention"
-            },
-            {
-              "key": "Plain films",
-              "value": "Low sensitivity (~60%): do NOT use to r/o MSCC"
-            }
-          ]
-        },
-        {
-          "title": "Medications",
-          "type": "drugTable",
-          "drugs": [
-            {
-              "name": "Dexamethasone",
-              "dose": "10mg IV bolus, then 4mg IV/PO q6h",
-              "route": "IV: PO",
-              "contraindications": "Active GI bleed (relative)",
-              "notes": "Give now if MSCC suspected: before imaging. ↓ vasogenic edema. Taper over 2 weeks after definitive tx."
-            },
-            {
-              "name": "Dexamethasone (high dose)",
-              "dose": "96mg IV bolus, then 24mg IV q6h x 3 days",
-              "route": "IV",
-              "contraindications": "GI bleed, uncontrolled DM",
-              "notes": "Consider for progressive deficits or nearcomplete block on MRI. Higher complication rate."
-            },
-            {
-              "name": "Enoxaparin",
-              "dose": "40mg SC daily",
-              "route": "SC",
-              "contraindications": "Active bleeding, plt <50k",
-              "notes": "DVT prophylaxis: immobilized oncology pts are extremely risk for VTE."
-            }
-          ]
-        },
-        {
-          "title": "Disposition",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "ICU / immediate higher level of care if",
-              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
-            }
-          ]
-        },
-        {
-          "title": "References & Resources",
-          "type": "bullets",
-          "items": [
-            "National Institute for Health and Care Excellence (NICE). Metastatic Spinal Cord Compression in Adults: Risk assessment, Diagnosis, and Management (CG75). 2008 (Updated 2023). https://www.nice.org.uk/guidance/cg75",
-            "Defined Approach to Malignant Spinal Cord Compression: ASCO Clinical Practice Guideline. Journal of Clinical Oncology. 2023.",
-            "Loblaw DA, Perry J, Chambers A, Laperriere NJ. Systematic Review of the Diagnosis and Management of Malignant Extradural Spinal Cord Compression. Journal of Clinical Oncology. 2005;23(9):20282037. https://doi.org/10.1200/JCO.2005.00.960"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "SVC Syndrome",
-      "subtitle": "Facial swelling, venous distention, dyspnea, upperextremity edema",
-      "sections": [
-        {
-          "title": "Acute Management",
-          "type": "steps",
-          "items": [
-            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-            "check & secure airway: may difficult from upper airway edema; prepare for difficult airway",
-            "Elevate head of bed to 30-45°: ↓ venous pressure & facial edema",
-            "Supplemental O2 as needed: monitor for respiratory decompensation",
-            "Emergent CT chest with IV contrast (via lower extremity IV) to define Obst.",
-            "Get tissue dx if not previously established: do not delay tx for biopsy if critically ill"
-          ]
-        },
-        {
-          "title": "Chart Check / Hx.",
-          "type": "bullets",
-          "items": [
-            "Known malignancy: lung cancer, lymphoma, mediastinal tumors most common",
-            "Central venous catheters, ports, pacemaker/defibrillator leads",
-            "Symptom onset & progression: gradual (weeks) vs acute (days)",
-            "Dyspnea, facial/neck swelling worse when leaning forward or lying flat",
-            "Headache, visual changes, confusion (signs of cerebral edema)",
-            "Dysphagia, hoarseness, stridor",
-            "Prior radiation to chest",
-            "Anticoagulation status"
-          ]
-        },
-        {
-          "title": "Exam",
-          "type": "bullets",
-          "items": [
-            "Facial plethora & edema: classic finding, worse in morning",
-            "Neck & upper extremity venous distension: nonpulsatile",
-            "Upper extremity & h& edema (b/l)",
-            "Pemberton sign: facial flushing/venous distension when arms raised above head",
-            "Chest wall collateral veins (dilated superficial veins)",
-            "Stridor or respiratory distress: suggests airway compromise",
-            "Mentation changes: suggests cerebral edema",
-            "Papilledema on fundoscopic exam"
-          ]
-        },
-        {
-          "title": "Recognition / Key Concepts",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "SVC Syndrome",
-              "value": "Obst. of blood flow through superior vena cava causing facial/upper extremity edema, dyspnea, & venous distension"
-            },
-            {
-              "key": "Etiology",
-              "value": "Malignancy (60-85%): lung cancer (most common), lymphoma, mediastinal tumors. Thrombosis (10-40%): central lines, pacemaker leads"
-            },
-            {
-              "key": "Pathophysiology",
-              "value": "External compression, intraluminal thrombus, or direct tumor invasion of SVC"
-            },
-            {
-              "key": "Timecritical",
-              "value": "Airway compromise & cerebral edema are life-threatening: manage airway FIRST"
-            }
-          ]
-        },
-        {
-          "title": "Etiology / DDx",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "Lung cancer",
-              "value": "Most common malignant cause (50%+), esp rightsided tumors"
-            },
-            {
-              "key": "NonHodgkin lymphoma",
-              "value": "Second most common malignancy causing SVC syndrome"
-            },
-            {
-              "key": "Thymoma / germ cell tumor",
-              "value": "Mediastinal masses in younger pts"
-            },
-            {
-              "key": "Caterrelated thrombosis",
-              "value": "Increasing incidence with central lines, ports, device leads"
-            },
-            {
-              "key": "DDx: Angioedema",
-              "value": "Acute facial/lip/tongue swelling: check for ACEinhibitor use, C4 level"
-            },
-            {
-              "key": "DDx: Cardiac tamponade",
-              "value": "JVD & dyspnea, but with pulsus paradoxus & diffuse edema"
-            },
-            {
-              "key": "DDx: Constrictive pericarditis",
-              "value": "Chronic venous congestion, pericardial calcification"
-            }
-          ]
-        },
-        {
-          "title": "Management",
-          "type": "steps",
-          "items": [
-            "Keep HOB up, give O2 PRN, & use LE IV access when able",
-            "Call IR early for SVC stent if severe sx or airway/CNS compromise",
-            "Call onc/RT for tumordirected tx; if thrombus is present, start AC if safe",
-            "If stridor, cerebral edema, or HD instability: ICU + urgent airway / definitive intervention",
-            "SVC stenting (interventional radiology): Fastest sx relief —within hours, >90% success rate",
-            "Radiation therapy: for radiosensitive tumors (lymphoma, small cell lung cancer)",
-            "Chemothetherapy: for chemosensitive tumors (lymphoma, germ cell, small cell)",
-            "Anticoagulation: continue for thrombusrelated SVC syndrome; duration depends on etiology",
-            "Monitor for cerebral edema: neurological checks q4h",
-            "Maintain head of bed elevation",
-            "Continue all meds & fluids via lower extremity access",
-            "Treat underlying malignancy per oncology"
-          ]
-        },
-        {
-          "title": "Orders",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "CT chest with IV contrast",
-              "value": "Via lower extremity IV: defines level/extent of Obst. & guides stenting"
-            },
-            {
-              "key": "CT venography",
-              "value": "May be added to define thrombus extent"
-            },
-            {
-              "key": "CBC, CMP, coags, LDH",
-              "value": "Baseline labs; LDH may suggest lymphoma"
-            },
-            {
-              "key": "Ddimer",
-              "value": "If thrombosis suspected"
-            },
-            {
-              "key": "Tissue biopsy",
-              "value": "Essential for undiagnosed malignancy: coordinate with interventional radiology or surgery"
-            },
-            {
-              "key": "CXR",
-              "value": "Mediastinal widening, pleural effusion: but CT is definitive"
-            }
-          ]
-        },
-        {
-          "title": "Medications",
-          "type": "drugTable",
-          "drugs": [
-            {
-              "name": "Dexamethasone",
-              "dose": "8-10mg IV, then 4mg IV q6h",
-              "route": "IV (lower extremity)",
-              "contraindications": "",
-              "notes": "Most effective for lymphoma & thymoma. Questionable benefit for or solid tumors: may delay tissue dx."
-            },
-            {
-              "name": "Furosemide",
-              "dose": "20-40mg IV",
-              "route": "IV (lower extremity)",
-              "contraindications": "Hypovolemia",
-              "notes": "May provide temporary sx relief. Questionable efficacy: use cautiously as pts may already be volumedepleted."
-            },
-            {
-              "name": "Heparin (UFH)",
-              "dose": "80 units/kg bolus, then 18 units/kg/h",
-              "route": "IV (lower extremity)",
-              "contraindications": "Active bleeding, HIT",
-              "notes": "If thrombus identified on CT. Goal aPTT 60-80 seconds."
-            },
-            {
-              "name": "Enoxaparin",
-              "dose": "1mg/kg SC q12h",
-              "route": "SC (lower extremity/abdomen)",
-              "contraindications": "CrCl <30, active bleeding",
-              "notes": "Alternative to UFH for SVC thrombosis if hemodynamically stable."
-            }
-          ]
-        },
-        {
-          "title": "Disposition",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "ICU / immediate higher level of care if",
-              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
-            }
-          ]
-        },
-        {
-          "title": "References & Resources",
-          "type": "bullets",
-          "items": [
-            "Wilson LD, Detterbeck FC, Yahalom J. Superior Vena Cava Syndrome with Malignant Causes. New England Journal of Medicine. 2007;356(18):18621869. https://doi.org/10.1056/NEJMcp067190",
-            "A Retrospective Analysis of Endovascular Stent Insertion for Malignant Superior Vena Cava Obstruction, Focusing on Anticoagulation Practices. Current Oncology. 2025;32:601. https://doi.org/10.3390/curroncol32110601"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Tumor Lysis Syndrome",
-      "subtitle": "AKI, hyperkalemia, hyperphosphatemia, hypocalcemia, high uric acid",
-      "sections": [
-        {
-          "title": "Acute Management",
-          "type": "steps",
-          "items": [
-            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-            "Monitor electrolytes (K, Ca, PO4, uric acid) q4-6h",
-            "cardiac telemetry: ↑K causes fatal arrhythmias",
-            "Treat ↑K emergently if K >6 or ECG changes (see ↑K topic)"
-          ]
-        },
-        {
-          "title": "Chart Check / Hx.",
-          "type": "bullets",
-          "items": [
-            "Cancer type & tumor burden: Burkitt, ALL, AML (high WBC), bulky NHL highest risk",
-            "Recent chemotherapy initiation (12-72h prior), including targeted therapies & immunotherapies",
-            "Spontaneous TLS possible in highburden tumors without tx",
-            "Baseline GFR: pre-existing CKD ↑ risk dramatically",
-            "meds: allopurinol prophylaxis? NSAIDs? ACEinhibitors?",
-            "Volume status & recent UOP",
-            "G6PD status: IDEALLY check before giving rasburicase",
-            "Symptoms: nausea, vomiting, muscle cramps, tetany, seizures, palpitations"
-          ]
-        },
-        {
-          "title": "Exam",
-          "type": "bullets",
-          "items": [
-            "Volume status: JVD, lung crackles (overload), or dry mucous membranes (dehydration)",
-            "Cardiac: irregular rhythm, tachycardia (↑K)",
-            "Neuromuscular: Chvostek sign, Trousseau sign (hypocalcemia), muscle cramps, weakness",
-            "Neurologic: AMS, seizures (severe hypocalcemia or uremia)",
-            "Abd: flank pain (uric acid nephropathy), ↓ UOP",
-            "Skin: petechiae, bruising (DIC in severe cases)"
-          ]
-        },
-        {
-          "title": "Recognition / Key Concepts",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "Tumor Lysis Syndrome (TLS)",
-              "value": "rapid release of intracellular contents (K, PO4, uric acid, nucleic acids) from tumor cell death"
-            },
-            {
-              "key": "Laboratory TLS",
-              "value": "CairoBishop criteria: ≥2 of: uric acid ≥8, K ≥6, PO4 ≥4.5, Ca ≤7 (or 25% change from baseline)"
-            },
-            {
-              "key": "Clinical TLS",
-              "value": "Laboratory TLS + renal failure, cardiac arrhythmia, seizure, or death"
-            },
-            {
-              "key": "Highest risk tumors",
-              "value": "Burkitt lymphoma, ALL, AML with high WBC, bulky NHL, CLL with alemtuzumab"
-            },
-            {
-              "key": "Timing",
-              "value": "Typically 12-72h after initiation of chemotherapy: can occur spontaneously in hightumorburden malignancies"
-            }
-          ]
-        },
-        {
-          "title": "Etiology / DDx",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "Chemothetherapyinduced",
-              "value": "Most common: 12-72h after starting tx for hematologic malignancies"
-            },
-            {
-              "key": "Spontaneous TLS",
-              "value": "Hightumorburden malignancies without tx; Burkitt lymphoma, ALL with high WBC"
-            },
-            {
-              "key": "Targeted therapyinduced",
-              "value": "Venetoclax, obinutuzumab, lenalidomide: risk may underappreciated"
-            },
-            {
-              "key": "DDx: Rhabdo",
-              "value": "Similar electrolyte pattern (hyperK, hyperPO4, hyperuricemia): check CK"
-            },
-            {
-              "key": "DDx: AKI from or cause",
-              "value": "Contrast nephropathy, Obst., sepsis: does not have classic electrolyte pattern"
-            },
-            {
-              "key": "DDx: Adrenal crisis",
-              "value": "↑K, ↓ BP: but with hyponatremia (not seen in TLS)"
-            }
-          ]
-        },
-        {
-          "title": "Management",
-          "type": "steps",
-          "items": [
-            "Start aggressive NS: ~200-250 mL/h, goal UOP ≥2 mL/kg/h; strict I&O, Foley if needed",
-            "Give rasburicase for high risk or established TLS; avoid K/phos in IVF & diet",
-            "Check/treat lytes serially: Ca for ECG changes, insulin/D50 for ↑K, phosphate binders PRN",
-            "Call nephrology early for rising Cr, oliguria, refractory lyte issues, or for RRT",
-            "aggressive IVF: recheck volume status frequently",
-            "Repeat electrolytes q4-6h until stable & trending toward nl. for 24h",
-            "Rasburicase: recheck uric acid at 4h: repeat dose if still elevated (on ice!)",
-            "Emergent dialysis indications: K >6 refractory to medical management, Cr >10, uric acid >10 with oliguria, PO4 >10, symptomatic volume overload, consulting Nephrology service, esp if calciumphosphorus product continues to rise > 60 mg2/dL",
-            "Avoid calcium supplementation unless symptomatic: calciumphosphate precipitation causes renal damage",
-            "Hold chemotherapy until electrolytes & renal function stabilize",
-            "Transition to allopurinol prophylaxis once acute episode resolves",
-            "Restart chemotherapy with lower intensity once TLS resolved (discuss with oncology)"
-          ]
-        },
-        {
-          "title": "Orders",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "BMP q4-6h",
-              "value": "K, Ca, PO4, BUN/Cr: critical electrolytes to trend"
-            },
-            {
-              "key": "Uric acid",
-              "value": "≥8 mg/dL meets CairoBishop criteria. Send on ice if rasburicase given"
-            },
-            {
-              "key": "LDH",
-              "value": "Markedly elevated: reflects tumor cell death. Useful for trending"
-            },
-            {
-              "key": "ECG",
-              "value": "↑K changes: peaked T waves, widened QRS, sine wave. Prolonged QT from hypocalcemia"
-            },
-            {
-              "key": "G6PD level",
-              "value": "Check BEFORE rasburicase: causes fatal hemolysis in G6PDdeficient pts"
-            },
-            {
-              "key": "telemetry",
-              "value": "Required for all TLS pts: fatal arrhythmias from ↑K"
-            },
-            {
-              "key": "Foley catheter with hourly I&O",
-              "value": "Target UOP ≥2 mL/kg/h"
-            }
-          ]
-        },
-        {
-          "title": "Medications",
-          "type": "drugTable",
-          "drugs": [
-            {
-              "name": "Rasburicase (Elitek)",
-              "dose": "3 mg IV (single dose effective)",
-              "route": "IV over 30 min",
-              "contraindications": "G6PD deficiency —memoglobinemia & hemolytic anemia",
-              "notes": "Recombinant urate oxidase —converts uric acid to allantoin. Must send uric acid on ice (enzyme continues working in tube at room temp, giving falsely low results)Repeat single dose of rasburicase for uric acid rise to ≥ 7.5 mg/dL."
-            },
-            {
-              "name": "Allopurinol",
-              "dose": "100-300mg PO q8h (max 800mg/day); renally dose",
-              "route": "PO (IV formulation available)",
-              "contraindications": "Concurrent azathioprine/6MP",
-              "notes": "Prevention/mild TLS: blocks xanthine oxidase to prevent uric acid formation. Does NOT lower existing uric acid. Start 24-48h before chemo."
-            },
-            {
-              "name": "nl. saline",
-              "dose": "200-250 mL/h",
-              "route": "IV",
-              "contraindications": "Volume overload, anuria",
-              "notes": "Cornerstone of TLS management. Target UOP ≥3L/24h. Promotes renal excretion of uric acid, K, & PO4."
-            },
-            {
-              "name": "Calcium gluconate",
-              "dose": "1-2g IV over 10 min",
-              "route": "IV",
-              "contraindications": "Digoxin use (relative)",
-              "notes": "Only for symptomatic hypocalcemia (tetany, seizures, QT prolongation). Avoid routine supplementation: may precipitate calciumphosphate crystals in kidneys."
-            },
-            {
-              "name": "Sevelamer",
-              "dose": "800-1600mg PO TID with meals",
-              "route": "PO",
-              "contraindications": "Bowel Obst.",
-              "notes": "Phosphate binder for hyperphosphatemia. Use with aggressive hydration."
-            }
-          ]
-        },
-        {
-          "title": "Disposition",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "ICU / immediate higher level of care if",
-              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
-            }
-          ]
-        },
-        {
-          "title": "References & Resources",
-          "type": "bullets",
-          "items": [
-            "Cairo MS, Coiffier B, Reiter A, Younes A. Recommendations for the Evaluation of Risk and Prophylaxis of Tumour Lysis Syndrome (TLS) in Adults and Children with Malignant Diseases: An Expert TLS Panel Consensus. British Journal of Haematology. 2010;149(4):578586. https://doi.org/10.1111/j.1365-2141.2010.08143.x",
-            "Jones GL, Will A, Jackson GH, et al. Guidelines for the Management of Tumour Lysis Syndrome in Adults and Children with Haematological Malignancies. British Journal of Haematology. 2015;169(5):661671. https://doi.org/10.1111/bjh.13403",
-            "Howard SC, Jones DP, Pui CH. The Tumor Lysis Syndrome. New England Journal of Medicine. 2011;364(19):18441854. https://doi.org/10.1056/NEJMra0904569"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Hyperviscosity Syndrome",
-      "subtitle": "Headache, vision changes, bleeding, AMS, mucosal congestion",
-      "sections": [
-        {
-          "title": "Acute Management",
-          "type": "steps",
-          "items": [
-            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-            "Emergent plasmapheresis: definitive tx for immunoglobulinmed. hyperviscosity",
-            "Protect airway if AMS",
-            "Avoid packed RBC transfusion until viscosity lowered: ↑ viscosity & can precipitate crisis"
-          ]
-        },
-        {
-          "title": "Chart Check / Hx.",
-          "type": "bullets",
-          "items": [
-            "Known hematologic malignancy: Waldenström, myeloma, polycymia vera, leukemia",
-            "CNS sx: headache, confusion, dizziness, strokelike sx, coma",
-            "Visual changes: blurred vision, diplopia, visual loss",
-            "Bleeding: mucosal (epistaxis, gingival), GI, skin",
-            "Constitutional sx: fatigue, weight loss, night sweats",
-            "Known paraprotein type & level (IgM MCC)",
-            "Prior plasmapheresis txs"
-          ]
-        },
-        {
-          "title": "Exam",
-          "type": "bullets",
-          "items": [
-            "Neurologic: AMS, focal deficits, nystagmus, ataxia",
-            "Fundoscopic: sausagelink retinal veins (pathognomonic), flame hemorrhages, papilledema",
-            "Mucosal bleeding: epistaxis, gingival bleeding, oral mucosal petechiae",
-            "Skin: purpura, ecchymoses",
-            "Lymphadenopathy, hepatosplenomegaly (underlying hematologic malignancy)",
-            "Heart failure signs: highoutput failure from ↑ blood viscosity",
-            "Raynaud phenomenon, livedo reticularis (cryoglobulinemia)"
-          ]
-        },
-        {
-          "title": "Recognition / Key Concepts",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "Hyperviscosity syndrome",
-              "value": "Symptomatic ↑ in blood viscosity causing impaired microcirculatory blood flow: hematologic emergency"
-            },
-            {
-              "key": "Classic triad",
-              "value": "CNS disturbances + bleeding + visual changes"
-            },
-            {
-              "key": "Etiology",
-              "value": "Most common: Waldenström macroglobulinemia (IgM paraprotein). Also: multiple myeloma (IgA > IgG), polycymia vera, leukostasis (AML/CML blast crisis)"
-            },
-            {
-              "key": "Viscosity threshold",
-              "value": "Symptomsoccur when serum viscosity >4-5 cP (nl. 1.4-1.8 cP)"
-            }
-          ]
-        },
-        {
-          "title": "Etiology / DDx",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "Waldenström macroglobulinemia",
-              "value": "IgM paraprotein: MCC of symptomatic hyperviscosity (10-30% of WM pts)"
-            },
-            {
-              "key": "Multiple myeloma",
-              "value": "IgA > IgG3 > IgG1: polymerizes & ↑ viscosity. Less common than WM"
-            },
-            {
-              "key": "Polycymia vera",
-              "value": "Elevated hematocrit causes hyperviscosity: phlebotomy is tx"
-            },
-            {
-              "key": "Leukostasis",
-              "value": "WBC >100k (AML, CML blast crisis): sludging in microcirculation, esp lungs & brain"
-            },
-            {
-              "key": "DDx: Stroke/TIA",
-              "value": "Similar neurologic presentation: check serum viscosity & protein electrophoresis"
-            },
-            {
-              "key": "DDx: DIC",
-              "value": "Bleeding + neurologic changes: but low fibrinogen, elevated Ddimer"
-            },
-            {
-              "key": "DDx: TTP/HUS",
-              "value": "MAHA, thrombocytopenia, neuro changes: check schistocytes, ADAMTS13"
-            }
-          ]
-        },
-        {
-          "title": "Management",
-          "type": "steps",
-          "items": [
-            "Start IV NS & avoid diuresis unless the pt is volume overloaded",
-            "Definitive tx depends on cause: plasmapheresis for paraproteinemia, leukapheresis for leukostasis, phlebotomy for PV",
-            "Call heme/onc STAT for urgent apheresis / cytoreduction planning",
-            "Avoid antiplatelets; treat bleeding supportively, including plt transfusion if clinically needed",
-            "Plasmapheresis:daily until sx resolve & viscosity returns to normal",
-            "Definitive tx: chemotherapy for underlying malignancy (rituximab, BTK inhibitors for WM; bortezomib based for myeloma)",
-            "Avoid rituximab initially in WM: causes IgM flare & worsen hyperviscosity",
-            "Continue IV hydration between plasmapheresis sessions",
-            "Monitor viscosity daily (or surrogate: total protein/IgM level)",
-            "Serial neurologic & fundoscopic exams",
-            "DVT prophylaxis once bleeding controlled"
-          ]
-        },
-        {
-          "title": "Orders",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "Serum viscosity",
-              "value": "nl. 1.4-1.8 cP. Symptomatic >4-5 cP. >6 cP = emergency"
-            },
-            {
-              "key": "SPEP + immunofixation",
-              "value": "Identifies paraprotein type & amount"
-            },
-            {
-              "key": "CBC with differential",
-              "value": "WBC >100k suggests leukostasis; elevated Hct suggests polycymia"
-            },
-            {
-              "key": "Coagulation studies",
-              "value": "PT/INR may elevated from paraprotein interference"
-            },
-            {
-              "key": "Pulse oximetry may falsely low",
-              "value": "Spurious hypoxemia from paraprotein interference: check ABG if SpO2 discordant with clinical status"
-            },
-            {
-              "key": "BMP, LDH, uric acid",
-              "value": "check renal function & tumor burden"
-            },
-            {
-              "key": "CT head",
-              "value": "r/o ICH if focal neurologic deficits"
-            }
-          ]
-        },
-        {
-          "title": "Medications",
-          "type": "drugTable",
-          "drugs": [
-            {
-              "name": "nl. saline",
-              "dose": "200-500 mL/h initially",
-              "route": "IV",
-              "contraindications": "Volume overload, CHF",
-              "notes": "Temporizing measure until plasmapheresis available. ↓ viscosity by dilution."
-            },
-            {
-              "name": "Hydroxyurea",
-              "dose": "50-100 mg/kg/day",
-              "route": "PO",
-              "contraindications": "Severe myelosuppression",
-              "notes": "For leukostasis —↓ WBC count. Used as bridge to definitive chemotherapy."
-            },
-            {
-              "name": "Dexamethasone",
-              "dose": "40mg IV daily x 4 days",
-              "route": "IV",
-              "contraindications": "",
-              "notes": "May be part of initial myeloma/Waldenström tx. Discuss with hematology."
-            }
-          ]
-        },
-        {
-          "title": "Disposition",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "ICU / immediate higher level of care if",
-              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
-            }
-          ]
-        },
-        {
-          "title": "References & Resources",
-          "type": "bullets",
-          "items": [
-            "Stone MJ, Bogen SA. EvidenceBased Focused Review of Management of Hyperviscosity Syndrome. Blood. 2012;119(10):22052208. https://doi.org/10.1182/blood-2011-04-347690",
-            "Dimopoulos MA, Kastritis E, Owen RG, et al. Treatment Recommendations for Patients with Waldenström Macroglobulinemia (WM) and Related Disorders: IWWM7 Consensus. Blood. 2014;124(9):14041411. https://doi.org/10.1182/blood-2014-03-565135"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Cytokine Release Syndrome",
-      "subtitle": "Fever, hypotension, hypoxemia, capillary leak after immunothetherapy",
-      "sections": [
-        {
-          "title": "Acute Management",
-          "type": "steps",
-          "items": [
-            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-            "Grade 1 (fever only): supportive care, acetaminophen, monitor closely",
-            "Grade 2 (↓ BP /hypoxia): IV fluid bolus, tocilizumab 8mg/kg IV (max 800mg), consider ICU transfer",
-            "Monitor for ICANS (immune effector cell associated neurotoxicity syndrome): altered consciousness, aphasia, seizures"
-          ]
-        },
-        {
-          "title": "Chart Check / Hx.",
-          "type": "bullets",
-          "items": [
-            "Type & date of immunothetherapy: CART (which product: axicel, tisacel, lisocel, etc.), bispecific antibody, checkpoint inhibitor",
-            "Day postinfusion: CART CRSday 1-14",
-            "Tumor burden: higher burden = higher risk & severity of CRS",
-            "Baseline organ function: cardiac, hepatic, renal",
-            "Prior CRS episodes & txs used",
-            "Contact information for treating oncology/CART team",
-            "Institutional CRS management protocol (varies by center)",
-            "Concurrent infections or neutropenia"
-          ]
-        },
-        {
-          "title": "Exam",
-          "type": "bullets",
-          "items": [
-            "Fever: hallmark of CRS,high (>38.0°C required for dx)",
-            "Hemodynamics: ↓ BP, tachycardia: may require vasopressors",
-            "Respiratory: tachypnea, hypoxia, crackles (capillary leak: pulmonary edema)",
-            "Neurologic ( screen for ICANS): orientation, naming, writing, attention: use ICE (Immune Effector CellAssociated Encephalopathy) scoring tool",
-            "Skin: rash, capillary leak with peripheral edema",
-            "check for coagulopathy: petechiae, bleeding (DIC common in severe CRS)",
-            "Hepatomegaly, jaundice (hepatic involvement in severe cases)"
-          ]
-        },
-        {
-          "title": "Recognition / Key Concepts",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "Cytokine Release Syndrome (CRS)",
-              "value": "Systemic inflammatory response from massive cytokine release following immunothetherapy: particularly CART cell therapy & bispecific antibodies"
-            },
-            {
-              "key": "Mechanism",
-              "value": "Activated immune effector cells release IL6, IFNγ, TNFα: systemic inflammation mimicking sepsis"
-            },
-            {
-              "key": "Timing",
-              "value": "CART:1-14 days after infusion (median day 2-3). Bispecific antibodies: within 24-72h of first dose"
-            },
-            {
-              "key": "Grading (ASTCT)",
-              "value": "Grade 1: fever only | Grade 2: ↓ BP responsive to fluids, O2 <40% | Grade 3: vasopressors required, O2 ≥40% | Grade 4: multiple vasopressors, ICUlevel support"
-            }
-          ]
-        },
-        {
-          "title": "Etiology / DDx",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "CART cell therapy",
-              "value": "Most common & severe cause: all commercial CART products carry CRS risk"
-            },
-            {
-              "key": "Bispecific antibodies",
-              "value": "Blinatumomab, teclistamab, mosunetuzumab: CRSmilder than CART"
-            },
-            {
-              "key": "Checkpoint inhibitors",
-              "value": "Rare CRS; more common to cause immunerelated adverse events (irAEs)"
-            },
-            {
-              "key": "DDx: Sepsis",
-              "value": "Clinically identical: always treat empirically for both until cultures negative"
-            },
-            {
-              "key": "DDx: ICANS",
-              "value": "Can occur with or independently of CRS: neurologic sx predominate"
-            },
-            {
-              "key": "DDx: Hemophagocytic lymphohistiocytosis (HLH)",
-              "value": "Massive ferritin elevation, cytopenias, hepatosplenomegaly: CRS can trigger secondary HLH"
-            },
-            {
-              "key": "DDx: Tumor progression",
-              "value": "Fever, organ dysfunction: imaging may needed to differentiate"
-            }
-          ]
-        },
-        {
-          "title": "Management",
-          "type": "steps",
-          "items": [
-            "r/o sepsis: send BCxs/labs & start empiric broad spectrum abx",
-            "Grade severity & call the CART / oncology team now",
-            "Grade 1: supportive care; Grade 2+: tocilizumab; add dex if worsening or higher grade",
-            "Grade 3-4: ICU, pressors/O2 support, tocilizumab + dex 10mg IV q6h",
-            "Trend CRP q6-12h: best objective marker of CRS trajectory",
-            "Recheck CRS grade q4-6h: escalate tx if worsening",
-            "Continue antibiotics until cultures negative at 48-72h & clinical improvement",
-            "Tocilizumab: can repeat x1 in 8h if inadequate response (max 3 doses/24h, 4 doses total)",
-            "If refractory to tocilizumab + steroids: consider siltuximab (antiIL6), anakinra, or ruxolitinib",
-            "Monitor for delayed ICANS (can present days after CRS resolves)",
-            "Corticosteroid taper over 3-7 days once CRS controlled",
-            "Coordinate closely with CART/oncology team throughout"
-          ]
-        },
-        {
-          "title": "Orders",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "CRP",
-              "value": "Best realtime marker of CRS activity: correlates with severity, dropsafter tocilizumab"
-            },
-            {
-              "key": "Ferritin",
-              "value": "Markedly elevated in severe CRS (>10,000 suggests HLH overlap)"
-            },
-            {
-              "key": "IL6 level",
-              "value": "Elevated but rises paradoxically after tocilizumab (blocked receptor, unbound IL6 accumulates) —don't use to judge tx response"
-            },
-            {
-              "key": "BCxs x2",
-              "value": "Mandatory: cannot distinguish CRS from sepsis clinically"
-            },
-            {
-              "key": "CBC, CMP, LDH, coags, fibrinogen",
-              "value": "check cytopenias, organ function, DIC"
-            },
-            {
-              "key": "DIC panel",
-              "value": "Fibrinogen, Ddimer, PT/INR: DIC common in Grade 34 CRS"
-            },
-            {
-              "key": "telemetry",
-              "value": "Cardiac arrhythmias in severe CRS"
-            },
-            {
-              "key": "ICE score (if neurologic changes)",
-              "value": "standardized ICANS grading: orientation, naming, writing, attention, commands"
-            }
-          ]
-        },
-        {
-          "title": "Medications",
-          "type": "drugTable",
-          "drugs": [
-            {
-              "name": "Tocilizumab (Actemra)",
-              "dose": "8mg/kg IV (max 800mg), may repeat x1 in 8h",
-              "route": "IV over 60 min",
-              "contraindications": "Active severe infections (relative: still give if CRS suspected)",
-              "notes": "Firstline for ≥Grade 2 CRS. IL6 receptor antagonist. Max 3 doses in 24h. CRP will dropafter: useful marker."
-            },
-            {
-              "name": "Dexamethasone",
-              "dose": "10mg IV q6h",
-              "route": "IV",
-              "contraindications": "",
-              "notes": "Add to tocilizumab for Grade 34 CRS or refractory Grade 2. May impair CART cell efficacy: discuss with oncology before starting."
-            },
-            {
-              "name": "Methylprednisolone",
-              "dose": "1-2 mg/kg IV q12h",
-              "route": "IV",
-              "contraindications": "",
-              "notes": "Alternative corticosteroid. Highdose (1g IV daily) for Grade 4 or steroidrefractory CRS."
-            },
-            {
-              "name": "Anakinra",
-              "dose": "100mg SC q6-12h or 200mg IV q6h",
-              "route": "SC or IV",
-              "contraindications": "",
-              "notes": "IL1 receptor antagonist: for tocilizumab/steroidrefractory CRS. Also effective for ICANS."
-            },
-            {
-              "name": "Broadspectrum antibiotics",
-              "dose": "Per institutional sepsis protocol",
-              "route": "IV",
-              "contraindications": "",
-              "notes": "Give empirically: CRS is indistinguishable from sepsis. Typical: vancomycin + piperacillintazobactam or meropenem."
-            }
-          ]
-        },
-        {
-          "title": "Disposition",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "ICU / immediate higher level of care if",
-              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
-            }
-          ]
-        },
-        {
-          "title": "References & Resources",
-          "type": "bullets",
-          "items": [
-            "Lee DW, Santomasso BD, Locke FL, et al. ASTCT Consensus Grading for Cytokine Release Syndrome and Neurologic Toxicity Associated with Immune Effector Cells. Biology of Blood and Marrow Transplantation. 2019;25(4):625638. https://doi.org/10.1016/j.bbmt.2018.12.758",
-            "Neelapu SS, Tummala S, Kebriaei P, et al. Chimeric Antigen Receptor TCell Therapy — assessment and Management of Toxicities. Nature Reviews Clinical Oncology. 2018;15(1):4762. https://doi.org/10.1038/nrclinonc.2017.148",
-            "NCCN Guidelines: Management of ImmunotherapyRelated Toxicities, Version 2.2024. National Comprehensive Cancer Network. 2024. https://www.nccn.org/guidelines/guidelines-detail?category=3&id=1486"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Differentiation Syndrome",
-      "subtitle": "Fever, edema, pulmonary infiltrates, hypotension during ATRA or arsenic",
-      "sections": [
-        {
-          "title": "Acute Management",
-          "type": "steps",
-          "items": [
-            "Airway: check patency and protect. Breathing: check WOB, oxygenation, and ventilation. Circulation: check pulse, BP, perfusion, and IV access.",
-            "Start dexamethasone 10mg IV q12h now upon clinical suspicion: do NOT wait for confirmatory testing",
-            "Do NOT stop ATRA/ATO for mildmoderate DS: continue differentiation therapy while treating DS",
-            "For severe DS (respiratory distress requiring vent, renal failure, ICUlevel care): temporarily hold ATRA/ATO until resolution,thenrestart at lower dose",
-            "Aggressive supportive care: supplemental O2, diuresis for volume overload, vasopressors if needed",
-            "Monitor for DIC: common in APL at baseline & may worsen"
-          ]
-        },
-        {
-          "title": "Chart Check / Hx.",
-          "type": "bullets",
-          "items": [
-            "Confirmed APL (acute promyelocytic leukemia): must be on ATRA &/or arsenic trioxide",
-            "Day of ATRA/ATO therapy: DS 2-47 days after start (median day 7-12)",
-            "Initial WBC count: WBC >10k at presentation is major risk factor for DS",
-            "Rising WBC during tx: leukocytosis during ATRA suggests differentiation (& DS risk)",
-            "Weight gain: key early sign (>5kg suggests significant capillary leak)",
-            "Fever: lowgrade, persistent",
-            "Dyspnea, pleuritic chest pain",
-            "DIC status at baseline (nearly all APL pts have some DIC)"
-          ]
-        },
-        {
-          "title": "Exam",
-          "type": "bullets",
-          "items": [
-            "Respiratory: dyspnea, tachypnea, hypoxia: pulmonary infiltrates & pleural effusions",
-            "Volume status: peripheral edema, weight gain >5kg, JVD, crackles",
-            "Fever: lowgrade, persistent (but can highgrade)",
-            "Cardiac: pericardial effusion (check for distant heart sounds, tachycardia)",
-            "Musculoskeletal: diffuse bone pain",
-            "Renal: ↓ UOP, rising creatinine",
-            "Skin: look for DICrelated petechiae/purpura (common in APL)",
-            "Neurologic: headache, AMS (rare but serious)"
-          ]
-        },
-        {
-          "title": "Recognition / Key Concepts",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "Differentiation Syndrome (DS)",
-              "value": "Lifethreatening complication of differentiation therapy in acute promyelocytic leukemia (APL): caused by ATRA (alltrans retinoic acid) or arsenic trioxide"
-            },
-            {
-              "key": "Mechanism",
-              "value": "Rapid differentiation of malignant promyelocytes: cytokine release, capillary leak, & tissue infiltration by differentiating cells"
-            },
-            {
-              "key": "Incidence",
-              "value": "~25% of APL pts on ATRA/ATO; can occur 2-47 days after starting therapy (median 7-12 days)"
-            },
-            {
-              "key": "Mortality",
-              "value": "5-10% overall; up to 40% if mechanical ventilation required: early recognition is critical"
-            },
-            {
-              "key": "Previously called",
-              "value": "Retinoic acid syndrome (RAS): renamed b/c arsenic trioxide causes identical syndrome"
-            }
-          ]
-        },
-        {
-          "title": "Etiology / DDx",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "ATRAinduced DS",
-              "value": "MCC: used in induction therapy for APL"
-            },
-            {
-              "key": "Arsenic trioxide (ATO)induced DS",
-              "value": "Same syndrome: occurs with ATO alone or in combination with ATRA"
-            },
-            {
-              "key": "IDH inhibitorassociated DS",
-              "value": "Ivosidenib, enasidenib for IDHmutant AML: similar mechanism, emerging recognition"
-            },
-            {
-              "key": "DDx: Pneumonia/sepsis",
-              "value": "Most important DDx: APL pts are immunocompromised. BCxs, empiric antibiotics mandatory"
-            },
-            {
-              "key": "DDx: Pulmonary hemorrhage",
-              "value": "DIC in APL: alveolar hemorrhage. CT chest may differentiate"
-            },
-            {
-              "key": "DDx: Leukostasis",
-              "value": "WBC >100k with pulmonary/CNS sx: different mechanism, treated with leukapheresis"
-            },
-            {
-              "key": "DDx: CHF/fluid overload",
-              "value": "From aggressive transfusion support in APL: no fever, no weight gain trajectory"
-            }
-          ]
-        },
-        {
-          "title": "Management",
-          "type": "steps",
-          "items": [
-            "Start dexamethasone now & hold ATRA/arsenic only if severe",
-            "Give O2, cautious diuresis if overloaded, & Foley/strict I&O if needed",
-            "Call heme/onc now; restart differentiating tx once sx improve",
-            "Do NOT use leukapheresis: this is not leukostasis",
-            "Continue dexamethasone 10mg IV q12h until complete sx resolution (minimum 3 days)",
-            "Taper dexamethasone slowly over 1-2 weeks: premature discontinuation causes relapse",
-            "For mildmoderate DS: continue ATRA/ATO throughout tx with dexamethasone",
-            "For severe DS: hold ATRA/ATO until resolution,thenrestart at ↓ dose (ATRA 25mg/m²: consider 12.5mg/m²)",
-            "Aggressive DIC management: cryoprecipitate for fibrinogen <150, platelets for plt <30-50k",
-            "Daily weights & strict I&O: diuresis for volume overload",
-            "Prophylactic dexamethasone: some protocols start dexa prophylactically with ATRA if WBC >5-10k",
-            "DS can recur: monitor for recurrent sx after steroid taper or ATRA restart"
-          ]
-        },
-        {
-          "title": "Orders",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "CBC with differential",
-              "value": "Rising WBC during ATRA is risk factor: WBC >10k associated with higher DS incidence"
-            },
-            {
-              "key": "CXR / CT chest",
-              "value": "B/l infiltrates, pleural effusions, pericardial effusion"
-            },
-            {
-              "key": "BMP, LFTs",
-              "value": "Renal function (AKI from capillary leak), hepatic involvement"
-            },
-            {
-              "key": "Coagulation studies + fibrinogen",
-              "value": "DIC monitoring: fibrinogen <100 requires cryoprecipitate"
-            },
-            {
-              "key": "Daily weights",
-              "value": "Weight gain >5kg is diagnostic clue: track trend daily"
-            },
-            {
-              "key": "BCxs",
-              "value": "Cannot differentiate DS from infection clinically: cultures mandatory"
-            },
-            {
-              "key": "CRP, ferritin",
-              "value": "Elevated in DS; helps track response to tx"
-            }
-          ]
-        },
-        {
-          "title": "Medications",
-          "type": "drugTable",
-          "drugs": [
-            {
-              "name": "Dexamethasone",
-              "dose": "10mg IV q12h",
-              "route": "IV",
-              "contraindications": "",
-              "notes": "Cornerstone of tx. Start at first suspicion. Continue until complete resolution of sx (minimum 3 days, 1-2 weeks). Taper slowly."
-            },
-            {
-              "name": "Furosemide",
-              "dose": "20-80mg IV q6-12h",
-              "route": "IV",
-              "contraindications": "Hypovolemia, hypokalemia",
-              "notes": "For pulmonary edema & volume overload from capillary leak. Monitor electrolytes closely."
-            },
-            {
-              "name": "Hydroxyurea",
-              "dose": "500-1000mg PO BID",
-              "route": "PO",
-              "contraindications": "Severe myelosuppression",
-              "notes": "If WBC >10k during ATRA tx: hyperleukocytosis worsens DS. Some protocols add prophylactically."
-            }
-          ]
-        },
-        {
-          "title": "Disposition",
-          "type": "keyValue",
-          "pairs": [
-            {
-              "key": "ICU / immediate higher level of care if",
-              "value": "persistent respiratory distress, high-flow or NIV need, hemodynamic instability, vasopressor need, severe arrhythmia, airway risk, neurologic decline, or a trajectory suggesting pt may crash on the floor."
-            }
-          ]
-        },
-        {
-          "title": "References & Resources",
-          "type": "bullets",
-          "items": [
-            "Montesinos P, Bergua JM, Vellenga E, et al. Differentiation Syndrome in Patients with Acute Promyelocytic Leukemia Treated with AllTrans Retinoic Acid and Anthracycline Chemotherapy. Blood. 2009;113(4):775783. https://doi.org/10.1182/blood-2008-07-168617",
-            "Sanz MA, Fenaux P, Tallman MS, et al. Management of Acute Promyelocytic Leukemia: Updated Recommendations from an Expert Panel of the European LeukemiaNet. Blood. 2019;133(15):16301643. https://doi.org/10.1182/blood-2019-01-894980",
-            "NCCN Guidelines: Acute Myeloid Leukemia, Version 3.2024. National Comprehensive Cancer Network. 2024. https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1411"
-          ]
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "name": "Oncology Emergencies",
+    "icon": "stethoscope.circle.fill",
+    "color": "yellow",
+    "topics": [
+      {
+        "title": "Malignant Spinal Cord Compression",
+        "subtitle": "Back pain, weakness, sensory loss, urinary retention, cancer history",
+        "sections": [
+          {
+            "title": "The First 60 Seconds",
+            "type": "steps",
+            "items": [
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+              "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Known cancer dx & type (breast, lung, prostate, renal, thyroid most common)",
+              "Back pain Hx.: 90% present with back pain, worse when supine (unlike degenerative pain)",
+              "Motor weakness (75%), sensory changes, bowel/bladder dysfunction",
+              "Ambulatory status before onset: strongest predictor of outcome",
+              "Prior spinal radiation or surgery",
+              "Current oncologic tx regimen",
+              "Hx. of DVT/PE"
+            ]
+          },
+          {
+            "title": "Presentation/Exam",
+            "type": "bullets",
+            "items": [
+              "**Classic presentation**: Back pain + new weakness, sensory loss, or bowel/bladder dysfunction in a patient with known malignancy; back pain in cancer is MSCC until MRI proves otherwise — steroids before imaging if clinical suspicion is high",
+              "Point tenderness over spine at level of compression",
+              "Motor exam: grade strength in all extremities, note level",
+              "Sensory level: pinprick & light touch: identify dermatomal level",
+              "Rectal exam: ↓ rectal tone = cauda equina involvement",
+              "Reflexes: upper motor neuron signs (hyperreflexia, Babinski) above conus; lower motor neuron signs (areflexia) in cauda equina",
+              "Gait assessment if safe: ambulatory status is key prognostic factor",
+              "Bladder scan for post void residual (>200mL suggests retention)"
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Epidural metastasis",
+                "value": "MCC: tumor extends from vertebral body into epidural space"
+              },
+              {
+                "key": "Pathologic fracture",
+                "value": "Vertebral body collapse compresses cord: lytic lesions from myeloma, breast, lung, renal, thyroid"
+              },
+              {
+                "key": "Direct extension",
+                "value": "Paraspinal tumors (lymphoma, neuroblastoma) growing through neural foramen"
+              },
+              {
+                "key": "DDx: Epidural abscess",
+                "value": "Fever, elevated WBC/ESR, IV drug use Hx."
+              },
+              {
+                "key": "DDx: Epidural hematoma",
+                "value": "Anticoagulation, recent procedure"
+              },
+              {
+                "key": "DDx: Transverse myelitis",
+                "value": "Inflammatory, MRI shows cord signal without epidural mass"
+              },
+              {
+                "key": "DDx: Disc herniation",
+                "value": "Mechanical back pain, radiculopathy distribution"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "CHECK NOW",
+              "-**Labs:** CBC, BMP, Ca2+, LFTs, alkaline phosphatase",
+              "-**Orders:** MRI spine (whole spine, emergent), IV access, continuous SpO2, dexamethasone 10 mg IV x1, radiation oncology + neurosurgery consult",
+              "Immediate stabilization: keep spinal precautions, continue dexamethasone 4mg IV/PO q6h after the 10mg IV load, & treat pain without delaying serial neuro exams",
+              "Definitive planning: get MRI whole spine & call radiation oncology plus neurosurgery / spine surgery now. Surgery is favored for instability, singlelevel disease, retropulsed bone, radioresistant tumor, or worsening deficits; otherwise move quickly to radiation",
+              "Supportive care: Foley if retention, keep NPO if surgery possible, give DVT prophylaxis if safe, & document serial motor / sensory / bowel bladder exams",
+              "Continue dexamethasone 4mg IV/PO q6h: begin taper after radiation starts",
+              "Radiothetherapy:30 Gy in 10 fractions or 20 Gy in 5 fractions",
+              "Surgery (decompressive laminectomy ± stabilization) if: single level compression, radioresistant tumor, spinal instability, neurological deterioration during radiation",
+              "Maintain DVT prophylaxis throughout hospitalization",
+              "Physical therapy & rehabilitation consultation",
+              "Monitor neurological exam q4-6h during acute phase",
+              "GI prophylaxis (PPI) while on high dose steroids",
+              "Glucose monitoring q6h: steroidinduced hyperglycemia common",
+              "**MRI entire spine with contrast:** Gold standard: identifies level, extent, & multifocal disease (10-38%)",
+              "**CT myelogram:** Alternative if MRI contraindicated (pacemaker, etc.)",
+              "**CBC, CMP, coags:** Baseline labs, check renal function for contrast",
+              "**ESR/CRP:** Elevated in infection: helps differentiate epidural abscess",
+              "**Bladder scan:** check for urinary retention",
+              "**Plain films:** Low sensitivity (~60%): do NOT use to r/o MSCC"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Dexamethasone",
+                "dose": "10mg IV bolus, then 4mg IV/PO q6h",
+                "route": "IV: PO",
+                "contraindications": "Active GI bleed (relative)",
+                "notes": "Give now if MSCC suspected: before imaging. ↓ vasogenic edema. Taper over 2 weeks after definitive tx."
+              },
+              {
+                "name": "Dexamethasone (high dose)",
+                "dose": "96mg IV bolus, then 24mg IV q6h x 3 days",
+                "route": "IV",
+                "contraindications": "GI bleed, uncontrolled DM",
+                "notes": "Consider for progressive deficits or nearcomplete block on MRI. Higher complication rate."
+              },
+              {
+                "name": "Enoxaparin",
+                "dose": "40mg SC daily",
+                "route": "SC",
+                "contraindications": "Active bleeding, plt <50k",
+                "notes": "DVT prophylaxis: immobilized oncology pts are extremely risk for VTE."
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "MSCC",
+                "value": "Compression of spinal cord or cauda equina by direct tumor extension or vertebral body collapse in setting of metastatic or primary spinal malignancy"
+              },
+              {
+                "key": "Incidence",
+                "value": "5-10% of cancer pts; most common in breast, lung, prostate, renal cell, & thyroid cancers"
+              },
+              {
+                "key": "Location",
+                "value": "Thoracic spine 70%, lumbosacral 20%, cervical 10%"
+              },
+              {
+                "key": "Timecritical",
+                "value": "Neurological outcome depends on pretx function: once paraplegia is established, recovery is rare"
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "National Institute for Health and Care Excellence (NICE). Metastatic Spinal Cord Compression in Adults: Risk assessment, Diagnosis, and Management (CG75). 2008 (Updated 2023). https://www.nice.org.uk/guidance/cg75",
+              "Defined Approach to Malignant Spinal Cord Compression: ASCO Clinical Practice Guideline. Journal of Clinical Oncology. 2023.",
+              "Loblaw DA, Perry J, Chambers A, Laperriere NJ. Systematic Review of the Diagnosis and Management of Malignant Extradural Spinal Cord Compression. Journal of Clinical Oncology. 2005;23(9):20282037. https://doi.org/10.1200/JCO.2005.00.960"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SVC Syndrome",
+        "subtitle": "Facial swelling, venous distention, dyspnea, upperextremity edema",
+        "sections": [
+          {
+            "title": "The First 60 Seconds",
+            "type": "steps",
+            "items": [
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+              "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Known malignancy: lung cancer, lymphoma, mediastinal tumors most common",
+              "Central venous catheters, ports, pacemaker/defibrillator leads",
+              "Symptom onset & progression: gradual (weeks) vs acute (days)",
+              "Dyspnea, facial/neck swelling worse when leaning forward or lying flat",
+              "Headache, visual changes, confusion (signs of cerebral edema)",
+              "Dysphagia, hoarseness, stridor",
+              "Prior radiation to chest",
+              "Anticoagulation status"
+            ]
+          },
+          {
+            "title": "Presentation/Exam",
+            "type": "bullets",
+            "items": [
+              "**Classic presentation**: Facial plethora, periorbital edema, and venous distension of the neck and upper extremities — worse in the morning or when bending forward; caused by mediastinal mass obstructing the SVC",
+              "Facial plethora & edema: classic finding, worse in morning",
+              "Neck & upper extremity venous distension: nonpulsatile",
+              "Upper extremity & h& edema (b/l)",
+              "Pemberton sign: facial flushing/venous distension when arms raised above head",
+              "Chest wall collateral veins (dilated superficial veins)",
+              "Stridor or respiratory distress: suggests airway compromise",
+              "Mentation changes: suggests cerebral edema",
+              "Papilledema on fundoscopic exam"
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Lung cancer",
+                "value": "Most common malignant cause (50%+), esp rightsided tumors"
+              },
+              {
+                "key": "NonHodgkin lymphoma",
+                "value": "Second most common malignancy causing SVC syndrome"
+              },
+              {
+                "key": "Thymoma / germ cell tumor",
+                "value": "Mediastinal masses in younger pts"
+              },
+              {
+                "key": "Caterrelated thrombosis",
+                "value": "Increasing incidence with central lines, ports, device leads"
+              },
+              {
+                "key": "DDx: Angioedema",
+                "value": "Acute facial/lip/tongue swelling: check for ACEinhibitor use, C4 level"
+              },
+              {
+                "key": "DDx: Cardiac tamponade",
+                "value": "JVD & dyspnea, but with pulsus paradoxus & diffuse edema"
+              },
+              {
+                "key": "DDx: Constrictive pericarditis",
+                "value": "Chronic venous congestion, pericardial calcification"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "CHECK NOW",
+              "-**Labs:** CBC, BMP, LDH, UA",
+              "-**Orders:** IV access (lower extremity preferred), CT chest with contrast (vascular protocol), HOB elevated 30-45°, continuous SpO2, radiation oncology consult",
+              "Keep HOB up, give O2 PRN, & use LE IV access when able",
+              "Call IR early for SVC stent if severe sx or airway/CNS compromise",
+              "Call onc/RT for tumordirected tx; if thrombus is present, start AC if safe",
+              "If stridor, cerebral edema, or HD instability: ICU + urgent airway / definitive intervention",
+              "SVC stenting (interventional radiology): Fastest sx relief —within hours, >90% success rate",
+              "Radiation therapy: for radiosensitive tumors (lymphoma, small cell lung cancer)",
+              "Chemothetherapy: for chemosensitive tumors (lymphoma, germ cell, small cell)",
+              "Anticoagulation: continue for thrombusrelated SVC syndrome; duration depends on etiology",
+              "Monitor for cerebral edema: neurological checks q4h",
+              "Maintain head of bed elevation",
+              "Continue all meds & fluids via lower extremity access",
+              "Treat underlying malignancy per oncology",
+              "**CT chest with IV contrast:** Via lower extremity IV: defines level/extent of Obst. & guides stenting",
+              "**CT venography:** May be added to define thrombus extent",
+              "**CBC, CMP, coags, LDH:** Baseline labs; LDH may suggest lymphoma",
+              "**Ddimer:** If thrombosis suspected",
+              "**Tissue biopsy:** Essential for undiagnosed malignancy: coordinate with interventional radiology or surgery",
+              "**CXR:** Mediastinal widening, pleural effusion: but CT is definitive"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Dexamethasone",
+                "dose": "8-10mg IV, then 4mg IV q6h",
+                "route": "IV (lower extremity)",
+                "contraindications": "Active untreated fungal/bacterial infection (relative); caution in DM (↑ glucose)",
+                "notes": "Most effective for lymphoma & thymoma. Questionable benefit for or solid tumors: may delay tissue dx."
+              },
+              {
+                "name": "Furosemide",
+                "dose": "20-40mg IV",
+                "route": "IV (lower extremity)",
+                "contraindications": "Hypovolemia",
+                "notes": "May provide temporary sx relief. Questionable efficacy: use cautiously as pts may already be volumedepleted."
+              },
+              {
+                "name": "Heparin (UFH)",
+                "dose": "80 units/kg bolus, then 18 units/kg/h",
+                "route": "IV (lower extremity)",
+                "contraindications": "Active bleeding, HIT",
+                "notes": "If thrombus identified on CT. Goal aPTT 60-80 seconds."
+              },
+              {
+                "name": "Enoxaparin",
+                "dose": "1mg/kg SC q12h",
+                "route": "SC (lower extremity/abdomen)",
+                "contraindications": "CrCl <30, active bleeding",
+                "notes": "Alternative to UFH for SVC thrombosis if hemodynamically stable."
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "SVC Syndrome",
+                "value": "Obst. of blood flow through superior vena cava causing facial/upper extremity edema, dyspnea, & venous distension"
+              },
+              {
+                "key": "Etiology",
+                "value": "Malignancy (60-85%): lung cancer (most common), lymphoma, mediastinal tumors. Thrombosis (10-40%): central lines, pacemaker leads"
+              },
+              {
+                "key": "Pathophysiology",
+                "value": "External compression, intraluminal thrombus, or direct tumor invasion of SVC"
+              },
+              {
+                "key": "Timecritical",
+                "value": "Airway compromise & cerebral edema are life-threatening: manage airway FIRST"
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Wilson LD, Detterbeck FC, Yahalom J. Superior Vena Cava Syndrome with Malignant Causes. New England Journal of Medicine. 2007;356(18):18621869. https://doi.org/10.1056/NEJMcp067190",
+              "A Retrospective Analysis of Endovascular Stent Insertion for Malignant Superior Vena Cava Obstruction, Focusing on Anticoagulation Practices. Current Oncology. 2025;32:601. https://doi.org/10.3390/curroncol32110601"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Tumor Lysis Syndrome",
+        "subtitle": "AKI, hyperkalemia, hyperphosphatemia, hypocalcemia, high uric acid",
+        "sections": [
+          {
+            "title": "The First 60 Seconds",
+            "type": "steps",
+            "items": [
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+              "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Cancer type & tumor burden: Burkitt, ALL, AML (high WBC), bulky NHL highest risk",
+              "Recent chemotherapy initiation (12-72h prior), including targeted therapies & immunotherapies",
+              "Spontaneous TLS possible in highburden tumors without tx",
+              "Baseline GFR: pre-existing CKD ↑ risk dramatically",
+              "meds: allopurinol prophylaxis? NSAIDs? ACEinhibitors?",
+              "Volume status & recent UOP",
+              "G6PD status: IDEALLY check before giving rasburicase",
+              "Symptoms: nausea, vomiting, muscle cramps, tetany, seizures, palpitations"
+            ]
+          },
+          {
+            "title": "Presentation/Exam",
+            "type": "bullets",
+            "items": [
+              "**Classic presentation**: Hyperkalemia + hyperuricemia + hyperphosphatemia + hypocalcemia after chemotherapy (esp. hematologic malignancies with high tumor burden); arrhythmia and AKI are the main threats — anticipate and prevent in high-risk patients",
+              "Volume status: JVD, lung crackles (overload), or dry mucous membranes (dehydration)",
+              "Cardiac: irregular rhythm, tachycardia (↑K)",
+              "Neuromuscular: Chvostek sign, Trousseau sign (hypocalcemia), muscle cramps, weakness",
+              "Neurologic: AMS, seizures (severe hypocalcemia or uremia)",
+              "Abd: flank pain (uric acid nephropathy), ↓ UOP",
+              "Skin: petechiae, bruising (DIC in severe cases)"
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Chemothetherapyinduced",
+                "value": "Most common: 12-72h after starting tx for hematologic malignancies"
+              },
+              {
+                "key": "Spontaneous TLS",
+                "value": "Hightumorburden malignancies without tx; Burkitt lymphoma, ALL with high WBC"
+              },
+              {
+                "key": "Targeted therapyinduced",
+                "value": "Venetoclax, obinutuzumab, lenalidomide: risk may underappreciated"
+              },
+              {
+                "key": "DDx: Rhabdo",
+                "value": "Similar electrolyte pattern (hyperK, hyperPO4, hyperuricemia): check CK"
+              },
+              {
+                "key": "DDx: AKI from or cause",
+                "value": "Contrast nephropathy, Obst., sepsis: does not have classic electrolyte pattern"
+              },
+              {
+                "key": "DDx: Adrenal crisis",
+                "value": "↑K, ↓ BP: but with hyponatremia (not seen in TLS)"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "CHECK NOW",
+              "-**Labs:** BMP (K+, PO4, Cr), uric acid, LDH, Ca2+, CBC (q6-8h initially), UA (pH)",
+              "-**Orders:** IV access, aggressive IV fluids (NS, unless overloaded), continuous SpO2, telemetry (hyperK monitoring), nephrology consult",
+              "Start aggressive NS: ~200-250 mL/h, goal UOP ≥2 mL/kg/h; strict I&O, Foley if needed",
+              "Give rasburicase for high risk or established TLS; avoid K/phos in IVF & diet",
+              "Check/treat lytes serially: Ca for ECG changes, insulin/D50 for ↑K, phosphate binders PRN",
+              "Call nephrology early for rising Cr, oliguria, refractory lyte issues, or for RRT",
+              "aggressive IVF: recheck volume status frequently",
+              "Repeat electrolytes q4-6h until stable & trending toward nl. for 24h",
+              "Rasburicase: recheck uric acid at 4h: repeat dose if still elevated (on ice!)",
+              "Emergent dialysis indications: K >6 refractory to medical management, Cr >10, uric acid >10 with oliguria, PO4 >10, symptomatic volume overload, consulting Nephrology service, esp if calciumphosphorus product continues to rise > 60 mg2/dL",
+              "Avoid calcium supplementation unless symptomatic: calciumphosphate precipitation causes renal damage",
+              "Hold chemotherapy until electrolytes & renal function stabilize",
+              "Transition to allopurinol prophylaxis once acute episode resolves",
+              "Restart chemotherapy with lower intensity once TLS resolved (discuss with oncology)",
+              "**BMP q4-6h:** K, Ca, PO4, BUN/Cr: critical electrolytes to trend",
+              "**Uric acid:** ≥8 mg/dL meets CairoBishop criteria. Send on ice if rasburicase given",
+              "**LDH:** Markedly elevated: reflects tumor cell death. Useful for trending",
+              "**ECG:** ↑K changes: peaked T waves, widened QRS, sine wave. Prolonged QT from hypocalcemia",
+              "**G6PD level:** Check BEFORE rasburicase: causes fatal hemolysis in G6PDdeficient pts",
+              "**telemetry:** Required for all TLS pts: fatal arrhythmias from ↑K",
+              "**Foley catheter with hourly I&O:** Target UOP ≥2 mL/kg/h"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Rasburicase (Elitek)",
+                "dose": "3 mg IV (single dose effective)",
+                "route": "IV over 30 min",
+                "contraindications": "G6PD deficiency —memoglobinemia & hemolytic anemia",
+                "notes": "Recombinant urate oxidase —converts uric acid to allantoin. Must send uric acid on ice (enzyme continues working in tube at room temp, giving falsely low results)Repeat single dose of rasburicase for uric acid rise to ≥ 7.5 mg/dL."
+              },
+              {
+                "name": "Allopurinol",
+                "dose": "100-300mg PO q8h (max 800mg/day); renally dose",
+                "route": "PO (IV formulation available)",
+                "contraindications": "Concurrent azathioprine/6MP",
+                "notes": "Prevention/mild TLS: blocks xanthine oxidase to prevent uric acid formation. Does NOT lower existing uric acid. Start 24-48h before chemo."
+              },
+              {
+                "name": "nl. saline",
+                "dose": "200-250 mL/h",
+                "route": "IV",
+                "contraindications": "Volume overload, anuria",
+                "notes": "Cornerstone of TLS management. Target UOP ≥3L/24h. Promotes renal excretion of uric acid, K, & PO4."
+              },
+              {
+                "name": "Calcium gluconate",
+                "dose": "1-2g IV over 10 min",
+                "route": "IV",
+                "contraindications": "Digoxin use (relative)",
+                "notes": "Only for symptomatic hypocalcemia (tetany, seizures, QT prolongation). Avoid routine supplementation: may precipitate calciumphosphate crystals in kidneys."
+              },
+              {
+                "name": "Sevelamer",
+                "dose": "800-1600mg PO TID with meals",
+                "route": "PO",
+                "contraindications": "Bowel Obst.",
+                "notes": "Phosphate binder for hyperphosphatemia. Use with aggressive hydration."
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Tumor Lysis Syndrome (TLS)",
+                "value": "rapid release of intracellular contents (K, PO4, uric acid, nucleic acids) from tumor cell death"
+              },
+              {
+                "key": "Laboratory TLS",
+                "value": "CairoBishop criteria: ≥2 of: uric acid ≥8, K ≥6, PO4 ≥4.5, Ca ≤7 (or 25% change from baseline)"
+              },
+              {
+                "key": "Clinical TLS",
+                "value": "Laboratory TLS + renal failure, cardiac arrhythmia, seizure, or death"
+              },
+              {
+                "key": "Highest risk tumors",
+                "value": "Burkitt lymphoma, ALL, AML with high WBC, bulky NHL, CLL with alemtuzumab"
+              },
+              {
+                "key": "Timing",
+                "value": "Typically 12-72h after initiation of chemotherapy: can occur spontaneously in hightumorburden malignancies"
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Cairo MS, Coiffier B, Reiter A, Younes A. Recommendations for the Evaluation of Risk and Prophylaxis of Tumour Lysis Syndrome (TLS) in Adults and Children with Malignant Diseases: An Expert TLS Panel Consensus. British Journal of Haematology. 2010;149(4):578586. https://doi.org/10.1111/j.1365-2141.2010.08143.x",
+              "Jones GL, Will A, Jackson GH, et al. Guidelines for the Management of Tumour Lysis Syndrome in Adults and Children with Haematological Malignancies. British Journal of Haematology. 2015;169(5):661671. https://doi.org/10.1111/bjh.13403",
+              "Howard SC, Jones DP, Pui CH. The Tumor Lysis Syndrome. New England Journal of Medicine. 2011;364(19):18441854. https://doi.org/10.1056/NEJMra0904569"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Hyperviscosity Syndrome",
+        "subtitle": "Headache, vision changes, bleeding, AMS, mucosal congestion",
+        "sections": [
+          {
+            "title": "The First 60 Seconds",
+            "type": "steps",
+            "items": [
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+              "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Known hematologic malignancy: Waldenström, myeloma, polycymia vera, leukemia",
+              "CNS sx: headache, confusion, dizziness, strokelike sx, coma",
+              "Visual changes: blurred vision, diplopia, visual loss",
+              "Bleeding: mucosal (epistaxis, gingival), GI, skin",
+              "Constitutional sx: fatigue, weight loss, night sweats",
+              "Known paraprotein type & level (IgM MCC)",
+              "Prior plasmapheresis txs"
+            ]
+          },
+          {
+            "title": "Presentation/Exam",
+            "type": "bullets",
+            "items": [
+              "**Classic presentation**: Neurological symptoms (AMS, headache, dizziness) + bleeding (oronasal, retinal) + visual changes in Waldenström macroglobulinemia or MM; fundoscopic 'sausage-link' veins are pathognomonic",
+              "Neurologic: AMS, focal deficits, nystagmus, ataxia",
+              "Fundoscopic: sausagelink retinal veins (pathognomonic), flame hemorrhages, papilledema",
+              "Mucosal bleeding: epistaxis, gingival bleeding, oral mucosal petechiae",
+              "Skin: purpura, ecchymoses",
+              "Lymphadenopathy, hepatosplenomegaly (underlying hematologic malignancy)",
+              "Heart failure signs: highoutput failure from ↑ blood viscosity",
+              "Raynaud phenomenon, livedo reticularis (cryoglobulinemia)"
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Waldenström macroglobulinemia",
+                "value": "IgM paraprotein: MCC of symptomatic hyperviscosity (10-30% of WM pts)"
+              },
+              {
+                "key": "Multiple myeloma",
+                "value": "IgA > IgG3 > IgG1: polymerizes & ↑ viscosity. Less common than WM"
+              },
+              {
+                "key": "Polycymia vera",
+                "value": "Elevated hematocrit causes hyperviscosity: phlebotomy is tx"
+              },
+              {
+                "key": "Leukostasis",
+                "value": "WBC >100k (AML, CML blast crisis): sludging in microcirculation, esp lungs & brain"
+              },
+              {
+                "key": "DDx: Stroke/TIA",
+                "value": "Similar neurologic presentation: check serum viscosity & protein electrophoresis"
+              },
+              {
+                "key": "DDx: DIC",
+                "value": "Bleeding + neurologic changes: but low fibrinogen, elevated Ddimer"
+              },
+              {
+                "key": "DDx: TTP/HUS",
+                "value": "MAHA, thrombocytopenia, neuro changes: check schistocytes, ADAMTS13"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "CHECK NOW",
+              "-**Labs:** CBC, serum viscosity, BMP, coags, SPEP/UPEP (if MM/WM suspected), cryoglobulins",
+              "-**Orders:** IV access, continuous SpO2, ophthalmology consult (retinal vein occlusion), hematology consult, plasmapheresis setup",
+              "Start IV NS & avoid diuresis unless the pt is volume overloaded",
+              "Definitive tx depends on cause: plasmapheresis for paraproteinemia, leukapheresis for leukostasis, phlebotomy for PV",
+              "Call heme/onc STAT for urgent apheresis / cytoreduction planning",
+              "Avoid antiplatelets; treat bleeding supportively, including plt transfusion if clinically needed",
+              "Plasmapheresis:daily until sx resolve & viscosity returns to normal",
+              "Definitive tx: chemotherapy for underlying malignancy (rituximab, BTK inhibitors for WM; bortezomib based for myeloma)",
+              "Avoid rituximab initially in WM: causes IgM flare & worsen hyperviscosity",
+              "Continue IV hydration between plasmapheresis sessions",
+              "Monitor viscosity daily (or surrogate: total protein/IgM level)",
+              "Serial neurologic & fundoscopic exams",
+              "DVT prophylaxis once bleeding controlled",
+              "**Serum viscosity:** nl. 1.4-1.8 cP. Symptomatic >4-5 cP. >6 cP = emergency",
+              "**SPEP + immunofixation:** Identifies paraprotein type & amount",
+              "**CBC with differential:** WBC >100k suggests leukostasis; elevated Hct suggests polycymia",
+              "**Coagulation studies:** PT/INR may elevated from paraprotein interference",
+              "**Pulse oximetry may falsely low:** Spurious hypoxemia from paraprotein interference: check ABG if SpO2 discordant with clinical status",
+              "**BMP, LDH, uric acid:** check renal function & tumor burden",
+              "**CT head:** r/o ICH if focal neurologic deficits"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "nl. saline",
+                "dose": "200-500 mL/h initially",
+                "route": "IV",
+                "contraindications": "Volume overload, CHF",
+                "notes": "Temporizing measure until plasmapheresis available. ↓ viscosity by dilution."
+              },
+              {
+                "name": "Hydroxyurea",
+                "dose": "50-100 mg/kg/day",
+                "route": "PO",
+                "contraindications": "Severe myelosuppression",
+                "notes": "For leukostasis —↓ WBC count. Used as bridge to definitive chemotherapy."
+              },
+              {
+                "name": "Dexamethasone",
+                "dose": "40mg IV daily x 4 days",
+                "route": "IV",
+                "contraindications": "Active untreated fungal/bacterial infection (relative); caution in DM (↑ glucose)",
+                "notes": "May be part of initial myeloma/Waldenström tx. Discuss with hematology."
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Hyperviscosity syndrome",
+                "value": "Symptomatic ↑ in blood viscosity causing impaired microcirculatory blood flow: hematologic emergency"
+              },
+              {
+                "key": "Classic triad",
+                "value": "CNS disturbances + bleeding + visual changes"
+              },
+              {
+                "key": "Etiology",
+                "value": "Most common: Waldenström macroglobulinemia (IgM paraprotein). Also: multiple myeloma (IgA > IgG), polycymia vera, leukostasis (AML/CML blast crisis)"
+              },
+              {
+                "key": "Viscosity threshold",
+                "value": "Symptomsoccur when serum viscosity >4-5 cP (nl. 1.4-1.8 cP)"
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Stone MJ, Bogen SA. EvidenceBased Focused Review of Management of Hyperviscosity Syndrome. Blood. 2012;119(10):22052208. https://doi.org/10.1182/blood-2011-04-347690",
+              "Dimopoulos MA, Kastritis E, Owen RG, et al. Treatment Recommendations for Patients with Waldenström Macroglobulinemia (WM) and Related Disorders: IWWM7 Consensus. Blood. 2014;124(9):14041411. https://doi.org/10.1182/blood-2014-03-565135"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cytokine Release Syndrome",
+        "subtitle": "Fever, hypotension, hypoxemia, capillary leak after immunothetherapy",
+        "sections": [
+          {
+            "title": "The First 60 Seconds",
+            "type": "steps",
+            "items": [
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+              "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Type & date of immunothetherapy: CART (which product: axicel, tisacel, lisocel, etc.), bispecific antibody, checkpoint inhibitor",
+              "Day postinfusion: CART CRSday 1-14",
+              "Tumor burden: higher burden = higher risk & severity of CRS",
+              "Baseline organ function: cardiac, hepatic, renal",
+              "Prior CRS episodes & txs used",
+              "Contact information for treating oncology/CART team",
+              "Institutional CRS management protocol (varies by center)",
+              "Concurrent infections or neutropenia"
+            ]
+          },
+          {
+            "title": "Presentation/Exam",
+            "type": "bullets",
+            "items": [
+              "**Classic presentation**: Fever within hours to days of CAR-T, bispecific antibody, or checkpoint inhibitor therapy + hemodynamic instability or end-organ dysfunction; CRS grade 1–4 determines need for tocilizumab vs steroids",
+              "Fever: hallmark of CRS,high (>38.0°C required for dx)",
+              "Hemodynamics: ↓ BP, tachycardia: may require vasopressors",
+              "Respiratory: tachypnea, hypoxia, crackles (capillary leak: pulmonary edema)",
+              "Neurologic ( screen for ICANS): orientation, naming, writing, attention: use ICE (Immune Effector CellAssociated Encephalopathy) scoring tool",
+              "Skin: rash, capillary leak with peripheral edema",
+              "check for coagulopathy: petechiae, bleeding (DIC common in severe CRS)",
+              "Hepatomegaly, jaundice (hepatic involvement in severe cases)"
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "CART cell therapy",
+                "value": "Most common & severe cause: all commercial CART products carry CRS risk"
+              },
+              {
+                "key": "Bispecific antibodies",
+                "value": "Blinatumomab, teclistamab, mosunetuzumab: CRSmilder than CART"
+              },
+              {
+                "key": "Checkpoint inhibitors",
+                "value": "Rare CRS; more common to cause immunerelated adverse events (irAEs)"
+              },
+              {
+                "key": "DDx: Sepsis",
+                "value": "Clinically identical: always treat empirically for both until cultures negative"
+              },
+              {
+                "key": "DDx: ICANS",
+                "value": "Can occur with or independently of CRS: neurologic sx predominate"
+              },
+              {
+                "key": "DDx: Hemophagocytic lymphohistiocytosis (HLH)",
+                "value": "Massive ferritin elevation, cytopenias, hepatosplenomegaly: CRS can trigger secondary HLH"
+              },
+              {
+                "key": "DDx: Tumor progression",
+                "value": "Fever, organ dysfunction: imaging may needed to differentiate"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "CHECK NOW",
+              "-**Labs:** CBC, BMP, CRP, ferritin, LFTs, troponin, fibrinogen, D-dimer, IL-6 (if available)",
+              "-**Orders:** IV access, continuous SpO2, telemetry, EKG, Foley (if severe CRS), oncology consult, tocilizumab at bedside (if grade 2+)",
+              "r/o sepsis: send BCxs/labs & start empiric broad spectrum abx",
+              "Grade severity & call the CART / oncology team now",
+              "Grade 1: supportive care; Grade 2+: tocilizumab; add dex if worsening or higher grade",
+              "Grade 3-4: ICU, pressors/O2 support, tocilizumab + dex 10mg IV q6h",
+              "Trend CRP q6-12h: best objective marker of CRS trajectory",
+              "Recheck CRS grade q4-6h: escalate tx if worsening",
+              "Continue antibiotics until cultures negative at 48-72h & clinical improvement",
+              "Tocilizumab: can repeat x1 in 8h if inadequate response (max 3 doses/24h, 4 doses total)",
+              "If refractory to tocilizumab + steroids: consider siltuximab (antiIL6), anakinra, or ruxolitinib",
+              "Monitor for delayed ICANS (can present days after CRS resolves)",
+              "Corticosteroid taper over 3-7 days once CRS controlled",
+              "Coordinate closely with CART/oncology team throughout",
+              "**CRP:** Best realtime marker of CRS activity: correlates with severity, dropsafter tocilizumab",
+              "**Ferritin:** Markedly elevated in severe CRS (>10,000 suggests HLH overlap)",
+              "**IL6 level:** Elevated but rises paradoxically after tocilizumab (blocked receptor, unbound IL6 accumulates) —don't use to judge tx response",
+              "**BCxs x2:** Mandatory: cannot distinguish CRS from sepsis clinically",
+              "**CBC, CMP, LDH, coags, fibrinogen:** check cytopenias, organ function, DIC",
+              "**DIC panel:** Fibrinogen, Ddimer, PT/INR: DIC common in Grade 34 CRS",
+              "**telemetry:** Cardiac arrhythmias in severe CRS",
+              "**ICE score (if neurologic changes):** standardized ICANS grading: orientation, naming, writing, attention, commands"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Tocilizumab (Actemra)",
+                "dose": "8mg/kg IV (max 800mg), may repeat x1 in 8h",
+                "route": "IV over 60 min",
+                "contraindications": "Active severe infections (relative: still give if CRS suspected)",
+                "notes": "Firstline for ≥Grade 2 CRS. IL6 receptor antagonist. Max 3 doses in 24h. CRP will dropafter: useful marker."
+              },
+              {
+                "name": "Dexamethasone",
+                "dose": "10mg IV q6h",
+                "route": "IV",
+                "contraindications": "Active untreated fungal/bacterial infection (relative); caution in DM (↑ glucose)",
+                "notes": "Add to tocilizumab for Grade 34 CRS or refractory Grade 2. May impair CART cell efficacy: discuss with oncology before starting."
+              },
+              {
+                "name": "Methylprednisolone",
+                "dose": "1-2 mg/kg IV q12h",
+                "route": "IV",
+                "contraindications": "Active untreated infection (relative); caution in DM, GI bleed",
+                "notes": "Alternative corticosteroid. Highdose (1g IV daily) for Grade 4 or steroidrefractory CRS."
+              },
+              {
+                "name": "Anakinra",
+                "dose": "100mg SC q6-12h or 200mg IV q6h",
+                "route": "SC or IV",
+                "contraindications": "Active bacterial infection (not including sepsis for cytokine storm context), neutropenia",
+                "notes": "IL1 receptor antagonist: for tocilizumab/steroidrefractory CRS. Also effective for ICANS."
+              },
+              {
+                "name": "Broadspectrum antibiotics",
+                "dose": "Per institutional sepsis protocol",
+                "route": "IV",
+                "contraindications": "No absolute CI; tailor to allergy history and culture results",
+                "notes": "Give empirically: CRS is indistinguishable from sepsis. Typical: vancomycin + piperacillintazobactam or meropenem."
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Cytokine Release Syndrome (CRS)",
+                "value": "Systemic inflammatory response from massive cytokine release following immunothetherapy: particularly CART cell therapy & bispecific antibodies"
+              },
+              {
+                "key": "Mechanism",
+                "value": "Activated immune effector cells release IL6, IFNγ, TNFα: systemic inflammation mimicking sepsis"
+              },
+              {
+                "key": "Timing",
+                "value": "CART:1-14 days after infusion (median day 2-3). Bispecific antibodies: within 24-72h of first dose"
+              },
+              {
+                "key": "Grading (ASTCT)",
+                "value": "Grade 1: fever only | Grade 2: ↓ BP responsive to fluids, O2 <40% | Grade 3: vasopressors required, O2 ≥40% | Grade 4: multiple vasopressors, ICUlevel support"
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Lee DW, Santomasso BD, Locke FL, et al. ASTCT Consensus Grading for Cytokine Release Syndrome and Neurologic Toxicity Associated with Immune Effector Cells. Biology of Blood and Marrow Transplantation. 2019;25(4):625638. https://doi.org/10.1016/j.bbmt.2018.12.758",
+              "Neelapu SS, Tummala S, Kebriaei P, et al. Chimeric Antigen Receptor TCell Therapy — assessment and Management of Toxicities. Nature Reviews Clinical Oncology. 2018;15(1):4762. https://doi.org/10.1038/nrclinonc.2017.148",
+              "NCCN Guidelines: Management of ImmunotherapyRelated Toxicities, Version 2.2024. National Comprehensive Cancer Network. 2024. https://www.nccn.org/guidelines/guidelines-detail?category=3&id=1486"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Differentiation Syndrome",
+        "subtitle": "Fever, edema, pulmonary infiltrates, hypotension during ATRA or arsenic",
+        "sections": [
+          {
+            "title": "The First 60 Seconds",
+            "type": "steps",
+            "items": [
+              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
+              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
+              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
+              "Start O2 now: NRB 15 L/min if in distress",
+              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+              "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
+              "Put on cardiac monitor"
+            ]
+          },
+          {
+            "title": "Chart Check / Hx.",
+            "type": "bullets",
+            "items": [
+              "Confirmed APL (acute promyelocytic leukemia): must be on ATRA &/or arsenic trioxide",
+              "Day of ATRA/ATO therapy: DS 2-47 days after start (median day 7-12)",
+              "Initial WBC count: WBC >10k at presentation is major risk factor for DS",
+              "Rising WBC during tx: leukocytosis during ATRA suggests differentiation (& DS risk)",
+              "Weight gain: key early sign (>5kg suggests significant capillary leak)",
+              "Fever: lowgrade, persistent",
+              "Dyspnea, pleuritic chest pain",
+              "DIC status at baseline (nearly all APL pts have some DIC)"
+            ]
+          },
+          {
+            "title": "Presentation/Exam",
+            "type": "bullets",
+            "items": [
+              "**Classic presentation**: Fever + respiratory distress + peripheral edema/weight gain within 2 weeks of starting ATRA or ATO for AML/APL; presents like sepsis — high suspicion in any patient on differentiating agents who develops respiratory or hemodynamic deterioration",
+              "Respiratory: dyspnea, tachypnea, hypoxia: pulmonary infiltrates & pleural effusions",
+              "Volume status: peripheral edema, weight gain >5kg, JVD, crackles",
+              "Fever: lowgrade, persistent (but can highgrade)",
+              "Cardiac: pericardial effusion (check for distant heart sounds, tachycardia)",
+              "Musculoskeletal: diffuse bone pain",
+              "Renal: ↓ UOP, rising creatinine",
+              "Skin: look for DICrelated petechiae/purpura (common in APL)",
+              "Neurologic: headache, AMS (rare but serious)"
+            ]
+          },
+          {
+            "title": "Etiology / DDx",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "ATRAinduced DS",
+                "value": "MCC: used in induction therapy for APL"
+              },
+              {
+                "key": "Arsenic trioxide (ATO)induced DS",
+                "value": "Same syndrome: occurs with ATO alone or in combination with ATRA"
+              },
+              {
+                "key": "IDH inhibitorassociated DS",
+                "value": "Ivosidenib, enasidenib for IDHmutant AML: similar mechanism, emerging recognition"
+              },
+              {
+                "key": "DDx: Pneumonia/sepsis",
+                "value": "Most important DDx: APL pts are immunocompromised. BCxs, empiric antibiotics mandatory"
+              },
+              {
+                "key": "DDx: Pulmonary hemorrhage",
+                "value": "DIC in APL: alveolar hemorrhage. CT chest may differentiate"
+              },
+              {
+                "key": "DDx: Leukostasis",
+                "value": "WBC >100k with pulmonary/CNS sx: different mechanism, treated with leukapheresis"
+              },
+              {
+                "key": "DDx: CHF/fluid overload",
+                "value": "From aggressive transfusion support in APL: no fever, no weight gain trajectory"
+              }
+            ]
+          },
+          {
+            "title": "Management",
+            "type": "steps",
+            "items": [
+              "CHECK NOW",
+              "-**Labs:** CBC, BMP, LFTs, LDH, coags, ABG (if respiratory compromise)",
+              "-**Orders:** CXR, IV access, continuous SpO2, telemetry, echo (pericardial effusion), hematology/oncology consult",
+              "Start dexamethasone now & hold ATRA/arsenic only if severe",
+              "Give O2, cautious diuresis if overloaded, & Foley/strict I&O if needed",
+              "Call heme/onc now; restart differentiating tx once sx improve",
+              "Do NOT use leukapheresis: this is not leukostasis",
+              "Continue dexamethasone 10mg IV q12h until complete sx resolution (minimum 3 days)",
+              "Taper dexamethasone slowly over 1-2 weeks: premature discontinuation causes relapse",
+              "For mildmoderate DS: continue ATRA/ATO throughout tx with dexamethasone",
+              "For severe DS: hold ATRA/ATO until resolution,thenrestart at ↓ dose (ATRA 25mg/m²: consider 12.5mg/m²)",
+              "Aggressive DIC management: cryoprecipitate for fibrinogen <150, platelets for plt <30-50k",
+              "Daily weights & strict I&O: diuresis for volume overload",
+              "Prophylactic dexamethasone: some protocols start dexa prophylactically with ATRA if WBC >5-10k",
+              "DS can recur: monitor for recurrent sx after steroid taper or ATRA restart",
+              "**CBC with differential:** Rising WBC during ATRA is risk factor: WBC >10k associated with higher DS incidence",
+              "**CXR / CT chest:** B/l infiltrates, pleural effusions, pericardial effusion",
+              "**BMP, LFTs:** Renal function (AKI from capillary leak), hepatic involvement",
+              "**Coagulation studies + fibrinogen:** DIC monitoring: fibrinogen <100 requires cryoprecipitate",
+              "**Daily weights:** Weight gain >5kg is diagnostic clue: track trend daily",
+              "**BCxs:** Cannot differentiate DS from infection clinically: cultures mandatory",
+              "**CRP, ferritin:** Elevated in DS; helps track response to tx"
+            ]
+          },
+          {
+            "title": "Medications",
+            "type": "drugTable",
+            "drugs": [
+              {
+                "name": "Dexamethasone",
+                "dose": "10mg IV q12h",
+                "route": "IV",
+                "contraindications": "Active untreated fungal/bacterial infection (relative); caution in DM (↑ glucose)",
+                "notes": "Cornerstone of tx. Start at first suspicion. Continue until complete resolution of sx (minimum 3 days, 1-2 weeks). Taper slowly."
+              },
+              {
+                "name": "Furosemide",
+                "dose": "20-80mg IV q6-12h",
+                "route": "IV",
+                "contraindications": "Hypovolemia, hypokalemia",
+                "notes": "For pulmonary edema & volume overload from capillary leak. Monitor electrolytes closely."
+              },
+              {
+                "name": "Hydroxyurea",
+                "dose": "500-1000mg PO BID",
+                "route": "PO",
+                "contraindications": "Severe myelosuppression",
+                "notes": "If WBC >10k during ATRA tx: hyperleukocytosis worsens DS. Some protocols add prophylactically."
+              }
+            ]
+          },
+          {
+            "title": "Recognition / Key Concepts",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Differentiation Syndrome (DS)",
+                "value": "Lifethreatening complication of differentiation therapy in acute promyelocytic leukemia (APL): caused by ATRA (alltrans retinoic acid) or arsenic trioxide"
+              },
+              {
+                "key": "Mechanism",
+                "value": "Rapid differentiation of malignant promyelocytes: cytokine release, capillary leak, & tissue infiltration by differentiating cells"
+              },
+              {
+                "key": "Incidence",
+                "value": "~25% of APL pts on ATRA/ATO; can occur 2-47 days after starting therapy (median 7-12 days)"
+              },
+              {
+                "key": "Mortality",
+                "value": "5-10% overall; up to 40% if mechanical ventilation required: early recognition is critical"
+              },
+              {
+                "key": "Previously called",
+                "value": "Retinoic acid syndrome (RAS): renamed b/c arsenic trioxide causes identical syndrome"
+              }
+            ]
+          },
+          {
+            "title": "References & Resources",
+            "type": "bullets",
+            "items": [
+              "Montesinos P, Bergua JM, Vellenga E, et al. Differentiation Syndrome in Patients with Acute Promyelocytic Leukemia Treated with AllTrans Retinoic Acid and Anthracycline Chemotherapy. Blood. 2009;113(4):775783. https://doi.org/10.1182/blood-2008-07-168617",
+              "Sanz MA, Fenaux P, Tallman MS, et al. Management of Acute Promyelocytic Leukemia: Updated Recommendations from an Expert Panel of the European LeukemiaNet. Blood. 2019;133(15):16301643. https://doi.org/10.1182/blood-2019-01-894980",
+              "NCCN Guidelines: Acute Myeloid Leukemia, Version 3.2024. National Comprehensive Cancer Network. 2024. https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1411"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -38,6 +38,8 @@ struct SectionCard: View {
     let isFirstSection: Bool
     let isExpanded: Bool
     let onTap: () -> Void
+    var currentTopicTitle: String? = nil
+    var drugLookup: [String: DrugEntry] = [:]
 
     private struct SectionStyle {
         let symbolName: String
@@ -88,36 +90,58 @@ struct SectionCard: View {
         showsSlimDividers
     }
 
+    private var isManagementSection: Bool {
+        let t = section.title.lowercased()
+        return t.contains("management") || t.contains("treatment") || t.contains("plan")
+    }
+
+    private var cardBackground: Color {
+        isManagementSection ? Color.rrSectionBackground : Color.rrNeutralCard
+    }
+
+    private var headerBackground: some View {
+        Group {
+            if isManagementSection {
+                Color.rrSectionBackground
+                    .overlay(Color.orange.opacity(0.06))
+            } else {
+                Color.rrSectionBackground
+            }
+        }
+    }
+
+    private var contentBackground: Color {
+        isManagementSection ? Color.rrSectionBackground : Color.rrSectionBackground
+    }
+
+    private var borderColor: Color {
+        isManagementSection ? Color.orange.opacity(0.22) : Color.rrEmphasisBackground
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Button(action: onTap) {
                 HStack(spacing: 12) {
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text(section.title)
+                    Text(section.title)
                             .font(.headline)
                             .foregroundColor(.primary)
                             .multilineTextAlignment(.leading)
-
-                        Text(isExpanded ? "Tap to collapse" : "Tap to expand")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                    }
 
                     Spacer()
 
                     ZStack {
                         Circle()
-                            .fill(tintColor.opacity(0.12))
+                            .fill(tintColor.opacity(0.15))
                             .frame(width: 30, height: 30)
 
                         Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
-                            .foregroundColor(tintColor.opacity(0.8))
+                            .foregroundColor(tintColor.opacity(0.9))
                             .font(.caption.weight(.bold))
                     }
                 }
                 .padding(.horizontal, 14)
                 .padding(.vertical, 14)
-                .background(Color.rrSectionBackground)
+                .background(headerBackground)
             }
             .buttonStyle(.plain)
 
@@ -127,18 +151,21 @@ struct SectionCard: View {
                     content: section.content,
                     showsSlimDividers: showsSlimDividers,
                     enablesTopicInference: enablesTopicInference,
-                    highlightsABC: isFirstSection
+                    highlightsABC: isFirstSection,
+                    tintColor: tintColor,
+                    currentTopicTitle: currentTopicTitle,
+                    drugLookup: drugLookup
                 )
                     .padding(16)
-                    .background(Color.rrSectionBackground)
+                    .background(contentBackground)
                     .transition(.opacity.combined(with: .move(edge: .top)))
             }
         }
-        .background(Color.rrNeutralCard)
+        .background(cardBackground)
         .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 18, style: .continuous)
-                .stroke(Color.rrEmphasisBackground, lineWidth: 1)
+                .stroke(borderColor, lineWidth: 1)
         )
         .shadow(color: Color.black.opacity(0.08), radius: 14, x: 0, y: 8)
         .animation(.easeInOut(duration: 0.2), value: isExpanded)

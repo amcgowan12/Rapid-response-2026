@@ -27,7 +27,7 @@ final class FavoritesManager {
     /// Returns matching Topic objects from both data sources
     var favoriteTopics: [Topic] {
         let loader = DataLoader.shared
-        let allTopics = (loader.conditionSystems + loader.symptomSystems)
+        let allTopics = loader.conditionSystems
             .flatMap { $0.topics }
         var seen = Set<String>()
         return allTopics.filter { topic in

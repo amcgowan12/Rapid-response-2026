@@ -6,6 +6,9 @@ struct SectionContentView: View {
     let showsSlimDividers: Bool
     let enablesTopicInference: Bool
     let highlightsABC: Bool
+    let tintColor: Color
+    var currentTopicTitle: String? = nil
+    var drugLookup: [String: DrugEntry] = [:]
     @State private var expandedStepImages: Set<String> = []
 
     private static let plethExpandTrigger =
@@ -25,9 +28,7 @@ struct SectionContentView: View {
         return lowercasedTitle.contains("ddx") || lowercasedTitle.contains("differential")
     }
 
-    private var bodyFont: Font {
-        usesCompactReferenceText ? .footnote : .body
-    }
+    private var bodyFont: Font { .body }
 
     private var linksEntireCitationText: Bool {
         let lowercasedTitle = sectionTitle.lowercased()
@@ -36,59 +37,24 @@ struct SectionContentView: View {
 
     private func highlightedItems(_ items: [String]) -> [String] {
         guard highlightsABC else { return items }
-
-        var seen = Set<String>()
-        return items.map { highlightABCIfNeeded(in: $0, seen: &seen) }
+        return items.map { highlightFirstWord(in: $0) }
     }
 
     private func highlightedPairs(_ pairs: [KeyValuePair]) -> [KeyValuePair] {
-        guard highlightsABC else { return pairs }
-
-        var seen = Set<String>()
-        return pairs.map { pair in
-            KeyValuePair(
-                key: pair.key,
-                value: highlightABCIfNeeded(in: pair.value, seen: &seen),
-                topicLink: pair.topicLink
-            )
-        }
+        return pairs
     }
 
-    private func highlightABCIfNeeded(in text: String, seen: inout Set<String>) -> String {
-        let pattern = #"\b(Airway|Breathing|Circulation)\b"#
-        guard let regex = try? NSRegularExpression(pattern: pattern, options: [.caseInsensitive]) else {
-            return text
-        }
-
-        var updated = multilineABCText(from: text)
-        let matches = regex.matches(in: updated, range: NSRange(updated.startIndex..., in: updated))
-        for match in matches.reversed() {
-            guard let matchRange = Range(match.range, in: updated) else { continue }
-            let token = String(updated[matchRange])
-            let normalized = token.lowercased()
-            guard !seen.contains(normalized) else { continue }
-            seen.insert(normalized)
-            updated.replaceSubrange(matchRange, with: "!!\(token)!!")
-        }
-        return updated
-    }
-
-    private func multilineABCText(from text: String) -> String {
-        let tokens = ["Airway:", "Breathing:", "Circulation:"]
-        let tokenCount = tokens.reduce(0) { partialResult, token in
-            partialResult + (text.localizedCaseInsensitiveContains(token) ? 1 : 0)
-        }
-
-        guard tokenCount >= 2 else { return text }
-        guard let regex = try? NSRegularExpression(pattern: #"\s+(Airway:|Breathing:|Circulation:)"#, options: [.caseInsensitive]) else {
-            return text
-        }
-
-        let range = NSRange(text.startIndex..., in: text)
-        return regex.stringByReplacingMatches(in: text, range: range, withTemplate: "\n$1")
+    /// Wraps the first word of a line in `!!red!!` markers unless the line already has markup.
+    private func highlightFirstWord(in text: String) -> String {
+        guard !text.hasPrefix("!!"), !text.hasPrefix("~~"), !text.hasPrefix("-"), !text.hasPrefix("•") else { return text }
+        guard let spaceIndex = text.firstIndex(of: " ") else { return text }
+        let firstWord = String(text[text.startIndex..<spaceIndex])
+        guard !firstWord.allSatisfy({ $0.isNumber || $0 == "." || $0 == ")" || $0 == "-" }) else { return text }
+        return "!!\(firstWord)!!" + String(text[spaceIndex...])
     }
     
     var body: some View {
+        Group {
         switch content {
             
         case .bullets(let items):
@@ -96,11 +62,11 @@ struct SectionContentView: View {
             if usesManagementStepLayout {
                 stepList(items)
             } else {
-                VStack(alignment: .leading, spacing: 6) {
+                VStack(alignment: .leading, spacing: 10) {
                     ForEach(items, id: \.self) { item in
                         HStack(alignment: .top, spacing: 8) {
                             Text("•").foregroundColor(.secondary)
-                            LinkedText(text: item, linkEntireCitationText: linksEntireCitationText)
+                            LinkedText(text: item, linkEntireCitationText: linksEntireCitationText, excludedTopicTitle: currentTopicTitle, drugLookup: drugLookup)
                                 .font(bodyFont)
                                 .multilineTextAlignment(.leading)
                                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -109,7 +75,7 @@ struct SectionContentView: View {
                     }
                 }
             }
-            
+
         case .steps(let items):
             let items = highlightedItems(items)
             stepList(items)
@@ -119,49 +85,49 @@ struct SectionContentView: View {
             if usesManagementStepLayout {
                 keyValueStepList(pairs)
             } else {
-                VStack(alignment: .leading, spacing: 6) {
+                VStack(alignment: .leading, spacing: 0) {
                     ForEach(Array(pairs.enumerated()), id: \.element.id) { index, pair in
-                        if let topic = resolvedTopic(for: pair) {
-                            HStack(alignment: .top, spacing: 8) {
-                                NavigationLink(destination: TopicDetailView(topic: topic)) {
-                                    Self.formattedText(pair.key)
+                        let isShaded = index.isMultiple(of: 2)
+                        Group {
+                            if let topic = resolvedTopic(for: pair) {
+                                VStack(alignment: .leading, spacing: 2) {
+                                    NavigationLink(destination: TopicDetailView(topic: topic)) {
+                                        Self.formattedText(pair.key)
+                                            .font(.subheadline.weight(.semibold))
+                                            .foregroundColor(Color.rrDarkAccentText)
+                                            .underline()
+                                            .multilineTextAlignment(.leading)
+                                            .frame(maxWidth: .infinity, alignment: .leading)
+                                    }
+                                    .buttonStyle(.plain)
+
+                                    LinkedText(text: pair.value, linkEntireCitationText: linksEntireCitationText, excludedTopicTitle: currentTopicTitle, drugLookup: drugLookup)
                                         .font(bodyFont)
-                                        .fontWeight(.semibold)
-                                        .foregroundColor(Color.rrDarkAccentText)
-                                        .underline()
+                                        .foregroundColor(.secondary)
                                         .multilineTextAlignment(.leading)
-                                        .frame(width: 100, alignment: .leading)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                        .fixedSize(horizontal: false, vertical: true)
                                 }
-                                .buttonStyle(.plain)
-
-                                LinkedText(text: pair.value, linkEntireCitationText: linksEntireCitationText)
-                                    .font(bodyFont)
-                                    .foregroundColor(.secondary)
-                                    .multilineTextAlignment(.leading)
-                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                    .fixedSize(horizontal: false, vertical: true)
-                            }
-                        } else {
-                            HStack(alignment: .top, spacing: 8) {
-                                Self.formattedText(pair.key)
-                                    .font(bodyFont)
-                                    .fontWeight(.semibold)
-                                    .multilineTextAlignment(.leading)
-                                    .frame(width: 100, alignment: .leading)
-                                LinkedText(text: pair.value, linkEntireCitationText: linksEntireCitationText)
-                                    .font(bodyFont)
-                                    .foregroundColor(.secondary)
-                                    .multilineTextAlignment(.leading)
-                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                    .fixedSize(horizontal: false, vertical: true)
+                            } else {
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Self.formattedText(pair.key)
+                                        .font(.subheadline.weight(.semibold))
+                                        .multilineTextAlignment(.leading)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                    LinkedText(text: pair.value, linkEntireCitationText: linksEntireCitationText, excludedTopicTitle: currentTopicTitle, drugLookup: drugLookup)
+                                        .font(bodyFont)
+                                        .foregroundColor(.secondary)
+                                        .multilineTextAlignment(.leading)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                        .fixedSize(horizontal: false, vertical: true)
+                                }
                             }
                         }
-
-                        if showsSlimDividers && index < pairs.count - 1 {
-                            Divider()
-                                .overlay(Color.rrEmphasisBackground.opacity(0.55))
-                                .padding(.vertical, 4)
-                        }
+                        .padding(.vertical, 8)
+                        .padding(.horizontal, 6)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(isShaded ? Color.rrEmphasisBackground.opacity(0.18) : Color.clear)
+                        .clipShape(RoundedRectangle(cornerRadius: 6, style: .continuous))
                     }
                 }
             }
@@ -172,33 +138,29 @@ struct SectionContentView: View {
         case .imageGallery(let images):
             ImageGalleryView(images: images)
         }
+        }
     }
 
     private func resolvedTopic(for pair: KeyValuePair) -> Topic? {
         if let link = pair.topicLink,
            let topic = Self.findTopic(titled: link) {
+            guard topic.title != currentTopicTitle else { return nil }
             return topic
         }
 
         guard enablesTopicInference else { return nil }
-        return Self.inferTopic(from: pair.key)
+        let inferred = Self.inferTopic(from: pair.key)
+        return inferred?.title == currentTopicTitle ? nil : inferred
     }
 
     static func findTopic(titled title: String) -> Topic? {
         let conditionTopics = OrganSystem.allSystems.flatMap(\.topics)
-        let symptomTopics = SymptomSystem.allSystems.flatMap(\.topics)
         let normalizedTitle = normalizedTopicKey(title)
 
         for topic in conditionTopics where topic.title == title {
             return topic
         }
-        for topic in symptomTopics where topic.title == title {
-            return topic
-        }
         for topic in conditionTopics where normalizedTopicKey(topic.title) == normalizedTitle {
-            return topic
-        }
-        for topic in symptomTopics where normalizedTopicKey(topic.title) == normalizedTitle {
             return topic
         }
         return nil
@@ -209,7 +171,7 @@ struct SectionContentView: View {
         let normalizedCandidate = normalizedTopicKey(cleaned)
         guard !normalizedCandidate.isEmpty else { return nil }
 
-        let allTopics = OrganSystem.allSystems.flatMap(\.topics) + SymptomSystem.allSystems.flatMap(\.topics)
+        let allTopics = OrganSystem.allSystems.flatMap(\.topics)
 
         if let exact = allTopics.first(where: { normalizedTopicKey($0.title) == normalizedCandidate }) {
             return exact
@@ -254,9 +216,7 @@ struct SectionContentView: View {
         let isSubBullet: Bool
     }
 
-    private var subBulletFont: Font {
-        bodyFont == .footnote ? .caption : .footnote
-    }
+    private var subBulletFont: Font { .footnote }
 
     private func parsedStepEntries(from items: [String]) -> [StepListEntry] {
         var entries: [StepListEntry] = []
@@ -309,23 +269,21 @@ struct SectionContentView: View {
     @ViewBuilder
     private func stepList(_ items: [String]) -> some View {
         let entries = parsedStepEntries(from: items)
-        VStack(alignment: .leading, spacing: 6) {
+        VStack(alignment: .leading, spacing: 10) {
             ForEach(entries) { entry in
                 if entry.isSubBullet {
-                    HStack(alignment: .top, spacing: 8) {
-                        Color.clear
-                            .frame(width: 20)
-                        Text("-")
+                    HStack(alignment: .top, spacing: 6) {
+                        Text("–")
                             .font(subBulletFont.weight(.semibold))
                             .foregroundColor(.secondary)
-                            .padding(.leading, 12)
-                        LinkedText(text: entry.text, linkEntireCitationText: linksEntireCitationText)
+                        LinkedText(text: entry.text, linkEntireCitationText: linksEntireCitationText, excludedTopicTitle: currentTopicTitle, drugLookup: drugLookup)
                             .font(subBulletFont)
                             .foregroundColor(.secondary)
                             .multilineTextAlignment(.leading)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .fixedSize(horizontal: false, vertical: true)
                     }
+                    .padding(.leading, 28)
                 } else if Self.stepShowsPlethImage(entry.text) {
                     Button {
                         toggleStepImage(for: entry.text)
@@ -333,11 +291,11 @@ struct SectionContentView: View {
                         HStack(alignment: .top, spacing: 8) {
                             Text("\(entry.stepNumber ?? 0).")
                                 .fontWeight(.semibold)
-                                .foregroundColor(.secondary)
+                                .foregroundColor(tintColor)
                                 .frame(minWidth: 20, alignment: .leading)
                             VStack(alignment: .leading, spacing: 8) {
                                 HStack(alignment: .top, spacing: 8) {
-                                    LinkedText(text: entry.text, linkEntireCitationText: linksEntireCitationText)
+                                    LinkedText(text: entry.text, linkEntireCitationText: linksEntireCitationText, excludedTopicTitle: currentTopicTitle, drugLookup: drugLookup)
                                         .font(bodyFont)
                                         .multilineTextAlignment(.leading)
                                         .frame(maxWidth: .infinity, alignment: .leading)
@@ -361,9 +319,9 @@ struct SectionContentView: View {
                     HStack(alignment: .top, spacing: 8) {
                         Text("\(entry.stepNumber ?? 0).")
                             .fontWeight(.semibold)
-                            .foregroundColor(.secondary)
+                            .foregroundColor(tintColor)
                             .frame(minWidth: 20, alignment: .leading)
-                        LinkedText(text: entry.text, linkEntireCitationText: linksEntireCitationText)
+                        LinkedText(text: entry.text, linkEntireCitationText: linksEntireCitationText, excludedTopicTitle: currentTopicTitle, drugLookup: drugLookup)
                             .font(bodyFont)
                             .multilineTextAlignment(.leading)
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -375,12 +333,12 @@ struct SectionContentView: View {
     }
 
     private func keyValueStepList(_ pairs: [KeyValuePair]) -> some View {
-        VStack(alignment: .leading, spacing: 6) {
+        VStack(alignment: .leading, spacing: 10) {
             ForEach(Array(pairs.enumerated()), id: \.element.id) { index, pair in
                 HStack(alignment: .top, spacing: 8) {
                     Text("\(index + 1).")
                         .fontWeight(.semibold)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(tintColor)
                         .frame(minWidth: 20, alignment: .leading)
                     Text("\(Self.formattedText(pair.key).fontWeight(.semibold)): \(Self.formattedText(pair.value))")
                     .font(bodyFont)
@@ -392,25 +350,55 @@ struct SectionContentView: View {
         }
     }
 
-    /// Parses `**bold**` and `!!red!!` markers and returns styled Text.
+    /// Parses `**bold**`, `!!red!!`, and `~~blue~~` markers and returns styled Text.
+    /// Within `~~blue~~` segments, `**bold**` sub-markers apply bold weight while keeping blue color.
     static func formattedText(_ text: String) -> Text {
-        // Split by !! first for red spans, then handle ** inside each piece
-        let redParts = text.components(separatedBy: "!!")
+        let pattern = #"!!(.+?)!!|\*\*(.+?)\*\*|~~(.+?)~~"#
+        guard let regex = try? NSRegularExpression(pattern: pattern, options: [.dotMatchesLineSeparators]) else {
+            return Text(verbatim: text)
+        }
         var result = Text(verbatim: "")
-        for (ri, rPart) in redParts.enumerated() {
-            if rPart.isEmpty { continue }
-            let isRed = ri % 2 == 1
-            // Now handle **bold** within this piece
-            let boldParts = rPart.components(separatedBy: "**")
-            for (bi, bPart) in boldParts.enumerated() {
-                if bPart.isEmpty { continue }
-                let isBold = bi % 2 == 1
-                var segment = Text(verbatim: bPart)
-                if isRed { segment = segment.foregroundColor(.red) }
-                if isBold { segment = segment.fontWeight(.semibold) }
-                if isRed && !isBold { segment = segment.fontWeight(.medium) }
-                result = Text("\(result)\(segment)")
+        var lastEnd = text.startIndex
+        for match in regex.matches(in: text, range: NSRange(text.startIndex..., in: text)) {
+            guard let range = Range(match.range, in: text) else { continue }
+            let plain = String(text[lastEnd..<range.lowerBound])
+            if !plain.isEmpty { result = Text("\(result)\(Text(verbatim: plain))") }
+            if let r = Range(match.range(at: 1), in: text) {
+                result = Text("\(result)\(Text(verbatim: String(text[r])).foregroundColor(.red).fontWeight(.medium))")
+            } else if let r = Range(match.range(at: 2), in: text) {
+                result = Text("\(result)\(Text(verbatim: String(text[r])).fontWeight(.semibold))")
+            } else if let r = Range(match.range(at: 3), in: text) {
+                result = Text("\(result)\(blueStyledText(String(text[r])))")
             }
+            lastEnd = range.upperBound
+        }
+        let remaining = String(text[lastEnd...])
+        if !remaining.isEmpty { result = Text("\(result)\(Text(verbatim: remaining))") }
+        return result
+    }
+
+    /// Renders text in blue, parsing any `**bold**` sub-markers as bold+blue.
+    private static func blueStyledText(_ text: String) -> Text {
+        let boldPattern = #"\*\*(.+?)\*\*"#
+        guard let regex = try? NSRegularExpression(pattern: boldPattern) else {
+            return Text(verbatim: text).foregroundColor(Color(.systemBlue))
+        }
+        var result = Text(verbatim: "")
+        var lastEnd = text.startIndex
+        for match in regex.matches(in: text, range: NSRange(text.startIndex..., in: text)) {
+            guard let range = Range(match.range, in: text) else { continue }
+            let plain = String(text[lastEnd..<range.lowerBound])
+            if !plain.isEmpty {
+                result = Text("\(result)\(Text(verbatim: plain).foregroundColor(Color(.systemBlue)))")
+            }
+            if let r = Range(match.range(at: 1), in: text) {
+                result = Text("\(result)\(Text(verbatim: String(text[r])).foregroundColor(Color(.systemBlue)).fontWeight(.semibold))")
+            }
+            lastEnd = range.upperBound
+        }
+        let remaining = String(text[lastEnd...])
+        if !remaining.isEmpty {
+            result = Text("\(result)\(Text(verbatim: remaining).foregroundColor(Color(.systemBlue)))")
         }
         return result
     }
@@ -424,17 +412,39 @@ struct SectionContentView: View {
     struct LinkedText: View {
         let text: String
         var linkEntireCitationText = false
+        var excludedTopicTitle: String? = nil
+        var drugLookup: [String: DrugEntry] = [:]
         @State private var selectedTopic: Topic?
+        @State private var tooltipText: String?
+        @State private var selectedDrug: DrugEntry?
         
         private struct Segment {
             let text: String
             let url: URL?
             let topicTitle: String?
+            let tooltipContent: String?
+            let drugName: String?
+
+            init(
+                text: String,
+                url: URL? = nil,
+                topicTitle: String? = nil,
+                tooltipContent: String? = nil,
+                drugName: String? = nil
+            ) {
+                self.text = text
+                self.url = url
+                self.topicTitle = topicTitle
+                self.tooltipContent = tooltipContent
+                self.drugName = drugName
+            }
         }
 
         private static let topicURLScheme = "rapidresponse-topic"
+        private static let tooltipURLScheme = "rapidresponse-tooltip"
+        private static let drugURLScheme = "rapidresponse-drug"
         private static let allTopicTitles: [String] = {
-            let titles = (OrganSystem.allSystems.flatMap(\.topics) + SymptomSystem.allSystems.flatMap(\.topics))
+            let titles = OrganSystem.allSystems.flatMap(\.topics)
                 .map(\.title)
             return Array(Set(titles)).sorted { lhs, rhs in
                 if lhs.count == rhs.count { return lhs < rhs }
@@ -445,26 +455,35 @@ struct SectionContentView: View {
         private var segments: [Segment] {
             var result: [Segment] = []
             var remaining = text
-            let pattern = #"\[([^\]]+)\]\((https?://[^\)]+)\)"#
+            // Matches http links AND __display|tooltip__ markers
+            let pattern = #"\[([^\]]+)\]\((https?://[^\)]+)\)|__([^|_]+)\|([^_]+)__"#
             guard let regex = try? NSRegularExpression(pattern: pattern) else {
-                return [Segment(text: text, url: nil, topicTitle: nil)]
+                return [Segment(text: text, url: nil, topicTitle: nil, tooltipContent: nil)]
             }
             while !remaining.isEmpty {
                 let range = NSRange(remaining.startIndex..., in: remaining)
                 if let match = regex.firstMatch(in: remaining, range: range),
-                   let labelRange = Range(match.range(at: 1), in: remaining),
-                   let urlRange   = Range(match.range(at: 2), in: remaining),
-                   let fullRange  = Range(match.range,        in: remaining) {
+                   let fullRange = Range(match.range, in: remaining) {
                     let before = String(remaining[remaining.startIndex ..< fullRange.lowerBound])
                     if !before.isEmpty {
-                        result.append(contentsOf: Self.topicSegments(in: before))
+                        result.append(contentsOf: applyDrugMatching(Self.topicSegments(in: before, excluding: excludedTopicTitle)))
                     }
-                    let label  = String(remaining[labelRange])
-                    let urlStr = String(remaining[urlRange])
-                    result.append(Segment(text: label, url: URL(string: urlStr), topicTitle: nil))
+                    if let labelRange = Range(match.range(at: 1), in: remaining),
+                       let urlRange   = Range(match.range(at: 2), in: remaining) {
+                        // HTTP link
+                        let label  = String(remaining[labelRange])
+                        let urlStr = String(remaining[urlRange])
+                        result.append(Segment(text: label, url: URL(string: urlStr), topicTitle: nil, tooltipContent: nil))
+                    } else if let displayRange = Range(match.range(at: 3), in: remaining),
+                              let contentRange = Range(match.range(at: 4), in: remaining) {
+                        // Tooltip: __display text|tooltip content__
+                        let display = String(remaining[displayRange])
+                        let content = String(remaining[contentRange])
+                        result.append(Segment(text: display, url: nil, topicTitle: nil, tooltipContent: content))
+                    }
                     remaining = String(remaining[fullRange.upperBound...])
                 } else {
-                    result.append(contentsOf: Self.topicSegments(in: remaining))
+                    result.append(contentsOf: applyDrugMatching(Self.topicSegments(in: remaining, excluding: excludedTopicTitle)))
                     break
                 }
             }
@@ -488,7 +507,21 @@ struct SectionContentView: View {
 
             return AnyView(
             segments.reduce(Text("")) { accumulated, segment in
-                if let linkURL = segment.url ?? Self.topicURL(for: segment.topicTitle) {
+                if let name = segment.drugName,
+                   let drugURL = Self.drugURL(for: name) {
+                    var attributed = AttributedString(segment.text)
+                    attributed.link = drugURL
+                    attributed.foregroundColor = Color.rrCheckmarkGreen
+                    attributed.underlineStyle = .single
+                    return Text("\(accumulated)\(Text(attributed))")
+                } else if let content = segment.tooltipContent,
+                   let tooltipURL = Self.tooltipURL(for: content) {
+                    var attributed = AttributedString(segment.text)
+                    attributed.link = tooltipURL
+                    attributed.foregroundColor = Color.primary
+                    attributed.underlineStyle = .single
+                    return Text("\(accumulated)\(Text(attributed))")
+                } else if let linkURL = segment.url ?? Self.topicURL(for: segment.topicTitle) {
                     var attributed = AttributedString(segment.text)
                     attributed.link = linkURL
                     attributed.foregroundColor = Color.rrDarkAccentText
@@ -499,37 +532,50 @@ struct SectionContentView: View {
                 }
             }
             .environment(\.openURL, OpenURLAction { url in
+                if url.scheme == Self.drugURLScheme {
+                    if let name = Self.drugNameFromURL(url),
+                       let drug = drugLookup[name] {
+                        selectedDrug = drug
+                    }
+                    return .handled
+                }
+                if url.scheme == Self.tooltipURLScheme {
+                    tooltipText = Self.tooltipContentFromURL(url)
+                    return .handled
+                }
                 guard url.scheme == Self.topicURLScheme else {
                     return .systemAction(url)
                 }
-
                 guard
                     let title = Self.topicTitle(from: url),
                     let topic = SectionContentView.findTopic(titled: title)
                 else {
                     return .discarded
                 }
-
                 selectedTopic = topic
                 return .handled
             })
-            .background(
-                NavigationLink(
-                    isActive: Binding(
-                        get: { selectedTopic != nil },
-                        set: { isActive in
-                            if !isActive { selectedTopic = nil }
-                        }
-                    )
-                ) {
-                    if let selectedTopic {
-                        TopicDetailView(topic: selectedTopic)
-                    }
-                } label: {
-                    EmptyView()
+            .navigationDestination(isPresented: Binding(
+                get: { selectedTopic != nil },
+                set: { if !$0 { selectedTopic = nil } }
+            )) {
+                if let topic = selectedTopic {
+                    TopicDetailView(topic: topic)
                 }
-                .hidden()
-            )
+            }
+            .sheet(isPresented: Binding(
+                get: { tooltipText != nil },
+                set: { if !$0 { tooltipText = nil } }
+            )) {
+                TooltipSheetView(heading: "", detail: tooltipText ?? "")
+                    .presentationDetents([PresentationDetent.medium, PresentationDetent.large])
+                    .presentationDragIndicator(Visibility.visible)
+            }
+            .sheet(item: $selectedDrug) { drug in
+                DrugDetailSheetView(drug: drug)
+                    .presentationDetents([PresentationDetent.medium, PresentationDetent.large])
+                    .presentationDragIndicator(Visibility.visible)
+            }
             )
         }
 
@@ -577,7 +623,7 @@ struct SectionContentView: View {
             return (normalizedCitation, fallbackURL)
         }
 
-        private static func topicSegments(in rawText: String) -> [Segment] {
+        private static func topicSegments(in rawText: String, excluding excludedTitle: String? = nil) -> [Segment] {
             guard !rawText.isEmpty else { return [] }
 
             var segments: [Segment] = []
@@ -587,6 +633,8 @@ struct SectionContentView: View {
                 var bestMatch: (range: Range<String.Index>, title: String)?
 
                 for title in allTopicTitles {
+                    if let excluded = excludedTitle,
+                       title.lowercased() == excluded.lowercased() { continue }
                     guard
                         let range = rawText.range(
                             of: title,
@@ -609,7 +657,7 @@ struct SectionContentView: View {
                 }
 
                 guard let bestMatch else {
-                    segments.append(Segment(text: String(rawText[cursor...]), url: nil, topicTitle: nil))
+                    segments.append(Segment(text: String(rawText[cursor...]), url: nil, topicTitle: nil, tooltipContent: nil))
                     break
                 }
 
@@ -618,7 +666,8 @@ struct SectionContentView: View {
                         Segment(
                             text: String(rawText[cursor..<bestMatch.range.lowerBound]),
                             url: nil,
-                            topicTitle: nil
+                            topicTitle: nil,
+                            tooltipContent: nil
                         )
                     )
                 }
@@ -627,7 +676,8 @@ struct SectionContentView: View {
                     Segment(
                         text: String(rawText[bestMatch.range]),
                         url: nil,
-                        topicTitle: bestMatch.title
+                        topicTitle: bestMatch.title,
+                        tooltipContent: nil
                     )
                 )
                 cursor = bestMatch.range.upperBound
@@ -670,6 +720,198 @@ struct SectionContentView: View {
                 .queryItems?
                 .first(where: { $0.name == "title" })?
                 .value
+        }
+
+        // Applies drug name detection to any plain-text (non-link) segment.
+        private func applyDrugMatching(_ segs: [Segment]) -> [Segment] {
+            guard !drugLookup.isEmpty else { return segs }
+            return segs.flatMap { seg -> [Segment] in
+                guard seg.url == nil, seg.topicTitle == nil,
+                      seg.tooltipContent == nil, seg.drugName == nil else {
+                    return [seg]
+                }
+                return Self.drugSegments(in: seg.text, lookup: drugLookup)
+            }
+        }
+
+        private static func drugSegments(in rawText: String, lookup: [String: DrugEntry]) -> [Segment] {
+            guard !rawText.isEmpty, !lookup.isEmpty else {
+                return rawText.isEmpty ? [] : [Segment(text: rawText)]
+            }
+            let sortedKeys = lookup.keys.sorted { $0.count > $1.count }
+            var segments: [Segment] = []
+            var cursor = rawText.startIndex
+
+            while cursor < rawText.endIndex {
+                var bestMatch: (range: Range<String.Index>, key: String)?
+                for key in sortedKeys {
+                    guard let range = rawText.range(
+                        of: key,
+                        options: [.caseInsensitive, .diacriticInsensitive],
+                        range: cursor..<rawText.endIndex
+                    ), isValidTopicBoundary(in: rawText, range: range) else { continue }
+
+                    if let best = bestMatch {
+                        if range.lowerBound < best.range.lowerBound ||
+                           (range.lowerBound == best.range.lowerBound && key.count > best.key.count) {
+                            bestMatch = (range, key)
+                        }
+                    } else {
+                        bestMatch = (range, key)
+                    }
+                }
+                guard let bestMatch else {
+                    segments.append(Segment(text: String(rawText[cursor...])))
+                    break
+                }
+                if cursor < bestMatch.range.lowerBound {
+                    segments.append(Segment(text: String(rawText[cursor..<bestMatch.range.lowerBound])))
+                }
+                segments.append(Segment(text: String(rawText[bestMatch.range]), drugName: bestMatch.key))
+                cursor = bestMatch.range.upperBound
+            }
+            return segments
+        }
+
+        private static func drugURL(for name: String) -> URL? {
+            var components = URLComponents()
+            components.scheme = drugURLScheme
+            components.host = "show"
+            components.queryItems = [URLQueryItem(name: "drug", value: name)]
+            return components.url
+        }
+
+        private static func drugNameFromURL(_ url: URL) -> String? {
+            URLComponents(url: url, resolvingAgainstBaseURL: false)?
+                .queryItems?
+                .first(where: { $0.name == "drug" })?
+                .value
+        }
+
+        private static func tooltipURL(for content: String) -> URL? {
+            var components = URLComponents()
+            components.scheme = tooltipURLScheme
+            components.host = "show"
+            components.queryItems = [URLQueryItem(name: "content", value: content)]
+            return components.url
+        }
+
+        private static func tooltipContentFromURL(_ url: URL) -> String? {
+            URLComponents(url: url, resolvingAgainstBaseURL: false)?
+                .queryItems?
+                .first(where: { $0.name == "content" })?
+                .value
+        }
+    }
+}
+
+// MARK: - Tooltip sheet
+
+private struct TooltipSheetView: View {
+    let heading: String
+    let detail: String
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
+                    if !heading.isEmpty {
+                        Text(heading)
+                            .font(.title3.weight(.bold))
+                            .foregroundColor(.primary)
+                            .fixedSize(horizontal: false, vertical: true)
+                        Divider()
+                    }
+                    Text(detail)
+                        .font(.body)
+                        .foregroundColor(.primary)
+                        .multilineTextAlignment(.leading)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .padding(20)
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Done") { dismiss() }
+                        .fontWeight(.semibold)
+                }
+            }
+            .background(Color(.systemBackground))
+        }
+    }
+}
+
+// MARK: - Drug detail popup sheet
+
+private struct DrugDetailSheetView: View {
+    let drug: DrugEntry
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    Text(drug.name)
+                        .font(.title3.weight(.bold))
+                        .foregroundColor(.primary)
+                        .fixedSize(horizontal: false, vertical: true)
+
+                    Divider()
+
+                    VStack(alignment: .leading, spacing: 6) {
+                        Label("Dose / Route", systemImage: "syringe")
+                            .font(.caption.weight(.semibold))
+                            .foregroundColor(.secondary)
+                        HStack(alignment: .top, spacing: 0) {
+                            SectionContentView.formattedText(drug.dose)
+                                .font(.body)
+                            if !drug.route.isEmpty {
+                                Text(" · \(drug.route)")
+                                    .font(.body.weight(.medium))
+                                    .foregroundColor(Color.rrCheckmarkGreen)
+                            }
+                        }
+                        .fixedSize(horizontal: false, vertical: true)
+                    }
+
+                    if !drug.contraindications.isEmpty {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Label("Contraindications", systemImage: "exclamationmark.circle")
+                                .font(.caption.weight(.semibold))
+                                .foregroundColor(.secondary)
+                            SectionContentView.formattedText(drug.contraindications)
+                                .font(.body)
+                                .foregroundColor(.red.opacity(0.85))
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                    }
+
+                    if !drug.notes.isEmpty {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Label("Notes", systemImage: "note.text")
+                                .font(.caption.weight(.semibold))
+                                .foregroundColor(.secondary)
+                            SectionContentView.formattedText(drug.notes)
+                                .font(.body)
+                                .foregroundColor(.primary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                    }
+                }
+                .padding(20)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Done") { dismiss() }
+                        .fontWeight(.semibold)
+                }
+            }
+            .background(Color(.systemBackground))
         }
     }
 }
