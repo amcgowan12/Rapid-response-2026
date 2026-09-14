@@ -1453,19 +1453,19 @@
             "items": [
               "CHECK NOW",
               "-**Labs:** CSF (elevated protein, normal cells), CBC, BMP, anti-ganglioside Ab (GQ1b, GM1), NCS referral",
+              "-**Basic labs:** BMP (lytes, Cr), CBC, LFTs, CK, ESR/CRP, TSH. Stool culture for Campylobacter. HIV, Lyme if risk factors",
+              "-**ABG/VBG:** If respiratory distress or declining FVC: rising PaCO2 is late finding, do NOT rely on gas alone",
               "-**Orders:** IV access, continuous SpO2 (NIF q4-6h \u2014 intubate if NIF < -25 cmH2O), Foley (autonomic dysfunction), telemetry, neurology consult",
               "Measure FVC & NIF at bedside: repeat q4-6h (q2h if declining). Trend > single value",
-              "Step 1: prevent respiratory failure: Trend FVC & NIF closely, repeat airway exams, involve RT early, & move to ICU or intubation based on trajectory not waiting for a late gas change.",
-              "Step 2: start diseasedirected thetherapy: Start IVIG or PLEX early once GBS is strongly suspected;don't wait for LP/EMG. Choose one modality based on access, hemodynamics, renal function, & local resources; combined IVIG + PLEX is not routinely beneficial.",
-              "Step 3: supportive & autonomic care: Use telemetry & frequent BP monitoring, give DVT prophylaxis, manage neuropathic pain, monitor swallowing/nutrition, prevent pressure injuries, & avoid succinylcholine or delays in thetherapy.",
+              "**Step 1**: prevent respiratory failure: Trend FVC & NIF closely, repeat airway exams, involve RT early, & move to ICU or intubation based on trajectory not waiting for a late gas change.",
+              "**Step 2**: start diseasedirected thetherapy: Start IVIG or PLEX early once GBS is strongly suspected;don't wait for LP/EMG. Choose one modality based on access, hemodynamics, renal function, & local resources; combined IVIG + PLEX is not routinely beneficial.",
+              "**Step 3**: supportive & autonomic care: Use telemetry & frequent BP monitoring, give DVT prophylaxis, manage neuropathic pain, monitor swallowing/nutrition, prevent pressure injuries, & avoid succinylcholine or delays in thetherapy.",
               "**FVC (forced vital capacity):** Most important test. Measure q4-6h (q2h if declining). Trend > single value. <20 mL/kg = ICU. <15 mL/kg = consider intubation. <10 mL/kg = strong indication for intubation",
               "**NIF (negative insp force):** < \u221230 cmH2O = concerning. < \u221220 cmH2O = intubation likely. Trend alongside FVC",
               "**LP:** Albuminocytologic dissociation: \u2191 protein (>45), WBC <10. May be nl. in first week (80-90% sens after wk 1). >50 WBC: consider HIV, Lyme, sarcoid, lymphoma",
               "**EMG/NCS:** Confirms dx & subtype (demyelinating vs axonal). May be nl. <1-2 wks after onset. nl. study >1-2 wks postonset argues against GBS",
               "**MRI spine:** Selective enhancement of anterior spinal nerve roots is suggestive. Also r/o cord compression",
               "**Antiganglioside antibodies:** AntiGQ1b (MillerFisher), antiGM1 (AMAN). Not required for dx but can help with subtyping",
-              "**Basic labs:** BMP (lytes, Cr), CBC, LFTs, CK, ESR/CRP, TSH. Stool culture for Campylobacter. HIV, Lyme if risk factors",
-              "**ABG/VBG:** If respiratory distress or declining FVC: rising PaCO2 is late finding, do NOT rely on gas alone",
               "**Telemetry:** cardiac monitoring: dysautonomia causes \u2193 HR, tachycardia, asystole",
               "**EtCO2:** If available: rising trend with declining FVC suggests impending resp failure"
             ]
@@ -1796,27 +1796,35 @@
             "title": "The First 60 Seconds",
             "type": "steps",
             "items": [
-              "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
-              "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
-              "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
-              "Start O2 now: NRB 15 L/min if in distress",
-              "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) \u2192 NIPPV \u2192 intubation",
-              "Circulation: HR, BP, perfusion; \u2193BP, then tension PTX, PE, or cardiogenic shock",
-              "Put on cardiac monitor",
-              "Check fingerstick glucose."
+              "!!Check fingerstick glucose",
+              "Airway: patent? suction if secretions/vomit; jaw thrust if obstructed",
+              "-If rapidly declining, can\u2019t protect airway, or GCS falling: !!call ICU + anesthesia now!!, prepare for intubation",
+              "Breathing: RR, SpO2 (good pleth?), WOB \u2014 !!normal SpO2 does NOT exclude hypercarbia!!",
+              "-Get VBG/ABG in any obtunded patient or suspected CO2 retention",
+              "Circulation: HR, BP, perfusion; severely hypertensive or shock? Arrhythmia on monitor?",
+              "Put on cardiac monitor now",
+              "Temperature: fever \u2192 infection/NMS/serotonin syndrome; hypothermia \u2192 myxedema/toxin/exposure",
+              "Pupils: anisocoria, pinpoint (opioid), mydriasis (anticholinergic/sympathomimetic)",
+              "Rapid focal neuro exam: gaze deviation, facial asymmetry, unilateral weakness, aphasia \u2192 !!stroke protocol!!",
+              "Seizure clues: rhythmic twitching, eyelid flutter, gaze deviation, unexplained staring",
+              "!!MAR review now!!: opioids, sedatives, anticholinergics, cefepime, baclofen, gabapentinoids",
+              "Bedside sequence: !!Glucose \u2192 O2/ventilation \u2192 pupils \u2192 focal neuro \u2192 vitals/temp \u2192 MAR \u2192 bladder scan!!"
             ]
           },
           {
             "title": "Chart Check / Hx.",
             "type": "bullets",
             "items": [
-              "Reason for admission & relevant comorbidities",
-              "Baseline mentation & last known nl.",
-              "Acuity of change: acute onset vs. gradual worsening",
-              "Current IV access",
-              "Recent pain, surgeries, open wounds, trauma",
-              "Urinary or bowel retention?",
-              "MAR review: insulin, benzos, opioids, steroids, anticholinergics, antihistamines, antihypertensives, AEDs, dopaminergics, digoxin, lithium, ASA, OTCs, antibiotics (cefepime, cephalosporins, PCNs, fluoroquinolones)"
+              "!!What changed in the last 24\u201372 hours?!! \u2014 the cause is usually here",
+              "Baseline mentation from family \u2014 'new vs. baseline' is everything",
+              "**Acuity**: sudden onset \u2192 structural/vascular; hours \u2192 metabolic/toxic/infection; days \u2192 subacute",
+              "!!Review the MAR yourself!!: every medication given in prior 48\u201372h; cross-reference renal/hepatic function",
+              "**Chronic med changes**: dose changes, new starts, abrupt stops (benzos, baclofen, clonidine, opioids, dopaminergics)",
+              "**Urinary retention**: common, reversible delirium trigger \u2014 bladder scan early",
+              "**Constipation**: common in elderly + dementia",
+              "**Pain, sleep deprivation**: common hospital precipitants",
+              "**Nutritional status**: malnutrition, NPO, bariatric surgery, alcohol \u2192 Wernicke risk",
+              "Alcohol, benzo, baclofen, opioid, clonidine use \u2014 withdrawal can begin within hours of admission"
             ]
           },
           {
@@ -1824,34 +1832,64 @@
             "type": "keyValue",
             "pairs": [
               {
-                "key": "Metabolic",
-                "value": "\u2193 Glucose, DKA, hypo/hypernatremia, hypocalcemia, uremia, hepatic encephalopathy, Wernicke's, thyroid/adrenal, hypercarbia"
+                "key": "AMS Is a Syndrome",
+                "value": "Not a diagnosis \u2014 usually multifactorial. Identify immediately reversible threats (glucose, opioids, seizure, herniation) while building the full picture."
               },
               {
-                "key": "Hypoxia/Hypercarbia",
-                "value": "SpO2 <88% on 15L NRB \u2192 start HFNC. PaCO2 >45 \u2192 start BiPAP. pH <7.25 \u2192 likely tiring. Volume overload \u2192 Bumex 1-2mg IV"
-              },
-              {
-                "key": "Infection",
-                "value": "Sepsis, meningitis, encephalitis, UTI, pneumonia, bacteremia, brain abscess, cerebral malaria, syphilis",
-                "topicLink": "Sepsis & Septic Shock"
-              },
-              {
-                "key": "Structural",
-                "value": "Ischemic stroke (call stroke alert if focal deficits), hemorrhagic stroke, SDH, CNS tumor/edema, hydrocephalus, SAH, posterior circulation stroke, diffuse axonal injury",
+                "key": "1. Neurologic",
+                "value": "Ischemic stroke, ICH, SDH, SAH, seizure/NCSE, postictal, meningitis, encephalitis, PRES, CVST, hydrocephalus. !!Focal deficit \u2192 stroke alert immediately!!",
                 "topicLink": "Acute Ischemic Stroke"
               },
               {
-                "key": "Seizure/Postictal",
-                "value": "Convulsive vs non-convulsive, ongoing vs terminated, new vs known disorder"
+                "key": "2. Respiratory / Circulatory",
+                "value": "Hypoxemia, hypercapnia (!!CO2 narcosis with normal SpO2!!), shock, hypertensive emergency, low cardiac output"
               },
               {
-                "key": "Toxic",
-                "value": "Opioids, alcohol, benzodiazepines, anticholinergics, sympathomimetics (cocaine, amphetamines), CO poisoning (cherry red skin)"
+                "key": "3. Metabolic",
+                "value": "Hypo/hypernatremia, hypocalcemia, hypoglycemia, hyperglycemia, Mg, phosphate, acid-base disorders, uremia, hepatic failure, thyroid/adrenal disease"
               },
               {
-                "key": "Zebras",
-                "value": "HIV, Lyme, syphilis, anti-NMDA encephalitis, sarcoid, Wilson's, B1/B3/B12 deficiency, PRES (tacrolimus/cyclosporine, checkpoint inhibitors), adrenal insufficiency, porphyria, HTN encephalopathy, thyroid storm, pheochromocytoma"
+                "key": "4. Infection / Inflammation",
+                "value": "Sepsis, pneumonia, abdominal infection, CNS infection, autoimmune encephalitis. !!Bacteriuria \u2260 UTI!! \u2014 delirium + bacteriuria without urinary sx \u2192 search for another cause first",
+                "topicLink": "Sepsis & Septic Shock"
+              },
+              {
+                "key": "5. Drugs / Toxins",
+                "value": "Opioids, benzodiazepines, anticholinergics, cefepime, baclofen, gabapentinoids, lithium, valproate, alcohol, CO. !!Most common reversible cause in hospitalized adults!! \u2014 review the MAR personally"
+              },
+              {
+                "key": "6. Withdrawal",
+                "value": "Alcohol (onset 6\u201324h), benzos, baclofen, clonidine, opioids, dopaminergic drugs. !!Ask specifically about home use on admission!!"
+              },
+              {
+                "key": "7. Hospital / Environment",
+                "value": "Pain, urinary retention, constipation, sleep deprivation, immobility, restraints, dehydration, sensory deprivation \u2014 multiple simultaneous insults are the rule in older patients with delirium"
+              }
+            ]
+          },
+          {
+            "title": "Bedside Exam",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Mental Status \u2014 Beyond A&O x3",
+                "value": "Assess: arousal, !!attention!! (months backward, digit span \u2014 centerpiece of delirium), commands, language, fluctuation, hallucinations. Motor phenotype: hyperactive, hypoactive, or mixed."
+              },
+              {
+                "key": "Hypoactive Delirium \u2014 Easy to Miss",
+                "value": "The quiet, staring, not-eating patient may have worse delirium than the one climbing out of bed. Inattention and fluctuation are more useful than orientation questions."
+              },
+              {
+                "key": "Neurologic Exam",
+                "value": "Pupils, gaze deviation, facial asymmetry, pronator drift, weakness, aphasia, dysarthria, neglect, cerebellar signs, rigidity/clonus, !!asterixis!! (uremia, hypercapnia, toxic-metabolic \u2014 not just hepatic), myoclonus"
+              },
+              {
+                "key": "Commonly Skipped",
+                "value": "!!Bladder scan!! \u2014 retention is common and treatable. Also: medication patches, skin, lines/drains, neck for meningismus, oxygen delivery device"
+              },
+              {
+                "key": "Seizure Clues",
+                "value": "Rhythmic finger or facial twitching, nystagmus, repetitive chewing, gaze deviation, pupillary fluctuations, waxing/waning responsiveness. !!Do not call someone \u2018postictal for 18h\u2019 without reconsidering ongoing NCSE!!"
               }
             ]
           },
@@ -1860,15 +1898,123 @@
             "type": "steps",
             "items": [
               "CHECK NOW",
-              "-Labs: CBC w/ diff, BMP, LFTs, lactate, TSH, cortisol, ammonia",
-              "POC glucose immediately",
-              "iStat: VBG, Hb, Na, Ca, K",
-              "UA & urine culture, bladder scan",
-              "BCxs x2, CXR",
-              "Toxicology screen & drug levels (lithium, ASA, AEDs)",
-              "CT head \u2014 consider CTA head/neck if stroke suspected",
-              "LP if meningitis/encephalitis suspected",
-              "EEG if seizure suspected or unexplained AMS"
+              "-!!Fingerstick glucose immediately!! \u2014 every patient, every time",
+              "--Stat labs: CBC, BMP/CMP, Mg, phosphate, LFTs, VBG, ECG",
+              "-Add selectively (not reflexively): blood cultures/lactate, TSH, cortisol, ammonia (specific contexts), tox screen, CK, serum osmolality",
+              "-!!VBG/ABG!! if any concern for hypoventilation or hypercapnia \u2014 normal SpO2 does not exclude CO2 narcosis",
+              "-!!Bladder scan!! \u2014 urinary retention is common and treatable",
+              "-!!Review the MAR!!: prior 48\u201372h, cross-reference with current renal and hepatic function",
+              "**If hypoglycemia**: D50 25 g IV push or D10 100\u2013250 mL; recheck in 15 min. No IV access: glucagon 1 mg IM",
+              "**If opioid toxicity (hypoventilating)**: naloxone 0.04 mg IV in opioid-dependent patients (titrate); 0.4 mg IV/IM/IN otherwise. Repeat q2\u20133 min PRN. Goal: adequate ventilation, not full arousal",
+              "**If active seizure**: lorazepam 0.1 mg/kg IV (max 4 mg); may repeat once. Move to institutional SE pathway",
+              "**If Wernicke suspected (alcohol, malnutrition, bariatric, hyperemesis)**: !!thiamine 500 mg IV q8h x 3 days!!. Do not wait for the classic triad",
+              "**If meningitis/encephalitis suspected**: cultures/LP when feasible but !!do NOT delay antibiotics!!. Add acyclovir if HSV is reasonably suspected",
+              "**Imaging**",
+              "**CT head**: focal neurologic deficit, abrupt severe AMS, trauma/anticoagulation, new seizure, severe headache, malignancy, immunosuppression, persistently unexplained encephalopathy",
+              "-!!Normal CT does NOT rule out neurologic disease!! \u2014 misses small/posterior stroke, encephalitis, PRES, CVST, hypoxic injury. Consider MRI if substantial encephalopathy persists after unrevealing CT",
+              "EEG when: unexplained persistent AMS, not improving after presumed seizure, recurrent fluctuations, twitching/myoclonus/eyelid flutter, cefepime exposure, prior epilepsy. !!NCSE in 8\u201330% of selected unexplained AMS cases!!",
+              "**LP when**: fever + encephalopathy, meningismus, new seizures, immunocompromised, suspected HSV, subacute behavioral change with neuro findings. Do not require meningismus to consider CNS infection in elderly/immunosuppressed"
+            ]
+          },
+          {
+            "title": "Medication-Induced Encephalopathy",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Review the MAR Yourself",
+                "value": "Review every medication given in the prior 48\u201372h, including PRNs. Cross-reference with current renal and hepatic function."
+              },
+              {
+                "key": "Opioids / Benzodiazepines",
+                "value": "Opioids \u2192 sedation, hypoventilation, myoclonus. Benzos \u2192 delirium, respiratory depression. Both accumulate with renal/hepatic impairment."
+              },
+              {
+                "key": "Anticholinergics",
+                "value": "Diphenhydramine, hydroxyzine, oxybutynin, tolterodine, TCAs, muscle relaxants \u2014 classic anticholinergic delirium. Particularly problematic in older adults."
+              },
+              {
+                "key": "!!Cefepime Neurotoxicity!!",
+                "value": "AMS 93%, myoclonus 37%, NCSE ~28%. Almost always with renal dysfunction; onset ~4 days. Stop or dose-reduce, obtain EEG, consider dialysis in severe cases."
+              },
+              {
+                "key": "!!Baclofen!!",
+                "value": "Even low doses cause severe encephalopathy when renal clearance falls. GFR <30 \u2192 unpredictably prolonged half-life. Abrupt withdrawal also dangerous (seizures)."
+              },
+              {
+                "key": "!!Gabapentin / Pregabalin!!",
+                "value": "Renally eliminated. AKI + gabapentin + confusion/myoclonus = drug accumulation until proven otherwise."
+              },
+              {
+                "key": "Valproate-Associated Hyperammonemia",
+                "value": "Confusion \u00b1 vomiting \u00b1 ataxia \u00b1 worsening seizures on valproate \u2192 check ammonia. Occurs without hepatic failure. Hold/reduce valproate; consider levocarnitine in severe toxicity."
+              },
+              {
+                "key": "Other Notable Culprits",
+                "value": "Zolpidem, steroids (mania/psychosis), fluoroquinolones (neuropsychiatric), lithium (toxicity even at therapeutic levels), dopaminergic drugs (hallucinations; withdrawal also dangerous)"
+              }
+            ]
+          },
+          {
+            "title": "Specific Encephalopathy Syndromes",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Wernicke \u2014 Treat Before You Prove It",
+                "value": "Do not require the classic triad \u2014 it is insensitive. Risk: alcohol use disorder, malnutrition, bariatric surgery, hyperemesis, cancer, prolonged poor intake, dialysis. !!Thiamine 500 mg IV TID x 3 days!!, then taper. Replace magnesium \u2014 thiamine-dependent enzymes require it."
+              },
+              {
+                "key": "Hepatic Encephalopathy \u2014 Don\u2019t Treat the Ammonia Number",
+                "value": "HE is a clinical diagnosis. !!Elevated ammonia does NOT prove HE!!, does NOT grade severity reliably, and serial levels generally do NOT guide treatment (AASLD). Treat the precipitant: GI bleed, infection, constipation, dehydration, AKI, excessive diuresis, sedatives/opioids. Don\u2019t label every confused cirrhotic as \u2018HE\u2019 \u2014 they can have stroke, meningitis, hypercapnia, drug toxicity, or SDH."
+              },
+              {
+                "key": "Hypercapnic Encephalopathy \u2014 Easy to Miss",
+                "value": "!!SpO2 can be 96% with PaCO2 80 mmHg!!. Suspect in COPD, obesity hypoventilation, OSA, neuromuscular weakness, opioids/sedatives, excess O2 in CO2 retainer. Get VBG. NIV if airway protected; ICU if worsening or NIV failing."
+              },
+              {
+                "key": "NCSE \u2014 Don't Accept 'Postictal'",
+                "value": "NCSE in 8\u201330% of selected unexplained AMS. !!Do not call someone postictal for 18h without reconsidering ongoing NCSE!!. Clues: rhythmic twitching, nystagmus, chewing, gaze deviation, waxing/waning consciousness. Lower EEG threshold as the explanation weakens."
+              },
+              {
+                "key": "Catatonia \u2014 The Masquerader",
+                "value": "Mutism, staring, immobility, posturing, waxy flexibility, refusal to eat, unexplained rigidity. !!Avoid escalating antipsychotics \u2014 can worsen and precipitate NMS!!. Lorazepam 1\u20132 mg IV challenge supports diagnosis. Involve psychiatry/neurology."
+              }
+            ]
+          },
+          {
+            "title": "Delirium: Assessment and Management",
+            "type": "keyValue",
+            "pairs": [
+              {
+                "key": "Fix the Cause First",
+                "value": "Pain, hypoxia/hypercapnia, urinary retention, constipation, withdrawal, sensory impairment, sleep deprivation, unnecessary restraints/lines."
+              },
+              {
+                "key": "Antipsychotics \u2014 Not Proven to Shorten Delirium",
+                "value": "SCCM PADIS 2025: evidence insufficient to recommend antipsychotics over usual care for delirium. Reserve for: pulling critical devices, attacking staff, or severe psychotic distress. !!Reassess before stacking doses!!. Check QTc."
+              },
+              {
+                "key": "Dexmedetomidine (ICU)",
+                "value": "SCCM 2025 favors dexmedetomidine over propofol for light sedation when reducing delirium is a priority. Infusion: 0.2\u20130.7 mcg/kg/hr. Watch for bradycardia/hypotension. Onset too slow for acute violent behavior."
+              }
+            ]
+          },
+          {
+            "title": "When to Escalate to ICU",
+            "type": "bullets",
+            "items": [
+              "Inability to protect airway",
+              "Rapidly declining consciousness or GCS",
+              "Hypercapnic or hypoxic respiratory failure",
+              "Status epilepticus or NCSE requiring continuous treatment",
+              "New focal neurologic deficit or stroke syndrome",
+              "Suspected increased ICP or herniation",
+              "Severe agitation requiring continuous IV sedation",
+              "Severe alcohol or benzodiazepine withdrawal",
+              "Meningitis/encephalitis with deterioration",
+              "Shock of any etiology",
+              "Severe hyponatremia (<120) requiring close correction",
+              "NMS/serotonin syndrome/malignant catatonia",
+              "Severe toxic ingestion or acute hyperammonemia with seizure"
             ]
           },
           {
@@ -1877,142 +2023,129 @@
             "drugs": [
               {
                 "name": "Dextrose (D50)",
-                "dose": "25 g IV",
+                "dose": "25 g IV push; D10 100\u2013250 mL as gentler alternative",
                 "route": "IV",
-                "contraindications": "Hyperglycemia without insulin coverage; extravasation risk",
-                "notes": "Hypoglycemia or high suspicion with delayed glucose result."
+                "contraindications": "Extravasation causes tissue necrosis \u2014 confirm good IV before pushing D50",
+                "notes": "Hypoglycemia or high clinical suspicion. D10 is safer peripherally and avoids rebound spikes. Recheck in 15 min."
               },
               {
                 "name": "Thiamine",
-                "dose": "100-500 mg IV",
+                "dose": "Wernicke suspected: 500 mg IV TID x 3 days, then 200\u2013500 mg IV daily. Empiric/prophylactic: 100 mg IV",
                 "route": "IV",
-                "contraindications": "Hypersensitivity to thiamine; IV/IM administration can rarely cause anaphylaxis",
-                "notes": "Give early if malnutrition, alcoholism, or c/f Wernicke encephalopathy; ideally before glucose if feasible."
+                "contraindications": "Hypersensitivity (rare anaphylaxis with IV/IM)",
+                "notes": "Give in all patients with alcohol use disorder, malnutrition, bariatric surgery, hyperemesis, or prolonged poor intake. Do not wait for the classic triad. Also replace magnesium \u2014 thiamine-dependent enzymes require it."
+              },
+              {
+                "name": "Haloperidol",
+                "dose": "Frail/elderly: 0.5\u20131 mg PO/IM; typical adult: 1\u20132 mg. Reassess before stacking",
+                "route": "PO/IM/IV",
+                "contraindications": "Parkinsonism/Lewy body dementia (can precipitate severe EPS), QTc >500 ms",
+                "notes": "First-line IV/IM for agitation. Highest QTc risk. Check QTc and electrolytes. Reassess before redosing."
+              },
+              {
+                "name": "Olanzapine",
+                "dose": "2.5\u20135 mg PO/ODT/IM",
+                "route": "PO/ODT/IM",
+                "contraindications": "QTc prolongation, NMS history, caution in elderly and DM",
+                "notes": "Useful when EPS is a concern. !!Do NOT combine IM olanzapine with IV/IM benzodiazepines!! \u2014 risk of cardiorespiratory depression."
+              },
+              {
+                "name": "Quetiapine",
+                "dose": "12.5\u201325 mg PO q6h PRN",
+                "route": "PO",
+                "contraindications": "QTc prolongation, NMS history, caution in elderly",
+                "notes": "Oral only. Favored when parkinsonism/EPS is a concern. Lowest QTc risk among antipsychotics."
+              },
+              {
+                "name": "Aripiprazole",
+                "dose": "2\u20135 mg PO/IM",
+                "route": "PO/IM",
+                "contraindications": "NMS history; caution in seizure disorders",
+                "notes": "Lowest QTc risk. Use if QTc >500 or multiple QTc-prolonging agents present."
+              },
+              {
+                "name": "Dexmedetomidine",
+                "dose": "0.2\u20130.7 mcg/kg/hr IV infusion; avoid loading dose in unstable patients",
+                "route": "IV",
+                "contraindications": "Severe bradycardia, high-degree AV block without pacing, severe hypotension",
+                "notes": "ICU use: preferred when agitation prevents ventilator weaning/extubation (SCCM 2025). Watch for bradycardia and hypotension. Not for acute violent behavior \u2014 onset too slow."
               },
               {
                 "name": "Naloxone",
-                "dose": "0.04-0.4 mg IV, titrate; repeat q2-3 min PRN",
+                "dose": "Opioid-dependent + hypoventilating: 0.04 mg IV, titrate. Otherwise: 0.4 mg IV/IM/IN. Repeat q2\u20133 min PRN",
                 "route": "IV/IM/IN",
-                "contraindications": "Opioid-dependent patients (precipitates withdrawal); caution in post-op pain management",
-                "notes": "Opioid toxicity with hypoventilation; titrate to ventilation, not full arousal."
+                "contraindications": "Precipitates acute withdrawal in opioid-dependent patients",
+                "notes": "Titrate to adequate ventilation, not full arousal. Shorter half-life than most opioids \u2014 re-sedation may occur; monitor closely."
               },
               {
                 "name": "Flumazenil",
-                "dose": "0.2 mg IV over 15 sec, repeat carefully",
+                "dose": "0.2 mg IV over 15 sec, may repeat carefully",
                 "route": "IV",
                 "contraindications": "Chronic benzo use, seizure disorder, mixed overdose",
-                "notes": "Rarely used; can precipitate refractory seizures."
+                "notes": "Rarely indicated; can precipitate refractory seizures. Use only with clear benzo-only exposure in a benzo-naive patient."
               },
               {
                 "name": "Hypertonic saline 3%",
                 "dose": "100 mL IV bolus, may repeat up to 3 times",
                 "route": "IV",
-                "contraindications": "Volume overload, hypernatremia, central pontine myelinolysis risk with rapid correction",
-                "notes": "Symptomatic hyponatremic encephalopathy with seizure, severe confusion, or coma."
+                "contraindications": "Hypernatremia, volume overload; avoid rapid correction (central pontine myelinolysis risk)",
+                "notes": "Symptomatic hyponatremic encephalopathy with seizure, severe confusion, or coma. Target: raise Na by ~5 mEq/L to relieve symptoms; do not fully correct rapidly."
               },
               {
-                "name": "Lactulose",
-                "dose": "20-30 g PO/NG or 30-45 mL; repeat to 3-4 BMs/day",
-                "route": "PO/NG/PR",
-                "contraindications": "Bowel obstruction",
-                "notes": "First-line for hepatic encephalopathy."
-              },
-              {
-                "name": "Rifaximin",
-                "dose": "550 mg BID",
-                "route": "PO/NG",
-                "contraindications": "Hepatic failure (relative), intestinal obstruction",
-                "notes": "Add-on for hepatic encephalopathy, especially recurrent or persistent symptoms."
-              },
-              {
-                "name": "Lorazepam (Ativan)",
-                "dose": "2-4 mg IV",
+                "name": "Lorazepam",
+                "dose": "Active seizure/SE: 0.1 mg/kg IV (max 4 mg), may repeat once. CIWA/withdrawal: per protocol",
                 "route": "IV/IM",
-                "contraindications": "Respiratory depression without airway protection, acute narrow-angle glaucoma",
-                "notes": "First-line for active seizure or status epilepticus causing encephalopathy."
+                "contraindications": "Respiratory depression without airway support; avoid for ordinary delirium",
+                "notes": "First-line for active seizure/status epilepticus and alcohol/benzo withdrawal. Also first-line for catatonia. Avoid in ordinary delirium."
               },
               {
                 "name": "Levetiracetam (Keppra)",
-                "dose": "40-60 mg/kg IV load (commonly 1-4.5 g)",
+                "dose": "40\u201360 mg/kg IV load (commonly 1\u20134.5 g)",
                 "route": "IV",
-                "contraindications": "Renal failure (dose-adjust), hypersensitivity; psychiatric side effects",
-                "notes": "Use after benzodiazepine or when nonconvulsive status is suspected."
+                "contraindications": "Dose-adjust for renal failure",
+                "notes": "Second-line after benzodiazepine for seizure/status; also used when nonconvulsive status is suspected and further sedation is undesirable."
               },
               {
                 "name": "Ceftriaxone + Vancomycin",
                 "dose": "Ceftriaxone 2 g IV q12h + pharmacy-dosed vancomycin",
                 "route": "IV",
                 "contraindications": "Cephalosporin or vancomycin allergy; renal failure (vancomycin dose-adjust)",
-                "notes": "Empiric bacterial meningitis coverage."
+                "notes": "Empiric bacterial meningitis. Give dexamethasone 10 mg IV with or before first dose."
               },
               {
                 "name": "Ampicillin",
                 "dose": "2 g IV q4h",
                 "route": "IV",
-                "contraindications": "Penicillin/ampicillin allergy, infectious mononucleosis (\u2191 rash risk)",
-                "notes": "Add for Listeria risk: older age, pregnancy, or immunocompromise."
+                "contraindications": "Penicillin allergy",
+                "notes": "Add for Listeria coverage: age >50, pregnancy, immunocompromise."
               },
               {
                 "name": "Acyclovir",
-                "dose": "10 mg/kg IV q8h",
+                "dose": "10 mg/kg IV q8h (dose-adjust for renal function)",
                 "route": "IV",
-                "contraindications": "Dose-adjust in renal dysfunction",
-                "notes": "Add when HSV encephalitis is possible."
+                "contraindications": "Renal dysfunction without dose adjustment",
+                "notes": "Add when HSV encephalitis is reasonably suspected (behavioral change, aphasia, temporal seizures, temporal MRI findings). Do not wait for LP result."
               },
               {
                 "name": "Dexamethasone",
                 "dose": "10 mg IV",
                 "route": "IV",
-                "contraindications": "Active untreated fungal/bacterial infection (relative); caution in DM (\u2191 glucose)",
-                "notes": "Give with or before first antibiotic dose if bacterial meningitis is suspected."
+                "contraindications": "Active untreated infection (relative \u2014 do not delay in bacterial meningitis)",
+                "notes": "Give with or before first antibiotic dose if bacterial meningitis suspected. Reduces neurologic complications."
               },
               {
-                "name": "Bumetanide",
-                "dose": "1-2 mg IV",
-                "route": "IV",
-                "contraindications": "Anuria, sulfa allergy (relative), severe hypovolemia",
-                "notes": "If pulmonary edema or volume-overload hypercapnia is contributing to encephalopathy."
-              }
-            ]
-          },
-          {
-            "title": "Delirium \u2014 Antipsychotics",
-            "type": "drugTable",
-            "drugs": [
-              {
-                "name": "Haloperidol",
-                "dose": "0.5-1mg q1-4h PRN",
-                "route": "PO/IM/IV",
-                "contraindications": "Parkinsonism, QTc >500",
-                "notes": "First-line IV/IM. Highest QTc risk."
+                "name": "Lactulose",
+                "dose": "30\u201345 mL PO/NG q1\u20132h until 2\u20133 BMs, then titrate to 2\u20133 soft BMs/day",
+                "route": "PO/NG/PR",
+                "contraindications": "Bowel obstruction",
+                "notes": "First-line for hepatic encephalopathy. Avoid overtreating to diarrhea \u2014 dehydration worsens HE."
               },
               {
-                "name": "Quetiapine (Seroquel)",
-                "dose": "12.5-25mg q6h PRN",
-                "route": "PO",
-                "contraindications": "QT prolongation, NMS history, caution in elderly (\u2191 mortality)",
-                "notes": "Smallest QT prolongation. Preferred in elderly or Parkinson's."
-              },
-              {
-                "name": "Olanzapine",
-                "dose": "2.5-10mg q4h PRN",
-                "route": "SL/PO/IM",
-                "contraindications": "QT prolongation, NMS history, caution in elderly, DM (metabolic effects)",
-                "notes": "Moderate QTc risk. Good IM option."
-              },
-              {
-                "name": "Aripiprazole",
-                "dose": "2-5mg q2h PRN",
-                "route": "PO/IM",
-                "contraindications": "NMS history; caution in seizure disorder, QT prolongation (less than other antipsychotics)",
-                "notes": "Use if QTc >500. Check EKG after 2nd dose."
-              },
-              {
-                "name": "Valproic acid",
-                "dose": "125-250mg q8h PRN",
-                "route": "IV/PO",
-                "contraindications": "Pregnancy, liver dz",
-                "notes": "If QTc >500 & parenteral option needed."
+                "name": "Rifaximin",
+                "dose": "550 mg BID",
+                "route": "PO/NG",
+                "contraindications": "Severe hepatic impairment (relative), intestinal obstruction",
+                "notes": "Add-on for recurrent or persistent hepatic encephalopathy. Use in addition to lactulose, not instead."
               }
             ]
           },
@@ -2020,8 +2153,11 @@
             "title": "References & Resources",
             "type": "bullets",
             "items": [
-              "Bloch KC, Glaser C, Gaston D, Venkatesan A. State of the Art: Acute Encephalitis. Clinical Infectious Diseases. 2023.",
-              "Veauthier B, Hornecker JR, Thrasher T. Recent-Onset Altered Mental Status: Evaluation and Management. American Family Physician. 2021."
+              "Veauthier B, Hornecker JR, Thrasher T. Recent-Onset Altered Mental Status: Evaluation and Management. American Family Physician. 2021.",
+              "Devlin JW, et al. SCCM Clinical Practice Guidelines for Prevention and Management of Pain, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption (PADIS) in Adult ICU Patients. Critical Care Medicine. 2018.",
+              "Young GB. Metabolic Encephalopathy. Continuum (Minneap Minn). 2020.",
+              "NICE Guideline NG193. Delirium: prevention, diagnosis and management in hospital and long-term care. NICE. 2023.",
+              "Bloch KC, Glaser C, Gaston D, Venkatesan A. State of the Art: Acute Encephalitis. Clinical Infectious Diseases. 2023."
             ]
           }
         ]
