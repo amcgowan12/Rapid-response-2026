@@ -14,9 +14,9 @@
             "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
             "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
             "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
-            "Start O2 now: NRB 15 L/min if in distress",
-            "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
-            "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
+            "-Start O2 now: NRB 15 L/min if in distress",
+            "-Rapid O2 escalation if NRB insufficient: HFNC → NIPPV → intubation",
+            "Circulation: HR, BP, perfusion",
             "Put on cardiac monitor"
           ]
         },
@@ -24,23 +24,75 @@
           "title": "Chart Check / Hx.",
           "type": "bullets",
           "items": [
-            "Ask if this is hematemesis, melena, hematochezia, or mixed: hematemesis + hematochezia together suggests a brisk upper GI source",
-            "Hx of cirrhosis, portal HTN, varices, prior GI bleed, peptic ulcer dz, aortic graft/surgery, anticoagulants, antiplatelets, NSAIDs, alcohol use",
-            "Red flags for massive bleed: syncope, shock, bright red output, for vasopressors, or failure to respond to 2 units pRBC",
-            "Find out if the pt is a candidate for endoscopy, IR, or surgery & call the right team early",
-            "If cirrhosis/varices are possible: plan for octreotide + ceftriaxone early"
+            "Character of bleeding: hematemesis? coffee-ground emesis? melena? hematochezia? — hematemesis + hematochezia together indicates a brisk upper GI source",
+            "Cirrhosis, portal HTN, varices, prior GI bleed, peptic ulcer disease",
+            "NSAID or anticoagulant/antiplatelet use (type, last dose); aspirin",
+            "Alcohol use, liver disease",
+            "Prior gastric bypass or aortic surgery — aortoenteric fistula risk with aortic graft",
+            "Prior endoscopy: any known high-risk lesions?",
+            "History of difficult intubation"
           ]
         },
         {
-          "title": "Presentation/Exam",
-          "type": "bullets",
-          "items": [
-            "**Classic presentation**: Hematemesis (bright red or coffee grounds), melena, or hematochezia with hemodynamic instability; tachycardia and orthostasis signal ≥15% volume loss — resuscitate and scope",
-            "**Vitals**: tachycardia, ↓ BP, narrowed pulse pressure, orthostasis, shock",
-            "Mentation: agitation, lethargy, syncope",
-            "Look for active hematemesis, melena, hematochezia, abdominal distention, or signs of chronic liver dz",
-            "**Check perfusion**: cool extremities, delayed cap refill, low urine output",
-            "In cirrhosis/portal HTN: ascites, jaundice, spider angiomata, splenomegaly"
+          "title": "Bleeding Manifestations",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Hematemesis",
+              "value": "Nearly 100% specific for upper GI source. Implies active bleeding — most worrisome presentation; urgent EGD needed."
+            },
+            {
+              "key": "Coffee-ground emesis",
+              "value": "Highly specific for upper GI bleed. Implies less active bleeding than frank hematemesis — blood had time to congeal in the stomach."
+            },
+            {
+              "key": "Melena",
+              "value": "Black, tarry stool — strongly suggests upper GI source; can also arise from a slow right-sided colonic bleed."
+            },
+            {
+              "key": "Hematochezia",
+              "value": "Bright red blood per rectum — usually lower GI bleed, but ~10% are from a massive upper GI bleed with rapid transit; these patients typically have hemodynamic instability."
+            },
+            {
+              "key": "Clots per rectum",
+              "value": "Very strongly suggests lower GI source (likelihood ratio ~20 for lower GI)."
+            }
+          ]
+        },
+        {
+          "title": "POCUS Evaluation",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "IVC / hemodynamics",
+              "value": "Collapsed IVC + hyperkinetic LV = volume depletion from hemorrhage. Distended IVC in a shocked patient argues against hemorrhagic shock — reconsider MTP activation."
+            },
+            {
+              "key": "Ascites",
+              "value": "Suggests cirrhosis. If moderate-to-large ascites present, perform diagnostic paracentesis to rule out SBP and help reduce portal pressure."
+            },
+            {
+              "key": "Gastric distension",
+              "value": "Collapsed stomach argues against active upper GI bleeding. Distended stomach in a fasted patient suggests active hemorrhage and increases aspiration risk — consider NG suction before EGD or intubation."
+            }
+          ]
+        },
+        {
+          "title": "Risk Stratification",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Lower risk features",
+              "value": "Shock index (HR/SBP) <0.9; full IVC on POCUS; profound anemia with hemodynamic stability (suggests chronic bleed — transfuse slowly, risk of volume overload if given too fast); easily reversible coagulopathy (e.g., supratherapeutic warfarin INR); recent endoscopy without high-risk lesions."
+            },
+            {
+              "key": "Higher risk features",
+              "value": "Shock index >0.9; frank hypotension or syncope; normal Hgb with hemodynamic instability (Hgb hasn't fallen yet — implies brisk acute blood loss); active hematemesis; hematemesis + hematochezia together; collapsed IVC on POCUS; known cirrhosis or varices."
+            },
+            {
+              "key": "Post-EGD risk",
+              "value": "Visible vessel = high re-bleed risk. Adherent clot = intermediate. Clean-based ulcer or flat spot = low risk (may discharge or go to ward)."
+            }
           ]
         },
         {
@@ -48,20 +100,20 @@
           "type": "keyValue",
           "pairs": [
             {
-              "key": "Upper GI",
-              "value": "Peptic ulcer, varices, gastritis/esophagitis, Mallory-Weiss tear, Dieulafoy lesion, malignancy."
+              "key": "Upper GI (~75%)",
+              "value": "Peptic ulcer disease, esophagitis/gastritis, Mallory-Weiss tear, varices (esophageal or gastric), portal gastropathy, Dieulafoy lesion, AVM, GAVE, malignancy, aortoenteric fistula, hemobilia."
             },
             {
-              "key": "Lower GI",
-              "value": "Diverticular bleed, angiodysplasia, ischemic colitis, malignancy, postpolypectomy bleed."
+              "key": "Lower GI (~25%)",
+              "value": "Age <50: infectious colitis, anorectal disease, IBD. Age >50: diverticulosis, AVM, ischemic colitis, malignancy, post-polypectomy bleed."
             },
             {
-              "key": "rare causes",
-              "value": "Aortoenteric fistula after prior aortic surgery, hemobilia."
+              "key": "Small bowel (~4%)",
+              "value": "AVM (most common >40 yrs), neoplasms (25–40 yrs), Meckel's diverticulum (<25 yrs), Crohn's, NSAID-induced ulcers."
             },
             {
               "key": "DDx",
-              "value": "Hemoptysis, posterior epistaxis, swallowed blood, severe coagulopathy without focal GI source, hemorrhagic shock from non-GI source."
+              "value": "Posterior epistaxis (swallowed blood mimics upper GI bleed, can cause hemorrhagic shock). Bloody diarrhea from ischemic or infectious colitis — bleeding is not the primary problem in these cases."
             }
           ]
         },
@@ -70,20 +122,16 @@
           "type": "steps",
           "items": [
             "CHECK NOW",
-            "-**Orders:** IV access x2 (large bore), GI consult, surgery consult (if unstable), NPO, continuous SpO2, telemetry, PPI (pantoprazole 80 mg IV then 8 mg/hr drip)",
-            "-**Labs:** CBC, CMP/BMP, INR/PTT, fibrinogen, lactate, VBG/ABG as needed, type & cross.",
-            "Pillar 1: Hemodynamic resuscitation: activate MTP early, use blood-first resuscitation, target balanced products, minimize crystalloid, give calcium during large transfusion, & treat fibrinogen <150 mg/dL with cryoprecipitate. In cirrhosis/varices, avoid overtransfusion once perfusion is restored",
-            "Pillar 2: Airway management: avoid intubation unless needed for airway protection, severe hematemesis, or procedures. If intubating, resuscitate first, have suction ready, & start norepinephrine before induction if the pt is vasopressor-dependent or borderline hypotensive",
-            "Pillar 3: Temporizing measures: start octreotide if varices are possible, give IV PPI, reverse anticoagulation, & give ceftriaxone in cirrhosis. Use Blakemore only as a bridge for exsanguinating variceal bleed in an intubated pt",
-            "Get definitive source control: upper GI bleed goes to urgent endoscopy; active lower GI bleed goes to CTA then IR if bleeding continues; surgery if endoscopy/IR fail or if aortoenteric fistula is suspected",
-            "Pillar 1: Resuscitation: Large-bore access; consider CORDIS/Aline if MTP is running. If a vasopressor-dependent pt has a distended IVC, recheck whether this is truly hemorrhagic shock before committing to MTP.",
-            "Pillar 2: Airway: If endoscopy or intubation is likely, erythromycin 250mg IV 20-90 min before can improve gastric emptying. If stomach is distended, NGT suction may help before induction.",
-            "Pillar 3: Temporizing: Do not reflexively give FFP for elevated INR alone in cirrhosis. CTA is only useful while actively bleeding. Order it STAT & call CT if lower GI or unclear active bleeding is suspected.",
-            "Source control: Variceal bleed: banding/sclerotherapy, then TIPS if refractory. Posterior duodenal ulcer with active extravasation may go straight to IR if endoscopic control is unlikely.",
-            "**Blood bank:** Call early. If bleeding is brisk, move quickly to uncrossmatched blood / MTP.",
-            "**TEG / ROTEM:** Use if avail to guide product replacement during massive hemorrhage.",
-            "**CTA:** Useful only while actively bleeding. Strongly consider for lower GI bleed or unclear source.",
-            "**Monitoring:** Continuous SpO2/telemetry, frequent BP, strict I&O, & consider arterial line if unstable."
+            "-**Labs:** CBC, BMP, LFTs, INR/PTT/fibrinogen, lactate, type & crossmatch. TEG if cirrhosis or suspected DIC.",
+            "-**Access:** Two large-bore IVs (≥18g). Consider RIC or large-bore central access if MTP is running; arterial line if hemodynamically unstable.",
+            "-**Monitoring:** Continuous SpO2 + telemetry, frequent BP, strict I&O, Foley.",
+            "Resuscitation: Target Hgb >7 (>8 in ACS or hemodynamic instability). Minimize crystalloid — blood products preferred. Give calcium during large transfusions; cryoprecipitate for fibrinogen <150; platelets for count <50. Activate MTP for vasopressor-dependent shock. In cirrhosis/varices: avoid overtransfusion once perfusion is restored — rising venous pressure directly worsens variceal bleeding.",
+            "Airway: Avoid intubation unless altered mental status, severe hematemesis, or inability to cooperate with procedure. If intubating: resuscitate first, start vasopressor infusion before induction, assess gastric distension with POCUS, consider NG suction to reduce aspiration risk.",
+            "Medications: IV PPI (pantoprazole 40 mg q12h) if upper GI bleed possible. Octreotide (50 mcg bolus → 50 mcg/hr) if varices possible — start empirically. Ceftriaxone 1g IV in definite cirrhosis — evaluate for infection; discontinue within 48–72h if cultures negative. Reverse anticoagulation. Discontinue antihypertensives and DVT prophylaxis.",
+            "Prokinetic before EGD or intubation: erythromycin 250 mg IV infused over 5–30 min, ideally 20–90 min before procedure (contraindicated if QT prolonged). Alternative: metoclopramide 10 mg IV.",
+            "Source control — Upper GI: Urgent EGD (first-line). Exception: prior aortic surgery → CTA first to evaluate for aortoenteric fistula. Exsanguinating posterior duodenal ulcer with active extravasation on CTA → consider going directly to IR. If EGD fails → IR embolization. Surgery is last resort.",
+            "Source control — Lower GI: NG lavage to help clarify source (bloody lavage = upper GI; negative lavage does not exclude upper GI bleed). STAT CTA abdomen/pelvis — only useful while actively bleeding; order immediately if lower GI bleed is suspected. If CTA positive → IR embolization (success rates up to 98%). Avoid tagged RBC scan — poor spatial resolution, unreliable for guiding IR or surgery.",
+            "Variceal bleed: Esophageal varices → endoscopic banding; if banding fails → TIPS. Gastric varices → TIPS (preferred); BRTO is an alternative if a gastrorenal shunt is present but is not widely available. Blakemore tube: high-risk, no strong evidence — reserve as a bridge to TIPS in intubated, exsanguinating patients with no other immediate options. Watch for hepatic encephalopathy — low threshold for lactulose and rifaximin."
           ]
         },
         {
@@ -94,50 +142,50 @@
               "name": "Octreotide",
               "dose": "50 mcg IV bolus, then 50 mcg/hr infusion",
               "route": "IV drip",
-              "contraindications": "",
-              "notes": "Start empirically for any possible variceal or portal hypertensive bleed. Continue for 3-5 days if variceal bleed confirmed."
+              "contraindications": "Recurrent gallstones, significant bradycardia/conduction disease",
+              "notes": "Start empirically if varices are possible. Reduces splanchnic blood flow and portal venous pressure. Side effects: dysglycemia, bradycardia, QT prolongation."
             },
             {
               "name": "Pantoprazole",
-              "dose": "40mg IV q12h",
+              "dose": "40 mg IV q12h",
               "route": "IV",
               "contraindications": "",
-              "notes": "Intermittent dosing is acceptable. Continue after endoscopy for suspected peptic ulcer bleed."
+              "notes": "Intermittent dosing preferred — continuous IV infusion is not supported by evidence. Continue after endoscopy for peptic ulcer bleed."
             },
             {
               "name": "Erythromycin",
-              "dose": "250mg IV 20-90 min before endoscopy or intubation",
+              "dose": "250 mg IV over 5–30 min, 20–90 min before EGD or intubation",
               "route": "IV",
               "contraindications": "QT prolongation",
-              "notes": "Prokinetic to clear the stomach before endoscopy/intubation."
+              "notes": "Prokinetic — clears gastric contents before procedure; reduces need for repeat endoscopy and aspiration risk during intubation."
+            },
+            {
+              "name": "Metoclopramide",
+              "dose": "10 mg IV 20–90 min before procedure",
+              "route": "IV",
+              "contraindications": "GI obstruction, Parkinsonism",
+              "notes": "Alternative prokinetic to erythromycin when QT is prolonged."
             },
             {
               "name": "Ceftriaxone",
-              "dose": "1g IV daily x7 days",
+              "dose": "1g IV daily",
               "route": "IV",
               "contraindications": "",
-              "notes": "Antibiotic prophylaxis in cirrhotic pts with GI bleed: ↓ bacterial translocation, SBP, & mortality."
+              "notes": "For patients with cirrhosis and GI bleed. Antibiotics do not clearly reduce mortality. Evaluate carefully for actual infection (SBP, etc.); discontinue within 48–72h if cultures are negative."
             },
             {
               "name": "Norepinephrine",
-              "dose": "0.01-3 mcg/kg/min (start at 0.05)",
+              "dose": "0.01–3 mcg/kg/min (start at 0.05)",
               "route": "IV drip",
               "contraindications": "",
-              "notes": "Start before intubation if vasopressor-dependent or borderline hypotensive."
-            },
-            {
-              "name": "(traumatic hemorrhage) Tranexamic acid (TXA)",
-              "dose": "1g IV over 10 min, then 1g over 8h",
-              "route": "IV",
-              "contraindications": "",
-              "notes": "Not routine for nonvariceal GI bleed. Evidence is stronger in traumatic hemorrhage than GI bleeding."
+              "notes": "Start before induction if vasopressor-dependent or borderline hypotensive — prevents hemodynamic collapse during intubation."
             },
             {
               "name": "Calcium gluconate",
               "dose": "2g IV per 4 units pRBC transfused",
               "route": "IV",
               "contraindications": "",
-              "notes": "Citrate in blood products chelates ionized calcium. Hypocalcemia worsens coagulopathy & cardiac function. Can Use 1g CaCl if central line present, but higher risk of extravasation injury."
+              "notes": "Citrate in blood products chelates ionized calcium. Hypocalcemia worsens coagulopathy and cardiac function. Use CaCl 1g if central access available."
             }
           ]
         },
@@ -146,20 +194,24 @@
           "type": "keyValue",
           "pairs": [
             {
-              "key": "Massive GI bleed",
-              "value": "GI hemorrhage causing shock, brisk blood loss, rapid Hgb drop, or for blood/MTP."
-            },
-            {
               "key": "Upper GI bleed",
-              "value": "Source proximal to the ligament of Treitz. Hematemesis or melena are common; brisk bleeds can also cause hematochezia."
+              "value": "Source proximal to the ligament of Treitz. Hematemesis and melena are classic; a brisk upper GI bleed can cause hematochezia."
             },
             {
               "key": "Variceal bleed",
-              "value": "Portal hypertensive hemorrhage, from esophageal or gastric varices. Treat early with octreotide, antibiotics, & urgent endoscopy."
+              "value": "Portal hypertensive hemorrhage from esophageal or gastric varices. Avoid large-volume resuscitation — rising venous pressure drives the bleeding. Start octreotide immediately and proceed to urgent endoscopy."
             },
             {
-              "key": "Damage control resuscitation",
-              "value": "Blood-first resuscitation for major hemorrhage: early MTP, minimal crystalloid, & correction of coagulopathy/fibrinogen/calcium."
+              "key": "Hemoglobin & acuity",
+              "value": "Profound anemia + hemodynamic stability = chronic/subacute bleed (transfuse slowly — risk of volume overload). Normal Hgb + hemodynamic instability = brisk acute bleed (Hgb hasn't fallen yet)."
+            },
+            {
+              "key": "Coagulopathy in cirrhosis",
+              "value": "Elevated INR reflects rebalanced hemostasis, not a true bleeding tendency. Do NOT give FFP to correct INR. Check fibrinogen; treat with cryoprecipitate if <150 mg/dL. Use TEG to guide transfusion."
+            },
+            {
+              "key": "CT angiography for lower GI",
+              "value": "Only useful while the patient is actively bleeding — order STAT and don't wait. Preferred over tagged RBC scan, which has poor spatial resolution and cannot reliably guide IR or surgery."
             }
           ]
         },
@@ -167,10 +219,97 @@
           "title": "References & Resources",
           "type": "bullets",
           "items": [
-            "Laine L, Barkun AN, Saltzman JR, et al. ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding. American Journal of Gastroenterology. 2021;116(5):899917. https://doi.org/10.14309/ajg.0000000000001245",
-            "Oakland K, Chadwick G, East JE, et al. Diagnosis and Management of Acute Lower Gastrointestinal Bleeding: Guidelines from the British Society of Gastroenterology. Gut. 2019;68(5):776789. https://doi.org/10.1136/gutjnl-2018-317807",
-            "Villanueva C, Colomo A, Bosch A, et al. Transfusion Strategies for Acute Upper Gastrointestinal Bleeding. New England Journal of Medicine. 2013;368(1):1121. https://doi.org/10.1056/NEJMoa1211801"
+            "Laine L, Barkun AN, Saltzman JR, et al. ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding. Am J Gastroenterol. 2021;116(5):899–917.",
+            "Strate LL, Gralnek IM. ACG Clinical Guideline: Management of Patients With Acute Lower GI Bleeding. Am J Gastroenterol. 2016;111(4):459–74.",
+            "Villanueva C, et al. Transfusion Strategies for Acute Upper Gastrointestinal Bleeding. N Engl J Med. 2013;368(1):11–21.",
+            "Prosty C, et al. Antimicrobials for variceal hemorrhage in cirrhosis: meta-analysis. 2025."
           ]
+        }
+      ],
+      "checklist": [
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Assess ABCs: active hematemesis or hematochezia with hemodynamic instability = emergent evaluation; call ICU + GI early."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Cardiac monitor and continuous SpO₂."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Large-bore IV access × 2 (≥18g). Minimize crystalloid — blood products preferred for resuscitation."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Type & crossmatch. Activate MTP if vasopressor-dependent or hemodynamically unstable."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Foley catheter for strict I&O — target urine output >0.5 mL/kg/hr."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Reverse anticoagulation if on warfarin, DOAC, or antiplatelet therapy."
+        },
+        {
+          "group": "Workup",
+          "text": "Labs: CBC, BMP, LFTs, INR/PTT/fibrinogen, lactate, type & crossmatch. TEG if cirrhosis or suspected DIC."
+        },
+        {
+          "group": "Workup",
+          "text": "Characterize bleeding: hematemesis/coffee grounds/melena = upper GI; hematochezia = usually lower GI (but ~10% are brisk upper GI bleeds with rapid transit)."
+        },
+        {
+          "group": "Workup",
+          "text": "POCUS: IVC (volume status and hemorrhagic shock), gastric distension (aspiration risk), ascites (cirrhosis/SBP)."
+        },
+        {
+          "group": "Workup",
+          "text": "NG lavage if upper vs lower source is unclear — bloody lavage = upper GI; negative lavage does not exclude upper GI bleed."
+        },
+        {
+          "group": "Treatment",
+          "text": "IV PPI: pantoprazole 40 mg IV q12h (intermittent dosing — IV infusion adds no proven benefit)."
+        },
+        {
+          "group": "Treatment",
+          "text": "If varices possible: octreotide 50 mcg IV bolus → 50 mcg/hr infusion. Start empirically — do not wait for endoscopic confirmation."
+        },
+        {
+          "group": "Treatment",
+          "text": "Cirrhosis with GI bleed: ceftriaxone 1g IV — evaluate carefully for infection (especially SBP if ascites present); discontinue within 48–72h if cultures are negative."
+        },
+        {
+          "group": "Treatment",
+          "text": "Prokinetic before EGD or intubation: erythromycin 250 mg IV 20–90 min before (hold if QTc prolonged — use metoclopramide 10 mg IV instead)."
+        },
+        {
+          "group": "Treatment",
+          "text": "Transfusion target: Hgb >7 (>8 in ACS). Profound anemia with stable hemodynamics = chronic bleed — transfuse slowly to avoid volume overload."
+        },
+        {
+          "group": "Treatment",
+          "text": "Coagulopathy: cryoprecipitate if fibrinogen <150; platelets if count <50; TEG-guided transfusion. Do NOT give FFP to correct INR in cirrhosis."
+        },
+        {
+          "group": "Treatment",
+          "text": "Upper GI bleed: urgent EGD. Suspected lower GI bleed: STAT CT angiography (only helpful while actively bleeding) → IR embolization if positive."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Monitor CBC, coags, BMP q4–6h while actively bleeding."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "GI + surgery consult. IR on standby if endoscopic hemostasis fails."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "ICU admission for active GI bleed with hemodynamic instability or airway concerns."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Cirrhosis: low threshold for lactulose + rifaximin — upper GI bleeding is a common precipitant of hepatic encephalopathy."
         }
       ]
     },
@@ -185,8 +324,8 @@
             "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
             "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
             "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
-            "Start O2 now: NRB 15 L/min if in distress",
-            "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+            "-Start O2 now: NRB 15 L/min if in distress",
+            "-Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
             "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
             "Put on cardiac monitor",
             "Check POC glucose."
@@ -211,7 +350,7 @@
           "type": "bullets",
           "items": [
             "**Classic presentation**: Jaundice + coagulopathy (INR ≥1.5) + hepatic encephalopathy within 26 weeks of illness in a patient without prior cirrhosis; identify precipitant (acetaminophen, viral, ischemia, Wilson's) — time-sensitive for listing",
-            "Hepatic encephalopathy grade: 1 (confusion/mood): 2 (drowsy/asterixis): 3 (somnolent but arousable): 4 (coma)",
+            "Hepatic encephalopathy grade (grade I-II at presentation ~40%; grade III-IV ~60% of severe ALF): 1 (confusion/mood): 2 (drowsy/asterixis): 3 (somnolent but arousable): 4 (coma)",
             "Jaundice, scleral icterus",
             "Liver size: tender hepatomegaly (acute hepatitis) vs small/shrunken (fulminant necrosis)",
             "Asterixis (flapping tremor)",
@@ -265,6 +404,10 @@
             "CHECK NOW",
             "-**Orders:** IV access x2, Foley (strict I&Os), continuous SpO2, telemetry, neurology consult (if encephalopathy), transplant hepatology consult",
             "-**Stat labs:** LFTs, T/D bili, albumin, INR/PT/PTT, CBC, BMP, ammonia, lactate, ABG, fibrinogen, lipase, blood glucose",
+            "-**Etiology workup:** Acetaminophen level, tox screen, hepatitis A IgM, HBsAg, HBcAb IgM, HCV RNA, HEV IgM, ANA, anti-smooth muscle Ab, ceruloplasmin, slit-lamp exam (Wilson's)",
+            "-**Imaging:** CT abdomen (Budd-Chiari, hepatic vein thrombosis), RUQ ultrasound with Doppler, CXR",
+            "-**If bleeding:** Type & crossmatch, TEG/thromboelastometry, fibrinogen, coags",
+            "-**Monitoring:** Continuous telemetry, SpO2, q1h glucose checks, q4–6h ammonia, strict I&Os, daily LFTs/INR",
             "ICU referral early: all ALF pts need ICU-level monitoring",
             "Start NAC now if any suspicion for acetaminophen: also improves transplant-free survival in non-acetaminophen ALF",
             "Hold all hepatotoxic medications & unnecessary drugs",
@@ -273,45 +416,41 @@
             "Hemodynamics: Target MAP to maintain CPP 60–80 mmHg. Norepinephrine preferred vasopressor. Balanced fluids over NS. For ACLF: target MAP ≥60 mmHg",
             "RRT / CRRT: CRRT preferred over intermittent HD (↓ cardiovascular instability & cerebral edema risk). Indications: acidbase disturbance, oliguria, volume overload, hyperammonemia independent of AKI. Early CRRT (within 4–12h) for hyperammonemia in ALF improves transplant-free survival. Highvolume hemofiltration (90 mL/kg/h) more effective for ammonia clearance",
             "Infection: Empiric broad spectrum antibiotics if infection signs present. Systemic antifungal prophylaxis for high risk transplant recipients",
-            "Transplant evaluation: Urgent for all ALF. Status 1a: ICU + ventilator dependence, RRT, or INR ≥2 with encephalopathy within 8 wks. King’s College Criteria better for acetaminophen ALF; MELD more accurate for non-acetaminophen. ACLF grades 1–2: acceptable posttransplant outcomes; ACLF3: careful selection",
-            "ACLF3 futility criteria: Age ≥53, lactate ≥4 mmol/L, mechanical vent with P/F ≤200, WBC ≤10 g/L: ≥2 factors predict 8% 1yr survival",
-            "**Etiology workup:** Acetaminophen level, tox screen, hepatitis A IgM, HBsAg, HBcAb IgM, HCV RNA, HEV IgM, ANA, anti-smooth muscle Ab, ceruloplasmin, slit-lamp exam (Wilson’s)",
-            "**Imaging:** CT abdomen (Budd-Chiari, hepatic vein thrombosis), RUQ ultrasound with Doppler, CXR",
-            "**If bleeding:** Type & crossmatch, TEG/thromboelastometry, fibrinogen, coags",
-            "**Monitoring:** Continuous telemetry, SpO2, q1h glucose checks, q4–6h ammonia, strict I&Os, daily LFTs/INR"
+            "Transplant evaluation: Urgent for all ALF. Status 1a: ICU + ventilator dependence, RRT, or INR ≥2 with encephalopathy within 8 wks. King's College Criteria better for acetaminophen ALF; MELD more accurate for non-acetaminophen. ACLF grades 1–2: acceptable posttransplant outcomes; ACLF3: careful selection",
+            "ACLF3 futility criteria: Age ≥53, lactate ≥4 mmol/L, mechanical vent with P/F ≤200, WBC ≤10 g/L: ≥2 factors predict 8% 1yr survival"
           ]
         },
-                {
-                  "title": "Life-Threatening Complications",
-                  "type": "keyValue",
-                  "pairs": [
-                    {
-                      "key": "Cerebral edema",
-                      "value": "ALF-specific: ammonia >200 µmol/L = 55% risk of intracranial HTN. Neuroprotective measures: HOB 30°, avoid fever/hypo/hyperglycemia, maintain Na 140–145 with hypertonic saline, normocapnia, highlevel sedation. Plasma exchange may help. Invasive ICP monitoring NOT routinely suggested"
-                    },
-                    {
-                      "key": "Hepatic encephalopathy",
-                      "value": "ACLF: lactulose 10–20g q2h until 2 soft BMs, then 2–4x daily. Grade 3–4: give via NG or enema (200g in 700 mL water, retain 30–60 min, q4–6h). PEG 3350 may be superior for rapid resolution. Add rifaximin 550 mg BID (combined > lactulose alone). For ALF: lactulose & rifaximin have NOT demonstrated benefit: focus on treating precipitants, consider plasma exchange"
-                    },
-                    {
-                      "key": "Variceal hemorrhage",
-                      "value": "Start vasoactive drugs now when suspected (octreotide 50 µg bolus: 50 µg/h gtt). PPI strongly suggested. High-risk pts (Child-Pugh 10–13 or 8–9 with active bleed): preemptive TIPS improves mortality. If medical + endoscopic therapy fail: TIPS",
-                      "topicLink": "Massive GI Bleed"
-                    },
-                    {
-                      "key": "HRS-AKI",
-                      "value": "Vasoconstrictor + albumin (1.5 g/kg day 1, 1 g/kg day 2). Terlipressin preferred (response = Cr <1.5 or within 0.3 of baseline, max 14 days). Norepinephrine (0.5–3 mg/h) is noninferior (~50% reversal). Alt: midodrine 5–15 mg q8h + octreotide 100–200 µg q8h (lower efficacy). All AKI pts: urgent transplant eval"
-                    },
-                    {
-                      "key": "SBP",
-                      "value": "Ceftriaxone 2g daily + IV albumin (1.5 g/kg day 1, 1 g/kg day 2): albumin ↓ mortality from 41% to 22% at 3 months. Broadspectrum abx within 1h if septic shock. After first episode: secondary ppx with TMP/SMX or ciprofloxacin"
-                    },
-                    {
-                      "key": "Coagulopathy",
-                      "value": "Despite ↑ INR, significant bleeding is uncommon (5–7%). INR does NOT predict bleeding risk (rebalanced hemostasis). Do NOT routinely correct with FFP/plts/cryo: may ↑ mortality. Use TEG/thromboelastometry for transfusion guidance. Correction may be needed before high risk procedures (ICP monitoring)"
-                    }
-                  ]
-                },
+        {
+          "title": "Life-Threatening Complications",
+          "type": "keyValue",
+          "pairs": [
+            {
+              "key": "Cerebral edema",
+              "value": "ALF-specific: ammonia >200 µmol/L = 55% risk of intracranial HTN. Neuroprotective measures: HOB 30°, avoid fever/hypo/hyperglycemia, maintain Na 140–145 with hypertonic saline, normocapnia, highlevel sedation. Plasma exchange may help. Invasive ICP monitoring NOT routinely suggested"
+            },
+            {
+              "key": "Hepatic encephalopathy",
+              "value": "ACLF: lactulose 10–20g q2h until 2 soft BMs, then 2–4x daily. Grade 3–4: give via NG or enema (200g in 700 mL water, retain 30–60 min, q4–6h). PEG 3350 may be superior for rapid resolution. Add rifaximin 550 mg BID (combined > lactulose alone). For ALF: lactulose & rifaximin have NOT demonstrated benefit: focus on treating precipitants, consider plasma exchange"
+            },
+            {
+              "key": "Variceal hemorrhage",
+              "value": "Start vasoactive drugs now when suspected (octreotide 50 µg bolus: 50 µg/h gtt). PPI strongly suggested. High-risk pts (Child-Pugh 10–13 or 8–9 with active bleed): preemptive TIPS improves mortality. If medical + endoscopic therapy fail: TIPS",
+              "topicLink": "Massive GI Bleed"
+            },
+            {
+              "key": "HRS-AKI",
+              "value": "Vasoconstrictor + albumin (1.5 g/kg day 1, 1 g/kg day 2). Terlipressin preferred (response = Cr <1.5 or within 0.3 of baseline, max 14 days). Norepinephrine (0.5–3 mg/h) is noninferior (~50% reversal). Alt: midodrine 5–15 mg q8h + octreotide 100–200 µg q8h (lower efficacy). All AKI pts: urgent transplant eval"
+            },
+            {
+              "key": "SBP",
+              "value": "Ceftriaxone 2g daily + IV albumin (1.5 g/kg day 1, 1 g/kg day 2): albumin ↓ mortality from 41% to 22% at 3 months. Broadspectrum abx within 1h if septic shock. After first episode: secondary ppx with TMP/SMX or ciprofloxacin"
+            },
+            {
+              "key": "Coagulopathy",
+              "value": "Despite ↑ INR, significant bleeding is uncommon (5–7%). INR does NOT predict bleeding risk (rebalanced hemostasis). Do NOT routinely correct with FFP/plts/cryo: may ↑ mortality. Use TEG/thromboelastometry for transfusion guidance. Correction may be needed before high risk procedures (ICP monitoring)"
+            }
+          ]
+        },
         {
           "title": "Medications",
           "type": "drugTable",
@@ -412,6 +551,76 @@
             "Bernal W, Wendon J. Acute Liver Failure. New England Journal of Medicine. 2013;369(26):25252534. https://doi.org/10.1056/NEJMra1208937"
           ]
         }
+      ],
+      "checklist": [
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Assess ABCs: hepatic encephalopathy with GCS decline may require intubation for airway protection."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Place on cardiac monitor and continuous SpO₂."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "IV access × 2. Fingerstick glucose STAT — hypoglycemia is life-threatening in ALF."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "If glucose <60: give D50W IV immediately, then start D10W infusion."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Call hepatology and liver transplant team early — timing of listing is critical."
+        },
+        {
+          "group": "Workup",
+          "text": "Labs: CBC, BMP, LFTs (AST/ALT/bilirubin), PT/INR (key severity marker), ammonia, acetaminophen level, urine tox, hepatitis panel (A, B, C), autoimmune hepatitis panel, ceruloplasmin, pregnancy test."
+        },
+        {
+          "group": "Workup",
+          "text": "Coagulation: INR >1.5 with encephalopathy = diagnostic of ALF — do NOT correct INR unless active bleeding (masks prognostication)."
+        },
+        {
+          "group": "Workup",
+          "text": "Head CT if encephalopathy present — assess for cerebral edema."
+        },
+        {
+          "group": "Workup",
+          "text": "Abdominal ultrasound with Doppler — evaluate liver architecture, Budd-Chiari, portal vein thrombosis."
+        },
+        {
+          "group": "Treatment",
+          "text": "Acetaminophen toxicity: N-acetylcysteine (NAC) 150 mg/kg IV over 1h, then 50 mg/kg over 4h, then 100 mg/kg over 16h — start even if late presentation."
+        },
+        {
+          "group": "Treatment",
+          "text": "Hepatic encephalopathy: lactulose 20–30 g PO/NG q2–4h titrated to 2–3 soft stools/day. Rifaximin 550 mg PO BID as add-on."
+        },
+        {
+          "group": "Treatment",
+          "text": "Cerebral edema: hypertonic saline (target Na 145–155), mannitol if signs of herniation, HOB 30°, minimize stimulation."
+        },
+        {
+          "group": "Treatment",
+          "text": "Coagulopathy: correct only for active bleeding or procedures — use FFP cautiously (can worsen encephalopathy via fluid overload)."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Glucose monitoring q1–2h. IV dextrose infusion to maintain >60 mg/dL."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Avoid hepatotoxic medications and nephrotoxins (NSAIDs, aminoglycosides, contrast if not essential)."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Identify and treat precipitant: acetaminophen OD, viral hepatitis, autoimmune, ischemic hepatitis, Budd-Chiari, Wilson disease."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "ICU admission. King's College Criteria to assess transplant candidacy."
+        }
       ]
     },
     {
@@ -425,8 +634,8 @@
             "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
             "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
             "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
-            "Start O2 now: NRB 15 L/min if in distress",
-            "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+            "-Start O2 now: NRB 15 L/min if in distress",
+            "-Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
             "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
             "Put on cardiac monitor"
           ]
@@ -456,7 +665,7 @@
             },
             {
               "key": "Classic finding",
-              "value": "Pain out of proportion to physical exam: severe pain with benign-appearing, soft, nontender abdomen (early)"
+              "value": "Pain out of proportion to exam (~93%): severe pain with benign-appearing, soft, nontender abdomen early; nausea/vomiting (~75%), diarrhea (~40%)"
             },
             {
               "key": "Vitals",
@@ -523,7 +732,7 @@
           "type": "steps",
           "items": [
             "CHECK NOW",
-            "**Labs:** CBC, BMP, lactate, LFTs, lipase, coags, blood cultures x2",
+            "-**Labs:** CBC, BMP, lactate, LFTs, lipase, coags, blood cultures x2",
             "-Lactate: ↑ as ischemia progresses; nl. lactate does NOT r/o AMI (can be nl. early)",
             "CBC:(WBC >15,000)",
             "-BMP: AGMA ↑ BUN/Cr (prerenal from dehydration)",
@@ -537,7 +746,7 @@
             "-BCxs if septic",
             "-**Orders:** IV access x2, NPO, CT angiography (abdomen/pelvis with contrast), vascular surgery consult, continuous SpO2, telemetry",
             "Place on monitor, and get 2 large-bore IV lines.",
-          "Call vascular surgery +/- IR early",
+            "Call vascular surgery +/- IR early",
             "Keep NPO and begin aggressive IV fluids unless contraindicated.",
             "Start broad-spectrum  ABx .",
             "Start IV heparin unless active bleeding or another clear contraindication.",
@@ -663,6 +872,64 @@
             "Defined Approach: Defined Approach to diagnosis and treatment of mesenteric ischemia. European Journal of Vascular and Endovascular Surgery. 2017;53(4):4605-10."
           ]
         }
+      ],
+      "checklist": [
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Recognize the pattern: pain out of proportion to exam, rapid lactic acidosis, or new AFib in an elderly patient — high clinical suspicion."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "IV access × 2. Start aggressive IV fluid resuscitation."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "NPO immediately. Call surgery and IR (interventional radiology) early — time-sensitive."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Place on cardiac monitor and continuous SpO₂."
+        },
+        {
+          "group": "Workup",
+          "text": "Labs: CBC, BMP, lactate (elevated but non-specific), LFTs, coags, type & screen, ABG."
+        },
+        {
+          "group": "Workup",
+          "text": "CT angiography abdomen/pelvis (CTA): study of choice — identifies occlusion, non-occlusive ischemia, venous thrombosis; can guide revascularization."
+        },
+        {
+          "group": "Workup",
+          "text": "12-lead EKG — new AFib is a risk factor for arterial embolism."
+        },
+        {
+          "group": "Treatment",
+          "text": "Anticoagulation: IV unfractionated heparin immediately once diagnosis suspected (unless contraindicated by bleeding)."
+        },
+        {
+          "group": "Treatment",
+          "text": "Arterial embolism: endovascular thrombectomy or catheter-directed thrombolysis by IR vs surgical embolectomy."
+        },
+        {
+          "group": "Treatment",
+          "text": "Non-occlusive mesenteric ischemia (NOMI): optimize cardiac output, discontinue vasoconstrictors, consider intra-arterial papaverine by IR."
+        },
+        {
+          "group": "Treatment",
+          "text": "Bowel necrosis or perforation: emergency exploratory laparotomy — surgery consult STAT."
+        },
+        {
+          "group": "Treatment",
+          "text": "Broad-spectrum antibiotics (gram-negative and anaerobic coverage) if bowel necrosis suspected."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Serial lactate and abdominal exams — clinical deterioration mandates urgent surgical re-evaluation."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "ICU admission. Address underlying cardiac cause (AFib rate control, anticoagulation)."
+        }
       ]
     },
     {
@@ -676,8 +943,8 @@
             "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
             "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
             "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
-            "Start O2 now: NRB 15 L/min if in distress",
-            "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+            "-Start O2 now: NRB 15 L/min if in distress",
+            "-Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
             "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
             "Put on cardiac monitor"
           ]
@@ -924,6 +1191,52 @@
             "Treat the underlying cause — pain control is adjunctive, not definitive"
           ]
         }
+      ],
+      "checklist": [
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Assess hemodynamic stability: hypotension + abdominal pain = emergency (AAA rupture, perforated viscus, mesenteric ischemia, ectopic pregnancy)."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "IV access × 2. Cardiac monitor and SpO₂ if unstable."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "NPO if surgical emergency possible — do NOT give PO before surgical eval."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Pain management: opioids do NOT mask surgical findings — provide appropriate analgesia."
+        },
+        {
+          "group": "Workup",
+          "text": "Focused history: onset, character (colicky vs constant), location, radiation, associated symptoms (fever, vomiting, melena, BRBPR, dysuria), LMP, prior surgeries."
+        },
+        {
+          "group": "Workup",
+          "text": "Physical exam: peritoneal signs (rebound, guarding, rigidity) → emergent surgical eval. Pulsatile mass → AAA."
+        },
+        {
+          "group": "Workup",
+          "text": "Labs: CBC, BMP, LFTs, lipase, lactate, UA, urine hCG (all females of childbearing age), blood cultures if febrile."
+        },
+        {
+          "group": "Workup",
+          "text": "CT abdomen/pelvis with contrast (preferred) — evaluate for surgical abdomen, obstruction, abscess, ischemia."
+        },
+        {
+          "group": "Workup",
+          "text": "RUQ ultrasound if cholecystitis suspected. Pelvic ultrasound if ectopic pregnancy possible."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Early surgery consult for: peritoneal signs, free air on imaging, obstruction, ischemia, or hemodynamic instability."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Monitor serial abdominal exams — worsening exam warrants urgent reassessment."
+        }
       ]
     },
     {
@@ -937,8 +1250,8 @@
             "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
             "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
             "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
-            "Start O2 now: NRB 15 L/min if in distress",
-            "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+            "-Start O2 now: NRB 15 L/min if in distress",
+            "-Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
             "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
             "Put on cardiac monitor"
           ]
@@ -1027,6 +1340,52 @@
             }
           ]
         }
+      ],
+      "checklist": [
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Assess volume status: orthostatic hypotension, tachycardia, poor skin turgor — indicate significant dehydration."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "IV access. Start IV fluid resuscitation (LR or NS) if unable to tolerate PO."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Check fingerstick glucose — hypoglycemia can cause nausea/vomiting, and prolonged vomiting causes hypoglycemia."
+        },
+        {
+          "group": "Workup",
+          "text": "History: onset, duration, associated fever/pain/diarrhea, medications (opioids, antibiotics, chemo, digoxin), recent illness, LMP."
+        },
+        {
+          "group": "Workup",
+          "text": "Labs: BMP (hypokalemia, alkalosis from vomiting), glucose, CBC, LFTs, lipase, creatinine, urine hCG if applicable."
+        },
+        {
+          "group": "Workup",
+          "text": "KUB or CT abdomen if obstruction, ileus, or surgical cause suspected."
+        },
+        {
+          "group": "Treatment",
+          "text": "Antiemetics: ondansetron 4–8 mg IV/PO (first-line, minimal sedation); metoclopramide 10 mg IV (also prokinetic); prochlorperazine 5–10 mg IV (second-line)."
+        },
+        {
+          "group": "Treatment",
+          "text": "Correct electrolytes: hypokalemia from vomiting requires IV KCl replacement."
+        },
+        {
+          "group": "Treatment",
+          "text": "If obstruction: NPO, NG tube decompression, surgery consult."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Treat underlying cause: gastroenteritis, gastroparesis, medication side effect, obstruction, appendicitis, pancreatitis, hepatitis."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Advance to PO liquids once vomiting controlled — clear liquids first, then advance as tolerated."
+        }
       ]
     },
     {
@@ -1040,11 +1399,65 @@
             "Airway: airway patent? Look, listen; suction if secretions/blood; jaw thrust if obstructed; call for airway help early",
             "-If Pt looks terrible, can't protect airway: call ICU + anesthesia, then get ready to intubate",
             "Breathing: RR, SpO2(good pleth?), WOB, accessory muscle use, paradoxical breathing, speaking in full sentences?",
-            "Start O2 now: NRB 15 L/min if in distress",
-            "Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
+            "-Start O2 now: NRB 15 L/min if in distress",
+            "-Rapid O2 escalation if NRB insufficient: HFNC (up to 60 L/min, FiO2 up to 100%) → NIPPV → intubation",
             "Circulation: HR, BP, perfusion; ↓BP, then tension PTX, PE, or cardiogenic shock",
             "Put on cardiac monitor"
           ]
+        }
+      ],
+      "checklist": [
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Active hematemesis: assess airway FIRST — large-volume bleeding can cause aspiration and respiratory failure; intubate early if needed."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Place on cardiac monitor and continuous SpO₂."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Large-bore IV access × 2 (16g or larger). Start volume resuscitation with 1 L LR or NS."
+        },
+        {
+          "group": "Immediate / Stabilize",
+          "text": "Type & crossmatch. Activate MTP if hemodynamically unstable."
+        },
+        {
+          "group": "Workup",
+          "text": "Stat labs: CBC, BMP, LFTs, coags (INR, PTT, fibrinogen), lactate, type & screen."
+        },
+        {
+          "group": "Workup",
+          "text": "Assess for varices: stigmata of liver disease (spider angiomata, jaundice, ascites, palmar erythema), alcohol history."
+        },
+        {
+          "group": "Treatment",
+          "text": "IV PPI: pantoprazole 80 mg IV bolus → 8 mg/hr infusion."
+        },
+        {
+          "group": "Treatment",
+          "text": "If varices suspected: octreotide 50 mcg IV bolus → 50 mcg/hr infusion + ceftriaxone 1 g IV q24h."
+        },
+        {
+          "group": "Treatment",
+          "text": "Urgent GI consult for EGD — target within 12–24h after stabilization (immediately if uncontrolled bleeding)."
+        },
+        {
+          "group": "Treatment",
+          "text": "Reverse anticoagulation if applicable (vitamin K, PCC, or direct reversal agents)."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "ICU or step-down for hemodynamically unstable or active bleeding."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Serial Hgb q6h while actively bleeding. Transfuse pRBCs for Hgb <7 (or <8 in CAD/hemodynamic instability)."
+        },
+        {
+          "group": "Ongoing Care",
+          "text": "Surgery and IR on standby if endoscopic hemostasis fails."
         }
       ]
     }
